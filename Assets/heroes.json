@@ -1,0 +1,1270 @@
+[
+  {
+    "id": [ 454, 455, 456, 457, 458 ],
+    "used_by_heroes": "npc_dota_hero_abaddon",
+    "name": "Abaddon",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ 
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Abaddon/endless_night.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Abaddon/endless_night.png"
+      ]
+    }
+  },
+  {
+    "id": [ 117, 118, 119, 120, 121, 122, 123, 124, 125 ],
+    "used_by_heroes": "npc_dota_hero_alchemist",
+    "name": "Alchemist",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 3": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [ 172, 648, 649, 652 ],
+    "used_by_heroes": "npc_dota_hero_ancient_apparition",
+    "name": "Ancient Apparition",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 3": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [ 1, 215, 216, 217, 218, 335, 563 ],
+    "used_by_heroes": "npc_dota_hero_antimage",
+    "name": "Anti-Mage",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 3": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [ 556, 557, 598, 656 ],
+    "used_by_heroes": "npc_dota_hero_arc_warden",
+    "name": "Arc Warden",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 3": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [2,3,4,5],
+    "used_by_heroes": "npc_dota_hero_axe",
+    "name": "Axe",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [612,613,614,615],
+    "used_by_heroes": "npc_dota_hero_bane",
+    "name": "Bane",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [375,376,377,378],
+    "used_by_heroes": "npc_dota_hero_batrider",
+    "name": "Batrider",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [313,314,315,316,317,8633,8634],
+    "used_by_heroes": "npc_dota_hero_beastmaster",
+    "name": "Beastmaster",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [69,70,71,72,73,74,257],
+    "used_by_heroes": "npc_dota_hero_bloodseeker",
+    "name": "Bloodseeker",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [50,51,52,53,54,55,564],
+    "used_by_heroes": "npc_dota_hero_bounty_hunter",
+    "name": "Bounty Hunter",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [158,159,160,161,162,632],
+    "used_by_heroes": "npc_dota_hero_brewmaster",
+    "name": "Brewmaster",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [436,437,438,439,440,8366],
+    "used_by_heroes": "npc_dota_hero_bristleback",
+    "name": "Bristleback",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [101,102,103,565,566,8631],
+    "used_by_heroes": "npc_dota_hero_broodmother",
+    "name": "Broodmother",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [358,359,360,361,362,363,364,8366],
+    "used_by_heroes": "npc_dota_hero_centaur",
+    "name": "Centaur Warrunner",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [181,183,184,185,186],
+    "used_by_heroes": "npc_dota_hero_chaos_knight",
+    "name": "Chaos Knight",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [220,221,222,223,224,567],
+    "used_by_heroes": "npc_dota_hero_chen",
+    "name": "Chen",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [56,57,58,59,60,61,685],
+    "used_by_heroes": "npc_dota_hero_clinkz",
+    "name": "Clinkz",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [231,446,484,485,8635],
+    "used_by_heroes": "npc_dota_hero_rattletrap",
+    "name": "Clockwerk",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [38,39,400,41,311],
+    "used_by_heroes": "npc_dota_hero_crystal_maiden",
+    "name": "Crystal Maiden",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [348,349,350,351,352],
+    "used_by_heroes": "npc_dota_hero_dark_seer",
+    "name": "Dark Seer",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [640,641,642,646,651],
+    "used_by_heroes": "npc_dota_hero_dark_willow",
+    "name": "Dark Willow",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [755.756,757,758],
+    "used_by_heroes": "npc_dota_hero_dawnbreaker",
+    "name": "Dawnbreaker",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [263,264,265,266,468],
+    "used_by_heroes": "npc_dota_hero_dazzle",
+    "name": "Dazzle",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [168,169,170,171,568,569,8651],
+    "used_by_heroes": "npc_dota_hero_death_prophet",
+    "name": "Death Prophet",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [142,143,144,145,146,147],
+    "used_by_heroes": "npc_dota_hero_disruptor",
+    "name": "Disruptor",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [232,233,234,235,236,237,238],
+    "used_by_heroes": "npc_dota_hero_doom_bringer",
+    "name": "Doom",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [63,64,66,67,68,8647],
+    "used_by_heroes": "npc_dota_hero_dragon_knight",
+    "name": "Dragon Knight",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [75,76,77,78,79,80,267],
+    "used_by_heroes": "npc_dota_hero_drow_ranger",
+    "name": "Drow Ranger",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [475,477,479,480,481,482,8654],
+    "used_by_heroes": "npc_dota_hero_earth_spirit",
+    "name": "Earth Spirit",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [459,460,461,8366,8655],
+    "used_by_heroes": "npc_dota_hero_earthshaker",
+    "name": "Earthshaker",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [426,427,428,429,430],
+    "used_by_heroes": "npc_dota_hero_elder_titan",
+    "name": "Elder Titan",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [462,469,471,472,473,474],
+    "used_by_heroes": "npc_dota_hero_ember_spirit",
+    "name": "Ember Spirit",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [286,287,288,289,290],
+    "used_by_heroes": "npc_dota_hero_enchantress",
+    "name": "Enchantress",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [559,628,629,8537],
+    "used_by_heroes": "npc_dota_hero_enigma",
+    "name": "Enigma",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [15,90,91,92,93],
+    "used_by_heroes": "npc_dota_hero_faceless_void",
+    "name": "Faceless Void",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [664,666,667,668],
+    "used_by_heroes": "npc_dota_hero_grimstroke",
+    "name": "Grimstroke",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [126,131,176,177,178,179,822],
+    "used_by_heroes": "npc_dota_hero_gyrocopter",
+    "name": "Gyrocopter",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [749,750,751,752],
+    "used_by_heroes": "npc_dota_hero_hoodwink",
+    "name": "Hoodwink",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [268,269,270,271,272],
+    "used_by_heroes": "npc_dota_hero_huskar",
+    "name": "Huskar",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [48,89,98,99,100,305,8626],
+    "used_by_heroes": "npc_dota_hero_invoker",
+    "name": "Invoker",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [639],
+    "used_by_heroes": "npc_dota_hero_wisp",
+    "name": "Io",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [633,634,635,636],
+    "used_by_heroes": "npc_dota_hero_jakiro",
+    "name": "Jakiro",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [6,7,8,9,62,560,610,811,8366],
+    "used_by_heroes": "npc_dota_hero_juggernaut",
+    "name": "Juggernaut",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [252,253,254,255,256],
+    "used_by_heroes": "npc_dota_hero_keeper_of_the_light",
+    "name": "Keeper of the Light",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [818,819,820,821,829],
+    "used_by_heroes": "npc_dota_hero_kez",
+    "name": "Kez",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [100,11,12,14,81,357,8656,8657],
+    "used_by_heroes": "npc_dota_hero_kunkka",
+    "name": "Kunkka",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [431,432,433,434,435,662,8366],
+    "used_by_heroes": "npc_dota_hero_legion_commander",
+    "name": "Legion Commander",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [345,346,347,570,591],
+    "used_by_heroes": "npc_dota_hero_leshrac",
+    "name": "Leshrac",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [331,332,333,334,571],
+    "used_by_heroes": "npc_dota_hero_lich",
+    "name": "Lich",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [443,444,8658,8659],
+    "used_by_heroes": "npc_dota_hero_life_stealer",
+    "name": "Lifestealer",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [318,319,320,321],
+    "used_by_heroes": "npc_dota_hero_lina",
+    "name": "Lina",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [365,366,368,369,572],
+    "used_by_heroes": "npc_dota_hero_lion",
+    "name": "Lion",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [107,108,109,110,219,8368,8648],
+    "used_by_heroes": "npc_dota_hero_lone_druid",
+    "name": "Lone Druid",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [448,449,4500,451,452,453],
+    "used_by_heroes": "npc_dota_hero_luna",
+    "name": "Luna",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [206,207,208,210,8369,8649,8660],
+    "used_by_heroes": "npc_dota_hero_lycan",
+    "name": "Lycan",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [326,327,328,329,330],
+    "used_by_heroes": "npc_dota_hero_magnataur",
+    "name": "Magnus",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [777,778,779,780,8366],
+    "used_by_heroes": "npc_dota_hero_marci",
+    "name": "Marci",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [658,670,671,672,673],
+    "used_by_heroes": "npc_dota_hero_mars",
+    "name": "Mars",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [381,382,383,384,385],
+    "used_by_heroes": "npc_dota_hero_medusa",
+    "name": "Medusa",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [104,296,297,298,299,300],
+    "used_by_heroes": "npc_dota_hero_meepo",
+    "name": "Meepo",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [403,404,405,406,407,408,409],
+    "used_by_heroes": "npc_dota_hero_mirana",
+    "name": "Mirana",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [594,608,609,657],
+    "used_by_heroes": "npc_dota_hero_monkey_king",
+    "name": "Monkey King",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [573,574,575,576,577],
+    "used_by_heroes": "npc_dota_hero_morphling",
+    "name": "Morphling",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [804,806,807,808,809],
+    "used_by_heroes": "npc_dota_hero_muerta",
+    "name": "Muerta",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [191,192,193,194,312],
+    "used_by_heroes": "npc_dota_hero_naga_siren",
+    "name": "Naga Siren",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [29,30,31,32,33,49,8364],
+    "used_by_heroes": "npc_dota_hero_furion",
+    "name": "Nature\u0027s Prophet",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [211,212,213,214,659],
+    "used_by_heroes": "npc_dota_hero_necrolyte",
+    "name": "Necrophos",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [337,338,339,8661,8662],
+    "used_by_heroes": "npc_dota_hero_night_stalker",
+    "name": "Night Stalker",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [195,196,197,578],
+    "used_by_heroes": "npc_dota_hero_nyx_assassin",
+    "name": "Nyx Assassin",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [105,133,134,135,136,698],
+    "used_by_heroes": "npc_dota_hero_ogre_magi",
+    "name": "Ogre Magi",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [13,42,43,44,45,46,562],
+    "used_by_heroes": "npc_dota_hero_omniknight",
+    "name": "Omniknight",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [546,547,548,549],
+    "used_by_heroes": "npc_dota_hero_oracle",
+    "name": "Oracle",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [187,188,189,190,226],
+    "used_by_heroes": "npc_dota_hero_obsidian_destroyer",
+    "name": "Outworld Destroyer",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [643,644,645,650],
+    "used_by_heroes": "npc_dota_hero_pangolier",
+    "name": "Pangolier",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [137,138,139,140,141],
+    "used_by_heroes": "npc_dota_hero_phantom_assassin",
+    "name": "Phantom Assassin",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [127,128,129,130,132,637],
+    "used_by_heroes": "npc_dota_hero_phantom_lancer",
+    "name": "Phantom Lancer",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [592,629,627],
+    "used_by_heroes": "npc_dota_hero_phoenix",
+    "name": "Phoenix",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [769,770,771,772],
+    "used_by_heroes": "npc_dota_hero_primal_beast",
+    "name": "Primal Beast",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [370,371,372],
+    "used_by_heroes": "npc_dota_hero_puck",
+    "name": "Puck",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [47,258,259,260,261,262,470],
+    "used_by_heroes": "npc_dota_hero_pudge",
+    "name": "Pudge",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [153,154,155,156,157,167,8628],
+    "used_by_heroes": "npc_dota_hero_pugna",
+    "name": "Pugna",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [26,82,83,84,781],
+    "used_by_heroes": "npc_dota_hero_queenofpain",
+    "name": "Queen of Pain",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [340,341,342,343,344],
+    "used_by_heroes": "npc_dota_hero_razor",
+    "name": "Razor",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [163,164,165,166,322,561,8366],
+    "used_by_heroes": "npc_dota_hero_riki",
+    "name": "Riki",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [812,813,814,815],
+    "used_by_heroes": "npc_dota_hero_ringmaster",
+    "name": "Ringmaster",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [203,204,205,419,674],
+    "used_by_heroes": "npc_dota_hero_rubick",
+    "name": "Rubick",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [180,198,199,200,201],
+    "used_by_heroes": "npc_dota_hero_sand_king",
+    "name": "Sand King",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [396,397,398,399],
+    "used_by_heroes": "npc_dota_hero_shadow_demon",
+    "name": "Shadow Demon",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [389,486,488],
+    "used_by_heroes": "npc_dota_hero_nevermore",
+    "name": "Shadow Fiend",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [246,247,248,249,250,251,8370],
+    "used_by_heroes": "npc_dota_hero_shadow_shaman",
+    "name": "Shadow Shaman",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [27,28,301,302,303,304],
+    "used_by_heroes": "npc_dota_hero_silencer",
+    "name": "Silencer",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [420,421,422,423,424,425],
+    "used_by_heroes": "npc_dota_hero_skywrath_mage",
+    "name": "Skywrath Mage",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [273,274,275,276],
+    "used_by_heroes": "npc_dota_hero_slardar",
+    "name": "Slardar",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [336,353,354,355,356,8366],
+    "used_by_heroes": "npc_dota_hero_slark",
+    "name": "Slark",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [691,693,694,695],
+    "used_by_heroes": "npc_dota_hero_snapfire",
+    "name": "Snapfire",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [281,282,283,284,285],
+    "used_by_heroes": "npc_dota_hero_sniper",
+    "name": "Sniper",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [323,324,325,395,579,580],
+    "used_by_heroes": "npc_dota_hero_spectre",
+    "name": "Spectre",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [106,111,112,113,114,115,116],
+    "used_by_heroes": "npc_dota_hero_spirit_breaker",
+    "name": "Spirit Breaker",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [308,309,310],
+    "used_by_heroes": "npc_dota_hero_storm_spirit",
+    "name": "Storm Spirit",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [16,17,18,19,20,581,8366],
+    "used_by_heroes": "npc_dota_hero_sven",
+    "name": "Sven",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [394,487,489,490,491,492,499],
+    "used_by_heroes": "npc_dota_hero_techies",
+    "name": "Techies",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [173,174,175,603],
+    "used_by_heroes": "npc_dota_hero_templar_assassin",
+    "name": "Templar Assassin",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [306,307,476,478,8650],
+    "used_by_heroes": "npc_dota_hero_terrorblade",
+    "name": "Terrorblade",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [34,35,36,37,582,583],
+    "used_by_heroes": "npc_dota_hero_tidehunter",
+    "name": "Tidehunter",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [386,388,389,390,400,401,402],
+    "used_by_heroes": "npc_dota_hero_shredder",
+    "name": "Timbersaw",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [367,463,464,465,466,467,618],
+    "used_by_heroes": "npc_dota_hero_tinker",
+    "name": "Tinker",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [497,679,680,681,682],
+    "used_by_heroes": "npc_dota_hero_tiny",
+    "name": "Tiny",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [227,228,229,230],
+    "used_by_heroes": "npc_dota_hero_treant",
+    "name": "Treant Protector",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [373,374,379,380,410,411,412],
+    "used_by_heroes": "npc_dota_hero_troll_warlord",
+    "name": "Troll Warlord",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [413,414,415,416,417,418,8639],
+    "used_by_heroes": "npc_dota_hero_tusk",
+    "name": "Tusk",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [619,620,621,622],
+    "used_by_heroes": "npc_dota_hero_abyssal_underlord",
+    "name": "Underlord",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [392,393,554,616,8629],
+    "used_by_heroes": "npc_dota_hero_undying",
+    "name": "Undying",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [85,86,87,88,584],
+    "used_by_heroes": "npc_dota_hero_ursa",
+    "name": "Ursa",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [441,442,445,447],
+    "used_by_heroes": "npc_dota_hero_vengefulspirit",
+    "name": "Vengeful Spirit",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [291,292,293,294,295],
+    "used_by_heroes": "npc_dota_hero_venomancer",
+    "name": "Venomancer",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [611,623,654],
+    "used_by_heroes": "npc_dota_hero_viper",
+    "name": "Viper",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [599,624,625],
+    "used_by_heroes": "npc_dota_hero_visage",
+    "name": "Visage",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [686,687,688,689],
+    "used_by_heroes": "npc_dota_hero_void_spirit",
+    "name": "Void Spirit",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [182,239,240,241,242,243,244,245],
+    "used_by_heroes": "npc_dota_hero_warlock",
+    "name": "Warlock",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [277,278,279,280,585],
+    "used_by_heroes": "npc_dota_hero_weaver",
+    "name": "Weaver",
+    "prefab": "default_item",
+    "primary_attr": "agility",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [21,22,23,24,25,828],
+    "used_by_heroes": "npc_dota_hero_windrunner",
+    "name": "Windranger",
+    "prefab": "default_item",
+    "primary_attr": "universal",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [551,552],
+    "used_by_heroes": "npc_dota_hero_winter_wyvern",
+    "name": "Winter Wyvern",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [94,95,96,97,558,8367],
+    "used_by_heroes": "npc_dota_hero_witch_doctor",
+    "name": "Witch Doctor",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [148,149,150,151,152,483,500],
+    "used_by_heroes": "npc_dota_hero_skeleton_king",
+    "name": "Wraith King",
+    "prefab": "default_item",
+    "primary_attr": "strength",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  },
+  {
+    "id": [589,593,604,606,607],
+    "used_by_heroes": "npc_dota_hero_zuus",
+    "name": "Zeus",
+    "prefab": "default_item",
+    "primary_attr": "intelligence",
+    "sets": {
+      "Default Set": [ "default_skin.vpk" ]
+    }
+  }
+]
