@@ -21,7 +21,6 @@
     "primary_attr": "strength",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 3": [ "default_skin.vpk" ]
     }
   },
   {
@@ -32,7 +31,6 @@
     "primary_attr": "intelligence",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 3": [ "default_skin.vpk" ]
     }
   },
   {
@@ -43,7 +41,6 @@
     "primary_attr": "agility",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 3": [ "default_skin.vpk" ]
     }
   },
   {
@@ -54,7 +51,6 @@
     "primary_attr": "universal",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 3": [ "default_skin.vpk" ]
     }
   },
   {
@@ -1267,4 +1263,5 @@
       "Default Set": [ "default_skin.vpk" ]
     }
   }
+
 ]
