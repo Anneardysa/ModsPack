@@ -83,7 +83,7 @@
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
       "Set 1": [ 
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Abaddon/endless_night.zip"]
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Bane/slumbering_terror.zip"]
     }
   },
   {
@@ -95,7 +95,7 @@
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
       "Set 1": [ 
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Abaddon/endless_night.zip"]
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Batrider/firefly_ember.zip"]
     }
   },
   {
@@ -105,7 +105,9 @@
     "prefab": "default_item",
     "primary_attr": "universal",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ 
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Beastmaster/mh_bone.zip"]
     }
   },
   {
@@ -1280,4 +1282,5 @@
   }
 
 ]
+
 
