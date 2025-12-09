@@ -21,6 +21,7 @@
     "primary_attr": "strength",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
+      
     }
   },
   {
@@ -31,6 +32,8 @@
     "primary_attr": "intelligence",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ 
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ancient_Apparition/Shatterblast.zip"]
     }
   },
   {
@@ -41,6 +44,10 @@
     "primary_attr": "agility",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ 
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Anti-Mage/Survivor.zip"],
+      "Set 2": [ 
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Anti-Mage/Survivor_Persona.zip"]
     }
   },
   {
@@ -51,6 +58,8 @@
     "primary_attr": "universal",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ 
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Arc_Warden/wicked_space_knight.zip"]
     }
   },
   {
@@ -60,7 +69,9 @@
     "prefab": "default_item",
     "primary_attr": "strength",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ 
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Axe/Fists_of_Axe_Unleashed.zip"]
     }
   },
   {
@@ -70,7 +81,9 @@
     "prefab": "default_item",
     "primary_attr": "universal",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ 
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Abaddon/endless_night.zip"]
     }
   },
   {
@@ -80,7 +93,9 @@
     "prefab": "default_item",
     "primary_attr": "universal",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ 
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Abaddon/endless_night.zip"]
     }
   },
   {
@@ -1265,3 +1280,4 @@
   }
 
 ]
+
