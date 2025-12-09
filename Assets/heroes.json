@@ -32,8 +32,7 @@
     "primary_attr": "intelligence",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ 
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ancient_Apparition/Shatterblast.zip"]
+      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ancient_Apparition/Shatterblast.zip"]
     }
   },
   {
@@ -1282,6 +1281,7 @@
   }
 
 ]
+
 
 
 
