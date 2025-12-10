@@ -29,7 +29,7 @@
     "primary_attr": "intelligence",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ancient_Apparitions/shatterblast.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Ancient_Apparitions/shatterblast.jpg"]
+      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ancient_Apparitions/shatterblast.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Ancient_Apparitions/shatterblast.jpg"]
     }
   },
   {
@@ -40,8 +40,8 @@
     "primary_attr": "agility",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Anti-Mage/Survivor.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Anti-Mage/Survivor.jpg"],
-      "Set 2": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Anti-Mage/Survivor_Persona.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Anti-Mage/Survivor_Persona.jpg"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Anti-Mage/Survivor.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Anti-Mage/Survivor.jpg"],
+      "Set 2": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Anti-Mage/Survivor_Persona.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Anti-Mage/Survivor_Persona.jpg"]
     }
   },
   {
@@ -52,7 +52,7 @@
     "primary_attr": "universal",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Arc_Warden/wicked_space_knight.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Arc_Warden/wicked_space_knight.jpg"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Arc_Warden/wicked_space_knight.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Arc_Warden/wicked_space_knight.jpg"]
     }
   },
   {
@@ -63,7 +63,7 @@
     "primary_attr": "strength",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Axe/Fists_of_Axe_Unleashed.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Axe/Fists_of_Axe_Unleashed.jpg"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Axe/Fists_of_Axe_Unleashed.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Axe/Fists_of_Axe_Unleashed.jpg"]
     }
   },
   {
@@ -74,7 +74,7 @@
     "primary_attr": "universal",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Bane/slumbering_terror.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Bane/slumbering_terror.jpg"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Bane/slumbering_terror.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Bane/slumbering_terror.jpg"]
     }
   },
   {
@@ -85,7 +85,7 @@
     "primary_attr": "universal",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Batrider/firefly_ember.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Batrider/firefly_ember.jpg"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Batrider/firefly_ember.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Batrider/firefly_ember.jpg"]
     }
   },
   {
@@ -96,7 +96,7 @@
     "primary_attr": "universal",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Beastmaster/mh_bone.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Beastmaster/mh_bone.jpg"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Beastmaster/mh_bone.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Beastmaster/mh_bone.jpg"]
     }
   },
   {
@@ -1271,6 +1271,7 @@
   }
 
 ]
+
 
 
 
