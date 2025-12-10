@@ -29,7 +29,7 @@
     "primary_attr": "intelligence",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ancient_Apparitions/shatterblast.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Ancient_Apparitions/shatterblast.jpg"]
+      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ancient_Apparitions/shatterblast.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Ancient_Apparition/shatterblast.jpg"]
     }
   },
   {
@@ -63,7 +63,7 @@
     "primary_attr": "strength",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Axe/Fists_of_Axe_Unleashed.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Axe/Fists_of_Axe_Unleashed.jpg"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Axe/Fists_of_Axe_Unleashed.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Axe/Fist_of_Axe_Unleashed.jpg"]
     }
   },
   {
@@ -1271,6 +1271,7 @@
   }
 
 ]
+
 
 
 
