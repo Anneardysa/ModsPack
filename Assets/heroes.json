@@ -29,7 +29,7 @@
     "primary_attr": "intelligence",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ancient_Apparitions/shatterblast.zip"]
+      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ancient_Apparitions/shatterblast.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Ancient_Apparitions/shatterblast.zip"]
     }
   },
   {
@@ -40,8 +40,8 @@
     "primary_attr": "agility",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Anti-Mage/Survivor.zip"],
-      "Set 2": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Anti-Mage/Survivor_Persona.zip"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Anti-Mage/Survivor.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Anti-Mage/Survivor.zip"],
+      "Set 2": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Anti-Mage/Survivor_Persona.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Anti-Mage/Survivor_Persona.zip"]
     }
   },
   {
@@ -52,7 +52,7 @@
     "primary_attr": "universal",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Arc_Warden/wicked_space_knight.zip"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Arc_Warden/wicked_space_knight.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Arc_Warden/wicked_space_knight.zip"]
     }
   },
   {
@@ -63,7 +63,7 @@
     "primary_attr": "strength",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Axe/Fists_of_Axe_Unleashed.zip"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Axe/Fists_of_Axe_Unleashed.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Axe/Fists_of_Axe_Unleashed.zip"]
     }
   },
   {
@@ -85,7 +85,7 @@
     "primary_attr": "universal",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Batrider/firefly_ember.zip"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Batrider/firefly_ember.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Batrider/firefly_ember.zip"]
     }
   },
   {
@@ -96,7 +96,7 @@
     "primary_attr": "universal",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Beastmaster/mh_bone.zip"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Beastmaster/mh_bone.zip", "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Beastmaster/mh_bone.zip"]
     }
   },
   {
@@ -1271,6 +1271,7 @@
   }
 
 ]
+
 
 
 
