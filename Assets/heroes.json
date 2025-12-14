@@ -421,7 +421,9 @@
     "prefab": "default_item",
     "primary_attr": "intelligence",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Invoker/darkartistry_immo.zip"],
+      "Set 2": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Invoker/darkartistry_persona.zip"]
     }
   },
   {
@@ -492,7 +494,8 @@
     "prefab": "default_item",
     "primary_attr": "strength",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Legion_Commander/soth_domosh_v1.zip"]
     }
   },
   {
@@ -642,7 +645,8 @@
     "prefab": "default_item",
     "primary_attr": "agility",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Monkey_King/great_sages_trickster.zip"]
     }
   },
   {
@@ -772,7 +776,8 @@
     "prefab": "default_item",
     "primary_attr": "agility",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Phantom_Assassin/manifold_immo.zip"]
     }
   },
   {
@@ -822,7 +827,9 @@
     "prefab": "default_item",
     "primary_attr": "strength",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/arcana_v1.zip"],
+      "Set 2": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/persona_v1.zip"]
     }
   },
   {
@@ -853,7 +860,8 @@
     "prefab": "default_item",
     "primary_attr": "agility",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Razor/asylum.zip"]
     }
   },
   {
@@ -883,7 +891,8 @@
     "prefab": "default_item",
     "primary_attr": "intelligence",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Rubick/cypher_immo.zip"]
     }
   },
   {
@@ -907,13 +916,14 @@
     }
   },
   {
-    "id": [389,486,488],
+    "id": [387,486,488],
     "used_by_heroes": "npc_dota_hero_nevermore",
     "name": "Shadow Fiend",
     "prefab": "default_item",
     "primary_attr": "agility",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Shadow_Fiend/demon_eater_v1.zip"]
     }
   },
   {
@@ -943,7 +953,9 @@
     "prefab": "default_item",
     "primary_attr": "intelligence",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Skywrath_Mage/dragonus_v1.zip"],
+      "Set 2": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Skywrath_Mage/dragonus_v2.zip"]
     }
   },
   {
@@ -993,7 +1005,9 @@
     "prefab": "default_item",
     "primary_attr": "universal",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Spectre/phantom_advent_v1.zip"],
+      "Set 2": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Spectre/phantom_advent_v2.zip"]
     }
   },
   {
@@ -1163,7 +1177,8 @@
     "prefab": "default_item",
     "primary_attr": "agility",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Vengeful_Spirit/the_ressurection_v1.zip"]
     }
   },
   {
@@ -1233,7 +1248,8 @@
     "prefab": "default_item",
     "primary_attr": "universal",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Windranger/rising_gale_v1.zip"]
     }
   },
   {
@@ -1263,7 +1279,9 @@
     "prefab": "default_item",
     "primary_attr": "strength",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ]
+      "Default Set": [ "default_skin.vpk" ],
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Wraith_King/true_king_v1.zip"],
+      "Set 2": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Wraith_King/true_king_v2.zip"]
     }
   },
   {
