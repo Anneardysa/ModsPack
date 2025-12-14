@@ -317,7 +317,8 @@
     "primary_attr": "strength",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Earthshaker/planetfall.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/image/Ancient_Apparition/shatterblast.jpg"]
+      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Earthshaker/planetfall.zip"],
+            "Set 2": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Earthshaker/planetfall_burning_descent.zip"]
     }
   },
   {
@@ -1272,6 +1273,7 @@
   }
 
 ]
+
 
 
 
