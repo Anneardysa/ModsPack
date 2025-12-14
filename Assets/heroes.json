@@ -17,8 +17,7 @@
     "prefab": "default_item",
     "primary_attr": "strength",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ],
-      
+      "Default Set": [ "default_skin.vpk" ]      
     }
   },
   {
@@ -297,7 +296,7 @@
     "primary_attr": "agility",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://github.com/Anneardysa/ModsPack/blob/main/Assets/models/Drow_Ranger/dread_retribution.zip" ]
+      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Drow_Ranger/dread_retribution.zip"]
     }
   },
   {
@@ -1274,8 +1273,6 @@
   }
 
 ]
-
-
 
 
 
