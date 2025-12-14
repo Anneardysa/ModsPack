@@ -297,6 +297,7 @@
     "primary_attr": "agility",
     "sets": {
       "Default Set": [ "default_skin.vpk" ]
+      "Set 1": [ "https://github.com/Anneardysa/ModsPack/blob/main/Assets/models/Drow_Ranger/dread_retribution.zip" ]
     }
   },
   {
@@ -1273,6 +1274,7 @@
   }
 
 ]
+
 
 
 
