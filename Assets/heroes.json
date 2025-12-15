@@ -206,7 +206,7 @@
     "primary_attr": "intelligence",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1":[ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Crystal_Maiden/frost_avalanche_immo.zip" ]
+      "Set 1":[ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Crystal_Maiden/frost_avalanche_immo.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/jpg/Crystal_Maiden/frost_avalanche_immo.zip" ]
     }
   },
   {
@@ -297,8 +297,8 @@
     "primary_attr": "agility",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Drow_Ranger/dread_retribution.zip"],
-      "Set 2": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Drow_Ranger/dread_retribution_maskofmadness.zip"]
+      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Drow_Ranger/dread_retribution.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Drow_Ranger/dread_retribution.jpg"],
+      "Set 2": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Drow_Ranger/dread_retribution_maskofmadness.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Drow_Ranger/dread_retribution.jpg"]
     }
   },
   {
@@ -319,8 +319,8 @@
     "primary_attr": "strength",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Earthshaker/planetfall.zip"],
-            "Set 2": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Earthshaker/planetfall_burning_descent.zip"]
+      "Set 1": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Earthshaker/planetfall.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Earthshaker/planetfall.jpg"],
+            "Set 2": ["https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Earthshaker/planetfall_burning_descent.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Earthshaker/planetfall.jpg"]
     }
   },
   {
@@ -371,7 +371,7 @@
     "primary_attr": "agility",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Faceless_Void/supermacy_v3.zip" ]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Faceless_Void/supermacy_v3.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Faceless_Void/supermacy_v3.jpg" ]
     }
   },
   {
