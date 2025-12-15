@@ -495,7 +495,7 @@
     "primary_attr": "strength",
     "sets": {
       "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Legion_Commander/soth_domosh_v1.zip"]
+      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Legion_Commander/voth_domosh_v1.zip"]
     }
   },
   {
