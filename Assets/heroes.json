@@ -230,7 +230,7 @@
     }
   },
   {
-    "id": [755.756,757,758],
+    "id": [755,756,757,758],
     "used_by_heroes": "npc_dota_hero_dawnbreaker",
     "name": "Dawnbreaker",
     "prefab": "default_item",
@@ -354,7 +354,7 @@
     }
   },
   {
-    "id": [559,628,629,8537],
+    "id": [559,628,629,8637],
     "used_by_heroes": "npc_dota_hero_enigma",
     "name": "Enigma",
     "prefab": "default_item",
@@ -478,7 +478,7 @@
     }
   },
   {
-    "id": [100,11,12,14,81,357,8656,8657],
+    "id": [10,11,12,14,81,357,8656,8657],
     "used_by_heroes": "npc_dota_hero_kunkka",
     "name": "Kunkka",
     "prefab": "default_item",
@@ -559,7 +559,7 @@
     }
   },
   {
-    "id": [448,449,4500,451,452,453],
+    "id": [448,449,450,451,452,453],
     "used_by_heroes": "npc_dota_hero_luna",
     "name": "Luna",
     "prefab": "default_item",
@@ -639,7 +639,7 @@
     }
   },
   {
-    "id": [594,608,609,657],
+    "id": [594,608,609,657,825],
     "used_by_heroes": "npc_dota_hero_monkey_king",
     "name": "Monkey King",
     "prefab": "default_item",
@@ -791,7 +791,7 @@
     }
   },
   {
-    "id": [592,629,627],
+    "id": [592,626,627],
     "used_by_heroes": "npc_dota_hero_phoenix",
     "name": "Phoenix",
     "prefab": "default_item",
@@ -916,7 +916,7 @@
     }
   },
   {
-    "id": [387,486,488],
+    "id": [387,486,488,826],
     "used_by_heroes": "npc_dota_hero_nevermore",
     "name": "Shadow Fiend",
     "prefab": "default_item",
