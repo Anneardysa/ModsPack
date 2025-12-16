@@ -645,8 +645,7 @@
     "prefab": "default_item",
     "primary_attr": "agility",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Monkey_King/great_sages_trickster.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Monkey_King/great_sages_trickster.jpg"]
+      "Default Set": [ "default_skin.vpk" ]
     }
   },
   {
@@ -922,8 +921,7 @@
     "prefab": "default_item",
     "primary_attr": "agility",
     "sets": {
-      "Default Set": [ "default_skin.vpk" ],
-      "Set 1": [ "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Shadow_Fiend/demon_eater_v1.zip","https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Shadow_Fiend/demon_eater_v1.jpg"]
+      "Default Set": [ "default_skin.vpk" ]
     }
   },
   {
@@ -1295,3 +1293,4 @@
     }
   }
 ]
+
