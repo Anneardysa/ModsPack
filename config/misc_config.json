@@ -210,6 +210,13 @@
                 {
                     "name": "Diretide",
                     "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Shader/Diretide/materials/dev/deferred_post_process.vmat_c"
+                },
+                {
+                    "name": "10th Anniversary Shader",
+                    "urls": [
+                        "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Shader/10th%20Anniversary%20Shader/materials/dev/deferred_post_process.vmat_c",
+                        "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Shader/10th%20Anniversary%20Shader/materials/dev/fxaa.vmat_c"
+                    ]
                 }
             ]
         },
