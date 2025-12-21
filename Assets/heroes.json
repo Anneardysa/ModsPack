@@ -913,6 +913,9 @@
       "Set 1": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Juggernaut/bladeform_kantusa.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Juggernaut/bladeform_kantusa.jpg"
+      ],
+      "Set 2": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Juggernaut/provocatrion.zip"
       ]
     }
   },
@@ -1284,13 +1287,9 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Monkey_King/great_sages_trickster.zip",
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Monkey_King/great_sages_trickster.jpg"
-      ],
-      "Set 2": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Monkey_King/sovereign.zip"
       ],
-      "Set 3": [
+      "Set 2": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Monkey_King/trickster.zip"
       ]
     }
@@ -1316,6 +1315,9 @@
       ],
       "Set 2": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Morphling/immo.zip"
+      ],
+      "Set 3": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Morphling/fluid_frenzy.zip"
       ]
     }
   },
