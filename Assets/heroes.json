@@ -579,7 +579,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Dragon_Knight/mix_v1.jpg"
       ],
       "Set 2": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Dragon_Knight/persona.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Dragon_Knight/persona.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Dragon_Knight/persona.jpg"
       ],
       "Set 3": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Dragon_Knight/prismatic_rathalos.zip"
@@ -613,10 +614,12 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Drow_Ranger/dread_retribution_maskofmadness.jpg"
       ],
       "Set 3": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Drow_Ranger/arcana_ravencloak.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Drow_Ranger/arcana_ravencloak.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Drow_Ranger/arcana_ravencloak.jpg"
       ],
       "Set 4": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Drow_Ranger/arcana_wandering_isle.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Drow_Ranger/arcana_wandering_isle.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Drow_Ranger/arcana_wandering_isle.jpg"
       ]
     }
   },
@@ -920,9 +923,6 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Juggernaut/bladeform_kantusa.jpg"
       ],
       "Set 2": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Juggernaut/provocatrion.zip"
-      ],
-      "Set 3": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Juggernaut/provocation.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Juggernaut/provocation.jpg"
       ]
@@ -1303,7 +1303,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Monkey_King/sovereign.jpg"
       ],
       "Set 2": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Monkey_King/trickster.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Monkey_King/trickster.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Monkey_King/trickster.jpg"
       ]
     }
   },
@@ -1324,7 +1325,8 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Morphling/darktrench_immo.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Morphling/darktrench_immo.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Morphling/darktrench_immo.jpg"
       ],
       "Set 2": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Morphling/immo.zip"
@@ -1618,7 +1620,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Primal_Beast/behemoth_mix.zip"
       ],
       "Set 3": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Primal_Beast/primal_mix_1.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Primal_Beast/primal_mix_1.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Primal_Beast/primal_mix_1.jpg"
       ]
     }
   },
@@ -1844,7 +1847,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Shadow_Fiend/arcana_soul_tyrant.jpg"
       ],
       "Set 2": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Shadow_Fiend/arcana_sundered_souls.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Shadow_Fiend/arcana_sundered_souls.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Shadow_Fiend/arcana_sundered_souls.jpg"
       ]
     }
   },
@@ -2126,7 +2130,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Terrorblade/arcana_forgotten_station.jpg"
       ],
       "Set 2": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Terrorblade/arcana_foulfell.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Terrorblade/arcana_foulfell.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Terrorblade/arcana_foulfell.jpg"
       ]
     }
   },
@@ -2408,7 +2413,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Void_Spirit/hidden_vector.jpg"
       ],
       "Set 2": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Void_Spirit/mix_v1.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Void_Spirit/mix_v1.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Void_Spirit/mix_v1.jpg"
       ]
     }
   },
