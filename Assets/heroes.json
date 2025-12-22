@@ -583,7 +583,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Dragon_Knight/persona.jpg"
       ],
       "Set 3": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Dragon_Knight/prismatic_rathalos.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Dragon_Knight/prismatic_rathalos.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Dragon_Knight/prismatic_rathalos.jpg"
       ]
     }
   },
@@ -1616,7 +1617,8 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Primal_Beast/attrition.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Primal_Beast/attrition.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Primal_Beast/attrition.jpg"
       ],
       "Set 2": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Primal_Beast/behemoth_mix.zip",
