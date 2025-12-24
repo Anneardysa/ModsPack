@@ -1176,6 +1176,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Magnus/spiral_bone.zip"
       ]
     }
   },
