@@ -1473,6 +1473,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ogre_Magi/arcana_v1.zip"
       ]
     }
   },
@@ -1721,6 +1724,9 @@
       "Set 1": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Queen_of_Pain/royal_decree_agonies.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Queen_of_Pain/royal_decree_agonies.jpg"
+      ],
+      "Set 2": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Queen_of_Pain/ritsul.zip"
       ]
     }
   },
@@ -1964,6 +1970,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Slark/mix_1.zip"
       ]
     }
   },
@@ -2066,6 +2075,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Storm_Spirit/mix_1.zip"
       ]
     }
   },
@@ -2086,6 +2098,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Sven/indomitable.zip"
       ]
     }
   },
@@ -2123,6 +2138,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Templar_Assassin/mix_crimson.zip"
       ]
     }
   },
@@ -2168,6 +2186,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Tidehunter/immo_golden.zip"
       ]
     }
   },
