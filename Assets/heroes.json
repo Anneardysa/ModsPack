@@ -837,6 +837,12 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Huskar/ember_demon.zip"
+      ],
+      "Set 2": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Huskar/proselyte.zip"
       ]
     }
   },
@@ -1575,6 +1581,9 @@
       "Set 1": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Phantom_Assassin/manifold_immo.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Phantom_Assassin/manifold_immo.jpg"
+      ],
+      "Set 2": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Phantom_Assassin/gothic_whisper.zip"
       ]
     }
   },
@@ -1890,6 +1899,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Shadow_Shaman/mix_1.zip"
       ]
     }
   },
