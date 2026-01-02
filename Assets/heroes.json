@@ -886,7 +886,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Invoker/darkartistry_persona.jpg"
       ],
       "Set 3": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Invoker/persona_angel.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Invoker/persona_angel.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Invoker/persona_angel.jpg"
       ]
     }
   },
@@ -1720,7 +1721,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Pudge/legacy.jpg"
       ],
       "Set 4": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/persona_glutton.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/persona_glutton.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Pudge/persona_glutton.jpg"
       ],
       "Set 5": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/persona_velveteen.zip"
@@ -2289,12 +2291,6 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
-      ],
-      "Set 1": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Tinker/interstellar.zip"
-      ],
-      "Set 2": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Tinker/submerged.zip"
       ]
     }
   },
