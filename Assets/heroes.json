@@ -420,6 +420,9 @@
       "Set 1": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Crystal_Maiden/frost_avalanche_immo.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Crystal_Maiden/frost_avalanche_immo.jpg"
+      ],
+      "Set 2": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Crystal_Maiden/millenium.zip"
       ]
     }
   },
@@ -842,7 +845,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Huskar/ember_demon.zip"
       ],
       "Set 2": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Huskar/proselyte.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Huskar/proselyte.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Huskar/proselyte.jpg"
       ]
     }
   },
@@ -871,6 +875,9 @@
       "Set 2": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Invoker/darkartistry_persona.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Invoker/darkartistry_persona.jpg"
+      ],
+      "Set 3": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Invoker/persona.zip"
       ]
     }
   },
@@ -1087,6 +1094,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Lina/arcana_immo.zip"
       ]
     }
   },
@@ -1583,7 +1593,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Phantom_Assassin/manifold_immo.jpg"
       ],
       "Set 2": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Phantom_Assassin/gothic_whisper.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Phantom_Assassin/gothic_whisper.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Phantom_Assassin/gothic_whisper.jpg"
       ]
     }
   },
@@ -1675,7 +1686,8 @@
       260,
       261,
       262,
-      470
+      470,
+      810
     ],
     "used_by_heroes": "npc_dota_hero_pudge",
     "name": "Pudge",
@@ -1879,6 +1891,9 @@
       "Set 2": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Shadow_Fiend/arcana_sundered_souls.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Shadow_Fiend/arcana_sundered_souls.jpg"
+      ],
+      "Set 3": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Shadow_Fiend/demon_eater.zip"
       ]
     }
   },
@@ -1901,7 +1916,8 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Shadow_Shaman/mix_1.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Shadow_Shaman/mix_1.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Shadow_Shaman/mix_1.jpg"
       ]
     }
   },
@@ -2247,6 +2263,12 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Tinker/interstellar.zip"
+      ],
+      "Set 2": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Tinker/submerged.zip"
       ]
     }
   },
@@ -2613,6 +2635,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Zeus/arcana_immo.zip"
       ]
     }
   }
