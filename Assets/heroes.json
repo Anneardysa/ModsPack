@@ -302,6 +302,12 @@
       "Set 1": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Broodmother/the_white_widow.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Broodmother/the_white_widow.jpg"
+      ],
+      "Set 2": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Broodmother/gloom.zip"
+      ],
+      "Set 3": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Broodmother/volcanic.zip"
       ]
     }
   },
@@ -1704,6 +1710,18 @@
       "Set 2": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/persona_v1.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Pudge/persona_v1.jpg"
+      ],
+      "Set 3": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/arcana_v2.zip"
+      ],
+      "Set 4": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/legacy.zip"
+      ],
+      "Set 5": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/persona_glutton.zip"
+      ],
+      "Set 6": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/persona_velveteen.zip"
       ]
     }
   },
@@ -1792,6 +1810,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Riki/mix_1.zip"
       ]
     }
   },
