@@ -842,11 +842,11 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Huskar/ember_demon.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Huskar/ember_demon.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Huskar/ember_demon.jpg"
       ],
       "Set 2": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Huskar/proselyte.zip",
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Huskar/proselyte.jpg"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Huskar/proselyte.zip"
       ]
     }
   },
