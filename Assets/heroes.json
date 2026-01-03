@@ -2293,7 +2293,11 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Tinker/interstellar.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Tinker/interstellar.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Tinker/interstellar.jpg"
+      ],
+      "Set 2": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Tinker/submerged.zip"
       ]
     }
   },
