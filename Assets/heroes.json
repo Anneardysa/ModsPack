@@ -308,7 +308,7 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Broodmother/gloom.jpg"
       ],
       "Set 3": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Broodmother/volcanic.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Broodmother/mix_1.zip"
       ]
     }
   },
@@ -1725,7 +1725,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Pudge/persona_glutton.jpg"
       ],
       "Set 5": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/persona_velveteen.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Pudge/persona_velveteen.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Pudge/persona_velveteen.jpg"
       ]
     }
   },
