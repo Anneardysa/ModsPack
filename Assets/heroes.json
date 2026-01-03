@@ -720,6 +720,12 @@
       "Set 1": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ember_Spirit/searing_path.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Ember_Spirit/searing_path.jpg"
+      ],
+      "Set 2": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ember_Spirit/imperial_immo.zip"
+      ],
+      "Set 3": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ember_Spirit/searing_path_immo.zip"
       ]
     }
   },
