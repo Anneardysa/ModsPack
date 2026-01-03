@@ -44,6 +44,9 @@
       "Set 1": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Alchemist/darkbrew.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Alchemist/darkbrew.jpg"
+      ],
+      "Set 2": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Alchemist/darkbrew_2.zip"
       ]
     }
   },
@@ -962,6 +965,9 @@
       "Set 2": [
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Juggernaut/provocation.zip",
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Juggernaut/provocation.jpg"
+      ],
+      "Set 3": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Juggernaut/exile.zip"
       ]
     }
   },
@@ -1437,6 +1443,9 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Nature's_Prophet/mix_1.zip"
       ]
     }
   },
