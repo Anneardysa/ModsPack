@@ -726,7 +726,8 @@
         "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Ember_Spirit/imperial_immo.jpg"
       ],
       "Set 3": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ember_Spirit/searing_path_immo.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Ember_Spirit/searing_path_immo.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Ember_Spirit/searing_path_immo.jpg"
       ]
     }
   },
@@ -1456,7 +1457,8 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Necrophos/mix_immo.zip"
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/models/Necrophos/mix_immo.zip",
+        "https://raw.githubusercontent.com/Anneardysa/ModsPack/refs/heads/main/Assets/image/Necrophos/mix_immo.jpg"
       ]
     }
   },
