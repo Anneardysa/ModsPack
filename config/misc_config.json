@@ -125,23 +125,23 @@
                 },
                 {
                     "name": "Blood Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Blood/Blood.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Blood/Blood.zip"
                 },
                 {
                     "name": "Chrome Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Chrome/Chrome.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Chrome/Chrome.zip"
                 },
                 {
                     "name": "Dry Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Dry/Dry.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Dry/Dry.zip"
                 },
                 {
                     "name": "Electrifield Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Electrifield/Electrifield.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Electrifield/Electrifield.zip"
                 },
                 {
                     "name": "Oil Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Oil/Oil.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Oil/Oil.zip"
                 }
             ]
         },
@@ -232,39 +232,39 @@
                 },
                 {
                     "name": "Aghanim's Labyrinth",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Aghanim/Aghanim.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Aghanim/Aghanim.zip"
                 },
                 {
                     "name": "Diretide - Blue",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Diretide%20-%20Blue/Diretide%20-%20Blue.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Diretide%20-%20Blue/Diretide%20-%20Blue.zip"
                 },
                 {
                     "name": "Diretide - Green",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Diretide%20-%20Green/Diretide%20-%20Green.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Diretide%20-%20Green/Diretide%20-%20Green.zip"
                 },
                 {
                     "name": "Diretide - Red",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Diretide%20-%20Red/Diretide%20-%20Red.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Diretide%20-%20Red/Diretide%20-%20Red.zip"
                 },
                 {
                     "name": "Diretide - Yellow",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Diretide%20-%20Yellow/Diretide%20-%20Yellow.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Diretide%20-%20Yellow/Diretide%20-%20Yellow.zip"
                 },
                 {
                     "name": "Nemestice",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Nemestice/Nemestice.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/Nemestice/Nemestice.zip"
                 },
                 {
                     "name": "The International 11",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/TI11/TI11.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/TI11/TI11.zip"
                 },
                 {
                     "name": "The International 10",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/TI10/TI10.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/TI10/TI10.zip"
                 },
                 {
                     "name": "The International 9",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/TI9/TI9.rar"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/main/models/root/Attack%20Modifier/TI9/TI9.zip"
                 }
             ]
         },
