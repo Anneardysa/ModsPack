@@ -125,23 +125,23 @@
                 },
                 {
                     "name": "Blood Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Blood/Blood.zip"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/Blood/Blood.zip"
                 },
                 {
                     "name": "Chrome Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Chrome/Chrome.zip"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/Chrome/Chrome.zip"
                 },
                 {
                     "name": "Dry Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Dry/Dry.zip"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/Dry/Dry.zip"
                 },
                 {
                     "name": "Electrifield Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Electrifield/Electrifield.zip"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/Electrifield/Electrifield.zip"
                 },
                 {
                     "name": "Oil Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/Oil/Oil.zip"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/Oil/Oil.zip"
                 }
             ]
         },
