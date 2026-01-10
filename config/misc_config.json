@@ -121,7 +121,7 @@
             "choices": [
                 {
                     "name": "Default Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ArdysaModsTools/refs/heads/main/models/root/River/root.md"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/root.md"
                 },
                 {
                     "name": "Blood Vial",
@@ -201,7 +201,7 @@
             "choices": [
                 {
                     "name": "Disable Shader",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shaders/Diretide/materials/dev/root.md"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shader/Diretide/materials/dev/root.md"
                 },
                 {
                     "name": "Aghanim Labyrinth",
@@ -228,7 +228,7 @@
             "choices": [
                 {
                     "name": "Disable Attack Modifier",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Shaders/Diretide/materials/dev/root.md"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shader/Diretide/materials/dev/root.md"
                 },
                 {
                     "name": "Aghanim's Labyrinth",
