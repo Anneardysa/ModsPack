@@ -17,7 +17,7 @@
             "choices": [
                 {
                     "name": "Default Weather",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Weather/Default.txt"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Default.txt"
                 },
                 {
                     "name": "Weather Ash",
