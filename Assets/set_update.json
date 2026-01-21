@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-21",
+  "updates": [
+    {
+      "date": "2026-01-21",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_abaddon",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_crystal_maiden",
+          "setName": "Set 1"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_antimage",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_broodmother",
+          "setName": "Set 2"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_axe",
+          "setName": "Set 1"
+        }
+      ]
+    }
+  ]
+}
