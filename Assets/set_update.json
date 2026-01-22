@@ -1,10 +1,90 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "lastUpdated": "2026-01-22",
   "updates": [
     {
       "date": "2026-01-22",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_dazzle",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_dazzle",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_dawnbreaker",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_dawnbreaker",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_dark_willow",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_dark_willow",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_dark_seer",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_rattletrap",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_rattletrap",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_rattletrap",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_clinkz",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_chen",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_chaos_knight",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_chaos_knight",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_chaos_knight",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_centaur",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_centaur",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_bristleback",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_brewmaster",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_bounty_hunter",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_bloodseeker",
           "setName": "Set 1"
