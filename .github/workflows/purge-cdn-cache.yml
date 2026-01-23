@@ -1,0 +1,30 @@
+name: Purge jsDelivr CDN Cache
+
+on:
+   push:
+      branches:
+         - main
+      paths:
+         - "Assets/heroes.json"
+         - "Assets/set_update.json"
+
+jobs:
+   purge-cache:
+      runs-on: ubuntu-latest
+      steps:
+         - name: Purge heroes.json from CDN
+           run: |
+              curl -X GET "https://purge.jsdelivr.net/gh/Anneardysa/ModsPack@main/Assets/heroes.json"
+              echo "✅ Purged heroes.json from jsDelivr CDN"
+
+         - name: Purge set_update.json from CDN
+           run: |
+              curl -X GET "https://purge.jsdelivr.net/gh/Anneardysa/ModsPack@main/Assets/set_update.json"
+              echo "✅ Purged set_update.json from jsDelivr CDN"
+
+         - name: Wait for CDN to refresh
+           run: sleep 5
+
+         - name: Verify cache purge
+           run: |
+              echo "Cache purge complete. CDN will serve fresh content on next request."
