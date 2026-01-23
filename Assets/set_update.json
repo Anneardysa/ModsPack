@@ -1,7 +1,520 @@
 {
-  "version": "1.0.5",
-  "lastUpdated": "2026-01-22",
+  "version": "1.0.6",
+  "lastUpdated": "2026-01-23",
   "updates": [
+    {
+      "date": "2026-01-23",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_winter_wyvern",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_void_spirit",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_void_spirit",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_vengefulspirit",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_tinker",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_tinker",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_tidehunter",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_storm_spirit",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_spirit_breaker",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_slardar",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_skywrath_mage",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_skywrath_mage",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_shadow_shaman",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_nevermore",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_nevermore",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_nevermore",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_rubick",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_rubick",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_riki",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_pudge",
+          "setName": "Set 10"
+        },
+        {
+          "heroId": "npc_dota_hero_pudge",
+          "setName": "Set 9"
+        },
+        {
+          "heroId": "npc_dota_hero_pudge",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_pudge",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_pudge",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_primal_beast",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_primal_beast",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_primal_beast",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_phoenix",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_obsidian_destroyer",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_omniknight",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_ogre_magi",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_nyx_assassin",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_necrolyte",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_furion",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_naga_siren",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_naga_siren",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_muerta",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_morphling",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_morphling",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_morphling",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_mirana",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_mirana",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_meepo",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_marci",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_magnataur",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_lina",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_legion_commander",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_wisp",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_huskar",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_huskar",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_ember_spirit",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_ember_spirit",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_ember_spirit",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_drow_ranger",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_drow_ranger",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_drow_ranger",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_drow_ranger",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_dragon_knight",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_dragon_knight",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_dragon_knight",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_doom_bringer",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_dazzle",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_dazzle",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_dawnbreaker",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_dawnbreaker",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_dark_willow",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_dark_willow",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_dark_seer",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_crystal_maiden",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_crystal_maiden",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_rattletrap",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_rattletrap",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_rattletrap",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_clinkz",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_chen",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_chaos_knight",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_chaos_knight",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_chaos_knight",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_centaur",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_centaur",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_broodmother",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_broodmother",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_broodmother",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_bristleback",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_brewmaster",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_bounty_hunter",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_bloodseeker",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_beastmaster",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_batrider",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_bane",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_axe",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_arc_warden",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_antimage",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_antimage",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_alchemist",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_abaddon",
+          "setName": "Set 2"
+        }
+      ]
+    },
     {
       "date": "2026-01-22",
       "sets": [
