@@ -1,0 +1,160 @@
+# GitHub Actions Workflow: Sync ModsPack Releases to R2 CDN
+# Triggers after a release is published
+# Uploads release assets (Original.zip, misc mods, etc.) to R2
+
+name: Sync Release to R2
+
+on:
+   release:
+      types: [published]
+   workflow_dispatch:
+      inputs:
+         tag:
+            description: "Release tag to sync (e.g., v1.0.0)"
+            required: true
+            type: string
+
+env:
+   R2_RELEASES_PATH: modspack-releases
+
+jobs:
+   sync-release-to-r2:
+      runs-on: ubuntu-latest
+
+      steps:
+         - name: Get Release Info
+           id: release
+           run: |
+              if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+                TAG="${{ github.event.inputs.tag }}"
+              else
+                TAG="${{ github.event.release.tag_name }}"
+              fi
+              VERSION="${TAG#v}"
+              echo "TAG=$TAG" >> $GITHUB_OUTPUT
+              echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+              echo "Syncing ModsPack release: $TAG (version: $VERSION)"
+
+         - name: Download Release Assets
+           env:
+              GH_TOKEN: ${{ github.token }}
+           run: |
+              mkdir -p assets
+
+              # Download all release assets
+              gh release download "${{ steps.release.outputs.TAG }}" \
+                --repo "${{ github.repository }}" \
+                --dir assets \
+                || echo "No assets found or release not found"
+
+              # List downloaded files
+              echo "Downloaded assets:"
+              ls -la assets/ || echo "No files"
+
+         - name: Setup rclone
+           run: |
+              curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
+              unzip rclone-current-linux-amd64.zip
+              sudo mv rclone-*-linux-amd64/rclone /usr/local/bin/
+              rclone version
+
+         - name: Configure rclone for R2
+           run: |
+              mkdir -p ~/.config/rclone
+              cat > ~/.config/rclone/rclone.conf << EOF
+              [r2]
+              type = s3
+              provider = Cloudflare
+              access_key_id = ${{ secrets.R2_ACCESS_KEY_ID }}
+              secret_access_key = ${{ secrets.R2_SECRET_ACCESS_KEY }}
+              endpoint = https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+              acl = private
+              no_check_bucket = true
+              EOF
+
+         - name: Upload Assets to R2
+           run: |
+              VERSION="${{ steps.release.outputs.VERSION }}"
+              DEST_PATH="${{ env.R2_RELEASES_PATH }}/${VERSION}"
+
+              # Check if we have files to upload
+              if [ -z "$(ls -A assets/ 2>/dev/null)" ]; then
+                echo "No assets to upload"
+                exit 0
+              fi
+
+              echo "Uploading to: r2:${{ secrets.R2_BUCKET_NAME }}/${DEST_PATH}/"
+
+              rclone copy assets/ "r2:${{ secrets.R2_BUCKET_NAME }}/${DEST_PATH}/" \
+                --progress \
+                -v
+
+              echo "Upload complete!"
+
+         - name: Update modspack-releases.json Manifest
+           env:
+              GH_TOKEN: ${{ github.token }}
+           run: |
+              VERSION="${{ steps.release.outputs.VERSION }}"
+              CDN_BASE="https://cdn.ardysamods.my.id"
+              RELEASES_PATH="${{ env.R2_RELEASES_PATH }}"
+
+              # Get release info from GitHub
+              RELEASE_DATE=$(date -u +%Y-%m-%d)
+              NOTES=$(gh release view "${{ steps.release.outputs.TAG }}" \
+                --repo "${{ github.repository }}" \
+                --json body -q '.body' | head -c 500 2>/dev/null || echo "")
+
+              # Build asset list
+              ASSETS_JSON="[]"
+              for file in assets/*; do
+                if [ -f "$file" ]; then
+                  filename=$(basename "$file")
+                  size=$(stat -c%s "$file" 2>/dev/null || echo "0")
+                  url="${CDN_BASE}/${RELEASES_PATH}/${VERSION}/${filename}"
+                  ASSETS_JSON=$(echo "$ASSETS_JSON" | jq --arg name "$filename" --arg url "$url" --arg size "$size" \
+                    '. + [{"name": $name, "url": $url, "size": ($size | tonumber)}]')
+                fi
+              done
+
+              # Download existing manifest or create new
+              rclone cat "r2:${{ secrets.R2_BUCKET_NAME }}/${RELEASES_PATH}/modspack-releases.json" > manifest.json 2>/dev/null || echo '{"latest":"","releases":{}}' > manifest.json
+
+              # Update manifest
+              jq --arg ver "$VERSION" \
+                 --arg date "$RELEASE_DATE" \
+                 --arg notes "$NOTES" \
+                 --argjson assets "$ASSETS_JSON" \
+                 '.latest = $ver | .releases[$ver] = {
+                   "version": $ver,
+                   "date": $date,
+                   "assets": $assets,
+                   "notes": (if $notes == "" then null else $notes end)
+                 }' manifest.json > updated_manifest.json
+
+              # Upload updated manifest
+              rclone copyto updated_manifest.json "r2:${{ secrets.R2_BUCKET_NAME }}/${RELEASES_PATH}/modspack-releases.json" -v
+
+              echo "Manifest updated!"
+              cat updated_manifest.json
+
+         - name: Verify Upload
+           run: |
+              VERSION="${{ steps.release.outputs.VERSION }}"
+              RELEASES_PATH="${{ env.R2_RELEASES_PATH }}"
+
+              echo "Files uploaded to R2:"
+              rclone ls "r2:${{ secrets.R2_BUCKET_NAME }}/${RELEASES_PATH}/${VERSION}/" 2>/dev/null || echo "No files found"
+
+         - name: Summary
+           run: |
+              VERSION="${{ steps.release.outputs.VERSION }}"
+              CDN_BASE="https://cdn.ardysamods.my.id"
+
+              echo "## ModsPack Release Sync Complete! 🚀" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "**Version:** ${VERSION}" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "**CDN URLs:**" >> $GITHUB_STEP_SUMMARY
+              echo "- Manifest: ${CDN_BASE}/modspack-releases/modspack-releases.json" >> $GITHUB_STEP_SUMMARY
+              echo "- Release folder: ${CDN_BASE}/modspack-releases/${VERSION}/" >> $GITHUB_STEP_SUMMARY
