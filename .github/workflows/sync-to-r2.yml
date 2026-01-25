@@ -1,0 +1,79 @@
+name: Sync Assets to Cloudflare R2
+
+on:
+   push:
+      paths:
+         - "Assets/**"
+      branches:
+         - main
+   workflow_dispatch: # Allow manual trigger from GitHub UI
+
+env:
+   RCLONE_VERSION: v1.65.0
+
+jobs:
+   sync-to-r2:
+      runs-on: ubuntu-latest
+
+      steps:
+         - name: Checkout repository
+           uses: actions/checkout@v4
+           with:
+              fetch-depth: 1 # Shallow clone for speed
+
+         - name: Install rclone
+           run: |
+              curl -O https://downloads.rclone.org/${RCLONE_VERSION}/rclone-${RCLONE_VERSION}-linux-amd64.zip
+              unzip rclone-${RCLONE_VERSION}-linux-amd64.zip
+              sudo mv rclone-${RCLONE_VERSION}-linux-amd64/rclone /usr/local/bin/
+              rclone version
+
+         - name: Configure rclone for R2
+           run: |
+              mkdir -p ~/.config/rclone
+              cat > ~/.config/rclone/rclone.conf << EOF
+              [r2]
+              type = s3
+              provider = Cloudflare
+              access_key_id = ${{ secrets.R2_ACCESS_KEY_ID }}
+              secret_access_key = ${{ secrets.R2_SECRET_ACCESS_KEY }}
+              endpoint = https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+              acl = public-read
+              EOF
+
+         - name: Verify R2 connection
+           run: |
+              echo "Testing R2 connection..."
+              rclone lsd r2:${{ secrets.R2_BUCKET_NAME }} || echo "Bucket may be empty or new"
+
+         - name: Sync Assets to R2
+           run: |
+              echo "Starting sync to Cloudflare R2..."
+              rclone sync ./Assets r2:${{ secrets.R2_BUCKET_NAME }}/Assets \
+                --progress \
+                --transfers 8 \
+                --checkers 16 \
+                --fast-list \
+                --stats 30s \
+                -v
+              echo "Sync completed!"
+
+         - name: Generate sync summary
+           run: |
+              echo "## ✅ R2 Sync Complete" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "### Files synced:" >> $GITHUB_STEP_SUMMARY
+              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+              rclone ls r2:${{ secrets.R2_BUCKET_NAME }}/Assets --max-depth 2 | head -50 >> $GITHUB_STEP_SUMMARY
+              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "### Bucket stats:" >> $GITHUB_STEP_SUMMARY
+              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+              rclone size r2:${{ secrets.R2_BUCKET_NAME }}/Assets >> $GITHUB_STEP_SUMMARY
+              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+         - name: Notify on failure
+           if: failure()
+           run: |
+              echo "## ❌ R2 Sync Failed" >> $GITHUB_STEP_SUMMARY
+              echo "Please check the logs above for details." >> $GITHUB_STEP_SUMMARY
