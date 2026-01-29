@@ -9,7 +9,7 @@ on:
    workflow_dispatch: # Allow manual trigger from GitHub UI
 
 env:
-   RCLONE_VERSION: v1.65.0
+   INSTALL_RCLONE_VERSION: v1.65.0
 
 jobs:
    sync-to-r2:
@@ -23,10 +23,9 @@ jobs:
 
          - name: Install rclone
            run: |
-              curl -O https://downloads.rclone.org/${RCLONE_VERSION}/rclone-${RCLONE_VERSION}-linux-amd64.zip
-              unzip rclone-${RCLONE_VERSION}-linux-amd64.zip
-              sudo mv rclone-${RCLONE_VERSION}-linux-amd64/rclone /usr/local/bin/
-              unset RCLONE_VERSION
+              curl -O https://downloads.rclone.org/${INSTALL_RCLONE_VERSION}/rclone-${INSTALL_RCLONE_VERSION}-linux-amd64.zip
+              unzip rclone-${INSTALL_RCLONE_VERSION}-linux-amd64.zip
+              sudo mv rclone-${INSTALL_RCLONE_VERSION}-linux-amd64/rclone /usr/local/bin/
               rclone version
 
          - name: Configure rclone for R2
