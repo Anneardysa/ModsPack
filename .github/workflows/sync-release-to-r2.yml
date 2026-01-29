@@ -57,6 +57,8 @@ jobs:
               unzip rclone-current-linux-amd64.zip
               sudo mv rclone-*-linux-amd64/rclone /usr/local/bin/
               rclone version
+           env:
+              RCLONE_CONFIG_PASS: ""
 
          - name: Configure rclone for R2
            run: |
