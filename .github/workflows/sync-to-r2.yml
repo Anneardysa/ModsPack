@@ -26,6 +26,7 @@ jobs:
               curl -O https://downloads.rclone.org/${RCLONE_VERSION}/rclone-${RCLONE_VERSION}-linux-amd64.zip
               unzip rclone-${RCLONE_VERSION}-linux-amd64.zip
               sudo mv rclone-${RCLONE_VERSION}-linux-amd64/rclone /usr/local/bin/
+              unset RCLONE_VERSION
               rclone version
 
          - name: Configure rclone for R2
