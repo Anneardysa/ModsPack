@@ -329,6 +329,58 @@
             ]
         },
         {
+            "id": "Effect",
+            "displayName": "Battle Effect",
+            "category": "Audio & Visual",
+            "thumbnailFolder": "battle_effect",
+            "choices": [
+                {
+                    "name": "Disable Effect",
+                    "url": null
+                },
+                {
+                    "name": "Aghanim",
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/battle_effect/Aghanim.zip"
+                },
+                {
+                    "name": "Nemestice",
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/battle_effect/Nemestice.zip"
+                },
+                {
+                    "name": "Quarteros Curios",
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/battle_effect/Quarteros%20Curios.zip"
+                },
+                {
+                    "name": "TI 2015",
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/battle_effect/TI_2015.zip"
+                },
+                {
+                    "name": "TI 2016",
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/battle_effect/TI_2016.zip"
+                },
+                {
+                    "name": "TI 2017",
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/battle_effect/TI_2017.zip"
+                },
+                {
+                    "name": "TI 2018",
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/battle_effect/TI_2018.zip"
+                },
+                {
+                    "name": "TI 2019",
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/battle_effect/TI_2019.zip"
+                },
+                {
+                    "name": "TI 2021",
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/battle_effect/TI_2021.zip"
+                },
+                {
+                    "name": "TI 2022",
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/battle_effect/TI_2022.zip"
+                }
+            ]
+        },
+        {
             "id": "HUD",
             "displayName": "HUD",
             "category": "Interface",
