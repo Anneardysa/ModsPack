@@ -1,7 +1,20 @@
 {
-  "version": "1.0.7",
-  "lastUpdated": "2026-01-22",
+  "version": "1.0.8",
+  "lastUpdated": "2026-02-06",
   "updates": [
+    {
+      "date": "2026-02-06",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 2"
+        }
+      ]
+    },
     {
       "date": "2026-01-22",
       "sets": [
