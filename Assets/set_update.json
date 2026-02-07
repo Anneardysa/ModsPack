@@ -1,7 +1,64 @@
 {
-  "version": "1.0.8",
-  "lastUpdated": "2026-02-06",
+  "version": "1.0.9",
+  "lastUpdated": "2026-02-07",
   "updates": [
+    {
+      "date": "2026-02-07",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_skywrath_mage",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_skywrath_mage",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_nevermore",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_nevermore",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_pudge",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_luna",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_life_stealer",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_life_stealer",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_axe",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_axe",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_axe",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_antimage",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_antimage",
+          "setName": "Set 3"
+        }
+      ]
+    },
     {
       "date": "2026-02-06",
       "sets": [

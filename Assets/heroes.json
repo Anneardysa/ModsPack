@@ -93,6 +93,14 @@
       "Set 2": [
         "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/Survivor_Persona.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/Survivor_Persona.jpg"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/persona_v1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/persona_v1.jpg"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/persona_v2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/persona_v2.jpg"
       ]
     }
   },
@@ -135,6 +143,18 @@
       "Set 1": [
         "https://cdn.ardysamods.my.id/Assets/models/Axe/Fists_of_Axe_Unleashed.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Axe/Fist_of_Axe_Unleashed.jpg"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Axe/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Axe/mix_1.jpg"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Axe/mix_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Axe/mix_2.jpg"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Axe/molten.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Axe/molten.jpg"
       ]
     }
   },
@@ -1188,6 +1208,14 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lifestealer/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lifestealer/mix_1.jpg"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lifestealer/mix_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lifestealer/mix_2.jpg"
       ]
     }
   },
@@ -1270,6 +1298,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Luna/bloodmoon.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Luna/bloodmoon.jpg"
       ]
     }
   },
@@ -1868,6 +1900,10 @@
       "Set 5": [
         "https://cdn.ardysamods.my.id/Assets/models/Pudge/persona_velveteen.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Pudge/persona_velveteen.jpg"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/arcana_v3.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/arcana_v3.jpg"
       ]
     }
   },
@@ -2067,6 +2103,14 @@
       "Set 3": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/demon_eater.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/demon_eater.jpg"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/arcana_v1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/arcana_v1.jpg"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/arcana_v2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/arcana_v2.jpg"
       ]
     }
   },
@@ -2137,6 +2181,14 @@
       "Set 2": [
         "https://cdn.ardysamods.my.id/Assets/models/Skywrath_Mage/dragonus_v2.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Skywrath_Mage/dragonus_v2.jpg"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Skywrath_Mage/arcana_v1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Skywrath_Mage/arcana_v1.jpg"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Skywrath_Mage/arcana_v2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Skywrath_Mage/arcana_v2.jpg"
       ]
     }
   },
