@@ -6,6 +6,10 @@
       "date": "2026-02-14",
       "sets": [
         {
+          "heroId": "npc_dota_hero_dazzle",
+          "setName": "Set 2"
+        },
+        {
           "heroId": "npc_dota_hero_meepo",
           "setName": "Set 3"
         },
