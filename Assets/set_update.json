@@ -6,6 +6,18 @@
       "date": "2026-02-14",
       "sets": [
         {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 2"
+        },
+        {
           "heroId": "npc_dota_hero_dazzle",
           "setName": "Set 2"
         },
