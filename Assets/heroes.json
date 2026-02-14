@@ -1041,6 +1041,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Jakiro/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Jakiro/mix_1.jpg"
       ]
     }
   },
@@ -1093,6 +1097,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Keeper_of_the_Light/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Keeper_of_the_Light/mix_1.jpg"
       ]
     }
   },
@@ -1132,6 +1140,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Kunkka/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Kunkka/mix_1.jpg"
       ]
     }
   },
@@ -1174,6 +1186,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Leshrac/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Leshrac/mix_1.jpg"
       ]
     }
   },
@@ -1192,6 +1208,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lich/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lich/mix_1.jpg"
       ]
     }
   },
@@ -1280,6 +1300,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lone_Druid/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lone_Druid/mix_1.jpg"
       ]
     }
   },
@@ -1303,6 +1327,10 @@
       "Set 1": [
         "https://cdn.ardysamods.my.id/Assets/models/Luna/bloodmoon.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Luna/bloodmoon.jpg"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Luna/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Luna/mix_1.jpg"
       ]
     }
   },
@@ -1323,6 +1351,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lycan/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lycan/mix_1.jpg"
       ]
     }
   },
@@ -1385,6 +1417,18 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Mars/forgotten.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Mars/forgotten.jpg"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Mars/forsworn.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Mars/forsworn.jpg"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Mars/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Mars/mix_1.jpg"
       ]
     }
   },
@@ -1403,6 +1447,14 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Medusa/eternal.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Medusa/eternal.jpg"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Medusa/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Medusa/mix_1.jpg"
       ]
     }
   },
@@ -1426,6 +1478,14 @@
       "Set 1": [
         "https://cdn.ardysamods.my.id/Assets/models/Meepo/mix_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Meepo/mix_1.jpg"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Meepo/lotus.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Meepo/lotus.jpg"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Meepo/mocking.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Meepo/mocking.jpg"
       ]
     }
   },
