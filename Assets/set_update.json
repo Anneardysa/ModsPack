@@ -1,7 +1,60 @@
 {
-  "version": "1.0.12",
-  "lastUpdated": "2026-02-14",
+  "version": "1.0.13",
+  "lastUpdated": "2026-02-18",
   "updates": [
+    {
+      "date": "2026-02-18",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_tiny",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_tiny",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_tiny",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_snapfire",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_silencer",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_shadow_demon",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_sand_king",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_ringmaster",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_pugna",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_puck",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-02-14",
       "sets": [

@@ -1921,6 +1921,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Puck/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Puck/mix_1.jpg"
       ]
     }
   },
@@ -1986,6 +1990,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pugna/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pugna/mix_1.jpg"
       ]
     }
   },
@@ -2034,6 +2042,14 @@
       "Set 1": [
         "https://cdn.ardysamods.my.id/Assets/models/Razor/asylum.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Razor/asylum.jpg"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Razor/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Razor/mix_1.jpg"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Razor/stormlord.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Razor/stormlord.jpg"
       ]
     }
   },
@@ -2075,6 +2091,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ringmaster/harrow.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ringmaster/harrow.jpg"
       ]
     }
   },
@@ -2119,6 +2139,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sand_King/serket.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sand_King/serket.jpg"
       ]
     }
   },
@@ -2136,6 +2160,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Demon/vessel.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Demon/vessel.jpg"
       ]
     }
   },
@@ -2216,6 +2244,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Silencer/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Silencer/mix_1.jpg"
       ]
     }
   },
@@ -2312,6 +2344,10 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Snapfire/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Snapfire/mix_1.jpg"
       ]
     }
   },
@@ -2585,6 +2621,18 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tiny/astral.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tiny/astral.jpg"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tiny/colosuss.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tiny/colosuss.jpg"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tiny/inheritance.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tiny/inheritance.jpg"
       ]
     }
   },
