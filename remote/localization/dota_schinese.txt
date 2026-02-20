@@ -49986,5 +49986,5 @@
 
 		"DOTA_TrophyName_MonsterHunter_HeroAtlas"				"Monster Hunter英雄图鉴"
 		"DOTA_TrophyDesc_MonsterHunter_HeroAtlas"				"在Monster Hunter联动活动期间，英雄图鉴的完成情况。"
-	}
+}
 } 
