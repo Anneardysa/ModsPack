@@ -613,6 +613,21 @@
                 {
                     "name": "The Gaze of Scree'Auk",
                     "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Dire/The%20Gaze%20of%20Scree'Auk%20-%20Dire%20Towers.txt"
+                },
+                {
+                    "id": "Courier",
+                    "displayName": "Courier",
+                    "category": "Gameplay",
+                    "choices": [
+                        {
+                            "name": "Default Courier",
+                            "url": "595"
+                        },
+                        {
+                            "name": "Drodo the Druffin",
+                            "url": "10003"
+                        }
+                    ]
                 }
             ]
         }
