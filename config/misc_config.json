@@ -122,7 +122,8 @@
             "choices": [
                 {
                     "name": "Default Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/root.md"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/root.md",
+                    "thumbnailId": "dry_vial"
                 },
                 {
                     "name": "Blood Vial",
@@ -154,7 +155,8 @@
             "choices": [
                 {
                     "name": "Default Music",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/Default.txt"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/Default.txt",
+                    "thumbnailId": "deadmau5_music"
                 },
                 {
                     "name": "Deadmau5 Music",
@@ -206,7 +208,8 @@
             "choices": [
                 {
                     "name": "Disable Shader",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shader/Diretide/materials/dev/root.md"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shader/Diretide/materials/dev/root.md",
+                    "thumbnailId": "10th_anniversary_shader"
                 },
                 {
                     "name": "Aghanim Labyrinth",
@@ -253,7 +256,8 @@
                 },
                 {
                     "name": "Diretide - Yellow",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/Diretide%20-%20Yellow/Diretide%20-%20Yellow.zip"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/Diretide%20-%20Yellow/Diretide%20-%20Yellow.zip",
+                    "thumbnailId": "diretide_-_ellow"
                 },
                 {
                     "name": "Nemestice",
@@ -281,7 +285,8 @@
             "choices": [
                 {
                     "name": "Disable Emblem",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Shaders/Diretide/materials/dev/root.md"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Shaders/Diretide/materials/dev/root.md",
+                    "thumbnailId": "sunken_emblem"
                 },
                 {
                     "name": "Aghanim 2021 Emblem",
@@ -385,7 +390,8 @@
             "choices": [
                 {
                     "name": "Default HUD",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/hud/Default.txt"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/hud/Default.txt",
+                    "thumbnailId": "radiant_ore"
                 },
                 {
                     "name": "Direstone",
@@ -417,7 +423,8 @@
             "choices": [
                 {
                     "name": "Default Versus Screen",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/versus/Default.txt"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/versus/Default.txt",
+                    "thumbnailId": "winter_versus_screen"
                 },
                 {
                     "name": "The International 2019 - 1",
@@ -457,7 +464,8 @@
             "choices": [
                 {
                     "name": "Default Radiant Creep",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Radiant/Default.txt"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Radiant/Default.txt",
+                    "thumbnailId": "reptilian_refuge"
                 },
                 {
                     "name": "Cavernite",
@@ -465,7 +473,8 @@
                 },
                 {
                     "name": "Crownfall",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Radiant/Crownfall.txt"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Radiant/Crownfall.txt",
+                    "thumbnailId": "cavernite"
                 },
                 {
                     "name": "Nemestice",
@@ -549,7 +558,8 @@
                 },
                 {
                     "name": "Crownfall",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Dire/Crownfall.txt"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Dire/Crownfall.txt",
+                    "thumbnailId": "cavernite"
                 },
                 {
                     "name": "Nemestice",
@@ -593,7 +603,8 @@
             "choices": [
                 {
                     "name": "Default Dire Tower",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Dire/Default.txt"
+                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Dire/Default.txt",
+                    "thumbnailId": "declaration_of_the_divine_shadow"
                 },
                 {
                     "name": "Declaration of the Divine Shadow",
@@ -625,6 +636,10 @@
             "thumbnailExtension": "png",
             "choices": [
                 {
+                    "name": "Default Courier",
+                    "url": "595"
+                },
+                {
                     "name": "10th Anniversary Dolfrat and Roshinante",
                     "url": "27298"
                 },
@@ -642,7 +657,8 @@
                 },
                 {
                     "name": "Aghanim\u2019s Interdimensional Baby Roshan",
-                    "url": "14951"
+                    "url": "14951",
+                    "thumbnailId": "aghanim's_interdimensional_baby_roshan"
                 },
                 {
                     "name": "Alphid of Lecaciida",
@@ -903,10 +919,6 @@
                 {
                     "name": "Deathripper",
                     "url": "10144"
-                },
-                {
-                    "name": "Default Courier",
-                    "url": "595"
                 },
                 {
                     "name": "Defense Season 2 War Dog",
@@ -1653,14 +1665,6 @@
                 {
                     "name": "Prismatic Drake",
                     "url": "10133"
-                },
-                {
-                    "name": "Promo Bluepaw",
-                    "url": "10989"
-                },
-                {
-                    "name": "Promo Redpaw",
-                    "url": "10664"
                 },
                 {
                     "name": "Pudgling",
