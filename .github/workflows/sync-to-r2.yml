@@ -21,7 +21,7 @@ jobs:
          - name: Checkout repository
            uses: actions/checkout@v4
            with:
-              fetch-depth: 1 # Shallow clone for speed
+              fetch-depth: 2 # Need parent commit for change detection
 
          - name: Install rclone
            run: |
@@ -51,31 +51,48 @@ jobs:
          - name: Detect changed folders
            id: changes
            run: |
-              # Detect which folders changed in the push
-              # For workflow_dispatch, sync all folders
+              # For workflow_dispatch or if git diff fails, sync all folders
               if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
                 echo "assets=true" >> $GITHUB_OUTPUT
                 echo "config=true" >> $GITHUB_OUTPUT
                 echo "remote=true" >> $GITHUB_OUTPUT
                 echo "Manual trigger: syncing all folders"
-              else
-                CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
-                echo "Changed files: $CHANGED_FILES"
-
-                echo "assets=false" >> $GITHUB_OUTPUT
-                echo "config=false" >> $GITHUB_OUTPUT
-                echo "remote=false" >> $GITHUB_OUTPUT
-
-                if echo "$CHANGED_FILES" | grep -q "^Assets/"; then
-                  echo "assets=true" >> $GITHUB_OUTPUT
-                fi
-                if echo "$CHANGED_FILES" | grep -q "^config/"; then
-                  echo "config=true" >> $GITHUB_OUTPUT
-                fi
-                if echo "$CHANGED_FILES" | grep -q "^remote/"; then
-                  echo "remote=true" >> $GITHUB_OUTPUT
-                fi
+                exit 0
               fi
+
+              # Use git diff with fallback to sync all on failure
+              CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "DIFF_FAILED")
+
+              if [ "$CHANGED_FILES" == "DIFF_FAILED" ]; then
+                echo "⚠️ Could not detect changes, syncing all folders"
+                echo "assets=true" >> $GITHUB_OUTPUT
+                echo "config=true" >> $GITHUB_OUTPUT
+                echo "remote=true" >> $GITHUB_OUTPUT
+                exit 0
+              fi
+
+              echo "Changed files:"
+              echo "$CHANGED_FILES"
+
+              # Default all to false
+              SYNC_ASSETS=false
+              SYNC_CONFIG=false
+              SYNC_REMOTE=false
+
+              if echo "$CHANGED_FILES" | grep -q "^Assets/"; then
+                SYNC_ASSETS=true
+              fi
+              if echo "$CHANGED_FILES" | grep -q "^config/"; then
+                SYNC_CONFIG=true
+              fi
+              if echo "$CHANGED_FILES" | grep -q "^remote/"; then
+                SYNC_REMOTE=true
+              fi
+
+              echo "assets=$SYNC_ASSETS" >> $GITHUB_OUTPUT
+              echo "config=$SYNC_CONFIG" >> $GITHUB_OUTPUT
+              echo "remote=$SYNC_REMOTE" >> $GITHUB_OUTPUT
+              echo "Sync plan: Assets=$SYNC_ASSETS, Config=$SYNC_CONFIG, Remote=$SYNC_REMOTE"
 
          - name: Sync Assets to R2
            if: steps.changes.outputs.assets == 'true'
