@@ -4,6 +4,8 @@ on:
    push:
       paths:
          - "Assets/**"
+         - "config/**"
+         - "remote/**"
       branches:
          - main
    workflow_dispatch: # Allow manual trigger from GitHub UI
@@ -46,9 +48,39 @@ jobs:
               echo "Testing R2 connection..."
               rclone lsd r2:${{ secrets.R2_BUCKET_NAME }} || echo "Bucket may be empty or new"
 
-         - name: Sync Assets to R2
+         - name: Detect changed folders
+           id: changes
            run: |
-              echo "Starting sync to Cloudflare R2..."
+              # Detect which folders changed in the push
+              # For workflow_dispatch, sync all folders
+              if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+                echo "assets=true" >> $GITHUB_OUTPUT
+                echo "config=true" >> $GITHUB_OUTPUT
+                echo "remote=true" >> $GITHUB_OUTPUT
+                echo "Manual trigger: syncing all folders"
+              else
+                CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+                echo "Changed files: $CHANGED_FILES"
+
+                echo "assets=false" >> $GITHUB_OUTPUT
+                echo "config=false" >> $GITHUB_OUTPUT
+                echo "remote=false" >> $GITHUB_OUTPUT
+
+                if echo "$CHANGED_FILES" | grep -q "^Assets/"; then
+                  echo "assets=true" >> $GITHUB_OUTPUT
+                fi
+                if echo "$CHANGED_FILES" | grep -q "^config/"; then
+                  echo "config=true" >> $GITHUB_OUTPUT
+                fi
+                if echo "$CHANGED_FILES" | grep -q "^remote/"; then
+                  echo "remote=true" >> $GITHUB_OUTPUT
+                fi
+              fi
+
+         - name: Sync Assets to R2
+           if: steps.changes.outputs.assets == 'true'
+           run: |
+              echo "📦 Syncing Assets/ → R2..."
               rclone sync ./Assets r2:${{ secrets.R2_BUCKET_NAME }}/Assets \
                 --progress \
                 --transfers 8 \
@@ -56,21 +88,53 @@ jobs:
                 --fast-list \
                 --stats 30s \
                 -v
-              echo "Sync completed!"
+              echo "✅ Assets sync completed"
+
+         - name: Sync config to R2
+           if: steps.changes.outputs.config == 'true'
+           run: |
+              echo "📦 Syncing config/ → R2..."
+              rclone sync ./config r2:${{ secrets.R2_BUCKET_NAME }}/config \
+                --progress \
+                --transfers 4 \
+                --checkers 8 \
+                --fast-list \
+                -v
+              echo "✅ Config sync completed"
+
+         - name: Sync remote to R2
+           if: steps.changes.outputs.remote == 'true'
+           run: |
+              echo "📦 Syncing remote/ → R2..."
+              rclone sync ./remote r2:${{ secrets.R2_BUCKET_NAME }}/remote \
+                --progress \
+                --transfers 4 \
+                --checkers 8 \
+                --fast-list \
+                -v
+              echo "✅ Remote sync completed"
 
          - name: Generate sync summary
            run: |
               echo "## ✅ R2 Sync Complete" >> $GITHUB_STEP_SUMMARY
               echo "" >> $GITHUB_STEP_SUMMARY
-              echo "### Files synced:" >> $GITHUB_STEP_SUMMARY
-              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-              rclone ls r2:${{ secrets.R2_BUCKET_NAME }}/Assets --max-depth 2 | head -50 >> $GITHUB_STEP_SUMMARY
-              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-              echo "" >> $GITHUB_STEP_SUMMARY
-              echo "### Bucket stats:" >> $GITHUB_STEP_SUMMARY
-              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-              rclone size r2:${{ secrets.R2_BUCKET_NAME }}/Assets >> $GITHUB_STEP_SUMMARY
-              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+              echo "### Folders synced:" >> $GITHUB_STEP_SUMMARY
+
+              if [ "${{ steps.changes.outputs.assets }}" == "true" ]; then
+                echo "- ✅ **Assets/** → R2" >> $GITHUB_STEP_SUMMARY
+                echo '```' >> $GITHUB_STEP_SUMMARY
+                rclone size r2:${{ secrets.R2_BUCKET_NAME }}/Assets 2>/dev/null >> $GITHUB_STEP_SUMMARY || echo "Unable to get size" >> $GITHUB_STEP_SUMMARY
+                echo '```' >> $GITHUB_STEP_SUMMARY
+              fi
+              if [ "${{ steps.changes.outputs.config }}" == "true" ]; then
+                echo "- ✅ **config/** → R2" >> $GITHUB_STEP_SUMMARY
+                echo '```' >> $GITHUB_STEP_SUMMARY
+                rclone ls r2:${{ secrets.R2_BUCKET_NAME }}/config 2>/dev/null >> $GITHUB_STEP_SUMMARY || echo "Unable to list" >> $GITHUB_STEP_SUMMARY
+                echo '```' >> $GITHUB_STEP_SUMMARY
+              fi
+              if [ "${{ steps.changes.outputs.remote }}" == "true" ]; then
+                echo "- ✅ **remote/** → R2" >> $GITHUB_STEP_SUMMARY
+              fi
 
          - name: Notify on failure
            if: failure()

@@ -1,6 +1,6 @@
 {
     "version": "1.0",
-    "thumbnailBaseUrl": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc",
+    "thumbnailBaseUrl": "https://cdn.ardysamods.my.id/Assets/misc",
     "categories": [
         "Environment",
         "Audio & Visual",
@@ -18,43 +18,43 @@
             "choices": [
                 {
                     "name": "Default Weather",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Default.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/weather/Default.txt"
                 },
                 {
                     "name": "Weather Ash",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Ash.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/weather/Ash.txt"
                 },
                 {
                     "name": "Weather Aurora",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Aurora.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/weather/Aurora.txt"
                 },
                 {
                     "name": "Weather Harvest",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Harvest.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/weather/Harvest.txt"
                 },
                 {
                     "name": "Weather Moonbeam",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Moonbeam.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/weather/Moonbeam.txt"
                 },
                 {
                     "name": "Weather Pestilence",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Pestilence.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/weather/Pestilence.txt"
                 },
                 {
                     "name": "Weather Rain",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Rain.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/weather/Rain.txt"
                 },
                 {
                     "name": "Weather Sirocco",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Sirocco.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/weather/Sirocco.txt"
                 },
                 {
                     "name": "Weather Snow",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Snow.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/weather/Snow.txt"
                 },
                 {
                     "name": "Weather Spring",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/weather/Spring.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/weather/Spring.txt"
                 }
             ]
         },
@@ -66,51 +66,51 @@
             "choices": [
                 {
                     "name": "Default Terrain",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Default.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Default.txt"
                 },
                 {
                     "name": "Seasonal - Autumn",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Seasonal%20Terrain%20-%20Autumn.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Autumn.txt"
                 },
                 {
                     "name": "Seasonal - Spring",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Seasonal%20Terrain%20-%20Spring.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Spring.txt"
                 },
                 {
                     "name": "Seasonal - Summer",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Seasonal%20Terrain%20-%20Summer.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Summer.txt"
                 },
                 {
                     "name": "Seasonal - Winter",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Seasonal%20Terrain%20-%20Winter.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Winter.txt"
                 },
                 {
                     "name": "Desert Terrain",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Desert.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Desert.txt"
                 },
                 {
                     "name": "Immortal Gardens",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Immortal.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Immortal.txt"
                 },
                 {
                     "name": "Reef's Edge",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Reef.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Reef.txt"
                 },
                 {
                     "name": "Emerald Abyss",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Emerald.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Emerald.txt"
                 },
                 {
                     "name": "Overgrown Empire",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Overgrown.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Overgrown.txt"
                 },
                 {
                     "name": "Sanctum of the Divine",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/Sanctum.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Sanctum.txt"
                 },
                 {
                     "name": "The King's New Journey",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/terrain/King.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/King.txt"
                 }
             ]
         },
@@ -122,28 +122,28 @@
             "choices": [
                 {
                     "name": "Default Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/root.md",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/root.md",
                     "thumbnailId": "dry_vial"
                 },
                 {
                     "name": "Blood Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/Blood/Blood.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Blood/Blood.zip"
                 },
                 {
                     "name": "Chrome Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/Chrome/Chrome.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Chrome/Chrome.zip"
                 },
                 {
                     "name": "Dry Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/Dry/Dry.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Dry/Dry.zip"
                 },
                 {
                     "name": "Electrifield Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/Electrifield/Electrifield.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Electrifield/Electrifield.zip"
                 },
                 {
                     "name": "Oil Vial",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/river/Oil/Oil.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Oil/Oil.zip"
                 }
             ]
         },
@@ -155,48 +155,48 @@
             "choices": [
                 {
                     "name": "Default Music",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/Default.txt",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Default.txt",
                     "thumbnailId": "deadmau5_music"
                 },
                 {
                     "name": "Deadmau5 Music",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/Deadmau5.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Deadmau5.txt"
                 },
                 {
                     "name": "Elemental Fury Music",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/Elemental.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Elemental.txt"
                 },
                 {
                     "name": "Desert Music",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/Desert.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Desert.txt"
                 },
                 {
                     "name": "Magic Sticks of Dynamite",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/Dynamite.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dynamite.txt"
                 },
                 {
                     "name": "The FatRat Warrior Songs",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/FatRat.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/FatRat.txt"
                 },
                 {
                     "name": "Heroes Within Music",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/HeroesWithin.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/HeroesWithin.txt"
                 },
                 {
                     "name": "Humanitys Last Breath Void",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/Humanitys.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Humanitys.txt"
                 },
                 {
                     "name": "Northern Winds Music",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/Northern.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Northern.txt"
                 },
                 {
                     "name": "JJ Lins Timekeeper Music",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/Timekeeper.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Timekeeper.txt"
                 },
                 {
                     "name": "Monster Hunter Music",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/music/MonsterHunter.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/MonsterHunter.txt"
                 }
             ]
         },
@@ -208,22 +208,22 @@
             "choices": [
                 {
                     "name": "Disable Shader",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shader/Diretide/materials/dev/root.md",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md",
                     "thumbnailId": "10th_anniversary_shader"
                 },
                 {
                     "name": "Aghanim Labyrinth",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shader/Aghanim/materials/dev/deferred_post_process.vmat_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Aghanim/materials/dev/deferred_post_process.vmat_c"
                 },
                 {
                     "name": "Diretide",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shader/Diretide/materials/dev/deferred_post_process.vmat_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/deferred_post_process.vmat_c"
                 },
                 {
                     "name": "10th Anniversary Shader",
                     "urls": [
-                        "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shader/10th%20Anniversary%20Shader/materials/dev/deferred_post_process.vmat_c",
-                        "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shader/10th%20Anniversary%20Shader/materials/dev/fxaa.vmat_c"
+                        "https://cdn.ardysamods.my.id/Assets/misc/shader/10th%20Anniversary%20Shader/materials/dev/deferred_post_process.vmat_c",
+                        "https://cdn.ardysamods.my.id/Assets/misc/shader/10th%20Anniversary%20Shader/materials/dev/fxaa.vmat_c"
                     ]
                 }
             ]
@@ -236,44 +236,44 @@
             "choices": [
                 {
                     "name": "Disable Attack Modifier",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/shader/Diretide/materials/dev/root.md"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md"
                 },
                 {
                     "name": "Aghanim's Labyrinth",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/Aghanim/Aghanim.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/Aghanim/Aghanim.zip"
                 },
                 {
                     "name": "Diretide - Blue",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/Diretide%20-%20Blue/Diretide%20-%20Blue.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/Diretide%20-%20Blue/Diretide%20-%20Blue.zip"
                 },
                 {
                     "name": "Diretide - Green",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/Diretide%20-%20Green/Diretide%20-%20Green.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/Diretide%20-%20Green/Diretide%20-%20Green.zip"
                 },
                 {
                     "name": "Diretide - Red",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/Diretide%20-%20Red/Diretide%20-%20Red.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/Diretide%20-%20Red/Diretide%20-%20Red.zip"
                 },
                 {
                     "name": "Diretide - Yellow",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/Diretide%20-%20Yellow/Diretide%20-%20Yellow.zip",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/Diretide%20-%20Yellow/Diretide%20-%20Yellow.zip",
                     "thumbnailId": "diretide_-_ellow"
                 },
                 {
                     "name": "Nemestice",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/Nemestice/Nemestice.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/Nemestice/Nemestice.zip"
                 },
                 {
                     "name": "The International 11",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/TI11/TI11.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/TI11/TI11.zip"
                 },
                 {
                     "name": "The International 10",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/TI10/TI10.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/TI10/TI10.zip"
                 },
                 {
                     "name": "The International 9",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Attack%20Modifier/TI9/TI9.zip"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/TI9/TI9.zip"
                 }
             ]
         },
@@ -285,52 +285,52 @@
             "choices": [
                 {
                     "name": "Disable Emblem",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Shaders/Diretide/materials/dev/root.md",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Shaders/Diretide/materials/dev/root.md",
                     "thumbnailId": "sunken_emblem"
                 },
                 {
                     "name": "Aghanim 2021 Emblem",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Aghanim%202021/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Aghanim%202021/particles/ui_mouseactions/selected_ring.vpcf_c"
                 },
                 {
                     "name": "BattlePass 2022 Emblem",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Battlepass%202022/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Battlepass%202022/particles/ui_mouseactions/selected_ring.vpcf_c"
                 },
                 {
                     "name": "Crystal Echeron Emblem",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Crystal%20Echeron/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Crystal%20Echeron/particles/ui_mouseactions/selected_ring.vpcf_c"
                 },
                 {
                     "name": "Divinity Emblem",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Divinity/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Divinity/particles/ui_mouseactions/selected_ring.vpcf_c"
                 },
                 {
                     "name": "Diretide Green",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Diretide%20-%20Green/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Green/particles/ui_mouseactions/selected_ring.vpcf_c"
                 },
                 {
                     "name": "Diretide Blue",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Diretide%20-%20Blue/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Blue/particles/ui_mouseactions/selected_ring.vpcf_c"
                 },
                 {
                     "name": "Diretide Red",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Diretide%20-%20Red/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Red/particles/ui_mouseactions/selected_ring.vpcf_c"
                 },
                 {
                     "name": "Diretide Yellow",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Diretide%20-%20Yellow/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Yellow/particles/ui_mouseactions/selected_ring.vpcf_c"
                 },
                 {
                     "name": "Nemestice Emblem",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Nemestice/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Nemestice/particles/ui_mouseactions/selected_ring.vpcf_c"
                 },
                 {
                     "name": "Overgrown Emblem",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Overgrown/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Overgrown/particles/ui_mouseactions/selected_ring.vpcf_c"
                 },
                 {
                     "name": "Sunken Emblem",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/emblem/Sunken/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Sunken/particles/ui_mouseactions/selected_ring.vpcf_c"
                 }
             ]
         },
@@ -390,28 +390,28 @@
             "choices": [
                 {
                     "name": "Default HUD",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/hud/Default.txt",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Default.txt",
                     "thumbnailId": "radiant_ore"
                 },
                 {
                     "name": "Direstone",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/hud/Direstone.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Direstone.txt"
                 },
                 {
                     "name": "Portal",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/hud/Portal.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Portal.txt"
                 },
                 {
                     "name": "Radiant Ore",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/hud/Radiant%20Ore.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Radiant%20Ore.txt"
                 },
                 {
                     "name": "Triumph",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/hud/Triumph.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Triumph.txt"
                 },
                 {
                     "name": "Valor",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/hud/Valor.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Valor.txt"
                 }
             ]
         },
@@ -423,36 +423,36 @@
             "choices": [
                 {
                     "name": "Default Versus Screen",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/versus/Default.txt",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/Default.txt",
                     "thumbnailId": "winter_versus_screen"
                 },
                 {
                     "name": "The International 2019 - 1",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/versus/The%20International%202019%20Versus%20Screen%201.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202019%20Versus%20Screen%201.txt"
                 },
                 {
                     "name": "The International 2019 - 2",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/versus/The%20International%202019%20Versus%20Screen%202.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202019%20Versus%20Screen%202.txt"
                 },
                 {
                     "name": "The International 2020",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/versus/The%20International%202020.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202020.txt"
                 },
                 {
                     "name": "Battlepass 2022 - Diretide",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/versus/The%20International%202022%20Diretide.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202022%20Diretide.txt"
                 },
                 {
                     "name": "Battlepass 2022 - Nemestice",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/versus/The%20International%202022%20Nemestice.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202022%20Nemestice.txt"
                 },
                 {
                     "name": "The International 2024",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/versus/The%20International%202024%20Versus%20Screen.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202024%20Versus%20Screen.txt"
                 },
                 {
                     "name": "Winter Versus Screen",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/versus/Winter%20Versus%20Screen.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/Winter%20Versus%20Screen.txt"
                 }
             ]
         },
@@ -464,29 +464,29 @@
             "choices": [
                 {
                     "name": "Default Radiant Creep",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Radiant/Default.txt",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Default.txt",
                     "thumbnailId": "reptilian_refuge"
                 },
                 {
                     "name": "Cavernite",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Radiant/Cavernite%20Radiant%20Creeps.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Cavernite%20Radiant%20Creeps.txt"
                 },
                 {
                     "name": "Crownfall",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Radiant/Crownfall.txt",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Crownfall.txt",
                     "thumbnailId": "cavernite"
                 },
                 {
                     "name": "Nemestice",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Radiant/Radiant%20Nemestice%20Creeps.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Radiant%20Nemestice%20Creeps.txt"
                 },
                 {
                     "name": "Reptilian Refuge",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Radiant/Reptilian%20Refuge%20Radiant%20Creeps.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Reptilian%20Refuge%20Radiant%20Creeps.txt"
                 },
                 {
                     "name": "Woodland Warbands",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Radiant/Woodland%20Warbands.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Woodland%20Warbands.txt"
                 }
             ]
         },
@@ -498,15 +498,15 @@
             "choices": [
                 {
                     "name": "Default Radiant Siege",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Siege/Radiant/Default.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Radiant/Default.txt"
                 },
                 {
                     "name": "Crownfall",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Siege/Radiant/Crownfall.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Radiant/Crownfall.txt"
                 },
                 {
                     "name": "Woodland Warbands",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Siege/Radiant/Woodland%20Warbands.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Radiant/Woodland%20Warbands.txt"
                 }
             ]
         },
@@ -518,27 +518,27 @@
             "choices": [
                 {
                     "name": "Default Radiant Tower",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Radiant/Default.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Radiant/Default.txt"
                 },
                 {
                     "name": "Declaration of the Divine Light",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Radiant/Declaration%20of%20the%20Divine%20Light%20Radiant%20Towers.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Radiant/Declaration%20of%20the%20Divine%20Light%20Radiant%20Towers.txt"
                 },
                 {
                     "name": "Grasp of the Elder Gods",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Radiant/Grasp%20of%20the%20Elder%20Gods%20-%20Radiant%20Towers.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Radiant/Grasp%20of%20the%20Elder%20Gods%20-%20Radiant%20Towers.txt"
                 },
                 {
                     "name": "Guardians of the Lost Path",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Radiant/Guardians%20of%20the%20Lost%20Path%20Radiant%20Towers.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Radiant/Guardians%20of%20the%20Lost%20Path%20Radiant%20Towers.txt"
                 },
                 {
                     "name": "Stoneclaw Scavengers",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Radiant/Stoneclaw%20Scavengers%20Radiant%20Towers.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Radiant/Stoneclaw%20Scavengers%20Radiant%20Towers.txt"
                 },
                 {
                     "name": "The Eyes of Avilliva",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Radiant/The%20Eyes%20of%20Avilliva%20-%20Radiant%20Towers.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Radiant/The%20Eyes%20of%20Avilliva%20-%20Radiant%20Towers.txt"
                 }
             ]
         },
@@ -550,28 +550,28 @@
             "choices": [
                 {
                     "name": "Default Dire Creep",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Dire/Default.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Default.txt"
                 },
                 {
                     "name": "Cavernite",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Dire/Cavernite%20Dire%20Creeps.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Cavernite%20Dire%20Creeps.txt"
                 },
                 {
                     "name": "Crownfall",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Dire/Crownfall.txt",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Crownfall.txt",
                     "thumbnailId": "cavernite"
                 },
                 {
                     "name": "Nemestice",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Dire/Dire%20Nemestice%20Creeps.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Dire%20Nemestice%20Creeps.txt"
                 },
                 {
                     "name": "Reptilian Refuge",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Dire/Reptilian%20Refuge%20Dire%20Creeps.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Reptilian%20Refuge%20Dire%20Creeps.txt"
                 },
                 {
                     "name": "Woodland Warbands",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Creep/Dire/Woodland%20Warbands.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Woodland%20Warbands.txt"
                 }
             ]
         },
@@ -583,15 +583,15 @@
             "choices": [
                 {
                     "name": "Default Dire Siege",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Siege/Dire/Default.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Dire/Default.txt"
                 },
                 {
                     "name": "Crownfall",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Siege/Dire/Crownfall.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Dire/Crownfall.txt"
                 },
                 {
                     "name": "Woodland Warbands",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Siege/Dire/Woodland%20Warbands.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Dire/Woodland%20Warbands.txt"
                 }
             ]
         },
@@ -603,28 +603,28 @@
             "choices": [
                 {
                     "name": "Default Dire Tower",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Dire/Default.txt",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Dire/Default.txt",
                     "thumbnailId": "declaration_of_the_divine_shadow"
                 },
                 {
                     "name": "Declaration of the Divine Shadow",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Dire/Declaration%20of%20the%20Divine%20Shadow%20Dire%20Towers.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Dire/Declaration%20of%20the%20Divine%20Shadow%20Dire%20Towers.txt"
                 },
                 {
                     "name": "Grasp of the Elder Gods",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Dire/Grasp%20of%20the%20Elder%20Gods%20-%20Dire%20Towers.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Dire/Grasp%20of%20the%20Elder%20Gods%20-%20Dire%20Towers.txt"
                 },
                 {
                     "name": "Guardians of the Lost Path",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Dire/Guardians%20of%20the%20Lost%20Path%20Dire%20Towers.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Dire/Guardians%20of%20the%20Lost%20Path%20Dire%20Towers.txt"
                 },
                 {
                     "name": "Stoneclaw Scavengers",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Dire/Stoneclaw%20Scavengers%20Dire%20Towers.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Dire/Stoneclaw%20Scavengers%20Dire%20Towers.txt"
                 },
                 {
                     "name": "The Gaze of Scree'Auk",
-                    "url": "https://raw.githubusercontent.com/Anneardysa/ModsPack/main/Assets/misc/Tower/Dire/The%20Gaze%20of%20Scree'Auk%20-%20Dire%20Towers.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Tower/Dire/The%20Gaze%20of%20Scree'Auk%20-%20Dire%20Towers.txt"
                 }
             ]
         },

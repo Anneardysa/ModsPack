@@ -1,4 +1,4 @@
-name: Purge jsDelivr CDN Cache
+name: Purge CDN Cache
 
 on:
    push:
@@ -7,24 +7,77 @@ on:
       paths:
          - "Assets/heroes.json"
          - "Assets/set_update.json"
+         - "config/misc_config.json"
+         - "config/**"
+   workflow_dispatch:
+      inputs:
+         paths:
+            description: "Comma-separated CDN paths to purge (e.g., Assets/heroes.json,config/misc_config.json)"
+            required: false
+            type: string
 
 jobs:
    purge-cache:
       runs-on: ubuntu-latest
       steps:
-         - name: Purge heroes.json from CDN
+         - name: Detect changed files
+           id: changes
            run: |
-              curl -X GET "https://purge.jsdelivr.net/gh/Anneardysa/ModsPack@main/Assets/heroes.json"
-              echo "✅ Purged heroes.json from jsDelivr CDN"
+              if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+                # Manual trigger: use inputs or default to key files
+                if [ -n "${{ github.event.inputs.paths }}" ]; then
+                  echo "paths=${{ github.event.inputs.paths }}" >> $GITHUB_OUTPUT
+                else
+                  echo "paths=Assets/heroes.json,Assets/set_update.json,config/misc_config.json" >> $GITHUB_OUTPUT
+                fi
+              else
+                # Push trigger: detect from changed files
+                CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+                PATHS=""
+                if echo "$CHANGED" | grep -q "Assets/heroes.json"; then
+                  PATHS="${PATHS}Assets/heroes.json,"
+                fi
+                if echo "$CHANGED" | grep -q "Assets/set_update.json"; then
+                  PATHS="${PATHS}Assets/set_update.json,"
+                fi
+                if echo "$CHANGED" | grep -q "config/misc_config.json"; then
+                  PATHS="${PATHS}config/misc_config.json,"
+                fi
+                # Trim trailing comma
+                PATHS="${PATHS%,}"
+                echo "paths=$PATHS" >> $GITHUB_OUTPUT
+              fi
 
-         - name: Purge set_update.json from CDN
+         - name: Purge jsDelivr CDN cache
+           if: steps.changes.outputs.paths != ''
            run: |
-              curl -X GET "https://purge.jsdelivr.net/gh/Anneardysa/ModsPack@main/Assets/set_update.json"
-              echo "✅ Purged set_update.json from jsDelivr CDN"
+              echo "🔄 Purging jsDelivr CDN cache..."
+              IFS=',' read -ra FILES <<< "${{ steps.changes.outputs.paths }}"
+              for file in "${FILES[@]}"; do
+                file=$(echo "$file" | xargs) # trim whitespace
+                echo "  Purging: $file"
+                RESPONSE=$(curl -s -w "\n%{http_code}" \
+                  "https://purge.jsdelivr.net/gh/Anneardysa/ModsPack@main/${file}")
+                HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+                if [ "$HTTP_CODE" = "200" ]; then
+                  echo "  ✅ Purged from jsDelivr: $file"
+                else
+                  echo "  ⚠️  jsDelivr purge returned $HTTP_CODE for: $file"
+                fi
+              done
 
          - name: Wait for CDN to refresh
            run: sleep 5
 
-         - name: Verify cache purge
+         - name: Summary
            run: |
-              echo "Cache purge complete. CDN will serve fresh content on next request."
+              echo "## CDN Cache Purge Complete" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "**Files purged:**" >> $GITHUB_STEP_SUMMARY
+              IFS=',' read -ra FILES <<< "${{ steps.changes.outputs.paths }}"
+              for file in "${FILES[@]}"; do
+                file=$(echo "$file" | xargs)
+                echo "- \`$file\`" >> $GITHUB_STEP_SUMMARY
+              done
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "CDN will serve fresh content on next request." >> $GITHUB_STEP_SUMMARY
