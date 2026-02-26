@@ -4,7 +4,7 @@
     "disabledMessage": "Skin Selector is under maintenance. Please try again later."
   },
   "miscellaneous": {
-    "enabled": true,
+    "enabled": false,
     "disabledMessage": "Miscellaneous is under maintenance. Please try again later."
   }
 }
