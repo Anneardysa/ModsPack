@@ -2192,29 +2192,24 @@
                     "url": "11998",
                     "styles": [
                         {
-                            "name": "Shifty Minnow (Style 0)",
-                            "url": "11998:0",
-                            "thumbnailId": "shifty_minnow_dota_style_shifty_minnow_0"
+                            "name": "Shifty Minnow Style 0",
+                            "url": "11998:0"
                         },
                         {
-                            "name": "Shifty Minnow (Style 1)",
-                            "url": "11998:1",
-                            "thumbnailId": "shifty_minnow_dota_style_shifty_minnow_1"
+                            "name": "Shifty Minnow Style 1",
+                            "url": "11998:1"
                         },
                         {
-                            "name": "Shifty Minnow (Style 2)",
-                            "url": "11998:2",
-                            "thumbnailId": "shifty_minnow_dota_style_shifty_minnow_2"
+                            "name": "Shifty Minnow Style 2",
+                            "url": "11998:2"
                         },
                         {
-                            "name": "Shifty Minnow (Style 3)",
-                            "url": "11998:3",
-                            "thumbnailId": "shifty_minnow_dota_style_shifty_minnow_3"
+                            "name": "Shifty Minnow Style 3",
+                            "url": "11998:3"
                         },
                         {
-                            "name": "Shifty Minnow (Style 4)",
-                            "url": "11998:4",
-                            "thumbnailId": "shifty_minnow_dota_style_shifty_minnow_4"
+                            "name": "Shifty Minnow Style 4",
+                            "url": "11998:4"
                         }
                     ]
                 },
@@ -2235,29 +2230,24 @@
                     "url": "11384",
                     "styles": [
                         {
-                            "name": "Smeevil's Penance (Style 0)",
-                            "url": "11384:0",
-                            "thumbnailId": "smeevils_penance_dota_style_smeevil_ward_0"
+                            "name": "Smeevil's Penance Style 0",
+                            "url": "11384:0"
                         },
                         {
-                            "name": "Smeevil's Penance (Style 1)",
-                            "url": "11384:1",
-                            "thumbnailId": "smeevils_penance_dota_style_smeevil_ward_1"
+                            "name": "Smeevil's Penance Style 1",
+                            "url": "11384:1"
                         },
                         {
-                            "name": "Smeevil's Penance (Style 2)",
-                            "url": "11384:2",
-                            "thumbnailId": "smeevils_penance_dota_style_smeevil_ward_2"
+                            "name": "Smeevil's Penance Style 2",
+                            "url": "11384:2"
                         },
                         {
-                            "name": "Smeevil's Penance (Style 3)",
-                            "url": "11384:3",
-                            "thumbnailId": "smeevils_penance_dota_style_smeevil_ward_3"
+                            "name": "Smeevil's Penance Style 3",
+                            "url": "11384:3"
                         },
                         {
-                            "name": "Smeevil's Penance (Style 4)",
-                            "url": "11384:4",
-                            "thumbnailId": "smeevils_penance_dota_style_smeevil_ward_4"
+                            "name": "Smeevil's Penance Style 4",
+                            "url": "11384:4"
                         }
                     ]
                 },
