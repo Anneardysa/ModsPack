@@ -656,7 +656,7 @@
                     "url": "18531"
                 },
                 {
-                    "name": "Aghanim\u2019s Interdimensional Baby Roshan",
+                    "name": "Aghanim’s Interdimensional Baby Roshan",
                     "url": "14951",
                     "thumbnailId": "aghanim's_interdimensional_baby_roshan"
                 },
@@ -869,7 +869,7 @@
                     "url": "10167"
                 },
                 {
-                    "name": "Capy \u2019n Peeps",
+                    "name": "Capy ’n Peeps",
                     "url": "27535"
                 },
                 {
@@ -1945,6 +1945,405 @@
                 {
                     "name": "Zombie Hopper",
                     "url": "10456"
+                }
+            ]
+        },
+        {
+            "id": "Ward",
+            "displayName": "Ward",
+            "category": "Gameplay",
+            "thumbnailFolder": "ward",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Default Ward",
+                    "url": "596"
+                },
+                {
+                    "name": "2012 Polycount Ward",
+                    "url": "10142"
+                },
+                {
+                    "name": "A Dire Gaze",
+                    "url": "10184"
+                },
+                {
+                    "name": "All-Seeing Eye Dogs",
+                    "url": "18684"
+                },
+                {
+                    "name": "Aperture Science Wardcore",
+                    "url": "10310"
+                },
+                {
+                    "name": "Arctic Watchtower",
+                    "url": "10878"
+                },
+                {
+                    "name": "Augury's Guardian",
+                    "url": "10134"
+                },
+                {
+                    "name": "Beaks n' Bubbles",
+                    "url": "17661"
+                },
+                {
+                    "name": "Black Pool Watcher",
+                    "url": "10146"
+                },
+                {
+                    "name": "Blueheart Spotter",
+                    "url": "10098"
+                },
+                {
+                    "name": "Bottom Watcher",
+                    "url": "10156"
+                },
+                {
+                    "name": "Bramble Watch",
+                    "url": "10427"
+                },
+                {
+                    "name": "Celestial Observatory",
+                    "url": "10349"
+                },
+                {
+                    "name": "Class Zero Moogle",
+                    "url": "11085"
+                },
+                {
+                    "name": "Clockwerk Watcher",
+                    "url": "10449"
+                },
+                {
+                    "name": "Curious Snaptrap",
+                    "url": "12162"
+                },
+                {
+                    "name": "Dead Watch",
+                    "url": "10474"
+                },
+                {
+                    "name": "Deep Observer",
+                    "url": "10482"
+                },
+                {
+                    "name": "Double Vision",
+                    "url": "10157"
+                },
+                {
+                    "name": "Dragon Ward",
+                    "url": "10572"
+                },
+                {
+                    "name": "Echo the Locator",
+                    "url": "10898"
+                },
+                {
+                    "name": "Enchanted Vision",
+                    "url": "10698"
+                },
+                {
+                    "name": "ESL One Jagged Vision Ward",
+                    "url": "10546"
+                },
+                {
+                    "name": "Eye of Avernus",
+                    "url": "10383"
+                },
+                {
+                    "name": "Eye of Foresight",
+                    "url": "10757"
+                },
+                {
+                    "name": "Eye of Lyralei",
+                    "url": "10400"
+                },
+                {
+                    "name": "Eye of the Ozkavosh",
+                    "url": "10097"
+                },
+                {
+                    "name": "Eye of Thunderkeg",
+                    "url": "10402"
+                },
+                {
+                    "name": "Eyeball Fetish",
+                    "url": "10067"
+                },
+                {
+                    "name": "Eyes of the Watchroot",
+                    "url": "11426"
+                },
+                {
+                    "name": "Faithful Followers",
+                    "url": "13772"
+                },
+                {
+                    "name": "Fallen Sight",
+                    "url": "11338"
+                },
+                {
+                    "name": "Feather Sentinel",
+                    "url": "11421"
+                },
+                {
+                    "name": "Featherhutch",
+                    "url": "10935"
+                },
+                {
+                    "name": "Floe's Tower Ward",
+                    "url": "12900"
+                },
+                {
+                    "name": "Franglerfish Watcher",
+                    "url": "11347"
+                },
+                {
+                    "name": "Frosty the North Ward",
+                    "url": "24201"
+                },
+                {
+                    "name": "Frozen Formation",
+                    "url": "10381"
+                },
+                {
+                    "name": "Gazing Idol",
+                    "url": "11183"
+                },
+                {
+                    "name": "Glaring Greevils",
+                    "url": "24675"
+                },
+                {
+                    "name": "Hellgazer",
+                    "url": "10148"
+                },
+                {
+                    "name": "Jungleworm Sentinel",
+                    "url": "11340"
+                },
+                {
+                    "name": "Knight Statue",
+                    "url": "10521"
+                },
+                {
+                    "name": "Loft Watcher",
+                    "url": "11084"
+                },
+                {
+                    "name": "Mega Greevil Ward",
+                    "url": "11142"
+                },
+                {
+                    "name": "MLG Tethered Sentinel",
+                    "url": "10370"
+                },
+                {
+                    "name": "Monty",
+                    "url": "10570"
+                },
+                {
+                    "name": "Neokin Faierie Ward",
+                    "url": "10899"
+                },
+                {
+                    "name": "Nightmare Beacon",
+                    "url": "10010"
+                },
+                {
+                    "name": "Obelisk of Foresight",
+                    "url": "11346"
+                },
+                {
+                    "name": "Ocula the Observer",
+                    "url": "10304"
+                },
+                {
+                    "name": "Overseer's Burden",
+                    "url": "11367"
+                },
+                {
+                    "name": "Rockshell Scout",
+                    "url": "11341"
+                },
+                {
+                    "name": "Rotzo's Peepers",
+                    "url": "33524"
+                },
+                {
+                    "name": "Savvy Tarsus",
+                    "url": "10905"
+                },
+                {
+                    "name": "Schnapp & Spyfly",
+                    "url": "11345"
+                },
+                {
+                    "name": "Scientific Curiousity",
+                    "url": "10688"
+                },
+                {
+                    "name": "Sentinels of Ruin",
+                    "url": "12947"
+                },
+                {
+                    "name": "Shifty Minnow",
+                    "url": "11998",
+                    "styles": [
+                        {
+                            "name": "Shifty Minnow (Style 0)",
+                            "url": "11998:0",
+                            "thumbnailId": "shifty_minnow_dota_style_shifty_minnow_0"
+                        },
+                        {
+                            "name": "Shifty Minnow (Style 1)",
+                            "url": "11998:1",
+                            "thumbnailId": "shifty_minnow_dota_style_shifty_minnow_1"
+                        },
+                        {
+                            "name": "Shifty Minnow (Style 2)",
+                            "url": "11998:2",
+                            "thumbnailId": "shifty_minnow_dota_style_shifty_minnow_2"
+                        },
+                        {
+                            "name": "Shifty Minnow (Style 3)",
+                            "url": "11998:3",
+                            "thumbnailId": "shifty_minnow_dota_style_shifty_minnow_3"
+                        },
+                        {
+                            "name": "Shifty Minnow (Style 4)",
+                            "url": "11998:4",
+                            "thumbnailId": "shifty_minnow_dota_style_shifty_minnow_4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Silkwing Spotters",
+                    "url": "19266"
+                },
+                {
+                    "name": "Skywrath Sentinel",
+                    "url": "10069"
+                },
+                {
+                    "name": "Slayer's Glare",
+                    "url": "10006"
+                },
+                {
+                    "name": "Smeevil's Penance",
+                    "url": "11384",
+                    "styles": [
+                        {
+                            "name": "Smeevil's Penance (Style 0)",
+                            "url": "11384:0",
+                            "thumbnailId": "smeevils_penance_dota_style_smeevil_ward_0"
+                        },
+                        {
+                            "name": "Smeevil's Penance (Style 1)",
+                            "url": "11384:1",
+                            "thumbnailId": "smeevils_penance_dota_style_smeevil_ward_1"
+                        },
+                        {
+                            "name": "Smeevil's Penance (Style 2)",
+                            "url": "11384:2",
+                            "thumbnailId": "smeevils_penance_dota_style_smeevil_ward_2"
+                        },
+                        {
+                            "name": "Smeevil's Penance (Style 3)",
+                            "url": "11384:3",
+                            "thumbnailId": "smeevils_penance_dota_style_smeevil_ward_3"
+                        },
+                        {
+                            "name": "Smeevil's Penance (Style 4)",
+                            "url": "11384:4",
+                            "thumbnailId": "smeevils_penance_dota_style_smeevil_ward_4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Spell Surveyor",
+                    "url": "10296"
+                },
+                {
+                    "name": "Spring Ward",
+                    "url": "10406"
+                },
+                {
+                    "name": "Spying Toadstool",
+                    "url": "11336"
+                },
+                {
+                    "name": "Staff of Faith",
+                    "url": "10068"
+                },
+                {
+                    "name": "Starecrow",
+                    "url": "11903"
+                },
+                {
+                    "name": "Stone Bound Watcher",
+                    "url": "10699"
+                },
+                {
+                    "name": "Stone Seer",
+                    "url": "11344"
+                },
+                {
+                    "name": "The Eye Fountain",
+                    "url": "11154"
+                },
+                {
+                    "name": "The Eyes of the King",
+                    "url": "11993"
+                },
+                {
+                    "name": "The Reading Palms",
+                    "url": "12465"
+                },
+                {
+                    "name": "The Watcher Below",
+                    "url": "11266"
+                },
+                {
+                    "name": "Toxic Gaze",
+                    "url": "10002"
+                },
+                {
+                    "name": "Trailgazer",
+                    "url": "12190"
+                },
+                {
+                    "name": "Ward of the Eternal Alliance",
+                    "url": "10729"
+                },
+                {
+                    "name": "Ward of the Phoenix",
+                    "url": "11771"
+                },
+                {
+                    "name": "Wardfish",
+                    "url": "10417"
+                },
+                {
+                    "name": "Warding Guise",
+                    "url": "10330"
+                },
+                {
+                    "name": "Wards of Dolfrat",
+                    "url": "13123"
+                },
+                {
+                    "name": "Watchful Sotdae",
+                    "url": "10368"
+                },
+                {
+                    "name": "Watchful Wyrm",
+                    "url": "11968"
+                },
+                {
+                    "name": "Wide Angle",
+                    "url": "10423"
                 }
             ]
         }
