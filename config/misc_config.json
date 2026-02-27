@@ -63,6 +63,7 @@
             "displayName": "Terrain",
             "category": "Environment",
             "thumbnailFolder": "terrain",
+            "excludesWith": ["Special"],
             "choices": [
                 {
                     "name": "Default Terrain",
@@ -2334,6 +2335,29 @@
                 {
                     "name": "Wide Angle",
                     "url": "10423"
+                }
+            ]
+        },
+        {
+            "id": "Special",
+            "displayName": "Low Poly Map",
+            "category": "Environment",
+            "thumbnailFolder": "special",
+            "thumbnailExtension": "png",
+            "type": "vpk",
+            "excludesWith": ["Map"],
+            "choices": [
+                {
+                    "name": "Disable Special",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md"
+                },
+                {
+                    "name": "LowPolyMap",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv1.zip"
+                },
+                {
+                    "name": "LowPolyMap Cartoon Trees",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv2.zip"
                 }
             ]
         }
