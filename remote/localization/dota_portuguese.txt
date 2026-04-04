@@ -9588,7 +9588,6 @@
 		"dota_stat_dropdown_gold_per_min"	"Ouro p/ minuto"		// minute
 		"dota_stat_dropdown_xp_per_min"		"XP p/ minuto"		// minute
 		"dota_stat_dropdown_buyback"		"Reviver (Estado)"
-		"dota_stat_dropdown_herofacet"		"Faceta"
 		"dota_stat_dropdown_networth"		"Valor líquido"
 		"dota_stat_dropdown_fantasy"		"Pontos de Sonho"
 		"dota_stat_dropdown_fantasy_tooltip" "Detalhes"
@@ -12025,7 +12024,11 @@
 		"DOTA_Style_Red_Riding_Hood_Style_0"	"Lobo"
 		"DOTA_Style_Red_Riding_Hood_Style_1"	"Avozinha"
 		
-		//DOTA_ITEM_STYLES_END
+		"DOTA_Style_Dragon_Knight_Griffin_Knight_0"		"Fire"
+		"DOTA_Style_Dragon_Knight_Griffin_Knight_1" 	"Corrosive"
+		"DOTA_Style_Dragon_Knight_Griffin_Knight_2" 	"Frost"
+
+//DOTA_ITEM_STYLES_END
 //DOTA_ITEM_STYLE_END
 
 		"TeamCup_Description"	"Adquirido com a ajuda dos fãs na \"Taça das Equipas\" semanal do The International"
@@ -22695,7 +22698,6 @@ Jogadores experientes que queiram entrar terão de ter jogado pelo menos {d:new_
 	"dota_settings_spectatordropdown_kda"		"Vítimas / Mortes / Assist."
 	"dota_settings_spectatordropdown_lasthits_denies" "Golpes Finais / Negações"
 	"dota_settings_spectatordropdown_level"		"Nível do herói"
-	"dota_settings_spectatordropdown_herofacet"	"Faceta"
 	"dota_settings_spectatordropdown_xp_per_min" "XP por minuto"
 	"dota_settings_spectatordropdown_gold"		"Ouro atual"
 	"dota_settings_spectatordropdown_totalgold" "Valor líquido"
@@ -30749,7 +30751,7 @@ Outros heróis também ficaram em destaque: heróis que fazem pressão no iníci
 
 	"DOTA_Chat_TormentorTimerMessage_Alive"			"Tormentor %s1 Vivo no abismo de %s2."
 	"DOTA_Chat_TormentorTimerMessage_FirstSpawn"	"Tormentor %s1 O primeiro irá aparecer em %s3 no abismo de %s2."
-	"DOTA_Chat_TormentorTimerMessage_Respawning"	"Tormentor %s1 Vai reaparecer em %s3."
+	"DOTA_Chat_TormentorTimerMessage_Respawning"	"Tormentor %s1 Vai reaparecer em %s3 no abismo de %s2."
 
 	"DOTA_Chat_TormentorTimerMessage_AttackTormentor"				"Tormentor %s1 Vamos atacá-lo no abismo de %s2!"
 	"DOTA_Chat_TormentorTimerMessage_WaitForTormentorToSpawn"		"Tormentor %s1 Vamos esperar que apareça em %s3."
@@ -31349,6 +31351,7 @@ Outros heróis também ficaram em destaque: heróis que fazem pressão no iníci
 	"DOTA_740b_Update"	  "Atualização 7.40b"
 	"DOTA_740c_Update"	  "Atualização 7.40c"
 	"DOTA_741_Update"	  "Atualização 7.41"
+	"DOTA_741a_Update"	  "Atualização 7.41a"
 
 	"DOTA_Settings_Tooltip_NetworkLatency" "Caso tenhas uma ligação à rede com perda de pacotes, selecionar a opção \"rede de baixa qualidade\" irá aumentar a latência mas irá melhorar a sua consistência no geral."
 
@@ -48920,7 +48923,6 @@ Contudo, se achares que não conseguiste dedicar o nível de atenção apropriad
 		"dota_settings_bind_SpectatorDropdown_KDA"             "Vítimas / Mortes / Assist."
 		"dota_settings_bind_SpectatorDropdown_Lasthits_Denies" "Golpes Finais / Negações"
 		"dota_settings_bind_SpectatorDropdown_Level"           "Nível Heroico"
-		"dota_settings_bind_SpectatorDropdown_HeroFacet"       "Faceta"
 		"dota_settings_bind_SpectatorDropdown_XP_Per_Min"      "XP por minuto"
 		"dota_settings_bind_SpectatorDropdown_Gold"            "Ouro atual"
 		"dota_settings_bind_SpectatorDropdown_Networth"        "Valor líquido"

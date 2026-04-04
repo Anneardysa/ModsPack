@@ -9588,7 +9588,6 @@
 		"dota_stat_dropdown_gold_per_min"	"每分钟金钱"		// minute
 		"dota_stat_dropdown_xp_per_min"		"每分钟经验"		// minute
 		"dota_stat_dropdown_buyback"		"买活状态"
-		"dota_stat_dropdown_herofacet"		"英雄命石"
 		"dota_stat_dropdown_networth"		"财产总和"
 		"dota_stat_dropdown_fantasy"		"梦幻积分"
 		"dota_stat_dropdown_fantasy_tooltip" "积分详情"
@@ -12025,7 +12024,11 @@
 		"DOTA_Style_Red_Riding_Hood_Style_0"	"狼"
 		"DOTA_Style_Red_Riding_Hood_Style_1"	"外婆"
 		
-		//DOTA_ITEM_STYLES_END
+		"DOTA_Style_Dragon_Knight_Griffin_Knight_0"		"烈火"
+		"DOTA_Style_Dragon_Knight_Griffin_Knight_1" 	"腐蚀"
+		"DOTA_Style_Dragon_Knight_Griffin_Knight_2" 	"冰霜"
+
+//DOTA_ITEM_STYLES_END
 //DOTA_ITEM_STYLE_END
 
 		"TeamCup_Description"	"国际邀请赛每周战队竞争期间由众多粉丝博得"
@@ -22750,7 +22753,6 @@
 	"dota_settings_spectatordropdown_kda"		"击杀/死亡/助攻"
 	"dota_settings_spectatordropdown_lasthits_denies" "正补/反补"
 	"dota_settings_spectatordropdown_level"		"英雄等级"
-	"dota_settings_spectatordropdown_herofacet"	"英雄命石"
 	"dota_settings_spectatordropdown_xp_per_min" "每分钟经验"
 	"dota_settings_spectatordropdown_gold"		"当前金钱"
 	"dota_settings_spectatordropdown_totalgold" "财产总和"
@@ -30804,7 +30806,7 @@
 
 	"DOTA_Chat_TormentorTimerMessage_Alive"			"痛苦魔方%s1在%s2裂口存活。"
 	"DOTA_Chat_TormentorTimerMessage_FirstSpawn"	"痛苦魔方%s1会在%s3后第一次在%s2裂口出现。"
-	"DOTA_Chat_TormentorTimerMessage_Respawning"	"痛苦魔方%s1会在%s3后在裂口复活。"
+	"DOTA_Chat_TormentorTimerMessage_Respawning"	"痛苦魔方%s1会在%s3后在%s2裂口复活。"
 
 	"DOTA_Chat_TormentorTimerMessage_AttackTormentor"				"痛苦魔方%s1我们一起去%s2裂口！"
 	"DOTA_Chat_TormentorTimerMessage_WaitForTormentorToSpawn"		"痛苦魔方%s1大家先等他在%s3后出现"
@@ -31401,6 +31403,7 @@
 	"DOTA_740b_Update"	  "7.40b 游戏性更新"
 	"DOTA_740c_Update"	  "7.40c 游戏性更新"
 	"DOTA_741_Update"	  "7.41 游戏性更新"
+	"DOTA_741a_Update"	  "7.41a 游戏性更新"
 
 	"DOTA_Settings_Tooltip_NetworkLatency" "如果网络连接存在丢包现象，请将此项调至“低”，虽然这样会增加延迟，但可提升整体流畅度。"
 
@@ -48973,7 +48976,6 @@
 		"dota_settings_bind_SpectatorDropdown_KDA"             "击杀/死亡/助攻"
 		"dota_settings_bind_SpectatorDropdown_Lasthits_Denies" "正补/反补"
 		"dota_settings_bind_SpectatorDropdown_Level"           "英雄等级"
-		"dota_settings_bind_SpectatorDropdown_HeroFacet"       "英雄命石"
 		"dota_settings_bind_SpectatorDropdown_XP_Per_Min"      "每分钟经验"
 		"dota_settings_bind_SpectatorDropdown_Gold"            "当前金钱"
 		"dota_settings_bind_SpectatorDropdown_Networth"        "财产总和"
