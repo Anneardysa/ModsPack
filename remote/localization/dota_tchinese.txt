@@ -965,6 +965,8 @@
 		"DOTA_Hotkeys_Tooltip_NeutralItemSelect2"	"選擇中立道具合成選單中的第二個選項"
 		"DOTA_Hotkeys_Tooltip_NeutralItemSelect3"	"選擇中立道具合成選單中的第三個選項"
 		"DOTA_Hotkeys_Tooltip_NeutralItemSelect4"	"選擇中立道具合成選單中的第四個選項"
+		"DOTA_Hotkeys_Tooltip_NeutralItemSelect5"	"選擇中立道具合成選單中的第五個選項"
+				
 		// Video
 		"DOTAUI_AspectNormal"			"4：3"
 		"DOTAUI_AspectWide16x9"			"16：9"
@@ -1062,7 +1064,7 @@
 		"DOTA_Chat_ObserverWardKilledBad"	"魔魘陣營拆除了一個偵察守衛！"
 		"DOTA_Chat_SentryWardGood"			"聖輝陣營拆除了一個崗哨守衛！"
 		"DOTA_Chat_SentryWardBad"			"魔魘陣營拆除了一個崗哨守衛！"
-		
+
 		"DOTA_Chat_KilledRoshanGood"	"羅煞被聖輝擊殺了！每位聖輝英雄獲得 %s1 金錢！"
 		"DOTA_Chat_KilledRoshanBad"		"羅煞被魔魘擊殺了！每位魔魘英雄獲得 %s1 金錢！"
 
@@ -1910,6 +1912,8 @@
 		
 		"DOTA_Archronicus_TheDeathBounty_Page2a"						"以下譯自："
 		"DOTA_Archronicus_TheDeathBounty_Page2b"						"皇家宣言"
+		"DOTA_Archronicus_TheDeathBounty_Page2c"						"從那時起，人們就知道了古老的《死亡懸賞書》，它是在巨石堂的廢墟中首次發現的。 多年來，這份檔案的重要性一直被忽視，因為它未被翻譯和遺忘，被密封在塞諾斯歷史檔案館的鎖門後面。 直到學者們詳細研究了這份檔案，他們才明白它代表了什麼。 這張腐爛的羊皮紙可能是《最後一擊》（Last Strike）的武術傳統的來源，現在在所有有爭議的土地上的王國中都很常見。"
+		
 		// The Archronicus - Cycle of Solstices
 		"DOTA_Archronicus_CycleOfSolstices_Title1"						"至日"
 		"DOTA_Archronicus_CycleOfSolstices_Title2"						"的"
@@ -3564,12 +3568,13 @@
 		"dota_region_southafrica"		"南非"
 		"dota_region_pw"				"完美世界（中國）"
 		"dota_region_pw_telecom"		"中國電信"
-		"dota_region_pw_telecom_shanghai"	"中國電信 上海"
+		"dota_region_pw_telecom_shanghai"	"中國上海"
 		"dota_region_pw_telecom_guangdong"	"中國電信 廣東"
 		"dota_region_pw_telecom_zhejiang"	"中國電信 浙江"
 		"dota_region_pw_telecom_wuhan"		"中國電信 武漢"
 		"dota_region_pw_unicom"			"中國聯通"
         "dota_region_pw_unicom_tianjin" "中國聯通 2"
+		"dota_region_pw_beijing"		"中國北京"
 		"dota_region_dubai"				"杜拜"
 		"dota_region_chile"				"智利"
 		"dota_region_argentina"			"阿根廷"
@@ -9189,6 +9194,7 @@
 		"KillEaterEvent_Tinker_LaserKills"				"雷射擊殺數"
  		"KillEaterEvent_Tinker_MarchOfTheMachinesDamage"	"機械行軍傷害量"
  		"KillEaterEvent_Tinker_MultiHeroLasers"				"雷射擊中多名英雄次數"
+		"KillEaterEvent_Tinker_DeployTurretsDamage"			"部署砲塔傷害"
  		"KillEaterEventType_Tinker_DefenseMatrixDamageBlocked"				"防禦矩陣傷害吸收量"
 
 		"KillEaterEvent_VengefulSpirit_MagicMissileKills"	"魔法靈彈暈眩期間擊殺次數"
@@ -9296,6 +9302,7 @@
 		"KillEaterEventType_Muerta_PierceTheVeilKills"				"劃破生死幕期間擊殺數"
 		"KillEaterEventType_Muerta_NoVisionDeadShotHits"			"無視野下死亡子彈造成恐懼次數"
 		"KillEaterEventType_Muerta_DeadShotKills"					"死亡子彈跳彈擊殺數"
+		"KillEaterEventType_Muerta_DeadShotsIntoTheCalling"			"死亡子彈打進亡靈召喚"
 
 		"KillEaterEvent_NewBloom2024_GiftsGiven"		"送出的龍之贈禮"
 		
@@ -14711,6 +14718,8 @@
 		"DOTA_ChallengeDesc_KillRoshanAsX"	 "使用<font color='#ffffff'>%s2</font>在戰局時間達 <font color='#ffffff'>%s1</font> 之前擊殺羅煞。"
 		"DOTA_ChallengeDesc_TechiesSuicide"		"以<font color='#ffffff'>點火升空！</font>取得 <font color='#ffffff'>%s1</font> 次擊殺。"
 		"DOTA_ChallengeDesc_SniperAssassinate"	"以<font color='#ffffff'>狙殺</font>取得 <font color='#ffffff'>%s1</font> 次擊殺。"
+		"DOTA_ChallengeDesc_Tinker_DeployTurrets"		"以<font color='#ffffff'>部署砲塔</font>對敵方英雄造成 <font color='#ffffff'>%s1</font> 傷害。"
+		"DOTA_ChallengeStatus_Tinker_DeployTurrets"		"%s2我尚需以部署砲塔對敵方英雄造成 %s1 傷害！"
 
 		"DOTA_ChallengeDesc_BountyHunterTrackKills" "藉由追蹤術賺取 <font color='#ffffff'>%s1</font> 金錢。"
 		"DOTA_ChallengeStatus_BountyHunterTrackKills"				"%s1我們尚需擊殺受追蹤術影響的敵方英雄 %s1 次！"
@@ -15912,10 +15921,12 @@
 		"DOTA_Quest_Warrior_BuyHeart_Title"				"昂首挺進"
 		"DOTA_Quest_Warrior_BuyHeart_Lore"				"守衛的精隨就淌流在你的血脈之中，修復受損的身軀並驅逐汙濁的毒素。"
 		"DOTA_Quest_Warrior_LastHits_Title"				"鮮血的代價"
+		"DOTA_Quest_Warrior_LastHits_Lore"				"石堂城的倖存者在我們的城牆後尋找避難之處。他們的一名指揮官已經回歸，並朝著夸司城而來。大軍急忙趕回，我們的守衛已經做好準備，準備向前招呼這支四散破碎的軍團。"
 		"DOTA_Quest_Warrior_UrsaAegis_Title"			"傳說永垂不朽"
 		"DOTA_Quest_Warrior_UrsaAegis_Lore"				"讓敵人在你面前撕裂雙爪、彎折刀鋒。每次崛起都更加強大，誓死捍衛夸司守衛的名聲。"
 
 		"DOTA_Quest_Legion_MomentOfCourage_Title"		"無畏逆襲"
+		"DOTA_Quest_Legion_MomentOfCourage_Lore"		"石堂城只剩一片斷垣殘壁，我的軍團灰飛煙滅。沿途村民散播著惡魔的語言，讓我們先找到他們，再把背後的主謀揪出來。"
 		"DOTA_Quest_Legion_OverwhelmingOdds_Title"		"壓倒性優勢"
 		"DOTA_Quest_Legion_OverwhelmingOdds_Lore"		"森林之路小嘍囉遍佈，他們的隊長在哪？有傳言說夸司城正在積極招兵買馬。那座城市裡不是只有空談之人嗎？連石堂城都抵禦不了的東西，他們怎麼能招架得住？"
 		"DOTA_Quest_Legion_BuyBlink_Title"				"快速部署"
@@ -16078,6 +16089,8 @@
 
 		"dota_today_tutorial_header"	"教學"
 		"dota_today_tutorial_title"		"引導式對抗電腦"
+		"dota_today_tutorial_descrip"	"在 AI 嚮導的引導下體驗一場完整的比賽。"
+
 		"DOTA_HallOfFame_Glow_Title"		"互動手冊等級 1000"
 		"DOTA_HallOfFame_Glow_Description"	"冠軍神盾在本場遊戲中將隨著這些玩家持有的互動手冊達等級 1000 而發光：%s1"
 
@@ -17391,6 +17404,7 @@
 		"KillEaterEvent_Slardar_KillsAfterSprint"			"配合守衛衝刺擊殺數"
 		"KillEaterEvent_Slardar_KillsDuringCorrosiveHaze"	"蝕甲陰霾期間擊殺數"
 		"KillEaterEvent_Slardar_CrushesOnThree"				"魚人碎擊擊中三名英雄次數"
+		"KillEaterEventType_Slardar_BashDamage"				"斯拉達重擊傷害"
 		"KillEaterEvent_Slark_KillsDuringPounce"			"突襲期間擊殺數"
 		"KillEaterEventType_Slark_HighEssenceShiftCount"	"能量轉移增幅破 30 層次數"
 		"KillEaterEventType_Slark_LongDistancePounces"		"遠距突襲次數"
@@ -24017,11 +24031,12 @@
 	"dota_profile_team_locked"			"隊伍已鎖定"
 	"dota_profile_team_locked_pro"		"職業選手將自動分屬到隊伍中"
 	"dota_profile_oi_register_title"	"職業選手登記"
-	"dota_profile_oi_register_title_details"	"使用此對話框將讓您在今年以職業選手的身分進行登記，這也包含國際錦標賽的參賽權。"
-	"dota_profile_oi_accept"			"接受協議並登記"
-	"dota_profile_oi_register_agreement"		"2025 職業賽季條款<br><br>>感謝您申請參與由 Valve Corporation（以下稱「Valve」）贊助的 2025 Dota 2 職業賽季（以下稱「賽季」）。此協議闡述了賽季的條款。若要符合參與資格，您必須同意這些條款。<br><br>賽事營運方。若在賽季期間被選中參與一或多個賽事，您可能需要與賽事營運方簽署個別協議。特別是有關賽事時程、規則、開支和獎品的資訊，應諮詢賽事營運方。<br><br>發佈。您在此同意賦予 Valve 權利可在賽季期間向全世界散布、展示及用其它未提及之方式使用您的外觀、表演、名稱、介紹內容、聲明及其它由您製作的音訊或視覺效果（統稱為您的「形象」），使用方式包括所有與賽季相關的媒介和媒體，包含但不限於電腦遊戲、影片、宣傳素材和廣告，且您不會為此獲得更多來自 Valve 的報酬。賽季結束後，Valve 亦可能基於永久保存、產品或宣傳目的重新使用在賽季期間製作的內容。您同意任何由 Valve 或為 Valve 錄製有關您參與賽季的音訊、影片或其它資料將由 Valve 所擁有。<br><br>一般。您代表自己、家屬、直系親屬繼承人、繼承人、受讓人和任何其他可能會透過您請求 Valve 和其繼承人與受讓人利益權利的人，做出這些陳述和承諾。Valve 可隨時變更或取消賽季，此由 Valve 全權決定。此協議受美國華盛頓州的法律所規範，在有任何有關此協議的糾紛時，您同意接受其管轄和使用美國華盛頓州金縣內的州立或聯邦法院為審判地。這些條款將取代此前存在的任何經與此事相關的各方所達成的協議。"
+	"dota_profile_oi_register_title_details"	"使用此對話框將讓您以職業選手的身分進行登記參與國際錦標賽。"
+	"dota_profile_oi_accept"			"我同意"
+	"dota_profile_oi_register_agreement"	"<b>DOTA 2 國際錦標賽參與條款</b><br><br>感謝您以（1）個別選手（下稱「選手」）或（2）戰隊（下稱「戰隊」）的標名代表身分參與由 Valve Corporation（下稱「Valve」）贊助的 Dota 2 國際錦標賽（下稱「國際錦標賽」）。欲符合國際錦標賽參與資格，必須同意這些條款（下稱「條款」）。<br><br><b>同意條款：</b><br>點擊「我同意」表示您已檢閱、明白這些條款，並同意受其約束。如果不同意，請勿繼續。<br><br><b>適用於選手和戰隊的條款：</b><br>• 賽事營運方。若在國際錦標賽期間被選中參與一或多個賽事，您可能需要與賽事營運方簽署個別協議。特別是有關賽事時程、規則、開支和獎品的資訊，應諮詢賽事營運方。<br>• 發佈。您在此同意賦予 Valve 在國際錦標賽期間向全世界散布、展示及以其它未提及之方式使用您的外觀、表演、名稱、自傳資訊、聲明和其它由您產出之聲音或影像效果，以及您的戰隊名稱、標誌和選手陣容（統稱您的「整體形象」）。使用整體形象的媒介包含但不限於國際錦標賽相關各式媒體、電腦遊戲、影片、宣傳素材和廣告，且不會為此進一步獲得來自 Valve 的報酬。國際錦標賽結束後，Valve 亦可能基於永久保存、產品或宣傳目的重新使用在國際錦標賽期間製作的內容。您同意任何由 Valve 或為 Valve 錄製有關您參與國際錦標賽的音訊、影片或其它資料將由 Valve 所擁有。<br><br><b>適用於戰隊的條款：</b><br>• 贊助商。戰隊不接受贊助的贊助商性質為透過違反適用 Valve 協議、違反當地法律，或依賴 Valve 遊戲經濟的行為來營利者，包括但不限於序號轉售商或與 Valve 遊戲玩家物品庫互動的公司。<br>• 戰隊名稱和數位資產。在不限制前述內容之情況下，您的戰隊不可使用、展示或提交任何含以下條列內容之數位資產，資產包括但不限於戰隊名稱、戰隊旗幟和戰隊標誌，內容包含（1）於任何國際錦標賽直播賽事的轄區或領土內展示或使用此贊助商的商品、服務或活動屬非法行為時，對該贊助商的直接或間接指涉；或（2）違反任何 Valve 智慧財產權、屬於廣告性質或與開箱網站或外觀交易網站有所關聯。<br>• 平等對待。您的戰隊將平等對待與國際錦標賽相關之每位參與選手（實例如旅費報銷、膳宿安排或練習機會等）。<br><br><b>一般：</b><br>您代表自己、家屬、直系親屬繼承人、繼承人、受讓人和任何其他可能會透過您請求 Valve 和其繼承人與受讓人利益權利的人，做出這些陳述和承諾。您聲明您有權以適用的身分代表選手或戰隊同意這些條款。您聲明提供的全部資訊均真實無誤。您同意以互敬的態度行事、避免干擾性行為，且遵守所有由 Valve 或國際錦標賽籌辦方提出的適用法律與準則。Valve 可隨時變更或取消國際錦標賽，此由 Valve 全權決定。這些條款以英文寫就，且條款解釋應以英文為準。這些條款受美國華盛頓州的法律所規範，在有任何有關條款的糾紛時，您同意接受其管轄，並使用美國華盛頓州金縣內的州立或聯邦法院為審判地。這些條款將取代此前存在、經與此事相關的各方所達成的任何協議。"
 	"dota_profile_oi_is_pro"			"您接受了此期間的職業選手協議。"
 	"dota_profile_oi_no_team"			"無戰隊"
+	"dota_profile_oi_no_name"			"同意條款前必須提供完整法定英文名稱。"
 
 
 	"dota_profile_oi_submit_info"		"提交"
@@ -28546,8 +28561,10 @@
 	"DOTA_International2020_Achievement_Make_A_Gift3_Name"							"他們是我的好夥伴"
 	"DOTA_International2020_Achievement_Make_A_Gift3_Description"					"贈送戰鬥通行證給五位好友"
 
+	"DOTA_International2020_Achievement_Cast_Votes_In_13_Rounds_Name"				"Dota 奧祕委員會"
 	"DOTA_International2020_Achievement_Cast_Votes_In_13_Rounds_Description"		"在總計 15 回的奧祕票選活動中參與其中 13 回"
 
+	"DOTA_International2020_Achievement_HighFive_25_Name"			"手舉高"
 	"DOTA_International2020_Achievement_HighFive_25_Desc"			"與 25 位玩家擊掌"
 	"DOTA_International2020_Achievement_HighFive_200_Desc"			"與 200 位玩家擊掌"
 	"DOTA_International2020_Achievement_HighFive_500_Name"			"與百位玩家擊掌"
@@ -28757,6 +28774,7 @@
 	"DOTA_HUD_DeathCost"					"死亡掉錢"
 	"DOTA_HUD_DeathTime"					"死亡時間"
 	"DOTA_HUD_BuybackCost"					"買活花費"
+	"DOTA_HUD_BuybackCooldownReady"			"可買活"
 	"DOTA_HUD_BuybackCooldownNotReady"		"買活冷卻"
 	"DOTA_HUD_BuybackCost_Needed"			"買活仍需"
 	"DOTA_HUD_BuybackCost_Surplus"			"盈餘"
@@ -30453,7 +30471,9 @@
 	"DOTA_Trivia_Question_ItemComponents"		"這些道具能合成什麼？"
 	"DOTA_Trivia_Question_ItemLore"				"下列背景故事屬於哪件道具？"
 	"DOTA_Trivia_Question_ItemPassives"			"下列被動屬於哪件道具？"
-	"DOTA_Tooltip_RoshanTimer_BaseTime"		"距離羅煞復活可能尚有："
+	"DOTA_Trivia_Question_ItemBuild"			"哪位英雄使用這套出裝指南在 {s:match_time_ago} 前的比賽獲勝？"
+
+    "DOTA_Tooltip_RoshanTimer_BaseTime"		"距離羅煞復活可能尚有："
 	"DOTA_Tooltip_RoshanTimer_VisibleTime"	"距離羅煞復活尚有："
 	
 	"DOTA_Tooltip_RoshanTimerMessage_RoshanIsAlive"	"羅煞仍存活，位於{s:roshan_cave_location}巢穴中。"
@@ -30611,6 +30631,7 @@
 	"DOTA_EventPointsPurchaseFailed_Title"					"購買失敗"
 	"DOTA_EventPointsPurchaseFailed_NotEnoughPoints"		"您帳戶中的點數不足，無法購買指定項目。"
 	"DOTA_EventPointsPurchaseFailed_NotAllowed"				"您必須具有活躍的 Dota Plus 會員才能花費碎片。"
+	"DOTA_EventPointsPurchaseFailed_SubscriptionRequired"	"此購買需要使用中的 Dota Plus 會員。"
 	"DOTA_EventPointsPurchaseFailed_GenericError"			"本次購買失敗。請於幾分鐘後再試一次。（錯誤代碼 {d:error_code}）"
 
 	"DOTA_CountdownOK" "確定 ({d:seconds})"
@@ -30926,6 +30947,8 @@
 	"DOTA_741_Update"	  "遊戲環節更新 7.41 版"
 	"DOTA_741a_Update"	  "遊戲環節更新 7.41a 版"
 	"DOTA_741b_Update"	  "遊戲環節更新 7.41b 版"
+	"DOTA_741c_Update"	  "遊戲環節更新 7.41c 版"
+	"DOTA_741d_Update"	  "遊戲環節更新 7.41d 版"
 
 	"DOTA_Settings_Tooltip_NetworkLatency" "如果您因為網路連線問題而遺失封包，將此選項設為「低」將增加延遲，但增進整體流暢度。"
 
@@ -32081,6 +32104,7 @@
 	"DOTA_Style_Queen_of_Pain_Arcana_Style0"		"瑞斯托之尊"
 	"DOTA_Style_Queen_of_Pain_Arcana_Style1"		"王室法令"
 	
+	"Debut_Arcana_QueenOfPain_Intro" 								"全新痛苦女王奧祕組合包" 
 	"Debut_Arcana_QueenOfPain_Lore"									"阿卡莎終於滿足了探索凡間的樂趣，現在回到了危險的瑞斯托王廷，沒想到在這段遠行期間她的榮耀已被遺忘。地上的女王仍想佔有地下的王座。阿卡莎與流亡在外的惡魔王子達成協議，奪取了新的力量，她的邪惡計畫也得以展開。"
 
 	"Debut_QueenOfPainArcana_Button_Original"						"檢視基本樣式"
@@ -32094,6 +32118,8 @@
 	"DOTA_QueenOfPainArcana_ArcanaProgress_Score"					"{s:current_score} / {d:unlock_value}"
 	"KillEaterEventType_QueenOfPain_ArcanaProgress"					"在獲勝比賽中使用音爆衝擊波折磨英雄的次數"
 
+	"DOTA_QueenOfPainArcana_Hud_Title"								"{d:combo_count} 次連技" 
+	
 	"Debut_Arcana_QueenOfPain_Feature_1_Title" 						"<span class='bullettitle'>全新外觀模型和臺座</span>"
 	"Debut_Arcana_QueenOfPain_Feature_2_Title" 						"<span class='bullettitle'>自訂動畫 & 特效</span>"
 	"Debut_Arcana_QueenOfPain_Feature_3_Title" 						"<span class='bullettitle'>自訂英雄資產</span>"
@@ -34376,6 +34402,7 @@
 	"DOTA_Plus_Winter2025_Update_Desc"						"新一季任務已加入 Dota Plus。"
 
 	"DOTA_Plus_Spring2026_Update_Title"						"2026 春季季度更新"
+	"DOTA_Plus_Summer2026_Update_Title"						"2026 夏季季度更新"
 
 	"DOTA_Plus_Autumn_Assitant_Title"						"新助理功能"
 	"DOTA_Plus_Autumn_Assitant_Desc"						"Plus 會員現在可使用黑名單工具、相剋指標建議器、守衛建議和其它輔助功能。"
@@ -34437,6 +34464,7 @@
 	"DOTA_TeamNeutralItemState_InPlayerStash"				"在貯藏"
 	"DOTA_TeamNeutralItemState_OnCourier"					"在信使"
 	"DOTA_TeamNeutralItemState_Consumed"					"已消耗"
+	"DOTA_TeamNeutralItemState_Unknown"						"不明"
 	"DOTA_TeamNeutralItems_Hint"							"按<span class=\"ShortcutLabel\">「左 Alt 鍵 + 滑鼠點擊」</span>來向隊友請求道具。"
 	"DOTA_TeamNeutralItems_ViewAll"							"檢視所有中立道具"
 	"DOTA_TeamNeutralItems_ViewTeam"						"檢視我方中立道具"
@@ -35033,6 +35061,9 @@
 	"DOTA_TI10_EventGame_blessing_stat_int_Desc"					"智力屬性 +2。"
 	"DOTA_TI10_EventGame_blessing_stat_int_2_Desc"					"智力屬性 +3。"
 	"DOTA_TI10_EventGame_blessing_stat_int_3_Desc"					"智力屬性 +4。"
+	"DOTA_TI10_EventGame_blessing_attack_speed_Desc"				"攻速 +10。"
+	"DOTA_TI10_EventGame_blessing_mana_boost_Desc"					"魔力 +10%。"
+	"DOTA_TI10_EventGame_blessing_health_boost_Desc"				"每級生命 +10。"
 	"DOTA_TI10_EventGame_blessing_life_steal_Desc"					"生命吸取 +5%。"
 	"DOTA_TI10_EventGame_blessing_spell_life_steal_Title"			"吸血鬼法師"
 	"DOTA_TI10_EventGame_blessing_spell_life_steal_Desc"			"技能生命吸取 +5%。"
@@ -35140,7 +35171,9 @@
 	"DOTA_Tooltip_modifier_aghsfort_void_spirit_boss_astral_step_debuff"				"虛步"
 	"DOTA_Tooltip_modifier_aghsfort_void_spirit_boss_astral_step_debuff_Description"	"移動速度降低 %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%，並將隨著緩速效果消失而受傷。"
 	"DOTA_Tooltip_modifier_shroomling_enrage"											"狂暴"
+	"DOTA_Tooltip_modifier_shroomling_enrage_Description"								"提升攻擊速度、移動速度和生命吸取"
 	"DOTA_Tooltip_modifier_shroomling_sleep"											"沉睡"
+	"DOTA_Tooltip_modifier_shroomling_sleep_Description"								"單位陷入沉睡。受到傷害時被喚醒。"
 	"DOTA_Tooltip_modifier_aghsfort_creature_impale"									"穿刺"
 	"DOTA_Tooltip_modifier_aghsfort_creature_spiked_carapace"							"尖刺外殼"
 	"DOTA_Tooltip_modifier_aghsfort_wildwing_tornado_blast_debuff"						"受旋風攻擊"
@@ -35287,6 +35320,9 @@
 
 		"DOTA_PlusSeason_SeasonSpring2026_Name"					"2026 春季"
 		"DOTA_PlusSeason_SeasonSpring2026_Quests"					"2026 春季任務"
+
+		"DOTA_PlusSeason_SeasonSummer2026_Name"					"2026 夏季"
+		"DOTA_PlusSeason_SeasonSummer2026_Quests"					"2026 夏季任務"
 
 		"DOTA_MatchRewards"							"比賽獎勵"
 		"DOTA_MatchRewards_YourShards"				"您的碎片"
@@ -44387,6 +44423,9 @@
 		"DOTA_HUD_Pregame_TokenRewards"					"{s:act_number} 枚代幣獎勵"
 		"DOTA_HUD_Pregame_TurboTokenRewardsTooltip"		"加速模式比賽獲勝可獲 2 枚代幣。選擇欲獲得的代幣。"
 
+		"DOTA_HeroGrid_Overworld"						"王冠之墮"
+		"DOTA_HeroGrid_Overworld_Description"			"發光標示用來解鎖王冠之墮地圖上進行中路線的代幣可從哪些英雄獲得。 "
+		
 		"DOTA_CrownfallLeaderboard_Act1_Title"			"第一幕進度"
 		"DOTA_CrownfallLeaderboard_Act2_Title"			"第二幕進度"
 		"DOTA_CrownfallLeaderboard_Act3_Title"			"第三幕進度"

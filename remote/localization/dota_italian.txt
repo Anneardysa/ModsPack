@@ -1064,6 +1064,8 @@
 		"DOTA_Chat_ObserverWardKilledBad"	"I Dire hanno distrutto un Guardiano Osservatore!"
 		"DOTA_Chat_SentryWardGood"			"I Radiant hanno distrutto un Guardiano Sentinella!"
 		"DOTA_Chat_SentryWardBad"			"I Dire hanno distrutto un Guardiano Sentinella!"
+
+		"DOTA_Chat_SmokeActivated"			"Attivato <font color='#FF80FF'><b>Fumo del Raggiro</b></font>."
 		
 		"DOTA_Chat_KilledRoshanGood"	"Roshan è stato ucciso dai Radiant! %s1 monete d'oro per ciascun Eroe dei Radiant!"
 		"DOTA_Chat_KilledRoshanBad"		"Roshan è stato ucciso dai Dire! %s1 monete d'oro per ciascun Eroe dei Dire!"
@@ -3592,12 +3594,13 @@
 		"dota_region_southafrica"		"Sud Africa"
 		"dota_region_pw"				"Perfect World (Cina)"
 		"dota_region_pw_telecom"		"China TC"
-		"dota_region_pw_telecom_shanghai"	"China TC Shanghai"
+		"dota_region_pw_telecom_shanghai"	"Shanghai (Cina)"
 		"dota_region_pw_telecom_guangdong"	"China TC Guangdong"
 		"dota_region_pw_telecom_zhejiang"	"China TC Zhejiang"
 		"dota_region_pw_telecom_wuhan"		"China TC Wuhan"
 		"dota_region_pw_unicom"			"China UC"
         "dota_region_pw_unicom_tianjin" "China UC 2"
+		"dota_region_pw_beijing"		"Pechino (Cina)"
 		"dota_region_dubai"				"Dubai"
 		"dota_region_chile"				"Cile"
 		"dota_region_argentina"			"Argentina"
@@ -9213,6 +9216,7 @@ Se un tuo oggetto viene scelto per la vendita all'interno del gioco, ne guadagne
 		"KillEaterEvent_Tinker_LaserKills"				"Uccisioni con il Laser"
  		"KillEaterEvent_Tinker_MarchOfTheMachinesDamage"	"Danni con Marcia delle macchine"
  		"KillEaterEvent_Tinker_MultiHeroLasers"				"Laser su più Eroi"
+		"KillEaterEvent_Tinker_DeployTurretsDamage"			"Danno di Dispiega torrette"
  		"KillEaterEventType_Tinker_DefenseMatrixDamageBlocked"				"Danno assorbito con Matrice difensiva"
 
 		"KillEaterEvent_VengefulSpirit_MagicMissileKills"	"Uccisioni durante lo stordimento di Missile magico"
@@ -9320,6 +9324,7 @@ Se un tuo oggetto viene scelto per la vendita all'interno del gioco, ne guadagne
 		"KillEaterEventType_Muerta_PierceTheVeilKills"				"Uccisioni durante Perforazione del velo"
 		"KillEaterEventType_Muerta_NoVisionDeadShotHits"			"Nemici invisibili spaventati con Proiettile mortale"
 		"KillEaterEventType_Muerta_DeadShotKills"					"Uccisioni con rimbalzi di Proiettile mortale"
+		"KillEaterEventType_Muerta_DeadShotsIntoTheCalling"			"Proiettile mortale in combinazione con Riunione di famiglia"
 
 		"KillEaterEvent_NewBloom2024_GiftsGiven"		"Doni del Drago regalati"
 		
@@ -14737,6 +14742,8 @@ Provocazione speciale per Techies"
 		"DOTA_ChallengeDesc_KillRoshanAsX"	 "Mentre giochi come <font color='#ffffff'>%s2</font>, uccidi Roshan prima che il timer di gioco raggiunga <font color='#ffffff'>%s1</font>."
 		"DOTA_ChallengeDesc_TechiesSuicide"		"Ottieni <font color='#ffffff'>%s1</font> o più uccisioni con <font color='#ffffff'>Partenza col botto!</font>."
 		"DOTA_ChallengeDesc_SniperAssassinate"	"Ottieni <font color='#ffffff'>%s1</font> o più uccisioni con <font color='#ffffff'>Assassinio</font>."
+		"DOTA_ChallengeDesc_Tinker_DeployTurrets"		"Infliggi <font color='#ffffff'>%s1</font> danni agli Eroi nemici con <font color='#ffffff'>Dispiega torrette</font>."
+		"DOTA_ChallengeStatus_Tinker_DeployTurrets"		"%s2Devo infliggere altri %s1 danni con Dispiega torrette!"
 
 		"DOTA_ChallengeDesc_BountyHunterTrackKills" "Ottieni <font color='#ffffff'>%s1</font> taglie dall'uccisione degli Eroi tracciati."
 		"DOTA_ChallengeStatus_BountyHunterTrackKills"				"%s2Dobbiamo uccidere altri %s1 Eroi nemici sotto l'effetto di Traccia!"
@@ -17392,6 +17399,7 @@ i set più popolari dei tesori passati. Disponibile ora a soli {g:dota_item_pric
 		"KillEaterEvent_Slardar_KillsAfterSprint"			"Uccisioni dopo Scatto del guardiano"
 		"KillEaterEvent_Slardar_KillsDuringCorrosiveHaze"	"Uccisioni durante Fumi corrosivi"
 		"KillEaterEvent_Slardar_CrushesOnThree"				"Schianto viscido su tre Eroi"
+		"KillEaterEventType_Slardar_BashDamage"				"Colpo violento di Slardar"
 		"KillEaterEvent_Slark_KillsDuringPounce"			"Uccisioni durante Balzo"
 		"KillEaterEventType_Slark_HighEssenceShiftCount"	"30+ istanze di Furto d'essenza"
 		"KillEaterEventType_Slark_LongDistancePounces"		"Balzo a lunga distanza"
@@ -24010,11 +24018,12 @@ Per unirti come giocatore esperto, devi aver giocato ad almeno {d:new_player_req
 	"dota_profile_team_locked"			"Squadra bloccata"
 	"dota_profile_team_locked_pro"		"I giocatori professionisti saranno assegnati automaticamente alla loro squadra"
 	"dota_profile_oi_register_title"	"Iscrizione dei giocatori professionisti"
-	"dota_profile_oi_register_title_details"	"Iscrivendoti tramite questa finestra di dialogo verrai registrato come giocatore professionista sia per quest'anno sia per la partecipazione al The International."
-	"dota_profile_oi_accept"			"Accetta il contratto e iscriviti"
-	"dota_profile_oi_register_agreement"		"TERMINI DELLA STAGIONE PRO 2025<br><br>Grazie per aver richiesto di partecipare alla Stagione Pro Dota 2 per il 2025 (la \"Stagione\"), sponsorizzata da Valve Corporation (\"Valve\"). Questo accordo descrive i termini per questa Stagione. Affinché la propria partecipazione sia considerata valida, è necessario accettare questi termini.<br><br>Operatori degli eventi. Se vieni selezionato per uno o più eventi durante la Stagione, potrebbe essere necessario stipulare accordi separati con gli operatori degli eventi. In particolare, dovresti contattare gli operatori degli eventi per ricevere informazioni riguardanti la programmazione, le regole, le spese e i premi.<br><br>Diritti di immagine. Valve si riserva il diritto a livello mondiale di distribuire, esibire e utilizzare in ogni altro modo l'aspetto, la prestazione, il nome, le informazioni biografiche, le dichiarazioni e qualsiasi altro effetto audio e video da te prodotto (in breve, la tua \"Immagine\"), in qualsiasi modo e con ogni mezzo di comunicazione relativi alla Stagione, tra cui, a titolo meramente esemplificativo, giochi per computer, video, materiale promozionale e pubblicità, senza ricevere ulteriori compensi da parte di Valve. Dopo la Stagione, Valve potrà inoltre riutilizzare tutto il materiale creato durante la Stagione per finalità di archivio, prodotto o promozione. Dichiari di accettare che qualsiasi materiale audio e video o altri dati raccolti da o per Valve e relativi alla tua partecipazione alla Stagione saranno di proprietà di Valve.<br><br>Generale. Accetti questi termini e condizioni a nome tuo e della tua famiglia, dei tuoi eredi legittimi e testamentari, assegnatari e chiunque altro possa far valere i tuoi diritti, a beneficio di Valve, dei suoi eredi e assegnatari. Valve può modificare o annullare la Stagione in qualsiasi momento a sua esclusiva discrezione. Il presente accordo è disciplinato dalle leggi dello Stato di Washington, USA. In caso di contenzioso in merito al presente accordo, il foro competente è quello dei tribunali statali o federali di King County, Washington, USA. Questi termini sostituiscono qualsiasi accordo precedente tra le parti relativamente all'oggetto qui trattato."
+	"dota_profile_oi_register_title_details"	"Iscrivendoti tramite questa finestra di dialogo, verrai registrato come giocatore professionista per partecipare al The International."
+	"dota_profile_oi_accept"			"Accetto"
+	"dota_profile_oi_register_agreement"	"<b>TERMINI DI PARTECIPAZIONE AL THE INTERNATIONAL DI DOTA 2</b><br><br>Grazie per aver presentato domanda di partecipazione come giocatore individuale (\"Giocatore\") o come rappresentante designato di una squadra (\"Squadra\") al torneo The International di Dota 2 (\"TI\"), organizzato da Valve Corporation (\"Valve\"). Per essere preso in considerazione ai fini della partecipazione al TI, è necessario accettare i presenti Termini (\"Termini\").<br><br><b>Accettazione dei Termini:</b><br>Cliccando su \"Accetto\", confermi di aver letto, compreso e accettato le regole dei presenti Termini. Se non sei d'accordo, non accettare.<br><br><b>Termini applicabili sia ai giocatori che alle squadre:</b><br>•	Organizzatori degli eventi. Se vieni selezionato per uno o più eventi durante il TI, potrebbe essere necessario stipulare accordi separati con gli organizzatori degli eventi. In particolare, gli organizzatori degli eventi dovranno indicarti la programmazione, le regole, le spese e i premi.<br>•	Liberatoria. Concedi a Valve il diritto di distribuire, esporre e utilizzare in altro modo, in tutto il mondo e per la durata del TI, la tua immagine, la tua prestazione, il tuo nome, le informazioni biografiche, le dichiarazioni e qualsiasi altro materiale audio o video da te prodotto, così come il nome della tua Squadra, il logo e il roster dei giocatori (nel complesso, la tua \"Immagine\") in qualsiasi forma e mezzo relativi al TI, inclusi, a titolo esemplificativo ma non esaustivo, videogiochi, video e materiali promozionali e pubblicitari, senza ulteriore compenso da parte di Valve. Dopo il TI, Valve potrà altresì riutilizzare tali materiali creati durante il TI per finalità di archiviazione, prodotto o promozione. Accetti che qualsiasi contenuto audio, video o altri dati acquisiti da o per conto di Valve e relativi alla tua partecipazione al TI saranno di proprietà di Valve.<br><br><b>Termini applicabili alle Squadre:</b><br>•	Sponsor. La Squadra non accetterà sponsorizzazioni da parte di soggetti che generano ricavi tramite attività che violano gli accordi applicabili di Valve, contravvengono le normative locali o basano la loro attività economica sui giochi di Valve. Sono inclusi, a titolo esemplificativo ma non esaustivo, i rivenditori di codici prodotto o le aziende che interagiscono con gli inventari dei giochi Valve dei giocatori.<br>•	Nome della Squadra e risorse digitali. Fermo restando quanto sopra, la tua Squadra non dovrà utilizzare, esporre o presentare alcuna risorsa digitale, inclusi, a titolo esemplificativo ma non esaustivo, il nome, lo stendardo e/o il logo della Squadra che: (1) contengano qualsiasi riferimento diretto o indiretto a uno sponsor i cui beni, servizi o attività siano illegali da mostrare o da utilizzare in qualsiasi giurisdizione o territorio in cui il TI sarà trasmesso; oppure (2) violi i diritti di proprietà intellettuale di Valve, ovvero promuova o sia associato a siti di apertura delle casse (case opening) o siti di scambio di skin.<br>•	Parità di trattamento. La tua Squadra garantirà pari trattamento a ogni Giocatore che partecipi e sia associato al TI (ad esempio, rimborsi di viaggio, alloggi, opportunità di allenamento).<br><br><b>Disposizioni generali:</b><br>Accetti questi Termini a nome tuo e della tua famiglia, dei tuoi eredi legittimi e testamentari, degli assegnatari e di chiunque altro possa far valere i tuoi diritti, a beneficio di Valve, dei suoi eredi e assegnatari. Dichiari di essere autorizzato ad accettare i presenti Termini per tuo conto in qualità di Giocatore o per conto di una Squadra, a seconda dei casi. Inoltre, confermi che tutte le informazioni fornite sono accurate e veritiere. Accetti di comportarti in modo rispettoso, evitare comportamenti perturbativi e rispettare tutte le leggi applicabili e le linee guida fornite da Valve o dall'organizzatore del TI. Valve potrà modificare o annullare il TI in qualsiasi momento a propria esclusiva discrezione. I presenti Termini sono stati redatti in lingua inglese e la versione in lingua inglese farà fede ai fini della loro interpretazione. I presenti Termini sono disciplinati dalle leggi dello Stato di Washington, USA, e acconsenti alla giurisdizione e competenza dei tribunali statali o federali ubicati nella Contea di King, Stato di Washington, USA, in relazione a qualsiasi controversia derivante dai presenti Termini. I presenti Termini sostituiscono qualsiasi precedente accordo tra le parti relativo all'oggetto degli stessi."
 	"dota_profile_oi_is_pro"			"Hai accettato il contratto come giocatore professionista per questo periodo."
 	"dota_profile_oi_no_team"			"Nessuna squadra"
+	"dota_profile_oi_no_name"			"Prima di accettare i termini, è necessario fornire il proprio nome e cognome completi."
 
 
 	"dota_profile_oi_submit_info"		"Invia"
@@ -31097,6 +31106,8 @@ Anche altri Eroi sono riusciti a distinguersi: Eroi specializzati nell'esercitar
 	"DOTA_741_Update"	  "Aggiornamento 7.41"
 	"DOTA_741a_Update"	  "Aggiornamento 7.41a"
 	"DOTA_741b_Update"	  "Aggiornamento 7.41b"
+	"DOTA_741c_Update"	  "Aggiornamento 7.41c"
+	"DOTA_741d_Update"	  "Aggiornamento 7.41d"
 
 	"DOTA_Settings_Tooltip_NetworkLatency" "Se la tua connessione di rete è soggetta a perdite di pacchetti, scegliere l'impostazione per le reti di bassa qualità aumenterà la latenza ma migliorerà la fluidità generale."
 
@@ -34928,6 +34939,7 @@ Anche altri Eroi sono riusciti a distinguersi: Eroi specializzati nell'esercitar
 	"DOTA_Plus_Winter2025_Update_Desc"						"Una nuova stagione di missioni è stata aggiunta a Dota Plus."
 
 	"DOTA_Plus_Spring2026_Update_Title"						"Aggiornamento primaverile del 2026"
+	"DOTA_Plus_Summer2026_Update_Title"						"Aggiornamento estivo del 2026"
 
 	"DOTA_Plus_Autumn_Assitant_Title"						"Assistente aggiornato"
 	"DOTA_Plus_Autumn_Assitant_Desc"						"Adesso gli iscritti a Dota Plus possono usare la lista dei giocatori da evitare, i suggerimenti di \"Amici e nemici\", i consigli sui Guardiani e molto altro ancora."
@@ -35237,7 +35249,7 @@ Anche altri Eroi sono riusciti a distinguersi: Eroi specializzati nell'esercitar
 
 	"DOTA_Guilds_Tier_Name"								"Grado {s:tier_name}"
 	"DOTA_Guilds_Tier_Rewards"							"Ricompense - Grado %s1"
-	"DOTA_Guilds_Tier_Percentile:f"						"{d:o:percentile}° PERCENTILE"
+	"DOTA_Guilds_Tier_Percentile:f"						"{d:o:percentile} PERCENTILE"
 	"DOTA_Guilds_Tier_DateRange"						"{t:s:start_timestamp} - {t:s:end_timestamp}"
 	"DOTA_Guilds_Tier_CurrentStanding"					"posizione attuale"
 	"DOTA_Guilds_Tier_ViewAllRewards"					"Mostra tutte le ricompense"
@@ -36293,6 +36305,9 @@ Ogni regione è associata a una classifica usata per calcolare il grado della gi
 
 		"DOTA_PlusSeason_SeasonSpring2026_Name"					"Primavera 2026"
 		"DOTA_PlusSeason_SeasonSpring2026_Quests"					"Missioni primaverili 2026"
+
+		"DOTA_PlusSeason_SeasonSummer2026_Name"					"Estate 2026"
+		"DOTA_PlusSeason_SeasonSummer2026_Quests"					"Missioni estive 2026"
 
 		"DOTA_MatchRewards"							"Ricompense"
 		"DOTA_MatchRewards_YourShards"				"I tuoi Frammenti"
