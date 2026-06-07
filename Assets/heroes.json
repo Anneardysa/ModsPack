@@ -1673,6 +1673,32 @@
       "Set 4": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/sundered.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/sundered.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/corpulance.zip"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/eternal.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/eternal.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/lineage.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/lineage.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/murder.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/murder.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/raven.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/raven.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/tyrant.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/tyrant.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/twilight.zip"
       ]
     }
   },
