@@ -1705,6 +1705,14 @@
       "Set 12": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/mix_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/mix_1.png"
+      ],
+      "Set 13": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/item_desolator.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/item_desolator.png"
+      ],
+      "Set 14": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/base_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/base_arcana.png"
       ]
     }
   },
