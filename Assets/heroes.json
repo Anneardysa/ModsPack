@@ -1660,16 +1660,19 @@
       ],
       "Set 1": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/demon_eater.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/demon_eater.jpg"
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/demon_eater.png"
       ],
       "Set 2": [
-        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/diabolical.zip"
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/diabolical.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/diabolical.png"
       ],
       "Set 3": [
-        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/molten.zip"
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/molten.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/molten.png"
       ],
       "Set 4": [
-        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/sundered.zip"
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/sundered.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/sundered.png"
       ]
     }
   },
