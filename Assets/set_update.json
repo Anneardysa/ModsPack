@@ -1,10 +1,34 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "lastUpdated": "2026-06-08",
   "updates": [
     {
       "date": "2026-06-08",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_nevermore",
+          "setName": "Set 15"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 19"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 18"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 17"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 16"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 15"
+        },
         {
           "heroId": "npc_dota_hero_invoker",
           "setName": "Set 14"

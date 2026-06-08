@@ -772,22 +772,6 @@
         "https://cdn.ardysamods.my.id/Assets/models/Invoker/covenant.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Invoker/covenant.png"
       ],
-      "Set 3": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_accord.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_accord.png"
-      ],
-      "Set 4": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_apex.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_apex.png"
-      ],
-      "Set 5": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_artistry_cape.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_artistry_cape.png"
-      ],
-      "Set 6": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_pauldrons_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_pauldrons_1.png"
-      ],
       "Set 7": [
         "https://cdn.ardysamods.my.id/Assets/models/Invoker/meridian.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Invoker/meridian.png"
@@ -816,9 +800,25 @@
         "https://cdn.ardysamods.my.id/Assets/models/Invoker/mix_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Invoker/mix_1.png"
       ],
-      "Set 14": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_pauldrons_2.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_pauldrons_2.png"
+      "Set 15": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_back_artistry_cape.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_back_artistry_cape.png"
+      ],
+      "Set 16": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_hand_accord.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_hand_accord.png"
+      ],
+      "Set 17": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_head_apex.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_head_apex.png"
+      ],
+      "Set 18": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_shoulder_pauldrons_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_shoulder_pauldrons_1.png"
+      ],
+      "Set 19": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_shoulder_pauldrons_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_shoulder_pauldrons_2.png"
       ]
     }
   },
@@ -1762,13 +1762,13 @@
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/mix_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/mix_1.png"
       ],
-      "Set 13": [
-        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/item_desolator.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/item_desolator.png"
-      ],
       "Set 14": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/base_arcana.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/base_arcana.png"
+      ],
+      "Set 15": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/item_hand_desolator.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/item_hand_desolator.png"
       ]
     }
   },
