@@ -785,10 +785,12 @@
         "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_artistry_cape.png"
       ],
       "Set 6": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_pauldrons_1.zip"
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_pauldrons_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_pauldrons_1.png"
       ],
       "Set 7": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/meridian.zip"
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/meridian.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/meridian.png"
       ],
       "Set 8": [
         "https://cdn.ardysamods.my.id/Assets/models/Invoker/northern.zip",
@@ -809,6 +811,10 @@
       "Set 12": [
         "https://cdn.ardysamods.my.id/Assets/models/Invoker/volatile.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Invoker/volatile.png"
+      ],
+      "Set 13": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/mix_1.png"
       ]
     }
   },
