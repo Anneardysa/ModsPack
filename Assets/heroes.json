@@ -763,6 +763,52 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/artistry.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/artistry.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/covenant.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/covenant.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_accord.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_accord.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_apex.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_apex.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_artistry_cape.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_artistry_cape.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_pauldrons_1.zip"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/meridian.zip"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/northern.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/northern.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/persona_angel.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/persona_angel.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/persona_artistry.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/persona_artistry.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/quas.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/quas.png"
+      ],
+      "Set 12": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/volatile.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/volatile.png"
       ]
     }
   },
