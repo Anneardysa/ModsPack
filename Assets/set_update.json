@@ -1,10 +1,46 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "lastUpdated": "2026-06-08",
   "updates": [
     {
       "date": "2026-06-08",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 9"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_nevermore",
           "setName": "Set 15"

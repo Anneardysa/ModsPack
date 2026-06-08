@@ -1461,6 +1461,42 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/bane.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/bane.jpg"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/base_arcana_1.webp"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/base_arcana_2.webp"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/base_arcana_3.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/base_arcana_3.webp"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/darkfeather.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/darkfeather.jpg"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/gothic.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/gothic.jpg"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/item_head_codicil.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/item_head_codicil.webp"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/item_shoulder_avowance.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/item_shoulder_avowance.webp"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/item_shoulder_crimson_avowance.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/item_shoulder_crimson_avowance.webp"
       ]
     }
   },
