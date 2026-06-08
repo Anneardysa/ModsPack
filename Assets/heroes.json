@@ -1497,6 +1497,22 @@
       "Set 9": [
         "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/item_shoulder_crimson_avowance.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/item_shoulder_crimson_avowance.webp"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_base.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_base.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_facade.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_facade.jpg"
+      ],
+      "Set 12": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_shadow.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_shadow.jpg"
+      ],
+      "Set 13": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_waning.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_waning.jpg"
       ]
     }
   },

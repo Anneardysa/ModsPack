@@ -1,7 +1,28 @@
 {
-  "version": "1.0.11",
-  "lastUpdated": "2026-06-08",
+  "version": "1.0.12",
+  "lastUpdated": "2026-06-09",
   "updates": [
+    {
+      "date": "2026-06-09",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 13"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 12"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 11"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 10"
+        }
+      ]
+    },
     {
       "date": "2026-06-08",
       "sets": [
