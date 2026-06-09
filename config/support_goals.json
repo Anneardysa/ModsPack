@@ -1,14 +1,14 @@
 {
     "kofiGoal": {
         "title": "Monthly Goals",
-        "progressPercent": 1,
+        "progressPercent": 0,
         "goalAmount": 20,
         "raisedAmount": 0,
         "goalUrl": "https://ko-fi.com/ardysa/goal?g=0",
         "enabled": true
     },
     "subsGoal": {
-        "currentSubs": 2203,
+        "currentSubs": 2220,
         "goalSubs": 3000,
         "channelUrl": "https://youtube.com/@ArdysaMods",
         "enabled": true
