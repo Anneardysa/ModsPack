@@ -1,10 +1,14 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.13",
   "lastUpdated": "2026-06-09",
   "updates": [
     {
       "date": "2026-06-09",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_phantom_assassin",
+          "setName": "Set 14"
+        },
         {
           "heroId": "npc_dota_hero_phantom_assassin",
           "setName": "Set 13"
