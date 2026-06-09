@@ -20,6 +20,11 @@ jobs:
    purge-cache:
       runs-on: ubuntu-latest
       steps:
+         - name: Checkout repository
+           uses: actions/checkout@v4
+           with:
+              fetch-depth: 2
+
          - name: Detect changed files
            id: changes
            run: |
@@ -31,7 +36,7 @@ jobs:
                   echo "paths=Assets/heroes.json,Assets/set_update.json,config/misc_config.json" >> $GITHUB_OUTPUT
                 fi
               else
-                # Push trigger: detect from changed files
+                # Push trigger: detect from changed files (checkout provides git history)
                 CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
                 PATHS=""
                 if echo "$CHANGED" | grep -q "Assets/heroes.json"; then
@@ -40,11 +45,18 @@ jobs:
                 if echo "$CHANGED" | grep -q "Assets/set_update.json"; then
                   PATHS="${PATHS}Assets/set_update.json,"
                 fi
-                if echo "$CHANGED" | grep -q "config/misc_config.json"; then
+                if echo "$CHANGED" | grep -q "config/"; then
                   PATHS="${PATHS}config/misc_config.json,"
                 fi
                 # Trim trailing comma
                 PATHS="${PATHS%,}"
+
+                # Safety net: if detection failed but workflow triggered, purge key files
+                if [ -z "$PATHS" ]; then
+                  echo "⚠️  Change detection returned empty, purging all key files as safety net"
+                  PATHS="Assets/heroes.json,Assets/set_update.json,config/misc_config.json"
+                fi
+
                 echo "paths=$PATHS" >> $GITHUB_OUTPUT
               fi
 
@@ -53,21 +65,34 @@ jobs:
            run: |
               echo "🔄 Purging jsDelivr CDN cache..."
               IFS=',' read -ra FILES <<< "${{ steps.changes.outputs.paths }}"
+              FAILED=0
               for file in "${FILES[@]}"; do
                 file=$(echo "$file" | xargs) # trim whitespace
                 echo "  Purging: $file"
                 RESPONSE=$(curl -s -w "\n%{http_code}" \
                   "https://purge.jsdelivr.net/gh/Anneardysa/ModsPack@main/${file}")
                 HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+                BODY=$(echo "$RESPONSE" | head -n -1)
                 if [ "$HTTP_CODE" = "200" ]; then
                   echo "  ✅ Purged from jsDelivr: $file"
                 else
                   echo "  ⚠️  jsDelivr purge returned $HTTP_CODE for: $file"
+                  echo "  Response: $BODY"
+                  FAILED=$((FAILED + 1))
                 fi
               done
 
-         - name: Wait for CDN to refresh
-           run: sleep 5
+              if [ $FAILED -gt 0 ]; then
+                echo "::warning::$FAILED file(s) failed to purge from jsDelivr"
+              fi
+
+         - name: Verify fresh content
+           run: |
+              echo "⏳ Waiting for CDN to refresh..."
+              sleep 5
+              echo "🔍 Verifying heroes.json is fresh..."
+              HERO_COUNT=$(curl -s "https://cdn.jsdelivr.net/gh/Anneardysa/ModsPack@main/Assets/heroes.json" | python3 -c "import sys,json; print(len(json.load(sys.stdin)))" 2>/dev/null || echo "?")
+              echo "  Heroes count from jsDelivr: $HERO_COUNT"
 
          - name: Summary
            run: |
