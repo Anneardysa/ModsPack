@@ -541,6 +541,61 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/base_arcana_1.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/base_arcana_2.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/constellation.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/constellation.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/dragonborn.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/dragonborn.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/dread.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/dread.jpg"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_back_silent.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_back_silent.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_back_silent_crimson.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_back_silent_crimson.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_back_silent_golden.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_back_silent_golden.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_head_maniac.zip"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_weapon_reapers.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_weapon_reapers.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/ravencloak_blue.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/ravencloak_blue.jpg"
+      ],
+      "Set 12": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/ravencloak_red.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/ravencloak_red.jpg"
+      ],
+      "Set 13": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/sacred.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/sacred.png"
+      ],
+      "Set 14": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/wandering.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/wandering.png"
       ]
     }
   },
