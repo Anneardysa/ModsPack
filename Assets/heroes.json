@@ -677,6 +677,38 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/item_offweap_rapier.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/item_offweap_rapier.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/item_shoulder_guardian.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/item_shoulder_guardian.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/item_weapon_rapier.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/item_weapon_rapier.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/mix_1.jpg"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/sage.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/sage.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/searing.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/searing.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/sensei.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/sensei.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/wandering.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/wandering.png"
       ]
     }
   },
