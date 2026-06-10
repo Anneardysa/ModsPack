@@ -1,10 +1,14 @@
 {
-  "version": "1.0.15",
+  "version": "1.0.16",
   "lastUpdated": "2026-06-10",
   "updates": [
     {
       "date": "2026-06-10",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_drow_ranger",
+          "setName": "Set 15"
+        },
         {
           "heroId": "npc_dota_hero_drow_ranger",
           "setName": "Set 14"
