@@ -1,7 +1,56 @@
 {
-  "version": "1.0.18",
-  "lastUpdated": "2026-06-10",
+  "version": "1.0.19",
+  "lastUpdated": "2026-06-12",
   "updates": [
+    {
+      "date": "2026-06-12",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 11"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 10"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 9"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_earthshaker",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-06-10",
       "sets": [
