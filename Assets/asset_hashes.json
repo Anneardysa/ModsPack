@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-13T08:10:43Z",
+  "generatedAt": "2026-06-13T13:42:59Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -168,7 +168,7 @@
       "size": 3555037
     },
     "Assets/models/Earthshaker/base_arcana_1.zip": {
-      "sha256": "A4B15C30CFBFAE7B44ACB66B6E39BB9A428224EB739F86C9616241672ADA7573",
+      "sha256": "E05E7A75483F4BD08D6208C10379F5CE77F0D262B9B2DB8BA48CDF7059E40F8D",
       "size": 7335413
     },
     "Assets/models/Earthshaker/base_arcana_2.zip": {
