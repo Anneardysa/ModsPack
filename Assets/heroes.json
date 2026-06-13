@@ -602,7 +602,8 @@
         "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/mix_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/mix_1.jpg"
       ]
-    }
+    },
+    "method": 2
   },
   {
     "id": [
@@ -685,7 +686,8 @@
         "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/base_arcana_2.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/base_arcana_2.png"
       ]
-    }
+    },
+    "method": 1
   },
   {
     "id": [
@@ -1666,7 +1668,8 @@
         "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/mix_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/mix_1.jpg"
       ]
-    }
+    },
+    "method": 2
   },
   {
     "id": [
@@ -1974,7 +1977,8 @@
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/item_hand_desolator.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/item_hand_desolator.png"
       ]
-    }
+    },
+    "method": 1
   },
   {
     "id": [
