@@ -1,0 +1,6 @@
+{ 
+    "slides": [ 
+        { "image": "Assets/image/banner/slide1.jpg"},
+        { "image": "Assets/image/banner/slide2.jpg"}
+    ]  
+}
