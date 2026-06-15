@@ -1,6 +1,7 @@
 { 
     "slides": [ 
         { "image": "Assets/image/banner/slide1.jpg"},
-        { "image": "Assets/image/banner/slide2.jpg"}
+        { "image": "Assets/image/banner/slide2.jpg"},
+        { "modspackVersion": "2.6"}
     ]  
 }
