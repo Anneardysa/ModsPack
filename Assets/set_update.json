@@ -1,10 +1,14 @@
 {
-  "version": "1.0.21",
+  "version": "1.0.22",
   "lastUpdated": "2026-06-16",
   "updates": [
     {
       "date": "2026-06-16",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 11"
+        },
         {
           "heroId": "npc_dota_hero_juggernaut",
           "setName": "Set 10"
