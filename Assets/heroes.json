@@ -999,14 +999,42 @@
         "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_head_apex.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_head_apex.png"
       ],
-      "Set 18": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_shoulder_pauldrons_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_shoulder_pauldrons_1.png"
+      "Set 20": {
+        "styles": {
+          "exaltation": [
+            "https://cdn.ardysamods.my.id/Assets/models/Invoker/exaltation/exaltation.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Invoker/exaltation/exaltation.png"
+          ],
+          "exaltation_exort": [
+            "https://cdn.ardysamods.my.id/Assets/models/Invoker/exaltation/exaltation_exort.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Invoker/exaltation/exaltation_exort.png"
+          ],
+          "exaltation_quas": [
+            "https://cdn.ardysamods.my.id/Assets/models/Invoker/exaltation/exaltation_quas.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Invoker/exaltation/exaltation_quas.png"
+          ],
+          "exaltation_wex": [
+            "https://cdn.ardysamods.my.id/Assets/models/Invoker/exaltation/exaltation_wex.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Invoker/exaltation/exaltation_wex.png"
+          ]
+        }
+      },
+      "Set 21": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/phoenix.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/phoenix.png"
       ],
-      "Set 19": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_shoulder_pauldrons_2.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_shoulder_pauldrons_2.png"
-      ]
+      "Set 22": {
+        "styles": {
+          "Anniversary 10th": [
+            "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons.png"
+          ],
+          "Legacy": [
+            "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons_2.png"
+          ]
+        }
+      }
     }
   },
   {
@@ -1466,22 +1494,6 @@
         "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_head_arcana.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_head_arcana.png"
       ],
-      "Set 4": [
-        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_10th_staff.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_10th_staff.png"
-      ],
-      "Set 5": [
-        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_crimson_staff.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_crimson_staff.png"
-      ],
-      "Set 6": [
-        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_golden_staff.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_golden_staff.png"
-      ],
-      "Set 7": [
-        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff.png"
-      ],
       "Set 8": [
         "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/mischief.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/mischief.png"
@@ -1515,6 +1527,26 @@
           "base_arcana_4": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana_4.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana_4.png"
+          ]
+        }
+      },
+      "Set 21": {
+        "styles": {
+          "item_weapon_staff": [
+            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff/item_weapon_staff.png"
+          ],
+          "item_weapon_staff_10th": [
+            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_10th.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff/item_weapon_staff_10th.png"
+          ],
+          "item_weapon_staff_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff/item_weapon_staff_crimson.png"
+          ],
+          "item_weapon_staff_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff/item_weapon_staff_golden.png"
           ]
         }
       }
