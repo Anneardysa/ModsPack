@@ -678,11 +678,11 @@
         "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/pallbringer.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/pallbringer.png"
       ],
-      "Set 10": [
+      "Earthshaker's Base": [
         "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/base_arcana_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/base_arcana_1.png"
       ],
-      "Set 11": [
+      "Earthshaker's Base (2)": [
         "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/base_arcana_2.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/base_arcana_2.png"
       ]
@@ -1001,19 +1001,19 @@
       ],
       "Set 20": {
         "styles": {
-          "exaltation": [
+          "Exaltation": [
             "https://cdn.ardysamods.my.id/Assets/models/Invoker/exaltation/exaltation.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Invoker/exaltation/exaltation.png"
           ],
-          "exaltation_exort": [
+          "Exaltation - Exort": [
             "https://cdn.ardysamods.my.id/Assets/models/Invoker/exaltation/exaltation_exort.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Invoker/exaltation/exaltation_exort.png"
           ],
-          "exaltation_quas": [
+          "Exaltation - Quas": [
             "https://cdn.ardysamods.my.id/Assets/models/Invoker/exaltation/exaltation_quas.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Invoker/exaltation/exaltation_quas.png"
           ],
-          "exaltation_wex": [
+          "Exaltation - Wex": [
             "https://cdn.ardysamods.my.id/Assets/models/Invoker/exaltation/exaltation_wex.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Invoker/exaltation/exaltation_wex.png"
           ]
@@ -1532,19 +1532,19 @@
       },
       "Set 21": {
         "styles": {
-          "item_weapon_staff": [
+          "Staff of Gun-Yu": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff/item_weapon_staff.png"
           ],
-          "item_weapon_staff_10th": [
+          "Staff of Gun-Yu - 10th": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_10th.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff/item_weapon_staff_10th.png"
           ],
-          "item_weapon_staff_crimson": [
+          "Staff of Gun-Yu - Crimson": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_crimson.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff/item_weapon_staff_crimson.png"
           ],
-          "item_weapon_staff_golden": [
+          "Staff of Gun-Yu - Golden": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_golden.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff/item_weapon_staff_golden.png"
           ]

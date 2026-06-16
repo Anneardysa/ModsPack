@@ -7,11 +7,11 @@
       "sets": [
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 22"
+          "setName": "Set 22 (Anniversary 10th)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 21"
+          "setName": "Set 21 (item_weapon_staff)"
         },
         {
           "heroId": "npc_dota_hero_invoker",
@@ -19,11 +19,11 @@
         },
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 20"
+          "setName": "Set 20 (exaltation)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 20"
+          "setName": "Set 20 (base_arcana)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
@@ -205,11 +205,11 @@
       "sets": [
         {
           "heroId": "npc_dota_hero_earthshaker",
-          "setName": "Set 11"
+          "setName": "Earthshaker's Base (2)"
         },
         {
           "heroId": "npc_dota_hero_earthshaker",
-          "setName": "Set 10"
+          "setName": "Earthshaker's Base"
         },
         {
           "heroId": "npc_dota_hero_earthshaker",
