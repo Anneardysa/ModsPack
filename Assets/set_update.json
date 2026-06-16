@@ -1,10 +1,54 @@
 {
-  "version": "1.0.22",
+  "version": "1.0.23",
   "lastUpdated": "2026-06-16",
   "updates": [
     {
       "date": "2026-06-16",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 11"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 10"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 9"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_juggernaut",
           "setName": "Set 11"

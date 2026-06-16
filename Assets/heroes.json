@@ -1457,8 +1457,53 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/fire.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/fire.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_head_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_head_arcana.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_10th_staff.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_10th_staff.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_crimson_staff.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_crimson_staff.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_golden_staff.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_golden_staff.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/mischief.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/mischief.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/scoundrel.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/scoundrel.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/sovereign.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/sovereign.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/trickster.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/trickster.png"
       ]
-    }
+    },
+    "method": 1
   },
   {
     "id": [
