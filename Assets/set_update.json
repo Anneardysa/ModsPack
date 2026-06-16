@@ -1,10 +1,26 @@
 {
-  "version": "1.0.25",
+  "version": "1.0.26",
   "lastUpdated": "2026-06-16",
   "updates": [
     {
       "date": "2026-06-16",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 19"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 18"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 17"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 16"
+        },
         {
           "heroId": "npc_dota_hero_monkey_king",
           "setName": "Set 15"
