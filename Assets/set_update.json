@@ -1,7 +1,52 @@
 {
-  "version": "1.0.20",
-  "lastUpdated": "2026-06-15",
+  "version": "1.0.21",
+  "lastUpdated": "2026-06-16",
   "updates": [
+    {
+      "date": "2026-06-16",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 10"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 9"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_juggernaut",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-06-15",
       "sets": [

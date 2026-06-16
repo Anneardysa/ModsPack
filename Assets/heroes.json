@@ -1059,8 +1059,49 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/base_arcana_1.webp"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/base_arcana_2.jpg"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/exile.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/exile.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/honor.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/honor.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/isle_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/isle_2.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/item_head_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/item_head_arcana.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/item_weapon_crimson_edge.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/item_weapon_crimson_edge.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/item_weapon_kantusa.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/item_weapon_kantusa.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/item_weapon_serrakura.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/item_weapon_serrakura.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/provoc.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/provoc.png"
       ]
-    }
+    },
+    "method": 1
   },
   {
     "id": [
