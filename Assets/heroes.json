@@ -1027,7 +1027,11 @@
         "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_head_northern_frost.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_head_northern_frost.png"
       ],
-      "Set 16": {
+      "Set 16": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_head_sorrow.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_head_sorrow.png"
+      ],
+      "Set 17": {
         "styles": {
           "Anniversary 10th": [
             "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons.zip",

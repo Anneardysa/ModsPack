@@ -1,10 +1,14 @@
 {
-  "version": "1.0.32",
+  "version": "1.0.33",
   "lastUpdated": "2026-06-19",
   "updates": [
     {
       "date": "2026-06-19",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 16"
+        },
         {
           "heroId": "npc_dota_hero_invoker",
           "setName": "Set 15"
@@ -53,7 +57,7 @@
       "sets": [
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 16 (Anniversary 10th)"
+          "setName": "Set 17 (Anniversary 10th)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
