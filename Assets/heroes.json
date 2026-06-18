@@ -2424,6 +2424,10 @@
             "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_head_void/item_head_void.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_head_void/item_head_void.png"
           ],
+          "Golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_head_void/item_head_void_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_head_void/item_head_void_golden.png"
+          ],
           "Crimson Witness": [
             "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_head_void/item_head_void_crimson.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_head_void/item_head_void_crimson.png"
