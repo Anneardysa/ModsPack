@@ -959,47 +959,7 @@
         "https://cdn.ardysamods.my.id/Assets/models/Invoker/covenant.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Invoker/covenant.png"
       ],
-      "Set 7": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/meridian.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/meridian.png"
-      ],
-      "Set 8": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/northern.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/northern.png"
-      ],
-      "Set 9": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/persona_angel.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/persona_angel.png"
-      ],
-      "Set 10": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/persona_artistry.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/persona_artistry.png"
-      ],
-      "Set 11": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/quas.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/quas.png"
-      ],
-      "Set 12": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/volatile.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/volatile.png"
-      ],
-      "Set 13": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/mix_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/mix_1.png"
-      ],
-      "Set 15": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_back_artistry_cape.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_back_artistry_cape.png"
-      ],
-      "Set 16": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_hand_accord.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_hand_accord.png"
-      ],
-      "Set 17": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_head_apex.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_head_apex.png"
-      ],
-      "Set 20": {
+      "Set 3": {
         "styles": {
           "Exaltation": [
             "https://cdn.ardysamods.my.id/Assets/models/Invoker/exaltation/exaltation.zip",
@@ -1019,11 +979,55 @@
           ]
         }
       },
-      "Set 21": [
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/meridian.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/meridian.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/northern.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/northern.png"
+      ],
+      "Set 6": [
         "https://cdn.ardysamods.my.id/Assets/models/Invoker/phoenix.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Invoker/phoenix.png"
       ],
-      "Set 22": {
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/quas.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/quas.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/volatile.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/volatile.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/mix_1.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/persona_angel.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/persona_angel.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/persona_artistry.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/persona_artistry.png"
+      ],
+      "Set 12": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_back_artistry_cape.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_back_artistry_cape.png"
+      ],
+      "Set 13": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_hand_accord.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_hand_accord.png"
+      ],
+      "Set 14": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_head_apex.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_head_apex.png"
+      ],
+      "Set 15": [
+        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_head_northern_frost.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_head_northern_frost.png"
+      ],
+      "Set 16": {
         "styles": {
           "Anniversary 10th": [
             "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons.zip",
@@ -1034,11 +1038,7 @@
             "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons_2.png"
           ]
         }
-      },
-      "Set 24": [
-        "https://cdn.ardysamods.my.id/Assets/models/Invoker/item_head_northern_frost.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Invoker/item_head_northern_frost.png"
-      ]
+      }
     }
   },
   {

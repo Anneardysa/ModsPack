@@ -7,7 +7,7 @@
       "sets": [
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 24"
+          "setName": "Set 15"
         },
         {
           "heroId": "npc_dota_hero_invoker",
@@ -53,7 +53,7 @@
       "sets": [
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 22 (Anniversary 10th)"
+          "setName": "Set 16 (Anniversary 10th)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
@@ -61,11 +61,11 @@
         },
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 21"
+          "setName": "Set 6"
         },
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 20 (exaltation)"
+          "setName": "Set 3 (exaltation)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
@@ -482,18 +482,6 @@
         },
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 17"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 16"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 15"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
           "setName": "Set 14"
         },
         {
@@ -506,11 +494,7 @@
         },
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 11"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 10"
+          "setName": "Set 14"
         },
         {
           "heroId": "npc_dota_hero_invoker",
@@ -526,6 +510,22 @@
         },
         {
           "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 11"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 10"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
           "setName": "Set 6"
         },
         {
@@ -538,7 +538,7 @@
         },
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 3"
+          "setName": "Set 3 (Exaltation)"
         },
         {
           "heroId": "npc_dota_hero_invoker",
