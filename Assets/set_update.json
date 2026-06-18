@@ -1,7 +1,40 @@
 {
-  "version": "1.0.29",
-  "lastUpdated": "2026-06-16",
+  "version": "1.0.30",
+  "lastUpdated": "2026-06-18",
   "updates": [
+    {
+      "date": "2026-06-18",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 5 (item_shoulder_bond)"
+        },
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 4 (item_head_void)"
+        },
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-06-16",
       "sets": [

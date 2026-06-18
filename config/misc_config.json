@@ -257,8 +257,7 @@
                 },
                 {
                     "name": "Diretide - Yellow",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/Diretide%20-%20Yellow/Diretide%20-%20Yellow.zip",
-                    "thumbnailId": "diretide_-_yellow"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/Diretide%20-%20Yellow/Diretide%20-%20Yellow.zip"
                 },
                 {
                     "name": "Nemestice",
@@ -1608,7 +1607,7 @@
                     "url": "28139",
                     "styles": [
                         {
-                            "name": "Pandora the Packwyrm (Style 0)",
+                            "name": "Pandora the Packwyrm (Style 1)",
                             "url": "28139:0"
                         },
                         {

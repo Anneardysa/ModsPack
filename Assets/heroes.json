@@ -2405,6 +2405,53 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/adept.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/adept.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/chamber.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/chamber.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/gates.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/gates.png"
+      ],
+      "Set 4": {
+        "styles": {
+          "item_head_void": [
+            "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_head_void/item_head_void.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_head_void/item_head_void.png"
+          ],
+          "item_head_void_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_head_void/item_head_void_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_head_void/item_head_void_crimson.png"
+          ],
+          "item_head_void_gold": [
+            "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_head_void/item_head_void_gold.zip"
+          ]
+        }
+      },
+      "Set 5": {
+        "styles": {
+          "item_shoulder_bond": [
+            "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_shoulder_bond/item_shoulder_bond.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_shoulder_bond/item_shoulder_bond.png"
+          ],
+          "item_shoulder_bond_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_shoulder_bond/item_shoulder_bond_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_shoulder_bond/item_shoulder_bond_crimson.png"
+          ]
+        }
+      },
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_weapon_focal.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_weapon_focal.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/loyal.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/loyal.png"
       ]
     }
   },
