@@ -2420,26 +2420,23 @@
       ],
       "Set 4": {
         "styles": {
-          "item_head_void": [
+          "Seclusions of the Void": [
             "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_head_void/item_head_void.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_head_void/item_head_void.png"
           ],
-          "item_head_void_crimson": [
+          "Crimson Witness": [
             "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_head_void/item_head_void_crimson.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_head_void/item_head_void_crimson.png"
-          ],
-          "item_head_void_gold": [
-            "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_head_void/item_head_void_gold.zip"
           ]
         }
       },
       "Set 5": {
         "styles": {
-          "item_shoulder_bond": [
+          "Mantle of the Whispered Bond": [
             "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_shoulder_bond/item_shoulder_bond.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_shoulder_bond/item_shoulder_bond.png"
           ],
-          "item_shoulder_bond_crimson": [
+          "Crimson Witness": [
             "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_shoulder_bond/item_shoulder_bond_crimson.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_shoulder_bond/item_shoulder_bond_crimson.png"
           ]
