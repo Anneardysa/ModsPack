@@ -1,7 +1,16 @@
 {
-  "version": "1.0.30",
-  "lastUpdated": "2026-06-18",
+  "version": "1.0.31",
+  "lastUpdated": "2026-06-19",
   "updates": [
+    {
+      "date": "2026-06-19",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 23"
+        }
+      ]
+    },
     {
       "date": "2026-06-18",
       "sets": [
