@@ -2479,8 +2479,97 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
-      ]
-    }
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/code.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/code.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/forgotten.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/forgotten.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/foulfell.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/foulfell.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/item_back_sorrow.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/item_back_sorrow.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/item_weapon_sorrow.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/item_weapon_sorrow.png"
+      ],
+      "Set 6": {
+        "styles": {
+          "base_arcana": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana.png"
+          ],
+          "base_arcana_blossom": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_blossom.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_blossom.png"
+          ],
+          "base_arcana_blue": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_blue.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_blue.png"
+          ],
+          "base_arcana_bright_green": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_bright_green.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_bright_green.png"
+          ],
+          "base_arcana_champion_blue": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_champion_blue.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_champion_blue.png"
+          ],
+          "base_arcana_champion_green": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_champion_green.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_champion_green.png"
+          ],
+          "base_arcana_cursed_black": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_cursed_black.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_cursed_black.png"
+          ],
+          "base_arcana_defensive_red": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_defensive_red.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_defensive_red.png"
+          ],
+          "base_arcana_diretide_orange": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_diretide_orange.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_diretide_orange.png"
+          ],
+          "base_arcana_earth_green": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_earth_green.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_earth_green.png"
+          ],
+          "base_arcana_gold": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_gold.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_gold.png"
+          ],
+          "base_arcana_night": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_night.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_night.png"
+          ],
+          "base_arcana_pristine": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_pristine.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_pristine.png"
+          ],
+          "base_arcana_purple": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_purple.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_purple.png"
+          ],
+          "base_arcana_rubiline": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_rubiline.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_rubiline.png"
+          ],
+          "base_arcana_vermillion": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana/base_arcana_vermillion.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana/base_arcana_vermillion.png"
+          ]
+        }
+      }
+    },
+    "method": 2
   },
   {
     "id": [

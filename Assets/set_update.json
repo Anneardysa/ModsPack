@@ -1,10 +1,34 @@
 {
-  "version": "1.0.33",
+  "version": "1.0.34",
   "lastUpdated": "2026-06-19",
   "updates": [
     {
       "date": "2026-06-19",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 1"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 6 (base_arcana)"
+        },
         {
           "heroId": "npc_dota_hero_invoker",
           "setName": "Set 16"
