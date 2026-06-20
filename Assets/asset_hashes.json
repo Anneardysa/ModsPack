@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-20T03:48:32Z",
+  "generatedAt": "2026-06-20T06:46:18Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -660,8 +660,8 @@
       "size": 158484
     },
     "Assets/models/Terrorblade/prismatic/prismatic_blossom.zip": {
-      "sha256": "CA683673DC7C974D67A731C0F1A2B4089D26469DB512A9BA223F7666E34A91EE",
-      "size": 148028
+      "sha256": "2A915A5DE458013BAC885E3E97CFD14BD2412970B959688E04FE2B343DB966E4",
+      "size": 19158465
     },
     "Assets/Original.zip": {
       "sha256": "A2F959D36B15884DFB9E31ECC5B9AB51656AC4D14BD240CD60584A9AC448428C",

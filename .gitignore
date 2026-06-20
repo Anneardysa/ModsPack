@@ -64,3 +64,4 @@ venv/
 *.backup
 *.old
 *_backup/
+scripts
