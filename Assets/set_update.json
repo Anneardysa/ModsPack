@@ -1,7 +1,20 @@
 {
-  "version": "1.0.34",
-  "lastUpdated": "2026-06-19",
+  "version": "1.0.35",
+  "lastUpdated": "2026-06-20",
   "updates": [
+    {
+      "date": "2026-06-20",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_blossom)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 6"
+        }
+      ]
+    },
     {
       "date": "2026-06-19",
       "sets": [

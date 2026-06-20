@@ -2499,7 +2499,17 @@
       "Set 5": [
         "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/item_weapon_sorrow.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/item_weapon_sorrow.png"
-      ]
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana.zip"
+      ],
+      "Set 7": {
+        "styles": {
+          "prismatic_blossom": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic/prismatic_blossom.zip"
+          ]
+        }
+      }
     },
     "method": 2
   },
