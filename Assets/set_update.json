@@ -1,10 +1,14 @@
 {
-  "version": "1.0.36",
+  "version": "1.0.37",
   "lastUpdated": "2026-06-21",
   "updates": [
     {
       "date": "2026-06-21",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_base)"
+        },
         {
           "heroId": "npc_dota_hero_terrorblade",
           "setName": "Set 8 (prismatic_base)"
