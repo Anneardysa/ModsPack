@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-21T04:58:03Z",
+  "generatedAt": "2026-06-21T13:33:30Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -636,8 +636,8 @@
       "size": 981243
     },
     "Assets/models/Terrorblade/base_arcana.zip": {
-      "sha256": "2E659C4BEC7017C68C47970F00F25098C4CF6A533E8231507B620B9A0FF49C10",
-      "size": 19157281
+      "sha256": "32B3A98C3FF450096AD065841AEE1F753806921C7DD84309ED08A270AC35C0E7",
+      "size": 19157540
     },
     "Assets/models/Terrorblade/code.zip": {
       "sha256": "30ACAEE271381140F412F25E1612C98D5EFB50ABBCE16E250555BA431CCC1C46",
@@ -658,6 +658,14 @@
     "Assets/models/Terrorblade/item_weapon_sorrow.zip": {
       "sha256": "A80CD4F5F0CDC90DCCE0F2F1E637D44C7366F6AB102690B0A72980B61A7C0CFC",
       "size": 158484
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_base.zip": {
+      "sha256": "E87B96580CD8410938C3845056C6FF7637BD1EFEF60CBCFD6FD0C247389F0296",
+      "size": 122340
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_blossom.zip": {
+      "sha256": "050A011F0008F22AE746A4C084C8AE241EA05FC63CFF42A7A07FD297975CCEF0",
+      "size": 118813
     },
     "Assets/Original.zip": {
       "sha256": "A2F959D36B15884DFB9E31ECC5B9AB51656AC4D14BD240CD60584A9AC448428C",
