@@ -1,7 +1,68 @@
 {
-  "version": "1.0.37",
-  "lastUpdated": "2026-06-21",
+  "version": "1.0.38",
+  "lastUpdated": "2026-06-22",
   "updates": [
+    {
+      "date": "2026-06-22",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_vermillion)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_ships)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_rubiline)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_purple)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_pristine_platinum)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_gold)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_earth_green)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_diretide_orange)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_defensive_red)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_cursed)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_champ_green)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_champ_blue)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_bright_green)"
+        },
+        {
+          "heroId": "npc_dota_hero_terrorblade",
+          "setName": "Set 7 (prismatic_blue)"
+        }
+      ]
+    },
     {
       "date": "2026-06-21",
       "sets": [

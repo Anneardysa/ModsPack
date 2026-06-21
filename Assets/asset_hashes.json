@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-21T13:33:30Z",
+  "generatedAt": "2026-06-21T17:54:58Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -667,9 +667,65 @@
       "sha256": "050A011F0008F22AE746A4C084C8AE241EA05FC63CFF42A7A07FD297975CCEF0",
       "size": 118813
     },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_blue.zip": {
+      "sha256": "7855F5E1A7CC0F20F63587DC52F3C76B78756D2C2999EFA1A21F0BDFE0A8046C",
+      "size": 118140
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_bright_green.zip": {
+      "sha256": "6C8E4EB7803F893BCFFA4D0FDCDE44EE7A0C004412E6D40DB24B08E3A94ECA33",
+      "size": 118677
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_champ_blue.zip": {
+      "sha256": "CAE90E3E22D704A8196D7CBC2C5C753F08F9ADFEFF076260595C9A123B1734F4",
+      "size": 118199
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_champ_green.zip": {
+      "sha256": "503042C5DC365B4E49E37BA6EE79ED28937DB2AA793F196B90F22100E7450916",
+      "size": 118284
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_cursed.zip": {
+      "sha256": "C09846665F2E59E4CB14AE57FAE00E295834186561D0BB6D58A3EFA44C8CF271",
+      "size": 579597
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_defensive_red.zip": {
+      "sha256": "22F083183CD0F11F107275ADF9B65B9CC454D69AF33DC47E0D9480636D6124B9",
+      "size": 117579
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_diretide_orange.zip": {
+      "sha256": "BD4434BF0251D2BEE414C63CAA6B4179A2198519BEC77F7A199EFE3302D814C8",
+      "size": 120544
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_earth_green.zip": {
+      "sha256": "F2F21FFFBA559D42D9833C968531AE7D3DB868256CC5F0D6D34DB12D2EFC5AD1",
+      "size": 120494
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_gold.zip": {
+      "sha256": "CEE0D56F63E1225FB108FA1A9B669B91B3DAF32BFEE37F2B8FEB55F6B1CE9D92",
+      "size": 123501
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_pristine_platinum.zip": {
+      "sha256": "79621FD33996F4CC00C9FD463B906CFC0DE34E9F61F8B5975036E0012C6FA8A8",
+      "size": 119481
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_purple.zip": {
+      "sha256": "6518BF234D94433FE1855D58A4146F0C8323ACAF0174FFE1A61C4AC42F57BE5A",
+      "size": 117629
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_rubiline.zip": {
+      "sha256": "D973A77FC432E4AD69B97B64D76F08BF0B375A6191CFBC4ABC6C05EFEB7EEC48",
+      "size": 118226
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_ships.zip": {
+      "sha256": "004DE079A1A7A313A18852D8A4D44EB297DC375D79F7CB33BF528226C5D0ECD0",
+      "size": 116970
+    },
+    "Assets/models/Terrorblade/prismatic_base/prismatic_vermillion.zip": {
+      "sha256": "8627823F32BE1935784AC8B8DEBE2E1A81B75A1BE87DEB90040437C14A72E6D8",
+      "size": 118356
+    },
     "Assets/Original.zip": {
-      "sha256": "A2F959D36B15884DFB9E31ECC5B9AB51656AC4D14BD240CD60584A9AC448428C",
-      "size": 20000812
+      "sha256": "F2B6C8E8CCD30E2B8330EAD50343458F47E3DC6389CE00DC0D668AF6E3778485",
+      "size": 20000960
     }
   }
 }

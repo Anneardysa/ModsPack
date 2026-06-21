@@ -1520,19 +1520,19 @@
       ],
       "Set 20": {
         "styles": {
-          "base_arcana": [
+          "Timeless Tale": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana.png"
           ],
-          "base_arcana_2": [
+          "Rumble in the Deep": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana_2.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana_2.png"
           ],
-          "base_arcana_3": [
+          "Immortal Path": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana_3.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana_3.png"
           ],
-          "base_arcana_4": [
+          "King's Crucible": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana_4.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana_4.png"
           ]
@@ -2502,15 +2502,73 @@
         "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/item_weapon_sorrow.png"
       ],
       "Set 6": [
-        "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana.zip"
+        "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana.jpg"
       ],
       "Set 7": {
         "styles": {
-          "prismatic_base": [
-            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_base.zip"
+          "Reflections Shade": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_base.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_base.png"
           ],
-          "prismatic_blossom": [
-            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_blossom.zip"
+          "Blossom Red": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_blossom.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_blossom.png"
+          ],
+          "Blue": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_blue.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_blue.png"
+          ],
+          "Bright Green": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_bright_green.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_bright_green.png"
+          ],
+          "Champion Blue": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_champ_blue.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_champ_blue.png"
+          ],
+          "Champion Green": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_champ_green.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_champ_green.png"
+          ],
+          "Cursed Black": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_cursed.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_cursed.png"
+          ],
+          "Defensive Red": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_defensive_red.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_defensive_red.png"
+          ],
+          "Diretide Orange": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_diretide_orange.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_diretide_orange.png"
+          ],
+          "Earth Green": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_earth_green.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_earth_green.png"
+          ],
+          "Gold": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_gold.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_gold.png"
+          ],
+          "Pristine Platinum": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_pristine_platinum.zip"
+          ],
+          "Purple": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_purple.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_purple.png"
+          ],
+          "Rubiline": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_rubiline.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_rubiline.png"
+          ],
+          "Ships of the Night": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_ships.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_ships.png"
+          ],
+          "Vermillion": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_vermillion.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_vermillion.png"
           ]
         }
       }
