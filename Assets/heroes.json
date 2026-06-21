@@ -2503,10 +2503,10 @@
       "Set 6": [
         "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana.zip"
       ],
-      "Set 7": {
+      "Set 8": {
         "styles": {
-          "prismatic_blossom": [
-            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic/prismatic_blossom.zip"
+          "prismatic_base": [
+            "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_base.zip"
           ]
         }
       }
