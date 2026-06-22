@@ -543,64 +543,64 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/base_arcana_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/base_arcana_1.png"
-      ],
-      "Set 2": [
-        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/base_arcana_2.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/base_arcana_2.png"
-      ],
-      "Set 3": [
         "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/constellation.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/constellation.png"
       ],
-      "Set 4": [
+      "Set 2": [
         "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/dragonborn.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/dragonborn.png"
       ],
-      "Set 5": [
+      "Set 3": [
         "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/dread.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/dread.jpg"
       ],
-      "Set 6": [
-        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_back_silent.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_back_silent.png"
-      ],
-      "Set 7": [
-        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_back_silent_crimson.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_back_silent_crimson.png"
-      ],
-      "Set 8": [
-        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_back_silent_golden.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_back_silent_golden.png"
-      ],
-      "Set 9": [
-        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_head_maniac.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_head_maniac.png"
-      ],
-      "Set 10": [
-        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_weapon_reapers.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_weapon_reapers.png"
-      ],
-      "Set 11": [
+      "Set 4": [
         "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/ravencloak_blue.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/ravencloak_blue.jpg"
       ],
-      "Set 12": [
+      "Set 5": [
         "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/ravencloak_red.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/ravencloak_red.jpg"
       ],
-      "Set 13": [
+      "Set 6": [
         "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/sacred.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/sacred.png"
       ],
-      "Set 14": [
+      "Set 7": [
         "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/wandering.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/wandering.png"
       ],
-      "Set 15": [
+      "Set 8": [
         "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/mix_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/mix_1.jpg"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_back_silent.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_back_silent.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_back_silent_crimson.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_back_silent_crimson.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_back_silent_golden.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_back_silent_golden.png"
+      ],
+      "Set 12": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_head_maniac.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_head_maniac.png"
+      ],
+      "Set 13": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/item_weapon_reapers.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/item_weapon_reapers.png"
+      ],
+      "Set 14": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/base_arcana_1.png"
+      ],
+      "Set 15": [
+        "https://cdn.ardysamods.my.id/Assets/models/Drow_Ranger/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Drow_Ranger/base_arcana_2.png"
       ]
     },
     "method": 2
@@ -651,38 +651,38 @@
         "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/gar.png"
       ],
       "Set 3": [
-        "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/item_arm_luminar_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/item_arm_luminar_1.png"
-      ],
-      "Set 4": [
-        "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/item_arm_luminar_2.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/item_arm_luminar_2.png"
-      ],
-      "Set 5": [
-        "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/item_weapon_fallen_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/item_weapon_fallen_1.png"
-      ],
-      "Set 6": [
-        "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/item_weapon_fallen_2.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/item_weapon_fallen_2.png"
-      ],
-      "Set 7": [
         "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/nishai.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/nishai.png"
       ],
-      "Set 8": [
+      "Set 4": [
         "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/orbliterator.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/orbliterator.png"
       ],
-      "Set 9": [
+      "Set 5": [
         "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/pallbringer.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/pallbringer.png"
       ],
-      "Earthshaker's Base": [
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/item_arm_luminar_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/item_arm_luminar_1.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/item_arm_luminar_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/item_arm_luminar_2.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/item_weapon_fallen_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/item_weapon_fallen_1.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/item_weapon_fallen_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/item_weapon_fallen_2.png"
+      ],
+      "Set 10": [
         "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/base_arcana_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/base_arcana_1.png"
       ],
-      "Earthshaker's Base (2)": [
+      "Set 11": [
         "https://cdn.ardysamods.my.id/Assets/models/Earthshaker/base_arcana_2.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Earthshaker/base_arcana_2.png"
       ]
@@ -725,36 +725,36 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/item_offweap_rapier.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/item_offweap_rapier.png"
-      ],
-      "Set 2": [
-        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/item_shoulder_guardian.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/item_shoulder_guardian.png"
-      ],
-      "Set 3": [
-        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/item_weapon_rapier.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/item_weapon_rapier.png"
-      ],
-      "Set 4": [
-        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/mix_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/mix_1.jpg"
-      ],
-      "Set 5": [
         "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/sage.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/sage.png"
       ],
-      "Set 6": [
+      "Set 2": [
         "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/searing.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/searing.png"
       ],
-      "Set 7": [
+      "Set 3": [
         "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/sensei.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/sensei.png"
       ],
-      "Set 8": [
+      "Set 4": [
         "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/wandering.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/wandering.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/mix_1.jpg"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/item_offweap_rapier.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/item_offweap_rapier.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/item_shoulder_guardian.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/item_shoulder_guardian.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/item_weapon_rapier.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/item_weapon_rapier.png"
       ]
     }
   },
@@ -814,48 +814,48 @@
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/arcana.png"
       ],
       "Set 2": [
-        "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/base_arcana_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/base_arcana_1.webp"
-      ],
-      "Set 3": [
-        "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/base_arcana_2.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/base_arcana_2.webp"
-      ],
-      "Set 4": [
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/continuum.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/continuum.png"
       ],
-      "Set 5": [
+      "Set 3": [
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/incursion.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/incursion.png"
       ],
-      "Set 6": [
+      "Set 4": [
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/inquisitor.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/inquisitor.png"
       ],
-      "Set 7": [
+      "Set 5": [
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_arm_aeon.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_arm_aeon.png"
       ],
-      "Set 8": [
+      "Set 6": [
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_shoulder_aeon.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_shoulder_aeon.png"
       ],
-      "Set 9": [
+      "Set 7": [
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_weapon_aeon.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_weapon_aeon.png"
       ],
-      "Set 10": [
+      "Set 8": [
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_weapon_bf.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_weapon_bf.png"
       ],
-      "Set 11": [
+      "Set 9": [
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_weapon_timebreaker.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_weapon_timebreaker.png"
       ],
-      "Set 12": [
+      "Set 10": [
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_weapon_voidhammer.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_weapon_voidhammer.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/base_arcana_1.webp"
+      ],
+      "Set 12": [
+        "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/base_arcana_2.webp"
       ]
     },
     "method": 2
@@ -1097,24 +1097,24 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/base_arcana_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/base_arcana_1.webp"
-      ],
-      "Set 2": [
-        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/base_arcana_2.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/base_arcana_2.jpg"
-      ],
-      "Set 3": [
         "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/exile.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/exile.png"
       ],
-      "Set 4": [
+      "Set 2": [
         "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/honor.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/honor.png"
       ],
-      "Set 5": [
+      "Set 3": [
         "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/isle_2.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/isle_2.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/provoc.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/provoc.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/mix_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/mix_1.jpg"
       ],
       "Set 6": [
         "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/item_head_arcana.zip",
@@ -1133,12 +1133,12 @@
         "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/item_weapon_serrakura.png"
       ],
       "Set 10": [
-        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/provoc.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/provoc.png"
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/base_arcana_1.webp"
       ],
       "Set 11": [
-        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/mix_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/mix_1.jpg"
+        "https://cdn.ardysamods.my.id/Assets/models/Juggernaut/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Juggernaut/base_arcana_2.jpg"
       ]
     },
     "method": 1
@@ -1494,51 +1494,31 @@
       "Default Set": [
         "default_skin.vpk"
       ],
-      "Set 2": [
+      "Set 1": [
         "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/fire.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/fire.png"
       ],
-      "Set 3": [
-        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_head_arcana.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_head_arcana.png"
-      ],
-      "Set 8": [
+      "Set 2": [
         "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/mischief.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/mischief.png"
       ],
-      "Set 9": [
+      "Set 3": [
         "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/scoundrel.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/scoundrel.png"
       ],
-      "Set 10": [
+      "Set 4": [
         "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/sovereign.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/sovereign.png"
       ],
-      "Set 11": [
+      "Set 5": [
         "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/trickster.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/trickster.png"
       ],
-      "Set 20": {
-        "styles": {
-          "Timeless Tale": [
-            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana.zip",
-            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana.png"
-          ],
-          "Rumble in the Deep": [
-            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana_2.zip",
-            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana_2.png"
-          ],
-          "Immortal Path": [
-            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana_3.zip",
-            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana_3.png"
-          ],
-          "King's Crucible": [
-            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana_4.zip",
-            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana_4.png"
-          ]
-        }
-      },
-      "Set 21": {
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_head_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_head_arcana.png"
+      ],
+      "Set 7": {
         "styles": {
           "Staff of Gun-Yu": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff.zip",
@@ -1555,6 +1535,26 @@
           "Staff of Gun-Yu - Golden": [
             "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_golden.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/item_weapon_staff/item_weapon_staff_golden.png"
+          ]
+        }
+      },
+      "Set 8": {
+        "styles": {
+          "Timeless Tale": [
+            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana.png"
+          ],
+          "Rumble in the Deep": [
+            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana_2.png"
+          ],
+          "Immortal Path": [
+            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana_3.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana_3.png"
+          ],
+          "King's Crucible": [
+            "https://cdn.ardysamods.my.id/Assets/models/Monkey_King/base_arcana/base_arcana_4.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Monkey_King/base_arcana/base_arcana_4.png"
           ]
         }
       }
@@ -1800,68 +1800,68 @@
         "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/bane.jpg"
       ],
       "Set 2": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/base_arcana_1.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/base_arcana_1.webp"
-      ],
-      "Set 3": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/base_arcana_2.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/base_arcana_2.webp"
-      ],
-      "Set 4": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/base_arcana_3.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/base_arcana_3.webp"
-      ],
-      "Set 5": [
         "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/darkfeather.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/darkfeather.jpg"
       ],
-      "Set 6": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/gothic.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/gothic.jpg"
-      ],
-      "Set 7": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/item_head_codicil.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/item_head_codicil.webp"
-      ],
-      "Set 8": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/item_shoulder_avowance.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/item_shoulder_avowance.webp"
-      ],
-      "Set 9": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/item_shoulder_crimson_avowance.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/item_shoulder_crimson_avowance.webp"
-      ],
-      "Set 10": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_base.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_base.png"
-      ],
-      "Set 11": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_facade.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_facade.jpg"
-      ],
-      "Set 12": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_shadow.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_shadow.jpg"
-      ],
-      "Set 13": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_waning.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_waning.jpg"
-      ],
-      "Set 14": [
-        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/onikage.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/onikage.jpg"
-      ],
-      "Set 15": [
+      "Set 3": [
         "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/dragon_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/dragon_1.jpg"
       ],
-      "Set 16": [
+      "Set 4": [
         "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/dragon_2.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/dragon_2.jpg"
       ],
-      "Set 17": [
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/gothic.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/gothic.jpg"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/onikage.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/onikage.jpg"
+      ],
+      "Set 7": [
         "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/mix_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/mix_1.jpg"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_base.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_base.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_facade.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_facade.jpg"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_shadow.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_shadow.jpg"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/persona_waning.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/persona_waning.jpg"
+      ],
+      "Set 12": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/item_head_codicil.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/item_head_codicil.webp"
+      ],
+      "Set 13": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/item_shoulder_avowance.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/item_shoulder_avowance.webp"
+      ],
+      "Set 14": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/item_shoulder_crimson_avowance.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/item_shoulder_crimson_avowance.webp"
+      ],
+      "Set 15": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/base_arcana_1.webp"
+      ],
+      "Set 16": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/base_arcana_2.webp"
+      ],
+      "Set 17": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Assassin/base_arcana_3.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Assassin/base_arcana_3.webp"
       ]
     },
     "method": 2
@@ -1942,6 +1942,7 @@
       260,
       261,
       262,
+      391,
       470,
       810
     ],
@@ -1952,8 +1953,109 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/crow.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/crow.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/cursed.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/cursed.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/jolly.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/jolly.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/observer.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/observer.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/royal.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/royal.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/persona_base.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/persona_base.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/persona_dead.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/persona_dead.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/persona_dragon.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/persona_dragon.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/persona_glutton.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/persona_glutton.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_back_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_back_arcana.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_back_britches.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_back_britches.png"
+      ],
+      "Set 12": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_head_rotten.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_head_rotten.png"
+      ],
+      "Set 13": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_head_tassels.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_head_tassels.png"
+      ],
+      "Set 14": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_offweapon_bonesaw.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_offweapon_bonesaw.png"
+      ],
+      "Set 15": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_offweapon_tenderizer.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_offweapon_tenderizer.png"
+      ],
+      "Set 16": {
+        "styles": {
+          "Scavenging Guttleslug": [
+            "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_shoulder_slug/item_shoulder_slug.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_shoulder_slug/item_shoulder_slug.png"
+          ],
+          "Scavenging Guttleslug Golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_shoulder_slug/item_shoulder_slug_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_shoulder_slug/item_shoulder_slug_2.png"
+          ]
+        }
+      },
+      "Set 17": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_weapon_dragonclaw.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_weapon_dragonclaw.png"
+      ],
+      "Set 18": {
+        "styles": {
+          "The Abscesserator": [
+            "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_weapon_feast/item_weapon_feast.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_weapon_feast/item_weapon_feast.png"
+          ],
+          "Grand Abscession Hook": [
+            "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_weapon_feast/item_weapon_feast_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_weapon_feast/item_weapon_feast_2.png"
+          ]
+        }
+      },
+      "Set 19": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/item_weapon_ripper.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/item_weapon_ripper.png"
+      ],
+      "Set 20": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/base_arcana_1.png"
+      ],
+      "Set 21": [
+        "https://cdn.ardysamods.my.id/Assets/models/Pudge/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Pudge/base_arcana_2.png"
       ]
-    }
+    },
+    "method": 2
   },
   {
     "id": [
@@ -2117,60 +2219,60 @@
         "default_skin.vpk"
       ],
       "Set 1": [
-        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/demon_eater.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/demon_eater.png"
-      ],
-      "Set 2": [
-        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/diabolical.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/diabolical.png"
-      ],
-      "Set 3": [
-        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/molten.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/molten.png"
-      ],
-      "Set 4": [
-        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/sundered.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/sundered.png"
-      ],
-      "Set 5": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/corpulance.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/corpulance.png"
       ],
-      "Set 6": [
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/demon_eater.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/demon_eater.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/diabolical.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/diabolical.png"
+      ],
+      "Set 4": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/eternal.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/eternal.png"
       ],
-      "Set 7": [
+      "Set 5": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/lineage.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/lineage.png"
       ],
-      "Set 8": [
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/molten.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/molten.png"
+      ],
+      "Set 7": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/murder.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/murder.png"
       ],
-      "Set 9": [
+      "Set 8": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/raven.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/raven.png"
       ],
-      "Set 10": [
-        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/tyrant.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/tyrant.png"
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/sundered.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/sundered.png"
       ],
-      "Set 11": [
+      "Set 10": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/twilight.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/twilight.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/tyrant.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/tyrant.png"
       ],
       "Set 12": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/mix_1.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/mix_1.png"
       ],
+      "Set 13": [
+        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/item_hand_desolator.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/item_hand_desolator.png"
+      ],
       "Set 14": [
         "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/base_arcana.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/base_arcana.png"
-      ],
-      "Set 15": [
-        "https://cdn.ardysamods.my.id/Assets/models/Shadow_Fiend/item_hand_desolator.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Shadow_Fiend/item_hand_desolator.png"
       ]
     },
     "method": 2
@@ -2426,7 +2528,11 @@
         "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/gates.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/gates.png"
       ],
-      "Set 4": {
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/loyal.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/loyal.png"
+      ],
+      "Set 5": {
         "styles": {
           "Seclusions of the Void": [
             "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_head_void/item_head_void.zip",
@@ -2442,7 +2548,7 @@
           ]
         }
       },
-      "Set 5": {
+      "Set 6": {
         "styles": {
           "Mantle of the Whispered Bond": [
             "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_shoulder_bond/item_shoulder_bond.zip",
@@ -2454,13 +2560,9 @@
           ]
         }
       },
-      "Set 6": [
+      "Set 7": [
         "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/item_weapon_focal.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/item_weapon_focal.png"
-      ],
-      "Set 7": [
-        "https://cdn.ardysamods.my.id/Assets/models/Templar_Assassin/loyal.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Templar_Assassin/loyal.png"
       ]
     }
   },
@@ -2501,11 +2603,7 @@
         "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/item_weapon_sorrow.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/item_weapon_sorrow.png"
       ],
-      "Set 6": [
-        "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana.jpg"
-      ],
-      "Set 7": {
+      "Set 6": {
         "styles": {
           "Reflections Shade": [
             "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/prismatic_base/prismatic_base.zip",
@@ -2572,7 +2670,11 @@
             "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/prismatic_base/prismatic_vermillion.png"
           ]
         }
-      }
+      },
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Terrorblade/base_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Terrorblade/base_arcana.jpg"
+      ]
     },
     "method": 2
   },

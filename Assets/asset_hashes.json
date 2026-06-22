@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-21T18:01:51Z",
+  "generatedAt": "2026-06-22T09:51:26Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -538,6 +538,98 @@
     "Assets/models/Phantom_Assassin/persona_waning.zip": {
       "sha256": "4E6BE22F8BFD69DEEC6019C76B4CF4BA79B52E9AE71A1F11DE03769DAD1F2C6A",
       "size": 38226660
+    },
+    "Assets/models/Pudge/base_arcana_1.zip": {
+      "sha256": "A6ABE52EBE78C673ABA2EC4A8C024EE662F80B6B28E7612D2DA15ADD9D211A10",
+      "size": 11398461
+    },
+    "Assets/models/Pudge/base_arcana_2.zip": {
+      "sha256": "EBEFB65D355DBEEF02249E713DEE425396BB5446E893A27F8F6420C7041EE78A",
+      "size": 11412562
+    },
+    "Assets/models/Pudge/crow.zip": {
+      "sha256": "8B1AED52F13A0BDA6AAE5849167E92DE4DBE6ED9F45C95297134126B4796D0E4",
+      "size": 250843
+    },
+    "Assets/models/Pudge/cursed.zip": {
+      "sha256": "AEBA6977F82E2E965615015D8E6E56FC9C910BE2A9EA54E8DCA6A8B8D92B101C",
+      "size": 718394
+    },
+    "Assets/models/Pudge/item_back_arcana.zip": {
+      "sha256": "0E3F086ED8AC49657EAC0716A0C9FBA929D6D181AC2471503B924B85E234BC1B",
+      "size": 9518674
+    },
+    "Assets/models/Pudge/item_back_britches.zip": {
+      "sha256": "F567ECD79689EB925A6EB43469ED06A8DE221244CD7B6B2CEDCE474108822F9C",
+      "size": 103606
+    },
+    "Assets/models/Pudge/item_head_rotten.zip": {
+      "sha256": "58F73C8D7A27CEA3859A30026C1751F65A8DBDCEAAEDA98F064B478A6552CDFA",
+      "size": 286655
+    },
+    "Assets/models/Pudge/item_head_tassels.zip": {
+      "sha256": "563379086C74C8A0277BCA934AAA5D21B1D515B02D101F27F3C164CF7D75743D",
+      "size": 199820
+    },
+    "Assets/models/Pudge/item_offweapon_bonesaw.zip": {
+      "sha256": "186224D5C92829B2FA0F40D7F265D6F654C2E5E2A84F74E95021482A5C1FD566",
+      "size": 11941
+    },
+    "Assets/models/Pudge/item_offweapon_tenderizer.zip": {
+      "sha256": "0979257B3F4A7726F6CF8FF99D5078ECE6CE83783D73FB3F9F5015A173811A7E",
+      "size": 10420
+    },
+    "Assets/models/Pudge/item_shoulder_slug/item_shoulder_slug_2.zip": {
+      "sha256": "085FA31BA225C60F3B06D91370A899B0A4A592D1DE4EE204AB7D1247CA2E3596",
+      "size": 229725
+    },
+    "Assets/models/Pudge/item_shoulder_slug/item_shoulder_slug.zip": {
+      "sha256": "C12A2352F163FF26809A65FA38BB46110207600CFF37926F19D63A9F157B0F1C",
+      "size": 226505
+    },
+    "Assets/models/Pudge/item_weapon_dragonclaw.zip": {
+      "sha256": "C0BADF0A02101F8FC2D90B434FA39D90D5C2260B2C5671795869D24FFB812185",
+      "size": 9681
+    },
+    "Assets/models/Pudge/item_weapon_feast/item_weapon_feast_2.zip": {
+      "sha256": "87AF99E4BC5CEF777659C598443BDD1712C0A0733587849D768DD8466AF2FEE6",
+      "size": 373951
+    },
+    "Assets/models/Pudge/item_weapon_feast/item_weapon_feast.zip": {
+      "sha256": "E6B9C76063BFFA8596401A7A45D2FC2311E6CFEA354C82529FE273A8F5675B56",
+      "size": 415619
+    },
+    "Assets/models/Pudge/item_weapon_ripper.zip": {
+      "sha256": "54EDA30900ACE1C200AC8F41EEDBD4CEE4839DD0D11E9DF97CC19D01C74B5671",
+      "size": 290095
+    },
+    "Assets/models/Pudge/jolly.zip": {
+      "sha256": "8C879962972618AFE5A2776671F78E28B35F77B7330743E3D489B59D37B845E7",
+      "size": 555102
+    },
+    "Assets/models/Pudge/observer.zip": {
+      "sha256": "44767B81EE280A47705B39C897238C54FD124AD05B3C79B0E2C4FECAB5E48066",
+      "size": 11204625
+    },
+    "Assets/models/Pudge/persona_base.zip": {
+      "sha256": "8E86F9FC5D8B58253CE847FC203064F6C39ACF1458A96704690ED292CA707BE8",
+      "size": 42200021
+    },
+    "Assets/models/Pudge/persona_dead.zip": {
+      "sha256": "50DB096F65912534DB40FBD556C12FEE6FFBC9D7331484B983D1F5B663C97D8B",
+      "size": 41301824
+    },
+    "Assets/models/Pudge/persona_dragon.zip": {
+      "sha256": "323BDFF11D7F4C2EF79A0E2513F9AFE16B703F52DFEB60AE1F64BF3C71922D1C",
+      "size": 41454545
+    },
+    "Assets/models/Pudge/persona_glutton.zip": {
+      "sha256": "87D7853B787E9702C59CC131361DC654306AFD7D6E2F3B8B8B712469E1282063",
+      "size": 41335398
+    },
+    "Assets/models/Pudge/royal.zip": {
+      "sha256": "82BAA34EBDAA522AE3FE9081FA9206E40392196F0495E7AD7CDD414B4C47FFD1",
+      "size": 604410
     },
     "Assets/models/Shadow_Fiend/base_arcana.zip": {
       "sha256": "203CD116A81254DCC9B95D430752260FBB3C6B83F8B051A407747B7F66A77F59",
