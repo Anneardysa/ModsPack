@@ -1,7 +1,56 @@
 {
-  "version": "1.0.39",
-  "lastUpdated": "2026-06-22",
+  "version": "1.0.40",
+  "lastUpdated": "2026-06-24",
   "updates": [
+    {
+      "date": "2026-06-24",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 6 (zinogre_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 5 (syl_zinogre_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 4 (prism_zinogre_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 9"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 11"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 10"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 2 (autumn_zinogre_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-06-22",
       "sets": [

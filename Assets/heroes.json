@@ -3004,8 +3004,87 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Windranger/arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Windranger/arcana.png"
+      ],
+      "Set 2": {
+        "thumbnail": "https://cdn.ardysamods.my.id/Assets/image/Windranger/autumn_zinogre/autumn.png",
+        "styles": {
+          "autumn_zinogre_1": [
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/autumn_zinogre/autumn_zinogre_1.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Windranger/autumn_zinogre/autumn_zinogre_1.png"
+          ],
+          "autumn_zinogre_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/autumn_zinogre/autumn_zinogre_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Windranger/autumn_zinogre/autumn_zinogre_2.png"
+          ]
+        }
+      },
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Windranger/breeze.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Windranger/breeze.png"
+      ],
+      "Set 4": {
+        "thumbnail": "https://cdn.ardysamods.my.id/Assets/image/Windranger/prism_zinogre/prism.png",
+        "styles": {
+          "prism_zinogre_1": [
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/prism_zinogre/prism_zinogre_1.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Windranger/prism_zinogre/prism_zinogre_1.png"
+          ],
+          "prism_zinogre_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/prism_zinogre/prism_zinogre_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Windranger/prism_zinogre/prism_zinogre_2.png"
+          ]
+        }
+      },
+      "Set 5": {
+        "thumbnail": "https://cdn.ardysamods.my.id/Assets/image/Windranger/syl_zinogre/syl.png",
+        "styles": {
+          "syl_zinogre_1": [
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/syl_zinogre/syl_zinogre_1.zip"
+          ],
+          "syl_zinogre_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/syl_zinogre/syl_zinogre_2.zip"
+          ]
+        }
+      },
+      "Set 6": {
+        "thumbnail": "https://cdn.ardysamods.my.id/Assets/image/Windranger/zinogre/zinogre.png",
+        "styles": {
+          "zinogre_1": [
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/zinogre/zinogre_1.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Windranger/zinogre/zinogre_1.png"
+          ],
+          "zinogre_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/zinogre/zinogre_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Windranger/zinogre/zinogre_2.png"
+          ]
+        }
+      },
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_back_sylvian.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Windranger/item_back_sylvian.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_shoulder_sylvian.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Windranger/item_shoulder_sylvian.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_weapon_peregrine.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Windranger/item_weapon_peregrine.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Windranger/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Windranger/base_arcana_1.png"
+      ],
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Windranger/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Windranger/base_arcana_2.png"
       ]
-    }
+    },
+    "method": 1
   },
   {
     "id": [

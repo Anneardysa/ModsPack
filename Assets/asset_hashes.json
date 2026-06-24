@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-22T09:51:26Z",
+  "generatedAt": "2026-06-24T13:21:26Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -814,6 +814,66 @@
     "Assets/models/Terrorblade/prismatic_base/prismatic_vermillion.zip": {
       "sha256": "8627823F32BE1935784AC8B8DEBE2E1A81B75A1BE87DEB90040437C14A72E6D8",
       "size": 118356
+    },
+    "Assets/models/Windranger/arcana.zip": {
+      "sha256": "B4FC6DF7573BF5CD1F77EE828130E9B2DFFE798FC520D80ED43A4F0D932653A4",
+      "size": 2776024
+    },
+    "Assets/models/Windranger/autumn_zinogre/autumn_zinogre_1.zip": {
+      "sha256": "8D42C6FA5787FF1F83856EB55F309E5CF2BDC753110732537BD41F3CA4120FED",
+      "size": 3139868
+    },
+    "Assets/models/Windranger/autumn_zinogre/autumn_zinogre_2.zip": {
+      "sha256": "2718D9131939B9F0EE7283DBE3365B5F77C61481104B38AF12D0F33FDB0C5A10",
+      "size": 3139676
+    },
+    "Assets/models/Windranger/base_arcana_1.zip": {
+      "sha256": "9BE94D80B49BEC243E1D5717CC10D99033B063537B384343BF8F7D1179EC1B24",
+      "size": 11091455
+    },
+    "Assets/models/Windranger/base_arcana_2.zip": {
+      "sha256": "535BD7D9B4693F87FFA15C8FC4612694E400562D0F56AAF6036F7B9126C27065",
+      "size": 11091339
+    },
+    "Assets/models/Windranger/breeze.zip": {
+      "sha256": "F35E277E742D925425180BBB6F71C59B468A1D813DE4568BA26F2E136661AE47",
+      "size": 1492394
+    },
+    "Assets/models/Windranger/item_back_sylvian.zip": {
+      "sha256": "C770C1679C91D0EE9C3DA6F0FF800FBF6DCDD609E0A6C63D97E21ABA73DCD1F7",
+      "size": 49252
+    },
+    "Assets/models/Windranger/item_shoulder_sylvian.zip": {
+      "sha256": "3B662E70D4D72EB1B5FB589A7E8E161B2360C20ADA50FE454B7DBF2C74BEC7D5",
+      "size": 4567915
+    },
+    "Assets/models/Windranger/item_weapon_peregrine.zip": {
+      "sha256": "62A001F96D89A64AE66C59EE7BC495EBC2E190EDB8546425E58F05D352885587",
+      "size": 268116
+    },
+    "Assets/models/Windranger/prism_zinogre/prism_zinogre_1.zip": {
+      "sha256": "EA336293EC2A92AB73F3194CD01978F99AE6C4D394A8E43CE541A6D5ECA9F2F9",
+      "size": 4535195
+    },
+    "Assets/models/Windranger/prism_zinogre/prism_zinogre_2.zip": {
+      "sha256": "E004A3D084101397143D8ED98C725580E3E7B627C43BB65E02CA2952179F8528",
+      "size": 4535211
+    },
+    "Assets/models/Windranger/syl_zinogre/syl_zinogre_1.zip": {
+      "sha256": "C7714572B04EEF1C5E9E960B4298FCE006762D7913F78F6DA350AB812D99C5B7",
+      "size": 3140037
+    },
+    "Assets/models/Windranger/syl_zinogre/syl_zinogre_2.zip": {
+      "sha256": "684DFE7F1BAD12C06459EEE193B598D23348738FAF2F53AAA72FE82CFB885D83",
+      "size": 3140233
+    },
+    "Assets/models/Windranger/zinogre/zinogre_1.zip": {
+      "sha256": "BCD38F3EC11156670CF80EAE2E653F3E82C8A970E963F35A2FA060E3662DFA7E",
+      "size": 3127655
+    },
+    "Assets/models/Windranger/zinogre/zinogre_2.zip": {
+      "sha256": "B3571B0E49DA0954F324D6D84D1070315E8A61FBB6BBC796FF8F9FA83F990CB6",
+      "size": 3127547
     },
     "Assets/Original.zip": {
       "sha256": "F2B6C8E8CCD30E2B8330EAD50343458F47E3DC6389CE00DC0D668AF6E3778485",
