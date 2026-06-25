@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-25T02:21:57Z",
+  "generatedAt": "2026-06-25T08:16:30Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -740,8 +740,8 @@
       "size": 852424
     },
     "Assets/models/Terrorblade/foulfell.zip": {
-      "sha256": "F086146A7B11DB85A5C72265346A3718CE0A11BF51510D346E78D6E4C27052C9",
-      "size": 607178
+      "sha256": "2D64C620C7B75E0A51E434E48639F4F374D0241F7911787E9E2FDEF3A0E18399",
+      "size": 584158
     },
     "Assets/models/Terrorblade/item_back_sorrow.zip": {
       "sha256": "0A6074809D03C14A6C69C2A144F03F02313188125486EB9695B3B5B4E5E282DA",
