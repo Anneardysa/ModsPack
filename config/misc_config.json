@@ -63,7 +63,9 @@
             "displayName": "Terrain",
             "category": "Environment",
             "thumbnailFolder": "terrain",
-            "excludesWith": ["Special"],
+            "excludesWith": [
+                "Special"
+            ],
             "choices": [
                 {
                     "name": "Default Terrain",
@@ -156,48 +158,117 @@
             "choices": [
                 {
                     "name": "Default Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Default.txt",
-                    "thumbnailId": "deadmau5_music"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Default.txt"
                 },
                 {
                     "name": "Deadmau5 Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Deadmau5.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Deadmau5.txt",
+                    "thumbnailId": "deadmau5"
                 },
                 {
                     "name": "Elemental Fury Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Elemental.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Elemental.txt",
+                    "thumbnailId": "elemental"
                 },
                 {
                     "name": "Desert Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Desert.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Desert.txt",
+                    "thumbnailId": "desert"
                 },
                 {
                     "name": "Magic Sticks of Dynamite",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dynamite.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dynamite.txt",
+                    "thumbnailId": "dynamite"
                 },
                 {
                     "name": "The FatRat Warrior Songs",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/FatRat.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/FatRat.txt",
+                    "thumbnailId": "fatrat"
                 },
                 {
                     "name": "Heroes Within Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/HeroesWithin.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/HeroesWithin.txt",
+                    "thumbnailId": "heroeswithin"
                 },
                 {
                     "name": "Humanitys Last Breath Void",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Humanitys.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Humanitys.txt",
+                    "thumbnailId": "humanitys"
                 },
                 {
                     "name": "Northern Winds Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Northern.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Northern.txt",
+                    "thumbnailId": "northern"
                 },
                 {
                     "name": "JJ Lins Timekeeper Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Timekeeper.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Timekeeper.txt",
+                    "thumbnailId": "timekeeper"
                 },
                 {
                     "name": "Monster Hunter Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/MonsterHunter.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/MonsterHunter.txt",
+                    "thumbnailId": "monsterhunter"
+                },
+                {
+                    "name": "Matt Lange Abstraction Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/MattLange.txt",
+                    "thumbnailId": "mattlange"
+                },
+                {
+                    "name": "Dire Shred Cover Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dire.txt",
+                    "thumbnailId": "dire"
+                },
+                {
+                    "name": "Nemestice 2021",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Nemestice.txt",
+                    "thumbnailId": "nemestice"
+                },
+                {
+                    "name": "Harmonies of New Bloom Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Harmonies.txt",
+                    "thumbnailId": "harmonies"
+                },
+                {
+                    "name": "The International 2014",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2014.txt",
+                    "thumbnailId": "2014"
+                },
+                {
+                    "name": "The International 2015",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2015.txt",
+                    "thumbnailId": "2015"
+                },
+                {
+                    "name": "The International 2016",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2016.txt",
+                    "thumbnailId": "2016"
+                },
+                {
+                    "name": "The International 2017",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2017.txt",
+                    "thumbnailId": "2017"
+                },
+                {
+                    "name": "The International 2018",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2018.txt",
+                    "thumbnailId": "2018"
+                },
+                {
+                    "name": "The International 2019",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2019.txt",
+                    "thumbnailId": "2019"
+                },
+                {
+                    "name": "The International 2020",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/T10.txt",
+                    "thumbnailId": "ti10"
+                },
+                {
+                    "name": "The International 2022",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2022.txt",
+                    "thumbnailId": "2022"
                 }
             ]
         },
@@ -477,7 +548,8 @@
                 },
                 {
                     "name": "Crownfall",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Crownfall.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Crownfall.txt",
+                    "thumbnailId": "cavernite"
                 },
                 {
                     "name": "Nemestice",
@@ -561,7 +633,8 @@
                 },
                 {
                     "name": "Crownfall",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Crownfall.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Crownfall.txt",
+                    "thumbnailId": "cavernite"
                 },
                 {
                     "name": "Nemestice",
@@ -1606,11 +1679,13 @@
                     "styles": [
                         {
                             "name": "Pandora the Packwyrm (Style 1)",
-                            "url": "28139:0"
+                            "url": "28139:0",
+                            "thumbnailId": "pandora_the_packwyrm"
                         },
                         {
                             "name": "Pandora the Packwyrm (Style 1)",
-                            "url": "28139:1"
+                            "url": "28139:1",
+                            "thumbnailId": "pandora_the_packwyrm"
                         }
                     ]
                 },
@@ -2346,7 +2421,9 @@
             "thumbnailFolder": "special",
             "thumbnailExtension": "png",
             "type": "vpk",
-            "excludesWith": ["Map"],
+            "excludesWith": [
+                "Map"
+            ],
             "choices": [
                 {
                     "name": "Disable Special",
