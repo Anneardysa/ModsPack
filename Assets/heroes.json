@@ -2478,6 +2478,46 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sven/arbiter.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sven/arbiter.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sven/astral.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sven/astral.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sven/dragon.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sven/dragon.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sven/legacy.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sven/legacy.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sven/northern.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sven/northern.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sven/relic.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sven/relic.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sven/warden.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sven/warden.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sven/item_arm_vigil.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sven/item_arm_vigil.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sven/item_head_vigil.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sven/item_head_vigil.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sven/item_weapon_vigil.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sven/item_weapon_vigil.png"
       ]
     }
   },
@@ -3043,10 +3083,12 @@
         "thumbnail": "https://cdn.ardysamods.my.id/Assets/image/Windranger/syl_zinogre/syl.png",
         "styles": {
           "syl_zinogre_1": [
-            "https://cdn.ardysamods.my.id/Assets/models/Windranger/syl_zinogre/syl_zinogre_1.zip"
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/syl_zinogre/syl_zinogre_1.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Windranger/syl_zinogre/syl_zinogre_1.png"
           ],
           "syl_zinogre_2": [
-            "https://cdn.ardysamods.my.id/Assets/models/Windranger/syl_zinogre/syl_zinogre_2.zip"
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/syl_zinogre/syl_zinogre_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Windranger/syl_zinogre/syl_zinogre_2.png"
           ]
         }
       },

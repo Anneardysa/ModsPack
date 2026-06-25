@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-25T08:16:30Z",
+  "generatedAt": "2026-06-25T10:37:21Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -686,6 +686,46 @@
     "Assets/models/Shadow_Fiend/tyrant.zip": {
       "sha256": "8D1E887D8A4EE602244805107ADE62BCDA1A9049154E334D68352E7689430BC4",
       "size": 214945
+    },
+    "Assets/models/Sven/arbiter.zip": {
+      "sha256": "2CCA05B3CACEDDC5D93A7357D02381DA4AA1B3EC2D6141BC4DA1594623842357",
+      "size": 897861
+    },
+    "Assets/models/Sven/astral.zip": {
+      "sha256": "D90419BB8062024E342B61AE5699E2A2DBDC67EBCB46F4678AA8DCA6419F744E",
+      "size": 1148440
+    },
+    "Assets/models/Sven/dragon.zip": {
+      "sha256": "6FD99E7DF55812CD5323AFF2DC098D9A7159C5391326C0A893D80368DF764820",
+      "size": 917884
+    },
+    "Assets/models/Sven/item_arm_vigil.zip": {
+      "sha256": "E6CDFDA60D8D93DBC8583E81B0E544BAF76BB17384A5F65857DA7CBF3C11D24E",
+      "size": 135392
+    },
+    "Assets/models/Sven/item_head_vigil.zip": {
+      "sha256": "6B32CD4C9321048E08629B72FF1C369C216B2C52E13BED25F4E699AF8B1B7D1A",
+      "size": 103909
+    },
+    "Assets/models/Sven/item_weapon_vigil.zip": {
+      "sha256": "DE0E6C0A11266EFB6731988E6A88482EAE56D9047AFE091A5CACB3505CE33CBE",
+      "size": 124746
+    },
+    "Assets/models/Sven/legacy.zip": {
+      "sha256": "6AF4D7E8442BA98D40432EB2CEDD80E227653AC3749DB11A6A9F44FE83A969CB",
+      "size": 1258255
+    },
+    "Assets/models/Sven/northern.zip": {
+      "sha256": "BC99AC08CBA7F99FDB2EE8CE34133EA1D343A9BC02ED92E29021052C372329D1",
+      "size": 971204
+    },
+    "Assets/models/Sven/relic.zip": {
+      "sha256": "CAA7E0EF7300C127B765DD6394D8B3A88F7B01FE6AE2C570C87948263FED665F",
+      "size": 1167056
+    },
+    "Assets/models/Sven/warden.zip": {
+      "sha256": "E2062C0F253EE41391314E0C2313777F327D0F0952053C2A415ED95EF214CB2E",
+      "size": 993736
     },
     "Assets/models/Templar_Assassin/adept.zip": {
       "sha256": "3567EF29EEB421BD258CC41FFEB3994C95C10EE3C997FE53CAAB3184BBCEF8C5",

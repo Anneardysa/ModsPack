@@ -1,7 +1,52 @@
 {
-  "version": "1.0.40",
-  "lastUpdated": "2026-06-24",
+  "version": "1.0.41",
+  "lastUpdated": "2026-06-25",
   "updates": [
+    {
+      "date": "2026-06-25",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 10"
+        },
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 9"
+        },
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_sven",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-06-24",
       "sets": [
