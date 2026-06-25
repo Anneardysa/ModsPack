@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-24T13:21:26Z",
+  "generatedAt": "2026-06-25T00:43:31Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -836,8 +836,8 @@
       "size": 11091339
     },
     "Assets/models/Windranger/breeze.zip": {
-      "sha256": "F35E277E742D925425180BBB6F71C59B468A1D813DE4568BA26F2E136661AE47",
-      "size": 1492394
+      "sha256": "B15295E1207E38A1190ED5CCF2070670E07E76E8EF43383BCF9D080AFAA6E450",
+      "size": 2556871
     },
     "Assets/models/Windranger/item_back_sylvian.zip": {
       "sha256": "C770C1679C91D0EE9C3DA6F0FF800FBF6DCDD609E0A6C63D97E21ABA73DCD1F7",
