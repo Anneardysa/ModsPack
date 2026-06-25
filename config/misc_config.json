@@ -269,6 +269,11 @@
                     "name": "The International 2022",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2022.txt",
                     "thumbnailId": "2022"
+                },
+                {
+                    "name": "Songs of the Caravan Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Caravan.txt",
+                    "thumbnailId": "caravan"
                 }
             ]
         },
