@@ -123,6 +123,7 @@
 
 		"DOTA_Purchase_One"		"Acquistane 1"
 		"DOTA_Purchase_Nine"	"Acquistane 9"
+		"DOTA_Purchase_Eleven"	"Acquistane 11"
 		"DOTA_Purchase_CC_Bundle"	"Acquistane 13"
 
 		"DOTA_Keybind_ALT"		"ALT"
@@ -512,8 +513,14 @@
 		"dota_chatwheel_header_crownfall_sprays"			"Spray di Crownfall"
 		"dota_chatwheel_header_crownfall_sprays_desc"		"Si ottengono esplorando la mappa di Crownfall."
 
+		"dota_chatwheel_header_dark_carnival_cw"				"Chat radiale del Circo degli orrori"
+		"dota_chatwheel_header_dark_carnival_cw_desc"			"Ottenuto durante l'evento del Circo degli orrori."
+
 		"dota_chatwheel_header_monster_hunter_sprays"			"Spray dei cacciatori di mostri"
 		"dota_chatwheel_header_monster_hunter_sprays_desc"		"Ottenuto nell'evento di Monster Hunter."
+		
+		"dota_chatwheel_header_dark_carnival_sprays"			"Spray del Circo degli orrori"
+		"dota_chatwheel_header_dark_carnival_sprays_desc"		"Ottenuto durante l'evento del Circo degli orrori."
 
 
 		"dota_chatwheel_header_voice_of_god_cw"				"La Voce del The International"
@@ -961,11 +968,10 @@
 		"DOTA_Hotkeys_Tooltip_TalentUpgradeStatRight"  "Sblocca il talento a destra."
 		"DOTA_Hotkeys_Tooltip_TalentUpgradeAttribute"  "Sblocca i bonus agli attributi nel menu dei talenti."
 
-		"DOTA_Hotkeys_Tooltip_NeutralItemSelect1"	"Seleziona la prima opzione nel menu di creazione degli oggetti neutrali"
-		"DOTA_Hotkeys_Tooltip_NeutralItemSelect2"	"Seleziona la seconda opzione nel menu di creazione degli oggetti neutrali"
-		"DOTA_Hotkeys_Tooltip_NeutralItemSelect3"	"Seleziona la terza opzione nel menu di creazione degli oggetti neutrali"
-		"DOTA_Hotkeys_Tooltip_NeutralItemSelect4"	"Seleziona la quarta opzione nel menu di creazione degli oggetti neutrali"
-		"DOTA_Hotkeys_Tooltip_NeutralItemSelect5"	"Seleziona la quinta opzione nel menu di creazione degli oggetti neutrali."
+		"DOTA_Hotkeys_Tooltip_NeutralItemSelect1"  "Seleziona la prima opzione nel menu di creazione degli oggetti neutrali"
+		"DOTA_Hotkeys_Tooltip_NeutralItemSelect2"  "Seleziona la seconda opzione nel menu di creazione degli oggetti neutrali"
+		"DOTA_Hotkeys_Tooltip_NeutralItemSelect3"  "Seleziona la terza opzione nel menu di creazione degli oggetti neutrali"
+		"DOTA_Hotkeys_Tooltip_NeutralItemSelect4"  "Seleziona la quarta opzione nel menu di creazione degli oggetti neutrali"
 				
 		// Video
 		"DOTAUI_AspectNormal"			"4:3"
@@ -3584,6 +3590,8 @@
 		"dota_region_singapore"			"Singapore"
 		"dota_region_shanghai"			"Shanghai"
 		"dota_region_beijing"			"Pechino"
+		"dota_region_chengdu"			"Chengdu"
+		"dota_region_guangzhou"			"Canton"
 		"dota_region_malaysia"			"Malesia"
 		"dota_region_stockholm"			"Stoccolma"
 		"dota_region_austria"			"Austria"
@@ -3601,6 +3609,8 @@
 		"dota_region_pw_unicom"			"China UC"
         "dota_region_pw_unicom_tianjin" "China UC 2"
 		"dota_region_pw_beijing"		"Pechino (Cina)"
+		"dota_region_pw_chengdu"		"Chengdu (Cina)"
+		"dota_region_pw_guangzhou"		"Canton (Cina)"
 		"dota_region_dubai"				"Dubai"
 		"dota_region_chile"				"Cile"
 		"dota_region_argentina"			"Argentina"
@@ -3633,12 +3643,15 @@
 		"dota_matchgroup_jnb"			"Sudafrica"
 		"dota_matchgroup_pw"			"Perfect World (Cina)"
 		"dota_matchgroup_pw_telecom"	"China TC"
-		"dota_matchgroup_pw_telecom_shanghai"	"China TC Shanghai"
+		"dota_matchgroup_pw_telecom_shanghai"	"Shanghai (Cina)"
 		"dota_matchgroup_pw_telecom_guangdong"	"China TC Guangdong"
 		"dota_matchgroup_pw_telecom_zhejiang"	"China TC Zhejiang"
 		"dota_matchgroup_pw_telecom_wuhan"	"China TC Wuhan"
 		"dota_matchgroup_pw_unicom"		"China UC"
         "dota_matchgroup_pw_unicom_tianjin"     "China UC 2"
+		"dota_matchgroup_pw_beijing"	"Pechino (Cina)"
+		"dota_matchgroup_pw_chengdu"	"Chengdu (Cina)"
+		"dota_matchgroup_pw_guangzhou"	"Canton (Cina)"
 		"dota_matchgroup_dubai"			"Dubai"
 		"dota_matchgroup_brazil"		"Brasile"
 		"dota_matchgroup_chile"			"Cile"
@@ -12030,6 +12043,7 @@ Se un tuo oggetto viene scelto per la vendita all'interno del gioco, ne guadagne
 		"DOTA_Style_Dragon_Knight_Griffin_Knight_0"		"Fuoco"
 		"DOTA_Style_Dragon_Knight_Griffin_Knight_1" 	"Corrosivo"
 		"DOTA_Style_Dragon_Knight_Griffin_Knight_2" 	"Gelo"
+		
 
 //DOTA_ITEM_STYLES_END
 //DOTA_ITEM_STYLE_END
@@ -13351,6 +13365,8 @@ Provocazione speciale per Techies"
 		"DOTA_TrophyName_TI7SeasonalMMR_Party"			"Miglior grado di gruppo - The International del 2017"
 		"DOTA_TrophyDesc_TI7SeasonalMMR_Party"			"Commemora il picco massimo del grado di gruppo ottenuto nel sistema di ricerca classificato del The International del 2017."
 		"DOTA_TrophyUnits_TI7SeasonalMMR_Party:f"		"Miglior MMR di gruppo: {score}"
+
+		"DOTA_TrophyDesc_MonsterHunter_HeroAtlas"				"Ottenuto per aver sbloccato degli accessi nell'Atlante degli Eroi durante l'evento Monster Hunter."
 
 		"DOTA_AllHeroChallenge_ProfileHead"				"Progresso della Sfida\ndegli Eroi"
 		"DOTA_AllHeroChallenge_ProfileButton"			"Mostra i dettagli"
@@ -18536,6 +18552,7 @@ i set più popolari dei tesori passati. Disponibile ora a soli {g:dota_item_pric
 		"DOTA_PlusPostGame_GoldReceived_Buildings"	"Strutture"
 		"DOTA_PlusPostGame_GoldReceived_Abilities"	"Abilità"
 		"DOTA_PlusPostGame_GoldReceived_Wards"		"Guardiani"
+		"DOTA_PlusPostGame_GoldReceived_Summons"		"Evocazioni"
 		"DOTA_PlusPostGame_GoldReceived_Other"		"Altro"
 
 		"DOTA_PlusPostGame_XPReceivedTitle"		"ESP ricevuta"
@@ -18546,6 +18563,7 @@ i set più popolari dei tesori passati. Disponibile ora a soli {g:dota_item_pric
 		"DOTA_PlusPostGame_XPReceived_Outpost"	"Avamposti"
 		"DOTA_PlusPostGame_XPReceived_Other"	"Altro"
 		"DOTA_PlusPostGame_XPReceived_Abilities"	"Abilità"
+		"DOTA_PlusPostGame_XPReceived_Summons"	"Evocazioni"
 		
 		"DOTA_PlusPostGame_DamageContributionDrilldownHeading"		"Danni di {s:ability_name}"
 		"DOTA_PlusPostGame_DamageContributionAttackHeading"			"Attacco"
@@ -18633,6 +18651,7 @@ i set più popolari dei tesori passati. Disponibile ora a soli {g:dota_item_pric
 	"DOTA_Combine"			"Combina"
 	"DOTA_Claim"			"Riscuoti"
 	"DOTA_Claimed"			"Ottenuti"
+	"DOTA_ClickToClaim"		"Clicca per riscattare"
 	"DOTA_Vote"				"Vota"
 	"DOTA_NowAvailable"		"Disponibile ora"
 	"DOTA_Coming_Soon"		"Prossimamente"
@@ -18649,6 +18668,8 @@ i set più popolari dei tesori passati. Disponibile ora a soli {g:dota_item_pric
 	"DOTA_ViewEvent"		"Mostra evento"
 	"DOTA_BuyNow"			"Acquista ora"
 	"DOTA_NewItemShort"		"Nuovo oggetto"
+	"DOTA_ChargesLabel"		"Cariche"
+	"DOTA_LevelLabelWord"		"Livello"
 
 	"DOTA_SortBy"						"Ordina per"
 	"DOTA_SortOption_Relevance"			"I più rilevanti"
@@ -24088,6 +24109,7 @@ Per unirti come giocatore esperto, devi aver giocato ad almeno {d:new_player_req
 	"DOTA_tooltip_econ_item_expiry_restriction" "Scadenza: {t:T:expires_after_date_time} {t:s:expires_after_date_time}"
 	"DOTA_tooltip_econ_item_transform_restriction" "Trasformazione: {t:T:expires_after_date_time} {t:s:expires_after_date_time}"
 	"DOTA_tooltip_econ_item_trade_restriction_permanent" "Non scambiabile o vendibile"
+	"DOTA_tooltip_econ_item_trade_restriction_permanent_but_marketable" "Vendibile nel Mercato, non scambiabile"
 	"DOTA_tooltip_econ_item_battle_pass_accessible" "Disponibile durante la stagione di questo Pass Battaglia"
 	"DOTA_tooltip_econ_item_seasonal_accessible" "Disponibile fino al termine della stagione"
 	"DOTA_tooltip_econ_item_trade_restriction_date" "Scambiabile dopo la seguente data: {t:s:tradable_after_date_time}"
@@ -38569,7 +38591,6 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"DOTA_CandyShop_ConfirmReroll_EmptyInventory"	"Non hai dolci e non puoi acquistare nulla. Vuoi comunque rifornire gli scaffali con nuovi articoli?"
 		"DOTA_CandyShop_RerollCharges"					"{d:quantity} rifornimenti per il negozio di dolci"
 
-		"DOTA_CandyShop_CandySackInfo_Crownfall"		"Sblocca i luoghi nella mappa di Crownfall per guadagnare dolci."
 		"DOTA_CandyShop_InventorySlotInfo_Crownfall"	"Visita altri negozi di dolci per ampliare il tuo inventario."
 		"DOTA_CandyShop_View_Crownfall"					"Vai alla Carovana della Dolceria"
 
@@ -44208,6 +44229,10 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"DOTA_Collection_Previewing"				"In anteprima"
 		"DOTA_Armory_ContextMenu_SellOnMarket"		"Vendi"
 
+		"DOTA_Armory_ItemQuantity"					"x{d:ItemQuantity}"
+		"DOTA_Armory_ItemLevel"						"Livello {d:ItemQuantity}"
+		"DOTA_Item_QuantityAsLevel"					"Livello %d"
+
 		"DOTA_Collection_FirstTimeTitle"			"Abbiamo migliorato il tuo Arsenale"
 		"DOTA_Collection_FirstTimeExplaination"		"Tutta la tua collezione si trova qui, un unico luogo in cui poter <b>sfogliare</b>, <b>acquistare</b> ed <b>equipaggiare</b> i tuoi oggetti."
 		
@@ -44670,13 +44695,13 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"DOTA_FantasyCraft_Prefix_EleHero_Body"		"+{d:prefix_bonus}% quando usa un Eroe acquatico, di fuoco o di ghiaccio."
 		"DOTA_FantasyCraft_Prefix_Otherworldly_Body" "+{d:prefix_bonus}% quando usa un Eroe zombi, demone o spirito."
 		"DOTA_FantasyCraft_Prefix_Hairy_Body"		"+{d:prefix_bonus}% quando usa un Eroe barbuto o peloso."
-		"DOTA_FantasyCraft_Prefix_RedHero_Body_MouseOver"		"+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2025PlayerMiniTooltip( 1 )\" onmouseout=\"event:DOTAHideFantasy2025PlayerTooltip()\">Eroe rosso</a>."
-		"DOTA_FantasyCraft_Prefix_Sad_Body_MouseOver"			"+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2025PlayerMiniTooltip( 3 )\" onmouseout=\"event:DOTAHideFantasy2025PlayerTooltip()\">Eroe blu</a>."
-		"DOTA_FantasyCraft_Prefix_Beastial_Body_MouseOver"	"+{d:prefix_bonus}% quando si gioca con un Eroe dotato di <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2025PlayerMiniTooltip( 7 )\" onmouseout=\"event:DOTAHideFantasy2025PlayerTooltip()\">corna o ali</a>."
-		"DOTA_FantasyCraft_Prefix_GreenHero_Body_MouseOver"	"+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2025PlayerMiniTooltip( 6 )\" onmouseout=\"event:DOTAHideFantasy2025PlayerTooltip()\">Eroe verde</a>."
-		"DOTA_FantasyCraft_Prefix_EleHero_Body_MouseOver"		"+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2025PlayerMiniTooltip( 14 )\" onmouseout=\"event:DOTAHideFantasy2025PlayerTooltip()\">Eroe acquatico, di fuoco o di ghiaccio</a>."
-		"DOTA_FantasyCraft_Prefix_Otherworldly_Body_MouseOver" "+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2025PlayerMiniTooltip( 15 )\" onmouseout=\"event:DOTAHideFantasy2025PlayerTooltip()\">Eroe zombi, demoniaco o spirituale</a>."
-		"DOTA_FantasyCraft_Prefix_Hairy_Body_MouseOver"		"+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2025PlayerMiniTooltip( 16 )\" onmouseout=\"event:DOTAHideFantasy2025PlayerTooltip()\">Eroe barbuto o peloso</a>."
+		"DOTA_FantasyCraft_Prefix_RedHero_Body_MouseOver"		"+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2026PlayerMiniTooltip( 1 )\" onmouseout=\"event:DOTAHideFantasy2026PlayerTooltip()\">Eroe rosso</a>."
+		"DOTA_FantasyCraft_Prefix_Sad_Body_MouseOver"			"+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2026PlayerMiniTooltip( 2 )\" onmouseout=\"event:DOTAHideFantasy2026PlayerTooltip()\">Eroe blu</a>."
+		"DOTA_FantasyCraft_Prefix_Beastial_Body_MouseOver"	"+{d:prefix_bonus}% quando si gioca con un Eroe dotato di <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2026PlayerMiniTooltip( 6 )\" onmouseout=\"event:DOTAHideFantasy2026PlayerTooltip()\">corna o ali</a>."
+		"DOTA_FantasyCraft_Prefix_GreenHero_Body_MouseOver"	"+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2026PlayerMiniTooltip( 3 )\" onmouseout=\"event:DOTAHideFantasy2026PlayerTooltip()\">Eroe verde</a>."
+		"DOTA_FantasyCraft_Prefix_EleHero_Body_MouseOver"		"+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2026PlayerMiniTooltip( 7 )\" onmouseout=\"event:DOTAHideFantasy2026PlayerTooltip()\">Eroe acquatico, di fuoco o di ghiaccio</a>."
+		"DOTA_FantasyCraft_Prefix_Otherworldly_Body_MouseOver" "+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2026PlayerMiniTooltip( 8 )\" onmouseout=\"event:DOTAHideFantasy2026PlayerTooltip()\">Eroe zombi, demoniaco o spirituale</a>."
+		"DOTA_FantasyCraft_Prefix_Hairy_Body_MouseOver"		"+{d:prefix_bonus}% quando si gioca con un <a class=\"PrefixUnderline\" onmouseover=\"event:DOTAShowFantasy2026PlayerMiniTooltip( 9 )\" onmouseout=\"event:DOTAHideFantasy2026PlayerTooltip()\">Eroe barbuto o peloso</a>."
 		"DOTA_FantasyCraft_Suffix_Tormented_Body"	"+{d:suffix_bonus}% se un qualsiasi giocatore viene ucciso da un Oppressore."
 		"DOTA_FantasyCraft_Suffix_MostDeaths_Body"	"+{d:suffix_bonus}% se muore il maggior numero di volte in una partita."
 		"DOTA_FantasyCraft_Suffix_NoKills_Body"		"+{d:suffix_bonus}% se termina la partita senza uccisioni."
@@ -45987,7 +46012,7 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"DOTA_CrownfallStore_DoubleDownTokens_Desc"		"Aumenta le possibilità di raddoppiare il tuo MMR. Pronostica la tua vittoria all'inizio di una partita classificata, ma fai attenzione: se una vittoria raddoppia l'MMR ottenuto per quella partita, una sconfitta lo dimezzerà."
 		"DOTA_DoubleDown_RequiresCalibration"		"Il tuo MMR non è ancora calibrato: sarà raddoppiato dopo la calibrazione della valutazione."
 
-		"DOTA_CrownfallStore_ActPass_CheckingOwnership"	"Verifica della proprietà"
+		"DOTA_CrownfallStore_ActPass_CheckingOwnership"	"Verifica della proprietà..."
 		"DOTA_CrownfallStore_ActPass_LoadingFailed"	"Impossibile determinare la proprietà"
 		"DOTA_CrownfallStore_ActPass_AlreadyOwned"	"Già posseduto"
 		"DOTA_CrownfallStore_ActPass_ActivateNow"	"Attiva ora"
@@ -46220,13 +46245,12 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"DOTA_Overworld_Inventory_HeroTrayTitle_2"	"Gioca con questi Eroi per ottenere i gettoni <span class=\"TokenName\">{s:token_name_0}</span> e <span class=\"TokenName\">{s:token_name_1}</span>:"
 		"DOTA_Overworld_Inventory_HeroTrayTitle_3"	"Gioca con questi Eroi per ottenere i gettoni <span class=\"TokenName\">{s:token_name_0}</span>, <span class=\"TokenName\">{s:token_name_1}</span> e <span class=\"TokenName\">{s:token_name_2}</span>:"
 
-		"DOTA_Overworld_Inventory_HeroTrayNoHeroesForTokens"		"Nessun Eroe fa ottenere la combinazione di gettoni selezionata."
-		"DOTA_Overworld_Inventory_HeroTrayTooManyTokens"		"Troppi gettoni selezionati. Ogni Eroe fa ottenere esattamente 3 gettoni."
-		"DOTA_Overworld_Inventory_HeroTrayPremium"		"I gettoni <b>Pioniere</b> fanno parte del <b>{s:expansion_pack_name}</b>, disponibile nel negozio di Crownfall. Questi gettoni servono per sbloccare speciali missioni secondarie con ricompense esclusive."
-		"DOTA_Overworld_Inventory_HeroTrayHidden"		"Questo gettone speciale è stato ottenuto da un incontro."
-		
+		"DOTA_Overworld_Inventory_HeroTrayNoHeroesForTokens"		"Nessun Eroe fa ottenere la combinazione di biglietti selezionata."
+		"DOTA_Overworld_Inventory_HeroTrayTooManyTokens"		"Troppi biglietti selezionati. Ogni Eroe fa ottenere esattamente 3 biglietti."
+		"DOTA_Overworld_Inventory_HeroTrayPremium"		"I biglietti <b>Stanza Segreta</b> fanno parte del <b>{s:expansion_pack_name}</b>, disponibile nel negozio del Circo degli orrori. Questi biglietti servono per sbloccare stanze speciali con ricompense esclusive."
+		"DOTA_Overworld_Inventory_HeroTrayHidden"		"Questo biglietto speciale è stato ottenuto da un incontro."
 		"DOTA_Crownfall_Encounter_UnableToClaimReward"	"Impossibile ottenere la ricompensa"
-		"DOTA_Crownfall_Encounter_TokenExchangeFailed"	"Impossibile scambiare i gettoni"
+		"DOTA_Crownfall_Encounter_TokenExchangeFailed"	"Impossibile scambiare i biglietti"
 		
 		"DOTA_Overworld_EncounterShortcuts"				"Scorciatoie"
 		"DOTA_Overworld_EncounterShortcut_token_trader"		"Commerciante di gettoni"
@@ -46242,6 +46266,10 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"DOTA_Crownfall_TooltipOverworldHero_Heading_1"	"Gioca con <span class=\"HeroName\">{s:hero_name}</span> per ottenere gettoni <span class=\"TokenName\">{s:token_name_0}</span>."
 		"DOTA_Crownfall_TooltipOverworldHero_Heading_2"	"Gioca con <span class=\"HeroName\">{s:hero_name}</span> per ottenere gettoni <span class=\"TokenName\">{s:token_name_0}</span> e <span class=\"TokenName\">{s:token_name_1}</span>."
 		"DOTA_Crownfall_TooltipOverworldHero_Heading_3"	"Gioca con <span class=\"HeroName\">{s:hero_name}</span> per ottenere gettoni <span class=\"TokenName\">{s:token_name_0}</span>, <span class=\"TokenName\">{s:token_name_1}</span> e <span class=\"TokenName\">{s:token_name_2}</span>."
+
+		"DOTA_DarkCarnival_TooltipOverworldHero_Heading_1"	"Gioca con <span class=\"HeroName\">{s:hero_name}</span> per ottenere biglietti <span class=\"TokenName\">{s:token_name_0}</span>."
+		"DOTA_DarkCarnival_TooltipOverworldHero_Heading_2"	"Gioca con <span class=\"HeroName\">{s:hero_name}</span> per ottenere biglietti <span class=\"TokenName\">{s:token_name_0}</span> e <span class=\"TokenName\">{s:token_name_1}</span>."
+		"DOTA_DarkCarnival_TooltipOverworldHero_Heading_3"	"Gioca con <span class=\"HeroName\">{s:hero_name}</span> per ottenere biglietti <span class=\"TokenName\">{s:token_name_0}</span>, <span class=\"TokenName\">{s:token_name_1}</span> e <span class=\"TokenName\">{s:token_name_2}</span>."
 		
 		"DOTA_PlusPostGame_CrownfallProgress"			"Progressi di Crownfall"
 		
@@ -46478,7 +46506,7 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"DOTA_Crownfall_Overworld_Inventory_FailedToLoad"	"Impossibile caricare il contenuto dell'inventario."
 
 		"DOTA_Crownfall_Filters_TokensNeeded"	"Gettoni necessari"
-		"DOTA_Crownfall_Filters_TokensNeededShort"	"Gettoni:"
+		"DOTA_Crownfall_Filters_TokensNeededShort"	"Gettoni"
 
 		"DOTA_Crownfall_ActPassDescription"		"Acquista il <b>{s:premium_pack_name}</b> per accedere a tutte le ricompense."
 		"DOTA_Crownfall_ActPassButtonLabel"		"Mostra dettagli"
@@ -46636,9 +46664,7 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"DOTA_HUD_Pregame_TokenRewards"					"Gettoni in ricompensa ({s:act_number})"
 		"DOTA_HUD_Pregame_TurboTokenRewardsTooltip"		"Una vittoria in modalità Turbo fa ottenere 2 gettoni. Scegli i gettoni che desideri."
 
-		"DOTA_HeroGrid_Overworld"						"Crownfall"
-		"DOTA_HeroGrid_Overworld_Description"			"Evidenzia i gettoni degli Eroi che sbloccano i percorsi attivi sulla mappa di Crownfall. "
-		
+		"DOTA_HeroGrid_Overworld"						"Circo degli orrori"
 		"DOTA_CrownfallLeaderboard_Act1_Title"			"Atto I - Progresso"
 		"DOTA_CrownfallLeaderboard_Act2_Title"			"Atto II - Progresso"
 		"DOTA_CrownfallLeaderboard_Act3_Title"			"Atto III - Progresso"
@@ -48466,7 +48492,7 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"dota_settings_bind_NeutralItemSelect2"					"Seleziona l'opzione 2 dell'oggetto neutrale"
 		"dota_settings_bind_NeutralItemSelect3"					"Seleziona l'opzione 3 dell'oggetto neutrale"
 		"dota_settings_bind_NeutralItemSelect4"					"Seleziona l'opzione 4 dell'oggetto neutrale"
-		"dota_settings_bind_NeutralItemSelect5"					"Seleziona l'opzione 5 dell'oggetto neutrale"
+		"dota_settings_bind_NeutralItemSelect5"					"Seleziona l'opzione 5 dell'oggetto neutrale"		
 		
 		"dota_settings_bind_Inventory1"             "Attiva lo slot 1 dell'inventario"
 		"dota_settings_bind_Inventory2"             "Attiva lo slot 2 dell'inventario"
@@ -49650,7 +49676,6 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		
 		// Localized Hero Quick Search Alias
 		"npc_dota_hero_antimage__name_alias"						"AntiMage;am;wei;anti"
-		"npc_dota_hero_axe__name_alias"						"Axe;ascia"
 		"npc_dota_hero_bane__name_alias"						"Bane;"
 		"npc_dota_hero_bloodseeker__name_alias"						"Bloodseeker;bs;sangue"
 		"npc_dota_hero_crystal_maiden__name_alias"						"Crystal;Maiden;cm;rylai;wolf;cristallo;lupo"
@@ -49659,7 +49684,6 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"npc_dota_hero_juggernaut__name_alias"						"Juggernaut;Yurnero"
 		"npc_dota_hero_mirana__name_alias"						"Mirana;Principessa;Moon;potm;Luna"
 		"npc_dota_hero_nevermore__name_alias"						"Shadow;Fiend;sf;nevermore"
-		"npc_dota_hero_morphling__name_alias"						"Morphling;"
 		"npc_dota_hero_phantom_lancer__name_alias"						"Phantom;Lancer;pl;Azwraith;fantasma"
 		"npc_dota_hero_puck__name_alias"						"Puck;Faerie Dragon;fd"
 		"npc_dota_hero_pudge__name_alias"						"Pudge;Toy Butcher;Macellaio giocattolo"
@@ -49746,7 +49770,6 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"npc_dota_hero_centaur__name_alias"						"Centaur;Warrunner;centaur;centauro"
 		"npc_dota_hero_magnataur__name_alias"						"Magnus;magnataur;magnus;grande"
 		"npc_dota_hero_shredder__name_alias"						"Timbersaw;Rizzrack;Shredder;Timbersaw;Trituratore"
-		"npc_dota_hero_bristleback__name_alias"						"Bristleback;Rigwarl;bb"
 		"npc_dota_hero_tusk__name_alias"						"Tusk;Ymir"
 		"npc_dota_hero_skywrath_mage__name_alias"						"Skywrath;Mage;sm;Dragonus;drago"
 		"npc_dota_hero_abaddon__name_alias"						"Abaddon;Abaddon;nebbia;terrore"
@@ -49756,7 +49779,6 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"npc_dota_hero_earth_spirit__name_alias"						"Earth;Spirit;es;Kaolin;Earth;terra;spirito"
 		"npc_dota_hero_terrorblade__name_alias"						"Terrorblade;tb;lama;terrore"
 		"npc_dota_hero_phoenix__name_alias"						"Phoenix;ph;calore;rinascita"
-		"npc_dota_hero_oracle__name_alias"						"Oracle;ora;Nerif;oracolo"
 		"npc_dota_hero_techies__name_alias"						"Techies;Squee;Spleen;Spoon;tre;mirino"
 		"npc_dota_hero_winter_wyvern__name_alias"						"Winter;Wyvern;ww;Auroth;inverno"
 		"npc_dota_hero_arc_warden__name_alias"						"Arc;Warden;zet;aw;arco"
@@ -50287,5 +50309,73 @@ Se ritieni di non aver potuto dedicare l'attenzione necessaria al raggiungimento
 		"DOTA_Compendium2024_CompendiumLevelAmount:f"					"{compendium_levels, plural, one{{d:compendium_levels} livello del Compendio} other{{d:compendium_levels} livelli del Compendio}}"
 		"DOTA_Compendium2024_CompendiumBoosterAmount:f"					"{compendium_boosters, plural, one{{d:compendium_boosters} booster del Compendio} other{{d:compendium_boosters} booster del Compendio}}"
 		"DOTA_Compendium2025_Rewards_DotaPlus:f"						"{reward_count, plural, one{{d:reward_count} mese} other{{d:reward_count} mesi}}"
-	}
+	
+		//////////////////////////////////////////////////////
+		// DARK CARNIVAL MIDNIGHT RUN
+		//////////////////////////////////////////////////////
+		
+		// Dark Carnival 
+		
+		"DOTA_EventName_DarkCarnival"	"Circo degli orrori"
+		"DOTA_DarkCarnival_EventTitle"		"Circo degli orrori"
+		"DOTA_DarkCarnival_MidnightRun"		"Fuga di mezzanotte"
+		
+		"DOTA_DarkCarnival_Filters_TicketsNeeded"	"Biglietti necessari"
+		"DOTA_DarkCarnival_Filters_TicketsNeededShort"	"Biglietti"
+
+		"DOTA_DarkCarnival_Splash_NewEvent"	"Nuovo evento"
+		"DOTA_DarkCarnival_Splash_EventDescription"		"Guida Hoodwink e Legion Commander attraverso il treno circense di Ringmaster giocando a Dota e sbloccando nuove ricompense lungo il percorso."
+		"DOTA_DarkCarnival_Splash_EventDescriptionShort"		"Esplora il treno circense di Ringmaster giocando a Dota e sbloccando nuove ricompense lungo il percorso."
+		"DOTA_DarkCarnival_Splash_BackStory"		"Rimettiti in pari con la storia!"
+		"DOTA_DarkCarnival_Splash_ViewComic"		"Vai al fumetto"
+		"DOTA_DarkCarnival_Splash_ViewEvent"		"Mostra evento"
+
+		"DOTA_DarkCarnival_Store"		"Emporio delle Curiosità"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point2_Axe"		"Metti alla prova la tua forza sui tuoi nemici, con i nuovi effetti di Lama massacrante!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point3_Axe"		"Cogli i tuoi avversari di sorpresa con le nuove animazioni di Contrattacco a elica!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point4_Axe"		"Tutte le frasi di Axe sono state aggiornate con un nuovo filtro robotico! (La grammatica, però, non è migliorata.)"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point5_Axe"		"L'animatronica di Axe supporta completamente tutte le provocazioni di Axe!"
+
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Includes_LegionCommander"		"Legion Commander Automa include:"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point1_LegionCommander"		"L'aspetto nuovo e migliorato incute timore nei nemici!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point2_LegionCommander"		"Spettacolari nuovi effetti visivi per Probabilità Schiaccianti e Duello!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point3_LegionCommander"		"Animazioni di movimento personalizzate, fluide ed eleganti!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point4_LegionCommander"		"Tutte le frasi di Legion Commander sono state migliorate digitalmente!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point5_LegionCommander"		"La speciale animatronica supporta completamente tutte le provocazioni di Legion Commander!"
+
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Includes_Bristleback"		"Bristleback Automa include:"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point1_Bristleback"		"Nuova struttura in metallo resistente all'alcol!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point2_Bristleback"		"Effetti ambientali completamente sicuri, incluso uno scarico di fiamme montato sulla schiena!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point3_Bristleback"		"Effetti sostitutivi non biologici per Muco nasale viscoso, Getto di aculei e Palla di pelo!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point4_Bristleback"		"Tutte le frasi di Bristleback sono state aggiornate con un filtro robotico!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point5_Bristleback"		"Il sistema di ingranaggi interno supporta completamente tutte le provocazioni di Bristleback!"
+
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Includes_Oracle"			"Oracle Automa include:"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point1_Oracle"			"Nuovo modello dell'Eroe luminoso, con effetti ambientali!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point3_Oracle"			"Animazioni sostitutive personalizzate, incluse quelle di movimento e teletrasporto!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point4_Oracle"			"Tutte le frasi di Oracle sono state aggiornate con un'elaborazione avanzata. (L'accuratezza delle previsioni, però, non è migliorata.)"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point5_Oracle"			"Supporto completo per le provocazioni di Oracle non automatizzate!"
+
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Includes_Morphling"		"Morphling Automa include:"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point1_Morphling"			"Nuovo modello dell'Eroe dalle forme morbide e ricco di dettagli!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point2_Morphling"			"Nuovi effetti visivi per Forma d'onda!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point3_Morphling"			"Animazioni sostitutive personalizzate, incluse quelle di movimento, smontaggio e molto altro!"
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_Point4_Morphling"			"Tutte le frasi di Morphling sono state aggiornate con una nuova elaborazione meccanica!"
+
+		"DOTA_DarkCarnival_Store_AutomatonPersona_Description_AndMore"			"E molto altro ancora!"
+		
+
+		"DOTA_DarkCarnival_Store_AutomatonBundle"						"Pacchetto di Automi"
+		"DOTA_DarkCarnival_Store_AutomatonBundle_Description"			"Risparmia acquistando tutti e 5 i Personaggi Automi"
+
+		"DOTA_DarkCarnival_Store_SecretRoomsPack_SalesDescription"			"Pacchetto Stanze Segrete"
+
+		"DOTA_DarkCarnival_Store_SecretRoomsPack_Included"						"Inclusi nel pacchetto:"
+		"DOTA_DarkCarnival_Store_SecretRoomsPack_Description_Point1"			"<b>Creep del Circo degli orrori</b> (da mischia, a distanza e da assedio)!"
+		"DOTA_DarkCarnival_Store_SecretRoomsPack_Tooltip_TicketCount"			"2"
+		"DOTA_DarkCarnival_Store_SecretRoomsPack_Tooltip_Tickets"				"Biglietti per la Stanza Segreta"
+"DOTA_DarkCarnival_Reward_CandyShopShelfUpgrade"	"Scaffale di ricompense extra nella Dolceria del Circo"
+"DOTA_Axe_Missing"			"Manca Axe e non può partecipare"
+
+		}
 } 
