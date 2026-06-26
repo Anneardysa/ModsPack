@@ -1,6 +1,6 @@
 {
   "modspackVersion": "3.1",
-  "installCard": "Assets/image/banner/install_card.png",
+  "installCard": "Assets/image/banner/install_card.jpg",
   "slides": [
     { "image": "Assets/image/banner/slide1.jpg" },
     { "image": "Assets/image/banner/slide2.jpg" }
