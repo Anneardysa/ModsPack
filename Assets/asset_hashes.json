@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-26T02:01:53Z",
+  "generatedAt": "2026-06-26T02:23:40Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -464,8 +464,8 @@
       "size": 518878
     },
     "Assets/models/Monkey_King/sovereign.zip": {
-      "sha256": "83F2A4B9B88BA4C5FEC003C7C0871577D5D2737392EFD07149B36E9FF8E99AD0",
-      "size": 4067411
+      "sha256": "B2A48A00744C2E319B1F06F2092D0827783382B6A2C93E52A8511E34A2AFE0A5",
+      "size": 4117277
     },
     "Assets/models/Monkey_King/trickster.zip": {
       "sha256": "5DF3ABF56F3AEE68C15D8CA0DC8E1C40AE3F568C7140DF91AEB220DB3C2ACFEE",
