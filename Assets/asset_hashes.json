@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-26T03:19:13Z",
+  "generatedAt": "2026-06-26T16:10:11Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -370,6 +370,10 @@
     "Assets/models/Invoker/volatile.zip": {
       "sha256": "9C4654AFE9C1443EE4036D1AC4758CE0C4F8D97514641BEA4C1E2A508615B33A",
       "size": 213249
+    },
+    "Assets/models/Io/base_arcana.zip": {
+      "sha256": "CBCADF9022BF761D7F9165E1269DE6275D803534DC874558FC679981E479A541",
+      "size": 1451042
     },
     "Assets/models/Juggernaut/base_arcana_1.zip": {
       "sha256": "F723681602EB94782264E6A0A39838899459C631AE422C699699ACF6C5359DA5",
