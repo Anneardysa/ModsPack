@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-26T17:13:21Z",
+  "generatedAt": "2026-06-26T17:36:52Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -384,16 +384,16 @@
       "size": 3271534
     },
     "Assets/models/Juggernaut/exile.zip": {
-      "sha256": "D7C8C6F1D25B1DB36769CDB48B51F4105D225DFE669565230A434613E9AA5868",
-      "size": 2691518
+      "sha256": "1C98CF739BAB354CBC5B37CDB52AD30DB2622B6A0B9899EF97F0B2A63545EFE7",
+      "size": 2691541
     },
     "Assets/models/Juggernaut/honor.zip": {
-      "sha256": "20D2BE0D4DBE29A26B2748786EA966C7E4DAFF9CDBF5D4A7ABC6EFC5D0E57E1E",
-      "size": 262248
+      "sha256": "97C2984378E8C354E9CADC8A1D449269F39A77FB3C6343F863D5BCE384BD836C",
+      "size": 262270
     },
     "Assets/models/Juggernaut/isle_2.zip": {
-      "sha256": "4BB369412F33D473BA9EA00197EFFB9320BCB762C5A0AB5012C556082B87282A",
-      "size": 399685
+      "sha256": "13161676C908C86A2042F95E4AD5377115347219608BB8FB7F173BCA3CCD7A37",
+      "size": 399697
     },
     "Assets/models/Juggernaut/item_head_arcana.zip": {
       "sha256": "1E1BC923E4E4E7F6FE27FC53538042CCCE9F8BD8527D355A727BEF8E3CB1C70A",
@@ -416,8 +416,8 @@
       "size": 3622979
     },
     "Assets/models/Juggernaut/provoc.zip": {
-      "sha256": "30011B0F1D51DF678C713D93A5A15A3D5513E9223D0D04C973A82E4C026F18E1",
-      "size": 576488
+      "sha256": "603E86E1F24BCF3A00A5D6972076D088D2DC02D1912EF9D0B7AB46B70B252498",
+      "size": 576504
     },
     "Assets/models/Monkey_King/base_arcana/base_arcana_2.zip": {
       "sha256": "55B690D9A98E6620893984837E7F2794C3F831959CAD679563CE01BD939947DB",
