@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-25T10:37:21Z",
+  "generatedAt": "2026-06-26T02:01:53Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -704,8 +704,8 @@
       "size": 135392
     },
     "Assets/models/Sven/item_head_vigil.zip": {
-      "sha256": "6B32CD4C9321048E08629B72FF1C369C216B2C52E13BED25F4E699AF8B1B7D1A",
-      "size": 103909
+      "sha256": "67AE745754139876662367836174E25CF33CE59460F6971998C693716D31093E",
+      "size": 104810
     },
     "Assets/models/Sven/item_weapon_vigil.zip": {
       "sha256": "DE0E6C0A11266EFB6731988E6A88482EAE56D9047AFE091A5CACB3505CE33CBE",
@@ -916,8 +916,8 @@
       "size": 3127547
     },
     "Assets/Original.zip": {
-      "sha256": "F2B6C8E8CCD30E2B8330EAD50343458F47E3DC6389CE00DC0D668AF6E3778485",
-      "size": 20000960
+      "sha256": "8C6475681932D155A23D2911D86D91703D8BF2EBCFCB5AE72B053C3FEC2AC20B",
+      "size": 20059774
     }
   }
 }
