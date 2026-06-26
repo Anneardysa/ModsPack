@@ -1,7 +1,8 @@
-{ 
-    "slides": [ 
-        { "image": "Assets/image/banner/slide1.jpg"},
-        { "image": "Assets/image/banner/slide2.jpg"},
-        { "modspackVersion": "2.6"}
-    ]  
+{
+  "modspackVersion": "3.0",
+  "installCard": "Assets/image/banner/install_card.png",
+  "slides": [
+    { "image": "Assets/image/banner/slide1.jpg" },
+    { "image": "Assets/image/banner/slide2.jpg" }
+  ]
 }
