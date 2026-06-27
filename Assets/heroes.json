@@ -1906,10 +1906,12 @@
       "Set 5": {
         "styles": {
           "Concord": [
-            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord.zip"
+            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord.png"
           ],
           "Concord Crimson": [
-            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord_crimson.zip"
+            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord_crimson.png"
           ]
         }
       },
@@ -1917,13 +1919,13 @@
         "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_weapon_diffusal.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Phantom_Lancer/item_weapon_diffusal.png"
       ],
-      "Set 7": {
+      "Set 8": {
         "styles": {
-          "Concord": [
-            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_weapon_phantom/item_weapon_phantom.zip"
+          "item_weapon_concord": [
+            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord.zip"
           ],
-          "Concord Tyrian": [
-            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_weapon_phantom/item_weapon_phantom_concord.zip"
+          "item_weapon_concord_tyrian": [
+            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord_tyrian.zip"
           ]
         }
       }

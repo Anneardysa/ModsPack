@@ -1,10 +1,14 @@
 {
-  "version": "1.0.43",
+  "version": "1.0.44",
   "lastUpdated": "2026-06-27",
   "updates": [
     {
       "date": "2026-06-27",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 8 (item_weapon_concord)"
+        },
         {
           "heroId": "npc_dota_hero_phantom_lancer",
           "setName": "Set 3"

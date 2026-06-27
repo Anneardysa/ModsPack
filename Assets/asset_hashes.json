@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-27T00:18:30Z",
+  "generatedAt": "2026-06-27T00:25:56Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -559,17 +559,17 @@
       "sha256": "57A5FB8E07875B26A5FD28B89AD8D9A885FF60D16BFB96BFFB5C303BBED53574",
       "size": 195419
     },
-    "Assets/models/Phantom_Lancer/item_weapon_diffusal.zip": {
-      "sha256": "228F305712CCDBF576C973C58B4E9727EED4766C75089469736538AE12BFEA1A",
-      "size": 669475
-    },
-    "Assets/models/Phantom_Lancer/item_weapon_phantom/item_weapon_phantom_concord.zip": {
+    "Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord_tyrian.zip": {
       "sha256": "1BAA52B96D9F13E1C31147FCD6ADC99A32A157FEA73CFB4DB6264D857B82F1B2",
       "size": 102010
     },
-    "Assets/models/Phantom_Lancer/item_weapon_phantom/item_weapon_phantom.zip": {
+    "Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord.zip": {
       "sha256": "DB659346007322DA1B94F6ED9A9BD973520F8A0CF47AC0A346CD0839385FDF4F",
       "size": 106919
+    },
+    "Assets/models/Phantom_Lancer/item_weapon_diffusal.zip": {
+      "sha256": "228F305712CCDBF576C973C58B4E9727EED4766C75089469736538AE12BFEA1A",
+      "size": 669475
     },
     "Assets/models/Phantom_Lancer/shadow.zip": {
       "sha256": "56AC71434118BB620D88D999830368A513E00AB288A205860C628460CD19377B",
