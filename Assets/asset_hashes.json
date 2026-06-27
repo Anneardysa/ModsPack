@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-27T00:43:23Z",
+  "generatedAt": "2026-06-27T01:02:55Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -548,8 +548,8 @@
       "size": 719390
     },
     "Assets/models/Phantom_Lancer/item_head_concord.zip": {
-      "sha256": "72700AB87D0F1972A03E2129E9AA16964A01977E043B840F3B9E8CFB104487AE",
-      "size": 263622
+      "sha256": "ABDC8CB4440D822BECA0CD3F135245891F1BD417F649AF825DA0E6144FE471AF",
+      "size": 263388
     },
     "Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord_crimson.zip": {
       "sha256": "289B0941B77A183CBE811F21534A594B31540CFD9EB7F3BD80B9660E1B660844",
