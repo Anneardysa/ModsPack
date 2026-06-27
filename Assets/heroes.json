@@ -1921,11 +1921,11 @@
       ],
       "Set 8": {
         "styles": {
-          "item_weapon_concord": [
+          "Concord": [
             "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Phantom_Lancer/item_weapon_concord/item_weapon_concord.png"
           ],
-          "item_weapon_concord_tyrian": [
+          "Concord Tyrian": [
             "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord_tyrian.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Phantom_Lancer/item_weapon_concord/item_weapon_concord_tyrian.png"
           ]
