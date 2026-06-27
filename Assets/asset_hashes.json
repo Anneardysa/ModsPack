@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-27T01:02:55Z",
+  "generatedAt": "2026-06-27T07:38:24Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -670,6 +670,50 @@
     "Assets/models/Pudge/royal.zip": {
       "sha256": "82BAA34EBDAA522AE3FE9081FA9206E40392196F0495E7AD7CDD414B4C47FFD1",
       "size": 604410
+    },
+    "Assets/models/Queen_of_Pain/agonies/agonies_1.zip": {
+      "sha256": "C90A3E69BAD467132C27EADB9FA9711F338F511ECB7CB762215E7DFD0A92CB21",
+      "size": 1508433
+    },
+    "Assets/models/Queen_of_Pain/agonies/agonies_2.zip": {
+      "sha256": "F1D4EBC4777543EF1DF597DD6D81AB6F3ED0EB704ED1D259C1D1DC44701FF0E1",
+      "size": 1515697
+    },
+    "Assets/models/Queen_of_Pain/arcana.zip": {
+      "sha256": "45EB7D99A5C2D21119AC7E7BB14486B19D5A976570060F1E1C878B8E19045B58",
+      "size": 2278181
+    },
+    "Assets/models/Queen_of_Pain/base_arcana_1.zip": {
+      "sha256": "4ABC56A841761F6271A4E0C5C667BA96D6B4593F8DE8AE5784CE5A48E6138789",
+      "size": 5857562
+    },
+    "Assets/models/Queen_of_Pain/base_arcana_2.zip": {
+      "sha256": "7B6EE573D5AFE2176D43CC1D0138B2CD3D497E8726555E3EDA77480315928FAE",
+      "size": 5234111
+    },
+    "Assets/models/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_1.zip": {
+      "sha256": "905AD5D9FA5E650A13E43D8A5B3B4E32B95F24D64C93981D918B8E896A2E75AB",
+      "size": 2851482
+    },
+    "Assets/models/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_2.zip": {
+      "sha256": "90EABF2F70A3357562DB97B75F1250736EF2B4A74CCABAD7C0C31C8384E92F55",
+      "size": 2851507
+    },
+    "Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast_golden.zip": {
+      "sha256": "BB3C1AD03248BC6AAAFD2F9D62B67FF22AA5C8551D11F30725CC8B970C3C2F3F",
+      "size": 135077
+    },
+    "Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast_tyrian.zip": {
+      "sha256": "7D297DA64040AE0A0DA823574B7701AD7944D3E4F6F817088965FF1297601465",
+      "size": 99895
+    },
+    "Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast.zip": {
+      "sha256": "EB6D347B99B89A49951D4340A72562A16DEBE5890C2D1AFFB59EB47BB8DFCB77",
+      "size": 135013
+    },
+    "Assets/models/Queen_of_Pain/rose.zip": {
+      "sha256": "E3782D76EB12BB8FED6B988EEB0C06E3B3A0089231565A2CF713A9643E37B2E2",
+      "size": 801861
     },
     "Assets/models/Shadow_Fiend/base_arcana.zip": {
       "sha256": "203CD116A81254DCC9B95D430752260FBB3C6B83F8B051A407747B7F66A77F59",

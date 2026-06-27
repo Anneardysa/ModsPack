@@ -2140,8 +2140,63 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": {
+        "styles": {
+          "agonies_1": [
+            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/agonies/agonies_1.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/agonies/agonies_1.png"
+          ],
+          "agonies_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/agonies/agonies_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/agonies/agonies_2.jpg"
+          ]
+        }
+      },
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/arcana.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/rose.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/rose.png"
+      ],
+      "Set 4": {
+        "styles": {
+          "item_shoulder_frock_1": [
+            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_1.zip"
+          ],
+          "item_shoulder_frock_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_2.zip"
+          ]
+        }
+      },
+      "Set 5": {
+        "styles": {
+          "item_weapon_feast": [
+            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/item_weapon_feast/item_weapon_feast.png"
+          ],
+          "item_weapon_feast_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/item_weapon_feast/item_weapon_feast_golden.png"
+          ],
+          "item_weapon_feast_tyrian": [
+            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast_tyrian.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/item_weapon_feast/item_weapon_feast_tyrian.png"
+          ]
+        }
+      },
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/base_arcana_1.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/base_arcana_2.png"
       ]
-    }
+    },
+    "method": 2
   },
   {
     "id": [

@@ -1,10 +1,38 @@
 {
-  "version": "1.0.44",
+  "version": "1.0.45",
   "lastUpdated": "2026-06-27",
   "updates": [
     {
       "date": "2026-06-27",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 5 (item_weapon_feast)"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 4 (item_shoulder_frock_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 1 (agonies_1)"
+        },
         {
           "heroId": "npc_dota_hero_phantom_lancer",
           "setName": "Set 8 (item_weapon_concord)"
