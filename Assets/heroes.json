@@ -2164,10 +2164,12 @@
       "Set 4": {
         "styles": {
           "item_shoulder_frock_1": [
-            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_1.zip"
+            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_1.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_1.png"
           ],
           "item_shoulder_frock_2": [
-            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_2.zip"
+            "https://cdn.ardysamods.my.id/Assets/models/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_2.png"
           ]
         }
       },
