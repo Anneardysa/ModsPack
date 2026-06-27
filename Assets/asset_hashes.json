@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-26T17:36:52Z",
+  "generatedAt": "2026-06-27T00:18:30Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -542,6 +542,42 @@
     "Assets/models/Phantom_Assassin/persona_waning.zip": {
       "sha256": "4E6BE22F8BFD69DEEC6019C76B4CF4BA79B52E9AE71A1F11DE03769DAD1F2C6A",
       "size": 38226660
+    },
+    "Assets/models/Phantom_Lancer/flock.zip": {
+      "sha256": "1A662C9961236A8C5CAD4A8E8A92A1514F6DE0E7501C8E75F93DBAC518DFA36B",
+      "size": 719390
+    },
+    "Assets/models/Phantom_Lancer/item_head_concord.zip": {
+      "sha256": "DCB4ACA5A45A96F0D7BA41A3615FE29F7AFD090246DB775845660BDD40E2685A",
+      "size": 263320
+    },
+    "Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord_crimson.zip": {
+      "sha256": "289B0941B77A183CBE811F21534A594B31540CFD9EB7F3BD80B9660E1B660844",
+      "size": 189407
+    },
+    "Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord.zip": {
+      "sha256": "57A5FB8E07875B26A5FD28B89AD8D9A885FF60D16BFB96BFFB5C303BBED53574",
+      "size": 195419
+    },
+    "Assets/models/Phantom_Lancer/item_weapon_diffusal.zip": {
+      "sha256": "228F305712CCDBF576C973C58B4E9727EED4766C75089469736538AE12BFEA1A",
+      "size": 669475
+    },
+    "Assets/models/Phantom_Lancer/item_weapon_phantom/item_weapon_phantom_concord.zip": {
+      "sha256": "1BAA52B96D9F13E1C31147FCD6ADC99A32A157FEA73CFB4DB6264D857B82F1B2",
+      "size": 102010
+    },
+    "Assets/models/Phantom_Lancer/item_weapon_phantom/item_weapon_phantom.zip": {
+      "sha256": "DB659346007322DA1B94F6ED9A9BD973520F8A0CF47AC0A346CD0839385FDF4F",
+      "size": 106919
+    },
+    "Assets/models/Phantom_Lancer/shadow.zip": {
+      "sha256": "56AC71434118BB620D88D999830368A513E00AB288A205860C628460CD19377B",
+      "size": 342617
+    },
+    "Assets/models/Phantom_Lancer/sunwarrior.zip": {
+      "sha256": "D9617975515FC327D8F92DEFBB629A768FD377CDC8BE9D64C482783882552A97",
+      "size": 311070
     },
     "Assets/models/Pudge/base_arcana_1.zip": {
       "sha256": "A6ABE52EBE78C673ABA2EC4A8C024EE662F80B6B28E7612D2DA15ADD9D211A10",

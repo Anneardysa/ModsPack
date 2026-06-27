@@ -1,7 +1,40 @@
 {
-  "version": "1.0.42",
-  "lastUpdated": "2026-06-26",
+  "version": "1.0.43",
+  "lastUpdated": "2026-06-27",
   "updates": [
+    {
+      "date": "2026-06-27",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 7 (item_weapon_phantom)"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 5 (item_shoulder_concord)"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-06-26",
       "sets": [

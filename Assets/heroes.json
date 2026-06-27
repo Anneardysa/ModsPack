@@ -1886,7 +1886,47 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
-      ]
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/flock.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Lancer/flock.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/shadow.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Lancer/shadow.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/sunwarrior.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Lancer/sunwarrior.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_head_concord.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Lancer/item_head_concord.png"
+      ],
+      "Set 5": {
+        "styles": {
+          "Concord": [
+            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord.zip"
+          ],
+          "Concord Crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord_crimson.zip"
+          ]
+        }
+      },
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_weapon_diffusal.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Phantom_Lancer/item_weapon_diffusal.png"
+      ],
+      "Set 7": {
+        "styles": {
+          "Concord": [
+            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_weapon_phantom/item_weapon_phantom.zip"
+          ],
+          "Concord Tyrian": [
+            "https://cdn.ardysamods.my.id/Assets/models/Phantom_Lancer/item_weapon_phantom/item_weapon_phantom_concord.zip"
+          ]
+        }
+      }
     }
   },
   {
