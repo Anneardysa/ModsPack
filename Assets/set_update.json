@@ -1,10 +1,22 @@
 {
-  "version": "1.0.48",
+  "version": "1.0.49",
   "lastUpdated": "2026-06-28",
   "updates": [
     {
       "date": "2026-06-28",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 7 (item_weapon_aeon)"
+        },
+        {
+          "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 6 (item_shoulder_aeon)"
+        },
+        {
+          "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 5 (item_arm_aeon)"
+        },
         {
           "heroId": "npc_dota_hero_meepo",
           "setName": "Set 3"
@@ -666,15 +678,15 @@
         },
         {
           "heroId": "npc_dota_hero_faceless_void",
-          "setName": "Set 7"
+          "setName": "Set 7 (item_weapon_aeon)"
         },
         {
           "heroId": "npc_dota_hero_faceless_void",
-          "setName": "Set 6"
+          "setName": "Set 6 (item_shoulder_aeon)"
         },
         {
           "heroId": "npc_dota_hero_faceless_void",
-          "setName": "Set 5"
+          "setName": "Set 5 (item_arm_aeon)"
         },
         {
           "heroId": "npc_dota_hero_faceless_void",

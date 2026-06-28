@@ -825,18 +825,57 @@
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/inquisitor.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/inquisitor.png"
       ],
-      "Set 5": [
-        "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_arm_aeon.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_arm_aeon.png"
-      ],
-      "Set 6": [
-        "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_shoulder_aeon.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_shoulder_aeon.png"
-      ],
-      "Set 7": [
-        "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_weapon_aeon.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_weapon_aeon.png"
-      ],
+      "Set 5": {
+        "styles": {
+          "item_arm_aeon": [
+            "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_arm_aeon/item_arm_aeon.png"
+          ],
+          "item_arm_aeon_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_arm_aeon/item_arm_aeon_2.png"
+          ],
+          "item_arm_aeon_3": [
+            "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon_3.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_arm_aeon/item_arm_aeon_3.png"
+          ],
+          "item_arm_aeon_4": [
+            "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon_4.zip"
+          ]
+        }
+      },
+      "Set 6": {
+        "styles": {
+          "item_shoulder_aeon": [
+            "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon.png"
+          ],
+          "item_shoulder_aeon_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon_2.png"
+          ],
+          "item_shoulder_aeon_3": [
+            "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon_3.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon_3.png"
+          ]
+        }
+      },
+      "Set 7": {
+        "styles": {
+          "item_weapon_aeon": [
+            "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_weapon_aeon/item_weapon_aeon.png"
+          ],
+          "item_weapon_aeon_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_weapon_aeon/item_weapon_aeon_2.png"
+          ],
+          "item_weapon_aeon_3": [
+            "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon_3.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_weapon_aeon/item_weapon_aeon_3.png"
+          ]
+        }
+      },
       "Set 8": [
         "https://cdn.ardysamods.my.id/Assets/models/Faceless_Void/item_weapon_bf.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Faceless_Void/item_weapon_bf.png"

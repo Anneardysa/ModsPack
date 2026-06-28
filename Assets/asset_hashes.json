@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-28T13:14:52Z",
+  "generatedAt": "2026-06-28T14:41:43Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -263,15 +263,43 @@
       "sha256": "B2DE565AC7633918E55973D31CC81F8020F55D073F2ADBE31BD18B69B07D3CDC",
       "size": 469804
     },
-    "Assets/models/Faceless_Void/item_arm_aeon.zip": {
+    "Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon_2.zip": {
+      "sha256": "2845842E9BEFDB6DC654A3B40D44C28F3DA98FEA4FAE53703B910E3EF39C7026",
+      "size": 436630
+    },
+    "Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon_3.zip": {
+      "sha256": "832C9867F9131BCA0F1C7EA05038D24B2CF73382D7A100258A000CCBC51C2171",
+      "size": 436624
+    },
+    "Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon_4.zip": {
+      "sha256": "ADFC10DB6B1DF54BAFCB2BBE2D43F6FED8BB13F2507D7AD79B200ED3DC6153FF",
+      "size": 436655
+    },
+    "Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon.zip": {
       "sha256": "F9806FB9A2D82F2B5917D4827D976199D6D21ED474A8050FC0343F70C8F4CB1F",
       "size": 436662
     },
-    "Assets/models/Faceless_Void/item_shoulder_aeon.zip": {
+    "Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon_2.zip": {
+      "sha256": "36202FD414D771F1C50613BD78EC8C2D0D3E19F1E95E05754C8C3755F3C08D35",
+      "size": 201906
+    },
+    "Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon_3.zip": {
+      "sha256": "EB7D6994D7DD5388AE66B478AF7A416F4A1059B710516EA84741894D0D86C64F",
+      "size": 201912
+    },
+    "Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon.zip": {
       "sha256": "E3D1288BCE3D99BF50F7480EB69EF00B267D16471F965AD1CDCE79FEC215F511",
       "size": 201837
     },
-    "Assets/models/Faceless_Void/item_weapon_aeon.zip": {
+    "Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon_2.zip": {
+      "sha256": "FCB75693A3117D5B0D0906CD76D9E181D1F5CF0196A091232BEC2491F4AF6452",
+      "size": 90993
+    },
+    "Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon_3.zip": {
+      "sha256": "6260EC5DCF3BD29A22A783BD3BAC8E4D795674A8FB124D331067F8A9B9C889DC",
+      "size": 91051
+    },
+    "Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon.zip": {
       "sha256": "E30C2E6D889B698925EEF8C9F9145FFD881B1C632D84A07D56A9CEB85BF7CCE0",
       "size": 87209
     },
