@@ -2508,6 +2508,54 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sniper/ardalan.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sniper/ardalan.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sniper/blacksail.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sniper/blacksail.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sniper/expired.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sniper/expired.png"
+      ],
+      "Set 4": {
+        "styles": {
+          "odoragon_1": [
+            "https://cdn.ardysamods.my.id/Assets/models/Sniper/odoragon/odoragon_1.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Sniper/odoragon/odoragon_1.png"
+          ],
+          "odoragon_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Sniper/odoragon/odoragon_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Sniper/odoragon/odoragon_2.png"
+          ],
+          "odoragon_3": [
+            "https://cdn.ardysamods.my.id/Assets/models/Sniper/odoragon/odoragon_3.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Sniper/odoragon/odoragon_3.png"
+          ],
+          "odoragon_4": [
+            "https://cdn.ardysamods.my.id/Assets/models/Sniper/odoragon/odoragon_4.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Sniper/odoragon/odoragon_4.png"
+          ]
+        }
+      },
+      "Set 5": {
+        "styles": {
+          "item_back_bonanza": [
+            "https://cdn.ardysamods.my.id/Assets/models/Sniper/item_back_bonanza/item_back_bonanza.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Sniper/item_back_bonanza/item_back_bonanza.png"
+          ],
+          "item_back_bonanza_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Sniper/item_back_bonanza/item_back_bonanza_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Sniper/item_back_bonanza/item_back_bonanza_golden.png"
+          ]
+        }
+      },
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Sniper/item_weapon_keen.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Sniper/item_weapon_keen.png"
       ]
     }
   },

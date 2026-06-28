@@ -1,7 +1,36 @@
 {
-  "version": "1.0.45",
-  "lastUpdated": "2026-06-27",
+  "version": "1.0.46",
+  "lastUpdated": "2026-06-28",
   "updates": [
+    {
+      "date": "2026-06-28",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 4 (odoragon_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 5 (item_back_bonanza)"
+        },
+        {
+          "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-06-27",
       "sets": [

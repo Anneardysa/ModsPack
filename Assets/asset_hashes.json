@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-27T08:12:11Z",
+  "generatedAt": "2026-06-28T09:13:43Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -770,6 +770,46 @@
     "Assets/models/Shadow_Fiend/tyrant.zip": {
       "sha256": "8D1E887D8A4EE602244805107ADE62BCDA1A9049154E334D68352E7689430BC4",
       "size": 214945
+    },
+    "Assets/models/Sniper/ardalan.zip": {
+      "sha256": "2101F57973B617BA694F40D9D6C3B52F8A10C0163B5E2A821348127C54731212",
+      "size": 833015
+    },
+    "Assets/models/Sniper/blacksail.zip": {
+      "sha256": "5D37D2DB86761A5134F42132B728824061CC56B54844DBCCA4531F2291515322",
+      "size": 276364
+    },
+    "Assets/models/Sniper/expired.zip": {
+      "sha256": "BF7BCB34D11266E48719226751499CACB72A73623769D2FDD805B08F229B11F2",
+      "size": 1439002
+    },
+    "Assets/models/Sniper/item_back_bonanza/item_back_bonanza_golden.zip": {
+      "sha256": "C11F36D7D4AB18DA1014941BAE41468DDE8E23AAB92336D8CD8A59F118615F30",
+      "size": 224922
+    },
+    "Assets/models/Sniper/item_back_bonanza/item_back_bonanza.zip": {
+      "sha256": "66DE21D9AF5E450436132C943E4DE72B994C7355104F86A022CD8FE4CCCCD88F",
+      "size": 218227
+    },
+    "Assets/models/Sniper/item_weapon_keen.zip": {
+      "sha256": "F0F74E15E821131CA4944F2FD10D66E602709498AEE0AB657FC54A604CE0CDEB",
+      "size": 235303
+    },
+    "Assets/models/Sniper/odoragon/odoragon_1.zip": {
+      "sha256": "9D3B511A106F8E9454022DF1A0C94EBE9CDC4EB3455BF29E500B225DEFAF0E5D",
+      "size": 1813713
+    },
+    "Assets/models/Sniper/odoragon/odoragon_2.zip": {
+      "sha256": "066ECE42AF8DA8B14572435914D9788994CD5BBF29F60680B3A6366F04E26E00",
+      "size": 1833377
+    },
+    "Assets/models/Sniper/odoragon/odoragon_3.zip": {
+      "sha256": "22A9CB005C9F79DD9F12B4EEFE502A350295960CB76B01042556E80F4CFAF913",
+      "size": 1834311
+    },
+    "Assets/models/Sniper/odoragon/odoragon_4.zip": {
+      "sha256": "758EFF0E3CD92D8E227F45BD4ACC917F494A38E2C042B54CBC4F994EE4EF5105",
+      "size": 2029278
     },
     "Assets/models/Sven/arbiter.zip": {
       "sha256": "2CCA05B3CACEDDC5D93A7357D02381DA4AA1B3EC2D6141BC4DA1594623842357",
