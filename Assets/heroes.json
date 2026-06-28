@@ -1221,6 +1221,54 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/bird.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/bird.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/drakons.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/drakons.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/drakons_ire.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/drakons_ire.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/eagle.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/eagle.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/empire.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/empire.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/radiant.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/radiant.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/triumph.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/triumph.png"
+      ],
+      "Set 8": {
+        "styles": {
+          "item_back_fallen": [
+            "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/item_back_fallen/item_back_fallen.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/item_back_fallen/item_back_fallen.png"
+          ],
+          "item_back_fallen_chaotic": [
+            "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/item_back_fallen/item_back_fallen_chaotic.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/item_back_fallen/item_back_fallen_chaotic.png"
+          ]
+        }
+      },
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/item_head_devotion.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/item_head_devotion.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Legion_Commander/base_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Legion_Commander/base_arcana.png"
       ]
     }
   },

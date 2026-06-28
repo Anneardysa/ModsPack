@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-28T09:13:43Z",
+  "generatedAt": "2026-06-28T10:29:34Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -418,6 +418,50 @@
     "Assets/models/Juggernaut/provoc.zip": {
       "sha256": "603E86E1F24BCF3A00A5D6972076D088D2DC02D1912EF9D0B7AB46B70B252498",
       "size": 576504
+    },
+    "Assets/models/Legion_Commander/base_arcana.zip": {
+      "sha256": "E37330DBEDC447FCCD116B4337671296245EE6CC2132209EFC900E886218A074",
+      "size": 2656423
+    },
+    "Assets/models/Legion_Commander/bird.zip": {
+      "sha256": "0505426A2BBCACA74BF16B1541384F9BD822A0DD242F70434C4363883BB82C45",
+      "size": 550463
+    },
+    "Assets/models/Legion_Commander/drakons_ire.zip": {
+      "sha256": "6E0284BE254FDF1760220B9A623AF19464397EB1A6660B4561777B3817B14682",
+      "size": 676972
+    },
+    "Assets/models/Legion_Commander/drakons.zip": {
+      "sha256": "65489ED0128B2BAAD6841F9B5140D2B43228C21BEE50E10D924F1C9281AE1368",
+      "size": 676477
+    },
+    "Assets/models/Legion_Commander/eagle.zip": {
+      "sha256": "A3E1D8B60A9F79443A581935FB34773C30B7459215A9CF3FC72B7020AC4C70D3",
+      "size": 1819726
+    },
+    "Assets/models/Legion_Commander/empire.zip": {
+      "sha256": "7477DA881DB243BAA9DF4C49206ECF4086010C351ED11DD7B59EB2EE893759CA",
+      "size": 425140
+    },
+    "Assets/models/Legion_Commander/item_back_fallen/item_back_fallen_chaotic.zip": {
+      "sha256": "EAEACF9891CC9CB36A08E6367D26770EDADBE8C456AC20DC1273B5BBF921E728",
+      "size": 12297861
+    },
+    "Assets/models/Legion_Commander/item_back_fallen/item_back_fallen.zip": {
+      "sha256": "5B10B7B11103BBF071057E4FFE262D6AE0AE578F5CD823BF4C3F7E7404F8296F",
+      "size": 12319492
+    },
+    "Assets/models/Legion_Commander/item_head_devotion.zip": {
+      "sha256": "8951E9E04BCD3C14B9AD651C3FB6DE81341103219C078B4EA9CE942122CAA550",
+      "size": 411684
+    },
+    "Assets/models/Legion_Commander/radiant.zip": {
+      "sha256": "A8F7F4E481DACC72A879BC6473C9C8A0ADB2D11FDC36B690C82DF50AFFC7DB54",
+      "size": 458254
+    },
+    "Assets/models/Legion_Commander/triumph.zip": {
+      "sha256": "5E8FD0113580D563E61D904127A50E662F81F9F4B0D45026A67B1D3BB1D204AD",
+      "size": 568773
     },
     "Assets/models/Monkey_King/base_arcana/base_arcana_2.zip": {
       "sha256": "55B690D9A98E6620893984837E7F2794C3F831959CAD679563CE01BD939947DB",
