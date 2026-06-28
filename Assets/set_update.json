@@ -1,10 +1,30 @@
 {
-  "version": "1.0.47",
+  "version": "1.0.48",
   "lastUpdated": "2026-06-28",
   "updates": [
     {
       "date": "2026-06-28",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_meepo",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_meepo",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_meepo",
+          "setName": "Set 5 (item_head_goggles)"
+        },
+        {
+          "heroId": "npc_dota_hero_meepo",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_meepo",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_legion_commander",
           "setName": "Set 7"

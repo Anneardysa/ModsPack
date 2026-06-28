@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-28T10:29:34Z",
+  "generatedAt": "2026-06-28T13:14:52Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -462,6 +462,30 @@
     "Assets/models/Legion_Commander/triumph.zip": {
       "sha256": "5E8FD0113580D563E61D904127A50E662F81F9F4B0D45026A67B1D3BB1D204AD",
       "size": 568773
+    },
+    "Assets/models/Meepo/bird.zip": {
+      "sha256": "9E48E4D9B96094528E4554654A795658A9ED7353026BBDFBD47BD7ADA1B0F216",
+      "size": 609673
+    },
+    "Assets/models/Meepo/item_back_crystal.zip": {
+      "sha256": "6A6EF8A75C07BB6D14CD68752F10A94B2679EDBC691CC3A59800EA76D6589EB4",
+      "size": 160698
+    },
+    "Assets/models/Meepo/item_head_goggles/item_head_goggles.zip": {
+      "sha256": "38AADBA468BAC6534BFE3C59AA890EB4D187697324EB5FDBD288D63468DB3EF1",
+      "size": 1712680
+    },
+    "Assets/models/Meepo/item_head_goggles/item_head_googles_crimson.zip": {
+      "sha256": "BD3826B272CEA21F2057C2796328BBD263AAA9F889EEC351BFA7B665120F119C",
+      "size": 233084
+    },
+    "Assets/models/Meepo/mountain.zip": {
+      "sha256": "7F150469F066267B4471015F401C87C91C5F69D676E46B95669A39070AAA10A4",
+      "size": 298547
+    },
+    "Assets/models/Meepo/pitmouse.zip": {
+      "sha256": "604BD5DD7D4B05238D3B29D5C7F7F66E78E5354C215E4BC4E1112E4C1774F2B0",
+      "size": 185002
     },
     "Assets/models/Monkey_King/base_arcana/base_arcana_2.zip": {
       "sha256": "55B690D9A98E6620893984837E7F2794C3F831959CAD679563CE01BD939947DB",

@@ -1507,7 +1507,33 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
-      ]
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Meepo/bird.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Meepo/bird.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Meepo/mountain.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Meepo/mountain.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Meepo/pitmouse.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Meepo/pitmouse.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Meepo/item_back_crystal.zip"
+      ],
+      "Set 5": {
+        "styles": {
+          "item_head_goggles": [
+            "https://cdn.ardysamods.my.id/Assets/models/Meepo/item_head_goggles/item_head_goggles.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Meepo/item_head_goggles/item_head_goggles.png"
+          ],
+          "item_head_googles_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Meepo/item_head_goggles/item_head_googles_crimson.zip"
+          ]
+        }
+      }
     }
   },
   {
