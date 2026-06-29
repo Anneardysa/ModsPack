@@ -1,0 +1,130 @@
+﻿"7"
+{
+	"name"		"Juggernaut's Weapon"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2018"
+	"image_inventory"		"econ/items/juggernaut/jugg_ti8/jugg_ti8_sword2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Crimson_Edge_of_the_Lost_Order"
+	"item_rarity"		"immortal"
+	"model_player"		"models/heroes/juggernaut/jugg_sword.vmdl"
+	"particle_folder"		"particles/units/heroes/hero_juggernaut"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.041748 185.394287 0.000000"
+			"PortraitLightFOV"		"26"
+			"PortraitLightDistance"		"344"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+			"PortraitAnimationCycle"		"0.989011"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"78.514290 -342.135101 190.789841"
+					"PortraitAngles"		"16.499624 96.382370 24.440001"
+					"PortraitFOV"		"33.810001"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_juggernaut"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/juggernaut/jugg_ti8_sword/jugg_ti8_crimson_sword_ambient.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti8"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_ti8_sword_crit_overtheshoulder.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_crimson_ti8_sword_crit_overtheshoulder.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_blade_fury.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_crimson_blade_fury_abyssal.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_blade_fury_tgt.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_crimson_blade_fury_abyssal_tgt.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"juggernaut_blade_fury"
+			"modifier"		"juggernaut/ti8_immortal_weapon/juggernaut_blade_fury_immortal_crimson"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/items_fx/abyssal_blade.vpcf"
+			"modifier"		"particles/items_fx/abyssal_blade_crimson_jugger.vpcf"
+			"style"		"0"
+		}
+		"skin"		"2"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"kisilev_ind/particles/juggernaut/ice_and_fire/attack/2swords_attack_blur_a.vpcf"
+			"modifier"		"kisilev_ind/particles/juggernaut/ice_and_fire/attack/2swords_attack_blur_a_ti8.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"kisilev_ind/particles/juggernaut/ice_and_fire/attack/2swords_attack_blur_c_fire.vpcf"
+			"modifier"		"kisilev_ind/particles/juggernaut/ice_and_fire/attack/2swords_attack_blur_crit_ti8_crimson.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

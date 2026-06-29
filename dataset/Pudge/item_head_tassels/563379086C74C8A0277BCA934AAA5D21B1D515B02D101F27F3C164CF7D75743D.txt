@@ -1,0 +1,56 @@
+﻿"262"
+{
+	"name"		"Pudge's Toupee"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/heroes/pudge/hair"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Black_Death_Head_Style3"
+	"item_rarity"		"legendary"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/pudge/hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"112.404594 97.127350 253.851578"
+			"PortraitLightAngles"		"44.912109 224.170532 0.000000"
+			"PortraitLightFOV"		"42"
+			"PortraitLightDistance"		"195"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"149.654984 88.055077 143.411484"
+					"PortraitAngles"		"2.807007 212.135010 0.000000"
+					"PortraitFOV"		"32"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pudge"		"1"
+	}
+}

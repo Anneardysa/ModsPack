@@ -1,0 +1,412 @@
+﻿"16"
+{
+	"name"		"Sven's Mask"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/sven/ti9_sven_cavern_crawl_head/ti9_sven_cavern_crawl_head_style1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Helm_of_the_Lost_Vigil"
+	"item_rarity"		"rare"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_back"
+	"model_player"		"models/heroes/sven/sven_mask.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-25.469999 -23.260000 199.119995"
+			"PortraitLightAngles"		"146.779999 226.130005 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"118"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.450000 0.505000 0.680000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.180000 0.200000 0.280000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-4.580 -3.380 -12.900"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"83.874908 -157.729996 159.852890"
+					"PortraitAngles"		"5.646973 117.361450 0.000000"
+					"PortraitFOV"		"44"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/sven/sven_ti9/sven_ti9_head_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"17"
+{
+	"name"		"Sven's Sword"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/sven/ti9_sven_cavern_crawl_weapon/ti9_sven_cavern_crawl_weapon_style1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Blade_of_the_Lost_Vigil"
+	"item_rarity"		"rare"
+	"item_type_name"		"#DOTA_WearableType_arms"
+	"model_player"		"models/heroes/sven/sven_sword.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-59.911701 -60.797386 163.737289"
+			"PortraitLightAngles"		"146.779999 226.130005 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"118"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.450000 0.505000 0.680000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.180000 0.200000 0.280000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-4.580 -3.380 -12.900"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"98.602432 -134.813644 269.045410"
+					"PortraitAngles"		"43.592926 162.880753 0.000000"
+					"PortraitFOV"		"90"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/sven/sven_ti9/sven_ti9_weapon_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"18"
+{
+	"name"		"Belt of the Lost Vigil"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/sven/ti9_sven_cavern_crawl_belt/ti9_sven_cavern_crawl_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Belt_of_the_Lost_Vigil"
+	"item_rarity"		"rare"
+	"item_slot"		"belt"
+	"item_type_name"		"#DOTA_WearableType_legs"
+	"model_player"		"models/heroes/sven/sven_belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"15.431210 -78.902550 147.722900"
+			"PortraitLightAngles"		"141.910400 271.873169 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"118"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.450000 0.505000 0.680000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.180000 0.200000 0.280000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-4.580 -3.380 -12.900"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"111.341217 -117.084663 116.817680"
+					"PortraitAngles"		"20.665283 137.697144 0.000000"
+					"PortraitFOV"		"63"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"19"
+{
+	"name"		"Arms of the Lost Vigil"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/sven/ti9_sven_cavern_crawl_arms/ti9_sven_cavern_crawl_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Arms_of_the_Lost_Vigil"
+	"item_rarity"		"rare"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Arms"
+	"model_player"		"models/heroes/sven/sven_gauntlet.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-59.911701 -60.797386 163.737289"
+			"PortraitLightAngles"		"146.779999 226.130005 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"118"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.450000 0.505000 0.680000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.180000 0.200000 0.280000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-4.580 -3.380 -12.900"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"41.997433 -182.396286 158.286758"
+					"PortraitAngles"		"14.139404 109.346924 0.000000"
+					"PortraitFOV"		"37"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"20"
+{
+	"name"		"Spaulders of the Lost Vigil"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/sven/ti9_sven_cavern_crawl_shoulder/ti9_sven_cavern_crawl_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Spaulders_of_the_Lost_Vigil"
+	"item_rarity"		"rare"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"model_player"		"models/heroes/sven/sven_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-25.469999 -23.260000 199.119995"
+			"PortraitLightAngles"		"146.779999 226.130005 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"118"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.450000 0.505000 0.680000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.180000 0.200000 0.280000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-4.580 -3.380 -12.900"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"83.874908 -157.729996 159.852890"
+					"PortraitAngles"		"5.646973 117.361450 0.000000"
+					"PortraitFOV"		"44"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"581"
+{
+	"name"		"Sven's Back"
+	"prefab"		"default_item"
+	"creation_date"		"2015-05-20"
+	"image_inventory"		"econ/heroes/sven/sven_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Svens_Back"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+}
+
+"8366"
+{
+	"name"		"All Heroes' Default Pet"
+	"prefab"		"default_item"
+	"creation_date"		"2015-04-14"
+	"image_inventory"		"econ/default_no_item"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Wearable_All_Heroes_DefaultPet"
+	"item_slot"		"summon"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"static_attributes"
+	{
+		"is inspectable"		"0"
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_axe"		"1"
+		"npc_dota_hero_bristleback"		"1"
+		"npc_dota_hero_centaur"		"1"
+		"npc_dota_hero_earthshaker"		"1"
+		"npc_dota_hero_juggernaut"		"1"
+		"npc_dota_hero_legion_commander"		"1"
+		"npc_dota_hero_riki"		"1"
+		"npc_dota_hero_slark"		"1"
+		"npc_dota_hero_sven"		"1"
+		"npc_dota_hero_marci"		"1"
+	}
+}
+

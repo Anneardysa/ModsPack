@@ -1,0 +1,438 @@
+﻿"90"
+{
+	"name"		"Faceless Void's Head"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_alt1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Claszian_Apostasy_Head"
+	"item_rarity"		"arcana"
+	"item_slot"		"body_head"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"139.930252 -37.608944 214.438370"
+			"PortraitLightAngles"		"48.532104 159.752197 0.000000"
+			"PortraitLightFOV"		"27"
+			"PortraitLightDistance"		"159"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.200000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.650000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_RUN"
+			"PortraitAnimationCycle"		"0.292000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-32.150 68.820 -47.150"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"241.368988 -103.690216 138.315491"
+					"PortraitAngles"		"3.905640 153.204346 0.000000"
+					"PortraitFOV"		"17"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_faceless_void"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"kisilev_ind"
+		}
+		"asset_modifier"
+		{
+			"type"		"buff_modifier"
+			"modifier"		"modifier_faceless_void_arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"custom_kill_effect"
+			"asset"		"kill"
+			"modifier"		"modifier_faceless_void_arcana_kill_effect"
+		}
+		"asset_modifier"
+		{
+			"type"		"arcana_level"
+			"level"		"2"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/msg_fx/msg_deny.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_deny_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_time_walk_preimage_jewel.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_preimage_combined.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_time_walk_jewel.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_combined.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_mace_of_aeons/fv_chronosphere_aeons.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_chronosphere_combined.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_loadout.vpcf"
+			"modifier"		"particles/error/null.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_background_model"
+			"asset"		"models/items/faceless_void/faceless_void_arcana/faceless_void_arcana_pedestal.vmdl"
+			"skin"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"response_criteria"
+			"asset"		"fv_arcana_vo"
+		}
+		"asset_modifier"
+		{
+			"type"		"default_idle_expression"
+			"asset"		"scenes/faceless_void/faceless_void_exp_idle_01.vcd"
+			"modifier"		"scenes/faceless_void/faceless_void_arcana_idle_01.vcd"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_ambient_belt.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_ambient_belt_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_ambient_shoulder.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_ambient_shoulder_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_ambient_bracer.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_ambient_bracer_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_ambient_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_weapon_ambient.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_weapon_ambient_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_loadout_spawn_back_perturb.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_loadout_spawn_v2_back_perturb.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_time_lock_bash.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_lock_v2_tentacle_bash.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_loadout_tentacle_setup.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_loadout_v2_tentacle_setup.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_timedialate.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_dialate_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_time_walk.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_time_walk_preimage.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_v2_preimage.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_chronosphere.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_chronosphere_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_dialatedebuf.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_dialate_v2_debuff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_game_spawn.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_game_spawn_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/items_fx/chain_lightning.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_maelstrom_v2_item.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/items2_fx/mjollnir_shield.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_mjollnir_shield_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/items2_fx/mask_of_madness.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_mask_of_madness_v2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero"
+			"asset"		"npc_dota_hero_faceless_void"
+			"modifier"		"npc_dota_hero_faceless_void_alt2"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"inventory_icon"
+			"asset"		"mask_of_madness"
+			"modifier"		"mask_of_madness_faceless_void_arcana_alt2"
+		}
+		"asset_modifier"
+		{
+			"type"		"inventory_icon"
+			"asset"		"maelstrom"
+			"modifier"		"maelstrom_faceless_void_arcana_alt2"
+		}
+		"asset_modifier"
+		{
+			"type"		"inventory_icon"
+			"asset"		"mjollnir"
+			"modifier"		"mjollnir_faceless_void_arcana_alt2"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero_minimap"
+			"asset"		"npc_dota_hero_faceless_void"
+			"modifier"		"npc_dota_hero_faceless_void_alt2"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient_refit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons_refit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_red_ambient.vpcf"
+			"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_red_ambient_refit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"faceless_void_chronosphere"
+			"modifier"		"faceless_void/arcana/faceless_void_chronosphere_arcana_alt1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"faceless_void_time_dilation"
+			"modifier"		"faceless_void/arcana/faceless_void_time_dilation_arcana_alt1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"faceless_void_time_lock"
+			"modifier"		"faceless_void/arcana/faceless_void_time_lock_arcana_alt1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"faceless_void_time_walk"
+			"modifier"		"faceless_void/arcana/faceless_void_time_walk_arcana_alt1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"faceless_void_time_walk_reverse"
+			"modifier"		"faceless_void/arcana/faceless_void_time_walk_reverse_arcana_alt1"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"faceless_void_face_laugh_07"
+			"modifier"		"faceless_void_fv_arc_laugh_04"
+			"label"		"#dota_chatwheel_label_faceless_void_arcana_laugh"
+			"message"		"#dota_chatwheel_message_faceless_void_arcana_laugh"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"faceless_void_face_win_03"
+			"modifier"		"faceless_void_fv_arc_wheel_thanks_01"
+			"label"		"#dota_chatwheel_label_faceless_void_arcana_thank"
+			"message"		"#dota_chatwheel_message_faceless_void_arcana_thank"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"faceless_void_face_lose_03"
+			"modifier"		"faceless_void_fv_arc_wheel_all_01"
+			"label"		"#dota_chatwheel_label_faceless_void_arcana_deny"
+			"message"		"#dota_chatwheel_message_faceless_void_arcana_deny"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"faceless_void_face_kill_01"
+			"modifier"		"faceless_void_fv_arc_wheel_all_02"
+			"label"		"#dota_chatwheel_label_faceless_void_arcana_1"
+			"message"		"#dota_chatwheel_message_faceless_void_arcana_1"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"faceless_void_face_kill_11"
+			"modifier"		"faceless_void_fv_arc_wheel_all_03"
+			"label"		"#dota_chatwheel_label_faceless_void_arcana_2"
+			"message"		"#dota_chatwheel_message_faceless_void_arcana_2"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"faceless_void_face_ability_chronos_failure_08"
+			"modifier"		"faceless_void_fv_arc_wheel_all_06"
+			"label"		"#dota_chatwheel_label_faceless_void_arcana_3"
+			"message"		"#dota_chatwheel_message_faceless_void_arcana_3"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"faceless_void_face_rare_03"
+			"modifier"		"faceless_void_fv_arc_wheel_all_12"
+			"label"		"#dota_chatwheel_label_faceless_void_arcana_4"
+			"message"		"#dota_chatwheel_message_faceless_void_arcana_4"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"faceless_void_face_ability_chronos_failure_07"
+			"modifier"		"faceless_void_fv_arc_wheel_deny_01"
+			"label"		"#dota_chatwheel_label_faceless_void_arcana_5"
+			"message"		"#dota_chatwheel_message_faceless_void_arcana_5"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"faceless_void_face_ability_timewalk_01"
+			"modifier"		"faceless_void_fv_arc_wheel_deny_02"
+			"label"		"#dota_chatwheel_label_faceless_void_arcana_6"
+			"message"		"#dota_chatwheel_message_faceless_void_arcana_6"
+		}
+		"asset_modifier"
+		{
+			"type"		"mvp_map_override"
+			"modifier"		"maps/scenes/mvp/mvp_faceless_void_arcana.vmap"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_game"
+			"asset"		"models/heroes/faceless_void/faceless_void.vmdl"
+			"modifier"
+			{
+				"cameras"
+				{
+					"Default"
+					{
+						"PortraitPosition"		"244.168732 -106.988716 67.001785"
+						"PortraitAngles"		"343.367126 151.432373 0.000000"
+						"PortraitFOV"		"16"
+						"PortraitFar"		"1000"
+					}
+				}
+				"PortraitLightPosition"		"149.201920 92.027733 213.860458"
+				"PortraitLightAngles"		"25.025555 -151.030258 -8.020281"
+				"PortraitLightFOV"		"69.068001"
+				"PortraitLightDistance"		"336"
+				"PortraitLightColor"		"255 255 255"
+				"PortraitLightScale"		"2"
+				"PortraitShadowColor"		"74 74 74"
+				"PortraitShadowScale"		"1"
+				"PortraitGroundShadowScale"		"1.500000"
+				"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+				"PortraitAmbientColor"		"188 143 143"
+				"PortraitAmbientScale"		"1"
+				"PortraitSpecularColor"		"251 74 84"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16"
+				"PortraitBackgroundColor1"		"1.000000 0.078431 0.576471"
+				"PortraitBackgroundColor2"		"1.000000 0.078431 0.576471"
+				"PortraitBackgroundColor3"		"1.000000 0.000000 0.631373"
+				"PortraitBackgroundColor4"		"1.000000 0.078431 0.576471"
+				"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_oracle.vmat"
+				"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+				"PortraitAnimationCycle"		"0"
+				"PortraitAnimationRate"		"1"
+				"PortraitPlayIdleExpression"		"0"
+				"PortraitHideHero"		"0"
+				"PortraitHideParticles"		"0"
+				"PortraitHideDropShadow"		"0"
+				"PortraitDesaturateParticles"		"0"
+				"PortraitDesaturateHero"		"1"
+				"PortraitVignetteItem"		"0"
+			}
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

@@ -1,0 +1,417 @@
+﻿"281"
+{
+	"name"		"Sniper's Weapon"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/sniper/scifi_sniper_test_gun/scifi_sniper_test_gun"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Weapon_of_the_Ardalan_Interdictor"
+	"item_rarity"		"immortal"
+	"model_player"		"models/heroes/sniper/weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-75.074516 -50.169971 140.933929"
+			"PortraitLightAngles"		"40.632935 27.377930 0.000000"
+			"PortraitLightFOV"		"44"
+			"PortraitLightDistance"		"190"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.950000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.200000 0.700000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"3.925000"
+			"PortraitAmbientDirection"		"39.910 -29.100 -18.910"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"240.493378 -261.196167 132.337494"
+					"PortraitAngles"		"13.039409 130.143066 17.279999"
+					"PortraitFOV"		"31.590000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sniper"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"gun"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_weapon_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_sniper/sniper_shrapnel.vpcf"
+			"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_shrapnel.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_sniper/sniper_shrapnel_launch.vpcf"
+			"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_shrapnel_launch.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_sniper/sniper_crosshair.vpcf"
+			"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_crosshair.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"4"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"sniper_shrapnel"
+			"modifier"		"sniper_fall20_shrapnel"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"sniper_assassinate"
+			"modifier"		"sniper_fall20_assassinate"
+			"apply_when_equipped_in_ability_effects_slot"		"4"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"282"
+{
+	"name"		"Pack of the Ardalan Interdictor"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/sniper/scifi_sniper_test_back/scifi_sniper_test_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Pack_of_the_Ardalan_Interdictor"
+	"item_rarity"		"immortal"
+	"item_slot"		"back"
+	"model_player"		"models/heroes/sniper/cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-162.829575 -8.148069 151.254944"
+			"PortraitLightAngles"		"35.244141 2.219238 0.000000"
+			"PortraitLightFOV"		"65"
+			"PortraitLightDistance"		"317"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.950000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.200000 0.700000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"39.910 -29.100 -18.910"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-219.739258 -5.506701 203.406815"
+					"PortraitAngles"		"34.112549 1.400757 0.000000"
+					"PortraitFOV"		"39"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"is commodity"
+		{
+			"attribute_class"		"is commodity"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sniper"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"back"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_jetpack.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"283"
+{
+	"name"		"Helm of the Ardalan Interdictor"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/sniper/scifi_sniper_test_head/scifi_sniper_test_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Helm_of_the_Ardalan_Interdictor"
+	"item_rarity"		"immortal"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/sniper/headitem.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"81.525711 -81.088432 135.777267"
+			"PortraitLightAngles"		"25.235596 151.116943 0.000000"
+			"PortraitLightFOV"		"65"
+			"PortraitLightDistance"		"144"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.950000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.200000 0.700000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"39.910 -29.100 -18.910"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"170.969482 -273.052826 84.127663"
+					"PortraitAngles"		"356.610718 120.184937 0.000000"
+					"PortraitFOV"		"12"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sniper"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_head.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"response_criteria"
+			"asset"		"sniper_helmet"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"284"
+{
+	"name"		"Colar of the Ardalan Interdictor"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/sniper/scifi_sniper_test_shoulder/scifi_sniper_test_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Colar_of_the_Ardalan_Interdictor"
+	"item_rarity"		"immortal"
+	"item_slot"		"shoulder"
+	"model_player"		"models/heroes/sniper/shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"116.094276 -67.329620 148.476700"
+			"PortraitLightAngles"		"25.235596 151.116943 0.000000"
+			"PortraitLightFOV"		"65"
+			"PortraitLightDistance"		"190"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.950000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.200000 0.700000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"39.910 -29.100 -18.910"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"98.846634 -129.834381 137.903320"
+					"PortraitAngles"		"15.743408 128.737793 0.000000"
+					"PortraitFOV"		"27"
+					"PortraitFar"		"403"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sniper"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"285"
+{
+	"name"		"Bracers of the Ardalan Interdictor"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/sniper/scifi_sniper_test_arms/scifi_sniper_test_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bracers_of_the_Ardalan_Interdictor"
+	"item_rarity"		"immortal"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/sniper/bracer.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"0.192303 -65.845947 78.430161"
+			"PortraitLightAngles"		"23.400879 130.248413 0.000000"
+			"PortraitLightFOV"		"39"
+			"PortraitLightDistance"		"50"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.950000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.200000 0.700000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"39.910 -29.100 -18.910"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-63.903458 -235.960968 113.337067"
+					"PortraitAngles"		"13.095703 79.332275 0.000000"
+					"PortraitFOV"		"18"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sniper"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

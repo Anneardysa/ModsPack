@@ -1,0 +1,462 @@
+﻿"127"
+{
+	"name"		"Phantom Lancer's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/phantom_lancer/phantom_lancer_avilliva_head/phantom_lancer_avilliva_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Flock_of_Avilliva__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"body_head"
+	"model_player"		"models/heroes/phantom_lancer/phantom_lancer_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"67.610786 -182.938477 191.016541"
+			"PortraitLightAngles"		"36.397705 149.298706 0.000000"
+			"PortraitLightFOV"		"63"
+			"PortraitLightDistance"		"207"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundColor2"		"1.000000 0.800000 0.900000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-76.520 7.960 38.340"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"134.475586 -124.411789 147.751099"
+					"PortraitAngles"		"3.828497 130.402222 -6.531372"
+					"PortraitFOV"		"35"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_phantom_lancer"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/phantom_lancer/phantom_lancer_avilliva/phantom_lancer_avilliva_head_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"128"
+{
+	"name"		"Phantom Lancer's Belt"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/phantom_lancer/phantom_lancer_avilliva_belt/phantom_lancer_avilliva_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Flock_of_Avilliva__Belt"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"model_player"		"models/heroes/phantom_lancer/phantom_lancer_belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"67.610786 -182.938477 190.883026"
+			"PortraitLightAngles"		"36.397705 149.298706 0.000000"
+			"PortraitLightFOV"		"63"
+			"PortraitLightDistance"		"207"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundColor2"		"1.000000 0.800000 0.900000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-76.520 7.960 38.340"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"46.167152 -227.824585 136.449829"
+					"PortraitAngles"		"20.947313 101.679848 0.000000"
+					"PortraitFOV"		"36"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_phantom_lancer"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/phantom_lancer/phantom_lancer_avilliva/phantom_lancer_avilliva_belt_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"129"
+{
+	"name"		"Phantom Lancer's Gauntlet"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/phantom_lancer/phantom_lancer_avilliva_arms/phantom_lancer_avilliva_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Flock_of_Avilliva__Arms"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/phantom_lancer/phantom_lancer_gauntlet.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"67.610786 -182.938477 190.883026"
+			"PortraitLightAngles"		"36.397705 149.298706 0.000000"
+			"PortraitLightFOV"		"63"
+			"PortraitLightDistance"		"207"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundColor2"		"1.000000 0.800000 0.900000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-76.520 7.960 38.340"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"101.924477 -56.524632 155.810181"
+					"PortraitAngles"		"46.296387 128.770752 0.000000"
+					"PortraitFOV"		"46"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_phantom_lancer"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/phantom_lancer/phantom_lancer_avilliva/phantom_lancer_avilliva_arms_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"130"
+{
+	"name"		"Phantom Lancer's Shoulderpad"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/phantom_lancer/phantom_lancer_avilliva_shoulder/phantom_lancer_avilliva_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Flock_of_Avilliva__Shoulder"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"model_player"		"models/heroes/phantom_lancer/phantom_lancer_shoulderpad.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"67.610786 -182.938477 190.883026"
+			"PortraitLightAngles"		"36.397705 149.298706 0.000000"
+			"PortraitLightFOV"		"63"
+			"PortraitLightDistance"		"207"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundColor2"		"1.000000 0.800000 0.900000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-76.520 7.960 38.340"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"134.475586 -124.411789 142.369415"
+					"PortraitAngles"		"8.129883 130.402222 353.468628"
+					"PortraitFOV"		"35"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_phantom_lancer"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/phantom_lancer/phantom_lancer_avilliva/phantom_lancer_avilliva_shoulder_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"132"
+{
+	"name"		"Phantom Lancer's Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/phantom_lancer/phantom_lancer_avilliva_weapon/phantom_lancer_avilliva_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Flock_of_Avilliva__Weapon"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/phantom_lancer/phantom_lancer_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"67.610786 -182.938477 190.883026"
+			"PortraitLightAngles"		"36.397705 149.298706 0.000000"
+			"PortraitLightFOV"		"63"
+			"PortraitLightDistance"		"207"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"0 0 0"
+			"PortraitShadowScale"		"1.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundColor2"		"1.000000 0.800000 0.900000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-76.520 7.960 38.340"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"42.948681 -177.642776 302.237183"
+					"PortraitAngles"		"52.943115 115.762939 346.338501"
+					"PortraitFOV"		"59"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_phantom_lancer"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/phantom_lancer/phantom_lancer_avilliva/phantom_lancer_avilliva_weapon_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"637"
+{
+	"name"		"Phantom Lancer's Hat"
+	"prefab"		"default_item"
+	"creation_date"		"2017-08-07"
+	"image_inventory"		"econ/heroes/phantom_lancer/phantom_lancer_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Phantom_Lancers_Hat"
+	"item_quality"		"unique"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"67.610786 -182.938477 191.016541"
+			"PortraitLightAngles"		"36.397705 149.298706 0.000000"
+			"PortraitLightFOV"		"63"
+			"PortraitLightDistance"		"207"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundColor2"		"1.000000 0.800000 0.900000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.500000 0.500000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-76.520 7.960 38.340"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"134.475586 -124.411789 147.751099"
+					"PortraitAngles"		"3.828497 130.402222 -6.531372"
+					"PortraitFOV"		"35"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_phantom_lancer"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+	}
+}
+

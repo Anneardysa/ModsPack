@@ -1,0 +1,107 @@
+﻿"433"
+{
+	"name"		"Legion Commander's Banners"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2016"
+	"image_inventory"		"econ/items/legion_commander/legacy_of_the_fallen_legion/legacy_of_the_fallen_legion_style1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Legacy_of_the_Fallen_Legion"
+	"item_rarity"		"immortal"
+	"item_slot"		"back"
+	"match_cycle_to_parent"		"0"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"model_player"		"models/heroes/legion_commander/legion_commander_back.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"-466.698364 -449.292358 401.110931"
+					"PortraitAngles"		"26.715036 44.849899 0.000000"
+					"PortraitFOV"		"24.763000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"-370.351074 0.000000 124.222443"
+			"PortraitLightAngles"		"0.000000 0.000000 0.000000"
+			"PortraitLightFOV"		"56.930000"
+			"PortraitLightDistance"		"921.419983"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"2.440000"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2016"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_legion_commander"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"fallen_legion"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_legion_commander/legion_commander_press_owner.vpcf"
+			"modifier"		"kisilev_ind/particles/legion_commander/lc_immortal_back/chaotic/legion_fallen_press_owner_alt.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_legion_commander/legion_commander_press.vpcf"
+			"modifier"		"particles/econ/items/legion/legion_fallen/legion_fallen_press.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"kisilev_ind/particles/legion_commander/lc_immortal_back/chaotic/legion_fallen_ambient_alt.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"legion_commander_press_the_attack"
+			"modifier"		"legion_commander/legacy_of_the_fallen_legion/legion_commander_press_the_attack"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

@@ -1,0 +1,91 @@
+﻿"459"
+{
+	"name"		"Earthshaker's Totem"
+	"prefab"		"default_item"
+	"creation_date"		"2019-04-08"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/earthshaker/ti9_immortal/ti9_immortal_style1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Judgement_of_the_Fallen"
+	"item_rarity"		"immortal"
+	"model_player"		"models/heroes/earthshaker/totem.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-251.271530 42.008335 183.115250"
+			"PortraitLightAngles"		"18.901978 350.271606 0.000000"
+			"PortraitLightFOV"		"57"
+			"PortraitLightDistance"		"272"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.450000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-2.300 31.360 5.980"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-396.125702 171.219162 240.136124"
+					"PortraitAngles"		"13.694458 335.714722 0.000000"
+					"PortraitFOV"		"24"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_earthshaker"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti9_totem"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_fissure.vpcf"
+			"modifier"		"particles/econ/items/earthshaker/earthshaker_ti9/earthshaker_fissure_ti9_lvl2.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"earthshaker_fissure"
+			"modifier"		"earthshaker_fissure_ti9_style1"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/earthshaker/earthshaker_ti9/earthshaker_ti9_ambient_lvl2.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

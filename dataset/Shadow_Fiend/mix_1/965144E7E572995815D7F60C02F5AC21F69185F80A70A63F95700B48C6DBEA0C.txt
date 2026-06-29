@@ -1,0 +1,573 @@
+﻿"387"
+{
+	"name"		"Shadow Fiend's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_WINTER_2025"
+	"image_inventory"		"econ/items/nevermore/sf_dark_lord_head/sf_dark_lord_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Molten_Maw"
+	"item_rarity"		"rare"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/shadow_fiend/shadow_fiend_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"69.742004 55.448997 250.999527"
+			"PortraitLightAngles"		"37.628174 210.421143 0.000000"
+			"PortraitLightFOV"		"66"
+			"PortraitLightDistance"		"145"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-5.320 -165.840 9.930"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"345.234680 15.049049 198.919571"
+					"PortraitAngles"		"2.702524 182.119431 0.000000"
+					"PortraitFOV"		"21"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_nevermore"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"486"
+{
+	"name"		"Shadow Fiend's Shoulders"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_WINTER_2025"
+	"image_inventory"		"econ/items/nevermore/sf_dark_lord_shoulder/sf_dark_lord_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Molten_Mantle"
+	"item_rarity"		"rare"
+	"item_slot"		"shoulder"
+	"model_player"		"models/heroes/shadow_fiend/shadow_fiend_shoulders.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"96.896248 -112.918182 332.226318"
+			"PortraitLightAngles"		"48.735352 130.786743 0.000000"
+			"PortraitLightFOV"		"66"
+			"PortraitLightDistance"		"234"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-5.320 -165.840 9.930"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"792.979675 35.606628 292.148438"
+					"PortraitAngles"		"8.864985 181.746445 0.000000"
+					"PortraitFOV"		"21"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_nevermore"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_dark_lord/sf_dark_lord_shoulder_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"488"
+{
+	"name"		"Shadow Fiend's Arms"
+	"prefab"		"default_item"
+	"creation_date"		"2015-03-19"
+	"image_inventory"		"econ/items/shadow_fiend/arms_deso/arms_deso"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Arms_of_Desolation"
+	"item_rarity"		"immortal"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Arms"
+	"model_player"		"models/heroes/shadow_fiend/shadow_fiend_arms.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"85.000000 9.680000 296.059998"
+			"PortraitLightAngles"		"62.939999 185.360001 0.000000"
+			"PortraitLightFOV"		"75"
+			"PortraitLightDistance"		"249"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor3"		"0.800000 0.200000 0.100000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-75.850 -49.880 27.200"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"393.917419 -84.983719 147.919189"
+					"PortraitAngles"		"4.405848 168.739014 0.000000"
+					"PortraitFOV"		"44"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_nevermore"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"desolation"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/items_fx/desolator_projectile.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_desolation/sf_base_attack_desolation_desolator.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nvm_atk_blur.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_desolation/nvm_atk_blur_dso.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nvm_atk_blur_b.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_desolation/nvm_atk_blur_b_dso.vpcf"
+		}
+		"skip_model_combine"		"0"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"kisilev_ind/particles/shadow_fiend/sf_desolation/shadow_fiend_desolation_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"826"
+{
+	"name"		"Shadow Fiend's Base"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-25"
+	"image_inventory"		"econ/items/nevermore/shadowfiend_demon_eater"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Demon_Eater"
+	"item_rarity"		"arcana"
+	"item_slot"		"hero_base"
+	"item_type_name"		"#DOTA_WearableType_Burning_Soul"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_nevermore"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"kisilev_ind"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_shadowraze.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_shadowraze.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_line.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_requiemofsouls_line.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_wings.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_wings.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_trail.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_trail.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_shadowraze_double.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_shadowraze_double.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_shadowraze_triple.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_shadowraze_triple.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_loadout.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_loadout.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_ambient_glow.vpcf"
+			"modifier"		"particles/units/heroes/hero_nevermore/sf_fire_arcana_ambient_glow.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"response_criteria"
+			"asset"		"arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_requiemofsouls.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_requiemofsouls.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_death.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_death.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_souls.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_souls.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_necro_souls.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_necro_souls.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_necro_souls_hero.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_necro_souls_hero.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_shadowraze3"
+			"modifier"		"nevermore_shadowraze3_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_shadowraze2"
+			"modifier"		"nevermore_shadowraze2_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_shadowraze1"
+			"modifier"		"nevermore_shadowraze1_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_necromastery"
+			"modifier"		"nevermore_necromastery_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_requiem"
+			"modifier"		"nevermore_requiem_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_dark_lord"
+			"modifier"		"nevermore_dark_lord_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero"
+			"asset"		"npc_dota_hero_nevermore"
+			"modifier"		"npc_dota_hero_nevermore_alt1"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_background_model"
+			"asset"		"models/heroes/shadow_fiend/shadow_fiend_arcana_pedestal.vmdl"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"arcana_level"
+			"level"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero_minimap"
+			"asset"		"npc_dota_hero_nevermore"
+			"modifier"		"npc_dota_hero_nevermore_alt1"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_laugh_02"
+			"modifier"		"nevermore_nev_arc_laugh_02"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_thanks_02"
+			"modifier"		"nevermore_nev_arc_thanks_02"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_deny_03"
+			"modifier"		"nevermore_nev_arc_deny_03"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_kill_11"
+			"modifier"		"nevermore_nev_arc_kill_11"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_ability_presence_02"
+			"modifier"		"nevermore_nev_arc_ability_presence_02"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_lasthit_02"
+			"modifier"		"nevermore_nev_arc_lasthit_02"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_attack_07"
+			"modifier"		"nevermore_nev_arc_attack_07"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_attack_11"
+			"modifier"		"nevermore_nev_arc_attack_11"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_rare_02"
+			"modifier"		"nevermore_nev_arc_rare_02"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/shadow_fiend/elder_dunes/default/elder_dunes_head_ambient.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/elder_dunes/arcana/elder_dunes_arcana_head_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_game"
+			"asset"		"models/heroes/shadow_fiend/shadow_fiend.vmdl"
+			"modifier"
+			{
+				"PortraitLightPosition"		"85.00 9.68 296.06"
+				"PortraitLightAngles"		"62.94 185.36 0.00"
+				"PortraitLightFOV"		"75"
+				"PortraitLightDistance"		"249"
+				"PortraitLightColor"		"243 243 243"
+				"PortraitShadowColor"		"0 0 0"
+				"PortraitShadowScale"		"5"
+				"PortraitAmbientColor"		"131 0 25"
+				"PortraitAmbientScale"		"2.500000"
+				"PortraitSpecularColor"		"251 74 84"
+				"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_desert.vmat"
+				"PortraitBackgroundColor1"		"0 0 0"
+				"PortraitBackgroundColor2"		"0 0 0"
+				"PortraitBackgroundColor3"		".8 .2 .1"
+				"PortraitBackgroundColor4"		"0 0 0"
+				"PortraitLightScale"		"1"
+				"PortraitGroundShadowScale"		"1.500000"
+				"PortraitAmbientDirection"		"-75.850 -49.880 27.200"
+				"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+				"cameras"
+				{
+					"default"
+					{
+						"PortraitPosition"		"126.07 -14.40 175.18"
+						"PortraitAngles"		"1.85 172.19 0.00"
+						"PortraitFOV"		"33"
+					}
+				}
+			}
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

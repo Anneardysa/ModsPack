@@ -1,0 +1,179 @@
+﻿"99"
+{
+	"name"		"Invoker's Hair"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/invoker/magus_apex/magus_apex2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Magus_Apex"
+	"item_rarity"		"immortal"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/invoker/invoker_hair.vmdl"
+	"portraits"
+	{
+		"game"
+		{
+			"PortraitLightPosition"		"88.32 21.09 218.12"
+			"PortraitLightAngles"		"21.72 191.99 7.47"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"112"
+			"PortraitLightColor"		"228 239 254"
+			"PortraitShadowColor"		"48 48 48"
+			"PortraitShadowScale"		"1.525000"
+			"PortraitAmbientColor"		"69 114 104"
+			"PortraitAmbientScale"		"5.000000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_purple.vmat"
+			"PortraitLightScale"		"1.150000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-265.450 -168.920 15.670"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"121.18 -22.66 158.65"
+					"PortraitAngles"		"345.69 166.58 0.00"
+					"PortraitFOV"		"19"
+				}
+			}
+		}
+		"icon"
+		{
+			"PortraitLightPosition"		"86.994255 -26.715160 210.559921"
+			"PortraitLightAngles"		"24.488525 159.801636 7.465210"
+			"PortraitLightFOV"		"69.000000"
+			"PortraitLightDistance"		"113.000000"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.675000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.325000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16.000000"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.000000"
+			"PortraitAnimationRate"		"0.000000"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"7.260 -99.970 -157.390"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"85.367142 -36.950001 204.167160"
+					"PortraitAngles"		"7.058716 153.995361 0.000000"
+					"PortraitFOV"		"59.000000"
+					"PortraitFar"		"1000.000000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"apex"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_exort_orb.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_apex/invoker_apex_exort_orb.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"3"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_quas_orb.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_apex/invoker_apex_quas_orb.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_wex_orb.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_apex/invoker_apex_wex_orb.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"invoker_sun_strike"
+			"modifier"		"invoker/magus_apex/invoker_sun_strike"
+			"apply_when_equipped_in_ability_effects_slot"		"7"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"invoker_exort"
+			"modifier"		"invoker/magus_apex/invoker_exort"
+			"apply_when_equipped_in_ability_effects_slot"		"3"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"invoker_quas"
+			"modifier"		"invoker/magus_apex/invoker_quas"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"invoker_wex"
+			"modifier"		"invoker/magus_apex/invoker_wex"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Invoker.SunStrike.Ignite"
+			"modifier"		"Hero_Invoker.SunStrike.Ignite.Apex"
+			"apply_when_equipped_in_ability_effects_slot"		"7"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_sun_strike.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_apex/invoker_sun_strike_immortal1.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"7"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_sun_strike_team.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_apex/invoker_sun_strike_team_immortal1.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"7"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Invoker.SunStrike.Charge"
+			"modifier"		"Hero_Invoker.SunStrike.Charge.Apex"
+			"apply_when_equipped_in_ability_effects_slot"		"7"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/invoker/invoker_apex/invoker_magus_apex_ambient.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

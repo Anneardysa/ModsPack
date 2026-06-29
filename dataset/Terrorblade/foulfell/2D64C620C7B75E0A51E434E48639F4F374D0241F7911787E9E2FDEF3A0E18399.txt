@@ -1,0 +1,458 @@
+﻿"306"
+{
+	"name"		"Wings of the Foulfell Corruptor"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/terrorblade/knight_of_foulfell_terrorblade_back/knight_of_foulfell_terrorblade_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Wings_of_the_Foulfell_Corruptor"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"model_player"		"models/heroes/terrorblade/wings.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-13.290000 -25.070000 238.580002"
+			"PortraitLightAngles"		"57.259998 82.760002 0.000000"
+			"PortraitLightFOV"		"37"
+			"PortraitLightDistance"		"161"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"20.460 14.560 -0.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-514.736511 306.867523 212.324646"
+					"PortraitAngles"		"6.744860 329.310791 -2.000000"
+					"PortraitFOV"		"31.527000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_terrorblade"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"307"
+{
+	"name"		"Terrorblade's Weapons"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/terrorblade/knight_of_foulfell_terrorblade_weapon/knight_of_foulfell_terrorblade_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Blades_of_the_Foulfell_Corruptor"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/terrorblade/weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-215.971542 -180.820251 303.684601"
+			"PortraitLightAngles"		"25.622929 48.015072 -3.585670"
+			"PortraitLightFOV"		"22.896000"
+			"PortraitLightDistance"		"471.679993"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.627000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.234000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_CAST_ABILITY_4"
+			"PortraitAnimationCycle"		"0.342857"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.324000"
+			"PortraitAmbientDirection"		"-0.589 -0.363 -0.722"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-331.898010 -2.532837 -177.076324"
+					"PortraitAngles"		"320.069458 13.734896 37.800003"
+					"PortraitFOV"		"23.250000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_terrorblade"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_l.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_r.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade_2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/terrorblade/weapon.vsnap"
+			"modifier"		"particles/models/items/terrorblade/knight_of_foulfell_terrorblade_weapon/knight_of_foulfell_terrorblade_weapon_fx.vsnap"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade.vpcf"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_workshop_right.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade_2.vpcf"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_workshop_left.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_l.vpcf"
+			"modifier"		"particles/error/null.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_r.vpcf"
+			"modifier"		"particles/error/null.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"476"
+{
+	"name"		"Armor of the Foulfell Corruptor"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/terrorblade/knight_of_foulfell_terrorblade_armor/knight_of_foulfell_terrorblade_armor"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Armor_of_the_Foulfell_Corruptor"
+	"item_rarity"		"mythical"
+	"item_slot"		"armor"
+	"item_type_name"		"#DOTA_WearableType_Armor"
+	"model_player"		"models/heroes/terrorblade/armor.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-13.290000 -25.070000 238.580002"
+			"PortraitLightAngles"		"57.259998 82.760002 0.000000"
+			"PortraitLightFOV"		"37"
+			"PortraitLightDistance"		"161"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.183333"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"20.460 14.560 -0.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"166.727112 -100.373619 138.949890"
+					"PortraitAngles"		"6.318812 149.851440 0.000000"
+					"PortraitFOV"		"58"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_terrorblade"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"478"
+{
+	"name"		"Helm of the Foulfell Corruptor"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/terrorblade/knight_of_foulfell_terrorblade_head/knight_of_foulfell_terrorblade_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Helm_of_the_Foulfell_Corruptor"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/terrorblade/horns.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-13.290000 -25.070000 238.580002"
+			"PortraitLightAngles"		"57.259998 82.760002 0.000000"
+			"PortraitLightFOV"		"37"
+			"PortraitLightDistance"		"161"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"20.460 14.560 -0.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"256.482025 -226.985184 118.640030"
+					"PortraitAngles"		"349.440094 137.163269 0.000000"
+					"PortraitFOV"		"17.020000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_terrorblade"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_eyes.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"8650"
+{
+	"name"		"Terrorblade's Demon Form"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/terrorblade/knight_of_foulfell_demon/knight_of_foulfell_demon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Demon_Form_of_the_Foulfell_Corruptor"
+	"item_rarity"		"mythical"
+	"item_slot"		"ability3"
+	"portraits"
+	{
+		"models/items/terrorblade/knight_of_foulfell_demon/knight_of_foulfell_demon.vmdl"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"347.367035 141.817978 284.925446"
+					"PortraitAngles"		"13.180000 204.269882 0.000000"
+					"PortraitFOV"		"11"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"120.309998 -1.870000 317.390015"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"52"
+			"PortraitLightDistance"		"188"
+			"PortraitLightColor"		"177 235 254"
+			"PortraitLightScale"		"4.500000"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-130.070 -248.940 -36.600"
+			"PortraitAmbientColor"		"123 153 177"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/portraits_card/portrait_backgrounds/phantom_assassin.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis_head.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"340.249664 -34.034973 79.163223"
+					"PortraitAngles"		"348.967072 170.086563 0.000000"
+					"PortraitFOV"		"77.273003"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"92.539589 -148.545105 451.562500"
+			"PortraitLightAngles"		"52.798798 117.455872 41.706059"
+			"PortraitLightFOV"		"53.241001"
+			"PortraitLightDistance"		"443.820007"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"1.750000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"0.531 0.378 0.758"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.882353"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_terrorblade"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"hero_model_change"
+			"asset"		"models/heroes/terrorblade/demon.vmdl"
+			"modifier"		"models/items/terrorblade/knight_of_foulfell_demon/knight_of_foulfell_demon.vmdl"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis.vpcf"
+			"spawn_in_loadout_only"		"1"
+			"spawn_in_alternate_loadout_only"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis_head.vpcf"
+			"spawn_in_loadout_only"		"1"
+			"spawn_in_alternate_loadout_only"		"1"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

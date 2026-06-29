@@ -1,0 +1,105 @@
+﻿"465"
+{
+	"name"		"Rollermawster"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/tinker/roller_mawster/roller_mawster"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Rollermawster"
+	"item_rarity"		"immortal"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Helmet"
+	"model_player"		"models/heroes/tinker/tinker_helmet.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"149.399994 -15.990000 175.339996"
+			"PortraitLightAngles"		"139.740005 355.480011 0.000000"
+			"PortraitLightFOV"		"53.000000"
+			"PortraitLightDistance"		"183.000000"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5.000000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5.000000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16.000000"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.000000"
+			"PortraitAnimationRate"		"0.000000"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-30.420 -31.830 -16.040"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"224.949387 -119.269562 199.125809"
+					"PortraitAngles"		"20.846558 145.744629 0.000000"
+					"PortraitFOV"		"26.000000"
+					"PortraitFar"		"1000.000000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2015"
+		}
+		"static socket 1"
+		{
+			"attribute_class"		"socket"
+			"value"		"socket { required_hero: 'npc_dota_hero_sven' gem_def_index: 3005 } asset_modifier: 137"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tinker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ACT_DOTA_CAST_ABILITY_3"
+			"modifier"		"tinker_rollermaw"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Tinker.March_of_the_Machines.Cast"
+			"modifier"		"Hero_Tinker.March_of_the_Machines.Cast.Rollermawster"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/tinker/tinker_motm_rollermaw/tinker_rollermawster_ambient_ears.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/tinker/tinker_motm_rollermaw/tinker_rollermawster_ambient_pipe.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/tinker/tinker_motm_rollermaw/tinker_rollermawster_ambient_ears_other.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

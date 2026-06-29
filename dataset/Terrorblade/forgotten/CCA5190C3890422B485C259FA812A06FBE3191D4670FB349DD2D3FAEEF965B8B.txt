@@ -1,0 +1,415 @@
+﻿"306"
+{
+	"name"		"Terrorblade's Wings"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+	"image_inventory"		"econ/items/terrorblade/terrorblade_ultimate_depravity_back/terrorblade_ultimate_depravity_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Forgotten_Station__Back"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"model_player"		"models/heroes/terrorblade/wings.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-13.290000 -25.070000 238.580002"
+			"PortraitLightAngles"		"57.259998 82.760002 0.000000"
+			"PortraitLightFOV"		"37"
+			"PortraitLightDistance"		"161"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"20.460 14.560 -0.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-321.629700 682.659790 338.908478"
+					"PortraitAngles"		"13.760376 293.115234 0.000000"
+					"PortraitFOV"		"25"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_terrorblade"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"307"
+{
+	"name"		"Terrorblade's Weapons"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+	"image_inventory"		"econ/items/terrorblade/terrorblade_ultimate_depravity_weapon/terrorblade_ultimate_depravity_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Forgotten_Station__Weapon"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/terrorblade/weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"254.662979 -25.070000 238.580002"
+			"PortraitLightAngles"		"32.747047 165.023026 74.453430"
+			"PortraitLightFOV"		"37"
+			"PortraitLightDistance"		"419.940002"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"20.460 14.560 -0.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"479.379547 -316.516449 50.458313"
+					"PortraitAngles"		"355.777344 154.434357 0.000000"
+					"PortraitFOV"		"18"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_terrorblade"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_l.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_r.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade_2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/terrorblade/weapon.vsnap"
+			"modifier"		"particles/models/items/terrorblade/terrorblade_ultimate_depravity_weapon/terrorblade_ultimate_depravity_weapon_fx.vsnap"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade.vpcf"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_workshop_right.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade_2.vpcf"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_workshop_left.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_l.vpcf"
+			"modifier"		"particles/error/null.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_r.vpcf"
+			"modifier"		"particles/error/null.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"476"
+{
+	"name"		"Terrorblade's Armor"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+	"image_inventory"		"econ/items/terrorblade/terrorblade_ultimate_depravity_armor/terrorblade_ultimate_depravity_armor"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Forgotten_Station__Armor"
+	"item_rarity"		"mythical"
+	"item_slot"		"armor"
+	"model_player"		"models/heroes/terrorblade/armor.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-13.290000 -25.070000 238.580002"
+			"PortraitLightAngles"		"57.259998 82.760002 0.000000"
+			"PortraitLightFOV"		"37"
+			"PortraitLightDistance"		"161"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.184000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"20.460 14.560 -0.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"140.688858 -144.833221 166.457916"
+					"PortraitAngles"		"16.853027 135.065918 0.000000"
+					"PortraitFOV"		"58"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_terrorblade"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"478"
+{
+	"name"		"Terrorblade's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+	"image_inventory"		"econ/items/terrorblade/terrorblade_ultimate_depravity_head/terrorblade_ultimate_depravity_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Forgotten_Station__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/terrorblade/horns.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-13.290000 -25.070000 238.580002"
+			"PortraitLightAngles"		"57.259998 82.760002 0.000000"
+			"PortraitLightFOV"		"37"
+			"PortraitLightDistance"		"161"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"20.460 14.560 -0.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"263.154114 -177.326431 182.272507"
+					"PortraitAngles"		"359.917603 144.239502 0.000000"
+					"PortraitFOV"		"17"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_terrorblade"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_eyes.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"8650"
+{
+	"name"		"Terrorblade's Demon Form"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+	"image_inventory"		"econ/items/terrorblade/terrorblade_ultimate_depravity_ability/terrorblade_ultimate_depravity_ability"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Forgotten_Station__Demon"
+	"item_rarity"		"mythical"
+	"item_slot"		"ability3"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"92.539589 -148.545105 451.562500"
+			"PortraitLightAngles"		"52.798798 117.455872 41.706059"
+			"PortraitLightFOV"		"53.241001"
+			"PortraitLightDistance"		"443.820007"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"0.531 0.378 0.758"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"291.332306 19.908541 260.892090"
+					"PortraitAngles"		"18.001162 180.236908 0.000000"
+					"PortraitFOV"		"77.273003"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_terrorblade"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"hero_model_change"
+			"asset"		"models/heroes/terrorblade/demon.vmdl"
+			"modifier"		"models/heroes/terrorblade/demon.vmdl"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis.vpcf"
+			"spawn_in_loadout_only"		"1"
+			"spawn_in_alternate_loadout_only"		"1"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis_head.vpcf"
+			"spawn_in_loadout_only"		"1"
+			"spawn_in_alternate_loadout_only"		"1"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier3"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

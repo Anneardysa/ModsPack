@@ -1,0 +1,705 @@
+﻿"48"
+{
+	"name"		"Invoker's Cape"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/invoker/dark_artistry/dark_artistry_cape_model"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Dark_Artistry_Cape"
+	"item_rarity"		"immortal"
+	"item_slot"		"back"
+	"model_player"		"models/heroes/invoker/invoker_cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-8.967452 150.217239 305.821777"
+			"PortraitLightAngles"		"62.414223 -98.297020 111.766304"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.250000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"3.646000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-44.888916 441.103790 174.345963"
+					"PortraitAngles"		"4.313960 275.253906 0.000000"
+					"PortraitFOV"		"28.250000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_ti6_cape_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_deafening_blast.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_deafening_blast_ti6.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"9"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti6"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_tornado.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_tornado_ti6.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Invoker.Tornado.Cast"
+			"modifier"		"Hero_Invoker.Tornado.Cast.Immortal"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Invoker.DeafeningBlast"
+			"modifier"		"Hero_Invoker.DeafeningBlast.Immortal"
+			"apply_when_equipped_in_ability_effects_slot"		"9"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_quas_orb.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_ti6_quas_orb.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_exort_orb.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_ti6_exort_orb.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"3"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_wex_orb.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_ti6_wex_orb.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_deafening_blast_disarm_debuff.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_deafening_blast_disarm_ti6_debuff.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"9"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_deafening_blast_knockback_debuff.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_deafening_blast_ti6_knockback_debuff.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"9"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_tornado_child.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_tornado_child_ti6.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"invoker_deafening_blast"
+			"modifier"		"invoker/dark_artistry/invoker_deafening_blast"
+			"apply_when_equipped_in_ability_effects_slot"		"9"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"invoker_tornado"
+			"modifier"		"invoker/dark_artistry/invoker_tornado"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"89"
+{
+	"name"		"Invoker's Shoulder"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/heroes/invoker/invoker_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Invokers_Shoulder"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulder"
+	"model_player"		"models/heroes/invoker/invoker_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"119.173843 2.894908 299.666718"
+			"PortraitLightAngles"		"53.964844 182.757568 0.000000"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.248000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"149.925064 -158.569885 235.737305"
+					"PortraitAngles"		"17.792358 132.940063 0.000000"
+					"PortraitFOV"		"37"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+}
+
+"98"
+{
+	"name"		"Invoker's Head"
+	"prefab"		"default_item"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Invokers_Head"
+	"item_slot"		"body_head"
+	"item_type_name"		"#DOTA_WearableType_Body_Head"
+	"model_player"		"models/heroes/invoker/invoker_head.vmdl"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+}
+
+"99"
+{
+	"name"		"Mask of the Divine Sorrow"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/invoker/divine_sorrow_head/divine_sorrow_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Mask_of_the_Divine_Sorrow"
+	"item_rarity"		"rare"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Mask"
+	"model_player"		"models/heroes/invoker/invoker_hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"58.310001 -7.690000 209.669998"
+			"PortraitLightAngles"		"28.080000 150.080002 7.470000"
+			"PortraitLightFOV"		"63.000000"
+			"PortraitLightDistance"		"176.000000"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.675000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.325000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16.000000"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.000000"
+			"PortraitAnimationRate"		"1.000000"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"7.260 -99.970 -157.390"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"85.367142 -36.950001 204.167160"
+					"PortraitAngles"		"17.700001 157.149994 0.000000"
+					"PortraitFOV"		"47.000000"
+					"PortraitFar"		"1000.000000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"divine_sorrow"
+		}
+		"asset_modifier1"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"divine_sorrow_loadout"
+		}
+		"asset_modifier2"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"divine_sorrow_sunstrike"
+		}
+		"asset_modifier3"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"divine_sorrow_loadout_spawn"
+		}
+		"asset_modifier4"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"100"
+{
+	"name"		"Invoker's Bracer"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+	"image_inventory"		"econ/items/invoker/immortal_arms_ti7/immortal_arms_ti7"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Magus_Accord"
+	"item_rarity"		"immortal"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Bracers"
+	"model_player"		"models/heroes/invoker/invoker_bracer.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"142.579391 -22.494431 305.821777"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_CAST_EMP"
+			"PortraitAnimationCycle"		"0.450000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"5.410000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"280.935913 85.736969 244.604584"
+					"PortraitAngles"		"29.634924 204.805878 9.000000"
+					"PortraitFOV"		"26"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/invoker/invoker_ti7/invoker_ti7_bracer_ambient.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_alacrity.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti7/invoker_ti7_alacrity.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_alacrity_buff.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti7/invoker_ti7_alacrity_buff.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/status_fx/status_effect_alacrity.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti7/status_effect_alacrity_ti7.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"invoker_alacrity"
+			"modifier"		"invoker/immortal/invoker_alacrity"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_alacrity_cast.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti7/invoker_ti7_alacrity_cast.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"305"
+{
+	"name"		"Belt of Fate Meridian"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2018"
+	"image_inventory"		"econ/items/invoker/ti8_invoker_prism_crystal_spellcaster_belt/ti8_invoker_prism_crystal_spellcaster_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Belt_of_Fate_Meridian"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"item_type_name"		"#DOTA_WearableType_Belt"
+	"model_player"		"models/heroes/invoker/invoker_dress.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"81.192917 -38.060215 199.081177"
+			"PortraitLightAngles"		"57.535400 145.365601 7.465210"
+			"PortraitLightFOV"		"59"
+			"PortraitLightDistance"		"233"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.675000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.325000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"7.260 -99.970 -157.390"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"531.650330 -631.888245 380.266907"
+					"PortraitAngles"		"21.231079 130.226440 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2018"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI7_BattlePass_Owners"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"683"
+{
+	"name"		"Invoker's Persona"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/heroes/invoker/invoker_persona"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Invokers_Persona"
+	"item_slot"		"persona_selector"
+	"item_type_name"		"#DOTA_WearableType_Persona"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"144.525436 30.064661 218.722763"
+			"PortraitLightAngles"		"20.648804 193.183594 7.465210"
+			"PortraitLightFOV"		"28"
+			"PortraitLightDistance"		"159"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.675000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.325000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"7.260 -99.970 -157.390"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"131.922089 -38.327785 196.253265"
+					"PortraitAngles"		"6.553345 163.103027 0.000000"
+					"PortraitFOV"		"24"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+}
+
+"8626"
+{
+	"name"		"Invoker's Forge Spirits"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/invoker/forge_spirit/ti8_invoker_prism_forge_spirit/ti8_invoker_prism_forge_spirit_npc_dota_invoker_forged_spirit"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_TI8_Invoker_Prism_Forge_Spirit"
+	"item_rarity"		"mythical"
+	"item_slot"		"summon"
+	"portraits"
+	{
+		"models/items/invoker/forge_spirit/ti8_invoker_prism_forge_spirit/ti8_invoker_prism_forge_spirit.vmdl"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"225.824295 -95.645874 110.613831"
+					"PortraitAngles"		"350.037140 156.463165 0.000000"
+					"PortraitFOV"		"25.297001"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"388.100006"
+			"PortraitLightColor"		"235 254 210"
+			"PortraitLightScale"		"4.500000"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"6.724000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"81 153 67"
+			"PortraitAmbientScale"		"8.326000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.050980 1.000000 0.117647"
+			"PortraitBackgroundColor2"		"0.258824 0.788235 0.164706"
+			"PortraitBackgroundColor3"		"0.313726 0.905882 0.117647"
+			"PortraitBackgroundColor4"		"0.807843 0.290196 0.160784"
+			"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_motion_swoops.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"296.629120 -177.703278 213.133453"
+					"PortraitAngles"		"15.772772 150.647598 0.000000"
+					"PortraitFOV"		"38.556126"
+					"PortraitFar"		"1500"
+				}
+			}
+			"PortraitLightPosition"		"159.953323 3.865256 438.200073"
+			"PortraitLightAngles"		"70.029678 -177.940063 0.000000"
+			"PortraitLightFOV"		"63"
+			"PortraitLightDistance"		"1048.780029"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"9.721000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"0.884 0.396 0.247"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.630134 0.970269 1.000000"
+			"PortraitBackgroundColor2"		"0.467282 0.595337 0.521161"
+			"PortraitBackgroundColor3"		"0.513192 0.521571 0.518387"
+			"PortraitBackgroundColor4"		"0.017108 0.779542 0.361772"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.851852"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"entity_model"
+			"asset"		"npc_dota_invoker_forged_spirit"
+			"modifier"		"models/items/invoker/forge_spirit/ti8_invoker_prism_forge_spirit/ti8_invoker_prism_forge_spirit.vmdl"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_forge_spirit_ambient.vpcf"
+			"modifier"		"particles/econ/items/invoker/ti8_invoker_prism_crystal_spellcaster/ti8_invoker_prism_forge_spirit_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

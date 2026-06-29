@@ -1,0 +1,373 @@
+﻿"367"
+{
+	"name"		"Tinker's Right Arm"
+	"prefab"		"default_item"
+	"creation_date"		"2013-07-02"
+	"image_inventory"		"econ/items/tinker/tinker_soul_camera_weapon/tinker_soul_camera_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Twitcher__Weapon"
+	"item_rarity"		"rare"
+	"item_type_name"		"#DOTA_WearableType_Arm"
+	"model_player"		"models/heroes/tinker/tinker_right_arm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"149.399994 -15.990000 175.339996"
+			"PortraitLightAngles"		"139.740005 355.480011 0.000000"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"183"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.020000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-30.420 -31.830 -16.040"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"277.732330 -257.717438 346.325012"
+					"PortraitAngles"		"33.332520 149.655762 0.000000"
+					"PortraitFOV"		"29"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tinker"		"1"
+	}
+}
+
+"463"
+{
+	"name"		"Tinker's Left Arm"
+	"prefab"		"default_item"
+	"creation_date"		"2013-07-02"
+	"image_inventory"		"econ/items/tinker/tinker_soul_camera_offhand_weapon/tinker_soul_camera_offhand_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Twitcher__Offhand_Weapon"
+	"item_rarity"		"rare"
+	"item_slot"		"offhand_weapon"
+	"item_type_name"		"#DOTA_WearableType_Arm"
+	"model_player"		"models/heroes/tinker/tinker_left_arm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"149.399994 -15.990000 175.339996"
+			"PortraitLightAngles"		"139.740005 355.480011 0.000000"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"183"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.504000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-30.420 -31.830 -16.040"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"384.901550 115.938347 365.033112"
+					"PortraitAngles"		"33.348999 187.047729 5.608521"
+					"PortraitFOV"		"29"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tinker"		"1"
+	}
+}
+
+"464"
+{
+	"name"		"Tinker's Shoulders"
+	"prefab"		"default_item"
+	"creation_date"		"2013-07-02"
+	"image_inventory"		"econ/items/tinker/tinker_soul_camera_shoulder/tinker_soul_camera_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Twitcher__Shoulder"
+	"item_rarity"		"rare"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulder"
+	"model_player"		"models/heroes/tinker/tinker_shoulders.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"149.399994 -15.990000 175.339996"
+			"PortraitLightAngles"		"139.740005 355.480011 0.000000"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"183"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.096000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-30.420 -31.830 -16.040"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"472.733582 -193.594788 248.037567"
+					"PortraitAngles"		"11.640015 158.258057 0.000000"
+					"PortraitFOV"		"28"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tinker"		"1"
+	}
+}
+
+"465"
+{
+	"name"		"Tinker's Helmet"
+	"prefab"		"default_item"
+	"creation_date"		"2013-07-02"
+	"image_inventory"		"econ/items/tinker/tinker_soul_camera_head/tinker_soul_camera_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Twitcher__Head"
+	"item_rarity"		"rare"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Helmet"
+	"model_player"		"models/heroes/tinker/tinker_helmet.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"149.399994 -15.990000 175.339996"
+			"PortraitLightAngles"		"139.740005 355.480011 0.000000"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"183"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.504000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-30.420 -31.830 -16.040"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"298.642578 -106.762711 166.224396"
+					"PortraitAngles"		"11.640015 158.258057 0.000000"
+					"PortraitFOV"		"18"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tinker"		"1"
+	}
+}
+
+"466"
+{
+	"name"		"Tinker's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2013-07-02"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tinkers_Head"
+	"item_slot"		"body_head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/tinker/tinker_body_head.vmdl"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tinker"		"1"
+	}
+}
+
+"467"
+{
+	"name"		"Tinker's Cape"
+	"prefab"		"default_item"
+	"creation_date"		"2013-07-02"
+	"image_inventory"		"econ/items/tinker/tinker_soul_camera_back/tinker_soul_camera_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Twitcher__Back"
+	"item_rarity"		"rare"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_Cape"
+	"model_player"		"models/heroes/tinker/tinker_cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"149.399994 -15.990000 175.339996"
+			"PortraitLightAngles"		"139.740005 355.480011 0.000000"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"183"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.920000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-30.420 -31.830 -16.040"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-162.723511 -87.506691 179.477539"
+					"PortraitAngles"		"34.464111 27.416382 0.000000"
+					"PortraitFOV"		"42"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tinker"		"1"
+	}
+}
+
+"618"
+{
+	"name"		"Tinker's Misc"
+	"prefab"		"default_item"
+	"creation_date"		"2016-06-16"
+	"image_inventory"		"econ/heroes/tinker/tinker_misc"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tinkers_Misc"
+	"item_slot"		"misc"
+	"item_type_name"		"#DOTA_WearableType_Misc"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"348.171783 -302.597687 219.559189"
+					"PortraitAngles"		"24.769676 138.525604 5.039993"
+					"PortraitFOV"		"14"
+					"PortraitFar"		"559"
+				}
+			}
+			"PortraitLightPosition"		"107.695671 -95.917801 87.200729"
+			"PortraitLightAngles"		"143.278198 308.441162 3.460693"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"203"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"1.750000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-30.420 -31.830 -16.040"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.164179"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2014"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tinker"		"1"
+	}
+}
+

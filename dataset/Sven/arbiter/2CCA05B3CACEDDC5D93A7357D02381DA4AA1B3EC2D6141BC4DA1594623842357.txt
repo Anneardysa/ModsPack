@@ -1,0 +1,459 @@
+﻿"16"
+{
+	"name"		"Helm of the Stormwrought Arbiter"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2016"
+	"image_inventory"		"econ/items/sven/arbiter_head/arbiter_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Helm_of_the_Stormwrought_Arbiter"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Helm"
+	"model_player"		"models/heroes/sven/sven_mask.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"163.987473 -90.138206 314.287140"
+			"PortraitLightAngles"		"40.825195 151.885986 0.000000"
+			"PortraitLightFOV"		"24"
+			"PortraitLightDistance"		"249"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.200000"
+			"PortraitBackgroundColor2"		"0.000000 0.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.600000 0.200000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.100000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"100.285957 -33.854362 156.053909"
+					"PortraitAngles"		"346.747223 166.437393 0.000000"
+					"PortraitFOV"		"59.383999"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI6_BattlePass_Owners"
+		}
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2016"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"17"
+{
+	"name"		"Greatsword of the Stormwrought Arbiter"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2016"
+	"image_inventory"		"econ/items/sven/arbiter_weapon/arbiter_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Greatsword_of_the_Stormwrought_Arbiter"
+	"item_rarity"		"mythical"
+	"item_type_name"		"#DOTA_WearableType_Sword"
+	"model_player"		"models/heroes/sven/sven_sword.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"86.523247 -189.342712 251.034088"
+			"PortraitLightAngles"		"55.711670 124.557495 0.000000"
+			"PortraitLightFOV"		"50"
+			"PortraitLightDistance"		"212"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.200000"
+			"PortraitBackgroundColor2"		"0.000000 0.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.600000 0.200000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.100000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-0.850 75.650 30.680"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"148.817169 4.963116 368.230499"
+					"PortraitAngles"		"50.575958 216.693588 15.119995"
+					"PortraitFOV"		"64.100998"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI6_BattlePass_Owners"
+		}
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2016"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"18"
+{
+	"name"		"Belt of the Stormwrought Arbiter"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2016"
+	"image_inventory"		"econ/items/sven/arbiter_belt/arbiter_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Belt_of_the_Stormwrought_Arbiter"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"item_type_name"		"#DOTA_WearableType_Belt"
+	"model_player"		"models/heroes/sven/sven_belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.200000"
+			"PortraitBackgroundColor2"		"0.000000 0.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.600000 0.200000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.100000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.166667"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"115.767685 -121.585381 90.446976"
+					"PortraitAngles"		"7.399292 131.687622 0.000000"
+					"PortraitFOV"		"74.425003"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI6_BattlePass_Owners"
+		}
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2016"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"19"
+{
+	"name"		"Bracers of the Stormwrought Arbiter"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2016"
+	"image_inventory"		"econ/items/sven/arbiter_arms/arbiter_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bracers_of_the_Stormwrought_Arbiter"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Bracers"
+	"model_player"		"models/heroes/sven/sven_gauntlet.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.200000"
+			"PortraitBackgroundColor2"		"0.000000 0.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.600000 0.200000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.100000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"164.366180 33.445175 138.397339"
+					"PortraitAngles"		"12.317704 194.606476 0.000000"
+					"PortraitFOV"		"36.688999"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI6_BattlePass_Owners"
+		}
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2016"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"20"
+{
+	"name"		"Pauldron of the Stormwrought Arbiter"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2016"
+	"image_inventory"		"econ/items/sven/arbiter_shoulder/arbiter_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Pauldron_of_the_Stormwrought_Arbiter"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Pauldron"
+	"model_player"		"models/heroes/sven/sven_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"109.153259 15.954762 242.068542"
+			"PortraitLightAngles"		"45.911865 186.141357 0.000000"
+			"PortraitLightFOV"		"45"
+			"PortraitLightDistance"		"211"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.200000"
+			"PortraitBackgroundColor2"		"0.000000 0.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.600000 0.200000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.100000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.050000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"148.947189 10.516361 169.866776"
+					"PortraitAngles"		"10.678711 183.471680 0.000000"
+					"PortraitFOV"		"65.613998"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI6_BattlePass_Owners"
+		}
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2016"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"581"
+{
+	"name"		"Sven's Back"
+	"prefab"		"default_item"
+	"creation_date"		"2015-05-20"
+	"image_inventory"		"econ/heroes/sven/sven_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Svens_Back"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_sven"		"1"
+	}
+}
+
+"8366"
+{
+	"name"		"All Heroes' Default Pet"
+	"prefab"		"default_item"
+	"creation_date"		"2015-04-14"
+	"image_inventory"		"econ/default_no_item"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Wearable_All_Heroes_DefaultPet"
+	"item_slot"		"summon"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"static_attributes"
+	{
+		"is inspectable"		"0"
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_axe"		"1"
+		"npc_dota_hero_bristleback"		"1"
+		"npc_dota_hero_centaur"		"1"
+		"npc_dota_hero_earthshaker"		"1"
+		"npc_dota_hero_juggernaut"		"1"
+		"npc_dota_hero_legion_commander"		"1"
+		"npc_dota_hero_riki"		"1"
+		"npc_dota_hero_slark"		"1"
+		"npc_dota_hero_sven"		"1"
+		"npc_dota_hero_marci"		"1"
+	}
+}
+

@@ -1,0 +1,90 @@
+﻿"472"
+{
+	"name"		"Rapier of the Burning God"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/ember_spirit/rapier_burning_god_weapon/rapier_burning_god_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Rapier_of_the_Burning_God"
+	"item_rarity"		"immortal"
+	"model_player"		"models/heroes/ember_spirit/weapon1.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"148.018982 40.697231 306.582092"
+			"PortraitLightAngles"		"74.421387 255.596924 30.646362"
+			"PortraitLightFOV"		"31.000000"
+			"PortraitLightDistance"		"274.000000"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"5.000000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"5.000000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16.000000"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.460000"
+			"PortraitAnimationRate"		"0.000000"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"2.686275"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"120.112251 162.661636 146.878754"
+					"PortraitAngles"		"22.846069 275.883179 325.305176"
+					"PortraitFOV"		"31.000000"
+					"PortraitFar"		"1000.000000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/ember_spirit/weapon1.vsnap"
+			"modifier"		"particles/models/items/ember_spirit/rapier_burning_god_weapon/rapier_burning_god_weapon.vsnap"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_primary.vpcf"
+			"modifier"		"particles/econ/items/ember_spirit/ember_spirit_burning_god_weapon/ember_spirit_ambient_burning_god_r.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_primary_blade.vpcf"
+			"modifier"		"particles/econ/items/ember_spirit/ember_spirit_burning_god_weapon/ember_spirit_ambient_burning_god_r_blade.vpcf"
+		}
+		"asset_modifier3"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_primary.vpcf"
+		}
+		"asset_modifier4"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_primary_blade.vpcf"
+		}
+		"asset_modifier5"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

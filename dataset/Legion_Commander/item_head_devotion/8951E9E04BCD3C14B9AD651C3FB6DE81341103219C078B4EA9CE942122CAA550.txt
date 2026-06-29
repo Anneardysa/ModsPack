@@ -1,0 +1,139 @@
+﻿"431"
+{
+	"name"		"Legion Commander's Helmet"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+	"image_inventory"		"econ/items/legion_commander/lc_immortal_head_ti7/lc_immortal_head_ti7"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Baneful_Devotion"
+	"item_rarity"		"immortal"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/legion_commander/legion_commander_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"185.428497 54.471252 201.310287"
+					"PortraitAngles"		"16.070784 193.457870 0.000000"
+					"PortraitFOV"		"24.763000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"85.107254 1.675552 124.222443"
+			"PortraitLightAngles"		"-0.000000 -156.373764 0.000000"
+			"PortraitLightFOV"		"56.930000"
+			"PortraitLightDistance"		"921.419983"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"2.440000"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"0.350 -0.165 0.922"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2017"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_legion_commander"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/legion/legion_overwhelming_odds_ti7/legion_commander_odds_ti7_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_legion_commander/legion_commander_odds.vpcf"
+			"modifier"		"particles/econ/items/legion/legion_overwhelming_odds_ti7/legion_commander_odds_ti7.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti7"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_legion_commander/legion_commander_odds_dmgb.vpcf"
+			"modifier"		"particles/econ/items/legion/legion_overwhelming_odds_ti7/legion_commander_odds_ti7_hero.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_legion_commander/legion_commander_odds_hero_arrow_group.vpcf"
+			"modifier"		"particles/econ/items/legion/legion_overwhelming_odds_ti7/legion_commander_odds_ti7_proj_hero.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_legion_commander/legion_commander_odds_dmga.vpcf"
+			"modifier"		"particles/econ/items/legion/legion_overwhelming_odds_ti7/legion_commander_odds_ti7_creep.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_LegionCommander.Overwhelming.Location"
+			"modifier"		"Hero_LegionCommander.Overwhelming.Location.ti7"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"legion_commander_overwhelming_odds"
+			"modifier"		"legion_commander/immortal/legion_commander_overwhelming_odds"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_legion_commander/legion_commander_odds_buff.vpcf"
+			"modifier"		"particles/econ/items/legion/legion_overwhelming_odds_ti7/legion_commander_odds_ti7_buff.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

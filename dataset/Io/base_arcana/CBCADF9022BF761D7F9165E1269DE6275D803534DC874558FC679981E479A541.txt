@@ -1,0 +1,214 @@
+﻿"639"
+{
+	"name"		"Io's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2017-04-28"
+	"image_inventory"		"econ/items/io/io_ti7/io_ti7"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Benevolent_Companion"
+	"item_rarity"		"arcana"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Cube"
+	"match_cycle_to_parent"		"0"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-22.180000 -32.750000 284.570007"
+			"PortraitLightAngles"		"123.430000 204.309998 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"151"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"0.600000 0.800000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.600000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"0.780 -2.020 -7.630"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"369.622437 -256.472473 267.061951"
+					"PortraitAngles"		"16.219141 145.506943 0.000000"
+					"PortraitFOV"		"26"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_wisp"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"kisilev_ind/particles/wisp/wisp_arcana/wisp_arcana_idle_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_guardian.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_guardian_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_overcharge.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_overcharge_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_channel.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_relocate_channel_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_marker.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_relocate_marker_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_teleport.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_relocate_teleport_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"modifier"		"particles/econ/items/wisp/wisp_relocate_teleport_ti7_out.vpcf"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_teleport_out.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_tether.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_tether_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_channel.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_relocate_channel_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_marker_endpoint.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_relocate_marker_ti7_endpoint.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_death.vpcf"
+			"modifier"		"kisilev_ind/particles/wisp/wisp_arcana/wisp_death_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_guardian_explosion.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_guardian_explosion_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_guardian_explosion_small.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_guardian_explosion_small_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_timer_buff.vpcf"
+			"modifier"		"particles/econ/items/wisp/wisp_relocate_timer_buff_ti7.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"wisp_overcharge"
+			"modifier"		"wisp/wisp_overcharge_alt"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"wisp_relocate"
+			"modifier"		"wisp/wisp_relocate_alt"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"wisp_spirits"
+			"modifier"		"wisp/wisp_spirits_alt"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"wisp_spirits_in"
+			"modifier"		"wisp/wisp_spirits_in_alt"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"wisp_spirits_out"
+			"modifier"		"wisp/wisp_spirits_out_alt"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"wisp_tether"
+			"modifier"		"wisp/wisp_tether_alt"
+		}
+		"asset_modifier"
+		{
+			"type"		"arcana_level"
+			"level"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero"
+			"asset"		"npc_dota_hero_wisp"
+			"modifier"		"npc_dota_hero_wisp_alt"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero_minimap"
+			"asset"		"npc_dota_hero_wisp"
+			"modifier"		"npc_dota_hero_wisp_alt"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"response_criteria"
+			"asset"		"cubelife"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

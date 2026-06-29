@@ -1,0 +1,516 @@
+﻿"462"
+{
+	"name"		"Ember Spirit's Head Item"
+	"prefab"		"default_item"
+	"creation_date"		"2013-10-11"
+	"image_inventory"		"econ/heroes/ember_spirit/back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Ember_Spirits_Head_Item"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/ember_spirit/back.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"20.145739 -94.024666 122.325706"
+			"PortraitLightAngles"		"13.403320 35.024414 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"85"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-3.845201 119.232216 148.889481"
+					"PortraitAngles"		"17.830811 268.912354 0.000000"
+					"PortraitFOV"		"36"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_head.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_eyes.vpcf"
+		}
+	}
+}
+
+"469"
+{
+	"name"		"Cinder Sensei Shoulders"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/ember_spirit/ember_sindur_sensei_shoulder/ember_sindur_sensei_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cinder_Sensei_Shoulders"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulder"
+	"model_player"		"models/heroes/ember_spirit/shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"69.285866 -92.462387 158.266541"
+			"PortraitLightAngles"		"28.712769 125.612183 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"223"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_RUN"
+			"PortraitAnimationCycle"		"0.428571"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"263.993500 24.803638 150.740753"
+					"PortraitAngles"		"8.898926 185.196533 0.000000"
+					"PortraitFOV"		"22"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2019"
+		}
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+		"giftable"
+		{
+			"attribute_class"		"giftable"
+			"value"		"0"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_TI9_Collectors_Cache"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_shoulder_glow.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"471"
+{
+	"name"		"Cinder Sensei Belt"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/ember_spirit/ember_sindur_sensei_belt/ember_sindur_sensei_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cinder_Sensei_Belt"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"item_type_name"		"#DOTA_WearableType_Belt"
+	"model_player"		"models/heroes/ember_spirit/belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-6.537501 137.581100 208.918579"
+			"PortraitLightAngles"		"42.319336 271.098633 0.000000"
+			"PortraitLightFOV"		"40"
+			"PortraitLightDistance"		"264"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.092308"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-33.970695 220.222992 129.555939"
+					"PortraitAngles"		"24.712555 276.821014 0.000000"
+					"PortraitFOV"		"35"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"SummonCount"		"0"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2019"
+		}
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+		"giftable"
+		{
+			"attribute_class"		"giftable"
+			"value"		"0"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_TI9_Collectors_Cache"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_armor_glow.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"472"
+{
+	"name"		"Ember Spirit's Main Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2019-06-24"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/ember_spirit/ember_sindur_sensei_weapon/ember_sindur_sensei_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cinder_Sensei_Weapon"
+	"item_rarity"		"mythical"
+	"item_type_name"		"#DOTA_WearableType_Weapon"
+	"model_player"		"models/heroes/ember_spirit/weapon1.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-62.639137 -48.818420 169.170822"
+			"PortraitLightAngles"		"68.763428 37.150269 0.000000"
+			"PortraitLightFOV"		"72"
+			"PortraitLightDistance"		"156"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.246154"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-192.827713 -152.766510 165.762161"
+					"PortraitAngles"		"32.035168 55.162323 -50.399994"
+					"PortraitFOV"		"24"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/ember_spirit/ember_sindur/ember_sindur_weapon_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti9"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"473"
+{
+	"name"		"Ember Spirit's Offhand Weapon"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/ember_spirit/ember_sindur_sensei_offhand/ember_sindur_sensei_offhand"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cinder_Sensei_OffHand_Weapon"
+	"item_rarity"		"mythical"
+	"item_slot"		"offhand_weapon"
+	"model_player"		"models/heroes/ember_spirit/weapon2.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-67.072983 -63.896595 182.521408"
+			"PortraitLightAngles"		"49.531860 27.224121 0.000000"
+			"PortraitLightFOV"		"72"
+			"PortraitLightDistance"		"156"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-87.102280 -231.728271 194.476563"
+					"PortraitAngles"		"26.489403 58.921139 37.800003"
+					"PortraitFOV"		"17"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/ember_spirit/ember_sindur/ember_sindur_offhand_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti9_off"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"474"
+{
+	"name"		"Cinder Sensei Bracer"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/ember_spirit/ember_sindur_sensei_arms/ember_sindur_sensei_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cinder_Sensei_Bracer"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Arms"
+	"model_player"		"models/heroes/ember_spirit/arm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"35.251133 -110.614731 122.820297"
+			"PortraitLightAngles"		"15.842285 85.308838 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"85"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"106.122337 -81.820511 125.470985"
+					"PortraitAngles"		"16.111450 150.847778 0.000000"
+					"PortraitFOV"		"36"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2019"
+		}
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+		"giftable"
+		{
+			"attribute_class"		"giftable"
+			"value"		"0"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_TI9_Collectors_Cache"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

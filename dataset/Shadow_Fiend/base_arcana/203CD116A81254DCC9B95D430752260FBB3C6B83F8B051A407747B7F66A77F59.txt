@@ -1,0 +1,281 @@
+﻿"826"
+{
+	"name"		"Shadow Fiend's Base"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-25"
+	"image_inventory"		"econ/items/nevermore/shadowfiend_demon_eater"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Demon_Eater"
+	"item_rarity"		"arcana"
+	"item_slot"		"hero_base"
+	"item_type_name"		"#DOTA_WearableType_Burning_Soul"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_nevermore"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"kisilev_ind"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_shadowraze.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_shadowraze.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_line.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_requiemofsouls_line.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_wings.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_wings.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_trail.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_trail.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_shadowraze_double.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_shadowraze_double.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_shadowraze_triple.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_shadowraze_triple.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_loadout.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_loadout.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_ambient_glow.vpcf"
+			"modifier"		"particles/units/heroes/hero_nevermore/sf_fire_arcana_ambient_glow.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"response_criteria"
+			"asset"		"arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_requiemofsouls.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_requiemofsouls.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_death.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_death.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_souls.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_souls.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_necro_souls.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_necro_souls.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_necro_souls_hero.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_necro_souls_hero.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_shadowraze3"
+			"modifier"		"nevermore_shadowraze3_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_shadowraze2"
+			"modifier"		"nevermore_shadowraze2_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_shadowraze1"
+			"modifier"		"nevermore_shadowraze1_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_necromastery"
+			"modifier"		"nevermore_necromastery_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_requiem"
+			"modifier"		"nevermore_requiem_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"nevermore_dark_lord"
+			"modifier"		"nevermore_dark_lord_demon"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero"
+			"asset"		"npc_dota_hero_nevermore"
+			"modifier"		"npc_dota_hero_nevermore_alt1"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_background_model"
+			"asset"		"models/heroes/shadow_fiend/shadow_fiend_arcana_pedestal.vmdl"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"arcana_level"
+			"level"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero_minimap"
+			"asset"		"npc_dota_hero_nevermore"
+			"modifier"		"npc_dota_hero_nevermore_alt1"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_laugh_02"
+			"modifier"		"nevermore_nev_arc_laugh_02"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_thanks_02"
+			"modifier"		"nevermore_nev_arc_thanks_02"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_deny_03"
+			"modifier"		"nevermore_nev_arc_deny_03"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_kill_11"
+			"modifier"		"nevermore_nev_arc_kill_11"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_ability_presence_02"
+			"modifier"		"nevermore_nev_arc_ability_presence_02"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_lasthit_02"
+			"modifier"		"nevermore_nev_arc_lasthit_02"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_attack_07"
+			"modifier"		"nevermore_nev_arc_attack_07"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_attack_11"
+			"modifier"		"nevermore_nev_arc_attack_11"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"nevermore_nev_rare_02"
+			"modifier"		"nevermore_nev_arc_rare_02"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/shadow_fiend/elder_dunes/default/elder_dunes_head_ambient.vpcf"
+			"modifier"		"particles/econ/items/shadow_fiend/elder_dunes/arcana/elder_dunes_arcana_head_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_game"
+			"asset"		"models/heroes/shadow_fiend/shadow_fiend.vmdl"
+			"modifier"
+			{
+				"PortraitLightPosition"		"85.00 9.68 296.06"
+				"PortraitLightAngles"		"62.94 185.36 0.00"
+				"PortraitLightFOV"		"75"
+				"PortraitLightDistance"		"249"
+				"PortraitLightColor"		"243 243 243"
+				"PortraitShadowColor"		"0 0 0"
+				"PortraitShadowScale"		"5"
+				"PortraitAmbientColor"		"131 0 25"
+				"PortraitAmbientScale"		"2.500000"
+				"PortraitSpecularColor"		"251 74 84"
+				"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_desert.vmat"
+				"PortraitBackgroundColor1"		"0 0 0"
+				"PortraitBackgroundColor2"		"0 0 0"
+				"PortraitBackgroundColor3"		".8 .2 .1"
+				"PortraitBackgroundColor4"		"0 0 0"
+				"PortraitLightScale"		"1"
+				"PortraitGroundShadowScale"		"1.500000"
+				"PortraitAmbientDirection"		"-75.850 -49.880 27.200"
+				"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+				"cameras"
+				{
+					"default"
+					{
+						"PortraitPosition"		"126.07 -14.40 175.18"
+						"PortraitAngles"		"1.85 172.19 0.00"
+						"PortraitFOV"		"33"
+					}
+				}
+			}
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

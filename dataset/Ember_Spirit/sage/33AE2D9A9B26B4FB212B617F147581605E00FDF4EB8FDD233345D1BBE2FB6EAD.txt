@@ -1,0 +1,454 @@
+﻿"462"
+{
+	"name"		"Cap of the Smoldering Sage"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_WINTER_MAJOR_2017"
+	"image_inventory"		"econ/items/ember_spirit/wu_sheng_head_v2/wu_sheng_head_v2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cap_of_the_Smoldering_Sage"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/ember_spirit/back.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"20.145739 -94.024666 122.325706"
+			"PortraitLightAngles"		"13.403320 35.024414 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"85"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"127.998825 -91.818390 148.889481"
+					"PortraitAngles"		"12.412676 149.232468 0.000000"
+					"PortraitFOV"		"36"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_head.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_eyes.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"469"
+{
+	"name"		"Mantle of the Smoldering Sage"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_WINTER_MAJOR_2017"
+	"image_inventory"		"econ/items/ember_spirit/wu_sheng_shoulder_v2/wu_sheng_shoulder_v2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Mantle_of_the_Smoldering_Sage"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulder"
+	"model_player"		"models/heroes/ember_spirit/shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"69.285866 -92.462387 158.266541"
+			"PortraitLightAngles"		"28.712769 125.612183 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"223"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_RUN"
+			"PortraitAnimationCycle"		"0.952381"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"263.993500 24.803638 150.740753"
+					"PortraitAngles"		"8.898926 185.196533 0.000000"
+					"PortraitFOV"		"28.412001"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"471"
+{
+	"name"		"Ember Spirit's Belt Item"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/ember_spirit/wu_sheng_belt_v2/wu_sheng_belt_v2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Belt_of_the_Smoldering_Sage"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"model_player"		"models/heroes/ember_spirit/belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-6.537501 137.581100 208.918579"
+			"PortraitLightAngles"		"42.319336 271.098633 0.000000"
+			"PortraitLightFOV"		"40"
+			"PortraitLightDistance"		"264"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.092308"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"202.679169 -136.891937 129.555939"
+					"PortraitAngles"		"17.789410 146.791000 0.000000"
+					"PortraitFOV"		"31.972000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_armor_glow.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"472"
+{
+	"name"		"Sword of the Smoldering Sage"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_WINTER_MAJOR_2017"
+	"image_inventory"		"econ/items/ember_spirit/wu_sheng_weapon_v2/wu_sheng_weapon_v2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Sword_of_the_Smoldering_Sage"
+	"item_rarity"		"mythical"
+	"item_type_name"		"#DOTA_WearableType_Weapon"
+	"model_player"		"models/heroes/ember_spirit/weapon1.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-62.639137 -48.818420 169.170822"
+			"PortraitLightAngles"		"68.763428 37.150269 0.000000"
+			"PortraitLightFOV"		"72"
+			"PortraitLightDistance"		"156"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-192.827713 -152.766510 165.762161"
+					"PortraitAngles"		"27.105751 46.975082 -38.160004"
+					"PortraitFOV"		"38.736000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_primary.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/ember_spirit/weapon1.vsnap"
+			"modifier"		"particles/models/items/ember_spirit/wu_sheng_weapon_v2/wu_sheng_weapon_v2_fx.vsnap"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"473"
+{
+	"name"		"Off-Hand Sword of the Smoldering Sage"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_WINTER_MAJOR_2017"
+	"image_inventory"		"econ/items/ember_spirit/wu_sheng_off_hand_v2/wu_sheng_off_hand_v2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_OffHand_Sword_of_the_Smoldering_Sage"
+	"item_rarity"		"mythical"
+	"item_slot"		"offhand_weapon"
+	"item_type_name"		"#DOTA_WearableType_offhand_weapon"
+	"model_player"		"models/heroes/ember_spirit/weapon2.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-67.072983 -63.896595 182.521408"
+			"PortraitLightAngles"		"49.531860 27.224121 0.000000"
+			"PortraitLightFOV"		"72"
+			"PortraitLightDistance"		"156"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-87.102280 -231.728271 194.476563"
+					"PortraitAngles"		"25.077093 71.085968 -48.600006"
+					"PortraitFOV"		"53.243000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_offhand.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/ember_spirit/weapon2.vsnap"
+			"modifier"		"particles/models/items/ember_spirit/wu_sheng_off_hand_v2/wu_sheng_off_hand_v2_fx.vsnap"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"474"
+{
+	"name"		"Armguards of the Smoldering Sage"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_WINTER_MAJOR_2017"
+	"image_inventory"		"econ/items/ember_spirit/wu_sheng_arms_v2/wu_sheng_arms_v2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Armguards_of_the_Smoldering_Sage"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Arms"
+	"model_player"		"models/heroes/ember_spirit/arm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"35.251133 -110.614731 122.820297"
+			"PortraitLightAngles"		"15.842285 85.308838 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"85"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"106.122337 -81.820511 125.470985"
+					"PortraitAngles"		"18.417202 150.847778 0.720001"
+					"PortraitFOV"		"30.459000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

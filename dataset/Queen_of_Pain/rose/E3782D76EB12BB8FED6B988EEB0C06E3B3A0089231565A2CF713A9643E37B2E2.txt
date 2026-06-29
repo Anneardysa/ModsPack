@@ -1,0 +1,385 @@
+﻿"26"
+{
+	"name"		"Queen of Pain's Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/queenofpain/qop_queen_of_darkness_weapon/qop_queen_of_darkness_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_The_Rose_of_Ristul__Weapon"
+	"item_rarity"		"rare"
+	"model_player"		"models/heroes/queenofpain/queenofpain_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"27.506748 66.093544 188.912842"
+			"PortraitLightAngles"		"115.032349 12.864990 0.000000"
+			"PortraitLightFOV"		"88"
+			"PortraitLightDistance"		"109"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.100000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 0.100000 0.410000"
+			"PortraitBackgroundColor3"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_queenofpain/portrait_queenofpain.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-16.540 -5.250 -9.280"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-5.689928 114.239296 176.880066"
+					"PortraitAngles"		"56.683960 290.956421 324.047241"
+					"PortraitFOV"		"39"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_queenofpain"		"1"
+	}
+}
+
+"82"
+{
+	"name"		"Queen of Pain's Wings"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/queenofpain/qop_queen_of_darkness_back/qop_queen_of_darkness_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_The_Rose_of_Ristul__Back"
+	"item_rarity"		"rare"
+	"item_slot"		"back"
+	"model_player"		"models/heroes/queenofpain/wings.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-51.787453 -6.666420 250.972092"
+			"PortraitLightAngles"		"72.169189 8.618774 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"178"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.100000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 0.100000 0.410000"
+			"PortraitBackgroundColor3"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_queenofpain/portrait_queenofpain.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.800000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-10.587 8.470 -17.207"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-102.821922 125.022346 401.143646"
+					"PortraitAngles"		"63.742676 308.386230 0.741577"
+					"PortraitFOV"		"45"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_queenofpain"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"83"
+{
+	"name"		"Queen of Pain's Armor"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/queenofpain/qop_queen_of_darkness_shoulder/qop_queen_of_darkness_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_The_Rose_of_Ristul__Shoulder"
+	"item_rarity"		"rare"
+	"item_slot"		"shoulder"
+	"model_player"		"models/heroes/queenofpain/shoulders.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"100.507645 170.955872 327.298584"
+			"PortraitLightAngles"		"46.856686 -122.899101 0.000000"
+			"PortraitLightFOV"		"40.310001"
+			"PortraitLightDistance"		"607"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.100000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 0.100000 0.410000"
+			"PortraitBackgroundColor3"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_queenofpain/portrait_queenofpain.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"0.639 -0.666 -0.386"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"312.814209 247.271332 212.628265"
+					"PortraitAngles"		"17.867350 217.376007 0.000000"
+					"PortraitFOV"		"30"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_queenofpain"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"wings_kisilev_ind"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"84"
+{
+	"name"		"Queen of Pain's Hair"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/queenofpain/qop_queen_of_darkness_head/qop_queen_of_darkness_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_The_Rose_of_Ristul__Head"
+	"item_rarity"		"rare"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/queenofpain/hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"22.295630 5.375076 219.644531"
+			"PortraitLightAngles"		"115.032349 12.864990 0.000000"
+			"PortraitLightFOV"		"55"
+			"PortraitLightDistance"		"83"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.100000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 0.100000 0.410000"
+			"PortraitBackgroundColor3"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_queenofpain/portrait_queenofpain.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-16.540 -5.250 -9.280"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"95.309464 103.262169 215.323410"
+					"PortraitAngles"		"21.165161 224.346313 0.000000"
+					"PortraitFOV"		"22"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_queenofpain"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"781"
+{
+	"name"		"Queen of Pain's Legs"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/queenofpain/qop_queen_of_darkness_legs/qop_queen_of_darkness_legs"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_The_Rose_of_Ristul__Legs"
+	"item_rarity"		"rare"
+	"item_slot"		"legs"
+	"model_player"		"models/heroes/queenofpain/queenofpain_legs.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"185.790253 419.300262 53.627228"
+					"PortraitAngles"		"2.386456 245.252136 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"78.735123 206.542252 137.497116"
+			"PortraitLightAngles"		"21.099047 -123.195732 -3.464126"
+			"PortraitLightFOV"		"63.680000"
+			"PortraitLightDistance"		"673.270020"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"3"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"0.613 -0.657 -0.439"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_queenofpain"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

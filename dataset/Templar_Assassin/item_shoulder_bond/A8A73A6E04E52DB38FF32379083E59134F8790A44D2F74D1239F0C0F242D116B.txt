@@ -1,0 +1,93 @@
+﻿"174"
+{
+	"name"		"Templar Assassin's Shoulders"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Mantle_of_the_Whispered_Bond"
+	"item_rarity"		"immortal"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_shoulder"
+	"model_player"		"models/heroes/lanaya/lanaya_cowl_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"40.673176 -115.519943 209.973251"
+			"PortraitLightAngles"		"143.014526 285.897217 0.000000"
+			"PortraitLightFOV"		"57"
+			"PortraitLightDistance"		"240"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.350000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 0.200000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-215.720 -16.230 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"191.630005 -161.614014 207.705170"
+					"PortraitAngles"		"15.424805 140.784302 349.996948"
+					"PortraitFOV"		"19"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_templar_assassin"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_templar_assassin/templar_assassin_refraction.vpcf"
+			"modifier"		"particles/econ/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_refraction.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_templar_assassin/templar_assassin_refract_hit.vpcf"
+			"modifier"		"particles/econ/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_refract_hit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"templar_assassin_refraction"
+			"modifier"		"templar_assassin_refraction_ti9"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

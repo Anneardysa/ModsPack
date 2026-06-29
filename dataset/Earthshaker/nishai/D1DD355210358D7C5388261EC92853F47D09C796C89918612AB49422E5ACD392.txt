@@ -1,0 +1,335 @@
+﻿"459"
+{
+	"name"		"Earthshaker's Totem"
+	"prefab"		"default_item"
+	"creation_date"		"2020-05-17"
+	"event_id"		"EVENT_ID_DIRETIDE_2020"
+	"image_inventory"		"econ/items/earthshaker/shaker_chess_knight_weapon/shaker_chess_knight_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Gambits_of_Nishai_Knight"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/earthshaker/totem.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-251.271530 42.008335 183.115250"
+			"PortraitLightAngles"		"18.901978 350.271606 0.000000"
+			"PortraitLightFOV"		"57"
+			"PortraitLightDistance"		"272"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.450000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-2.300 31.360 5.980"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-396.125702 171.219162 240.136124"
+					"PortraitAngles"		"13.694458 335.714722 0.000000"
+					"PortraitFOV"		"24"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_earthshaker"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/earthshaker/es_fall_chess_knight_weapon/es_fall_chess_knight_weapon.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"460"
+{
+	"name"		"Earthshaker's Bracers"
+	"prefab"		"default_item"
+	"creation_date"		"2013-06-26"
+	"event_id"		"EVENT_ID_DIRETIDE_2020"
+	"image_inventory"		"econ/items/earthshaker/shaker_chess_knight_arms/shaker_chess_knight_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Gambits_of_Nishai_Pauldrons"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/earthshaker/bracers.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"156.438843 -61.955276 39.446041"
+			"PortraitLightAngles"		"18.506470 146.694946 0.000000"
+			"PortraitLightFOV"		"57"
+			"PortraitLightDistance"		"200"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.450000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-2.300 31.360 5.980"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"328.076691 89.894363 74.290733"
+					"PortraitAngles"		"8.679199 189.799805 0.000000"
+					"PortraitFOV"		"24"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_earthshaker"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/earthshaker/es_fall_chess_knight_arms/es_fall_chess_knight_arms.vpcf"
+			"required_arcana_level"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"kisilev_ind/particles/earthshaker/arcana/items/chess_knight/es_fall_chess_knight_arms.vpcf"
+			"required_arcana_level"		"1"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"461"
+{
+	"name"		"Earthshaker's Belt"
+	"prefab"		"default_item"
+	"creation_date"		"2020-05-17"
+	"event_id"		"EVENT_ID_DIRETIDE_2020"
+	"image_inventory"		"econ/items/earthshaker/shaker_chess_knight_belt/shaker_chess_knight_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Gambits_of_Nishai_Belt"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"model_player"		"models/heroes/earthshaker/belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-251.271530 42.008335 183.115250"
+			"PortraitLightAngles"		"18.901978 350.271606 0.000000"
+			"PortraitLightFOV"		"57"
+			"PortraitLightDistance"		"272"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.450000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-2.300 31.360 5.980"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-194.872864 81.511589 127.139893"
+					"PortraitAngles"		"22.637329 332.572632 0.000000"
+					"PortraitFOV"		"38"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_earthshaker"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"8366"
+{
+	"name"		"All Heroes' Default Pet"
+	"prefab"		"default_item"
+	"creation_date"		"2015-04-14"
+	"image_inventory"		"econ/default_no_item"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Wearable_All_Heroes_DefaultPet"
+	"item_slot"		"summon"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"static_attributes"
+	{
+		"is inspectable"		"0"
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_axe"		"1"
+		"npc_dota_hero_bristleback"		"1"
+		"npc_dota_hero_centaur"		"1"
+		"npc_dota_hero_earthshaker"		"1"
+		"npc_dota_hero_juggernaut"		"1"
+		"npc_dota_hero_legion_commander"		"1"
+		"npc_dota_hero_riki"		"1"
+		"npc_dota_hero_slark"		"1"
+		"npc_dota_hero_sven"		"1"
+		"npc_dota_hero_marci"		"1"
+	}
+}
+
+"8655"
+{
+	"name"		"Earthshaker's Uncoiffed Head"
+	"prefab"		"default_item"
+	"creation_date"		"2020-05-17"
+	"event_id"		"EVENT_ID_DIRETIDE_2020"
+	"image_inventory"		"econ/items/earthshaker/shaker_chess_knight_head/shaker_chess_knight_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Gambits_of_Nishai_Helm"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"297.330292 -77.618179 242.388763"
+					"PortraitAngles"		"26.993408 162.279053 355.187988"
+					"PortraitFOV"		"32.506001"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"95.242569 -45.228737 147.754272"
+			"PortraitLightAngles"		"27.339478 86.627197 0.000000"
+			"PortraitLightFOV"		"57"
+			"PortraitLightDistance"		"200"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"1.750000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.450000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-2.300 31.360 5.980"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_earthshaker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"kisilev_ind_no_head"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"beard_shrink"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

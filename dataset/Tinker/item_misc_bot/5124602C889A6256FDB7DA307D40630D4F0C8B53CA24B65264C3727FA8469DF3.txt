@@ -1,0 +1,93 @@
+﻿"618"
+{
+	"name"		"Tinker's Misc"
+	"prefab"		"default_item"
+	"creation_date"		"2014-03-05"
+	"image_inventory"		"econ/items/tinker/boots_of_travel"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Mecha_Boots_of_Travel_Mk_III"
+	"item_rarity"		"immortal"
+	"item_slot"		"misc"
+	"item_type_name"		"#DOTA_WearableType_Boots"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"107.695671 -95.917801 87.200729"
+			"PortraitLightAngles"		"143.278198 308.441162 3.460693"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"203"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.164000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-30.420 -31.830 -16.040"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"348.171783 -302.597687 219.559189"
+					"PortraitAngles"		"25.169678 138.125610 0.000000"
+					"PortraitFOV"		"14"
+					"PortraitFar"		"559"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2014"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tinker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/items2_fx/teleport_start.vpcf"
+			"modifier"		"particles/econ/items/tinker/boots_of_travel/teleport_start_bots.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/items2_fx/teleport_end.vpcf"
+			"modifier"		"particles/econ/items/tinker/boots_of_travel/teleport_end_bots.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"asset_modifier"
+		{
+			"type"		"inventory_icon"
+			"asset"		"travel_boots"
+			"modifier"		"travel_boots_tinker"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

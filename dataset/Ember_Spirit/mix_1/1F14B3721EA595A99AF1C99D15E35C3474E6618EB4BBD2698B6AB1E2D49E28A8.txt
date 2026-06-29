@@ -1,0 +1,560 @@
+﻿"462"
+{
+	"name"		"Master of the Searing Path Head"
+	"prefab"		"default_item"
+	"creation_date"		"2020-08-14"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+	"image_inventory"		"econ/items/ember_spirit/kungfu_master_head/kungfu_master_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Master_of_the_Searing_Path_Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_head"
+	"model_player"		"models/heroes/ember_spirit/back.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"20.145739 -94.024666 122.325706"
+			"PortraitLightAngles"		"13.403320 35.024414 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"85"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"151.572662 39.913631 240.424103"
+					"PortraitAngles"		"32.230808 199.712326 0.000000"
+					"PortraitFOV"		"36"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2020"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_TI10_Collectors_Cache"
+		}
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_head.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_eyes.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/ember_spirit/ember_ti10_cache/ember_ti10_cache_head.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier2"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"469"
+{
+	"name"		"Ember Spirit's Shoulders"
+	"prefab"		"default_item"
+	"creation_date"		"2013-10-11"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/ember_spirit/ember_ti9_immortal_shoulder/ember_ti9_immortal_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Apogee_of_the_Guardian_Flame"
+	"item_rarity"		"immortal"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_shoulder"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/ember_spirit/shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"69.285866 -92.462387 158.266541"
+			"PortraitLightAngles"		"28.712769 125.612183 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"223"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+			"PortraitAnimationCycle"		"0.769231"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"283.954437 -120.523888 172.529419"
+					"PortraitAngles"		"10.416133 156.865814 0.000000"
+					"PortraitFOV"		"22"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Immortals_Exclusive_To_TI7_BattlePass_Owners"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/ember_spirit/ember_ti9/ember_ti9_shoulders_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_flameguard.vpcf"
+			"modifier"		"particles/econ/items/ember_spirit/ember_ti9/ember_ti9_flameguard.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"ember_spirit_flame_guard"
+			"modifier"		"ember_spirit/ti9_immortal_shoulder/ember_spirit_flame_guard_immortal"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"471"
+{
+	"name"		"Ember Spirit's Belt Item"
+	"prefab"		"default_item"
+	"creation_date"		"2013-10-11"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2016"
+	"image_inventory"		"econ/items/ember_spirit/vanishing_flame_belt/vanishing_flame_belt_style1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tunic_of_the_Wandering_Flame"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"item_type_name"		"#DOTA_WearableType_belt"
+	"model_player"		"models/heroes/ember_spirit/belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-6.537501 137.581100 208.918579"
+			"PortraitLightAngles"		"42.319336 271.098633 0.000000"
+			"PortraitLightFOV"		"40"
+			"PortraitLightDistance"		"264"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.092308"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-33.970695 220.222992 129.555939"
+					"PortraitAngles"		"16.486683 279.179077 5.039993"
+					"PortraitFOV"		"50.661999"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/ember_spirit/ember_spirit_vanishing_flame/ember_spirit_vanishing_flame_ambient.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/ember_spirit/ember_spirit_vanishing_flame/ember_spirit_vanishing_flame_ambient_gem.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"472"
+{
+	"name"		"Rapier of the Burning God"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/ember_spirit/rapier_burning_god_weapon/rapier_burning_god_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Rapier_of_the_Burning_God"
+	"item_rarity"		"immortal"
+	"model_player"		"models/heroes/ember_spirit/weapon1.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"148.018982 40.697231 306.582092"
+			"PortraitLightAngles"		"74.421387 255.596924 30.646362"
+			"PortraitLightFOV"		"31.000000"
+			"PortraitLightDistance"		"274.000000"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"5.000000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"5.000000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16.000000"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.460000"
+			"PortraitAnimationRate"		"0.000000"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"2.686275"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"120.112251 162.661636 146.878754"
+					"PortraitAngles"		"22.846069 275.883179 325.305176"
+					"PortraitFOV"		"31.000000"
+					"PortraitFar"		"1000.000000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/ember_spirit/weapon1.vsnap"
+			"modifier"		"particles/models/items/ember_spirit/rapier_burning_god_weapon/rapier_burning_god_weapon.vsnap"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_primary.vpcf"
+			"modifier"		"particles/econ/items/ember_spirit/ember_spirit_burning_god_weapon/ember_spirit_ambient_burning_god_r.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_primary_blade.vpcf"
+			"modifier"		"particles/econ/items/ember_spirit/ember_spirit_burning_god_weapon/ember_spirit_ambient_burning_god_r_blade.vpcf"
+		}
+		"asset_modifier3"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_primary.vpcf"
+		}
+		"asset_modifier4"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_primary_blade.vpcf"
+		}
+		"asset_modifier5"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"473"
+{
+	"name"		"Rapier of the Burning God Offhand"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/ember_spirit/rapier_burning_god_offhand/rapier_burning_god_offhand"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Rapier_of_the_Burning_God_Offhand"
+	"item_rarity"		"immortal"
+	"item_slot"		"offhand_weapon"
+	"item_type_name"		"#DOTA_WearableType_Offhand_Weapon"
+	"model_player"		"models/heroes/ember_spirit/weapon2.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"8.340000 -51.720001 127.790001"
+			"PortraitLightAngles"		"12.960000 83.919998 0.000000"
+			"PortraitLightFOV"		"51.000000"
+			"PortraitLightDistance"		"85.000000"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5.000000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16.000000"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.000000"
+			"PortraitAnimationRate"		"1.000000"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"251.250000 122.629997 81.349998"
+					"PortraitAngles"		"352.369995 209.119995 0.000000"
+					"PortraitFOV"		"7.000000"
+					"PortraitFar"		"1000.000000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/ember_spirit/weapon2.vsnap"
+			"modifier"		"particles/models/items/ember_spirit/rapier_burning_god_offhand/rapier_burning_god_offhand.vsnap"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_offhand.vpcf"
+			"modifier"		"particles/econ/items/ember_spirit/ember_spirit_burning_god_offhand/ember_spirit_ambient_burning_god_l.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_offhand_blade.vpcf"
+			"modifier"		"particles/econ/items/ember_spirit/ember_spirit_burning_god_offhand/ember_spirit_ambient_burning_god_l_blade.vpcf"
+		}
+		"asset_modifier3"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_offhand.vpcf"
+		}
+		"asset_modifier4"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_offhand_blade.vpcf"
+		}
+		"asset_modifier5"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"474"
+{
+	"name"		"Master of the Searing Path Arms"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+	"image_inventory"		"econ/items/ember_spirit/kungfu_master_arms/kungfu_master_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Master_of_the_Searing_Path_Arms"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_arms"
+	"model_player"		"models/heroes/ember_spirit/arm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"35.251133 -110.614731 122.820297"
+			"PortraitLightAngles"		"15.842285 85.308838 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"85"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-93.422310 -68.438583 101.968208"
+					"PortraitAngles"		"23.444334 31.415735 0.000000"
+					"PortraitFOV"		"36"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2020"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_TI10_Collectors_Cache"
+		}
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

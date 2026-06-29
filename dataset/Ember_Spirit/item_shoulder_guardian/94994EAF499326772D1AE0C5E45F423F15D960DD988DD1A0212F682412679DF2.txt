@@ -1,0 +1,97 @@
+﻿"469"
+{
+	"name"		"Ember Spirit's Shoulders"
+	"prefab"		"default_item"
+	"creation_date"		"2013-10-11"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/ember_spirit/ember_ti9_immortal_shoulder/ember_ti9_immortal_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Apogee_of_the_Guardian_Flame"
+	"item_rarity"		"immortal"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_shoulder"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/ember_spirit/shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"69.285866 -92.462387 158.266541"
+			"PortraitLightAngles"		"28.712769 125.612183 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"223"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+			"PortraitAnimationCycle"		"0.769231"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"283.954437 -120.523888 172.529419"
+					"PortraitAngles"		"10.416133 156.865814 0.000000"
+					"PortraitFOV"		"22"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Immortals_Exclusive_To_TI7_BattlePass_Owners"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/ember_spirit/ember_ti9/ember_ti9_shoulders_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_flameguard.vpcf"
+			"modifier"		"particles/econ/items/ember_spirit/ember_ti9/ember_ti9_flameguard.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"ember_spirit_flame_guard"
+			"modifier"		"ember_spirit/ti9_immortal_shoulder/ember_spirit_flame_guard_immortal"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

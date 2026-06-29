@@ -1,0 +1,668 @@
+﻿"47"
+{
+	"name"		"Pudge's Rusty Meathook"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/pudge/aberrant_observer_hook/aberrant_observer_hook"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Aberrant_Observer__Hook"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/pudge/righthook.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"7.751400 -99.899773 216.943787"
+			"PortraitLightAngles"		"52.248852 39.759315 103.045769"
+			"PortraitLightFOV"		"70.019997"
+			"PortraitLightDistance"		"248.800003"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.450000 0.505000 0.680000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.180000 0.200000 0.280000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"2.485000"
+			"PortraitAmbientDirection"		"-4.580 -3.380 -12.900"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-67.041077 -206.854034 215.118942"
+					"PortraitAngles"		"30.965212 52.166130 0.000000"
+					"PortraitFOV"		"41.762001"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pudge"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/pudge/aberrant/default/aberrant_default_hook_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_pudge/pudge_meathook.vpcf"
+			"modifier"		"particles/econ/items/pudge/aberrant/default/aberrant_default_meathook.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/pudge/aberrant/red_arcana/aberrant_red_arcana_meathook.vpcf"
+			"modifier"		"particles/econ/items/pudge/aberrant/red_arcana/aberrant_red_arcana_meathook.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/pudge/aberrant/green_arcana/aberrant_green_arcana_meathook.vpcf"
+			"modifier"		"particles/econ/items/pudge/aberrant/green_arcana/aberrant_green_arcana_meathook.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"258"
+{
+	"name"		"Pudge's Back Rings and Apron"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/pudge/aberrant_observer_back/aberrant_observer_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Aberrant_Observer__Back"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/pudge/back.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"189.808914 14.975607 238.066818"
+			"PortraitLightAngles"		"26.735229 162.312012 0.000000"
+			"PortraitLightFOV"		"54"
+			"PortraitLightDistance"		"299"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"269.110077 -117.976006 176.393906"
+					"PortraitAngles"		"15.941162 151.441040 3.905640"
+					"PortraitFOV"		"36"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"price_info"
+	{
+		"category_tags"		"Equipment"
+		"date"		"4/2/2018"
+		"price"		"0"
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pudge"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/pudge/aberrant/red/aberrant_red_back_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"aberrant_observer"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/pudge/aberrant/red_arcana/aberrant_red_arcana_back_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/pudge/arcana/red/pudge_arcana_red_back_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/pudge/aberrant/green_arcana/aberrant_green_arcana_back_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/pudge/arcana/green/pudge_arcana_back_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"259"
+{
+	"name"		"Pudge's Cleaver"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/pudge/aberrant_observer_offhand/aberrant_observer_offhand"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Aberrant_Observer__Offhand"
+	"item_rarity"		"mythical"
+	"item_slot"		"offhand_weapon"
+	"model_player"		"models/heroes/pudge/leftweapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"35.447205 139.227814 152.101547"
+			"PortraitLightAngles"		"113.889771 46.724854 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"118"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.450000 0.505000 0.680000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.180000 0.200000 0.280000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-4.580 -3.380 -12.900"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"101.428841 158.337952 213.509552"
+					"PortraitAngles"		"52.393799 235.530396 328.359375"
+					"PortraitFOV"		"47"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pudge"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_pudge/pudge_ambient_chain.vpcf"
+			"modifier"		"particles/dev/empty_particle.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"260"
+{
+	"name"		"Pudge's Left Arm"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/pudge/aberrant_observer_left_arm/aberrant_observer_left_arm"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Aberrant_Observer__Left_Arm"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/pudge/leftarm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"20.083164 187.323898 200.247086"
+			"PortraitLightAngles"		"34.392700 284.436035 0.000000"
+			"PortraitLightFOV"		"60"
+			"PortraitLightDistance"		"195"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"156.866638 271.297241 167.467361"
+					"PortraitAngles"		"13.216553 234.047241 3.070679"
+					"PortraitFOV"		"39"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pudge"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"261"
+{
+	"name"		"Pudge's Bracer"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/pudge/aberrant_observer_right_arm/aberrant_observer_right_arm"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Aberrant_Observer__Right_Arm"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/pudge/bracer.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"162.171005 -107.280823 272.670380"
+			"PortraitLightAngles"		"40.858154 152.539673 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"195"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"176.139526 -236.518936 192.967255"
+					"PortraitAngles"		"15.216064 138.537598 3.070679"
+					"PortraitFOV"		"20"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pudge"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_pudge/pudge_ambient_chain_right.vpcf"
+			"modifier"		"particles/dev/empty_particle.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"262"
+{
+	"name"		"Pudge's Toupee"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/pudge/aberrant_observer_head/aberrant_observer_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Aberrant_Observer__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/pudge/hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"112.404594 97.127350 253.851578"
+			"PortraitLightAngles"		"44.912109 224.170532 0.000000"
+			"PortraitLightFOV"		"42"
+			"PortraitLightDistance"		"195"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"149.654984 88.055077 143.411484"
+					"PortraitAngles"		"2.807007 212.135010 0.000000"
+					"PortraitFOV"		"32"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pudge"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"portrait_game"
+			"asset"		"models/heroes/pudge/pudge.vmdl"
+			"modifier"
+			{
+				"cameras"
+				{
+					"Default"
+					{
+						"PortraitPosition"		"271.266235 150.303619 243.794754"
+						"PortraitAngles"		"18.090012 210.430115 0.000000"
+						"PortraitFOV"		"16"
+						"PortraitFar"		"1000"
+					}
+				}
+				"hero_presets"
+				{
+					"Default"
+					{
+						"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+					}
+				}
+				"PortraitLightPosition"		"176.179993 96.470001 260.750000"
+				"PortraitLightAngles"		"49.610001 263.390015 0.000000"
+				"PortraitLightFOV"		"90"
+				"PortraitLightDistance"		"195"
+				"PortraitLightColor"		"231 254 187"
+				"PortraitShadowColor"		"111 97 93"
+				"PortraitShadowScale"		"2"
+				"PortraitAmbientColor"		"0 0 0"
+				"PortraitAmbientScale"		"5"
+				"PortraitSpecularColor"		"251 74 84"
+				"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_desert.vmat"
+				"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+				"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitLightScale"		"2.800000"
+				"PortraitGroundShadowScale"		"1.500000"
+				"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+				"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16"
+				"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+				"GodraysFXColor"		"1.000000 1.000000 1.000000"
+				"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+				"PortraitAnimationCycle"		"0"
+				"PortraitAnimationRate"		"1"
+				"PortraitPlayIdleExpression"		"0"
+				"PortraitHideHero"		"0"
+				"PortraitHideParticles"		"0"
+				"PortraitHideDropShadow"		"0"
+				"PortraitDesaturateParticles"		"0"
+				"PortraitDesaturateHero"		"1"
+				"PortraitVignetteItem"		"0"
+				"PortraitAllowAnimatedPortrait"		"1"
+			}
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"391"
+{
+	"name"		"Pudge's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-08-18"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Pudges_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_pudge"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pudge"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_pudge/pudge_ambient_flies.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_pudge/pudge_ambient_chain.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_pudge/pudge_ambient_chain_right.vpcf"
+		}
+	}
+}
+
+"470"
+{
+	"name"		"Pudge's Belt"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/pudge/aberrant_observer_belt/aberrant_observer_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Aberrant_Observer__Belt"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"model_player"		"models/heroes/pudge/belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"170.944397 -59.034264 65.160370"
+			"PortraitLightAngles"		"2.834473 151.254272 0.000000"
+			"PortraitLightFOV"		"48"
+			"PortraitLightDistance"		"236"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"244.000916 55.254597 81.546219"
+					"PortraitAngles"		"9.338379 188.789063 3.905640"
+					"PortraitFOV"		"38"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pudge"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"810"
+{
+	"name"		"Pudge's Base"
+	"prefab"		"default_item"
+	"creation_date"		"2024-06-13"
+	"image_inventory"		"econ/heroes/pudge/base"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Pudges_Base"
+	"item_slot"		"hero_base"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pudge"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+	}
+}
+

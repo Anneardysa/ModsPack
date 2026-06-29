@@ -1,0 +1,385 @@
+﻿"811"
+{
+	"name"		"Juggernaut's Base"
+	"prefab"		"default_item"
+	"creation_date"		"2017-03-15"
+	"image_inventory"		"econ/items/juggernaut/arcana/juggernaut_arcana_green"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bladeform_Legacy"
+	"item_rarity"		"arcana"
+	"item_slot"		"hero_base"
+	"match_cycle_to_parent"		"0"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"245.757507 70.642509 236.179550"
+					"PortraitAngles"		"20.989908 198.644043 0.000000"
+					"PortraitFOV"		"18"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"189.534271 -51.930965 196.423691"
+			"PortraitLightAngles"		"18.874512 160.488281 0.000000"
+			"PortraitLightFOV"		"42"
+			"PortraitLightDistance"		"211"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"1.750000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_RUN"
+			"PortraitAnimationCycle"		"0.080000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_juggernaut"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"kisilev_ind_green"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_blade_fury_null.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_blade_fury.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omni_slash_tgt.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_omni_slash_tgt.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omni_dash.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_omni_dash.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omni_slash_trail.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_omni_slash_trail.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_crit_tgt.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_crit_tgt.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"arcana_level"
+			"level"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"arcana_style"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/status_fx/status_effect_omnislash.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/status_effect_jugg_arcana_omni.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omni_end.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_omni_end.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Juggernaut.BladeDance"
+			"modifier"		"Hero_Juggernaut.BladeDance.Arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_body_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_trigger.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_trigger.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/juggernaut/jugg_serrakura/juggernaut_omni_slash_tgt_serrakura.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_omni_slash_tgt_serrakura.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/juggernaut/jugg_serrakura/juggernaut_omni_slash_trail_serrakura.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_omni_slash_trail_serrakura.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/juggernaut/bladekeeper_omnislash/_dc_juggernaut_omni_slash_tgt.vpcf.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_omni_slash_tgt_bladekeeper.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/juggernaut/bladekeeper_omnislash/_dc_juggernaut_omni_slash_trail.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_omni_slash_trail_bladekeeper.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"response_criteria"
+			"asset"		"jgarc_dragon"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omnislash_light.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_omnislash_light.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"juggernaut_blade_dance"
+			"modifier"		"juggernaut_blade_dance_arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"juggernaut_blade_fury"
+			"modifier"		"juggernaut_blade_fury_arcana"
+			"minimum_priority"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"juggernaut_healing_ward"
+			"modifier"		"juggernaut_healing_ward_arcana"
+			"minimum_priority"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"juggernaut_omni_slash"
+			"modifier"		"juggernaut_omni_slash_arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero"
+			"asset"		"npc_dota_hero_juggernaut"
+			"modifier"		"npc_dota_hero_juggernaut_alt1"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero_minimap"
+			"asset"		"npc_dota_hero_juggernaut"
+			"modifier"		"npc_dota_hero_juggernaut_alt1"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_background_model"
+			"asset"		"models/heroes/pedestal/effigy_pedestal_juggernaut_arcana.vmdl"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jug_laugh_05"
+			"modifier"		"juggernaut_jug_arc_laugh_05"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_laugh"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_laugh"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jugg_set_complete_06"
+			"modifier"		"juggernaut_jug_arc_thanks_01"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_thank"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_thank"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jugg_set_complete_04"
+			"modifier"		"juggernaut_jug_arc_deny_06"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_deny"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_deny"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jugg_taunt_06"
+			"modifier"		"juggernaut_jug_arc_drop_common"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_1"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_1"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jugg_set_complete_03"
+			"modifier"		"juggernaut_jug_arc_drop_medium"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_2"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_2"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jug_ability_stunteleport_03"
+			"modifier"		"juggernaut_jug_arc_lasthit_08"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_3"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_3"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jug_kill_09"
+			"modifier"		"juggernaut_jug_arc_illus_02"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_4"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_4"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jugg_set_complete_05"
+			"modifier"		"juggernaut_jug_arc_lasthit_12"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_5"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_5"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jug_illus_03"
+			"modifier"		"juggernaut_jug_arc_level_05"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_6"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_6"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/juggernaut/ancient_exile/ancient_exile_head_ambient.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/ancient_exile/green/ancient_exile_green_head_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/juggernaut/ancient_exile/ancient_exile_arms_ambient.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/ancient_exile/green/ancient_exile_green_arms_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/juggernaut/ancient_exile/ancient_exile_weapon_ambient.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/ancient_exile/green/ancient_exile_green_weapon_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/juggernaut/ancient_exile/ancient_exile_shoulders_ambient.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/ancient_exile/green/ancient_exile_green_shoulders_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/juggernaut/ancient_exile/ancient_exile_legs_ambient.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/ancient_exile/green/ancient_exile_green_legs_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"mvp_map_override"
+			"modifier"		"maps/scenes/mvp/mvp_juggernaut_arcana.vmap"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_game"
+			"modifier"
+			{
+				"PortraitLightPosition"		"106.913757 -64.295067 186.072372"
+				"PortraitLightAngles"		"48.081665 135.670166 0.000000"
+				"PortraitLightFOV"		"90"
+				"PortraitLightDistance"		"133"
+				"PortraitLightColor"		"229 239 255"
+				"PortraitShadowColor"		"33 33 33"
+				"PortraitShadowScale"		"5"
+				"PortraitAmbientColor"		"99 50 38"
+				"PortraitAmbientScale"		"6.202000"
+				"PortraitSpecularColor"		"251 74 84"
+				"PortraitParticle"		"particles/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf"
+				"PortraitBackgroundTexture"		"materials/portraits_card/portrait_backgrounds/juggernaut.vmat"
+				"PortraitLightScale"		"1.950000"
+				"PortraitGroundShadowScale"		"1.500000"
+				"PortraitAmbientDirection"		"-0.546 0.791 0.276"
+				"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+				"cameras"
+				{
+					"default"
+					{
+						"PortraitPosition"		"331.764404 109.020172 93.554466"
+						"PortraitAngles"		"354.919342 200.797699 0.000000"
+						"PortraitFOV"		"10"
+						"PortraitFar"		"1000"
+					}
+				}
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitAnimationCycle"		"0"
+				"PortraitAnimationRate"		"1"
+				"PortraitHideHero"		"0"
+				"PortraitHideParticles"		"0"
+				"PortraitHideDropShadow"		"0"
+				"PortraitDesaturateParticles"		"0"
+			}
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

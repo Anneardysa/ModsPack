@@ -1,0 +1,917 @@
+﻿"6"
+{
+	"name"		"Provocation of Ruin Mask"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/juggernaut/fall20_juggernaut_katz_head/fall20_juggernaut_katz_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Provocation_of_Ruin_Mask"
+	"item_rarity"		"immortal"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/juggernaut/jugg_mask.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"189.534271 -51.930965 172.331238"
+			"PortraitLightAngles"		"18.874512 160.488281 0.000000"
+			"PortraitLightFOV"		"42"
+			"PortraitLightDistance"		"211"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_RUN"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"326.513702 54.824715 176.358337"
+					"PortraitAngles"		"4.184786 192.297272 0.000000"
+					"PortraitFOV"		"18"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_juggernaut"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/juggernaut/jugg_fall20_immortal/jugg_fall20_immortal_head.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"katz_head"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"7"
+{
+	"name"		"Provocation of Ruin Sword"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/juggernaut/fall20_juggernaut_katz_weapon/fall20_juggernaut_katz_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Provocation_of_Ruin_Sword"
+	"item_rarity"		"immortal"
+	"model_player"		"models/heroes/juggernaut/jugg_sword.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.041748 185.394287 0.000000"
+			"PortraitLightFOV"		"26"
+			"PortraitLightDistance"		"344"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+			"PortraitAnimationCycle"		"0.086957"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"78.514290 -342.135101 190.789841"
+					"PortraitAngles"		"19.770836 99.808266 52.919998"
+					"PortraitFOV"		"31.705000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_juggernaut"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/juggernaut/jugg_fall20_immortal/jugg_fall20_immortal_weapon.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/juggernaut/juggernaut.vsnap"
+			"modifier"		"particles/models/items/juggernaut/fall20_juggernaut_katz_weapon/fall20_juggernaut_katz_weapon_fx.vsnap"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"8"
+{
+	"name"		"Juggernaut's Cape"
+	"prefab"		"default_item"
+	"creation_date"		"2022-06-29"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+	"image_inventory"		"econ/items/juggernaut/miyamoto_musash_back/miyamoto_musash_back_style2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Isle_of_Dragons_Armor"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_back"
+	"model_player"		"models/heroes/juggernaut/jugg_cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.186813"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-323.260956 -15.381894 424.754425"
+					"PortraitAngles"		"42.709351 1.170044 0.000000"
+					"PortraitFOV"		"19"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_juggernaut"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/juggernaut/jugg_2022_cc/jugg_2022_cc_back_ambient_v2.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"9"
+{
+	"name"		"Provocation of Ruin Bracers"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/juggernaut/fall20_juggernaut_katz_arms/fall20_juggernaut_katz_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Provocation_of_Ruin_Bracers"
+	"item_rarity"		"immortal"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/juggernaut/jugg_bracers.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"52.311401 173.375244 0.000000"
+			"PortraitLightFOV"		"29"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.197802"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"285.749146 105.410011 112.183922"
+					"PortraitAngles"		"5.020000 204.110001 0.000000"
+					"PortraitFOV"		"21"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_juggernaut"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/juggernaut/jugg_fall20_immortal/jugg_fall20_immortal_arms.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"62"
+{
+	"name"		"Juggernaut's Legs"
+	"prefab"		"default_item"
+	"creation_date"		"2022-06-29"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+	"image_inventory"		"econ/items/juggernaut/miyamoto_musash_legs/miyamoto_musash_legs_style2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Isle_of_Dragons_Skirt"
+	"item_rarity"		"mythical"
+	"item_slot"		"legs"
+	"item_type_name"		"#DOTA_WearableType_Legs"
+	"model_player"		"models/heroes/juggernaut/juggernaut_pants.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"261.720001 -88.304939 216.393051"
+			"PortraitLightAngles"		"32.706299 158.653564 0.000000"
+			"PortraitLightFOV"		"39"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.186813"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"193.564865 -297.663940 93.958557"
+					"PortraitAngles"		"8.168335 121.234131 0.000000"
+					"PortraitFOV"		"27"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_juggernaut"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/juggernaut/jugg_2022_cc/jugg_2022_cc_legs_ambient_v2.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"560"
+{
+	"name"		"Juggernaut's Healing Ward"
+	"prefab"		"default_item"
+	"creation_date"		"2015-04-14"
+	"image_inventory"		"econ/heroes/juggernaut/jugg_healing_ward_npc_dota_juggernaut_healing_ward"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Juggernauts_Healing_Ward"
+	"item_slot"		"ability2"
+	"item_type_name"		"#DOTA_WearableType_Ward"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"58.770000 58.270000 194.330002"
+			"PortraitLightAngles"		"60.270000 238.630005 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"182"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_juggernaut/portrait_healingward_flame.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-0.920 -56.420 -57.700"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"226.990356 248.528946 57.319305"
+					"PortraitAngles"		"355.169983 227.569901 0.000000"
+					"PortraitFOV"		"39"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_juggernaut"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"entity_model"
+			"asset"		"npc_dota_juggernaut_healing_ward"
+			"modifier"		"models/heroes/juggernaut/jugg_healing_ward.vmdl"
+		}
+	}
+}
+
+"610"
+{
+	"name"		"Juggernaut's Default Voice"
+	"prefab"		"default_item"
+	"creation_date"		"2017-03-20"
+	"image_inventory"		"econ/heroes/juggernaut/juggernaut_voice"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Juggernauts_Default_Voice"
+	"item_slot"		"voice"
+	"item_type_name"		"#DOTA_WearableType_Voice"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_juggernaut"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"announcer_preview"
+			"asset"		"sounds/vo/juggernaut/jug_spawn_05.vsnd"
+			"modifier"		"#DOTA_Announcer_Preview_Juggernaut_Voice_Default_01"
+		}
+		"asset_modifier1"
+		{
+			"type"		"announcer_preview"
+			"asset"		"sounds/vo/juggernaut/jug_move_19.vsnd"
+			"modifier"		"#DOTA_Announcer_Preview_Juggernaut_Voice_Default_02"
+		}
+		"asset_modifier2"
+		{
+			"type"		"announcer_preview"
+			"asset"		"sounds/vo/juggernaut/jug_lasthit_05.vsnd"
+			"modifier"		"#DOTA_Announcer_Preview_Juggernaut_Voice_Default_03"
+		}
+		"asset_modifier3"
+		{
+			"type"		"announcer_preview"
+			"asset"		"sounds/vo/juggernaut/jug_level_04.vsnd"
+			"modifier"		"#DOTA_Announcer_Preview_Juggernaut_Voice_Default_04"
+		}
+	}
+}
+
+"811"
+{
+	"name"		"Juggernaut's Base"
+	"prefab"		"default_item"
+	"creation_date"		"2017-03-15"
+	"image_inventory"		"econ/items/juggernaut/arcana/juggernaut_arcana_red"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bladeform_Legacy"
+	"item_rarity"		"arcana"
+	"item_slot"		"hero_base"
+	"match_cycle_to_parent"		"0"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"245.757507 70.642509 236.179550"
+					"PortraitAngles"		"20.989908 198.644043 0.000000"
+					"PortraitFOV"		"18"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"189.534271 -51.930965 196.423691"
+			"PortraitLightAngles"		"18.874512 160.488281 0.000000"
+			"PortraitLightFOV"		"42"
+			"PortraitLightDistance"		"211"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"1.750000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_RUN"
+			"PortraitAnimationCycle"		"0.080000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_juggernaut"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"kisilev_ind_red"
+		}
+		"asset_modifier"
+		{
+			"type"		"arcana_level"
+			"level"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"arcana_style"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Juggernaut.BladeDance"
+			"modifier"		"Hero_Juggernaut.BladeDance.Arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_ambient.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"response_criteria"
+			"asset"		"jgarc_dragon"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"juggernaut_blade_dance"
+			"modifier"		"juggernaut_blade_dance_arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"juggernaut_blade_fury"
+			"modifier"		"juggernaut_blade_fury_arcana"
+			"minimum_priority"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"juggernaut_healing_ward"
+			"modifier"		"juggernaut_healing_ward_arcana"
+			"minimum_priority"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"juggernaut_omni_slash"
+			"modifier"		"juggernaut_omni_slash_arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero_minimap"
+			"asset"		"npc_dota_hero_juggernaut"
+			"modifier"		"npc_dota_hero_juggernaut_alt1"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero"
+			"asset"		"npc_dota_hero_juggernaut"
+			"modifier"		"npc_dota_hero_juggernaut_alt2"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_background_model"
+			"asset"		"models/heroes/pedestal/effigy_pedestal_juggernaut_arcana.vmdl"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_blade_fury_null.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_blade_fury.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omni_slash_tgt.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_omni_slash_tgt.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omni_dash.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_omni_dash.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omni_slash_trail.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_omni_slash_trail.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_crit_tgt.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_crit_tgt.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/status_fx/status_effect_omnislash.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/status_effect_jugg_arcana_v2_omni.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omni_end.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_omni_end.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_body_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_trigger.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_trigger.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/juggernaut/jugg_serrakura/juggernaut_omni_slash_tgt_serrakura.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_omni_slash_tgt_serrakura.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/juggernaut/jugg_serrakura/juggernaut_omni_slash_trail_serrakura.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_omni_slash_trail_serrakura.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/juggernaut/bladekeeper_omnislash/_dc_juggernaut_omni_slash_tgt.vpcf.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_omni_slash_tgt_bladekeeper.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/juggernaut/bladekeeper_omnislash/_dc_juggernaut_omni_slash_trail.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_omni_slash_trail_bladekeeper.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omnislash_light.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_omnislash_light.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"red"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jug_laugh_05"
+			"modifier"		"juggernaut_jug_arc_laugh_05"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_laugh"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_laugh"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jugg_set_complete_06"
+			"modifier"		"juggernaut_jug_arc_thanks_01"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_thank"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_thank"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jugg_set_complete_04"
+			"modifier"		"juggernaut_jug_arc_deny_06"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_deny"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_deny"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jugg_taunt_06"
+			"modifier"		"juggernaut_jug_arc_drop_common"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_1"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_1"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jugg_set_complete_03"
+			"modifier"		"juggernaut_jug_arc_drop_medium"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_2"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_2"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jug_ability_stunteleport_03"
+			"modifier"		"juggernaut_jug_arc_lasthit_08"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_3"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_3"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jug_kill_09"
+			"modifier"		"juggernaut_jug_arc_illus_02"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_4"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_4"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jugg_set_complete_05"
+			"modifier"		"juggernaut_jug_arc_lasthit_12"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_5"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_5"
+		}
+		"asset_modifier"
+		{
+			"type"		"chatwheel"
+			"asset"		"juggernaut_jug_illus_03"
+			"modifier"		"juggernaut_jug_arc_level_05"
+			"label"		"#dota_chatwheel_label_juggernaut_arcana_6"
+			"message"		"#dota_chatwheel_message_juggernaut_arcana_6"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/juggernaut/ancient_exile/ancient_exile_head_ambient.vpcf"
+			"modifier"		"particles/econ/items/juggernaut/ancient_exile/red/ancient_exile_red_head_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"mvp_map_override"
+			"modifier"		"maps/scenes/mvp/mvp_juggernaut_arcana.vmap"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_game"
+			"modifier"
+			{
+				"PortraitLightPosition"		"106.913757 -64.295067 186.072372"
+				"PortraitLightAngles"		"48.081665 135.670166 0.000000"
+				"PortraitLightFOV"		"90"
+				"PortraitLightDistance"		"133"
+				"PortraitLightColor"		"229 239 255"
+				"PortraitShadowColor"		"33 33 33"
+				"PortraitShadowScale"		"5"
+				"PortraitAmbientColor"		"99 50 38"
+				"PortraitAmbientScale"		"6.202000"
+				"PortraitSpecularColor"		"251 74 84"
+				"PortraitParticle"		"particles/units/heroes/hero_juggernaut/juggernaut_portrait.vpcf"
+				"PortraitBackgroundTexture"		"materials/portraits_card/portrait_backgrounds/juggernaut.vmat"
+				"PortraitLightScale"		"1.950000"
+				"PortraitGroundShadowScale"		"1.500000"
+				"PortraitAmbientDirection"		"-0.546 0.791 0.276"
+				"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+				"cameras"
+				{
+					"default"
+					{
+						"PortraitPosition"		"331.764404 109.020172 93.554466"
+						"PortraitAngles"		"354.919342 200.797699 0.000000"
+						"PortraitFOV"		"10"
+						"PortraitFar"		"1000"
+					}
+				}
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitAnimationCycle"		"0"
+				"PortraitAnimationRate"		"1"
+				"PortraitHideHero"		"0"
+				"PortraitHideParticles"		"0"
+				"PortraitHideDropShadow"		"0"
+				"PortraitDesaturateParticles"		"0"
+			}
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"8366"
+{
+	"name"		"All Heroes' Default Pet"
+	"prefab"		"default_item"
+	"creation_date"		"2015-04-14"
+	"image_inventory"		"econ/default_no_item"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Wearable_All_Heroes_DefaultPet"
+	"item_slot"		"summon"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"static_attributes"
+	{
+		"is inspectable"		"0"
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_axe"		"1"
+		"npc_dota_hero_bristleback"		"1"
+		"npc_dota_hero_centaur"		"1"
+		"npc_dota_hero_earthshaker"		"1"
+		"npc_dota_hero_juggernaut"		"1"
+		"npc_dota_hero_legion_commander"		"1"
+		"npc_dota_hero_riki"		"1"
+		"npc_dota_hero_slark"		"1"
+		"npc_dota_hero_sven"		"1"
+		"npc_dota_hero_marci"		"1"
+	}
+}
+

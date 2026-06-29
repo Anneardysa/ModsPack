@@ -1,0 +1,209 @@
+﻿"387"
+{
+	"name"		"Shadow Fiend's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/nevermore/shadow_fiend_archon_of_darkness_head/shadow_fiend_archon_of_darkness_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Raven_Harvest__Head"
+	"item_rarity"		"rare"
+	"item_slot"		"head"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/shadow_fiend/shadow_fiend_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"69.742004 55.448997 250.999527"
+			"PortraitLightAngles"		"37.628174 210.421143 0.000000"
+			"PortraitLightFOV"		"66"
+			"PortraitLightDistance"		"145"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-5.320 -165.840 9.930"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"290.689209 -30.123772 198.919571"
+					"PortraitAngles"		"3.191528 173.633423 355.715332"
+					"PortraitFOV"		"21"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_nevermore"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"archon_head_cycle"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"486"
+{
+	"name"		"Shadow Fiend's Shoulders"
+	"prefab"		"default_item"
+	"creation_date"		"2014-04-15"
+	"image_inventory"		"econ/heroes/shadow_fiend/shadow_fiend_shoulders"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Shadow_Fiends_Shoulders"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulders"
+	"model_player"		"models/heroes/shadow_fiend/shadow_fiend_shoulders.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"96.896248 -112.918182 332.226318"
+			"PortraitLightAngles"		"48.735352 130.786743 0.000000"
+			"PortraitLightFOV"		"66"
+			"PortraitLightDistance"		"234"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-5.320 -165.840 9.930"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"581.859497 -66.408691 219.339401"
+					"PortraitAngles"		"3.191528 173.633423 355.715332"
+					"PortraitFOV"		"21"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_nevermore"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+	}
+}
+
+"488"
+{
+	"name"		"Shadow Fiend's Arms"
+	"prefab"		"default_item"
+	"creation_date"		"2024-05-22"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/nevermore/shadow_fiend_archon_of_darkness_arms/shadow_fiend_archon_of_darkness_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Raven_Harvest__Arms"
+	"item_rarity"		"rare"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/shadow_fiend/shadow_fiend_arms.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"134.366394 -5.857181 346.702911"
+			"PortraitLightAngles"		"49.284668 180.922852 0.000000"
+			"PortraitLightFOV"		"54"
+			"PortraitLightDistance"		"399"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-5.320 -165.840 9.930"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"524.390137 -667.679382 182.763641"
+					"PortraitAngles"		"4.317627 129.951782 355.715332"
+					"PortraitFOV"		"21"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_nevermore"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

@@ -1,0 +1,459 @@
+﻿"48"
+{
+	"name"		"Cloak of Volatile Majesty"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2015"
+	"image_inventory"		"econ/items/invoker/dark_sorcerer_back/dark_sorcerer_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cloak_of_Volatile_Majesty"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_Cloak"
+	"model_player"		"models/heroes/invoker/invoker_cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-173.326050 93.670853 360.907898"
+			"PortraitLightAngles"		"57.760620 310.237427 7.465210"
+			"PortraitLightFOV"		"45"
+			"PortraitLightDistance"		"382"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.675000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.325000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"7.260 -99.970 -157.390"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-757.429260 76.430336 380.587677"
+					"PortraitAngles"		"21.895752 356.742554 0.000000"
+					"PortraitFOV"		"25"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"89"
+{
+	"name"		"Mantle of Volatile Majesty"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2015"
+	"image_inventory"		"econ/items/invoker/dark_sorcerer_shoulder/dark_sorcerer_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Mantle_of_Volatile_Majesty"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Mantle"
+	"model_player"		"models/heroes/invoker/invoker_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"119.173843 2.894908 299.666718"
+			"PortraitLightAngles"		"53.964844 182.757568 0.000000"
+			"PortraitLightFOV"		"42"
+			"PortraitLightDistance"		"199"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.248000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"190.005814 -200.503967 254.137360"
+					"PortraitAngles"		"20.099487 132.143555 0.000000"
+					"PortraitFOV"		"31"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"98"
+{
+	"name"		"Invoker's Head"
+	"prefab"		"default_item"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Invokers_Head"
+	"item_slot"		"body_head"
+	"item_type_name"		"#DOTA_WearableType_Body_Head"
+	"model_player"		"models/heroes/invoker/invoker_head.vmdl"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+}
+
+"99"
+{
+	"name"		"Crown of Volatile Majesty"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2015"
+	"image_inventory"		"econ/items/invoker/dark_sorcerer_head/dark_sorcerer_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Crown_of_Volatile_Majesty"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Crown"
+	"model_player"		"models/heroes/invoker/invoker_hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"144.525436 30.064661 218.722763"
+			"PortraitLightAngles"		"20.648804 193.183594 7.465210"
+			"PortraitLightFOV"		"28"
+			"PortraitLightDistance"		"159"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.675000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.325000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"7.260 -99.970 -157.390"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"196.499100 -52.969395 203.654495"
+					"PortraitAngles"		"4.482422 163.498535 0.000000"
+					"PortraitFOV"		"27"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"100"
+{
+	"name"		"Bracers of Volatile Majesty"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2015"
+	"image_inventory"		"econ/items/invoker/dark_sorcerer_arms/dark_sorcerer_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bracers_of_Volatile_Majesty"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Bracers"
+	"model_player"		"models/heroes/invoker/invoker_bracer.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"81.192917 -38.060215 199.081177"
+			"PortraitLightAngles"		"44.741821 223.950806 7.465210"
+			"PortraitLightFOV"		"63"
+			"PortraitLightDistance"		"176"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.675000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.325000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"7.260 -99.970 -157.390"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"248.374985 137.798279 193.525757"
+					"PortraitAngles"		"13.040771 214.112549 0.000000"
+					"PortraitFOV"		"18"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"305"
+{
+	"name"		"Vestments of Volatile Majesty"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2015"
+	"image_inventory"		"econ/items/invoker/dark_sorcerer_belt/dark_sorcerer_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Vestments_of_Volatile_Majesty"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"item_type_name"		"#DOTA_WearableType_Vestments"
+	"model_player"		"models/heroes/invoker/invoker_dress.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"81.192917 -38.060215 199.081177"
+			"PortraitLightAngles"		"44.741821 223.950806 7.465210"
+			"PortraitLightFOV"		"63"
+			"PortraitLightDistance"		"176"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.675000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.325000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"7.260 -99.970 -157.390"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"263.835541 -250.449615 145.927490"
+					"PortraitAngles"		"13.057251 133.308105 0.000000"
+					"PortraitFOV"		"40"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"683"
+{
+	"name"		"Invoker's Persona"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/heroes/invoker/invoker_persona"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Invokers_Persona"
+	"item_slot"		"persona_selector"
+	"item_type_name"		"#DOTA_WearableType_Persona"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"144.525436 30.064661 218.722763"
+			"PortraitLightAngles"		"20.648804 193.183594 7.465210"
+			"PortraitLightFOV"		"28"
+			"PortraitLightDistance"		"159"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.675000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.325000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"7.260 -99.970 -157.390"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"131.922089 -38.327785 196.253265"
+					"PortraitAngles"		"6.553345 163.103027 0.000000"
+					"PortraitFOV"		"24"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+}
+
+"8626"
+{
+	"name"		"Invoker's Forge Spirits"
+	"prefab"		"default_item"
+	"creation_date"		"2015-04-14"
+	"image_inventory"		"econ/heroes/invoker/invoker_forged_spirit"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Invokers_Forge_Spirits"
+	"item_slot"		"summon"
+	"item_type_name"		"#DOTA_WearableType_Forged_Spirits"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"296.629120 -177.703278 213.133453"
+					"PortraitAngles"		"15.772772 150.647598 0.000000"
+					"PortraitFOV"		"38.556126"
+					"PortraitFar"		"1500"
+				}
+			}
+			"PortraitLightPosition"		"159.953323 3.865256 438.200073"
+			"PortraitLightAngles"		"70.029678 -177.940063 0.000000"
+			"PortraitLightFOV"		"63"
+			"PortraitLightDistance"		"1048.780029"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"9.721000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"0.884 0.396 0.247"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.630134 0.970269 1.000000"
+			"PortraitBackgroundColor2"		"0.467282 0.595337 0.521161"
+			"PortraitBackgroundColor3"		"0.513192 0.521571 0.518387"
+			"PortraitBackgroundColor4"		"0.017108 0.779542 0.361772"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.500000"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+}
+

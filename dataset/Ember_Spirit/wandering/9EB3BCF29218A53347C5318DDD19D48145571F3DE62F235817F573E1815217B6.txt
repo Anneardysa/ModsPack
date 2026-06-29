@@ -1,0 +1,438 @@
+﻿"462"
+{
+	"name"		"Ember Spirit's Head Item"
+	"prefab"		"default_item"
+	"creation_date"		"2013-10-11"
+	"image_inventory"		"econ/heroes/ember_spirit/back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Ember_Spirits_Head_Item"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/ember_spirit/back.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"20.145739 -94.024666 122.325706"
+			"PortraitLightAngles"		"13.403320 35.024414 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"85"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-3.845201 119.232216 148.889481"
+					"PortraitAngles"		"17.830811 268.912354 0.000000"
+					"PortraitFOV"		"36"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_head.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_eyes.vpcf"
+		}
+	}
+}
+
+"469"
+{
+	"name"		"Ember Spirit's Shoulders"
+	"prefab"		"default_item"
+	"creation_date"		"2013-10-11"
+	"image_inventory"		"econ/heroes/ember_spirit/shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Ember_Spirits_Shoulders"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulder"
+	"model_player"		"models/heroes/ember_spirit/shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"69.285866 -92.462387 158.266541"
+			"PortraitLightAngles"		"28.712769 125.612183 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"223"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_RUN"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"263.993500 24.803638 150.740753"
+					"PortraitAngles"		"8.898926 185.196533 0.000000"
+					"PortraitFOV"		"22"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_shoulder_glow.vpcf"
+		}
+	}
+}
+
+"471"
+{
+	"name"		"Ember Spirit's Belt Item"
+	"prefab"		"default_item"
+	"creation_date"		"2013-10-11"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2016"
+	"image_inventory"		"econ/items/ember_spirit/vanishing_flame_belt/vanishing_flame_belt_style1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tunic_of_the_Wandering_Flame"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"item_type_name"		"#DOTA_WearableType_belt"
+	"model_player"		"models/heroes/ember_spirit/belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-6.537501 137.581100 208.918579"
+			"PortraitLightAngles"		"42.319336 271.098633 0.000000"
+			"PortraitLightFOV"		"40"
+			"PortraitLightDistance"		"264"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.092308"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-33.970695 220.222992 129.555939"
+					"PortraitAngles"		"16.486683 279.179077 5.039993"
+					"PortraitFOV"		"50.661999"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/ember_spirit/ember_spirit_vanishing_flame/ember_spirit_vanishing_flame_ambient.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/ember_spirit/ember_spirit_vanishing_flame/ember_spirit_vanishing_flame_ambient_gem.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"472"
+{
+	"name"		"Ember Spirit's Main Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2013-10-11"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2016"
+	"image_inventory"		"econ/items/ember_spirit/vanishing_flame_weapon/vanishing_flame_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Blade_of_the_Wandering_Flame"
+	"item_rarity"		"mythical"
+	"item_type_name"		"#DOTA_WearableType_Weapon"
+	"model_player"		"models/heroes/ember_spirit/weapon1.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-62.639137 -48.818420 169.170822"
+			"PortraitLightAngles"		"68.763428 37.150269 0.000000"
+			"PortraitLightFOV"		"72"
+			"PortraitLightDistance"		"156"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-179.142746 -83.000580 143.351303"
+					"PortraitAngles"		"28.922071 40.357777 -34.199997"
+					"PortraitFOV"		"54.756001"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_primary.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/ember_spirit/weapon1.vsnap"
+			"modifier"		"particles/models/items/ember_spirit/vanishing_flame_weapon/vanishing_flame_weapon_fx.vsnap"
+		}
+		"asset_modifier3"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"473"
+{
+	"name"		"Ember Spirit's Offhand Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2013-10-11"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2016"
+	"image_inventory"		"econ/items/ember_spirit/vanishing_flame_off_hand/vanishing_flame_off_hand"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_OffHand_Blade_of_the_Wandering_Flame"
+	"item_rarity"		"mythical"
+	"item_slot"		"offhand_weapon"
+	"item_type_name"		"#DOTA_WearableType_offhand_weapon"
+	"model_player"		"models/heroes/ember_spirit/weapon2.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-67.072983 -63.896595 182.521408"
+			"PortraitLightAngles"		"49.531860 27.224121 0.000000"
+			"PortraitLightFOV"		"72"
+			"PortraitLightDistance"		"156"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-87.102280 -231.728271 194.476563"
+					"PortraitAngles"		"26.896147 66.177650 -52.559998"
+					"PortraitFOV"		"29.924999"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_ambient_sword_offhand.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/ember_spirit/weapon2.vsnap"
+			"modifier"		"particles/models/items/ember_spirit/vanishing_flame_off_hand/vanishing_flame_off_hand_fx.vsnap"
+		}
+		"asset_modifier3"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"474"
+{
+	"name"		"Ember Spirit's Arms"
+	"prefab"		"default_item"
+	"creation_date"		"2013-10-11"
+	"image_inventory"		"econ/heroes/ember_spirit/arm"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Ember_Spirits_Arms"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Arms"
+	"model_player"		"models/heroes/ember_spirit/arm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"35.251133 -110.614731 122.820297"
+			"PortraitLightAngles"		"15.842285 85.308838 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"85"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.900000 0.100000 0.000000"
+			"PortraitBackgroundColor2"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundColor3"		"0.900000 0.500000 1.000000"
+			"PortraitBackgroundColor4"		"0.900000 0.300000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-3.070 17.250 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"106.122337 -81.820511 125.470985"
+					"PortraitAngles"		"16.111450 150.847778 0.000000"
+					"PortraitFOV"		"36"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ember_spirit"		"1"
+	}
+}
+

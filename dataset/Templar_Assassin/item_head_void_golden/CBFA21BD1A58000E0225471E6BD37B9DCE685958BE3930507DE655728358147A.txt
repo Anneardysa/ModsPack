@@ -1,0 +1,108 @@
+﻿"173"
+{
+	"name"		"Templar Assassin's Hair"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+	"image_inventory"		"econ/items/lanaya/ta_2022_immortal/ta_2022_immortal1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Golden_Seclusions_of_the_Void"
+	"item_rarity"		"immortal"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/lanaya/lanaya_hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"68.626457 -38.650085 185.124176"
+			"PortraitLightAngles"		"32.184448 149.880981 0.000000"
+			"PortraitLightFOV"		"47"
+			"PortraitLightDistance"		"105"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.350000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 0.200000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-215.720 -16.230 4.660"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"120.840332 -99.948128 135.719208"
+					"PortraitAngles"		"354.808960 144.788818 349.996948"
+					"PortraitFOV"		"30"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_templar_assassin"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_templar_assassin/templar_assassin_trap_portrait.vpcf"
+			"modifier"		"particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap_portrait_gold.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_templar_assassin/templar_assassin_trap.vpcf"
+			"modifier"		"particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap_gold.vpcf"
+		}
+		"skin"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_ambient_gold.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_templar_assassin/templar_assassin_trap_slow.vpcf"
+			"modifier"		"particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_slow_gold.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"templar_assassin_trap"
+			"modifier"		"templar_assassin/ta_2022_immortal_ability_icon/ta_2022_immortal_trap_gold"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"templar_assassin_psionic_trap"
+			"modifier"		"templar_assassin/ta_2022_immortal_ability_icon/ta_2022_immortal_psionic_trap_gold"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"templar_assassin_self_trap"
+			"modifier"		"templar_assassin/ta_2022_immortal_ability_icon/ta_2022_immortal_self_trap_gold"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

@@ -1,0 +1,317 @@
+﻿"594"
+{
+	"name"		"Monkey King Head"
+	"prefab"		"default_item"
+	"creation_date"		"2025-12-15"
+	"image_inventory"		"econ/items/monkey_king/accursed_king_inverted_crown/accursed_king_inverted_crown"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Sins_of_the_Simian_Sovereign__Crown"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/monkey_king/monkey_king_hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"186.669281 -148.153717 180.668121"
+					"PortraitAngles"		"2.500889 142.005432 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"220.829590 103.968933 270.828278"
+			"PortraitLightAngles"		"22.954588 -149.628555 -167.577881"
+			"PortraitLightFOV"		"57.405998"
+			"PortraitLightDistance"		"443.820007"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"2.539000"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitDesaturateHero"		"1"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_monkey_king"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/monkey_king/accursed_king/accursed_king_head_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"608"
+{
+	"name"		"Monkey King Armor"
+	"prefab"		"default_item"
+	"creation_date"		"2025-12-15"
+	"image_inventory"		"econ/items/monkey_king/accursed_king_armor/accursed_king_armor"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Sins_of_the_Simian_Sovereign__Armor"
+	"item_rarity"		"mythical"
+	"item_slot"		"armor"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/monkey_king/monkey_king_armor.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"48.670227 -670.007446 339.781464"
+					"PortraitAngles"		"18.100885 94.005363 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"220.829590 103.968933 270.828278"
+			"PortraitLightAngles"		"22.954588 -149.628555 -167.577881"
+			"PortraitLightFOV"		"57.405998"
+			"PortraitLightDistance"		"443.820007"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"6.355000"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_monkey_king"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"609"
+{
+	"name"		"Monkey King Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2025-12-15"
+	"image_inventory"		"econ/items/monkey_king/accursed_king_staff/accursed_king_staff"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Sins_of_the_Simian_Sovereign__Staff"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/monkey_king/monkey_king_base_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"307.329803 -391.212891 217.509567"
+					"PortraitAngles"		"6.900888 154.805420 -35.279999"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"220.829590 103.968933 270.828278"
+			"PortraitLightAngles"		"22.954588 -149.628555 -167.577881"
+			"PortraitLightFOV"		"57.405998"
+			"PortraitLightDistance"		"443.820007"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"2.539000"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"1"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitAnimationActivity"		"ACT_DOTA_FORCESTAFF_END"
+			"PortraitDesaturateHero"		"1"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_monkey_king"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/monkey_king/accursed_king/accursed_king_staff_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"657"
+{
+	"name"		"Monkey King Shoulders"
+	"prefab"		"default_item"
+	"creation_date"		"2025-12-15"
+	"image_inventory"		"econ/items/monkey_king/accursed_king_shoulder/accursed_king_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Sins_of_the_Simian_Sovereign__Shoulder"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/monkey_king/monkey_king_shoulders.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"48.670227 -670.007446 339.781464"
+					"PortraitAngles"		"18.100885 94.005363 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"220.829590 103.968933 270.828278"
+			"PortraitLightAngles"		"22.954588 -149.628555 -167.577881"
+			"PortraitLightFOV"		"57.405998"
+			"PortraitLightDistance"		"443.820007"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"6.355000"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_monkey_king"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

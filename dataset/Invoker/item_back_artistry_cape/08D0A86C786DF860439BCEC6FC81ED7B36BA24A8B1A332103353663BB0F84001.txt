@@ -1,0 +1,173 @@
+﻿"48"
+{
+	"name"		"Invoker's Cape"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/invoker/dark_artistry/dark_artistry_cape_model"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Dark_Artistry_Cape"
+	"item_rarity"		"immortal"
+	"item_slot"		"back"
+	"model_player"		"models/heroes/invoker/invoker_cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-8.967452 150.217239 305.821777"
+			"PortraitLightAngles"		"62.414223 -98.297020 111.766304"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.250000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"3.646000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-44.888916 441.103790 174.345963"
+					"PortraitAngles"		"4.313960 275.253906 0.000000"
+					"PortraitFOV"		"28.250000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_ti6_cape_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_deafening_blast.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_deafening_blast_ti6.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"9"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti6"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_tornado.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_tornado_ti6.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Invoker.Tornado.Cast"
+			"modifier"		"Hero_Invoker.Tornado.Cast.Immortal"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Invoker.DeafeningBlast"
+			"modifier"		"Hero_Invoker.DeafeningBlast.Immortal"
+			"apply_when_equipped_in_ability_effects_slot"		"9"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_quas_orb.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_ti6_quas_orb.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_exort_orb.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_ti6_exort_orb.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"3"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_wex_orb.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_ti6_wex_orb.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_deafening_blast_disarm_debuff.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_deafening_blast_disarm_ti6_debuff.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"9"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_deafening_blast_knockback_debuff.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_deafening_blast_ti6_knockback_debuff.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"9"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_tornado_child.vpcf"
+			"modifier"		"particles/econ/items/invoker/invoker_ti6/invoker_tornado_child_ti6.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"invoker_deafening_blast"
+			"modifier"		"invoker/dark_artistry/invoker_deafening_blast"
+			"apply_when_equipped_in_ability_effects_slot"		"9"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"invoker_tornado"
+			"modifier"		"invoker/dark_artistry/invoker_tornado"
+			"apply_when_equipped_in_ability_effects_slot"		"5"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

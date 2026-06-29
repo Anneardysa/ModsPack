@@ -1,0 +1,88 @@
+﻿"99"
+{
+	"name"		"Mask of the Divine Sorrow"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/invoker/divine_sorrow_head/divine_sorrow_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Mask_of_the_Divine_Sorrow"
+	"item_rarity"		"rare"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Mask"
+	"model_player"		"models/heroes/invoker/invoker_hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"58.310001 -7.690000 209.669998"
+			"PortraitLightAngles"		"28.080000 150.080002 7.470000"
+			"PortraitLightFOV"		"63.000000"
+			"PortraitLightDistance"		"176.000000"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.675000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.325000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16.000000"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.000000"
+			"PortraitAnimationRate"		"1.000000"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"7.260 -99.970 -157.390"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"85.367142 -36.950001 204.167160"
+					"PortraitAngles"		"17.700001 157.149994 0.000000"
+					"PortraitFOV"		"47.000000"
+					"PortraitFar"		"1000.000000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_invoker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"divine_sorrow"
+		}
+		"asset_modifier1"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"divine_sorrow_loadout"
+		}
+		"asset_modifier2"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"divine_sorrow_sunstrike"
+		}
+		"asset_modifier3"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"divine_sorrow_loadout_spawn"
+		}
+		"asset_modifier4"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
