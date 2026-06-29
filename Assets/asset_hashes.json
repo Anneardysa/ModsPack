@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-28T14:51:09Z",
+  "generatedAt": "2026-06-28T16:29:33Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -1074,6 +1074,34 @@
     "Assets/models/Terrorblade/prismatic_base/prismatic_vermillion.zip": {
       "sha256": "8627823F32BE1935784AC8B8DEBE2E1A81B75A1BE87DEB90040437C14A72E6D8",
       "size": 118356
+    },
+    "Assets/models/Tinker/hazard.zip": {
+      "sha256": "047CC19B5CCB2EB9094C39DA1911F6E2C7A2C1D8C8C6CE6D6E22475E219AD9B5",
+      "size": 212572
+    },
+    "Assets/models/Tinker/interstellar.zip": {
+      "sha256": "54DB2DE3B330125D2743C3D415703D6FF783C586709BCED4E6058C4E0A63CF4E",
+      "size": 1277473
+    },
+    "Assets/models/Tinker/item_head_roller.zip": {
+      "sha256": "E0DAB4D8957AC290858ACF9926AB7EFD063760CFB815B478F305F41E5376DE27",
+      "size": 65113
+    },
+    "Assets/models/Tinker/item_misc_bot.zip": {
+      "sha256": "5124602C889A6256FDB7DA307D40630D4F0C8B53CA24B65264C3727FA8469DF3",
+      "size": 665927
+    },
+    "Assets/models/Tinker/item_offhand_arcanic.zip": {
+      "sha256": "B434FDBF9528652327E5FCA3793E62BD29DD39210224E03B84DD431D92AE9491",
+      "size": 291026
+    },
+    "Assets/models/Tinker/protodrone.zip": {
+      "sha256": "52A40D99DE44A44FE5D553F60D36CF8D90D9561EA85E10E6D7EE0F19B2AF4ADD",
+      "size": 282424
+    },
+    "Assets/models/Tinker/twitcher.zip": {
+      "sha256": "42424AEAB5B61A23913A2C2017B436B7F29E0507AAFD3ACBF0F7A13931FA91F3",
+      "size": 355865
     },
     "Assets/models/Windranger/arcana.zip": {
       "sha256": "B4FC6DF7573BF5CD1F77EE828130E9B2DFFE798FC520D80ED43A4F0D932653A4",

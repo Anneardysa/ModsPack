@@ -1,10 +1,38 @@
 {
-  "version": "1.0.49",
+  "version": "1.0.50",
   "lastUpdated": "2026-06-28",
   "updates": [
     {
       "date": "2026-06-28",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_tinker",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_tinker",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_tinker",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_tinker",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_tinker",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_tinker",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_tinker",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_faceless_void",
           "setName": "Set 7 (item_weapon_aeon)"

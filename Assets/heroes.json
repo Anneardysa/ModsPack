@@ -3042,6 +3042,34 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tinker/hazard.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tinker/hazard.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tinker/interstellar.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tinker/interstellar.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tinker/protodrone.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tinker/protodrone.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tinker/twitcher.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tinker/twitcher.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tinker/item_head_roller.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tinker/item_head_roller.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tinker/item_misc_bot.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tinker/item_misc_bot.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tinker/item_offhand_arcanic.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tinker/item_offhand_arcanic.png"
       ]
     }
   },
