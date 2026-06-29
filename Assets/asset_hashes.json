@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-28T16:29:33Z",
+  "generatedAt": "2026-06-29T07:46:23Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -592,8 +592,8 @@
       "size": 273236
     },
     "Assets/models/Phantom_Assassin/dragon_1.zip": {
-      "sha256": "DBE5802DEF332112CE7475F36AEC9A9ACAE524822D5C11D664BEA98F0C3BC7F2",
-      "size": 3015
+      "sha256": "52008FFD33D6B45EA5C04BF25AB32F58129DC0F2B8B26ACE10BB2A4398C72595",
+      "size": 671502
     },
     "Assets/models/Phantom_Assassin/dragon_2.zip": {
       "sha256": "D29913DF79DFE0E08EA75FE3720BF9ECBE20CDBF875861B45CAB706AB37509A8",
