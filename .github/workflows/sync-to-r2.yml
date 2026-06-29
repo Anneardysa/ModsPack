@@ -6,6 +6,7 @@ on:
          - "Assets/**"
          - "config/**"
          - "remote/**"
+         - "dataset/**"
       branches:
          - main
    workflow_dispatch: # Allow manual trigger from GitHub UI
@@ -56,6 +57,7 @@ jobs:
                 echo "assets=true" >> $GITHUB_OUTPUT
                 echo "config=true" >> $GITHUB_OUTPUT
                 echo "remote=true" >> $GITHUB_OUTPUT
+                echo "dataset=true" >> $GITHUB_OUTPUT
                 echo "Manual trigger: syncing all folders"
                 exit 0
               fi
@@ -68,6 +70,7 @@ jobs:
                 echo "assets=true" >> $GITHUB_OUTPUT
                 echo "config=true" >> $GITHUB_OUTPUT
                 echo "remote=true" >> $GITHUB_OUTPUT
+                echo "dataset=true" >> $GITHUB_OUTPUT
                 exit 0
               fi
 
@@ -78,6 +81,7 @@ jobs:
               SYNC_ASSETS=false
               SYNC_CONFIG=false
               SYNC_REMOTE=false
+              SYNC_DATASET=false
 
               if echo "$CHANGED_FILES" | grep -q "^Assets/"; then
                 SYNC_ASSETS=true
@@ -88,11 +92,15 @@ jobs:
               if echo "$CHANGED_FILES" | grep -q "^remote/"; then
                 SYNC_REMOTE=true
               fi
+              if echo "$CHANGED_FILES" | grep -q "^dataset/"; then
+                SYNC_DATASET=true
+              fi
 
               echo "assets=$SYNC_ASSETS" >> $GITHUB_OUTPUT
               echo "config=$SYNC_CONFIG" >> $GITHUB_OUTPUT
               echo "remote=$SYNC_REMOTE" >> $GITHUB_OUTPUT
-              echo "Sync plan: Assets=$SYNC_ASSETS, Config=$SYNC_CONFIG, Remote=$SYNC_REMOTE"
+              echo "dataset=$SYNC_DATASET" >> $GITHUB_OUTPUT
+              echo "Sync plan: Assets=$SYNC_ASSETS, Config=$SYNC_CONFIG, Remote=$SYNC_REMOTE, Dataset=$SYNC_DATASET"
 
          - name: Sync Assets to R2
            if: steps.changes.outputs.assets == 'true'
@@ -131,6 +139,19 @@ jobs:
                 -v
               echo "✅ Remote sync completed"
 
+         - name: Sync dataset to R2
+           if: steps.changes.outputs.dataset == 'true'
+           run: |
+              echo "📦 Syncing dataset/ → R2..."
+              rclone sync ./dataset r2:${{ secrets.R2_BUCKET_NAME }}/dataset \
+                --progress \
+                --transfers 8 \
+                --checkers 16 \
+                --fast-list \
+                --stats 30s \
+                -v
+              echo "✅ Dataset sync completed"
+
          - name: Generate sync summary
            run: |
               echo "## ✅ R2 Sync Complete" >> $GITHUB_STEP_SUMMARY
@@ -151,6 +172,12 @@ jobs:
               fi
               if [ "${{ steps.changes.outputs.remote }}" == "true" ]; then
                 echo "- ✅ **remote/** → R2" >> $GITHUB_STEP_SUMMARY
+              fi
+              if [ "${{ steps.changes.outputs.dataset }}" == "true" ]; then
+                echo "- ✅ **dataset/** → R2" >> $GITHUB_STEP_SUMMARY
+                echo '```' >> $GITHUB_STEP_SUMMARY
+                rclone size r2:${{ secrets.R2_BUCKET_NAME }}/dataset 2>/dev/null >> $GITHUB_STEP_SUMMARY || echo "Unable to get size" >> $GITHUB_STEP_SUMMARY
+                echo '```' >> $GITHUB_STEP_SUMMARY
               fi
 
          - name: Notify on failure
