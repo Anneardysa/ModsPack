@@ -2591,6 +2591,10 @@
             "thumbnailExtension": "png",
             "choices": [
                 {
+                    "name": "Default Roshan",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/roshan/default.zip"
+                },
+                {
                     "name": "Roshan Cosmic 2025",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/roshan/cosmic.zip"
                 }
