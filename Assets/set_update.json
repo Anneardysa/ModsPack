@@ -1,7 +1,16 @@
 {
-  "version": "1.0.50",
-  "lastUpdated": "2026-06-28",
+  "version": "1.0.51",
+  "lastUpdated": "2026-06-30",
   "updates": [
+    {
+      "date": "2026-06-30",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 12 (item_shoulder_sylvian)"
+        }
+      ]
+    },
     {
       "date": "2026-06-28",
       "sets": [

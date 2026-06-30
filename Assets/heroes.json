@@ -3405,10 +3405,6 @@
         "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_back_sylvian.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Windranger/item_back_sylvian.png"
       ],
-      "Set 8": [
-        "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_shoulder_sylvian.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Windranger/item_shoulder_sylvian.png"
-      ],
       "Set 9": [
         "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_weapon_peregrine.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Windranger/item_weapon_peregrine.png"
@@ -3420,7 +3416,17 @@
       "Set 11": [
         "https://cdn.ardysamods.my.id/Assets/models/Windranger/base_arcana_2.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Windranger/base_arcana_2.png"
-      ]
+      ],
+      "Set 12": {
+        "styles": {
+          "Sylvian": [
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian.zip"
+          ],
+          "Sylvian Arcana Mode": [
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian_arcana.zip"
+          ]
+        }
+      }
     },
     "method": 1
   },

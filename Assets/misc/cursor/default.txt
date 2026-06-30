@@ -1,0 +1,11 @@
+"202"
+{
+	"name"		"Default Cursor Pack"
+	"prefab"		"cursor_pack"
+	"baseitem"		"1"
+	"creation_date"		"2015-08-26"
+	"image_inventory"		"econ/cursor_pack/cursor_pack_default"
+	"item_name"		"#DOTA_Item_Default_Cursor_Pack"
+	"item_quality"		"base"
+	"item_slot"		"weapon"
+}

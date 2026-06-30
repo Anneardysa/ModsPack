@@ -1,0 +1,412 @@
+﻿"21"
+{
+	"name"		"Wind Ranger's Head"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/heroes/windrunner/windrunner_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Wind_Rangers_Head"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/windrunner/windrunner_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"58.592731 -36.769268 158.361969"
+			"PortraitLightAngles"		"33.129272 162.273560 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"120"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"0.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.700000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"1.830 -13.960 -6.470"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"48.272015 -43.053707 141.095306"
+					"PortraitAngles"		"3.680420 136.197510 2.296143"
+					"PortraitFOV"		"36"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_windrunner"		"1"
+	}
+}
+
+"22"
+{
+	"name"		"Wind Ranger's Bow"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/heroes/windrunner/windrunner_bow"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Wind_Rangers_Bow"
+	"item_type_name"		"#DOTA_WearableType_Bow"
+	"model_player"		"models/heroes/windrunner/windrunner_bow.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"107.771370 58.272099 157.103699"
+			"PortraitLightAngles"		"25.600000 201.360001 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"120"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"0.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.700000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"1.830 -13.960 -6.470"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"131.128433 120.034714 230.631256"
+					"PortraitAngles"		"40.638428 224.066162 2.296143"
+					"PortraitFOV"		"45"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_windrunner"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_windrunner/windrunner_bowstring.vpcf"
+		}
+	}
+}
+
+"23"
+{
+	"name"		"Wind Ranger's Shoulder Pads"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/windrunner/windranger_ti8_immortal_shoulders/windranger_ti8_immortal_shoulders"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Sylvan_Vedette"
+	"item_rarity"		"immortal"
+	"item_slot"		"shoulder"
+	"model_player"		"models/heroes/windrunner/windrunner_shoulderpads.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"74.636513 12.648621 149.327591"
+			"PortraitLightAngles"		"25.600000 201.360001 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"120"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"0.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5.338000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.258065"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"1.830 -13.960 -6.470"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"123.196793 -248.429565 110.491455"
+					"PortraitAngles"		"358.333191 112.725281 0.000000"
+					"PortraitFOV"		"28.809999"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_windrunner"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/windrunner/windranger_arcana/windranger_arcana_shackleshot.vpcf"
+			"modifier"		"particles/econ/items/windrunner/windranger_arcana/wr_ti8_shackleshot_combo.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_combined"
+			"asset"		"particles/econ/items/windrunner/windranger_arcana/windranger_arcana_shackleshot_v2.vpcf"
+			"modifier"		"particles/econ/items/windrunner/windranger_arcana/wr_ti8_shackleshot_combo_v2.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"modifier"		"ti8"
+			"asset"		"ALL"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_windrunner/windrunner_shackleshot.vpcf"
+			"modifier"		"particles/econ/items/windrunner/wr_ti8_immortal_shoulder/wr_ti8_shackleshot.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_windrunner/windrunner_shackleshot_pair_tree.vpcf"
+			"modifier"		"particles/econ/items/windrunner/wr_ti8_immortal_shoulder/wr_ti8_shackleshot_pair_tree.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_windrunner/windrunner_shackleshot_pair.vpcf"
+			"modifier"		"particles/econ/items/windrunner/wr_ti8_immortal_shoulder/wr_ti8_shackleshot_pair.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_windrunner/windrunner_shackleshot_single.vpcf"
+			"modifier"		"particles/econ/items/windrunner/wr_ti8_immortal_shoulder/wr_ti8_shackleshot_single.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"windrunner_shackleshot"
+			"modifier"		"windrunner_shackleshot_ti8immortal"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Windrunner.ShackleshotBind"
+			"modifier"		"Hero_Windrunner.ShackleshotBind.TI8"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Windrunner.ShackleshotStun"
+			"modifier"		"Hero_Windrunner.ShackleshotStun.TI8"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/windrunner/wr_ti8_immortal_shoulder/wr_ti8_ambients.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_control_point"
+			"asset"		"particles/econ/items/windrunner/wr_ti8_immortal_shoulder/wr_ti8_ambients.vpcf"
+			"control_point_number"		"16"
+			"cp_position"		"255 220 35"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"24"
+{
+	"name"		"Wind Ranger's Cape"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/heroes/windrunner/windrunner_cape"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Wind_Rangers_Cape"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_Cape"
+	"model_player"		"models/heroes/windrunner/windrunner_cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-78.673515 89.240776 103.770721"
+			"PortraitLightAngles"		"21.395874 288.424072 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"120"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"0.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.700000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"1.830 -13.960 -6.470"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-58.959755 106.376129 110.519493"
+					"PortraitAngles"		"14.414063 303.458862 0.477905"
+					"PortraitFOV"		"90"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_windrunner"		"1"
+	}
+}
+
+"25"
+{
+	"name"		"Wind Ranger's Quiver"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/heroes/windrunner/windrunner_quiver"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Wind_Rangers_Quiver"
+	"item_slot"		"offhand_weapon"
+	"item_type_name"		"#DOTA_WearableType_Quiver"
+	"model_player"		"models/heroes/windrunner/windrunner_quiver.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"3.630990 108.315468 146.905502"
+			"PortraitLightAngles"		"19.671021 254.223633 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"94"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"0.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.700000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"1.830 -13.960 -6.470"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-150.969894 91.175064 178.395645"
+					"PortraitAngles"		"19.429321 331.364136 355.253906"
+					"PortraitFOV"		"31"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_windrunner"		"1"
+	}
+}
+
+"828"
+{
+	"name"		"Windranger's Base"
+	"prefab"		"default_item"
+	"creation_date"		"2024-12-10"
+	"image_inventory"		"econ/heroes/windrunner/windrunner_base"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Windrangers_Base"
+	"item_slot"		"hero_base"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_windrunner"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+	}
+}
+
