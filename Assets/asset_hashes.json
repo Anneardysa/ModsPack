@@ -1,11 +1,19 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-30T07:24:48Z",
+  "generatedAt": "2026-06-30T10:07:34Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
       "size": 6816805
+    },
+    "Assets/misc/announcer/default.zip": {
+      "sha256": "48B1F5AF76914ACFD8BEA3678676C2A1E9B8D084E2ECEE222E9EE2F846537456",
+      "size": 496
+    },
+    "Assets/misc/announcer/rickmorty.zip": {
+      "sha256": "D8163FB450042927FF0BD743F074E6B19C201FF6E14E3220D3A86EBFBD6ABE00",
+      "size": 9831
     },
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -79,6 +87,14 @@
       "sha256": "304DED8C22720560912995982B59E3DF82E0443202B1188D7CB750F0DF12AE55",
       "size": 74763
     },
+    "Assets/misc/mega_kills/default.zip": {
+      "sha256": "AA006B8AA74304D3A2D7E1BDCF27FE379CC0D049B80D827DE42F768BE52D7672",
+      "size": 459
+    },
+    "Assets/misc/mega_kills/rickmorty.zip": {
+      "sha256": "E4F78AD18E9CDA73EBD2D17A46D899CE783D8516B8C0D3BAB30945D85F6DB542",
+      "size": 4224
+    },
     "Assets/misc/river/Blood/Blood.zip": {
       "sha256": "8678638D9D18F4C776E7AEDAFF52622527BCE21A982D129D10144E90DF7555B6",
       "size": 48550
@@ -102,6 +118,10 @@
     "Assets/misc/roshan/cosmic.zip": {
       "sha256": "B857A51B37994656C2E6DDCC66B07220BB2F76D786B65B498DBA9AC5180E6870",
       "size": 894798
+    },
+    "Assets/misc/roshan/default.zip": {
+      "sha256": "D9AD23C5069F0C5F934279DF8694511849BEB2081D0F1C7815B600F9751376B0",
+      "size": 879
     },
     "Assets/misc/special/lpv1.zip": {
       "sha256": "F57C3D8D987EE8FFC40B2F08AEBBBFC1C077CB015A4425CA07B6341C1C8C7047",

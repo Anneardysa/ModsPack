@@ -2554,7 +2554,8 @@
                 },
                 {
                     "name": "Tine",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/tine.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/tine.txt",
+                    "thumbnailId": "tine"
                 },
                 {
                     "name": "Unbroken",
@@ -2601,6 +2602,42 @@
                 {
                     "name": "Roshan Cosmic 2025",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/roshan/cosmic.zip"
+                }
+            ]
+        },
+        {
+            "id": "announcer",
+            "displayName": "Announcer",
+            "category": "Audio & Visual",
+            "thumbnailFolder": "announcer",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Default Announcer",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/default.zip"
+                },
+                {
+                    "name": "Rick and Morty",
+                    "thumbnailId": "rickmorty",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/rickmorty.zip"
+                }
+            ]
+        },
+        {
+            "id": "mega_kills",
+            "displayName": "Mega-Kills",
+            "category": "Audio & Visual",
+            "thumbnailFolder": "mega_kills",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Default Mega-Kills",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/mega_kills/default.zip"
+                },
+                {
+                    "name": "Rick and Morty",
+                    "thumbnailId": "rickmorty",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/mega_kills/rickmorty.zip"
                 }
             ]
         }
