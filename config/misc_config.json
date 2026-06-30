@@ -2490,15 +2490,18 @@
                 },
                 {
                     "name": "DAC 2015 - CK",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_ck_2015.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_ck_2015.txt",
+                    "thumbnailId": "dac_ck_2015"
                 },
                 {
                     "name": "DAC 2015 - CM",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_cm_2015.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_cm_2015.txt",
+                    "thumbnailId": "dac_cm_2015"
                 },
                 {
                     "name": "DAC 2015 - Mirana",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_mirana_2015.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_mirana_2015.txt",
+                    "thumbnailId": "dac_mirana_2015"
                 },
                 {
                     "name": "Diretide",
@@ -2511,10 +2514,6 @@
                 {
                     "name": "Emerald",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/emerald.txt"
-                },
-                {
-                    "name": "Diretide",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/diretide.txt"
                 },
                 {
                     "name": "Shen",
@@ -2530,23 +2529,28 @@
                 },
                 {
                     "name": "The International 2015",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2015.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2015.txt",
+                    "thumbnailId": "ti_2015"
                 },
                 {
                     "name": "The International 2016",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2016.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2016.txt",
+                    "thumbnailId": "ti_2016"
                 },
                 {
                     "name": "The International 2017",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2017.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2017.txt",
+                    "thumbnailId": "ti_2017"
                 },
                 {
                     "name": "The International 2018",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2018.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2018.txt",
+                    "thumbnailId": "ti_2018"
                 },
                 {
                     "name": "The International 2019",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2019.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2019.txt",
+                    "thumbnailId": "ti_2019"
                 },
                 {
                     "name": "Tine",
@@ -2563,6 +2567,32 @@
                 {
                     "name": "Wrath",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/wrath.txt"
+                }
+            ]
+        },
+        {
+            "id": "ancient",
+            "displayName": "Ancient",
+            "category": "Environment",
+            "thumbnailFolder": "ancient",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "New Bloom Ancient Dragon",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/ancient/new_bloom.zip"
+                }
+            ]
+        },
+        {
+            "id": "roshan",
+            "displayName": "Roshan",
+            "category": "Environment",
+            "thumbnailFolder": "roshan",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Roshan Cosmic 2025",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/roshan/cosmic.zip"
                 }
             ]
         }
