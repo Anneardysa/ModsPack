@@ -3420,10 +3420,12 @@
       "Set 12": {
         "styles": {
           "Sylvian": [
-            "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian.zip"
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Windranger/item_shoulder_sylvian/item_shoulder_sylvian.png"
           ],
           "Sylvian Arcana Mode": [
-            "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian_arcana.zip"
+            "https://cdn.ardysamods.my.id/Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian_arcana.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Windranger/item_shoulder_sylvian/item_shoulder_sylvian_arcana.png"
           ]
         }
       }
