@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-30T03:59:15Z",
+  "generatedAt": "2026-06-30T04:06:40Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -1132,8 +1132,8 @@
       "size": 49252
     },
     "Assets/models/Windranger/item_shoulder_sylvian.zip": {
-      "sha256": "E74A0C3CDA090A4E6C1D3A7B37E48D3B24B63ECCFC096F903A95098BF5865018",
-      "size": 4567915
+      "sha256": "B56E5ED6DD3844EE344539849168DA72862720E19DEB7F40D73A4E240C132E51",
+      "size": 3996971
     },
     "Assets/models/Windranger/item_weapon_peregrine.zip": {
       "sha256": "62A001F96D89A64AE66C59EE7BC495EBC2E190EDB8546425E58F05D352885587",
