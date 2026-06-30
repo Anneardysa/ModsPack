@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-30T04:06:40Z",
+  "generatedAt": "2026-06-30T05:30:08Z",
   "assets": {
     "Assets/misc/Attack Modifier/Aghanim/Aghanim.zip": {
       "sha256": "F7FF9606D482502EC14672B19C0004447C882086C65497422DB87738D497C015",
@@ -1108,12 +1108,12 @@
       "size": 2776024
     },
     "Assets/models/Windranger/autumn_zinogre/autumn_zinogre_1.zip": {
-      "sha256": "B203B0378154468CAD6AFEF562AFA7FFCFDA29A9D87C5274163476188E649A10",
-      "size": 3139868
+      "sha256": "61A0E814D6C84656BCABB809D1558F35E7909B9562100852D11E55FFA346D897",
+      "size": 3132463
     },
     "Assets/models/Windranger/autumn_zinogre/autumn_zinogre_2.zip": {
-      "sha256": "6EBF865EDE8DDA650C91DAA988BEF706D7128FD6F73971255F5FD843909CB60C",
-      "size": 3139677
+      "sha256": "791DBEA9DC5B1F9DAD46D2AFC3560B9CCA4DD040811C086741638B60EC4C0271",
+      "size": 3132272
     },
     "Assets/models/Windranger/base_arcana_1.zip": {
       "sha256": "9BE94D80B49BEC243E1D5717CC10D99033B063537B384343BF8F7D1179EC1B24",
@@ -1140,28 +1140,28 @@
       "size": 268116
     },
     "Assets/models/Windranger/prism_zinogre/prism_zinogre_1.zip": {
-      "sha256": "122EDA2319382B944B4532D5C425B950ED25C195005D495BA9456E1B6691BD94",
-      "size": 4535189
+      "sha256": "159AEA1B445C27C79FF1747DE9CDCD0C50D28B2927C2E2F7D00839F7F3AD0E84",
+      "size": 4527784
     },
     "Assets/models/Windranger/prism_zinogre/prism_zinogre_2.zip": {
-      "sha256": "FEFDB0ACC8C482A2BC8FB9E96FB0E1B778A0371C758047103B329E84CC25A915",
-      "size": 4535210
+      "sha256": "60DB77B19765F159F31BCDE842BD30B0648CBF5E0248873B7949C44CD7192B6D",
+      "size": 4527805
     },
     "Assets/models/Windranger/syl_zinogre/syl_zinogre_1.zip": {
-      "sha256": "4BA69B081BB1DFC07C13F1BCF8980536D800F73940AB428979513A6742A6CAB1",
-      "size": 3140025
+      "sha256": "A95011D6C3AFE4DDF0EFC7ADC5E2AC456A3F48F40A9D3695DC9574EC5F095508",
+      "size": 3132620
     },
     "Assets/models/Windranger/syl_zinogre/syl_zinogre_2.zip": {
       "sha256": "0914B4676DB020B06C4A1D4B2DDB390BE9DB916E620ACAF05EDC0ECD0E6D5AD0",
       "size": 3140225
     },
     "Assets/models/Windranger/zinogre/zinogre_1.zip": {
-      "sha256": "0D9640AEBB6C13D17C654EDA9A6BAB6B0D367F1675856ACB243204D2B948D2BE",
-      "size": 3127646
+      "sha256": "72EEBDC11EA00BFF2026B7F217B72191468E2C5394C0167E2CADE2540689D467",
+      "size": 3120241
     },
     "Assets/models/Windranger/zinogre/zinogre_2.zip": {
-      "sha256": "D38E49A1D388A1FBC584B8BBE5B43ECF4B13F80EDC65A0C35190D1BB9504534E",
-      "size": 3127545
+      "sha256": "6955ABF901BF96FEC66820BDEA1F4AD4635EC58F9B63F663252D61E343C768AA",
+      "size": 3120140
     },
     "Assets/Original.zip": {
       "sha256": "499789F9104ECEB24D0ABD17FC37AD2BEB7DEBA54BD8F2720EFE1703AD77468B",
