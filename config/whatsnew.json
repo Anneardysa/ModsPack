@@ -1,5 +1,21 @@
 [
   {
+    "tag_name": "v2.2.8-beta",
+    "name": "v2.2.8-beta (Build 2194)",
+    "body": "# Release Notes — v2.2.8-beta\r\n\r\n> Builds **2189-2194**\r\n\r\nThis release modernizes the confirm dialogs into in-shell modals, sharpens Skin Selector and Miscellaneous generation, and adds quality-of-life touches.\r\n\r\n---\r\n\r\n## 🌟 Highlights\r\n\r\n- **In-shell confirm modals**: Confirm Generation and Confirm Install now use shell-style WebView modals instead of native boxes.\r\n- **Smarter Skin Selector**: Skipped/failed sets are surfaced in the completion dialog and live log, with a saved per-run report.\r\n- **More Miscellaneous categories**: Cursor, ancient, roshan, announcer, and mega_kills are now available.\r\n\r\n---\r\n\r\n## ✨ Added\r\n\r\n- **Support — daily snooze**: \"Don't show this today\" hides the on-launch support prompt for the day.\r\n- **Miscellaneous — Clear button**: Reset all options to default in one click.\r\n- **Skin Selector — generation report**: Per-run report kept for the last 10 runs.\r\n\r\n## 🛠️ Changed\r\n\r\n- **Confirm dialogs**: Confirm Generation and Confirm Install rebuilt as in-shell WebView modals (native fallback on the classic form).\r\n- **Logging**: User-facing logs now say \"package\" instead of `items_game.txt`.\r\n\r\n## 🐛 Fixed\r\n\r\n- **Skin Selector**: Fixed thumbnails and a generate `STATUS_BREAKPOINT` crash.\r\n- **Miscellaneous**: Short block IDs now resolve the correct item instead of colliding.\r\n- **Manual VPK drag-drop**: Reliable single-`.vpk` drop over the dropzone.\r\n\r\n---\r\n\r\n_For the full per-build breakdown, see [CHANGELOG.md](CHANGELOG.md)._\r\n",
+    "html_url": "https://github.com/Anneardysa/ArdysaModsTools/releases/tag/v2.2.8-beta",
+    "draft": false,
+    "published_at": "2026-06-30T12:30:25Z"
+  },
+  {
+    "tag_name": "v2.2.7-beta",
+    "name": "v2.2.7-beta (Build 2188)",
+    "body": "# Release Notes — v2.2.7\r\n\r\n> Builds **2184-2188**\r\n\r\nThis release focuses on localization, drag-and-drop improvements, high DPI scaling alignment, and UI refinements. The Dota 2 Performance Tweak page is now fully localized across all 8 supported languages with live dynamic culture updates, you can now drag-and-drop `.vpk` and `.zip` mod files directly into the client, and the main shell has been widened to give navigation elements more breathing room.\r\n\r\n---\r\n\r\n## 🌟 Highlights\r\n\r\n- **Full Localization for Dota 2 Performance** — The tweak page categories, options, dropdown values, and descriptions are now fully translated across all 8 supported languages with instant live-switching.\r\n- **Drag & Drop Mod Import** — Import mods directly by dragging and dropping `.vpk` or `.zip` files onto the Install Method WebView dialog.\r\n- **Widened Main Shell** — The main window size has been expanded to `1280x780` with a wider sidebar panel (`280px`) to prevent navigation labels from clipping or wrapping.\r\n- **Better DPI scaling alignment** — Fixed layout clipping issues at high DPI settings by aligning WinForms host DPI scaling with WebView2 layout rendering.\r\n\r\n---\r\n\r\n## ✨ Added\r\n\r\n- **Drag & Drop support** — Enabled importing `.vpk` or `.zip` files directly by dragging them onto the Install Method dialog.\r\n- **Zip-nested VPK import** — Added automatic extraction and support for `pak01_dir.vpk` files nested inside `.zip` archives.\r\n- **Dynamic UI Zoom** — Configurable user-controlled UI scaling (Normal/Large/Extra Large) applied on form load.\r\n- **Dota 2 Performance live updates** — Bound performance tweak forms to active language changes so text updates dynamically without a restart.\r\n\r\n## 🛠️ Changed\r\n\r\n- **Wider sidebar & main shell** — Widened the main host window to `1280x780` and the sidebar to `280px` to fit non-English labels comfortably.\r\n- **Brand logo in Performance Tweak** — Swapped out the lightning bolt icon in the performance tweak page title bar for the official Ardysa brand logo.\r\n- **Localized host alerts** — Moved Patcher/Patcher toast alerts and status banners to the central localization system.\r\n\r\n---\r\n\r\n_For the full per-build breakdown, see [CHANGELOG.md](CHANGELOG.md)._\r\n",
+    "html_url": "https://github.com/Anneardysa/ArdysaModsTools/releases/tag/v2.2.7-beta",
+    "draft": false,
+    "published_at": "2026-06-28T03:27:17Z"
+  },
+  {
     "tag_name": "v2.2.6-beta",
     "name": "v2.2.6-beta (Build 2183)",
     "body": "# Release Notes — v2.2.6-beta\r\n\r\n> Builds **2181-2183**\r\n\r\nThis release trims the app down and speeds it up: the Miscellaneous and Skin Selector pages are now WebView2-only (a large chunk of old, unused code is gone), Miscellaneous generation no longer idles, and Dota 2 Performance gains a one-click way to remove your `autoexec.cfg`. The \"What's New\" promo card and ModsPack version can now also be updated from the server without shipping a new app build.\r\n\r\n---\r\n\r\n## 🌟 Highlights\r\n\r\n- **Snappier Miscellaneous generation** — Removed the artificial pacing delays, so generating mods finishes noticeably faster with no change to what's produced.\r\n- **Remove your autoexec.cfg in one click** — Dota 2 Performance now has a control to delete the installed `autoexec.cfg`, with a clear confirmation and the page reset back to the recommended-but-not-written state.\r\n- **Leaner app** — The legacy classic-WinForms versions of the Skin Selector and Miscellaneous pages (long superseded by the WebView2 UI) were removed, along with a large amount of dead code (~6,000+ lines).\r\n- **Fresher promo card, no update needed** — The \"Install ModsPack\" card image and ModsPack version badge are now driven by a server config file, so they can be refreshed without releasing a new app version.\r\n\r\n---\r\n\r\n## 🛠️ Changed\r\n\r\n- **Faster Miscellaneous generation** — About 1.5 s of built-in waiting was removed from the generation steps. Progress reporting is unchanged; it just no longer sits idle between steps.\r\n- **WebView2-only Skin Selector & Miscellaneous** — These pages now run only on the modern WebView2 UI. If the WebView2 runtime isn't available, the page shows a short \"requires the WebView2 runtime\" notice instead of falling back to the old interface.\r\n- **Up-to-date promo card** — The \"Install ModsPack\" card art is now refreshed from the CDN reliably, so a changed image shows up on the next launch instead of a stale cached copy.\r\n\r\n## ✨ Added\r\n\r\n- **Remove autoexec.cfg** — In Dota 2 Performance, you can now delete the `autoexec.cfg` that the app installed. You'll get a toast confirming it was removed (or that there was nothing to remove), and the page returns to showing the recommended preset values.\r\n\r\n## 🗑️ Removed\r\n\r\n- **Old classic UI** — The classic-WinForms Skin Selector and Miscellaneous windows and their unused supporting code were removed. The WebView2 versions have been the default for some time; this just clears out the parallel, unused implementation.\r\n\r\n---\r\n\r\n_For the full per-build breakdown, see [CHANGELOG.md](CHANGELOG.md)._\r\n",
@@ -222,21 +238,5 @@
     "html_url": "https://github.com/Anneardysa/ArdysaModsTools/releases/tag/v2.1.8-beta",
     "draft": false,
     "published_at": "2026-02-03T02:11:20Z"
-  },
-  {
-    "tag_name": "v2.1.7-beta",
-    "name": "v2.1.7-beta",
-    "body": "",
-    "html_url": "https://github.com/Anneardysa/ArdysaModsTools/releases/tag/v2.1.7-beta",
-    "draft": false,
-    "published_at": "2026-01-29T03:19:32Z"
-  },
-  {
-    "tag_name": "v2.1.6-beta",
-    "name": "v2.1.6-beta",
-    "body": "",
-    "html_url": "https://github.com/Anneardysa/ArdysaModsTools/releases/tag/v2.1.6-beta",
-    "draft": false,
-    "published_at": "2026-01-25T23:18:41Z"
   }
 ]
