@@ -2584,6 +2584,7 @@
                 },
                 {
                     "name": "New Bloom Ancient Dragon",
+                    "thumbnailId": "new_bloom",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/ancient/new_bloom.zip"
                 }
             ]
@@ -2601,6 +2602,7 @@
                 },
                 {
                     "name": "Roshan Cosmic 2025",
+                    "thumbnailId": "cosmic",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/roshan/cosmic.zip"
                 }
             ]
