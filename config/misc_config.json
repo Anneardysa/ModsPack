@@ -2578,6 +2578,10 @@
             "thumbnailExtension": "png",
             "choices": [
                 {
+                    "name": "Default Ancient",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md"
+                },
+                {
                     "name": "New Bloom Ancient Dragon",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/ancient/new_bloom.zip"
                 }
