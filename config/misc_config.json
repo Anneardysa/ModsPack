@@ -2452,6 +2452,10 @@
             "thumbnailExtension": "png",
             "choices": [
                 {
+                    "name": "Default Kill Streak",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Default.txt"
+                },
+                {
                     "name": "Diretide",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Diretide.txt"
                 },
