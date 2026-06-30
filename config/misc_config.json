@@ -2472,6 +2472,99 @@
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Ice.txt"
                 }
             ]
+        },
+        {
+            "id": "cursor",
+            "displayName": "Cursor",
+            "category": "Interface",
+            "thumbnailFolder": "cursor",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Default",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/default.txt"
+                },
+                {
+                    "name": "Acid",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/acid.txt"
+                },
+                {
+                    "name": "DAC 2015 - CK",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_ck_2015.txt"
+                },
+                {
+                    "name": "DAC 2015 - CM",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_cm_2015.txt"
+                },
+                {
+                    "name": "DAC 2015 - Mirana",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_mirana_2015.txt"
+                },
+                {
+                    "name": "Diretide",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/diretide.txt"
+                },
+                {
+                    "name": "Dragonus",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dragonus.txt"
+                },
+                {
+                    "name": "Emerald",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/emerald.txt"
+                },
+                {
+                    "name": "Diretide",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/diretide.txt"
+                },
+                {
+                    "name": "Shen",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/shen.txt"
+                },
+                {
+                    "name": "Steam",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/steam.txt"
+                },
+                {
+                    "name": "Summit",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/summit.txt"
+                },
+                {
+                    "name": "The International 2015",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2015.txt"
+                },
+                {
+                    "name": "The International 2016",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2016.txt"
+                },
+                {
+                    "name": "The International 2017",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2017.txt"
+                },
+                {
+                    "name": "The International 2018",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2018.txt"
+                },
+                {
+                    "name": "The International 2019",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2019.txt"
+                },
+                {
+                    "name": "Tine",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/tine.txt"
+                },
+                {
+                    "name": "Unbroken",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/unbroken.txt"
+                },
+                {
+                    "name": "Warcog",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/warcog.txt"
+                },
+                {
+                    "name": "Wrath",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/wrath.txt"
+                }
+            ]
         }
     ]
 }
