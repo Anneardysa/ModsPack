@@ -2443,6 +2443,31 @@
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv2.zip"
                 }
             ]
+        },
+        {
+            "id": "kill_streak",
+            "displayName": "Kill Streak",
+            "category": "Audio & Visual",
+            "thumbnailFolder": "kill_streak",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Diretide",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Diretide.txt"
+                },
+                {
+                    "name": "Fire",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Fire.txt"
+                },
+                {
+                    "name": "Gold",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Gold.txt"
+                },
+                {
+                    "name": "Ice",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Ice.txt"
+                }
+            ]
         }
     ]
 }

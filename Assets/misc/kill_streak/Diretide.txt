@@ -1,0 +1,76 @@
+"14912"
+{
+	"name"		"Diretide Kill Streak Effect"
+	"prefab"		"streak_effect"
+	"baseitem"		"1"
+	"creation_date"		"2020-10-09"
+	"event_id"		"EVENT_ID_DIRETIDE_2020"
+	"expiration_date"		"2020-12-22 12:00:00"
+	"image_inventory"		"econ/tools/diretide20_kill_streak"
+	"item_name"		"#DOTA_Item_Diretide_Kill_Streak_Effect"
+	"item_rarity"		"seasonal"
+	"static_attributes"
+	{
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+		"not marketable"
+		{
+			"attribute_class"		"not marketable"
+			"value"		"1"
+		}
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"streak_effect"
+			"asset"		"top_bar_lvl1"
+			"modifier"		"particles/killstreak/killstreak_dt20_topbar_lv1.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"streak_effect"
+			"asset"		"top_bar_lvl2"
+			"modifier"		"particles/killstreak/killstreak_dt20_topbar_lv2.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"streak_effect"
+			"asset"		"portrait_lvl1"
+			"modifier"		"particles/killstreak/killstreak_dt20_hud_lv1.vpcf"
+		}
+		"asset_modifier3"
+		{
+			"type"		"streak_effect"
+			"asset"		"portrait_lvl2"
+			"modifier"		"particles/killstreak/killstreak_dt20_hud_lv2.vpcf"
+		}
+		"asset_modifier4"
+		{
+			"type"		"streak_effect"
+			"asset"		"class"
+			"modifier"		"DiretideStreak"
+		}
+		"asset_modifier5"
+		{
+			"type"		"streak_effect"
+			"asset"		"health_bar"
+			"modifier"		"streak_green_bg"
+		}
+		"asset_modifier6"
+		{
+			"type"		"streak_effect"
+			"asset"		"health_bar_particle_lv1"
+			"modifier"		"particles/killstreak/killstreak_dt20_hpbar_lv1.vpcf"
+		}
+		"asset_modifier7"
+		{
+			"type"		"streak_effect"
+			"asset"		"health_bar_particle_lv2"
+			"modifier"		"particles/killstreak/killstreak_dt20_hpbar_lv2.vpcf"
+		}
+	}
+}
