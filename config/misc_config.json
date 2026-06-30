@@ -11,6 +11,159 @@
     ],
     "options": [
         {
+            "id": "ancient",
+            "displayName": "Ancient",
+            "category": "Environment",
+            "thumbnailFolder": "ancient",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Default Ancient",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md"
+                },
+                {
+                    "name": "New Bloom Ancient Dragon",
+                    "thumbnailId": "new_bloom",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/ancient/new_bloom.zip"
+                }
+            ]
+        },
+        {
+            "id": "River",
+            "displayName": "River Vial",
+            "category": "Environment",
+            "thumbnailFolder": "river",
+            "choices": [
+                {
+                    "name": "Default Vial",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/root.md",
+                    "thumbnailId": "dry_vial"
+                },
+                {
+                    "name": "Blood Vial",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Blood/Blood.zip"
+                },
+                {
+                    "name": "Chrome Vial",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Chrome/Chrome.zip"
+                },
+                {
+                    "name": "Dry Vial",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Dry/Dry.zip"
+                },
+                {
+                    "name": "Electrifield Vial",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Electrifield/Electrifield.zip"
+                },
+                {
+                    "name": "Oil Vial",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Oil/Oil.zip"
+                }
+            ]
+        },
+        {
+            "id": "roshan",
+            "displayName": "Roshan",
+            "category": "Environment",
+            "thumbnailFolder": "roshan",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Default Roshan",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/roshan/default.zip"
+                },
+                {
+                    "name": "Roshan Cosmic 2025",
+                    "thumbnailId": "cosmic",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/roshan/cosmic.zip"
+                }
+            ]
+        },
+        {
+            "id": "Map",
+            "displayName": "Terrain",
+            "category": "Environment",
+            "thumbnailFolder": "terrain",
+            "excludesWith": [
+                "Special"
+            ],
+            "choices": [
+                {
+                    "name": "Default Terrain",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Default.txt"
+                },
+                {
+                    "name": "Desert Terrain",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Desert.txt"
+                },
+                {
+                    "name": "Emerald Abyss",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Emerald.txt"
+                },
+                {
+                    "name": "Immortal Gardens",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Immortal.txt"
+                },
+                {
+                    "name": "Overgrown Empire",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Overgrown.txt"
+                },
+                {
+                    "name": "Reef's Edge",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Reef.txt"
+                },
+                {
+                    "name": "Sanctum of the Divine",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Sanctum.txt"
+                },
+                {
+                    "name": "Seasonal - Autumn",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Autumn.txt"
+                },
+                {
+                    "name": "Seasonal - Spring",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Spring.txt"
+                },
+                {
+                    "name": "Seasonal - Summer",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Summer.txt"
+                },
+                {
+                    "name": "Seasonal - Winter",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Winter.txt"
+                },
+                {
+                    "name": "The King's New Journey",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/King.txt"
+                }
+            ]
+        },
+        {
+            "id": "Special",
+            "displayName": "Low Poly Map",
+            "category": "Environment",
+            "thumbnailFolder": "special",
+            "thumbnailExtension": "png",
+            "type": "vpk",
+            "excludesWith": [
+                "Map"
+            ],
+            "choices": [
+                {
+                    "name": "Disable Special",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md"
+                },
+                {
+                    "name": "LowPolyMap",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv1.zip"
+                },
+                {
+                    "name": "LowPolyMap Cartoon Trees",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv2.zip"
+                }
+            ]
+        },
+        {
             "id": "Weather",
             "displayName": "Weather",
             "category": "Environment",
@@ -59,249 +212,38 @@
             ]
         },
         {
-            "id": "Map",
-            "displayName": "Terrain",
-            "category": "Environment",
-            "thumbnailFolder": "terrain",
-            "excludesWith": [
-                "Special"
-            ],
-            "choices": [
-                {
-                    "name": "Default Terrain",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Default.txt"
-                },
-                {
-                    "name": "Seasonal - Autumn",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Autumn.txt"
-                },
-                {
-                    "name": "Seasonal - Spring",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Spring.txt"
-                },
-                {
-                    "name": "Seasonal - Summer",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Summer.txt"
-                },
-                {
-                    "name": "Seasonal - Winter",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Seasonal%20Terrain%20-%20Winter.txt"
-                },
-                {
-                    "name": "Desert Terrain",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Desert.txt"
-                },
-                {
-                    "name": "Immortal Gardens",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Immortal.txt"
-                },
-                {
-                    "name": "Reef's Edge",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Reef.txt"
-                },
-                {
-                    "name": "Emerald Abyss",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Emerald.txt"
-                },
-                {
-                    "name": "Overgrown Empire",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Overgrown.txt"
-                },
-                {
-                    "name": "Sanctum of the Divine",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/Sanctum.txt"
-                },
-                {
-                    "name": "The King's New Journey",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/terrain/King.txt"
-                }
-            ]
-        },
-        {
-            "id": "River",
-            "displayName": "River Vial",
-            "category": "Environment",
-            "thumbnailFolder": "river",
-            "choices": [
-                {
-                    "name": "Default Vial",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/root.md",
-                    "thumbnailId": "dry_vial"
-                },
-                {
-                    "name": "Blood Vial",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Blood/Blood.zip"
-                },
-                {
-                    "name": "Chrome Vial",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Chrome/Chrome.zip"
-                },
-                {
-                    "name": "Dry Vial",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Dry/Dry.zip"
-                },
-                {
-                    "name": "Electrifield Vial",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Electrifield/Electrifield.zip"
-                },
-                {
-                    "name": "Oil Vial",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/river/Oil/Oil.zip"
-                }
-            ]
-        },
-        {
-            "id": "Music",
-            "displayName": "Music",
+            "id": "announcer",
+            "displayName": "Announcer",
             "category": "Audio & Visual",
-            "thumbnailFolder": "music",
+            "thumbnailFolder": "announcer",
+            "thumbnailExtension": "png",
             "choices": [
                 {
-                    "name": "Default Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Default.txt"
+                    "name": "Default Announcer",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/default.zip"
                 },
                 {
-                    "name": "Deadmau5 Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Deadmau5.txt",
-                    "thumbnailId": "deadmau5"
-                },
-                {
-                    "name": "Elemental Fury Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Elemental.txt",
-                    "thumbnailId": "elemental"
-                },
-                {
-                    "name": "Desert Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Desert.txt",
-                    "thumbnailId": "desert"
-                },
-                {
-                    "name": "Magic Sticks of Dynamite",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dynamite.txt",
-                    "thumbnailId": "dynamite"
-                },
-                {
-                    "name": "The FatRat Warrior Songs",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/FatRat.txt",
-                    "thumbnailId": "fatrat"
-                },
-                {
-                    "name": "Heroes Within Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/HeroesWithin.txt",
-                    "thumbnailId": "heroeswithin"
-                },
-                {
-                    "name": "Humanitys Last Breath Void",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Humanitys.txt",
-                    "thumbnailId": "humanitys"
-                },
-                {
-                    "name": "Northern Winds Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Northern.txt",
-                    "thumbnailId": "northern"
-                },
-                {
-                    "name": "JJ Lins Timekeeper Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Timekeeper.txt",
-                    "thumbnailId": "timekeeper"
-                },
-                {
-                    "name": "Monster Hunter Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/MonsterHunter.txt",
-                    "thumbnailId": "monsterhunter"
-                },
-                {
-                    "name": "Matt Lange Abstraction Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/MattLange.txt",
-                    "thumbnailId": "mattlange"
-                },
-                {
-                    "name": "Dire Shred Cover Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dire.txt",
-                    "thumbnailId": "dire"
-                },
-                {
-                    "name": "Nemestice 2021",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Nemestice.txt",
-                    "thumbnailId": "nemestice"
-                },
-                {
-                    "name": "Harmonies of New Bloom Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Harmonies.txt",
-                    "thumbnailId": "harmonies"
-                },
-                {
-                    "name": "The International 2014",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2014.txt",
-                    "thumbnailId": "2014"
-                },
-                {
-                    "name": "The International 2015",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2015.txt",
-                    "thumbnailId": "2015"
-                },
-                {
-                    "name": "The International 2016",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2016.txt",
-                    "thumbnailId": "2016"
-                },
-                {
-                    "name": "The International 2017",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2017.txt",
-                    "thumbnailId": "2017"
-                },
-                {
-                    "name": "The International 2018",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2018.txt",
-                    "thumbnailId": "2018"
-                },
-                {
-                    "name": "The International 2019",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2019.txt",
-                    "thumbnailId": "2019"
-                },
-                {
-                    "name": "The International 2020",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/TI10.txt",
-                    "thumbnailId": "ti10"
-                },
-                {
-                    "name": "The International 2022",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2022.txt",
-                    "thumbnailId": "2022"
-                },
-                {
-                    "name": "Songs of the Caravan Music",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Caravan.txt",
-                    "thumbnailId": "caravan"
+                    "name": "Rick and Morty",
+                    "thumbnailId": "rickmorty",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/rickmorty.zip"
                 }
             ]
         },
         {
-            "id": "Shader",
-            "displayName": "Shaders",
+            "id": "mega_kills",
+            "displayName": "Mega-Kills",
             "category": "Audio & Visual",
-            "thumbnailFolder": "shader",
+            "thumbnailFolder": "mega_kills",
+            "thumbnailExtension": "png",
             "choices": [
                 {
-                    "name": "Disable Shader",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md",
-                    "thumbnailId": "10th_anniversary_shader"
+                    "name": "Default Mega-Kills",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/mega_kills/default.zip"
                 },
                 {
-                    "name": "Aghanim Labyrinth",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Aghanim/materials/dev/deferred_post_process.vmat_c"
-                },
-                {
-                    "name": "Diretide",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/deferred_post_process.vmat_c"
-                },
-                {
-                    "name": "10th Anniversary Shader",
-                    "urls": [
-                        "https://cdn.ardysamods.my.id/Assets/misc/shader/10th%20Anniversary%20Shader/materials/dev/deferred_post_process.vmat_c",
-                        "https://cdn.ardysamods.my.id/Assets/misc/shader/10th%20Anniversary%20Shader/materials/dev/fxaa.vmat_c"
-                    ]
+                    "name": "Rick and Morty",
+                    "thumbnailId": "rickmorty",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/mega_kills/rickmorty.zip"
                 }
             ]
         },
@@ -340,73 +282,16 @@
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/Nemestice/Nemestice.zip"
                 },
                 {
-                    "name": "The International 11",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/TI11/TI11.zip"
+                    "name": "The International 9",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/TI9/TI9.zip"
                 },
                 {
                     "name": "The International 10",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/TI10/TI10.zip"
                 },
                 {
-                    "name": "The International 9",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/TI9/TI9.zip"
-                }
-            ]
-        },
-        {
-            "id": "Emblems",
-            "displayName": "Emblems",
-            "category": "Audio & Visual",
-            "thumbnailFolder": "emblem",
-            "choices": [
-                {
-                    "name": "Disable Emblem",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Shaders/Diretide/materials/dev/root.md",
-                    "thumbnailId": "sunken_emblem"
-                },
-                {
-                    "name": "Aghanim 2021 Emblem",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Aghanim%202021/particles/ui_mouseactions/selected_ring.vpcf_c"
-                },
-                {
-                    "name": "BattlePass 2022 Emblem",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Battlepass%202022/particles/ui_mouseactions/selected_ring.vpcf_c"
-                },
-                {
-                    "name": "Crystal Echeron Emblem",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Crystal%20Echeron/particles/ui_mouseactions/selected_ring.vpcf_c"
-                },
-                {
-                    "name": "Divinity Emblem",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Divinity/particles/ui_mouseactions/selected_ring.vpcf_c"
-                },
-                {
-                    "name": "Diretide Green",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Green/particles/ui_mouseactions/selected_ring.vpcf_c"
-                },
-                {
-                    "name": "Diretide Blue",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Blue/particles/ui_mouseactions/selected_ring.vpcf_c"
-                },
-                {
-                    "name": "Diretide Red",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Red/particles/ui_mouseactions/selected_ring.vpcf_c"
-                },
-                {
-                    "name": "Diretide Yellow",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Yellow/particles/ui_mouseactions/selected_ring.vpcf_c"
-                },
-                {
-                    "name": "Nemestice Emblem",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Nemestice/particles/ui_mouseactions/selected_ring.vpcf_c"
-                },
-                {
-                    "name": "Overgrown Emblem",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Overgrown/particles/ui_mouseactions/selected_ring.vpcf_c"
-                },
-                {
-                    "name": "Sunken Emblem",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Sunken/particles/ui_mouseactions/selected_ring.vpcf_c"
+                    "name": "The International 11",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Attack%20Modifier/TI11/TI11.zip"
                 }
             ]
         },
@@ -459,6 +344,349 @@
             ]
         },
         {
+            "id": "Emblems",
+            "displayName": "Emblems",
+            "category": "Audio & Visual",
+            "thumbnailFolder": "emblem",
+            "choices": [
+                {
+                    "name": "Disable Emblem",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Shaders/Diretide/materials/dev/root.md"
+                },
+                {
+                    "name": "Aghanim 2021 Emblem",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Aghanim%202021/particles/ui_mouseactions/selected_ring.vpcf_c"
+                },
+                {
+                    "name": "BattlePass 2022 Emblem",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Battlepass%202022/particles/ui_mouseactions/selected_ring.vpcf_c"
+                },
+                {
+                    "name": "Crystal Echeron Emblem",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Crystal%20Echeron/particles/ui_mouseactions/selected_ring.vpcf_c"
+                },
+                {
+                    "name": "Diretide Blue",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Blue/particles/ui_mouseactions/selected_ring.vpcf_c"
+                },
+                {
+                    "name": "Diretide Green",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Green/particles/ui_mouseactions/selected_ring.vpcf_c"
+                },
+                {
+                    "name": "Diretide Red",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Red/particles/ui_mouseactions/selected_ring.vpcf_c"
+                },
+                {
+                    "name": "Diretide Yellow",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Diretide%20-%20Yellow/particles/ui_mouseactions/selected_ring.vpcf_c"
+                },
+                {
+                    "name": "Divinity Emblem",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Divinity/particles/ui_mouseactions/selected_ring.vpcf_c"
+                },
+                {
+                    "name": "Nemestice Emblem",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Nemestice/particles/ui_mouseactions/selected_ring.vpcf_c"
+                },
+                {
+                    "name": "Overgrown Emblem",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Overgrown/particles/ui_mouseactions/selected_ring.vpcf_c"
+                },
+                {
+                    "name": "Sunken Emblem",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/emblem/Sunken/particles/ui_mouseactions/selected_ring.vpcf_c"
+                }
+            ]
+        },
+        {
+            "id": "kill_streak",
+            "displayName": "Kill Streak",
+            "category": "Audio & Visual",
+            "thumbnailFolder": "kill_streak",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Default Kill Streak",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Default.txt"
+                },
+                {
+                    "name": "Diretide",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Diretide.txt"
+                },
+                {
+                    "name": "Fire",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Fire.txt"
+                },
+                {
+                    "name": "Gold",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Gold.txt"
+                },
+                {
+                    "name": "Ice",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Ice.txt"
+                }
+            ]
+        },
+        {
+            "id": "Music",
+            "displayName": "Music",
+            "category": "Audio & Visual",
+            "thumbnailFolder": "music",
+            "choices": [
+                {
+                    "name": "Default Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Default.txt"
+                },
+                {
+                    "name": "Deadmau5 Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Deadmau5.txt",
+                    "thumbnailId": "deadmau5"
+                },
+                {
+                    "name": "Desert Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Desert.txt",
+                    "thumbnailId": "desert"
+                },
+                {
+                    "name": "Dire Shred Cover Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dire.txt",
+                    "thumbnailId": "dire"
+                },
+                {
+                    "name": "Elemental Fury Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Elemental.txt",
+                    "thumbnailId": "elemental"
+                },
+                {
+                    "name": "Harmonies of New Bloom Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Harmonies.txt",
+                    "thumbnailId": "harmonies"
+                },
+                {
+                    "name": "Heroes Within Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/HeroesWithin.txt",
+                    "thumbnailId": "heroeswithin"
+                },
+                {
+                    "name": "Humanitys Last Breath Void",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Humanitys.txt",
+                    "thumbnailId": "humanitys"
+                },
+                {
+                    "name": "JJ Lins Timekeeper Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Timekeeper.txt",
+                    "thumbnailId": "timekeeper"
+                },
+                {
+                    "name": "Magic Sticks of Dynamite",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dynamite.txt",
+                    "thumbnailId": "dynamite"
+                },
+                {
+                    "name": "Matt Lange Abstraction Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/MattLange.txt",
+                    "thumbnailId": "mattlange"
+                },
+                {
+                    "name": "Monster Hunter Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/MonsterHunter.txt",
+                    "thumbnailId": "monsterhunter"
+                },
+                {
+                    "name": "Nemestice 2021",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Nemestice.txt",
+                    "thumbnailId": "nemestice"
+                },
+                {
+                    "name": "Northern Winds Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Northern.txt",
+                    "thumbnailId": "northern"
+                },
+                {
+                    "name": "Songs of the Caravan Music",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Caravan.txt",
+                    "thumbnailId": "caravan"
+                },
+                {
+                    "name": "The FatRat Warrior Songs",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/FatRat.txt",
+                    "thumbnailId": "fatrat"
+                },
+                {
+                    "name": "The International 2014",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2014.txt",
+                    "thumbnailId": "2014"
+                },
+                {
+                    "name": "The International 2015",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2015.txt",
+                    "thumbnailId": "2015"
+                },
+                {
+                    "name": "The International 2016",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2016.txt",
+                    "thumbnailId": "2016"
+                },
+                {
+                    "name": "The International 2017",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2017.txt",
+                    "thumbnailId": "2017"
+                },
+                {
+                    "name": "The International 2018",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2018.txt",
+                    "thumbnailId": "2018"
+                },
+                {
+                    "name": "The International 2019",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2019.txt",
+                    "thumbnailId": "2019"
+                },
+                {
+                    "name": "The International 2020",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/TI10.txt",
+                    "thumbnailId": "ti10"
+                },
+                {
+                    "name": "The International 2022",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2022.txt",
+                    "thumbnailId": "2022"
+                },
+                {
+                    "name": "Dark Carnival",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dark%20Carnival.txt",
+                    "thumbnailId": "dark"
+                }
+            ]
+        },
+        {
+            "id": "Shader",
+            "displayName": "Shaders",
+            "category": "Audio & Visual",
+            "thumbnailFolder": "shader",
+            "choices": [
+                {
+                    "name": "Disable Shader",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md",
+                    "thumbnailId": "10th_anniversary_shader"
+                },
+                {
+                    "name": "10th Anniversary Shader",
+                    "urls": [
+                        "https://cdn.ardysamods.my.id/Assets/misc/shader/10th%20Anniversary%20Shader/materials/dev/deferred_post_process.vmat_c",
+                        "https://cdn.ardysamods.my.id/Assets/misc/shader/10th%20Anniversary%20Shader/materials/dev/fxaa.vmat_c"
+                    ]
+                },
+                {
+                    "name": "Aghanim Labyrinth",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Aghanim/materials/dev/deferred_post_process.vmat_c"
+                },
+                {
+                    "name": "Diretide",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/deferred_post_process.vmat_c"
+                }
+            ]
+        },
+        {
+            "id": "cursor",
+            "displayName": "Cursor",
+            "category": "Interface",
+            "thumbnailFolder": "cursor",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Default",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/default.txt"
+                },
+                {
+                    "name": "Acid",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/acid.txt"
+                },
+                {
+                    "name": "DAC 2015 - CK",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_ck_2015.txt",
+                    "thumbnailId": "dac_ck_2015"
+                },
+                {
+                    "name": "DAC 2015 - CM",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_cm_2015.txt",
+                    "thumbnailId": "dac_cm_2015"
+                },
+                {
+                    "name": "DAC 2015 - Mirana",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_mirana_2015.txt",
+                    "thumbnailId": "dac_mirana_2015"
+                },
+                {
+                    "name": "Diretide",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/diretide.txt"
+                },
+                {
+                    "name": "Dragonus",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dragonus.txt"
+                },
+                {
+                    "name": "Emerald",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/emerald.txt"
+                },
+                {
+                    "name": "Shen",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/shen.txt"
+                },
+                {
+                    "name": "Steam",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/steam.txt"
+                },
+                {
+                    "name": "Summit",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/summit.txt"
+                },
+                {
+                    "name": "The International 2015",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2015.txt",
+                    "thumbnailId": "ti_2015"
+                },
+                {
+                    "name": "The International 2016",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2016.txt",
+                    "thumbnailId": "ti_2016"
+                },
+                {
+                    "name": "The International 2017",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2017.txt",
+                    "thumbnailId": "ti_2017"
+                },
+                {
+                    "name": "The International 2018",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2018.txt",
+                    "thumbnailId": "ti_2018"
+                },
+                {
+                    "name": "The International 2019",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2019.txt",
+                    "thumbnailId": "ti_2019"
+                },
+                {
+                    "name": "Tine",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/tine.txt",
+                    "thumbnailId": "tine"
+                },
+                {
+                    "name": "Unbroken",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/unbroken.txt"
+                },
+                {
+                    "name": "Warcog",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/warcog.txt"
+                },
+                {
+                    "name": "Wrath",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/wrath.txt"
+                }
+            ]
+        },
+        {
             "id": "HUD",
             "displayName": "HUD",
             "category": "Interface",
@@ -507,6 +735,14 @@
                     "thumbnailId": "winter_versus_screen"
                 },
                 {
+                    "name": "Battlepass 2022 - Diretide",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202022%20Diretide.txt"
+                },
+                {
+                    "name": "Battlepass 2022 - Nemestice",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202022%20Nemestice.txt"
+                },
+                {
                     "name": "The International 2019 - 1",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202019%20Versus%20Screen%201.txt"
                 },
@@ -517,14 +753,6 @@
                 {
                     "name": "The International 2020",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202020.txt"
-                },
-                {
-                    "name": "Battlepass 2022 - Diretide",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202022%20Diretide.txt"
-                },
-                {
-                    "name": "Battlepass 2022 - Nemestice",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/versus/The%20International%202022%20Nemestice.txt"
                 },
                 {
                     "name": "The International 2024",
@@ -544,8 +772,7 @@
             "choices": [
                 {
                     "name": "Default Radiant Creep",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Default.txt",
-                    "thumbnailId": "reptilian_refuge"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Default.txt"
                 },
                 {
                     "name": "Cavernite",
@@ -554,7 +781,7 @@
                 {
                     "name": "Crownfall",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Crownfall.txt",
-                    "thumbnailId": "cavernite"
+                    "thumbnailId": "crownfall"
                 },
                 {
                     "name": "Nemestice",
@@ -567,6 +794,11 @@
                 {
                     "name": "Woodland Warbands",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Woodland%20Warbands.txt"
+                },
+                {
+                    "name": "Dark Carnival",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Dark%20Carnival.txt",
+                    "thumbnailId": "dark_carnival"
                 }
             ]
         },
@@ -582,11 +814,17 @@
                 },
                 {
                     "name": "Crownfall",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Radiant/Crownfall.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Radiant/Crownfall.txt",
+                    "thumbnailId": "crownfall"
                 },
                 {
                     "name": "Woodland Warbands",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Radiant/Woodland%20Warbands.txt"
+                },
+                {
+                    "name": "Dark Carnival",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Radiant/Dark%20Carnival.txt",
+                    "thumbnailId": "dark_carnival"
                 }
             ]
         },
@@ -639,7 +877,7 @@
                 {
                     "name": "Crownfall",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Crownfall.txt",
-                    "thumbnailId": "cavernite"
+                    "thumbnailId": "crownfall"
                 },
                 {
                     "name": "Nemestice",
@@ -652,6 +890,11 @@
                 {
                     "name": "Woodland Warbands",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Woodland%20Warbands.txt"
+                },
+                {
+                    "name": "Dark Carnival",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Dark%20Carnival.txt",
+                    "thumbnailId": "dark_carnival"
                 }
             ]
         },
@@ -667,11 +910,17 @@
                 },
                 {
                     "name": "Crownfall",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Dire/Crownfall.txt"
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Dire/Crownfall.txt",
+                    "thumbnailId": "crownfall"
                 },
                 {
                     "name": "Woodland Warbands",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Dire/Woodland%20Warbands.txt"
+                },
+                {
+                    "name": "Dark Carnival",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Dire/Dark%20Carnival.txt",
+                    "thumbnailId": "dark_carnival"
                 }
             ]
         },
@@ -2416,230 +2665,6 @@
                 {
                     "name": "Wide Angle",
                     "url": "10423"
-                }
-            ]
-        },
-        {
-            "id": "Special",
-            "displayName": "Low Poly Map",
-            "category": "Environment",
-            "thumbnailFolder": "special",
-            "thumbnailExtension": "png",
-            "type": "vpk",
-            "excludesWith": [
-                "Map"
-            ],
-            "choices": [
-                {
-                    "name": "Disable Special",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md"
-                },
-                {
-                    "name": "LowPolyMap",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv1.zip"
-                },
-                {
-                    "name": "LowPolyMap Cartoon Trees",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv2.zip"
-                }
-            ]
-        },
-        {
-            "id": "kill_streak",
-            "displayName": "Kill Streak",
-            "category": "Audio & Visual",
-            "thumbnailFolder": "kill_streak",
-            "thumbnailExtension": "png",
-            "choices": [
-                {
-                    "name": "Default Kill Streak",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Default.txt"
-                },
-                {
-                    "name": "Diretide",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Diretide.txt"
-                },
-                {
-                    "name": "Fire",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Fire.txt"
-                },
-                {
-                    "name": "Gold",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Gold.txt"
-                },
-                {
-                    "name": "Ice",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/kill_streak/Ice.txt"
-                }
-            ]
-        },
-        {
-            "id": "cursor",
-            "displayName": "Cursor",
-            "category": "Interface",
-            "thumbnailFolder": "cursor",
-            "thumbnailExtension": "png",
-            "choices": [
-                {
-                    "name": "Default",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/default.txt"
-                },
-                {
-                    "name": "Acid",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/acid.txt"
-                },
-                {
-                    "name": "DAC 2015 - CK",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_ck_2015.txt",
-                    "thumbnailId": "dac_ck_2015"
-                },
-                {
-                    "name": "DAC 2015 - CM",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_cm_2015.txt",
-                    "thumbnailId": "dac_cm_2015"
-                },
-                {
-                    "name": "DAC 2015 - Mirana",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dac_mirana_2015.txt",
-                    "thumbnailId": "dac_mirana_2015"
-                },
-                {
-                    "name": "Diretide",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/diretide.txt"
-                },
-                {
-                    "name": "Dragonus",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/dragonus.txt"
-                },
-                {
-                    "name": "Emerald",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/emerald.txt"
-                },
-                {
-                    "name": "Shen",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/shen.txt"
-                },
-                {
-                    "name": "Steam",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/steam.txt"
-                },
-                {
-                    "name": "Summit",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/summit.txt"
-                },
-                {
-                    "name": "The International 2015",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2015.txt",
-                    "thumbnailId": "ti_2015"
-                },
-                {
-                    "name": "The International 2016",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2016.txt",
-                    "thumbnailId": "ti_2016"
-                },
-                {
-                    "name": "The International 2017",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2017.txt",
-                    "thumbnailId": "ti_2017"
-                },
-                {
-                    "name": "The International 2018",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2018.txt",
-                    "thumbnailId": "ti_2018"
-                },
-                {
-                    "name": "The International 2019",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/ti_2019.txt",
-                    "thumbnailId": "ti_2019"
-                },
-                {
-                    "name": "Tine",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/tine.txt",
-                    "thumbnailId": "tine"
-                },
-                {
-                    "name": "Unbroken",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/unbroken.txt"
-                },
-                {
-                    "name": "Warcog",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/warcog.txt"
-                },
-                {
-                    "name": "Wrath",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/cursor/wrath.txt"
-                }
-            ]
-        },
-        {
-            "id": "ancient",
-            "displayName": "Ancient",
-            "category": "Environment",
-            "thumbnailFolder": "ancient",
-            "thumbnailExtension": "png",
-            "choices": [
-                {
-                    "name": "Default Ancient",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md"
-                },
-                {
-                    "name": "New Bloom Ancient Dragon",
-                    "thumbnailId": "new_bloom",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/ancient/new_bloom.zip"
-                }
-            ]
-        },
-        {
-            "id": "roshan",
-            "displayName": "Roshan",
-            "category": "Environment",
-            "thumbnailFolder": "roshan",
-            "thumbnailExtension": "png",
-            "choices": [
-                {
-                    "name": "Default Roshan",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/roshan/default.zip"
-                },
-                {
-                    "name": "Roshan Cosmic 2025",
-                    "thumbnailId": "cosmic",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/roshan/cosmic.zip"
-                }
-            ]
-        },
-        {
-            "id": "announcer",
-            "displayName": "Announcer",
-            "category": "Audio & Visual",
-            "thumbnailFolder": "announcer",
-            "thumbnailExtension": "png",
-            "choices": [
-                {
-                    "name": "Default Announcer",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/default.zip"
-                },
-                {
-                    "name": "Rick and Morty",
-                    "thumbnailId": "rickmorty",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/rickmorty.zip"
-                }
-            ]
-        },
-        {
-            "id": "mega_kills",
-            "displayName": "Mega-Kills",
-            "category": "Audio & Visual",
-            "thumbnailFolder": "mega_kills",
-            "thumbnailExtension": "png",
-            "choices": [
-                {
-                    "name": "Default Mega-Kills",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/mega_kills/default.zip"
-                },
-                {
-                    "name": "Rick and Morty",
-                    "thumbnailId": "rickmorty",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/mega_kills/rickmorty.zip"
                 }
             ]
         }
