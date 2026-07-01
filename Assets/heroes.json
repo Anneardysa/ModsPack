@@ -3339,6 +3339,39 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": {
+        "thumbnail": "https://cdn.ardysamods.my.id/Assets/image/Void_Spirit/flight/flight.png",
+        "styles": {
+          "flight_1": [
+            "https://cdn.ardysamods.my.id/Assets/models/Void_Spirit/flight/flight_1.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Void_Spirit/flight/flight_1.png"
+          ],
+          "flight_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Void_Spirit/flight/flight_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Void_Spirit/flight/flight_2.png"
+          ],
+          "flight_3": [
+            "https://cdn.ardysamods.my.id/Assets/models/Void_Spirit/flight/flight_3.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Void_Spirit/flight/flight_3.png"
+          ]
+        }
+      },
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Void_Spirit/sublime.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Void_Spirit/sublime.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Void_Spirit/umbral.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Void_Spirit/umbral.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Void_Spirit/vector.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Void_Spirit/vector.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Void_Spirit/vector_10th.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Void_Spirit/vector_10th.png"
       ]
     }
   },

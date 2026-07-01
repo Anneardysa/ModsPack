@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-01T06:47:19Z",
+  "generatedAt": "2026-07-01T07:27:27Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -1182,6 +1182,34 @@
     "Assets/models/Tinker/twitcher.zip": {
       "sha256": "42424AEAB5B61A23913A2C2017B436B7F29E0507AAFD3ACBF0F7A13931FA91F3",
       "size": 355865
+    },
+    "Assets/models/Void_Spirit/flight/flight_1.zip": {
+      "sha256": "2162723F5CB01F09C8646B697AA105F6B4B2AECAC47AEA8B84AC110506750F2E",
+      "size": 444344
+    },
+    "Assets/models/Void_Spirit/flight/flight_2.zip": {
+      "sha256": "9D98702BEF72BD653716A6E1A21B282F08E89E46F9AE4FC1AB4FEDB653ED2108",
+      "size": 464702
+    },
+    "Assets/models/Void_Spirit/flight/flight_3.zip": {
+      "sha256": "161997CCB2710D4D772D2760078A3813E056C694619386A09E89BC1C84DB415F",
+      "size": 464596
+    },
+    "Assets/models/Void_Spirit/sublime.zip": {
+      "sha256": "CBBF7A699931D8FD3DF89CB9483D95119F8569D994C01E5A037B77DFCAA41DFD",
+      "size": 659884
+    },
+    "Assets/models/Void_Spirit/umbral.zip": {
+      "sha256": "55082A23933AEE9F2980648C2BACA8AB7C89DF101187FAF79FEFB2A219A41171",
+      "size": 452052
+    },
+    "Assets/models/Void_Spirit/vector.zip": {
+      "sha256": "ADA6248841AC3F809CB8143237ED1FDD6A75B03A1892D22868F85F35F2D3C2AB",
+      "size": 950361
+    },
+    "Assets/models/Void_Spirit/vector_10th.zip": {
+      "sha256": "7D2F4743A02A3B7A9C346C45E9773EE9C75971D7B44D5D7E95325D6E2C90D993",
+      "size": 963912
     },
     "Assets/models/Windranger/arcana.zip": {
       "sha256": "B4FC6DF7573BF5CD1F77EE828130E9B2DFFE798FC520D80ED43A4F0D932653A4",

@@ -1,0 +1,283 @@
+﻿"686"
+{
+	"name"		"Void Spirit's Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Fascinations_of_Flight__Weapon"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/void_spirit/void_spirit_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"751.203186 -69.351761 861.572083"
+					"PortraitAngles"		"46.490108 174.030334 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"4151.700195"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_void_spirit"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf"
+			"modifier"		"particles/error/null.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_weapon_ascetic_guardian_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"687"
+{
+	"name"		"Void Spirit's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2019-09-26"
+	"image_inventory"		"econ/heroes/void_spirit/void_spirit_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Void_Spirits_Head"
+	"item_quality"		"unique"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/void_spirit/void_spirit_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"362.122955 3.504540 289.270172"
+					"PortraitAngles"		"15.290011 180.430054 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_void_spirit"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+	}
+}
+
+"688"
+{
+	"name"		"Void Spirit's Armor"
+	"prefab"		"default_item"
+	"creation_date"		"2019-09-26"
+	"image_inventory"		"econ/heroes/void_spirit/void_spirit_armor"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Void_Spirits_Armor"
+	"item_quality"		"unique"
+	"item_slot"		"armor"
+	"item_type_name"		"#DOTA_WearableType_Armor"
+	"model_player"		"models/heroes/void_spirit/void_spirit_armor.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"573.262085 -28.765141 286.833832"
+					"PortraitAngles"		"12.490017 177.230103 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_void_spirit"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+	}
+}
+
+"689"
+{
+	"name"		"Void Spirit's Belt"
+	"prefab"		"default_item"
+	"creation_date"		"2019-09-26"
+	"image_inventory"		"econ/heroes/void_spirit/void_spirit_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Void_Spirits_Belt"
+	"item_quality"		"unique"
+	"item_slot"		"belt"
+	"item_type_name"		"#DOTA_WearableType_Belt"
+	"model_player"		"models/heroes/void_spirit/void_spirit_belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"700.041443 -22.427956 207.767929"
+					"PortraitAngles"		"10.090020 177.630493 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_void_spirit"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+	}
+}
+
