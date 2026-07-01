@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-01T10:22:24Z",
+  "generatedAt": "2026-07-01T10:25:14Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -895,7 +895,7 @@
       "sha256": "E892D8A40EEB864D50DA43A6667D9B8D0744C7B19768BDBD45EDF22A91C97D63",
       "size": 10173240
     },
-    "Assets/models/Rubick/dillema.zip": {
+    "Assets/models/Rubick/dilemma.zip": {
       "sha256": "7BA1A4D6EB287ED3E3A49724CCC0306F2946E32C8CB90F59C04E348DC66AD55E",
       "size": 185326
     },

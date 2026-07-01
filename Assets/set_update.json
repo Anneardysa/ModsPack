@@ -1,10 +1,14 @@
 {
-  "version": "1.0.54",
+  "version": "1.0.55",
   "lastUpdated": "2026-07-01",
   "updates": [
     {
       "date": "2026-07-01",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_rubick",
+          "setName": "Set 7"
+        },
         {
           "heroId": "npc_dota_hero_rubick",
           "setName": "Set 3"
