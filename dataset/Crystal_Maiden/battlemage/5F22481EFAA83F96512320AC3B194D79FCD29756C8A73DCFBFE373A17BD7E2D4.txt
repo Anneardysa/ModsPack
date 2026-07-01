@@ -1,0 +1,366 @@
+﻿"38"
+{
+	"name"		"Crystal Maiden's Cape"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/crystal_maiden/lady_whitewind_back/lady_whitewind_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Style_Lady_Whitewind_back_0"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"model_player"		"models/heroes/crystal_maiden/crystal_maiden_cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-76.266853 -2.424114 154.188843"
+			"PortraitLightAngles"		"47.488403 347.755737 0.000000"
+			"PortraitLightFOV"		"76"
+			"PortraitLightDistance"		"144"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.622951"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-189.367493 -89.633263 122.562500"
+					"PortraitAngles"		"17.270508 30.195923 0.000000"
+					"PortraitFOV"		"65"
+					"PortraitFar"		"987"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"39"
+{
+	"name"		"Crystal Maiden's Shoulder Pads"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/crystal_maiden/lady_whitewind_shoulder/lady_whitewind_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Style_Lady_Whitewind_shoulder_0"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"model_player"		"models/heroes/crystal_maiden/crystal_maiden_shoulders.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"47.802570 6.465761 144.567352"
+			"PortraitLightAngles"		"42.912598 186.091919 0.000000"
+			"PortraitLightFOV"		"46"
+			"PortraitLightDistance"		"65"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitshouldergroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitshouldergroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitshouldergroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitshouldergroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitshouldergroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.622951"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"117.065437 -0.907329 171.013870"
+					"PortraitAngles"		"16.270752 179.934082 0.000000"
+					"PortraitFOV"		"32"
+					"PortraitFar"		"987"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"40"
+{
+	"name"		"Crystal Maiden's Weapon"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/crystal_maiden/lady_whitewind_weapon/lady_whitewind_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Style_Lady_Whitewind_weapon_0"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/crystal_maiden/crystal_maiden_staff.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"149.470490 8.490000 172.123657"
+			"PortraitLightAngles"		"42.580002 144.107666 0.000000"
+			"PortraitLightFOV"		"56.811001"
+			"PortraitLightDistance"		"226.910004"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitweapongroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitweapongroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitweapongroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitweapongroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitweapongroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.967742"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"97.192200 -14.497176 -2.348717"
+					"PortraitAngles"		"309.414917 125.232834 20.880005"
+					"PortraitFOV"		"38"
+					"PortraitFar"		"995"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"41"
+{
+	"name"		"Crystal Maiden's Cuffs"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/crystal_maiden/lady_whitewind_arms/lady_whitewind_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Style_Lady_Whitewind_arms_0"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/crystal_maiden/crystal_maiden_cuffs.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-45.125977 67.667984 162.004578"
+			"PortraitLightAngles"		"57.903442 302.783203 0.000000"
+			"PortraitLightFOV"		"58"
+			"PortraitLightDistance"		"66"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.622951"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-43.141590 87.075768 135.531479"
+					"PortraitAngles"		"31.717529 307.073364 344.234619"
+					"PortraitFOV"		"52"
+					"PortraitFar"		"987"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"311"
+{
+	"name"		"Crystal Maiden's Headdress"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/crystal_maiden/lady_whitewind_head/lady_whitewind_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Style_Lady_Whitewind_head_0"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/crystal_maiden/head_item.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"45.180000 8.490000 154.130005"
+			"PortraitLightAngles"		"42.580002 194.389999 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"66"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitheadgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitheadgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitheadgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitheadgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitheadgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.622951"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"127.930374 22.718071 145.246063"
+					"PortraitAngles"		"358.297119 190.799561 0.000000"
+					"PortraitFOV"		"31"
+					"PortraitFar"		"992"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

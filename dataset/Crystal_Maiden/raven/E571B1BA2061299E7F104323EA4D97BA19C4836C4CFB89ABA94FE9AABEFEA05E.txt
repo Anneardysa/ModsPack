@@ -1,0 +1,574 @@
+﻿"38"
+{
+	"name"		"Crystal Maiden's Cape"
+	"prefab"		"default_item"
+	"creation_date"		"2024-04-18"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/crystal_maiden/cm_screeauk/cm_screeauk_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Roost_of_the_Winter_Raven__Back"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_back"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/crystal_maiden/crystal_maiden_cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-76.266853 -2.424114 154.188843"
+			"PortraitLightAngles"		"47.488403 347.755737 0.000000"
+			"PortraitLightFOV"		"76"
+			"PortraitLightDistance"		"144"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.622951"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-189.367493 -89.633263 122.562500"
+					"PortraitAngles"		"17.270508 30.195923 0.000000"
+					"PortraitFOV"		"65"
+					"PortraitFar"		"987"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"screeauk"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"39"
+{
+	"name"		"Crystal Maiden's Shoulder Pads"
+	"prefab"		"default_item"
+	"creation_date"		"2024-04-18"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/crystal_maiden/cm_screeauk/cm_screeauk_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Roost_of_the_Winter_Raven__Shoulder"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_shoulder"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/crystal_maiden/crystal_maiden_shoulders.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"47.802570 6.465761 144.567352"
+			"PortraitLightAngles"		"42.912598 186.091919 0.000000"
+			"PortraitLightFOV"		"46"
+			"PortraitLightDistance"		"65"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.622951"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"117.065437 -0.907329 171.013870"
+					"PortraitAngles"		"16.270752 179.934082 0.000000"
+					"PortraitFOV"		"32"
+					"PortraitFar"		"987"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/crystal_maiden/crystal_maiden_maiden_of_icewrack/maiden_arcana_body_ambient.vpcf"
+			"modifier"		"particles/econ/items/crystal_maiden/cm_screeauk/cm_screeauk_arcana_body_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"kisilev_ind/particles/crystal_maiden/arcana/maiden_arcana_body_ambient.vpcf"
+			"modifier"		"particles/econ/items/crystal_maiden/cm_screeauk/cm_screeauk_arcana_body_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"kisilev_ind_crownfall"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"40"
+{
+	"name"		"Crystal Maiden's Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2024-04-18"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/crystal_maiden/cm_screeauk/cm_screeauk_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Roost_of_the_Winter_Raven__Weapon"
+	"item_rarity"		"mythical"
+	"item_type_name"		"#DOTA_WearableType_weapon"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/crystal_maiden/crystal_maiden_staff.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"149.470490 8.490000 172.123657"
+			"PortraitLightAngles"		"42.580002 144.107666 0.000000"
+			"PortraitLightFOV"		"56.811001"
+			"PortraitLightDistance"		"226.910004"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.967742"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"97.192200 -14.497176 -2.348717"
+					"PortraitAngles"		"309.414917 125.232834 20.880005"
+					"PortraitFOV"		"38"
+					"PortraitFar"		"995"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/crystal_maiden/cm_crownfall/cm_crownfall_weapon_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"41"
+{
+	"name"		"Crystal Maiden's Cuffs"
+	"prefab"		"default_item"
+	"creation_date"		"2024-04-18"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/crystal_maiden/cm_screeauk/cm_screeauk_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Roost_of_the_Winter_Raven__Arms"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_arms"
+	"model_player"		"models/heroes/crystal_maiden/crystal_maiden_cuffs.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-45.125977 67.667984 162.004578"
+			"PortraitLightAngles"		"57.903442 302.783203 0.000000"
+			"PortraitLightFOV"		"58"
+			"PortraitLightDistance"		"66"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.622951"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-43.141590 87.075768 135.531479"
+					"PortraitAngles"		"31.717529 307.073364 344.234619"
+					"PortraitFOV"		"52"
+					"PortraitFar"		"987"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"311"
+{
+	"name"		"Crystal Maiden's Headdress"
+	"prefab"		"default_item"
+	"creation_date"		"2024-04-18"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/crystal_maiden/cm_screeauk/cm_screeauk_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Roost_of_the_Winter_Raven__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_head"
+	"model_player"		"models/heroes/crystal_maiden/head_item.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"45.180000 8.490000 154.130005"
+			"PortraitLightAngles"		"42.580002 194.389999 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"66"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.622951"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"127.930374 22.718071 145.246063"
+					"PortraitAngles"		"358.297119 190.799561 0.000000"
+					"PortraitFOV"		"31"
+					"PortraitFar"		"992"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+		"game"
+		{
+			"PortraitLightPosition"		"47.840000 4.520000 166.770004"
+			"PortraitLightAngles"		"30.280001 191.429993 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"66"
+			"PortraitLightColor"		"134 198 254"
+			"PortraitShadowColor"		"48 48 69"
+			"PortraitShadowScale"		"5"
+			"PortraitAmbientColor"		"84 108 120"
+			"PortraitAmbientScale"		"4.750000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_glacier.vmat"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitLightScale"		"2.300000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"237.142365 -127.417419 212.442474"
+					"PortraitAngles"		"14.005013 151.916519 0.000000"
+					"PortraitFOV"		"11"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/crystal_maiden/cm_crownfall/cm_crownfall_head_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_game"
+			"asset"		"models/heroes/crystal_maiden/crystal_maiden.vmdl"
+			"modifier"
+			{
+				"PortraitLightPosition"		"47.840000 4.520000 166.770004"
+				"PortraitLightAngles"		"30.280001 191.429993 0.000000"
+				"PortraitLightFOV"		"90"
+				"PortraitLightDistance"		"66"
+				"PortraitLightColor"		"134 198 254"
+				"PortraitShadowColor"		"48 48 69"
+				"PortraitShadowScale"		"5"
+				"PortraitAmbientColor"		"84 108 120"
+				"PortraitAmbientScale"		"4.750000"
+				"PortraitSpecularColor"		"251 74 84"
+				"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_glacier.vmat"
+				"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitLightScale"		"2.300000"
+				"PortraitGroundShadowScale"		"1.500000"
+				"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+				"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+				"cameras"
+				{
+					"default"
+					{
+						"PortraitPosition"		"237.142365 -127.417419 212.442474"
+						"PortraitAngles"		"14.005013 151.916519 0.000000"
+						"PortraitFOV"		"11"
+						"PortraitFar"		"1000"
+					}
+				}
+				"hero_presets"
+				{
+					"Default"
+					{
+						"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+					}
+				}
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16"
+				"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+				"GodraysFXColor"		"1.000000 1.000000 1.000000"
+				"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+				"PortraitAnimationCycle"		"0"
+				"PortraitAnimationRate"		"1"
+				"PortraitPlayIdleExpression"		"0"
+				"PortraitHideHero"		"0"
+				"PortraitHideParticles"		"0"
+				"PortraitHideDropShadow"		"0"
+				"PortraitDesaturateParticles"		"0"
+				"PortraitDesaturateHero"		"1"
+				"PortraitVignetteItem"		"0"
+				"PortraitAllowAnimatedPortrait"		"1"
+			}
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

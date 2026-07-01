@@ -372,8 +372,65 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/battlemage.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/battlemage.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/garden.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/garden.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/raven.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/raven.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/wyvern.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/wyvern.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/persona_canis.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/persona_canis.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/persona_nebula.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/persona_nebula.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/persona_spirit.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/persona_spirit.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/item_head_glacier.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/item_head_glacier.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/item_shoulder_yulsaria.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/item_shoulder_yulsaria.png"
+      ],
+      "Set 10": {
+        "styles": {
+          "item_weapon_ice": [
+            "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/item_weapon_ice/item_weapon_ice.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/item_weapon_ice/item_weapon_ice.png"
+          ],
+          "item_weapon_ice_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/item_weapon_ice/item_weapon_ice_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/item_weapon_ice/item_weapon_ice_golden.png"
+          ]
+        }
+      },
+      "Set 11": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/item_weapon_sentry.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/item_weapon_sentry.png"
+      ],
+      "Set 12": [
+        "https://cdn.ardysamods.my.id/Assets/models/Crystal_Maiden/base_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Crystal_Maiden/base_arcana.png"
       ]
-    }
+    },
+    "method": 2
   },
   {
     "id": [

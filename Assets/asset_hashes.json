@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-06-30T11:48:17Z",
+  "generatedAt": "2026-07-01T06:47:19Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -130,6 +130,58 @@
     "Assets/misc/special/lpv2.zip": {
       "sha256": "A37A4FB6DB80EC8D1895DB64F0E488C60265B0A925C7DDDED01B0F6336838769",
       "size": 8437513
+    },
+    "Assets/models/Crystal_Maiden/base_arcana.zip": {
+      "sha256": "ABD56B139A2A0DCEB060221A973057BE1B82A4C406163E5A76077095B3DE5B8E",
+      "size": 2224519
+    },
+    "Assets/models/Crystal_Maiden/battlemage.zip": {
+      "sha256": "5F22481EFAA83F96512320AC3B194D79FCD29756C8A73DCFBFE373A17BD7E2D4",
+      "size": 690571
+    },
+    "Assets/models/Crystal_Maiden/garden.zip": {
+      "sha256": "C04AED7D7B8167AE2D74CBF584609768A8A874E130A95319D84E0E6F334AB8DF",
+      "size": 352640
+    },
+    "Assets/models/Crystal_Maiden/item_head_glacier.zip": {
+      "sha256": "CB7D37B32896E840F104DD4D012546CA7B838E28E36F41B43E4A2C272C31E7CA",
+      "size": 56620
+    },
+    "Assets/models/Crystal_Maiden/item_shoulder_yulsaria.zip": {
+      "sha256": "0B893597AC374A14F2CB26F59F9765C2C396939F4B114550A3BAB4060D2F2E44",
+      "size": 392718
+    },
+    "Assets/models/Crystal_Maiden/item_weapon_ice/item_weapon_ice.zip": {
+      "sha256": "134DE401E7B7A8C9A045D9BA615ACFF239F83676D37B1C2EA461E124AB8E86FD",
+      "size": 388287
+    },
+    "Assets/models/Crystal_Maiden/item_weapon_ice/item_weapon_ice_golden.zip": {
+      "sha256": "A4E6E036B52B36B685CFB1F2367002F068266D31A08932EA8349F7FEDD154545",
+      "size": 388397
+    },
+    "Assets/models/Crystal_Maiden/item_weapon_sentry.zip": {
+      "sha256": "07F084946F4D75350F4B7C0B0FC809F12D84CF5A58627AA0073C38E4DCAA0CB6",
+      "size": 504504
+    },
+    "Assets/models/Crystal_Maiden/persona_canis.zip": {
+      "sha256": "B08B59E41FBF13C1D397E0357B34F75FA607F8E022EE38F5628F99C2A896AADA",
+      "size": 22572008
+    },
+    "Assets/models/Crystal_Maiden/persona_nebula.zip": {
+      "sha256": "648B8371D59D6BC3FC098BCC2E0FDAAAF4583921F3D44590BC78D79FF14B6187",
+      "size": 22489797
+    },
+    "Assets/models/Crystal_Maiden/persona_spirit.zip": {
+      "sha256": "3E7EA7F63E32B86E9C3C86341A381591903BB1AC65FC9ECE52A24AE5D84FA879",
+      "size": 22604075
+    },
+    "Assets/models/Crystal_Maiden/raven.zip": {
+      "sha256": "E571B1BA2061299E7F104323EA4D97BA19C4836C4CFB89ABA94FE9AABEFEA05E",
+      "size": 1036314
+    },
+    "Assets/models/Crystal_Maiden/wyvern.zip": {
+      "sha256": "7F8A1451776CEBFCCC8B3C9AD283B801A25D9443AEC4D01688288B19A239081A",
+      "size": 281468
     },
     "Assets/models/Drow_Ranger/base_arcana_1.zip": {
       "sha256": "4B0C33EA150FF116B4CFF9A1688AC52064044D94F4428D3744366E86E7971F97",
