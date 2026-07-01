@@ -1,0 +1,404 @@
+﻿"203"
+{
+	"name"		"Rubick's Staff"
+	"prefab"		"default_item"
+	"creation_date"		"2024-10-01"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/rubick/rubick_inherited_will_weapon/rubick_inherited_will_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Secondhand_Sorcery__Weapon"
+	"item_rarity"		"mythical"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/rubick/rubick_staff.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"129.220200 66.096352 249.114792"
+			"PortraitLightAngles"		"44.324341 198.737183 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"203"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-61.390 114.350 -5.260"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"590.559143 -94.085442 168.688400"
+					"PortraitAngles"		"354.874420 165.926514 -57.299194"
+					"PortraitFOV"		"20"
+					"PortraitFar"		"997"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_rubick"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_rubick/rubick_staff_ambient.vpcf"
+			"modifier"		"particles/units/heroes/hero_rubick/rubick_staff_ambient_empty.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/rubick/rubick_cc_2024_inherited_will_weapon/rubick_cc_2024_inherited_will_weapon_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"204"
+{
+	"name"		"Rubick's Cape"
+	"prefab"		"default_item"
+	"creation_date"		"2024-10-01"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/rubick/rubick_inherited_will_back/rubick_inherited_will_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Secondhand_Sorcery__Back"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/rubick/cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"26.474010 -138.491577 348.532013"
+			"PortraitLightAngles"		"64.923706 139.301147 0.000000"
+			"PortraitLightFOV"		"66"
+			"PortraitLightDistance"		"227"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.850000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor2"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor3"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor4"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"124.230 118.250 350.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-288.122375 178.724167 223.985596"
+					"PortraitAngles"		"18.132935 331.111450 0.351563"
+					"PortraitFOV"		"70"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_rubick"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/rubick/rubick_cc_2024_inherited_will_back/rubick_cc_2024_inherited_will_back_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"205"
+{
+	"name"		"Rubick's Shoulder Armor"
+	"prefab"		"default_item"
+	"creation_date"		"2024-10-01"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/rubick/rubick_inherited_will_shoulder/rubick_inherited_will_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Secondhand_Sorcery__Shoulder"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/rubick/shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"59.270000 46.279999 320.970001"
+			"PortraitLightAngles"		"53.830002 234.320007 0.000000"
+			"PortraitLightFOV"		"66"
+			"PortraitLightDistance"		"227"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.850000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor2"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor3"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor4"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"124.230 118.250 350.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"241.848221 -113.313568 310.754974"
+					"PortraitAngles"		"23.851315 154.616074 -11.799316"
+					"PortraitFOV"		"60"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_rubick"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/rubick/rubick_cc_2024_inherited_will_shoulder/rubick_cc_2024_inherited_will_shoulder_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"419"
+{
+	"name"		"Rubick's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2024-10-01"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/rubick/rubick_inherited_will_head/rubick_inherited_will_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Secondhand_Sorcery__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/rubick/rubick_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"59.270000 46.279999 320.970001"
+			"PortraitLightAngles"		"53.830002 234.320007 0.000000"
+			"PortraitLightFOV"		"66"
+			"PortraitLightDistance"		"227"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.850000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor2"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor3"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor4"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"124.230 118.250 350.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"93.592873 -44.377243 233.550156"
+					"PortraitAngles"		"9.816284 154.077759 347.898560"
+					"PortraitFOV"		"73"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_rubick"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/rubick/rubick_cc_2024_inherited_will_head/rubick_cc_2024_inherited_will_head_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"674"
+{
+	"name"		"Rubick's Default Voice"
+	"prefab"		"default_item"
+	"creation_date"		"2019-02-18"
+	"image_inventory"		"econ/heroes/rubick/rubick_voice"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Rubicks_Default_Voice"
+	"item_quality"		"unique"
+	"item_slot"		"voice"
+	"item_type_name"		"#DOTA_WearableType_Voice"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"480.132111 302.748627 403.187500"
+					"PortraitAngles"		"28.490007 212.830048 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_rubick"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"announcer_preview"
+			"asset"		"sounds/vo/rubick/rubick_firstblood_01.vsnd"
+			"modifier"		"#DOTA_Announcer_Preview_Rubick_Voice_Default_01"
+		}
+		"asset_modifier1"
+		{
+			"type"		"announcer_preview"
+			"asset"		"sounds/vo/rubick/rubick_move_14.vsnd"
+			"modifier"		"#DOTA_Announcer_Preview_Rubick_Voice_Default_02"
+		}
+		"asset_modifier2"
+		{
+			"type"		"announcer_preview"
+			"asset"		"sounds/vo/rubick/rubick_spellsteal_02.vsnd"
+			"modifier"		"#DOTA_Announcer_Preview_Rubick_Voice_Default_03"
+		}
+		"asset_modifier3"
+		{
+			"type"		"announcer_preview"
+			"asset"		"sounds/vo/rubick/rubick_move_21.vsnd"
+			"modifier"		"#DOTA_Announcer_Preview_Rubick_Voice_Default_04"
+		}
+	}
+}
+

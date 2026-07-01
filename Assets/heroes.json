@@ -2442,8 +2442,48 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Rubick/dillema.zip"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Rubick/realm.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Rubick/realm.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Rubick/secondary.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Rubick/secondary.png"
+      ],
+      "Set 4": {
+        "styles": {
+          "item_shoulder_crux": [
+            "https://cdn.ardysamods.my.id/Assets/models/Rubick/item_shoulder_crux/item_shoulder_crux.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Rubick/item_shoulder_crux/item_shoulder_crux.png"
+          ],
+          "item_shoulder_crux_arcana": [
+            "https://cdn.ardysamods.my.id/Assets/models/Rubick/item_shoulder_crux/item_shoulder_crux_arcana.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Rubick/item_shoulder_crux/item_shoulder_crux_arcana.png"
+          ]
+        }
+      },
+      "Set 5": {
+        "styles": {
+          "item_weapon_perplex": [
+            "https://cdn.ardysamods.my.id/Assets/models/Rubick/item_weapon_perplex/item_weapon_perplex.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Rubick/item_weapon_perplex/item_weapon_perplex.png"
+          ],
+          "item_weapon_perplex_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Rubick/item_weapon_perplex/item_weapon_perplex_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Rubick/item_weapon_perplex/item_weapon_perplex_golden.png"
+          ]
+        }
+      },
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Rubick/base_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Rubick/base_arcana.png"
       ]
-    }
+    },
+    "method": 2
   },
   {
     "id": [

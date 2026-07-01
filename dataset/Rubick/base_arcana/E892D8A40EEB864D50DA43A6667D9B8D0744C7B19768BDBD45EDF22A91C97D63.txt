@@ -1,0 +1,1608 @@
+﻿"204"
+{
+	"name"		"Rubick's Cape"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/rubick/arcana/magus_cypher"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_The_Magus_Cypher"
+	"item_rarity"		"arcana"
+	"item_slot"		"back"
+	"match_cycle_to_parent"		"0"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"model_player"		"models/heroes/rubick/cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"26.474010 -138.491577 348.532013"
+			"PortraitLightAngles"		"64.923706 139.301147 0.000000"
+			"PortraitLightFOV"		"66"
+			"PortraitLightDistance"		"227"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.850000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor2"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor3"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundColor4"		"0.100000 0.500000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"124.230 118.250 350.520"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-288.122375 178.724167 223.985596"
+					"PortraitAngles"		"18.132935 331.111450 0.351563"
+					"PortraitFOV"		"70"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_rubick"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_rubick/rubick_loadout.vpcf"
+			"modifier"		"particles/econ/items/rubick/rubick_arcana/rubick_arc_loadout.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"healthbar_offset"
+			"offset"		"275"
+		}
+		"asset_modifier"
+		{
+			"type"		"arcana_level"
+			"level"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"rubick_arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"response_criteria"
+			"asset"		"rubarc_mantle"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_rubick/rubick_spell_steal.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/cast/rubick_arcana_spell_steal.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_rubick/rubick_spell_steal_default.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/cast/rubick_arcana_spell_steal.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero_minimap"
+			"asset"		"npc_dota_hero_rubick"
+			"modifier"		"npc_dota_hero_rubick_alt1"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"icon_replacement_hero"
+			"asset"		"npc_dota_hero_rubick"
+			"modifier"		"npc_dota_hero_rubick_alt"
+			"force_display"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"rubick_arcane_supremacy"
+			"modifier"		"rubick/arcana/rubick_arcane_supremacy_arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"rubick_fade_bolt"
+			"modifier"		"rubick/arcana/rubick_fade_bolt_arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"rubick_spell_steal"
+			"modifier"		"rubick/arcana/rubick_spell_steal_arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"rubick_telekinesis"
+			"modifier"		"rubick/arcana/rubick_telekinesis_arcana"
+			"minimum_priority"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"rubick_telekinesis_land"
+			"modifier"		"rubick/arcana/rubick_telekinesis_land_arcana"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_background_model"
+			"asset"		"models/items/rubick/rubick_arcana/rubick_arcana_pedestal.vmdl"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/rubick/rubick_arcana/rubick_arc_ambient_default.vpcf"
+			"spawn_in_loadout_only"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_game"
+			"modifier"
+			{
+				"PortraitLightPosition"		"-134.841461 -148.019073 320.970001"
+				"PortraitLightAngles"		"28.315287 26.248238 -153.538803"
+				"PortraitLightFOV"		"66.000000"
+				"PortraitLightDistance"		"417.950012"
+				"PortraitLightColor"		"131 173 225"
+				"PortraitShadowColor"		"52 63 74"
+				"PortraitShadowScale"		"4.249000"
+				"PortraitAmbientColor"		"149 181 214"
+				"PortraitAmbientScale"		"2.850000"
+				"PortraitSpecularColor"		"251 74 84"
+				"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_rubick_arcana.vmat"
+				"PortraitBackgroundColor1"		"0.223529 0.929412 0.258824"
+				"PortraitBackgroundColor2"		"0.011765 0.482353 0.603922"
+				"PortraitBackgroundColor3"		"0.509804 0.850980 0.988235"
+				"PortraitBackgroundColor4"		"0.219608 0.921569 0.219608"
+				"PortraitLightScale"		"6.904000"
+				"PortraitGroundShadowScale"		"1.500000"
+				"PortraitAmbientDirection"		"0.581 0.811 -0.066"
+				"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+				"cameras"
+				{
+					"default"
+					{
+						"PortraitPosition"		"109.422623 25.082264 207.832657"
+						"PortraitAngles"		"353.550751 190.634995 31.679993"
+						"PortraitFOV"		"59.383999"
+						"PortraitFar"		"3682.639893"
+					}
+				}
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"1.000000"
+				"PortraitHideHero"		"0"
+				"PortraitHideParticles"		"0"
+				"PortraitHideDropShadow"		"0"
+				"PortraitDesaturateParticles"		"0"
+				"PortraitDesaturateHero"		"1"
+			}
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_bristleback/bristleback_quill_spray_hit.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/bristleback_quill_spray_hit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lina/lina_spell_laguna_blade.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/lina_spell_laguna_blade.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lina/lina_spell_laguna_blade.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/lina_spell_laguna_blade.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_furion/furion_wrath_of_nature_start.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/furion_wrath_of_nature_start.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_furion/furion_wrath_of_nature.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/furion_wrath_of_nature.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_furion/furion_wrath_of_nature_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/furion_wrath_of_nature_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_chen/chen_hand_of_god.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/chen_hand_of_god.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_chen/chen_cast_4_d.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/chen_cast_4_d.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_bristleback/bristleback_quill_spray.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/bristleback_quill_spray.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_bristleback/bristleback_quill_spray_hit.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/bristleback_quill_spray_hit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_bristleback/bristleback_quill_spray_hit_creep.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/bristleback_quill_spray_hit_creep.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_venomancer/venomancer_poison_nova.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arc_venomancer_poison_nova.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_siren/naga_siren_siren_song_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/naga_siren_siren_song_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_siren/naga_siren_song_aura.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/naga_siren_song_aura.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_siren/naga_siren_song_debuff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/naga_siren_song_debuff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_riki/riki_tricks.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/riki_tricks.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_riki/riki_tricks_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/riki_tricks_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_riki/riki_tricks_end.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/riki_tricks_end.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_sunder.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/terrorblade_sunder.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_rattletrap/rattletrap_cog_deploy.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rattletrap_cog_deploy.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_rattletrap/rattletrap_cog_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rattletrap_cog_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_rattletrap/rattletrap_cog_attack.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rattletrap_cog_attack.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_doom_bringer/doom_bringer_doom.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_doom.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_pangolier/pangolier_gyroshell.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/pangolier_gyroshell.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_pangolier/pangolier_gyroshell_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/pangolier_gyroshell_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_batrider/batrider_flaming_lasso.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/batrider_flaming_lasso.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_drow/drow_hero_silence.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/drow_hero_silence.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_earth_spirit/espirit_magnetize_target.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_espirit_magnetize_target.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_omni.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/omniknight_guardian_angel_omni_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_ally.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/omniknight_guardian_angel_ally_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_wings_buff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/omniknight_guardian_angel_wings_buff_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_slark/slark_dark_pact_pulses.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/slark_dark_pact_pulses.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_slark/slark_dark_pact_pulses_body.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/slark_dark_pact_pulses_body.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_slark/slark_dark_pact_start.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/slark_dark_pact_start.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_bane/bane_fiends_grip.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/bane_fiends_grip.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_jakiro/jakiro_macropyre.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_macropyre.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_dark_willow/dark_willow_wisp_spell_fear_debuff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/dark_willow_wisp_spell_fear_debuff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_dark_willow/dark_willow_wisp_spell_marker.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/dark_willow_wisp_spell_marker.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_dark_willow/dark_willow_wisp_spell.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/dark_willow_wisp_spell.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_dark_willow/dark_willow_wisp_spell_debuff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/dark_willow_wisp_spell_debuff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_dark_willow/dark_willow_wisp_spell_channel.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/dark_willow_wisp_spell_channel.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_dark_willow/dark_willow_willowisp_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/dark_willow_willowisp_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_beastmaster/beastmaster_primal_roar.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/beastmaster_primal_roar.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_magnataur/magnataur_shockwave_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/magnataur_shockwave_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_puck/puck_dreamcoil.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/puck_dreamcoil.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_puck/puck_dreamcoil_tether.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/puck_dreamcoil_tether.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omni_slash_trail.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/juggernaut_omni_slash_trail.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_juggernaut/juggernaut_omni_slash_tgt.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/juggernaut_omni_slash_tgt.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_clinkz/clinkz_burning_army.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/clinkz_burning_army.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_clinkz/clinkz_burning_army_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/clinkz_burning_army_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_clinkz/clinkz_burning_army_start.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/clinkz_burning_army_start.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/heroes_underlord/abbysal_underlord_darkrift_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/abbysal_underlord_darkrift_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/heroes_underlord/abyssal_underlord_darkrift_target.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/abyssal_underlord_darkrift_target.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_warlock/warlock_rain_of_chaos_start.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_rain_of_chaos_start.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_warlock/warlock_rain_of_chaos_staff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/warlock_rain_of_chaos_staff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_warlock/warlock_rain_of_chaos.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_rain_of_chaos.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_warlock/golem_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_golem_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_dazzle/dazzle_shadow_wave.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/dazzle_shadow_wave.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_tusk/tusk_walruspunch_hand.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/tusk_walruspunch_hand.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_tusk/tusk_walruspunch_tgt.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/tusk_walruspunch_tgt.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_tusk/tusk_rubickpunch_txt.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/tusk_rubickpunch_txt.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_channel.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/wisp_relocate_channel.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_marker.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/wisp_relocate_marker.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_marker_endpoint.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/wisp_relocate_marker_endpoint.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_wisp/wisp_relocate_teleport.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/wisp_relocate_teleport.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_tinker/tinker_rearm.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/tinker_rearm.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_gyrocopter/gyro_calldown_first.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/gyro_calldown_first.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_gyrocopter/gyro_calldown_second.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/gyro_calldown_second.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_gyrocopter/gyro_calldown_marker.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/gyro_calldown_marker.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_marker.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/ancient_apparition_ice_blast_marker.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_final.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/ancient_apparition_ice_blast_final.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_explode.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/ancient_apparition_ice_blast_explode.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_debuff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/ancient_apparition_ice_blast_debuff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ogre_magi/ogre_magi_fireblast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/ogre_magi_fireblast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ogre_magi/ogre_magi_fireblast_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/ogre_magi_fireblast_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_sven/sven_spell_gods_strength.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/sven_spell_gods_strength.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_sven/sven_spell_gods_strength_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/sven_spell_gods_strength_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_templar_assassin/templar_assassin_trap.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/templar_assassin_trap.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_templar_assassin/templar_assassin_trap_explode.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/templar_assassin_trap_explode.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_templar_assassin/templar_assassin_trap_slow.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/templar_assassin_trap_slow.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage_hit.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_spell_ravage_hit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_spell_ravage.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_weaver/weaver_timelapse.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/weaver_timelapse.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_start.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/wyvern_winters_curse_start.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/wyvern_winters_curse.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_overhead.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/wyvern_winters_curse_overhead.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_ground.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/wyvern_winters_curse_ground.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_buff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/wyvern_winters_curse_buff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lycan/lycan_shapeshift_buff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/lycan_shapeshift_buff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lycan/lycan_shapeshift_revert.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/lycan_shapeshift_revert.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lycan/lycan_shapeshift_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/lycan_shapeshift_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_spirit_breaker/spirit_breaker_charge.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/spirit_breaker_charge.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_broodmother/broodmother_hunger_buff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/broodmother_hunger_buff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_witchdoctor/witchdoctor_ward_skull.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/witchdoctor_ward_skull_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_witchdoctor/witchdoctor_ward_cast_staff_fire.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/witchdoctor_ward_cast_staff_fire_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_fissure.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/earthshaker_fissure.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_remnant_dash.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/ember_spirit_remnant_dash_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_fire_remnant_trail.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/ember_spirit_fire_remnant_trail_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_fire_remnant.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/ember_spirit_rubick_fire_remnant.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_disruptor/disruptor_static_storm.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/disruptor_static_storm.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_disruptor/disruptor_static_storm_bolt_hero.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/disruptor_static_storm_bolt_hero.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_enigma/enigma_blackhole.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_blackhole.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_silencer/silencer_global_silence.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/silencer_global_silence.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_silencer/silencer_global_silence_hero.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/silencer_global_silence_hero.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/generic_gameplay/generic_silenced.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/generic_silenced.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate_charge.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/keeper_of_the_light_illuminate_charge.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/keeper_of_the_light_illuminate.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate_impact.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/keeper_of_the_light_illuminate_impact.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_leshrac/leshrac_pulse_nova_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/leshrac_pulse_nova_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_leshrac/leshrac_pulse_nova.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/leshrac_pulse_nova.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_shadowshaman/shadowshaman_ward_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/shadowshaman_ward_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_shadowshaman/shadowshaman_ward_spawn.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/shadowshaman_ward_spawn.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_alchemist/alchemist_chemical_rage.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/alchemist_chemical_rage.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_razor/razor_rain_storm.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/razor_rain_storm.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_razor/razor_storm_lightning_strike.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/razor_storm_lightning_strike.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arc_skywrath_mage_mystic_flare_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_axe/axe_beserkers_call_owner.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/axe_beserkers_call_owner.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_huskar/huskar_life_break.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/huskar_life_break.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_huskar/huskar_life_break_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/huskar_life_break_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_shredder/shredder_chakram_stay.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/shredder_chakram_stay.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_shredder/shredder_chakram_return.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/shredder_chakram_return.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_phoenix/phoenix_supernova_death.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/phoenix_supernova_death.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_phoenix/phoenix_supernova_hit.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/phoenix_supernova_hit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_phoenix/phoenix_supernova_reborn.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/phoenix_supernova_reborn.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_phoenix/phoenix_supernova_egg.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_supernova_egg.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_phoenix/phoenix_supernova_portrait.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/phoenix_supernova_portrait.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_grimstroke/grimstroke_soulchain.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/grimstroke_soulchain.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_grimstroke/grimstroke_cast_soulchain.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/grimstroke_cast_soulchain.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_grimstroke/grimstroke_soulchain_debuff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/grimstroke_soulchain_debuff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_grimstroke/grimstroke_soulchain_marker.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/grimstroke_soulchain_marker.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_grimstroke/grimstroke_soulchain_proc.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/grimstroke_soulchain_proc.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_grimstroke/grimstroke_soulchain_proc_tgt.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/grimstroke_soulchain_proc_tgt.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nyx_assassin/nyx_assassin_impale_hit.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/nyx_assassin_impale_hit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_visage/visage_summon_familiars.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/visage_summon_familiars.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_visage/visage_familiar_ambient.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/visage_familiar_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_visage/visage_stone_form.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/visage_stone_form.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_visage/visage_stone_form.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/visage_familiar_transform.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_windrunner/windrunner_spell_powershot.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/windrunner_spell_powershot_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_slardar/slardar_amp_damage.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/slardar_amp_damage.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_night_stalker/nightstalker_crippling_fear_aura.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/nightstalker_crippling_fear_aura.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_night_stalker/nightstalker_crippling_fear.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/nightstalker_crippling_fear.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_bloodseeker/bloodseeker_bloodritual_ring.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/bloodseeker_bloodritual_ring.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_bloodseeker/bloodseeker_bloodritual_explode.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/bloodseeker_bloodritual_explode.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_sniper/sniper_crosshair.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/sniper_crosshair.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_troll_warlord/troll_warlord_battletrance_buff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/troll_warlord_battletrance_buff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_abaddon/abaddon_borrowed_time.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/abaddon_borrowed_time.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_abaddon/abaddon_borrowed_time_heal.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/abaddon_borrowed_time_heal.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_explosion.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_freezing_field_explosion.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_snow.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_freezing_field_snow.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ursa/ursa_earthshock.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/ursa_earthshock.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_techies/techies_remote_mines_detonate.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/techies_remote_mines_detonate.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_dark_seer/dark_seer_wall_of_replica.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/dark_seer_wall_of_replica.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_legion_commander/legion_commander_duel_victory.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/legion_commander_duel_victory.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_legion_commander/legion_commander_duel_body.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/legion_commander_duel_body.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_legion_commander/legion_duel_ring.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/legion_duel_ring.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_vengeful/vengeful_nether_swap.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/vengeful_nether_swap.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_vengeful/vengeful_nether_swap_target.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/vengeful_nether_swap_target.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_enchantress/enchantress_natures_attendants_lvl1.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/enchantress_natures_attendants_lvl1.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_enchantress/enchantress_natures_attendants_lvl2.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/enchantress_natures_attendants_lvl2.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_enchantress/enchantress_natures_attendants_lvl3.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/enchantress_natures_attendants_lvl3.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_enchantress/enchantress_natures_attendants_lvl4.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/enchantress_natures_attendants_lvl4.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_mars/mars_shield_bash.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/mars_shield_bash.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_mars/mars_shield_bash_crit.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/mars_shield_bash_crit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_phantom_lancer/phantomlancer_spiritlance_caster.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/phantomlancer_spiritlance_caster.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_phantom_lancer/phantomlancer_spiritlance_target.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/phantomlancer_spiritlance_target.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_treant/treant_overgrowth_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/treant_overgrowth_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_treant/treant_overgrowth_vines.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/treant_overgrowth_vines.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_luna/luna_ambient_lunar_blessing.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/luna_ambient_lunar_blessing.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_luna/luna_eclipse_impact.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/luna_eclipse_impact.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_luna/luna_eclipse_impact.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/luna_eclipse_impact.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_luna/luna_eclipse_impact_notarget.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/luna_eclipse_impact_notarget.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_luna/luna_eclipse_precast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/luna_eclipse_precast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_luna/luna_lucent_beam.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/luna_lucent_beam.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_luna/luna_eclipse.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/luna_eclipse.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_luna/luna_eclipse_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/luna_eclipse_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lion/lion_spell_finger_of_death.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_finger_of_death.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_bounty_hunter/bounty_hunter_suriken_toss.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/bounty_hunter_suriken_toss.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_medusa/medusa_stone_gaze_active.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/medusa_stone_gaze_active.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_medusa/medusa_stone_gaze_facing.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/medusa_stone_gaze_facing.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_damage.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/obsidian_destroyer_sanity_eclipse_damage.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_mana_loss.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/obsidian_destroyer_sanity_eclipse_mana_loss.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_area.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/obsidian_destroyer_sanity_eclipse_area.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_elder_titan/elder_titan_earth_splitter.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/elder_titan_earth_splitter.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/monkey_king_furarmy_ring.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/monkey_king_fur_army_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/monkey_king_fur_army_positions.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_meepo/meepo_earthbind_projectile_fx.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/meepo_earthbind_projectile_fx.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_meepo/meepo_earthbind.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/meepo_earthbind.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_brewmaster/brewmaster_cinder_brew_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/brewmaster_cinder_brew_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_stormspirit/stormspirit_ball_lightning.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/stormspirit_ball_lightning.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_arc_warden/arc_warden_tempest_buff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/arc_warden_tempest_buff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_arc_warden/arc_warden_tempest_eyes.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/arc_warden_tempest_eyes.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_arc_warden/arc_warden_tempest_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/arc_warden_tempest_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_zuus/zuus_thundergods_wrath_start.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_thundergods_wrath_start.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_zuus/zuus_thundergods_wrath.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_thundergods_wrath.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_chaos_meteor.vpcf"
+			"modifier"		"particles/units/heroes/hero_rubick/rubick_chaos_meteor.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_chaos_meteor_fly.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_chaos_meteor_fly.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_invoker/invoker_chaos_meteor_burn_debuff.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/invoker_chaos_meteor_burn_debuff.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_antimage/antimage_manavoid.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/antimage_manavoid.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_centaur/centaur_stampede.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/centaur_stampede.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_centaur/centaur_stampede_overhead.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/centaur_stampede_overhead.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_centaur/centaur_stampede_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/centaur_stampede_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_life_stealer/life_stealer_rage.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/life_stealer_rage.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_oracle/oracle_false_promise.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/oracle_false_promise.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_oracle/oracle_false_promise_attacked.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/oracle_false_promise_attacked.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_oracle/oracle_false_promise_hit.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/oracle_false_promise_hit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_oracle/oracle_false_promise_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/oracle_false_promise_cast.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_mirana/mirana_spell_arrow_fx.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/mirana_spell_arrow_fx.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_sandking/sandking_epicenter.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arc_sandking_epicenter.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_pudge/pudge_meathook_impact.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/pudge_meathook_impact.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_pudge/pudge_meathook.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/pudge_meathook.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_nevermore/nevermore_shadowraze.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/nevermore_shadowraze.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_viper/viper_viper_strike_beam.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/viper_viper_strike_beam.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge_cast.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/shadow_demon_demonic_purge_cast_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/shadow_demon_demonic_purge_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_chronosphere.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rubick_faceless_void_chronosphere.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arcana_void_spirit_dissimilate.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_dmg.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arcana_void_spirit_dissimilate_dmg.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_exit.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arcana_void_spirit_dissimilate_exit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_snapfire/snapfire_lizard_blobs_arced.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arc_snapfire_lizard_blobs_arced.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_linger.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arcana_ultimate_linger.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_impact.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arcana_snapfire_impact.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_marci/marci_rebound_charge_projectile.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/marci_rebound_charge_projectile.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_marci/marci_rebound_bounce.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/marci_rebound_bounce.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_marci/marci_rebound_bounce_impact.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/marci_rebound_bounce_impact.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_muerta/muerta_calling.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arc_revenant.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_muerta/muerta_calling_aoe.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arc_revenant_aoe.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_primal_beast/primal_beast_pulverize_hit.vpcf"
+			"modifier"		"kisilev_ind/particles/rubick/rubick_arcana_cape/rubick_arcana_skills/rbck_arc_pulverize_hit.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ringmaster/ringmaster_hex_poof.vpcf"
+			"modifier"		"particles/econ/items/rubick/rubick_arcana/rubick_arcana_hex_poof.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_ringmaster/ringmaster_hex_poof_end.vpcf"
+			"modifier"		"particles/econ/items/rubick/rubick_arcana/rubick_arcana_hex_poof_end.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_control_point"
+			"asset"		"particles/units/heroes/hero_ringmaster/ringmaster_hex_magic_end.vpcf"
+			"control_point_number"		"1"
+			"cp_position"		"1 0 0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_kez/kez_hungering_blades_channel.vpcf"
+			"modifier"		"particles/units/heroes/hero_kez/kez_hungering_blades_channel_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_kez/kez_hungering_blades.vpcf"
+			"modifier"		"particles/units/heroes/hero_kez/kez_hungering_blades_rubick.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"mvp_map_override"
+			"modifier"		"maps/scenes/mvp/mvp_rubick_arcana.vmap"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
