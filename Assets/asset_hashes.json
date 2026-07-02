@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-01T10:25:14Z",
+  "generatedAt": "2026-07-02T03:09:01Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -1018,6 +1018,58 @@
     "Assets/models/Sniper/odoragon/odoragon_4.zip": {
       "sha256": "758EFF0E3CD92D8E227F45BD4ACC917F494A38E2C042B54CBC4F994EE4EF5105",
       "size": 2029278
+    },
+    "Assets/models/Spectre/arcana.zip": {
+      "sha256": "942BC1FF5EE667B977CF0CBE8F4B988A508B5ED15DBF65B6617AC522A9D46F3D",
+      "size": 1247754
+    },
+    "Assets/models/Spectre/base_arcana.zip": {
+      "sha256": "B1345391E0FD3F2C3FF443B6C9203F3F1E35937D96AF0394C30FCFE94E4F93B0",
+      "size": 4163029
+    },
+    "Assets/models/Spectre/base_arcana_2.zip": {
+      "sha256": "2E314864BCC234BC665B6DA2D9B847E082A7E2A0DB0BBA37773F5F6344A10595",
+      "size": 4164244
+    },
+    "Assets/models/Spectre/crescent.zip": {
+      "sha256": "6F4216679A1FF0725E6CDA61EE005CCF575496AB598ECDAA6B57B44A42552846",
+      "size": 776703
+    },
+    "Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul.zip": {
+      "sha256": "D545DE22DFC7D1CEE6A6267F38433538A1A4583C0A5B9C1E6FB7DF8261E799DE",
+      "size": 197249
+    },
+    "Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul_2.zip": {
+      "sha256": "46AB34FC419255F7B72DF5F936F8281D7700503452E7B556768BDA6A70DC9081",
+      "size": 206994
+    },
+    "Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul_3.zip": {
+      "sha256": "B5DF57F9C96D7D05A991A20B28AB98E315872DECA0C8BAD427915E1D63CBBFCE",
+      "size": 212181
+    },
+    "Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser.zip": {
+      "sha256": "9D58F686B093FD6E59CA445A54C710730C3C2F6C5EEABC5AD0A8114BBF97EBF1",
+      "size": 47427
+    },
+    "Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser_2.zip": {
+      "sha256": "4625F232029ABAD78C9FDB944C30F1BB7058309A4CD6AE182D632868C11527FE",
+      "size": 50679
+    },
+    "Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser_3.zip": {
+      "sha256": "D9C069C180B8CE3CE3A59A5A3A778EA1C3B6BBA95388AFD290216840C5643616",
+      "size": 50679
+    },
+    "Assets/models/Spectre/lament.zip": {
+      "sha256": "64A143337B71DEFAD28E43462750C37F07F33F37C7FCE46B471BBB287FC15641",
+      "size": 991729
+    },
+    "Assets/models/Spectre/shadowveil.zip": {
+      "sha256": "4B043B0706A586F1BC535515A01F7339E23C296993BFE15A8E0A3D1AC0C4967E",
+      "size": 433738
+    },
+    "Assets/models/Spectre/weaver.zip": {
+      "sha256": "CF0B9B0BC94FF0BC673605CF53FB5AED04EAB06385740010407DFB0E3E98D0CD",
+      "size": 248762
     },
     "Assets/models/Sven/arbiter.zip": {
       "sha256": "2CCA05B3CACEDDC5D93A7357D02381DA4AA1B3EC2D6141BC4DA1594623842357",

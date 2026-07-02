@@ -2788,8 +2788,69 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Spectre/arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Spectre/arcana.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Spectre/base_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Spectre/base_arcana.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Spectre/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Spectre/base_arcana_2.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Spectre/crescent.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Spectre/crescent.png"
+      ],
+      "Set 5": {
+        "styles": {
+          "item_shoulder_soul": [
+            "https://cdn.ardysamods.my.id/Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Spectre/item_shoulder_soul/item_shoulder_soul.png"
+          ],
+          "item_shoulder_soul_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Spectre/item_shoulder_soul/item_shoulder_soul_2.png"
+          ],
+          "item_shoulder_soul_3": [
+            "https://cdn.ardysamods.my.id/Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul_3.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Spectre/item_shoulder_soul/item_shoulder_soul_3.png"
+          ]
+        }
+      },
+      "Set 6": {
+        "styles": {
+          "item_weapon_diffuser": [
+            "https://cdn.ardysamods.my.id/Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Spectre/item_weapon_diffuser/item_weapon_diffuser.png"
+          ],
+          "item_weapon_diffuser_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Spectre/item_weapon_diffuser/item_weapon_diffuser_2.png"
+          ],
+          "item_weapon_diffuser_3": [
+            "https://cdn.ardysamods.my.id/Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser_3.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Spectre/item_weapon_diffuser/item_weapon_diffuser_3.png"
+          ]
+        }
+      },
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Spectre/lament.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Spectre/lament.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Spectre/shadowveil.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Spectre/shadowveil.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Spectre/weaver.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Spectre/weaver.png"
       ]
-    }
+    },
+    "method": 2
   },
   {
     "id": [

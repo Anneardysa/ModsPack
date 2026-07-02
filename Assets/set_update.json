@@ -1,7 +1,48 @@
 {
-  "version": "1.0.55",
-  "lastUpdated": "2026-07-01",
+  "version": "1.0.56",
+  "lastUpdated": "2026-07-02",
   "updates": [
+    {
+      "date": "2026-07-02",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 9"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 6 (item_weapon_diffuser)"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 5 (item_shoulder_soul)"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-07-01",
       "sets": [

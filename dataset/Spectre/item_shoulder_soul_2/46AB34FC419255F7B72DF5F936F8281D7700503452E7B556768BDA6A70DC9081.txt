@@ -1,0 +1,113 @@
+﻿"325"
+{
+	"name"		"Transversant Soul"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+	"image_inventory"		"#DOTA_Item_Desc_Transversant_Soul"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Transversant_Soul"
+	"item_rarity"		"immortal"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulder"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/spectre/spectre_wings.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"227.647919 36.782967 155.828598"
+			"PortraitLightAngles"		"355.138550 193.079224 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"147"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"2.534315"
+			"PortraitAmbientDirection"		"-14.590 42.120 -5.590"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"197.759033 -131.411728 125.744347"
+					"PortraitAngles"		"356.083374 148.331909 346.486816"
+					"PortraitFOV"		"52"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_spectre"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"spectre_ti7_immortal"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_spectre/spectre_spectral_dagger.vpcf"
+			"modifier"		"particles/econ/items/spectre/spectre_transversant_soul/spectre_transversant_spectral_dagger.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Spectre.DaggerCast"
+			"modifier"		"Hero_Spectre.DaggerCast.ti7"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"spectre_spectral_dagger"
+			"modifier"		"spectre/immortal/spectre_spectral_dagger"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_spectre/spectre_spectral_dagger_tracking.vpcf"
+			"modifier"		"particles/econ/items/spectre/spectre_transversant_soul/spectre_transversant_spectral_dagger_tracking.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_spectre/spectre_shadow_path_owner.vpcf"
+			"modifier"		"particles/econ/items/spectre/spectre_transversant_soul/spectre_transversant_spectral_dagger_path_owner.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/spectre/spectre_transversant_soul/spectre_transversant_ambient_v2.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
