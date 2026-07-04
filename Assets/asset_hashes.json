@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-02T03:09:01Z",
+  "generatedAt": "2026-07-04T15:19:02Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -890,6 +890,46 @@
     "Assets/models/Queen_of_Pain/rose.zip": {
       "sha256": "E3782D76EB12BB8FED6B988EEB0C06E3B3A0089231565A2CF713A9643E37B2E2",
       "size": 801861
+    },
+    "Assets/models/Riki/cunning.zip": {
+      "sha256": "3DBD05E8C6FC2E0832EDCC99604C94F7AA5C7E29C105C7CE7D2E8F5804055BAD",
+      "size": 160811
+    },
+    "Assets/models/Riki/howling.zip": {
+      "sha256": "170E00A1F2C5DBA5DF251142926961033D13105FCC09D1FA6759A1CF656D161A",
+      "size": 382494
+    },
+    "Assets/models/Riki/item_head_shadow/item_head_shadow.zip": {
+      "sha256": "A161385794F1232436F2537276EC2F0AE7E5206531FDF39A598205B732975E25",
+      "size": 123140
+    },
+    "Assets/models/Riki/item_head_shadow/item_head_shadow_crimson.zip": {
+      "sha256": "ED2F9F87E6A02A659EB3CE91371C7A7219B0860BC62F20A3BDA3BAC39FA3B971",
+      "size": 123141
+    },
+    "Assets/models/Riki/item_head_shadow/item_head_shadow_golden.zip": {
+      "sha256": "2F7769F31FA834D9561B7B468EF55E7F81672026AD270887D46E64BC6DB4E3BA",
+      "size": 123319
+    },
+    "Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow.zip": {
+      "sha256": "442B81CAC1F3E8046D7E2706BC575DE44D58522C9B4D4F34A9C5DA16B8DE766B",
+      "size": 225796
+    },
+    "Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow_crimson.zip": {
+      "sha256": "58CA162D2CCAD27EA1B4174B4FDFBD98C6F9F688FA2B73C2086816DE68F69B20",
+      "size": 224752
+    },
+    "Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow_golden.zip": {
+      "sha256": "AFB187A683E9CC0799CD3D3E82A253053ED8BB5FBEB5695C2BE159231323963B",
+      "size": 229252
+    },
+    "Assets/models/Riki/item_weapon_shifty.zip": {
+      "sha256": "9770CC623FEDF22BC3DC9E366556DA58C06A5C10AE565577B47AD6EF313F9387",
+      "size": 98927
+    },
+    "Assets/models/Riki/scarlet.zip": {
+      "sha256": "B88CEF3100CBB212BDAEA96EA2F44222449B57BFB827BD8F917BB3D7B276E181",
+      "size": 414849
     },
     "Assets/models/Rubick/base_arcana.zip": {
       "sha256": "E892D8A40EEB864D50DA43A6667D9B8D0744C7B19768BDBD45EDF22A91C97D63",

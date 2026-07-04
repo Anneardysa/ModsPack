@@ -1,0 +1,474 @@
+﻿"163"
+{
+	"name"		"Hunger of the Howling Wilds Head"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/rikimaru/riki_killer_of_purple_smoke_head/riki_killer_of_purple_smoke_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Hunger_of_the_Howling_Wilds_Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/rikimaru/rikimaru_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"128.126572 -9.948397 153.129074"
+			"PortraitLightAngles"		"155.610352 353.984985 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"203"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.049383"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-61.390 114.350 -5.260"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"338.426422 -33.315159 149.335892"
+					"PortraitAngles"		"9.645999 171.721817 0.000000"
+					"PortraitFOV"		"14"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/riki/riki_fall20_killer_of_purple_smoke/riki_fall20_killer_of_purple_smoke_head.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"164"
+{
+	"name"		"Hunger of the Howling Wilds Shoulder"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/rikimaru/riki_killer_of_purple_smoke_shoulder/riki_killer_of_purple_smoke_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Hunger_of_the_Howling_Wilds_Shoulder"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"model_player"		"models/heroes/rikimaru/rikimaru_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"106.492104 18.674120 260.274963"
+			"PortraitLightAngles"		"0.818481 168.975220 0.000000"
+			"PortraitLightFOV"		"61"
+			"PortraitLightDistance"		"330"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_DIE"
+			"PortraitAnimationCycle"		"0.069767"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-10.670 16.790 6.480"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-283.225250 -318.003906 145.102814"
+					"PortraitAngles"		"6.800011 47.505379 -20.308228"
+					"PortraitFOV"		"17"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/riki/riki_fall20_killer_of_purple_smoke/riki_fall20_killer_of_purple_smoke_shoulder.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"165"
+{
+	"name"		"Hunger of the Howling Wilds Tail"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/rikimaru/riki_killer_of_purple_smoke_tail/riki_killer_of_purple_smoke_tail"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Hunger_of_the_Howling_Wilds_Tail"
+	"item_rarity"		"mythical"
+	"item_slot"		"tail"
+	"model_player"		"models/heroes/rikimaru/rikimaru_tail.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"106.492104 18.674120 260.274963"
+			"PortraitLightAngles"		"0.818481 168.975220 0.000000"
+			"PortraitLightFOV"		"61"
+			"PortraitLightDistance"		"330"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_DIE"
+			"PortraitAnimationCycle"		"0.069767"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-10.670 16.790 6.480"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-124.485176 -206.318726 399.784241"
+					"PortraitAngles"		"58.688957 64.665527 0.000000"
+					"PortraitFOV"		"25"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"166"
+{
+	"name"		"Hunger of the Howling Wilds Arms"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/rikimaru/riki_killer_of_purple_smoke_arms/riki_killer_of_purple_smoke_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Hunger_of_the_Howling_Wilds_Arms"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/rikimaru/rikimaru_gloves.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"19.654388 141.406357 241.170273"
+			"PortraitLightAngles"		"91.823730 76.085815 358.077393"
+			"PortraitLightFOV"		"48"
+			"PortraitLightDistance"		"160"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"0.000000 0.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.800000 0.400000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_riki/riki_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-44.440 79.750 -98.000"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"460.496674 -307.785156 123.126030"
+					"PortraitAngles"		"6.964512 146.906921 -34.749756"
+					"PortraitFOV"		"12"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/riki/riki_fall20_killer_of_purple_smoke/riki_fall20_killer_of_purple_smoke_arms.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"322"
+{
+	"name"		"Hunger of the Howling Wilds Off-Hand Weapon"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/rikimaru/riki_killer_of_purple_smoke_off_hand/riki_killer_of_purple_smoke_off_hand"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Hunger_of_the_Howling_Wilds_OffHand_Weapon"
+	"item_rarity"		"mythical"
+	"item_slot"		"offhand_weapon"
+	"model_player"		"models/heroes/rikimaru/rikimaru__offhand_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"106.492104 18.674120 260.274963"
+			"PortraitLightAngles"		"0.818481 168.975220 0.000000"
+			"PortraitLightFOV"		"61"
+			"PortraitLightDistance"		"330"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.061728"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-10.670 16.790 6.480"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-42.314964 197.445923 203.657898"
+					"PortraitAngles"		"38.080605 278.552826 -32.039993"
+					"PortraitFOV"		"42"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/riki/riki_fall20_killer_of_purple_smoke/riki_fall20_killer_of_purple_smoke_offhand.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"561"
+{
+	"name"		"Hunger of the Howling Wilds Weapon"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/rikimaru/riki_killer_of_purple_smoke_weapon/riki_killer_of_purple_smoke_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Hunger_of_the_Howling_Wilds_Weapon"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/rikimaru/rikimaru_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"106.492104 18.674120 260.274963"
+			"PortraitLightAngles"		"0.818481 168.975220 0.000000"
+			"PortraitLightFOV"		"61"
+			"PortraitLightDistance"		"330"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.061728"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-10.670 16.790 6.480"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"144.548676 80.549965 187.438431"
+					"PortraitAngles"		"44.062668 218.583954 -32.039993"
+					"PortraitFOV"		"40"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/riki/riki_fall20_killer_of_purple_smoke/riki_fall20_killer_of_purple_smoke_weapon.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"8366"
+{
+	"name"		"All Heroes' Default Pet"
+	"prefab"		"default_item"
+	"creation_date"		"2015-04-14"
+	"image_inventory"		"econ/default_no_item"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Wearable_All_Heroes_DefaultPet"
+	"item_slot"		"summon"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"static_attributes"
+	{
+		"is inspectable"		"0"
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_axe"		"1"
+		"npc_dota_hero_bristleback"		"1"
+		"npc_dota_hero_centaur"		"1"
+		"npc_dota_hero_earthshaker"		"1"
+		"npc_dota_hero_juggernaut"		"1"
+		"npc_dota_hero_legion_commander"		"1"
+		"npc_dota_hero_riki"		"1"
+		"npc_dota_hero_slark"		"1"
+		"npc_dota_hero_sven"		"1"
+		"npc_dota_hero_marci"		"1"
+	}
+}
+

@@ -1,0 +1,547 @@
+﻿"163"
+{
+	"name"		"Hat of the Cunning Corsair"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+	"image_inventory"		"econ/items/rikimaru/riki_cunning_corsair_ti_2017_head/riki_cunning_corsair_ti_2017_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Hat_of_the_Cunning_Corsair"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"model_player"		"models/heroes/rikimaru/rikimaru_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"128.126572 -9.948397 153.129074"
+			"PortraitLightAngles"		"155.610352 353.984985 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"203"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.049383"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-61.390 114.350 -5.260"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"302.409943 -38.963161 139.404343"
+					"PortraitAngles"		"9.645996 171.721802 0.000000"
+					"PortraitFOV"		"14"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2017"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI7_BattlePass_Owners"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/riki/riki_cunning_crosair/riki_cunning_crosair_head_ambient.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"164"
+{
+	"name"		"Shoulder Pads of the Cunning Corsair"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+	"image_inventory"		"econ/items/rikimaru/riki_cunning_corsair_ti_2017_shoulder/riki_cunning_corsair_ti_2017_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Shoulder_Pads_of_the_Cunning_Corsair"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulder"
+	"model_player"		"models/heroes/rikimaru/rikimaru_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"106.492104 18.674120 260.274963"
+			"PortraitLightAngles"		"0.818481 168.975220 0.000000"
+			"PortraitLightFOV"		"61"
+			"PortraitLightDistance"		"330"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_DIE"
+			"PortraitAnimationCycle"		"0.069767"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-10.670 16.790 6.480"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"127.114723 157.392456 153.635376"
+					"PortraitAngles"		"11.727905 225.505371 339.691772"
+					"PortraitFOV"		"29.658001"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2017"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI7_BattlePass_Owners"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"165"
+{
+	"name"		"Tail of the Cunning Corsair"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+	"image_inventory"		"econ/items/rikimaru/riki_cunning_corsair_ti_2017_tail/riki_cunning_corsair_ti_2017_tail"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tail_of_the_Cunning_Corsair"
+	"item_rarity"		"mythical"
+	"item_slot"		"tail"
+	"item_type_name"		"#DOTA_WearableType_tail"
+	"model_player"		"models/heroes/rikimaru/rikimaru_tail.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"120.091377 18.674120 260.274963"
+			"PortraitLightAngles"		"71.853859 37.876667 -143.370956"
+			"PortraitLightFOV"		"61"
+			"PortraitLightDistance"		"330"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_DIE"
+			"PortraitAnimationCycle"		"0.069767"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-10.670 16.790 6.480"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-124.485176 -206.318726 399.784241"
+					"PortraitAngles"		"60.437668 75.756454 0.000000"
+					"PortraitFOV"		"25"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2017"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI7_BattlePass_Owners"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/riki/riki_cunning_crosair/riki_cunning_crosair_tail_ambient.vpcf"
+			"style"		"0"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"166"
+{
+	"name"		"Cuffs of the Cunning Corsair"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+	"image_inventory"		"econ/items/rikimaru/riki_cunning_corsair_ti_2017_arms/riki_cunning_corsair_ti_2017_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cuffs_of_the_Cunning_Corsair"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Arms"
+	"model_player"		"models/heroes/rikimaru/rikimaru_gloves.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"19.654388 141.406357 241.170273"
+			"PortraitLightAngles"		"91.823730 76.085815 358.077393"
+			"PortraitLightFOV"		"48"
+			"PortraitLightDistance"		"160"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor2"		"0.000000 0.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.800000 0.400000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_riki/riki_portrait.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-44.440 79.750 -98.000"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-77.280624 202.734909 219.234680"
+					"PortraitAngles"		"37.364502 286.506958 325.250244"
+					"PortraitFOV"		"12"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2017"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI7_BattlePass_Owners"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"322"
+{
+	"name"		"Hook of the Cunning Corsair"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+	"image_inventory"		"econ/items/rikimaru/riki_cunning_corsair_ti_2017_off_hand/riki_cunning_corsair_ti_2017_off_hand"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Hook_of_the_Cunning_Corsair"
+	"item_rarity"		"mythical"
+	"item_slot"		"offhand_weapon"
+	"item_type_name"		"#DOTA_WearableType_offhand_weapon"
+	"model_player"		"models/heroes/rikimaru/rikimaru__offhand_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"106.492104 18.674120 260.274963"
+			"PortraitLightAngles"		"0.818481 168.975220 0.000000"
+			"PortraitLightFOV"		"61"
+			"PortraitLightDistance"		"330"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.061728"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-10.670 16.790 6.480"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"97.222748 130.318680 173.938400"
+					"PortraitAngles"		"36.004948 212.780869 -32.039993"
+					"PortraitFOV"		"42"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2017"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI7_BattlePass_Owners"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"561"
+{
+	"name"		"Dagger of the Cunning Corsair"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+	"image_inventory"		"econ/items/rikimaru/riki_cunning_corsair_ti_2017_weapon/riki_cunning_corsair_ti_2017_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Dagger_of_the_Cunning_Corsair"
+	"item_rarity"		"mythical"
+	"item_type_name"		"#DOTA_WearableType_Weapon"
+	"model_player"		"models/heroes/rikimaru/rikimaru_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"106.492104 18.674120 260.274963"
+			"PortraitLightAngles"		"0.818481 168.975220 0.000000"
+			"PortraitLightFOV"		"61"
+			"PortraitLightDistance"		"330"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.061728"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-10.670 16.790 6.480"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"112.794632 73.087646 143.122696"
+					"PortraitAngles"		"44.062672 218.583969 -32.039993"
+					"PortraitFOV"		"40"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2017"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_To_TI7_BattlePass_Owners"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/riki/riki_cunning_crosair/riki_cunning_crosair_weapon_ambient.vpcf"
+			"style"		"0"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"8366"
+{
+	"name"		"All Heroes' Default Pet"
+	"prefab"		"default_item"
+	"creation_date"		"2015-04-14"
+	"image_inventory"		"econ/default_no_item"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Wearable_All_Heroes_DefaultPet"
+	"item_slot"		"summon"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"static_attributes"
+	{
+		"is inspectable"		"0"
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_axe"		"1"
+		"npc_dota_hero_bristleback"		"1"
+		"npc_dota_hero_centaur"		"1"
+		"npc_dota_hero_earthshaker"		"1"
+		"npc_dota_hero_juggernaut"		"1"
+		"npc_dota_hero_legion_commander"		"1"
+		"npc_dota_hero_riki"		"1"
+		"npc_dota_hero_slark"		"1"
+		"npc_dota_hero_sven"		"1"
+		"npc_dota_hero_marci"		"1"
+	}
+}
+

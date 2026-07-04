@@ -2407,6 +2407,53 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Riki/cunning.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Riki/cunning.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Riki/howling.zip"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Riki/scarlet.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Riki/scarlet.png"
+      ],
+      "Set 4": {
+        "styles": {
+          "item_head_shadow": [
+            "https://cdn.ardysamods.my.id/Assets/models/Riki/item_head_shadow/item_head_shadow.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Riki/item_head_shadow/item_head_shadow.png"
+          ],
+          "item_head_shadow_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Riki/item_head_shadow/item_head_shadow_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Riki/item_head_shadow/item_head_shadow_crimson.png"
+          ],
+          "item_head_shadow_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Riki/item_head_shadow/item_head_shadow_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Riki/item_head_shadow/item_head_shadow_golden.png"
+          ]
+        }
+      },
+      "Set 5": {
+        "styles": {
+          "item_shoulder_shadow": [
+            "https://cdn.ardysamods.my.id/Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Riki/item_shoulder_shadow/item_shoulder_shadow.png"
+          ],
+          "item_shoulder_shadow_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Riki/item_shoulder_shadow/item_shoulder_shadow_crimson.png"
+          ],
+          "item_shoulder_shadow_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Riki/item_shoulder_shadow/item_shoulder_shadow_golden.png"
+          ]
+        }
+      },
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Riki/item_weapon_shifty.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Riki/item_weapon_shifty.png"
       ]
     }
   },

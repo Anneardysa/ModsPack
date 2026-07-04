@@ -1,0 +1,112 @@
+﻿"164"
+{
+	"name"		"Riki's Shoulder Armor"
+	"prefab"		"default_item"
+	"creation_date"		"2025-08-07"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2025"
+	"image_inventory"		"econ/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Shadow_Masquerade_of_the_Crimson_Witness"
+	"item_rarity"		"immortal"
+	"item_slot"		"shoulder"
+	"model_player"		"models/heroes/rikimaru/rikimaru_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"-227.046127 -447.876862 598.791504"
+					"PortraitAngles"		"48.158024 64.380890 0.000000"
+					"PortraitFOV"		"17"
+					"PortraitFar"		"997"
+				}
+			}
+			"PortraitLightPosition"		"-0.705538 37.217503 192.171265"
+			"PortraitLightAngles"		"75.426636 322.476196 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"203"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"1.750000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-61.390 114.350 -5.260"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.987654"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_riki"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti6"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_riki/riki_blink_strike.vpcf"
+			"modifier"		"particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_blinkstrike_crimson.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_ambient_crimson.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Riki.Blink_Strike"
+			"modifier"		"Hero_Riki.Blink_Strike.Immortal"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"riki_blink_strike"
+			"modifier"		"riki/shadow_masquerade/riki_blink_strike_crimson"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
