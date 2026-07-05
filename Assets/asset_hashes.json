@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-05T06:40:21Z",
+  "generatedAt": "2026-07-05T07:52:47Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -642,6 +642,26 @@
     "Assets/models/Legion_Commander/triumph.zip": {
       "sha256": "5E8FD0113580D563E61D904127A50E662F81F9F4B0D45026A67B1D3BB1D204AD",
       "size": 568773
+    },
+    "Assets/models/Magnus/bore.zip": {
+      "sha256": "433408502AF0188FF6A3279955B7EB36B68B2FF84D3B3C346D63419BAB81FE28",
+      "size": 270617
+    },
+    "Assets/models/Magnus/glory.zip": {
+      "sha256": "DEF0FA3E3A683D1A8DD8E5F9D4B57CC930B67124E67D955D0CD8CDAC16F602EB",
+      "size": 147184
+    },
+    "Assets/models/Magnus/item_head_ardenok/item_head_ardenok.zip": {
+      "sha256": "07CFEB713B011527983A9D046CAD619117C09785371239A9024DE7DBB6C569B5",
+      "size": 310622
+    },
+    "Assets/models/Magnus/item_head_ardenok/item_head_ardenok_crimson.zip": {
+      "sha256": "A2D514A4F65CB9959F7F818E07A36334DAC668576E0232AB82C9D35F33FFCB4A",
+      "size": 313844
+    },
+    "Assets/models/Magnus/item_weapon_anvil.zip": {
+      "sha256": "748A09A301FAE6DE01E00040D5CF67A493045FDD945EE64903849D413D22F5A3",
+      "size": 331996
     },
     "Assets/models/Meepo/bird.zip": {
       "sha256": "9E48E4D9B96094528E4554654A795658A9ED7353026BBDFBD47BD7ADA1B0F216",
