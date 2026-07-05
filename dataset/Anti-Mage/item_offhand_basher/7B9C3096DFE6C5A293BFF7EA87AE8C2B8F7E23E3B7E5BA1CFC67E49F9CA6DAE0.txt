@@ -1,0 +1,119 @@
+﻿"335"
+{
+	"name"		"Offhand Basher of Mage Skulls"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/antimage/skullbasher_offhand/skullbasher_offhand1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Offhand_Basher_of_Mage_Skulls"
+	"item_rarity"		"immortal"
+	"item_slot"		"offhand_weapon"
+	"item_type_name"		"#DOTA_WearableType_Offhand_Weapon"
+	"model_player"		"models/heroes/antimage/antimage_offhand_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"123.682922 -23.943642 231.566788"
+			"PortraitLightAngles"		"76.316528 149.957886 0.000000"
+			"PortraitLightFOV"		"64"
+			"PortraitLightDistance"		"199"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.775000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.470000 0.340000 0.160000"
+			"PortraitBackgroundColor2"		"0.470000 0.340000 0.160000"
+			"PortraitBackgroundColor3"		"0.610000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"67.910 81.180 33.970"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"199.246567 34.508415 345.810883"
+					"PortraitAngles"		"67.747192 192.480469 0.000000"
+					"PortraitFOV"		"39"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2015"
+		}
+		"static socket 1"
+		{
+			"attribute_class"		"socket"
+			"value"		"socket { required_hero: 'npc_dota_hero_antimage' gem_def_index: 3005 } asset_modifier: 140"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_antimage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"offhand_basher"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle"
+			"asset"		"particles/items_fx/basher.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5/am_basher.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_antimage/antimage_blade_hit.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5/antimage_blade_hit_basher_ti_5.vpcf"
+		}
+		"asset_modifier3"
+		{
+			"type"		"particle"
+			"asset"		"particles/generic_gameplay/generic_manaburn.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5/am_manaburn_basher_ti_5.vpcf"
+		}
+		"asset_modifier4"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_antimage/antimage_manavoid.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5/antimage_manavoid_ti_5.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier5"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5/antimage_ambient_skullbasher_offhand.vpcf"
+		}
+		"asset_modifier6"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_antimage/am_basher_lightning.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5/am_basher_lightning.vpcf"
+		}
+		"asset_modifier7"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

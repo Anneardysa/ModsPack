@@ -73,6 +73,89 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/defiant.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/defiant.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/hunter.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/hunter.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/reaper.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/reaper.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/shadow.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/shadow.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/survivor.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/survivor.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/persona_braid.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/persona_braid.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/persona_dragon.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/persona_dragon.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/persona_piety.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/persona_piety.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/persona_pilgrim.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/persona_pilgrim.png"
+      ],
+      "Set 10": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/persona_sakura.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/persona_sakura.png"
+      ],
+      "Set 11": {
+        "styles": {
+          "item_offhand_basher": [
+            "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_offhand_basher/item_offhand_basher.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/item_offhand_basher/item_offhand_basher.png"
+          ],
+          "item_offhand_basher_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_offhand_basher/item_offhand_basher_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/item_offhand_basher/item_offhand_basher_golden.png"
+          ]
+        }
+      },
+      "Set 12": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_offhand_manta.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/item_offhand_manta.png"
+      ],
+      "Set 13": {
+        "styles": {
+          "item_shoulder_faith": [
+            "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/item_shoulder_faith/item_shoulder_faith.png"
+          ],
+          "item_shoulder_faith_gold": [
+            "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith_gold.zip"
+          ]
+        }
+      },
+      "Set 14": {
+        "styles": {
+          "item_weapon_basher": [
+            "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_weapon_basher/item_weapon_basher.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/item_weapon_basher/item_weapon_basher.png"
+          ],
+          "item_weapon_basher_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_weapon_basher/item_weapon_basher_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/item_weapon_basher/item_weapon_basher_golden.png"
+          ]
+        }
+      },
+      "Set 15": [
+        "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_weapon_manta.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/item_weapon_manta.png"
       ]
     }
   },

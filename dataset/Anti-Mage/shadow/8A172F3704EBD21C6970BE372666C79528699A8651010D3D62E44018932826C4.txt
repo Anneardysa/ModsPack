@@ -1,0 +1,445 @@
+﻿"1"
+{
+	"name"		"Weapon of the Forgotten Plane "
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/antimage/am_shinobi_weapon/am_shinobi_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Weapon_of_the_Forgotten_Plane_"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/antimage/antimage_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-66.324997 -78.059166 240.345184"
+			"PortraitLightAngles"		"80.617676 288.934937 0.000000"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-88.737907 -33.351494 172.673065"
+					"PortraitAngles"		"75.585938 7.778320 10.404053"
+					"PortraitFOV"		"82"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_antimage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/antimage/antimage_shinobi/antimage_shinobi_weapon.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"215"
+{
+	"name"		"Mask of the Forgotten Plane"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/antimage/am_shinobi_head/am_shinobi_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Mask_of_the_Forgotten_Plane"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/antimage/antimage_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"184.644119 -38.199028 309.266296"
+			"PortraitLightAngles"		"55.068970 171.798706 0.000000"
+			"PortraitLightFOV"		"35"
+			"PortraitLightDistance"		"315"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"259.517914 -218.184052 150.579819"
+					"PortraitAngles"		"1.466675 140.306396 0.000000"
+					"PortraitFOV"		"12"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_antimage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/antimage/antimage_shinobi/antimage_shinobi_head.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"216"
+{
+	"name"		"Armor of the Forgotten Plane"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/antimage/am_shinobi_armor/am_shinobi_armor"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Armor_of_the_Forgotten_Plane"
+	"item_rarity"		"mythical"
+	"item_slot"		"armor"
+	"model_player"		"models/heroes/antimage/antimage_chest.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-66.324997 -78.059166 240.345184"
+			"PortraitLightAngles"		"54.854736 51.190796 0.000000"
+			"PortraitLightFOV"		"33"
+			"PortraitLightDistance"		"474"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"17.350832 -184.511551 136.314743"
+					"PortraitAngles"		"6.229248 97.377319 0.000000"
+					"PortraitFOV"		"41"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_antimage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/antimage/antimage_shinobi/antimage_shinobi_armor.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"217"
+{
+	"name"		"Bracer of the Forgotten Plane"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/antimage/am_shinobi_arms/am_shinobi_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bracer_of_the_Forgotten_Plane"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/antimage/antimage_arms.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"54.316269 17.339674 240.976120"
+			"PortraitLightAngles"		"86.945801 286.353149 0.000000"
+			"PortraitLightFOV"		"25"
+			"PortraitLightDistance"		"152"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"63.795273 11.836917 190.160828"
+					"PortraitAngles"		"91.856689 97.575073 0.000000"
+					"PortraitFOV"		"37"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_antimage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/antimage/antimage_shinobi/antimage_shinobi_arms.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"218"
+{
+	"name"		"Belt of the Forgotten Plane"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/antimage/am_shinobi_belt/am_shinobi_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Belt_of_the_Forgotten_Plane"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"model_player"		"models/heroes/antimage/antimage_belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-142.848358 113.888397 210.106888"
+			"PortraitLightAngles"		"44.082642 311.824951 0.000000"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-182.124619 314.169617 100.750877"
+					"PortraitAngles"		"7.201538 298.520508 0.000000"
+					"PortraitFOV"		"25"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_antimage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"335"
+{
+	"name"		"Off-Hand Weapon of the Forgotten Plane"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/antimage/am_shinobi_off_hand/am_shinobi_off_hand"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_OffHand_Weapon_of_the_Forgotten_Plane"
+	"item_rarity"		"mythical"
+	"item_slot"		"offhand_weapon"
+	"model_player"		"models/heroes/antimage/antimage_offhand_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-163.515884 -24.734043 165.662155"
+			"PortraitLightAngles"		"47.774048 9.794312 0.000000"
+			"PortraitLightFOV"		"56"
+			"PortraitLightDistance"		"138"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.517241"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"126.058739 -17.698490 203.916183"
+					"PortraitAngles"		"65.507957 153.195450 0.000000"
+					"PortraitFOV"		"66.148003"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_antimage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/antimage/antimage_shinobi/antimage_shinobi_offhand.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"563"
+{
+	"name"		"Antimage's Shoulders"
+	"prefab"		"default_item"
+	"creation_date"		"2020-05-16"
+	"event_id"		"EVENT_ID_DIRETIDE_2020"
+	"image_inventory"		"econ/items/antimage/am_shinobi_shoulder/am_shinobi_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Pauldron_of_the_Forgotten_Plane"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulders"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_antimage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"kisilev_ind/particles/antimage/am_shinobi_shoulder/antimage_shinobi_shoulder.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

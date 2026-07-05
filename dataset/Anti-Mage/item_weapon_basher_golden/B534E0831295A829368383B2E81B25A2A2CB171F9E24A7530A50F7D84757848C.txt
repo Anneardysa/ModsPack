@@ -1,0 +1,129 @@
+﻿"1"
+{
+	"name"		"Golden Basher of Mage Skulls"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/antimage/skullbasher_gold/skullbasher_gold1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Golden_Basher_of_Mage_Skulls"
+	"item_rarity"		"immortal"
+	"model_player"		"models/heroes/antimage/antimage_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-90.277977 -9.464814 267.212830"
+			"PortraitLightAngles"		"88.165283 311.962280 0.000000"
+			"PortraitLightFOV"		"43"
+			"PortraitLightDistance"		"271"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-117.433334 -1.224282 293.709778"
+					"PortraitAngles"		"79.183960 338.604126 0.000000"
+					"PortraitFOV"		"51"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2015"
+		}
+		"static socket 1"
+		{
+			"attribute_class"		"socket"
+			"value"		"socket { required_hero: 'npc_dota_hero_antimage' gem_def_index: 3005 } asset_modifier: 141"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_antimage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"basher"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle"
+			"asset"		"particles/items_fx/basher.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5_gold/am_basher_gold.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle"
+			"asset"		"particles/generic_gameplay/generic_manaburn.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5_gold/am_manaburn_basher_ti_5_gold.vpcf"
+		}
+		"asset_modifier3"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_antimage/antimage_blade_hit.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5_gold/antimage_blade_hit_basher_ti_5_gold.vpcf"
+		}
+		"asset_modifier4"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/antimage/antimage_weapon_basher_ti5/antimage_ambient_skullbasher.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5_gold/antimage_ambient_skullbasher_gold.vpcf"
+		}
+		"asset_modifier5"
+		{
+			"type"		"particle"
+			"asset"		"particles/econ/items/antimage/antimage_weapon_basher_ti5/antimage_manavoid_basher_cast.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5_gold/antimage_manavoid_basher_cast_gold.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier6"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_antimage/antimage_manavoid.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5_gold/antimage_manavoid_ti_5_gold.vpcf"
+		}
+		"asset_modifier7"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5/antimage_ambient_skullbasher.vpcf"
+		}
+		"asset_modifier8"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_antimage/am_basher_lightning.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_basher_ti5_gold/am_basher_lightning.vpcf"
+		}
+		"asset_modifier9"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

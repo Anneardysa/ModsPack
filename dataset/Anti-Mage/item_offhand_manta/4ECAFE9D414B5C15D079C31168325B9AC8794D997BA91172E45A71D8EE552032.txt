@@ -1,0 +1,80 @@
+﻿"335"
+{
+	"name"		"Anti-Mage's Offhand Glaive"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/heroes/antimage/antimage_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_AntiMages_Offhand_Glaive"
+	"item_slot"		"offhand_weapon"
+	"item_type_name"		"#DOTA_WearableType_Glaive"
+	"model_player"		"models/heroes/antimage/antimage_offhand_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-163.515884 -24.734043 165.662155"
+			"PortraitLightAngles"		"47.774048 9.794312 0.000000"
+			"PortraitLightFOV"		"56"
+			"PortraitLightDistance"		"138"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-105.242447 -17.698490 168.794113"
+					"PortraitAngles"		"69.609375 355.825195 0.000000"
+					"PortraitFOV"		"80"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_antimage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_snapshot"
+			"asset"		"particles/models/heroes/antimage/antimage_weapon_offhand.vsnap"
+			"modifier"		"particles/models/items/antimage/arc_of_manta__offhand/arc_of_manta__offhand.vsnap"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle"
+			"asset"		"particles/ability_modifier_placeholder/manta_passive_offhand.vpcf"
+			"modifier"		"particles/econ/items/antimage/antimage_weapon_manta/antimage_blade_offhand_manta_passive.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_antimage/antimage_blade_offhand.vpcf"
+		}
+		"asset_modifier3"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

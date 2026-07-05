@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-04T15:19:02Z",
+  "generatedAt": "2026-07-05T06:38:57Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -130,6 +130,78 @@
     "Assets/misc/special/lpv2.zip": {
       "sha256": "A37A4FB6DB80EC8D1895DB64F0E488C60265B0A925C7DDDED01B0F6336838769",
       "size": 8437513
+    },
+    "Assets/models/Anti-Mage/defiant.zip": {
+      "sha256": "3E8B7518EEFCCD757CE740616855BD978BBFC4DFA71A266AA22D3A741014A80F",
+      "size": 1178116
+    },
+    "Assets/models/Anti-Mage/hunter.zip": {
+      "sha256": "5BF6CECF450B16B8A6C8884741517D0336ACF301E59EAB8A2B1E269628A00D66",
+      "size": 1564507
+    },
+    "Assets/models/Anti-Mage/item_offhand_basher/item_offhand_basher.zip": {
+      "sha256": "7B9C3096DFE6C5A293BFF7EA87AE8C2B8F7E23E3B7E5BA1CFC67E49F9CA6DAE0",
+      "size": 50596
+    },
+    "Assets/models/Anti-Mage/item_offhand_basher/item_offhand_basher_golden.zip": {
+      "sha256": "5FD05A7008DDECA134E3850DCE13BBC552483CB29B500C11A897DED69BA22A60",
+      "size": 50665
+    },
+    "Assets/models/Anti-Mage/item_offhand_manta.zip": {
+      "sha256": "4ECAFE9D414B5C15D079C31168325B9AC8794D997BA91172E45A71D8EE552032",
+      "size": 45485
+    },
+    "Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith.zip": {
+      "sha256": "BA7C226934F2C1D0792A939DC5D1F4C99D581FA0C08E03D0F5747819878F4B60",
+      "size": 209711
+    },
+    "Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith_gold.zip": {
+      "sha256": "95DB7062D8B67D6DB165244A7D3376D12D6A5B91DDD68F10C852BFA72F11567D",
+      "size": 213414
+    },
+    "Assets/models/Anti-Mage/item_weapon_basher/item_weapon_basher.zip": {
+      "sha256": "5E1252E8FEFB5A2D75B09AA68029357E5AA10AF63FA30180845CBDA6CDAB02A7",
+      "size": 50702
+    },
+    "Assets/models/Anti-Mage/item_weapon_basher/item_weapon_basher_golden.zip": {
+      "sha256": "B534E0831295A829368383B2E81B25A2A2CB171F9E24A7530A50F7D84757848C",
+      "size": 50611
+    },
+    "Assets/models/Anti-Mage/item_weapon_manta.zip": {
+      "sha256": "0F1BCC4529DF08A0AE0474FFB86E7303DFFAE0832A42982A888514DE76DF701D",
+      "size": 45308
+    },
+    "Assets/models/Anti-Mage/persona_braid.zip": {
+      "sha256": "6701A1BF6E7DCA3E48A270BAA667141A7E63A61CD425929667582CDB4779894B",
+      "size": 13421607
+    },
+    "Assets/models/Anti-Mage/persona_dragon.zip": {
+      "sha256": "9C66AAB1653AC175C87A14472AB6CC133A469B13E73982A37E45D9BCBF807918",
+      "size": 13603431
+    },
+    "Assets/models/Anti-Mage/persona_piety.zip": {
+      "sha256": "047B4C6E1C65F3A31DA2812A08F9DED4E0987577B059F8986AB48CCDA9D76724",
+      "size": 13694352
+    },
+    "Assets/models/Anti-Mage/persona_pilgrim.zip": {
+      "sha256": "1A1FAA8DBDEA5162F085EE42058C74BB34EAFCF887850C5D560C5FE4795B5F35",
+      "size": 13283326
+    },
+    "Assets/models/Anti-Mage/persona_sakura.zip": {
+      "sha256": "D627F6D2DA5AEEEDA23F4A3783B21A19EA334933D20FA195D75C635D99BE4577",
+      "size": 13588188
+    },
+    "Assets/models/Anti-Mage/reaper.zip": {
+      "sha256": "6B4191A0989A781780E5957CFAB75D71E95A327436B455BA21FF975F3AFA802A",
+      "size": 1815458
+    },
+    "Assets/models/Anti-Mage/shadow.zip": {
+      "sha256": "8A172F3704EBD21C6970BE372666C79528699A8651010D3D62E44018932826C4",
+      "size": 1233032
+    },
+    "Assets/models/Anti-Mage/survivor.zip": {
+      "sha256": "8DF4004281E30CCD08E8FF2CC1AD26AC463FE68E7D0BFB6EA581381D94523500",
+      "size": 1085981
     },
     "Assets/models/Crystal_Maiden/base_arcana.zip": {
       "sha256": "ABD56B139A2A0DCEB060221A973057BE1B82A4C406163E5A76077095B3DE5B8E",
