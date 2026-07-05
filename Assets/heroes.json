@@ -136,8 +136,9 @@
             "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith.zip",
             "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/item_shoulder_faith/item_shoulder_faith.png"
           ],
-          "item_shoulder_faith_gold": [
-            "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith_gold.zip"
+          "item_shoulder_faith_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Anti-Mage/item_shoulder_faith/item_shoulder_faith_golden.png"
           ]
         }
       },

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-05T06:38:57Z",
+  "generatedAt": "2026-07-05T06:40:21Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -155,7 +155,7 @@
       "sha256": "BA7C226934F2C1D0792A939DC5D1F4C99D581FA0C08E03D0F5747819878F4B60",
       "size": 209711
     },
-    "Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith_gold.zip": {
+    "Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith_golden.zip": {
       "sha256": "95DB7062D8B67D6DB165244A7D3376D12D6A5B91DDD68F10C852BFA72F11567D",
       "size": 213414
     },

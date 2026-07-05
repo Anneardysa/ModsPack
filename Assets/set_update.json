@@ -1,10 +1,14 @@
 {
-  "version": "1.0.58",
+  "version": "1.0.59",
   "lastUpdated": "2026-07-05",
   "updates": [
     {
       "date": "2026-07-05",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_antimage",
+          "setName": "Set 13 (item_shoulder_faith_golden)"
+        },
         {
           "heroId": "npc_dota_hero_antimage",
           "setName": "Set 5"
