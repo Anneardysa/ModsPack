@@ -1615,6 +1615,30 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Magnus/bore.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Magnus/bore.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Magnus/glory.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Magnus/glory.png"
+      ],
+      "Set 3": {
+        "styles": {
+          "item_head_ardenok": [
+            "https://cdn.ardysamods.my.id/Assets/models/Magnus/item_head_ardenok/item_head_ardenok.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Magnus/item_head_ardenok/item_head_ardenok.png"
+          ],
+          "item_head_ardenok_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Magnus/item_head_ardenok/item_head_ardenok_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Magnus/item_head_ardenok/item_head_ardenok_crimson.png"
+          ]
+        }
+      },
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Magnus/item_weapon_anvil.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Magnus/item_weapon_anvil.png"
       ]
     }
   },

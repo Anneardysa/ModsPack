@@ -1,10 +1,26 @@
 {
-  "version": "1.0.59",
+  "version": "1.0.60",
   "lastUpdated": "2026-07-05",
   "updates": [
     {
       "date": "2026-07-05",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_magnataur",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_magnataur",
+          "setName": "Set 3 (item_head_ardenok)"
+        },
+        {
+          "heroId": "npc_dota_hero_magnataur",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_magnataur",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_antimage",
           "setName": "Set 13 (item_shoulder_faith_golden)"
