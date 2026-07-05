@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-05T15:23:07Z",
+  "generatedAt": "2026-07-05T15:32:25Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -236,8 +236,8 @@
       "size": 504504
     },
     "Assets/models/Crystal_Maiden/persona_canis.zip": {
-      "sha256": "3E2D879C39D1397520B789D01A440AB0B64153D28BA28B1DEBF284D3EC3926EA",
-      "size": 22610949
+      "sha256": "DEC39898D180E088419467E056D6F7993ABF632F55071990DB688F1B0304DD1F",
+      "size": 22611017
     },
     "Assets/models/Crystal_Maiden/persona_nebula.zip": {
       "sha256": "648B8371D59D6BC3FC098BCC2E0FDAAAF4583921F3D44590BC78D79FF14B6187",
