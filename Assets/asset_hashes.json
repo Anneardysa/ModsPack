@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-05T15:32:25Z",
+  "generatedAt": "2026-07-07T12:26:22Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -1492,8 +1492,8 @@
       "size": 3120140
     },
     "Assets/Original.zip": {
-      "sha256": "499789F9104ECEB24D0ABD17FC37AD2BEB7DEBA54BD8F2720EFE1703AD77468B",
-      "size": 20175410
+      "sha256": "62A282FBEB6229C28D76F4B3BB14DAA3F2950F03AF88C89EB53DA70606321ED1",
+      "size": 16433175
     }
   }
 }
