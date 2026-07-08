@@ -1,0 +1,108 @@
+﻿"326"
+{
+	"name"		"Magnus' Hair"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+	"hide_tradecraftdelete"		"1"
+	"image_inventory"		"econ/items/magnataur/magnus_ti10_immortal_head/magnus_ti10_immortal_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Eyes_of_Ardenok"
+	"item_rarity"		"immortal"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_head"
+	"model_player"		"models/heroes/magnataur/magnataur_hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"166.722382 89.284424 199.238892"
+			"PortraitLightAngles"		"16.045532 211.503296 0.000000"
+			"PortraitLightFOV"		"37"
+			"PortraitLightDistance"		"220"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.500000"
+			"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.200000 0.110000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.642336"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-35.210 -88.060 -30.160"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"186.483826 312.139984 384.731323"
+					"PortraitAngles"		"36.989834 243.978699 0.000000"
+					"PortraitFOV"		"37"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Immortals_TI10_Limited_Tradeability"
+		}
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2020"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_magnataur"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"magnataur_reverse_polarity"
+			"modifier"		"magnataur/mag_ti10_immortal_ability_icon/mag_ti10_immortal_reverse_polarity"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/magnataur/magnus_ti10_head/magnus_ti10_head_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_magnataur/magnataur_reverse_polarity.vpcf"
+			"modifier"		"particles/econ/items/magnataur/magnus_ti10_immortal_head/magnataur_ti_10_head_rp.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_magnataur/magnataur_reverse_polarity_pull.vpcf"
+			"modifier"		"particles/econ/items/magnataur/magnus_ti10_immortal_head/magnataur_ti_10_head_rp_pull.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
