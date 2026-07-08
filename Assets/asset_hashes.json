@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-08T04:54:12Z",
+  "generatedAt": "2026-07-08T06:30:11Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -660,8 +660,8 @@
       "size": 313844
     },
     "Assets/models/Magnus/item_weapon_anvil.zip": {
-      "sha256": "A003171E97F1BCFDDFF918E249DB9282A7120AA7FD34D2FBFE27C48B7FF00949",
-      "size": 331996
+      "sha256": "FD2C040D29A82B211BEB532639C63213DCA8B811F359BB89CEFD838623BB8F49",
+      "size": 338866
     },
     "Assets/models/Meepo/bird.zip": {
       "sha256": "9E48E4D9B96094528E4554654A795658A9ED7353026BBDFBD47BD7ADA1B0F216",
