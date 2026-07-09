@@ -1,0 +1,350 @@
+﻿"777"
+{
+	"name"		"Marci's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2025-12-15"
+	"image_inventory"		"econ/items/marci/myth_of_the_dawnstar_head/myth_of_the_dawnstar_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Laurels_of_the_Dawnstar__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/marci/marci_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"189.678482 -72.420288 147.238037"
+					"PortraitAngles"		"3.290004 158.430161 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 119.350922"
+			"PortraitLightAngles"		"24.347307 174.758301 4.631246"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_marci"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"778"
+{
+	"name"		"Marci's Tunic"
+	"prefab"		"default_item"
+	"creation_date"		"2025-12-15"
+	"image_inventory"		"econ/items/marci/myth_of_the_dawnstar_armor/myth_of_the_dawnstar_armor"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Laurels_of_the_Dawnstar__Armor"
+	"item_rarity"		"mythical"
+	"item_slot"		"armor"
+	"model_player"		"models/heroes/marci/marci_costume.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"740.182678 -299.694641 332.871918"
+					"PortraitAngles"		"18.490013 158.030045 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_marci"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"779"
+{
+	"name"		"Marci's Back"
+	"prefab"		"default_item"
+	"creation_date"		"2025-12-15"
+	"image_inventory"		"econ/items/marci/myth_of_the_dawnstar_back/myth_of_the_dawnstar_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Laurels_of_the_Dawnstar__Back"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"model_player"		"models/heroes/marci/marci_back.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"-57.210705 240.398438 233.903397"
+					"PortraitAngles"		"27.290003 280.829987 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"-25.782654 79.954735 308.170013"
+			"PortraitLightAngles"		"60.815086 9.827776 -164.602631"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_marci"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"780"
+{
+	"name"		"Marci's Shoulders"
+	"prefab"		"default_item"
+	"creation_date"		"2025-12-15"
+	"image_inventory"		"econ/items/marci/myth_of_the_dawnstar_cape_v1/myth_of_the_dawnstar_cape_v1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Laurels_of_the_Dawnstar__Cape"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"model_player"		"models/heroes/marci/marci_shoulders.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"-139.965881 608.855591 242.290817"
+					"PortraitAngles"		"14.890003 282.429901 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"-124.347336 -23.150000 308.170013"
+			"PortraitLightAngles"		"50.575104 7.530885 -167.371948"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_marci"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"8366"
+{
+	"name"		"All Heroes' Default Pet"
+	"prefab"		"default_item"
+	"creation_date"		"2015-04-14"
+	"image_inventory"		"econ/default_no_item"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Wearable_All_Heroes_DefaultPet"
+	"item_slot"		"summon"
+	"item_type_name"		"#DOTA_WearableType_Base"
+	"static_attributes"
+	{
+		"is inspectable"		"0"
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_axe"		"1"
+		"npc_dota_hero_bristleback"		"1"
+		"npc_dota_hero_centaur"		"1"
+		"npc_dota_hero_earthshaker"		"1"
+		"npc_dota_hero_juggernaut"		"1"
+		"npc_dota_hero_legion_commander"		"1"
+		"npc_dota_hero_riki"		"1"
+		"npc_dota_hero_slark"		"1"
+		"npc_dota_hero_sven"		"1"
+		"npc_dota_hero_marci"		"1"
+	}
+}
+

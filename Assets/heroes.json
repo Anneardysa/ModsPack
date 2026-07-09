@@ -1657,6 +1657,38 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Marci/brawler.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Marci/brawler.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Marci/brightfist.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Marci/brightfist.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Marci/cosmic.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Marci/cosmic.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Marci/dawnstar.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Marci/dawnstar.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Marci/fortune.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Marci/fortune.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Marci/horizon.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Marci/horizon.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Marci/little.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Marci/little.jpg"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Marci/school.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Marci/school.png"
       ]
     }
   },

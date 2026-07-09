@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-08T10:14:37Z",
+  "generatedAt": "2026-07-09T02:40:56Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -662,6 +662,38 @@
     "Assets/models/Magnus/item_weapon_anvil.zip": {
       "sha256": "FD2C040D29A82B211BEB532639C63213DCA8B811F359BB89CEFD838623BB8F49",
       "size": 338866
+    },
+    "Assets/models/Marci/brawler.zip": {
+      "sha256": "DF6E4C51009B9E8B29E0B574ED68319F80D6ED0F129069797AB6B3046F8C59BD",
+      "size": 362341
+    },
+    "Assets/models/Marci/brightfist.zip": {
+      "sha256": "0EBF77B933FB936D9B4997151F1096E46489E73682B2C9B33E8655DCA3075835",
+      "size": 485890
+    },
+    "Assets/models/Marci/cosmic.zip": {
+      "sha256": "1014AB3BB74226339A4D1F0601A0940CF179D709713A154D8FE0357F5CAD5FC7",
+      "size": 1089295
+    },
+    "Assets/models/Marci/dawnstar.zip": {
+      "sha256": "123FAF1DBC42676470E9066018075166F3E6057F6CC24D26F04F13C0C0CCBD7C",
+      "size": 416300
+    },
+    "Assets/models/Marci/fortune.zip": {
+      "sha256": "49CE43FE2622FC102094B159A7F070B78B0C3ACB09F0A1C76A343FACF15900F7",
+      "size": 482049
+    },
+    "Assets/models/Marci/horizon.zip": {
+      "sha256": "8EA875D76F74FBD1417AD3A1BA10D21F09B801F7671439963586C20959E35C76",
+      "size": 380800
+    },
+    "Assets/models/Marci/little.zip": {
+      "sha256": "B2269480B09C29F92E124C07CA43DFF198DD2AA0C5F1BBF0962CE6766C6D3B3A",
+      "size": 508248
+    },
+    "Assets/models/Marci/school.zip": {
+      "sha256": "F15DE1C9DC9C95F01AA3D61C5EB29D21467580F3B74ED03E84C1BC87D72F39D2",
+      "size": 446111
     },
     "Assets/models/Meepo/bird.zip": {
       "sha256": "9E48E4D9B96094528E4554654A795658A9ED7353026BBDFBD47BD7ADA1B0F216",
