@@ -29736,6 +29736,13 @@
 		}
 		"asset_modifier"
 		{
+			"type"		"ability_icon"
+			"asset"		"spectre_shadow_step"
+			"modifier"		"spectre/spectre_arcana/spectre_haunt_single_alt"
+			"minimum_priority"		"1"
+		}
+		"asset_modifier"
+		{
 			"type"		"mvp_map_override"
 			"modifier"		"maps/scenes/mvp/mvp_spectre_arcana.vmap"
 		}
