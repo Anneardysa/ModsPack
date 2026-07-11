@@ -66,3 +66,7 @@ venv/
 *_backup/
 .train
 scripts
+
+# Plaintext backup of assets made by encrypt-assets.ps1 before in-place encryption.
+# Keep locally (encryption is one-way without the secret); never commit or upload.
+_plaintext/
