@@ -70,15 +70,20 @@ function Get-ConcatSha256 {
 
 $assets = [ordered]@{}
 
+# Only the Assets/ subtree is downloadable/synced (keys are Assets/...). Scanning the whole repo
+# root would also sweep in the _plaintext/ encryption backups — publishing their plaintext SHA-256s
+# and referencing files that never reach R2. Keys stay repo-relative via Get-RelKey ($root).
+$scanRoot = Join-Path $root 'Assets'
+
 # 1) Standalone .zip files (the *.zip filter excludes split parts ending in .zip.NNN).
-Get-ChildItem -Path $root -Recurse -File -Filter *.zip | Sort-Object FullName | ForEach-Object {
+Get-ChildItem -Path $scanRoot -Recurse -File -Filter *.zip | Sort-Object FullName | ForEach-Object {
     $key = Get-RelKey $_.FullName
     $hash = (Get-FileHash -Path $_.FullName -Algorithm SHA256).Hash.ToUpperInvariant()
     $assets[$key] = [ordered]@{ sha256 = $hash; size = $_.Length }
 }
 
 # 2) Split archives: group *.zip.001/.002/... by the merged ".zip" path, hash concatenation.
-$splitGroups = Get-ChildItem -Path $root -Recurse -File |
+$splitGroups = Get-ChildItem -Path $scanRoot -Recurse -File |
     Where-Object { $_.Name -match '\.zip\.\d{3}$' } |
     Group-Object { $_.FullName -replace '\.\d{3}$', '' }
 

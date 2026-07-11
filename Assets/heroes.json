@@ -1892,6 +1892,14 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Morphling/darktrench.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Morphling/darktrench.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Morphling/fluid.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Morphling/fluid.png"
       ]
     }
   },
