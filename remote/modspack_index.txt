@@ -5360,6 +5360,63 @@
 		}
 	}
 }
+"65"
+{
+	"name"		"Dragon Knight's Bracers"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/dragon_knight/silver_dragon_king_arms/silver_dragon_king_arms"
+	"item_name"		"#DOTA_Item_Silverwurm_Sacrifice__Arms"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/dragon_knight/bracers.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"69"
+			"PortraitLightDistance"		"377"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.500000 0.300000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor3"		"1.000000 0.000000 0.000000"
+			"PortraitBackgroundColor4"		"0.600000 0.100000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-39.200779 -65.838295 165.349594"
+					"PortraitAngles"		"53.278198 98.096924 34.700317"
+					"PortraitFOV"		"61"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_dragon_knight"		"1"
+	}
+	"visuals"
+	{
+	}
+}
 "66"
 {
 	"name"		"Dragon Knight's Weapon"
@@ -19912,6 +19969,71 @@
 					"PortraitPosition"		"154.143570 -79.833328 120.580597"
 					"PortraitAngles"		"355.759277 151.737671 2.433472"
 					"PortraitFOV"		"37"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lycan"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+	}
+}
+"209"
+{
+	"name"		"Pauldron of the Blood Moon"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2016"
+	"image_inventory"		"econ/items/lycan/blood_moon_hunter_shoulder/blood_moon_hunter_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Pauldron_of_the_Blood_Moon"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulder"
+	"model_player"		"models/heroes/lycan/lycan_fur.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-28.545660 93.657288 305.260010"
+			"PortraitLightAngles"		"75.711906 -64.091774 -38.677410"
+			"PortraitLightFOV"		"72"
+			"PortraitLightDistance"		"239"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.000000 0.200000 0.400000"
+			"PortraitBackgroundColor2"		"0.200000 0.400000 1.000000"
+			"PortraitBackgroundColor3"		"0.200000 0.400000 1.000000"
+			"PortraitBackgroundColor4"		"0.100000 0.300000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.750000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"3.646000"
+			"PortraitAmbientDirection"		"16.680 31.210 9.210"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"163.977722 90.230362 208.578430"
+					"PortraitAngles"		"23.785397 201.373901 2.433472"
+					"PortraitFOV"		"37.312000"
 					"PortraitFar"		"1000"
 				}
 			}
@@ -45130,6 +45252,242 @@
 		"skip_model_combine"		"1"
 	}
 }
+"493"
+{
+	"name"		"Tiny's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2014-06-16"
+	"image_inventory"		"econ/heroes/tiny_01/tiny_01_head"
+	"item_description"		"#DOTA_Item_Desc_Tinys_Head"
+	"item_name"		"#DOTA_Item_Tinys_Head"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"model_player"		"models/heroes/tiny_01/tiny_01_head.vmdl"
+	"model_player1"		"models/heroes/tiny_02/tiny_02_head.vmdl"
+	"model_player2"		"models/heroes/tiny_03/tiny_03_head.vmdl"
+	"model_player3"		"models/heroes/tiny_04/tiny_04_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"183.074158 -38.564400 173.802155"
+			"PortraitLightAngles"		"138.938599 339.125977 0.000000"
+			"PortraitLightFOV"		"45"
+			"PortraitLightDistance"		"331"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"0.550000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.300000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-0.080 352.230 213.060"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"200.526184 116.525734 72.447807"
+					"PortraitAngles"		"2.746582 213.112793 0.000000"
+					"PortraitFOV"		"19"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tiny"		"1"
+	}
+}
+"494"
+{
+	"name"		"Tiny's Body"
+	"prefab"		"default_item"
+	"creation_date"		"2014-06-16"
+	"image_inventory"		"econ/heroes/tiny_01/tiny_01_body"
+	"item_description"		"#DOTA_Item_Desc_Tinys_Body"
+	"item_name"		"#DOTA_Item_Tinys_Body"
+	"item_slot"		"armor"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"model_player"		"models/heroes/tiny_01/tiny_01_body.vmdl"
+	"model_player1"		"models/heroes/tiny_02/tiny_02_body.vmdl"
+	"model_player2"		"models/heroes/tiny_03/tiny_03_body.vmdl"
+	"model_player3"		"models/heroes/tiny_04/tiny_04_body.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"126.463364 23.597115 48.959690"
+			"PortraitLightAngles"		"176.127319 11.206055 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"332"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"0.550000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.300000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-0.080 352.230 213.060"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"257.638245 -64.160828 41.038601"
+					"PortraitAngles"		"359.681396 165.585938 0.000000"
+					"PortraitFOV"		"35"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tiny"		"1"
+	}
+}
+"495"
+{
+	"name"		"Tiny's Left Arm"
+	"prefab"		"default_item"
+	"creation_date"		"2014-06-16"
+	"image_inventory"		"econ/heroes/tiny_01/tiny_01_left_arm"
+	"item_description"		"#DOTA_Item_Desc_Tinys_Left_Arm"
+	"item_name"		"#DOTA_Item_Tinys_Left_Arm"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"model_player"		"models/heroes/tiny_01/tiny_01_left_arm.vmdl"
+	"model_player1"		"models/heroes/tiny_02/tiny_02_left_arm.vmdl"
+	"model_player2"		"models/heroes/tiny_03/tiny_03_left_arm.vmdl"
+	"model_player3"		"models/heroes/tiny_04/tiny_04_left_arm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"93.455017 30.345463 154.591370"
+			"PortraitLightAngles"		"126.551514 344.586182 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"332"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"0.550000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.300000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-0.080 352.230 213.060"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"91.859833 157.319290 42.976662"
+					"PortraitAngles"		"0.659180 237.897949 0.000000"
+					"PortraitFOV"		"50"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tiny"		"1"
+	}
+}
+"496"
+{
+	"name"		"Tiny's Right Arm"
+	"prefab"		"default_item"
+	"creation_date"		"2014-06-16"
+	"image_inventory"		"econ/heroes/tiny_01/tiny_01_right_arm"
+	"item_description"		"#DOTA_Item_Desc_Tinys_Right_Arm"
+	"item_name"		"#DOTA_Item_Tinys_Right_Arm"
+	"item_slot"		"offhand_weapon"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"model_player"		"models/heroes/tiny_01/tiny_01_right_arm.vmdl"
+	"model_player1"		"models/heroes/tiny_02/tiny_02_right_arm.vmdl"
+	"model_player2"		"models/heroes/tiny_03/tiny_03_right_arm.vmdl"
+	"model_player3"		"models/heroes/tiny_04/tiny_04_right_arm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"120.447182 -72.070518 168.591370"
+			"PortraitLightAngles"		"122.926025 328.727417 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"332"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"0.550000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.300000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-0.080 352.230 213.060"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"233.861710 -161.398712 84.855682"
+					"PortraitAngles"		"9.766846 145.486450 0.000000"
+					"PortraitFOV"		"34"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tiny"		"1"
+	}
+}
 "497"
 {
 	"name"		"Tiny's Tree"
@@ -45222,6 +45580,34 @@
 			"type"		"particle_create"
 			"modifier"		"particles/econ/items/tiny/tiny_bad_to_the_bone/tiny_bad_to_the_bone_weapon.vpcf"
 			"spawn_in_loadout_only"		"1"
+		}
+	}
+}
+"498"
+{
+	"name"		"Enigma's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-04"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Enigmas_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_enigma"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_enigma"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_enigma/enigma_ambient_eyes.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_enigma/enigma_ambient_body.vpcf"
 		}
 	}
 }
@@ -45342,6 +45728,822 @@
 		"npc_dota_hero_skeleton_king"		"1"
 	}
 }
+"501"
+{
+	"name"		"Ancient Apparition's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Ancient_Apparitions_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_ancient_apparition"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_ancient_apparition"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ambient.vpcf"
+		}
+	}
+}
+"502"
+{
+	"name"		"Crystal Maiden's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Crystal_Maidens_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_crystalmaiden"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_crystal_maiden"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_crystalmaiden/maiden_ambient_mouth.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_crystalmaiden/maiden_ambient_hand.vpcf"
+		}
+	}
+}
+"503"
+{
+	"name"		"Bane's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Banes_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_bane"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_bane"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_bane/bane_slime_trail.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_bane/bane_hand_drip_right.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_bane/bane_hand_drip.vpcf"
+		}
+	}
+}
+"504"
+{
+	"name"		"Lina's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Linas_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_lina"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lina"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_lina/lina_flame_hand_dual.vpcf"
+		}
+	}
+}
+"505"
+{
+	"name"		"Death Prophet's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Death_Prophets_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_death_prophet"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_death_prophet"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_death_prophet/death_prophet_ambient.vpcf"
+		}
+	}
+}
+"506"
+{
+	"name"		"Lich's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Lichs_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_lich"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lich"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_lich/lich_ambient_frost.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_lich/lich_ambient_frost_legs.vpcf"
+		}
+	}
+}
+"507"
+{
+	"name"		"Morphling's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Morphlings_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_morphling"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_morphling"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_morphling/morphling_ambient_new.vpcf"
+		}
+	}
+}
+"508"
+{
+	"name"		"Necrophos' Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Necrophos_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_necrolyte"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_necrolyte"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_necrolyte/necrolyte_ambient_glow.vpcf"
+		}
+	}
+}
+"509"
+{
+	"name"		"Shadow Fiend's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Shadow_Fiends_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_nevermore"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_nevermore"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_nevermore/nevermore_trail.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_nevermore/nevermore_ambient_glow.vpcf"
+		}
+	}
+}
+"510"
+{
+	"name"		"Puck's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Pucks_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_puck"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_puck"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_puck/puck_ambient.vpcf"
+		}
+	}
+}
+"511"
+{
+	"name"		"Pugna's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Pugnas_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_pugna"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_pugna"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_pugna/pugna_weapon_glow.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_pugna/pugna_ambient.vpcf"
+		}
+	}
+}
+"512"
+{
+	"name"		"Slardar's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Slardars_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_slardar"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_slardar"		"1"
+	}
+}
+"513"
+{
+	"name"		"Razor's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Razors_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_razor"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_razor/razor_ambient.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_razor/razor_ambient_main.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_razor/razor_whip.vpcf"
+		}
+	}
+}
+"514"
+{
+	"name"		"Templar Assassin's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Templar_Assassins_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_templar_assassin"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_templar_assassin"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_templar_assassin/templar_assassin_ambient.vpcf"
+		}
+	}
+}
+"515"
+{
+	"name"		"Tinker's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Tinkers_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_tinker"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tinker"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_tinker/tinker_ambient.vpcf"
+		}
+	}
+}
+"516"
+{
+	"name"		"Tiny's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_description"		"#DOTA_Item_Desc_Tinys_Ambient_Effects"
+	"item_name"		"#DOTA_Item_Tinys_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_tiny"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tiny"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_tiny/tiny_ambient.vpcf"
+			"required_model_variant"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_tiny/tiny_ambient_lvl2.vpcf"
+			"required_model_variant"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_tiny/tiny_ambient_lvl3.vpcf"
+			"required_model_variant"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_tiny/tiny_ambient_lvl4.vpcf"
+			"required_model_variant"		"3"
+		}
+	}
+}
+"517"
+{
+	"name"		"Vengeful Spirit's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Vengeful_Spirits_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_vengeful"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_vengefulspirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_vengeful/vengeful_ambient.vpcf"
+		}
+	}
+}
+"518"
+{
+	"name"		"Venomancer's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Venomancers_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_venomancer"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_venomancer"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_venomancer/veno_ambient.vpcf"
+		}
+	}
+}
+"519"
+{
+	"name"		"Viper's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Vipers_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_viper"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_viper"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_viper/viper_ambient_glow.vpcf"
+		}
+	}
+}
+"520"
+{
+	"name"		"Bristleback's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Bristlebacks_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_bristleback"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_bristleback"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_bristleback/bristleback_ambient.vpcf"
+		}
+	}
+}
+"521"
+{
+	"name"		"Chen's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Chens_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_chen"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_chen"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_chen/chen_ambient.vpcf"
+		}
+	}
+}
+"522"
+{
+	"name"		"Abaddon's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Abaddons_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_abaddon"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_abaddon"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_abaddon/abaddon_ambient.vpcf"
+		}
+	}
+}
+"523"
+{
+	"name"		"Clinkz's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Clinkzs_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_clinkz"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_clinkz"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_clinkz/clinkz_body_fire.vpcf"
+		}
+	}
+}
+"524"
+{
+	"name"		"Dark Seer's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Dark_Seers_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_dark_seer"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_dark_seer"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_dark_seer/dark_seer_ambient_hands.vpcf"
+		}
+	}
+}
+"525"
+{
+	"name"		"Disruptor's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Disruptors_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_disruptor"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_disruptor"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_disruptor/disruptor_ambient_glow.vpcf"
+		}
+	}
+}
+"526"
+{
+	"name"		"Earth Spirit's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Earth_Spirits_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_earth_spirit"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_earth_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_earth_spirit/espirit_ambient.vpcf"
+		}
+	}
+}
+"527"
+{
+	"name"		"Gyrocopter's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Gyrocopters_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_gyrocopter"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_gyrocopter"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_gyrocopter/gyro_ambient.vpcf"
+		}
+	}
+}
+"528"
+{
+	"name"		"Keeper of the Light's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Keeper_of_the_Lights_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_keeper_of_the_light"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_keeper_of_the_light"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_ambient.vpcf"
+		}
+	}
+}
+"529"
+{
+	"name"		"Leshrac's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Leshracs_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_leshrac"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_leshrac"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_leshrac/leshrac_ambient_glow.vpcf"
+		}
+	}
+}
+"530"
+{
+	"name"		"Lifestealer's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Lifestealers_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_life_stealer"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_life_stealer"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_life_stealer/life_stealer_ambient.vpcf"
+		}
+	}
+}
+"531"
+{
+	"name"		"Medusa's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Medusas_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_medusa"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_medusa"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_medusa/medusa_bow.vpcf"
+		}
+	}
+}
+"532"
+{
+	"name"		"Naga Siren's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Naga_Sirens_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_siren"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_naga_siren"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_siren/siren_ambient.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_siren/siren_ambient_lamp.vpcf"
+		}
+	}
+}
+"533"
+{
+	"name"		"Outworld Devourer's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Outworld_Devourers_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_obsidian_destroyer"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_obsidian_destroyer"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_staff.vpcf"
+		}
+	}
+}
 "534"
 {
 	"name"		"Ogre Magi's Ambient Effects"
@@ -45368,6 +46570,120 @@
 			"type"		"activity"
 			"asset"		"ALL"
 			"modifier"		"kisilev_ind_heads"
+		}
+	}
+}
+"535"
+{
+	"name"		"Phoenix's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Phoenixs_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_phoenix"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_phoenix"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_phoenix/phoenix_ambient.vpcf"
+		}
+	}
+}
+"536"
+{
+	"name"		"Io's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-10-16"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Ios_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_wisp"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_wisp/wisp_ambient.vpcf"
+		}
+	}
+}
+"537"
+{
+	"name"		"Timbersaw's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Timbersaws_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_shredder"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_shredder"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_shredder/shredder_ambient.vpcf"
+		}
+	}
+}
+"538"
+{
+	"name"		"Slark's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Slarks_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_slark"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_slark"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_slark/slark_ambient.vpcf"
+		}
+	}
+}
+"539"
+{
+	"name"		"Spectre's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Spectres_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_spectre"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_spectre"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_spectre/spectre_ambient.vpcf"
 		}
 	}
 }
@@ -45548,6 +46864,126 @@
 			"type"		"particle_combined"
 			"asset"		"particles/econ/items/terrorblade/terrorblade_back_ti8/terrorblade_sunder_ti8.vpcf"
 			"modifier"		"kisilev_ind/particles/terrorblade/ability/terrorblade_sunder_ti8_kisilev_ind.vpcf"
+		}
+	}
+}
+"541"
+{
+	"name"		"Tusk's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Tusks_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_tusk"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tusk"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_tusk/tusk_ambient.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_tusk/tusk_ambient_mouth.vpcf"
+		}
+	}
+}
+"542"
+{
+	"name"		"Undying's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Undyings_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_undying"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_undying"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_undying/undying_ambient.vpcf"
+		}
+	}
+}
+"543"
+{
+	"name"		"Visage's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Visages_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_visage"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_visage"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_visage/visage_ambient.vpcf"
+		}
+	}
+}
+"544"
+{
+	"name"		"Rubick's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-10"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Rubicks_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_rubick"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_rubick"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_rubick/rubick_staff_ambient.vpcf"
+		}
+	}
+}
+"545"
+{
+	"name"		"Shadow Demon's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-09-10"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Shadow_Demons_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_shadow_demon"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_shadow_demon"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_shadow_demon/shadow_demon_ambient.vpcf"
 		}
 	}
 }
@@ -45917,6 +47353,21 @@
 		}
 	}
 }
+"550"
+{
+	"name"		"Oracle's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2014-10-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Oracles_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_oracle"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_oracle"		"1"
+	}
+}
 "551"
 {
 	"name"		"Defender of the Brumal Crest - Head"
@@ -46087,6 +47538,29 @@
 			"type"		"ability_icon"
 			"asset"		"winter_wyvern_splinter_blast"
 			"modifier"		"winter_wyvern_crownfall_splinterblast"
+		}
+	}
+}
+"553"
+{
+	"name"		"Winter Wyvern''s Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2015-01-27"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Winter_Wyverns_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_winter_wyvern"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_winter_wyvern"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_winter_wyvern/wyvern_ambient.vpcf"
 		}
 	}
 }
@@ -48154,6 +49628,28 @@
 		}
 	}
 }
+"601"
+{
+	"name"		"Arc Warden's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2015-10-06"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Arc_Wardens_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_arc_warden"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_arc_warden/arc_warden_ambient.vpcf"
+		}
+	}
+}
 "603"
 {
 	"name"		"Templar Assassin's Weapon"
@@ -48544,6 +50040,76 @@
 					}
 				}
 			}
+		}
+	}
+}
+"605"
+{
+	"name"		"Zeus Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2015-11-08"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Zeus_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"334.281433 -253.306824 114.505646"
+					"PortraitAngles"		"2.500886 142.005432 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"0.000000 0.000000 0.000000"
+			"PortraitLightAngles"		"0.000000 0.000000 0.000000"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_zeus/zeus_ambient_eyes.vpcf"
+			"style"		"0"
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_zeus/zeus_ambient_hands.vpcf"
+			"style"		"0"
 		}
 	}
 }
@@ -49574,6 +51140,29 @@
 		}
 	}
 }
+"617"
+{
+	"name"		"Underlord's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2016-06-02"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Underlords_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_New_Item"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_abyssal_underlord"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/heroes_underlord/underlord_ambient_eyes.vpcf"
+			"style"		"0"
+		}
+	}
+}
 "618"
 {
 	"name"		"Tinker's Misc"
@@ -50548,6 +52137,29 @@
 		{
 			"type"		"particle_create"
 			"modifier"		"particles/econ/items/enigma/enigma_absolute_armour/enigma_absolute_armour_body_ambient.vpcf"
+		}
+	}
+}
+"631"
+{
+	"name"		"Jakiro's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2017-01-31"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Jakiros_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_New_Item"
+	"particle_folder"		"particles/units/heroes/hero_jakiro"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_jakiro"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_jakiro/jakiro_ambient.vpcf"
 		}
 	}
 }
@@ -52397,6 +54009,34 @@
 	"visuals"
 	{
 		"skip_model_combine"		"0"
+	}
+}
+"653"
+{
+	"name"		"Dark Willow's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2017-12-05"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Dark_Willows_Ambient_Effects"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Ambient_Effects"
+	"particle_folder"		"particles/units/heroes/hero_pudge"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_dark_willow"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_dark_willow/dark_willow_head_ambient.vpcf"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_dark_willow/dark_willow_lantern_ambient.vpcf"
+		}
 	}
 }
 "654"
@@ -54419,6 +56059,29 @@
 		}
 	}
 }
+"690"
+{
+	"name"		"Void Spirit's Ambient Effects"
+	"prefab"		"default_item"
+	"creation_date"		"2019-09-26"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_name"		"#DOTA_Item_Void_Spirits_Ambient_Effects"
+	"item_quality"		"unique"
+	"item_slot"		"ambient_effects"
+	"item_type_name"		"#DOTA_WearableType_Ambient_Effects"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_void_spirit"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf"
+		}
+	}
+}
 "691"
 {
 	"name"		"Snapfire's Head"
@@ -54482,6 +56145,72 @@
 	"visuals"
 	{
 		"skip_model_combine"		"0"
+	}
+}
+"692"
+{
+	"name"		"Desert Burn Outfit"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/snapfire/snapfire_fall20_immortal/snapfire_fall20_immortal_outfit"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Desert_Burn_Outfit"
+	"item_rarity"		"immortal"
+	"item_slot"		"costume"
+	"item_type_name"		"#DOTA_WearableType_back"
+	"model_player"		"models/heroes/snapfire/snapfire_body.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"488.695923 365.552002 649.771667"
+					"PortraitAngles"		"35.726971 215.072098 0.000000"
+					"PortraitFOV"		"14.439000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"16.004105 236.193146 389.997314"
+			"PortraitLightAngles"		"56.441826 -82.077972 20.940083"
+			"PortraitLightFOV"		"88.821999"
+			"PortraitLightDistance"		"459.739990"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"5.131000"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"7.993000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"0.375 -0.376 0.847"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"4.708000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_snapfire"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
 	}
 }
 "693"
@@ -58728,6 +60457,86 @@
 		}
 	}
 }
+"827"
+{
+	"name"		"Techies Proximity Mine"
+	"prefab"		"default_item"
+	"creation_date"		"2025-12-15"
+	"image_inventory"		"econ/items/techies/farming_techies_proximity_mine/farming_techies_proximity_mine"
+	"item_name"		"#DOTA_Item_Sodbustin_Saboteurs__Proximity_Mine"
+	"item_rarity"		"mythical"
+	"item_slot"		"misc"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"480.132111 302.748627 403.187500"
+					"PortraitAngles"		"28.490007 212.830048 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_techies"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"techies_land_mines"
+			"modifier"		"techies/farming_techies/farming_techies_proximity_mine"
+		}
+	}
+}
 "828"
 {
 	"name"		"Windranger's Base"
@@ -61848,6 +63657,46 @@
 			"type"		"entity_model"
 			"asset"		"dota_death_prophet_exorcism_spirit"
 			"modifier"		"models/items/death_prophet/exorcism/deathblossom_deathblossom_spirit/deathblossom_deathblossom_spirit.vmdl"
+		}
+	}
+}
+"8653"
+{
+	"name"		"Axe's Miscellaneous"
+	"prefab"		"default_item"
+	"creation_date"		"2015-11-09"
+	"image_inventory"		"econ/items/axe/axe_mantle_of_the_cinder_baron_alt/axe_mantle_of_the_cinder_baron_alt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Mantle_of_the_Cinder_Baron"
+	"item_rarity"		"immortal"
+	"item_slot"		"misc"
+	"item_type_name"		"#DOTA_WearableType_Cape"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_axe"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_axe/axe_battle_hunger.vpcf"
+			"modifier"		"particles/econ/items/axe/axe_cinder/axe_cinder_battle_hunger.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_axe/axe_battle_hunger_cast.vpcf"
+			"modifier"		"particles/econ/items/axe/axe_cinder/axe_cinder_battle_hunger_cast.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"axe_battle_hunger"
+			"modifier"		"axe/mantle_of_the_cinder_baron/axe_battle_hunger"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
 		}
 	}
 }

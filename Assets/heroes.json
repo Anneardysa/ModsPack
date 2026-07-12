@@ -28,8 +28,7 @@
       122,
       123,
       124,
-      125,
-      738
+      125
     ],
     "used_by_heroes": "npc_dota_hero_alchemist",
     "name": "Alchemist",
@@ -187,7 +186,6 @@
       3,
       4,
       5,
-      726,
       8366,
       8653
     ],
@@ -264,8 +262,7 @@
       72,
       73,
       74,
-      257,
-      739
+      257
     ],
     "used_by_heroes": "npc_dota_hero_bloodseeker",
     "name": "Bloodseeker",
@@ -364,7 +361,6 @@
       362,
       363,
       364,
-      719,
       8366
     ],
     "used_by_heroes": "npc_dota_hero_centaur",
@@ -442,7 +438,6 @@
       446,
       484,
       485,
-      724,
       8635
     ],
     "used_by_heroes": "npc_dota_hero_rattletrap",
@@ -557,8 +552,7 @@
       642,
       646,
       651,
-      653,
-      720
+      653
     ],
     "used_by_heroes": "npc_dota_hero_dark_willow",
     "name": "Dark Willow",
@@ -593,8 +587,7 @@
       264,
       265,
       266,
-      468,
-      740
+      468
     ],
     "used_by_heroes": "npc_dota_hero_dazzle",
     "name": "Dazzle",
@@ -695,8 +688,7 @@
       78,
       79,
       80,
-      267,
-      737
+      267
     ],
     "used_by_heroes": "npc_dota_hero_drow_ranger",
     "name": "Drow Ranger",
@@ -929,8 +921,7 @@
       287,
       288,
       289,
-      290,
-      721
+      290
     ],
     "used_by_heroes": "npc_dota_hero_enchantress",
     "name": "Enchantress",
@@ -1423,7 +1414,6 @@
       434,
       435,
       662,
-      741,
       8366
     ],
     "used_by_heroes": "npc_dota_hero_legion_commander",
@@ -1527,7 +1517,6 @@
       443,
       444,
       530,
-      728,
       8658,
       8659
     ],
@@ -1604,8 +1593,7 @@
       450,
       451,
       452,
-      453,
-      742
+      453
     ],
     "used_by_heroes": "npc_dota_hero_luna",
     "name": "Luna",
@@ -1644,8 +1632,7 @@
       327,
       328,
       329,
-      330,
-      743
+      330
     ],
     "used_by_heroes": "npc_dota_hero_magnataur",
     "name": "Magnus",
@@ -1737,8 +1724,7 @@
       670,
       671,
       672,
-      673,
-      717
+      673
     ],
     "used_by_heroes": "npc_dota_hero_mars",
     "name": "Mars",
@@ -1776,8 +1762,7 @@
       297,
       298,
       299,
-      300,
-      734
+      300
     ],
     "used_by_heroes": "npc_dota_hero_meepo",
     "name": "Meepo",
@@ -1975,8 +1960,7 @@
       193,
       194,
       312,
-      532,
-      744
+      532
     ],
     "used_by_heroes": "npc_dota_hero_naga_siren",
     "name": "Naga Siren",
@@ -2368,7 +2352,6 @@
       262,
       391,
       470,
-      733,
       810
     ],
     "used_by_heroes": "npc_dota_hero_pudge",
@@ -2899,8 +2882,7 @@
       422,
       423,
       424,
-      425,
-      745
+      425
     ],
     "used_by_heroes": "npc_dota_hero_skywrath_mage",
     "name": "Skywrath Mage",
@@ -2918,8 +2900,7 @@
       274,
       275,
       276,
-      512,
-      722
+      512
     ],
     "used_by_heroes": "npc_dota_hero_slardar",
     "name": "Slardar",
@@ -3418,8 +3399,7 @@
       36,
       37,
       582,
-      583,
-      735
+      583
     ],
     "used_by_heroes": "npc_dota_hero_tidehunter",
     "name": "Tidehunter",
@@ -3529,8 +3509,7 @@
       227,
       228,
       229,
-      230,
-      736
+      230
     ],
     "used_by_heroes": "npc_dota_hero_treant",
     "name": "Treant Protector",
