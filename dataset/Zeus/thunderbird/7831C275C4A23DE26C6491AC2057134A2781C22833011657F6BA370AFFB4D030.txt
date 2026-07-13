@@ -1,0 +1,402 @@
+﻿"589"
+{
+	"name"		"Zeus' Arms"
+	"prefab"		"default_item"
+	"creation_date"		"2024-04-18"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/zeus/zeus_avilliva_arms/zeus_avilliva_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Thunderbird__Arms"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/zeus/zeus_bracers.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"126.382019 -189.036987 114.505646"
+					"PortraitAngles"		"8.707520 131.958435 4.860000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"85.189285 -12.911041 127.596359"
+			"PortraitLightAngles"		"-0.000000 137.295181 0.000000"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0.481481"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/zeus/zeus_avilliva/zeus_avilliva_arms_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"593"
+{
+	"name"		"Zeus' Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2015-07-14"
+	"image_inventory"		"econ/heroes/zeus/zeus_default_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Zeus_Weapon"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"334.281433 -253.306824 114.505646"
+					"PortraitAngles"		"2.500886 142.005432 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"0.000000 0.000000 0.000000"
+			"PortraitLightAngles"		"0.000000 0.000000 0.000000"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+}
+
+"604"
+{
+	"name"		"Zeus' Head"
+	"prefab"		"default_item"
+	"creation_date"		"2024-04-18"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/zeus/thunderbird_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Thunderbird__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/zeus/zeus_hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"301.565399 -230.289062 116.465637"
+					"PortraitAngles"		"355.885986 142.005417 0.000000"
+					"PortraitFOV"		"11.858000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"315.997101 13.758942 159.381287"
+			"PortraitLightAngles"		"-26.503805 125.047066 -38.380692"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitDesaturateHero"		"1"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"606"
+{
+	"name"		"Zeus' Belt"
+	"prefab"		"default_item"
+	"creation_date"		"2024-04-18"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/zeus/thunderbird_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Thunderbird__Belt"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"model_player"		"models/heroes/zeus/zeus_belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"307.008270 -37.267807 106.881256"
+					"PortraitAngles"		"9.618945 172.379120 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"94.693604 1.509701 0.000000"
+			"PortraitLightAngles"		"-12.802679 179.385666 -164.330658"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitDesaturateHero"		"1"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"607"
+{
+	"name"		"Zeus' Back"
+	"prefab"		"default_item"
+	"creation_date"		"2024-04-18"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/zeus/thunderbird_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Thunderbird__Back"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"model_player"		"models/heroes/zeus/zeus_vest.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"-420.630981 15.276733 156.086700"
+					"PortraitAngles"		"10.043871 358.990784 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"0.000000 0.000000 0.000000"
+			"PortraitLightAngles"		"0.000000 0.000000 0.000000"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0.827160"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/zeus/zeus_avilliva/zeus_avilliva_back_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

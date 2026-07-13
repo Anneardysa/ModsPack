@@ -1,7 +1,44 @@
 {
-  "version": "1.0.63",
-  "lastUpdated": "2026-07-11",
+  "version": "1.0.64",
+  "lastUpdated": "2026-07-13",
   "updates": [
+    {
+      "date": "2026-07-13",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 3 (item_back_pantheon)"
+        },
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-07-11",
       "sets": [

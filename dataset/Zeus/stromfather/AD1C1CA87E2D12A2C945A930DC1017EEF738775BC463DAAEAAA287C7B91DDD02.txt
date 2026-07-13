@@ -1,0 +1,337 @@
+﻿"589"
+{
+	"name"		"Zeus' Arms"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_SPRING_2026"
+	"image_inventory"		"econ/items/zeus/zeus_thunder_warhawk_arms/zeus_thunder_warhawk_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_The_Thunderhand"
+	"item_rarity"		"rare"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/zeus/zeus_bracers.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"334.281433 -253.306824 114.505646"
+					"PortraitAngles"		"2.500886 142.005432 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"0.000000 0.000000 0.000000"
+			"PortraitLightAngles"		"0.000000 0.000000 0.000000"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"593"
+{
+	"name"		"Zeus' Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2015-07-14"
+	"image_inventory"		"econ/heroes/zeus/zeus_default_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Zeus_Weapon"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"334.281433 -253.306824 114.505646"
+					"PortraitAngles"		"2.500886 142.005432 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"0.000000 0.000000 0.000000"
+			"PortraitLightAngles"		"0.000000 0.000000 0.000000"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+}
+
+"604"
+{
+	"name"		"Zeus' Head"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_SPRING_2026"
+	"image_inventory"		"econ/items/zeus/zeus_thunder_warhawk_head/zeus_thunder_warhawk_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_The_Boltspire"
+	"item_rarity"		"rare"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/zeus/zeus_hair.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"334.281433 -253.306824 114.505646"
+					"PortraitAngles"		"2.500886 142.005432 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"0.000000 0.000000 0.000000"
+			"PortraitLightAngles"		"0.000000 0.000000 0.000000"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"606"
+{
+	"name"		"Zeus' Belt"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_SPRING_2026"
+	"image_inventory"		"econ/items/zeus/zeus_thunder_warhawk_belt/zeus_thunder_warhawk_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_The_Oathbinder"
+	"item_rarity"		"rare"
+	"item_slot"		"belt"
+	"model_player"		"models/heroes/zeus/zeus_belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"334.281433 -253.306824 114.505646"
+					"PortraitAngles"		"2.500886 142.005432 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"0.000000 0.000000 0.000000"
+			"PortraitLightAngles"		"0.000000 0.000000 0.000000"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"607"
+{
+	"name"		"Zeus' Back"
+	"prefab"		"default_item"
+	"creation_date"		"2022-10-27"
+	"event_id"		"EVENT_ID_SPRING_2026"
+	"image_inventory"		"econ/items/zeus/zeus_thunder_warhawk_back/zeus_thunder_warhawk_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_The_Skybearer"
+	"item_rarity"		"rare"
+	"item_slot"		"back"
+	"model_player"		"models/heroes/zeus/zeus_vest.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"334.281433 -253.306824 114.505646"
+					"PortraitAngles"		"2.500886 142.005432 0.000000"
+					"PortraitFOV"		"22.716000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"0.000000 0.000000 0.000000"
+			"PortraitLightAngles"		"0.000000 0.000000 0.000000"
+			"PortraitLightFOV"		"15"
+			"PortraitLightDistance"		"250"
+			"PortraitLightColor"		"243 237 230"
+			"PortraitLightScale"		"1"
+			"PortraitShadowColor"		"89 89 89"
+			"PortraitShadowScale"		"0.300000"
+			"PortraitGroundShadowScale"		"0.300000"
+			"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+			"PortraitAmbientColor"		"123 168 168"
+			"PortraitAmbientScale"		"0.500000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_zuus"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/zeus/zeus_thunder_warhawk/zeus_thunder_warhawk_back_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

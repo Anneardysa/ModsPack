@@ -3957,7 +3957,52 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Zeus/base_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Zeus/base_arcana.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Zeus/item_arms_tempest.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Zeus/item_arms_tempest.png"
+      ],
+      "Set 3": {
+        "styles": {
+          "item_back_pantheon": [
+            "https://cdn.ardysamods.my.id/Assets/models/Zeus/item_back_pantheon/item_back_pantheon.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Zeus/item_back_pantheon/item_back_pantheon.png"
+          ],
+          "item_back_pantheon_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Zeus/item_back_pantheon/item_back_pantheon_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Zeus/item_back_pantheon/item_back_pantheon_crimson.png"
+          ],
+          "item_back_pantheon_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Zeus/item_back_pantheon/item_back_pantheon_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Zeus/item_back_pantheon/item_back_pantheon_golden.png"
+          ]
+        }
+      },
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Zeus/photonic.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Zeus/photonic.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Zeus/pride.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Zeus/pride.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Zeus/stromfather.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Zeus/stromfather.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Zeus/thunderbird.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Zeus/thunderbird.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Zeus/thundervolt.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Zeus/thundervolt.png"
       ]
-    }
+    },
+    "method": 2
   }
 ]

@@ -1,8 +1,1408 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-11T14:55:21Z",
+  "generatedAt": "2026-07-13T09:05:40Z",
   "assets": {
+    "_plaintext/Assets/models/Anti-Mage/defiant.zip": {
+      "sha256": "3E8B7518EEFCCD757CE740616855BD978BBFC4DFA71A266AA22D3A741014A80F",
+      "size": 1178116
+    },
+    "_plaintext/Assets/models/Anti-Mage/hunter.zip": {
+      "sha256": "5BF6CECF450B16B8A6C8884741517D0336ACF301E59EAB8A2B1E269628A00D66",
+      "size": 1564507
+    },
+    "_plaintext/Assets/models/Anti-Mage/item_offhand_basher/item_offhand_basher.zip": {
+      "sha256": "7B9C3096DFE6C5A293BFF7EA87AE8C2B8F7E23E3B7E5BA1CFC67E49F9CA6DAE0",
+      "size": 50596
+    },
+    "_plaintext/Assets/models/Anti-Mage/item_offhand_basher/item_offhand_basher_golden.zip": {
+      "sha256": "5FD05A7008DDECA134E3850DCE13BBC552483CB29B500C11A897DED69BA22A60",
+      "size": 50665
+    },
+    "_plaintext/Assets/models/Anti-Mage/item_offhand_manta.zip": {
+      "sha256": "4ECAFE9D414B5C15D079C31168325B9AC8794D997BA91172E45A71D8EE552032",
+      "size": 45485
+    },
+    "_plaintext/Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith.zip": {
+      "sha256": "BA7C226934F2C1D0792A939DC5D1F4C99D581FA0C08E03D0F5747819878F4B60",
+      "size": 209711
+    },
+    "_plaintext/Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith_golden.zip": {
+      "sha256": "95DB7062D8B67D6DB165244A7D3376D12D6A5B91DDD68F10C852BFA72F11567D",
+      "size": 213414
+    },
+    "_plaintext/Assets/models/Anti-Mage/item_weapon_basher/item_weapon_basher.zip": {
+      "sha256": "5E1252E8FEFB5A2D75B09AA68029357E5AA10AF63FA30180845CBDA6CDAB02A7",
+      "size": 50702
+    },
+    "_plaintext/Assets/models/Anti-Mage/item_weapon_basher/item_weapon_basher_golden.zip": {
+      "sha256": "B534E0831295A829368383B2E81B25A2A2CB171F9E24A7530A50F7D84757848C",
+      "size": 50611
+    },
+    "_plaintext/Assets/models/Anti-Mage/item_weapon_manta.zip": {
+      "sha256": "0F1BCC4529DF08A0AE0474FFB86E7303DFFAE0832A42982A888514DE76DF701D",
+      "size": 45308
+    },
+    "_plaintext/Assets/models/Anti-Mage/persona_braid.zip": {
+      "sha256": "6701A1BF6E7DCA3E48A270BAA667141A7E63A61CD425929667582CDB4779894B",
+      "size": 13421607
+    },
+    "_plaintext/Assets/models/Anti-Mage/persona_dragon.zip": {
+      "sha256": "9C66AAB1653AC175C87A14472AB6CC133A469B13E73982A37E45D9BCBF807918",
+      "size": 13603431
+    },
+    "_plaintext/Assets/models/Anti-Mage/persona_piety.zip": {
+      "sha256": "047B4C6E1C65F3A31DA2812A08F9DED4E0987577B059F8986AB48CCDA9D76724",
+      "size": 13694352
+    },
+    "_plaintext/Assets/models/Anti-Mage/persona_pilgrim.zip": {
+      "sha256": "1A1FAA8DBDEA5162F085EE42058C74BB34EAFCF887850C5D560C5FE4795B5F35",
+      "size": 13283326
+    },
+    "_plaintext/Assets/models/Anti-Mage/persona_sakura.zip": {
+      "sha256": "D627F6D2DA5AEEEDA23F4A3783B21A19EA334933D20FA195D75C635D99BE4577",
+      "size": 13588188
+    },
+    "_plaintext/Assets/models/Anti-Mage/reaper.zip": {
+      "sha256": "6B4191A0989A781780E5957CFAB75D71E95A327436B455BA21FF975F3AFA802A",
+      "size": 1815458
+    },
+    "_plaintext/Assets/models/Anti-Mage/shadow.zip": {
+      "sha256": "8A172F3704EBD21C6970BE372666C79528699A8651010D3D62E44018932826C4",
+      "size": 1233032
+    },
+    "_plaintext/Assets/models/Anti-Mage/survivor.zip": {
+      "sha256": "8DF4004281E30CCD08E8FF2CC1AD26AC463FE68E7D0BFB6EA581381D94523500",
+      "size": 1085981
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/base_arcana.zip": {
+      "sha256": "ABD56B139A2A0DCEB060221A973057BE1B82A4C406163E5A76077095B3DE5B8E",
+      "size": 2224519
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/battlemage.zip": {
+      "sha256": "5F22481EFAA83F96512320AC3B194D79FCD29756C8A73DCFBFE373A17BD7E2D4",
+      "size": 690571
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/garden.zip": {
+      "sha256": "C04AED7D7B8167AE2D74CBF584609768A8A874E130A95319D84E0E6F334AB8DF",
+      "size": 352640
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/item_head_glacier.zip": {
+      "sha256": "CB7D37B32896E840F104DD4D012546CA7B838E28E36F41B43E4A2C272C31E7CA",
+      "size": 56620
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/item_shoulder_yulsaria.zip": {
+      "sha256": "0B893597AC374A14F2CB26F59F9765C2C396939F4B114550A3BAB4060D2F2E44",
+      "size": 392718
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/item_weapon_ice/item_weapon_ice.zip": {
+      "sha256": "134DE401E7B7A8C9A045D9BA615ACFF239F83676D37B1C2EA461E124AB8E86FD",
+      "size": 388287
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/item_weapon_ice/item_weapon_ice_golden.zip": {
+      "sha256": "A4E6E036B52B36B685CFB1F2367002F068266D31A08932EA8349F7FEDD154545",
+      "size": 388397
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/item_weapon_sentry.zip": {
+      "sha256": "07F084946F4D75350F4B7C0B0FC809F12D84CF5A58627AA0073C38E4DCAA0CB6",
+      "size": 504504
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/persona_canis.zip": {
+      "sha256": "3BFB2DE1BA669ECE0BD3E2574E6141CA22E1FDD7AC3662023F17841F4B0A4A26",
+      "size": 21254382
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/persona_nebula.zip": {
+      "sha256": "E726772F649039CAE2080459EC210A3E76824322DA092D2C47A1080294687BB4",
+      "size": 22489970
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/persona_spirit.zip": {
+      "sha256": "6AEBC3417AD0C9D61FE8E84692DFABA605253DA8E4B7CAF5205CC08921AF40E9",
+      "size": 22604233
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/raven.zip": {
+      "sha256": "E571B1BA2061299E7F104323EA4D97BA19C4836C4CFB89ABA94FE9AABEFEA05E",
+      "size": 1036314
+    },
+    "_plaintext/Assets/models/Crystal_Maiden/wyvern.zip": {
+      "sha256": "7F8A1451776CEBFCCC8B3C9AD283B801A25D9443AEC4D01688288B19A239081A",
+      "size": 281468
+    },
+    "_plaintext/Assets/models/Drow_Ranger/base_arcana_1.zip": {
+      "sha256": "4B0C33EA150FF116B4CFF9A1688AC52064044D94F4428D3744366E86E7971F97",
+      "size": 54033373
+    },
+    "_plaintext/Assets/models/Drow_Ranger/base_arcana_2.zip": {
+      "sha256": "E20FB2D23D7B1479ECABB00DEFCC067983FE91A237FFC8E447E67FF4789AA81D",
+      "size": 59556483
+    },
+    "_plaintext/Assets/models/Drow_Ranger/constellation.zip": {
+      "sha256": "FB5070D0A5081069CAF2D2B68EC26D31EEF3FD1F83C8C13FF7B74718219B13C7",
+      "size": 251951
+    },
+    "_plaintext/Assets/models/Drow_Ranger/dragonborn.zip": {
+      "sha256": "D10AD3F9B23E4E7EA13F08161BBE2539D8AC9CD82EED24EB2375F924D303C3F9",
+      "size": 772480
+    },
+    "_plaintext/Assets/models/Drow_Ranger/dread.zip": {
+      "sha256": "3D9F21AA05CCF6A7631A4C883E1BDE4176568C51121E1E8207732CA938548661",
+      "size": 5333912
+    },
+    "_plaintext/Assets/models/Drow_Ranger/item_back_silent.zip": {
+      "sha256": "2B508B8BDC131D4998C01803DCF0355B3D17899F3A237A5E510171ECB963075F",
+      "size": 184294
+    },
+    "_plaintext/Assets/models/Drow_Ranger/item_back_silent_crimson.zip": {
+      "sha256": "1394E453C9FA9CD5534A95D79690B14AB0FA89347597D76BD7D3BB14CF9B2FCB",
+      "size": 184349
+    },
+    "_plaintext/Assets/models/Drow_Ranger/item_back_silent_golden.zip": {
+      "sha256": "AA378E66681A000796373780073BBBA8D91BC8F4747847B9EA1FA18C73E2EFAC",
+      "size": 184518
+    },
+    "_plaintext/Assets/models/Drow_Ranger/item_head_maniac.zip": {
+      "sha256": "5015D7F141208DB8E3CB01DA8324EF03B40BEFBB31581E2771A2AB68E31B7C3B",
+      "size": 100675
+    },
+    "_plaintext/Assets/models/Drow_Ranger/item_weapon_reapers.zip": {
+      "sha256": "CD3036B1A6D2E8D8F60002633F556302D68E456B9CEABACC429CC50E68C9C65E",
+      "size": 447455
+    },
+    "_plaintext/Assets/models/Drow_Ranger/mix_1.zip": {
+      "sha256": "5C1F02093592FE4E0CC0CB78584265314238F798D0BDCEBDA1CEFBEB41958FDC",
+      "size": 58683617
+    },
+    "_plaintext/Assets/models/Drow_Ranger/ravencloak_blue.zip": {
+      "sha256": "12CA23E18BE1776B4F4629DE74B1B81ABEB59AD3B5BF85656F9D4E480B5FE727",
+      "size": 1021010
+    },
+    "_plaintext/Assets/models/Drow_Ranger/ravencloak_red.zip": {
+      "sha256": "CEE888C2175ACAAD8335CCF2CB8AEEF1402AB7E95421785C01B6D6A0A0AAB8EC",
+      "size": 1037579
+    },
+    "_plaintext/Assets/models/Drow_Ranger/sacred.zip": {
+      "sha256": "9EAFB1B707D780A559A0308B5089AFFC9D315936EE30252ECD9DA3675E95C2EB",
+      "size": 534104
+    },
+    "_plaintext/Assets/models/Drow_Ranger/wandering.zip": {
+      "sha256": "02D1DB7CB468FFCC1CB0A4BDE7836F127FA4D473C1AE6F721A39201303C325AE",
+      "size": 925485
+    },
+    "_plaintext/Assets/models/Earthshaker/arcana.zip": {
+      "sha256": "3F7FC9FF3BA0B4DAC7794ED6FE9F066DD3D80405BF484030990CCF205932A718",
+      "size": 3555037
+    },
+    "_plaintext/Assets/models/Earthshaker/base_arcana_1.zip": {
+      "sha256": "E05E7A75483F4BD08D6208C10379F5CE77F0D262B9B2DB8BA48CDF7059E40F8D",
+      "size": 7335413
+    },
+    "_plaintext/Assets/models/Earthshaker/base_arcana_2.zip": {
+      "sha256": "E1ECED58DA61E1BA7230F3CC6D2C380710AEA46564C3C5766BE7AB37E9346A31",
+      "size": 7335617
+    },
+    "_plaintext/Assets/models/Earthshaker/gar.zip": {
+      "sha256": "DFC0846A786219F5F39C6214305D01AE7C151CC702418BB27ECCE294AE578592",
+      "size": 937806
+    },
+    "_plaintext/Assets/models/Earthshaker/item_arm_luminar_1.zip": {
+      "sha256": "B8463352EA76EBD1297296CB4F18DBA725250E9D021E4CB9CE01204FE3E5CC0B",
+      "size": 96651
+    },
+    "_plaintext/Assets/models/Earthshaker/item_arm_luminar_2.zip": {
+      "sha256": "C5919B26DAF7260C665A4B171654A7019DAA0E57D85A582FDF717170AB1EF29F",
+      "size": 96700
+    },
+    "_plaintext/Assets/models/Earthshaker/item_weapon_fallen_1.zip": {
+      "sha256": "C3474E5E3FA6683E2E2EC132CB476CDC0264B10834DB380562679AB46FE3F9DD",
+      "size": 415446
+    },
+    "_plaintext/Assets/models/Earthshaker/item_weapon_fallen_2.zip": {
+      "sha256": "CBCF90E5A5D02562524714E53606CF63FED49EB82E8F7100E87529E86A494579",
+      "size": 415512
+    },
+    "_plaintext/Assets/models/Earthshaker/nishai.zip": {
+      "sha256": "D1DD355210358D7C5388261EC92853F47D09C796C89918612AB49422E5ACD392",
+      "size": 431334
+    },
+    "_plaintext/Assets/models/Earthshaker/orbliterator.zip": {
+      "sha256": "8BE58D4DA43AE48043EDF8B9FF6F48B7B520E537F0505AD9AA6761D43413D123",
+      "size": 5080202
+    },
+    "_plaintext/Assets/models/Earthshaker/pallbringer.zip": {
+      "sha256": "E4705FF7B3C185963D44C183C7EA63BD31351614BE97D9CA385C906450D89662",
+      "size": 1465679
+    },
+    "_plaintext/Assets/models/Ember_Spirit/item_offweap_rapier.zip": {
+      "sha256": "B9C99CE5C4F1EC1AE3D0C3A7ADA375530F44DD84BEB9606F98D560FCD5B8B2B3",
+      "size": 45543
+    },
+    "_plaintext/Assets/models/Ember_Spirit/item_shoulder_guardian.zip": {
+      "sha256": "94994EAF499326772D1AE0C5E45F423F15D960DD988DD1A0212F682412679DF2",
+      "size": 292784
+    },
+    "_plaintext/Assets/models/Ember_Spirit/item_weapon_rapier.zip": {
+      "sha256": "FBC67586579EEFC690CC50C0A41399F0D89726CCEA253DE12DF5A098D3B89E6D",
+      "size": 44280
+    },
+    "_plaintext/Assets/models/Ember_Spirit/mix_1.zip": {
+      "sha256": "1F14B3721EA595A99AF1C99D15E35C3474E6618EB4BBD2698B6AB1E2D49E28A8",
+      "size": 420632
+    },
+    "_plaintext/Assets/models/Ember_Spirit/sage.zip": {
+      "sha256": "33AE2D9A9B26B4FB212B617F147581605E00FDF4EB8FDD233345D1BBE2FB6EAD",
+      "size": 222221
+    },
+    "_plaintext/Assets/models/Ember_Spirit/searing.zip": {
+      "sha256": "5C6A755419DB4100F019B8BF89824D04CF323E3FD832CE07AECC5930373B212D",
+      "size": 229464
+    },
+    "_plaintext/Assets/models/Ember_Spirit/sensei.zip": {
+      "sha256": "2B0E74970D7D4EABAEB4F7AD8DF9918B46C8080EE91909FDAFF0A18B33200137",
+      "size": 262312
+    },
+    "_plaintext/Assets/models/Ember_Spirit/wandering.zip": {
+      "sha256": "9EB3BCF29218A53347C5318DDD19D48145571F3DE62F235817F573E1815217B6",
+      "size": 208308
+    },
+    "_plaintext/Assets/models/Faceless_Void/arcana.zip": {
+      "sha256": "67ACE49CFF5344ACD1B4774AAE5247D17BDB3288AC4802A686FC098A07F7F2E8",
+      "size": 10661989
+    },
+    "_plaintext/Assets/models/Faceless_Void/base_arcana_1.zip": {
+      "sha256": "91F8A844C4EA07735B6E3560F9F91C8B6EFDAD4F06C1AAD6544DCB1803C00E74",
+      "size": 9847245
+    },
+    "_plaintext/Assets/models/Faceless_Void/base_arcana_2.zip": {
+      "sha256": "3C6C75F55517B4A6BFB77DC884BB22A4CE68A610F8C9241113BD31D5D54F2146",
+      "size": 9683339
+    },
+    "_plaintext/Assets/models/Faceless_Void/continuum.zip": {
+      "sha256": "0CE245F73C93E37DE7555366BEB8EB8F25010224F2AE13BD81DBDE16F3657F4A",
+      "size": 1452044
+    },
+    "_plaintext/Assets/models/Faceless_Void/incursion.zip": {
+      "sha256": "5B3D5121F800F9A6E0FB859E9848B5BC698F9C769D2694E26F5B1541DCE48683",
+      "size": 276517
+    },
+    "_plaintext/Assets/models/Faceless_Void/inquisitor.zip": {
+      "sha256": "B2DE565AC7633918E55973D31CC81F8020F55D073F2ADBE31BD18B69B07D3CDC",
+      "size": 469804
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon.zip": {
+      "sha256": "F9806FB9A2D82F2B5917D4827D976199D6D21ED474A8050FC0343F70C8F4CB1F",
+      "size": 436662
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon_2.zip": {
+      "sha256": "2845842E9BEFDB6DC654A3B40D44C28F3DA98FEA4FAE53703B910E3EF39C7026",
+      "size": 436630
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon_3.zip": {
+      "sha256": "832C9867F9131BCA0F1C7EA05038D24B2CF73382D7A100258A000CCBC51C2171",
+      "size": 436624
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon_4.zip": {
+      "sha256": "ADFC10DB6B1DF54BAFCB2BBE2D43F6FED8BB13F2507D7AD79B200ED3DC6153FF",
+      "size": 436655
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon.zip": {
+      "sha256": "E3D1288BCE3D99BF50F7480EB69EF00B267D16471F965AD1CDCE79FEC215F511",
+      "size": 201837
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon_2.zip": {
+      "sha256": "36202FD414D771F1C50613BD78EC8C2D0D3E19F1E95E05754C8C3755F3C08D35",
+      "size": 201906
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon_3.zip": {
+      "sha256": "EB7D6994D7DD5388AE66B478AF7A416F4A1059B710516EA84741894D0D86C64F",
+      "size": 201912
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon.zip": {
+      "sha256": "E30C2E6D889B698925EEF8C9F9145FFD881B1C632D84A07D56A9CEB85BF7CCE0",
+      "size": 87209
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon_2.zip": {
+      "sha256": "FCB75693A3117D5B0D0906CD76D9E181D1F5CF0196A091232BEC2491F4AF6452",
+      "size": 90993
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon_3.zip": {
+      "sha256": "6260EC5DCF3BD29A22A783BD3BAC8E4D795674A8FB124D331067F8A9B9C889DC",
+      "size": 91051
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_weapon_bf.zip": {
+      "sha256": "85D197D3D365B3A7BC761612823A2C27AB2BC7A0D3A87D2C64D6806FF3E5528E",
+      "size": 46504
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_weapon_timebreaker.zip": {
+      "sha256": "ACC7675C51DCA86A0FEE50E01447DE60E57FED144E9F5CF3612689F72CE65454",
+      "size": 45841
+    },
+    "_plaintext/Assets/models/Faceless_Void/item_weapon_voidhammer.zip": {
+      "sha256": "0030CFD3085F8203D3E6E739D6B5E633B08327DC4FDA615185CAD772B8D607A8",
+      "size": 40717
+    },
+    "_plaintext/Assets/models/Invoker/artistry.zip": {
+      "sha256": "1E2C6F30016353D4C20BCFC164D94921D3D7FF590C2BACEE0A49FBDC84E4DE0C",
+      "size": 396933
+    },
+    "_plaintext/Assets/models/Invoker/covenant.zip": {
+      "sha256": "8869A6BC2E72B1FBD4C17412741DF41E30CE4644AE8FCEB1CBBEF5AA704267EB",
+      "size": 277029
+    },
+    "_plaintext/Assets/models/Invoker/exaltation/exaltation.zip": {
+      "sha256": "D1AEAFB5F8B19FF55780E49ECF973D742EE8EF33BFF9BB90310C024198209465",
+      "size": 444268
+    },
+    "_plaintext/Assets/models/Invoker/exaltation/exaltation_exort.zip": {
+      "sha256": "3A289200E3AC5BC7B0B4FF844CF73B019CFE2ECA13207C6C5AD6B278B7ACB721",
+      "size": 458803
+    },
+    "_plaintext/Assets/models/Invoker/exaltation/exaltation_quas.zip": {
+      "sha256": "4976BD8D3A5DE709B3966707283476C7F32D6E12A7F3C5247B06BC51B9EAA234",
+      "size": 443464
+    },
+    "_plaintext/Assets/models/Invoker/exaltation/exaltation_wex.zip": {
+      "sha256": "C6CE4B59973089A55ECB70FB4EF6ECDF0094EAA4FCE8E95132329D889A07D13C",
+      "size": 458797
+    },
+    "_plaintext/Assets/models/Invoker/item_back_artistry_cape.zip": {
+      "sha256": "08D0A86C786DF860439BCEC6FC81ED7B36BA24A8B1A332103353663BB0F84001",
+      "size": 52936
+    },
+    "_plaintext/Assets/models/Invoker/item_hand_accord.zip": {
+      "sha256": "C4D4EF5179E63B43618BE6E00450FD8A71D9C4CE9E2FB86FA81E9373CB94DCD9",
+      "size": 144686
+    },
+    "_plaintext/Assets/models/Invoker/item_head_apex.zip": {
+      "sha256": "4B9F080FF266A4063ACE282DCBBDC57DFB94BF1D80405D31B3CA073DE8E9955C",
+      "size": 108333
+    },
+    "_plaintext/Assets/models/Invoker/item_head_northern_frost.zip": {
+      "sha256": "428730442F70F058A82D95ED777E2BAA7936AD0B74BC8D5B42E1D2C6D07C262A",
+      "size": 60484
+    },
+    "_plaintext/Assets/models/Invoker/item_head_sorrow.zip": {
+      "sha256": "AEE288C1742C203247283D564567FA547C8DBB09A446DBC489175ADF39A5E966",
+      "size": 56442
+    },
+    "_plaintext/Assets/models/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons.zip": {
+      "sha256": "439A045DD43067E0BB332894EC31A9D81D5E7ABC0698D0F3A8638053669669B3",
+      "size": 158478
+    },
+    "_plaintext/Assets/models/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons_2.zip": {
+      "sha256": "F084CA85E04B55201A0FF167FC8FF6120BAF343E99EF32504C77D7744B6B2CFB",
+      "size": 154551
+    },
+    "_plaintext/Assets/models/Invoker/meridian.zip": {
+      "sha256": "945BE587FB6E2F1237F8C1F1C9EA1CE82CD1EF238C0A10CB6EA318AEC74E8644",
+      "size": 429711
+    },
+    "_plaintext/Assets/models/Invoker/mix_1.zip": {
+      "sha256": "C6B2DBC59B489F1EB7BF524AF27149F62AFD7B911C12D9F047A2BC064CF8EE32",
+      "size": 352362
+    },
+    "_plaintext/Assets/models/Invoker/northern.zip": {
+      "sha256": "BB358A8C3B65D5503DAC2C366F0F7B53AD50D3A892C615E839E2C7E367B41F18",
+      "size": 329326
+    },
+    "_plaintext/Assets/models/Invoker/persona_angel.zip": {
+      "sha256": "936F97621422DF4C78FD8D2D646F886E600822CE57B24943F7DAA7C079E7F772",
+      "size": 17037752
+    },
+    "_plaintext/Assets/models/Invoker/persona_artistry.zip": {
+      "sha256": "C83B88EDEED90F2FDDB5BC1FD804FF34FE479F592EBCC59BFF0CE9A1F000F3C5",
+      "size": 16901621
+    },
+    "_plaintext/Assets/models/Invoker/phoenix.zip": {
+      "sha256": "2D35799CC7171C84EB5A809E0DAB28385D95E4733B36224E2E5ED321BA391DB9",
+      "size": 295723
+    },
+    "_plaintext/Assets/models/Invoker/quas.zip": {
+      "sha256": "FC797F6BA42C449644F6CA79C590A8C2E7DF649848FDFABF30C6B34412294405",
+      "size": 205083
+    },
+    "_plaintext/Assets/models/Invoker/volatile.zip": {
+      "sha256": "9C4654AFE9C1443EE4036D1AC4758CE0C4F8D97514641BEA4C1E2A508615B33A",
+      "size": 213249
+    },
+    "_plaintext/Assets/models/Io/base_arcana.zip": {
+      "sha256": "CBCADF9022BF761D7F9165E1269DE6275D803534DC874558FC679981E479A541",
+      "size": 1451042
+    },
+    "_plaintext/Assets/models/Juggernaut/base_arcana_1.zip": {
+      "sha256": "F723681602EB94782264E6A0A39838899459C631AE422C699699ACF6C5359DA5",
+      "size": 3271529
+    },
+    "_plaintext/Assets/models/Juggernaut/base_arcana_2.zip": {
+      "sha256": "9E85876C4905BE140A8CB57D726BF0BC2ED374BE01A14B476915D54C2E597B8F",
+      "size": 3271534
+    },
+    "_plaintext/Assets/models/Juggernaut/exile.zip": {
+      "sha256": "1C98CF739BAB354CBC5B37CDB52AD30DB2622B6A0B9899EF97F0B2A63545EFE7",
+      "size": 2691541
+    },
+    "_plaintext/Assets/models/Juggernaut/honor.zip": {
+      "sha256": "97C2984378E8C354E9CADC8A1D449269F39A77FB3C6343F863D5BCE384BD836C",
+      "size": 262270
+    },
+    "_plaintext/Assets/models/Juggernaut/isle_2.zip": {
+      "sha256": "13161676C908C86A2042F95E4AD5377115347219608BB8FB7F173BCA3CCD7A37",
+      "size": 399697
+    },
+    "_plaintext/Assets/models/Juggernaut/item_head_arcana.zip": {
+      "sha256": "1E1BC923E4E4E7F6FE27FC53538042CCCE9F8BD8527D355A727BEF8E3CB1C70A",
+      "size": 358452
+    },
+    "_plaintext/Assets/models/Juggernaut/item_weapon_crimson_edge.zip": {
+      "sha256": "37AD494D89D4A6DB0993E58F008192FBFBF909824BE2BE2EA650E43407986382",
+      "size": 114593
+    },
+    "_plaintext/Assets/models/Juggernaut/item_weapon_kantusa.zip": {
+      "sha256": "243328AAC73CAA6361906A06D8BE0A3EFEA068F856194531BA51528339A33496",
+      "size": 46010
+    },
+    "_plaintext/Assets/models/Juggernaut/item_weapon_serrakura.zip": {
+      "sha256": "A9B35B680D962686855127B9BF44DE6FA86C7A552C333D2A7B9C161695D26275",
+      "size": 50114
+    },
+    "_plaintext/Assets/models/Juggernaut/mix_1.zip": {
+      "sha256": "1BCAA330593DCC89DE583A17F10D53A08E73534D5F5716A1F14530A463F39401",
+      "size": 3622979
+    },
+    "_plaintext/Assets/models/Juggernaut/provoc.zip": {
+      "sha256": "603E86E1F24BCF3A00A5D6972076D088D2DC02D1912EF9D0B7AB46B70B252498",
+      "size": 576504
+    },
+    "_plaintext/Assets/models/Legion_Commander/base_arcana.zip": {
+      "sha256": "E37330DBEDC447FCCD116B4337671296245EE6CC2132209EFC900E886218A074",
+      "size": 2656423
+    },
+    "_plaintext/Assets/models/Legion_Commander/bird.zip": {
+      "sha256": "0505426A2BBCACA74BF16B1541384F9BD822A0DD242F70434C4363883BB82C45",
+      "size": 550463
+    },
+    "_plaintext/Assets/models/Legion_Commander/drakons.zip": {
+      "sha256": "65489ED0128B2BAAD6841F9B5140D2B43228C21BEE50E10D924F1C9281AE1368",
+      "size": 676477
+    },
+    "_plaintext/Assets/models/Legion_Commander/drakons_ire.zip": {
+      "sha256": "6E0284BE254FDF1760220B9A623AF19464397EB1A6660B4561777B3817B14682",
+      "size": 676972
+    },
+    "_plaintext/Assets/models/Legion_Commander/eagle.zip": {
+      "sha256": "A3E1D8B60A9F79443A581935FB34773C30B7459215A9CF3FC72B7020AC4C70D3",
+      "size": 1819726
+    },
+    "_plaintext/Assets/models/Legion_Commander/empire.zip": {
+      "sha256": "7477DA881DB243BAA9DF4C49206ECF4086010C351ED11DD7B59EB2EE893759CA",
+      "size": 425140
+    },
+    "_plaintext/Assets/models/Legion_Commander/item_back_fallen/item_back_fallen.zip": {
+      "sha256": "5B10B7B11103BBF071057E4FFE262D6AE0AE578F5CD823BF4C3F7E7404F8296F",
+      "size": 12319492
+    },
+    "_plaintext/Assets/models/Legion_Commander/item_back_fallen/item_back_fallen_chaotic.zip": {
+      "sha256": "EAEACF9891CC9CB36A08E6367D26770EDADBE8C456AC20DC1273B5BBF921E728",
+      "size": 12297861
+    },
+    "_plaintext/Assets/models/Legion_Commander/item_head_devotion.zip": {
+      "sha256": "8951E9E04BCD3C14B9AD651C3FB6DE81341103219C078B4EA9CE942122CAA550",
+      "size": 411684
+    },
+    "_plaintext/Assets/models/Legion_Commander/radiant.zip": {
+      "sha256": "A8F7F4E481DACC72A879BC6473C9C8A0ADB2D11FDC36B690C82DF50AFFC7DB54",
+      "size": 458254
+    },
+    "_plaintext/Assets/models/Legion_Commander/triumph.zip": {
+      "sha256": "5E8FD0113580D563E61D904127A50E662F81F9F4B0D45026A67B1D3BB1D204AD",
+      "size": 568773
+    },
+    "_plaintext/Assets/models/Magnus/bore.zip": {
+      "sha256": "433408502AF0188FF6A3279955B7EB36B68B2FF84D3B3C346D63419BAB81FE28",
+      "size": 270617
+    },
+    "_plaintext/Assets/models/Magnus/glory.zip": {
+      "sha256": "DEF0FA3E3A683D1A8DD8E5F9D4B57CC930B67124E67D955D0CD8CDAC16F602EB",
+      "size": 147184
+    },
+    "_plaintext/Assets/models/Magnus/item_head_ardenok/item_head_ardenok.zip": {
+      "sha256": "6F7574B46C956ED5DAEA26317C6784A70C84722F0533DF2BD4DE6B2867C8D77B",
+      "size": 310112
+    },
+    "_plaintext/Assets/models/Magnus/item_head_ardenok/item_head_ardenok_crimson.zip": {
+      "sha256": "A2D514A4F65CB9959F7F818E07A36334DAC668576E0232AB82C9D35F33FFCB4A",
+      "size": 313844
+    },
+    "_plaintext/Assets/models/Magnus/item_weapon_anvil.zip": {
+      "sha256": "FD2C040D29A82B211BEB532639C63213DCA8B811F359BB89CEFD838623BB8F49",
+      "size": 338866
+    },
+    "_plaintext/Assets/models/Marci/brawler.zip": {
+      "sha256": "DF6E4C51009B9E8B29E0B574ED68319F80D6ED0F129069797AB6B3046F8C59BD",
+      "size": 362341
+    },
+    "_plaintext/Assets/models/Marci/brightfist.zip": {
+      "sha256": "0EBF77B933FB936D9B4997151F1096E46489E73682B2C9B33E8655DCA3075835",
+      "size": 485890
+    },
+    "_plaintext/Assets/models/Marci/cosmic.zip": {
+      "sha256": "1014AB3BB74226339A4D1F0601A0940CF179D709713A154D8FE0357F5CAD5FC7",
+      "size": 1089295
+    },
+    "_plaintext/Assets/models/Marci/dawnstar.zip": {
+      "sha256": "123FAF1DBC42676470E9066018075166F3E6057F6CC24D26F04F13C0C0CCBD7C",
+      "size": 416300
+    },
+    "_plaintext/Assets/models/Marci/fortune.zip": {
+      "sha256": "49CE43FE2622FC102094B159A7F070B78B0C3ACB09F0A1C76A343FACF15900F7",
+      "size": 482049
+    },
+    "_plaintext/Assets/models/Marci/horizon.zip": {
+      "sha256": "8EA875D76F74FBD1417AD3A1BA10D21F09B801F7671439963586C20959E35C76",
+      "size": 380800
+    },
+    "_plaintext/Assets/models/Marci/little.zip": {
+      "sha256": "B2269480B09C29F92E124C07CA43DFF198DD2AA0C5F1BBF0962CE6766C6D3B3A",
+      "size": 508248
+    },
+    "_plaintext/Assets/models/Marci/school.zip": {
+      "sha256": "F15DE1C9DC9C95F01AA3D61C5EB29D21467580F3B74ED03E84C1BC87D72F39D2",
+      "size": 446111
+    },
+    "_plaintext/Assets/models/Meepo/bird.zip": {
+      "sha256": "9E48E4D9B96094528E4554654A795658A9ED7353026BBDFBD47BD7ADA1B0F216",
+      "size": 609673
+    },
+    "_plaintext/Assets/models/Meepo/item_back_crystal.zip": {
+      "sha256": "6A6EF8A75C07BB6D14CD68752F10A94B2679EDBC691CC3A59800EA76D6589EB4",
+      "size": 160698
+    },
+    "_plaintext/Assets/models/Meepo/item_head_goggles/item_head_goggles.zip": {
+      "sha256": "38AADBA468BAC6534BFE3C59AA890EB4D187697324EB5FDBD288D63468DB3EF1",
+      "size": 1712680
+    },
+    "_plaintext/Assets/models/Meepo/item_head_goggles/item_head_googles_crimson.zip": {
+      "sha256": "BD3826B272CEA21F2057C2796328BBD263AAA9F889EEC351BFA7B665120F119C",
+      "size": 233084
+    },
+    "_plaintext/Assets/models/Meepo/mountain.zip": {
+      "sha256": "7F150469F066267B4471015F401C87C91C5F69D676E46B95669A39070AAA10A4",
+      "size": 298547
+    },
+    "_plaintext/Assets/models/Meepo/pitmouse.zip": {
+      "sha256": "604BD5DD7D4B05238D3B29D5C7F7F66E78E5354C215E4BC4E1112E4C1774F2B0",
+      "size": 185002
+    },
+    "_plaintext/Assets/models/Monkey_King/base_arcana/base_arcana.zip": {
+      "sha256": "33798AC05CD93C23F8E920181DC652E20449823CD299894668627F86E4FF7F4A",
+      "size": 22262488
+    },
+    "_plaintext/Assets/models/Monkey_King/base_arcana/base_arcana_2.zip": {
+      "sha256": "55B690D9A98E6620893984837E7F2794C3F831959CAD679563CE01BD939947DB",
+      "size": 22262767
+    },
+    "_plaintext/Assets/models/Monkey_King/base_arcana/base_arcana_3.zip": {
+      "sha256": "5635E54EF1DC9C6876D30792C3E67884D9DAB6601C777979FF447FF9C0E839BA",
+      "size": 22262614
+    },
+    "_plaintext/Assets/models/Monkey_King/base_arcana/base_arcana_4.zip": {
+      "sha256": "A754EB8380847C83DB42BFA3CFF0F5B2793C84C7B85DCBB7EEF60F1230E5C5C2",
+      "size": 22262726
+    },
+    "_plaintext/Assets/models/Monkey_King/fire.zip": {
+      "sha256": "B241244425291B844105C070F382EFD24C9BF1A6A665E64C25F0BEBC4042D681",
+      "size": 484380
+    },
+    "_plaintext/Assets/models/Monkey_King/item_head_arcana.zip": {
+      "sha256": "C2723C57C180D46CFB8464BC1F9A1766AB570CB49510E75CB54BE7536DEA1CEA",
+      "size": 2254020
+    },
+    "_plaintext/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff.zip": {
+      "sha256": "7BA2B64CCAE47E718EDF1015A28F54E905BDE3D50982194E785FDB2F5EA684E9",
+      "size": 3306292
+    },
+    "_plaintext/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_10th.zip": {
+      "sha256": "7B83159F7B6BAD9EF07BCA82DCB063DC101954B5E43DCF87DC0C5304A50E9E25",
+      "size": 3303814
+    },
+    "_plaintext/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_crimson.zip": {
+      "sha256": "395A20805DF80AB1093CEF3C5FAA652B53D2FDBF690AA2FD5A630B6216E6033C",
+      "size": 3317654
+    },
+    "_plaintext/Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_golden.zip": {
+      "sha256": "97518460DFBEAB4960F29C5C45904C91FD40AAAAE74D7771E8A9306B81DECA6D",
+      "size": 2085001
+    },
+    "_plaintext/Assets/models/Monkey_King/mischief.zip": {
+      "sha256": "9BF1607BC3F96DF251530C28C54BD9ED7DCD82F6FE8F75946BC352C88CD2CC93",
+      "size": 327657
+    },
+    "_plaintext/Assets/models/Monkey_King/scoundrel.zip": {
+      "sha256": "5AD2BA1629E15CBE9D528C775FE15548E104DF62DFFA2F710F66B9541BB724A7",
+      "size": 518878
+    },
+    "_plaintext/Assets/models/Monkey_King/sovereign.zip": {
+      "sha256": "B2A48A00744C2E319B1F06F2092D0827783382B6A2C93E52A8511E34A2AFE0A5",
+      "size": 4117277
+    },
+    "_plaintext/Assets/models/Monkey_King/trickster.zip": {
+      "sha256": "5DF3ABF56F3AEE68C15D8CA0DC8E1C40AE3F568C7140DF91AEB220DB3C2ACFEE",
+      "size": 5982247
+    },
+    "_plaintext/Assets/models/Morphling/darktrench.zip": {
+      "sha256": "FDD0AD2848691F32CB4C94E93548491E7DAC39F2500471F6E4FA89280AE24736",
+      "size": 1506301
+    },
+    "_plaintext/Assets/models/Morphling/fluid.zip": {
+      "sha256": "374CB5E69CD4CD1A1E6A1BF0C25A99F30AC785129AD84D9CDA1B47CCFFE5EF90",
+      "size": 1343247
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/bane.zip": {
+      "sha256": "C13114AA63853DAAE4D4DB3BE7E1574C99CA462A0CC34D594778F261E1CBB49E",
+      "size": 451048
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/base_arcana_1.zip": {
+      "sha256": "7A452F7B42346F26F6C051711A794792FC4816416D0FC6D9DF3312D0FB575BC1",
+      "size": 888130
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/base_arcana_2.zip": {
+      "sha256": "A558991FF09A4B629AD05F40EED044F3385D89FB35D6CC2C3C846AC89EE1FF2C",
+      "size": 888185
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/base_arcana_3.zip": {
+      "sha256": "3FAAB8775F504D34EA011A02D8E85A8901B3B392AD159D73BEDE48DBA9B6A330",
+      "size": 888191
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/darkfeather.zip": {
+      "sha256": "510E70B992B08C245F4A0FCB6D6AE86A8874266A9C3EFC0344F71C1D47B3EF7C",
+      "size": 273236
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/dragon_1.zip": {
+      "sha256": "2BD5DC698DB7CDEAB4B0CBCAAC8F0A50CC72DFFD030E48012E10831651BA1596",
+      "size": 420250
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/dragon_2.zip": {
+      "sha256": "D29913DF79DFE0E08EA75FE3720BF9ECBE20CDBF875861B45CAB706AB37509A8",
+      "size": 442749
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/gothic.zip": {
+      "sha256": "85877BCD2B11A3EA406BE92C162D054AA4B6CCA77DE7FF8E0BED624487D23942",
+      "size": 275894
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/item_head_codicil.zip": {
+      "sha256": "A14074647A1E78551583E64C98082E189833DC01CC7087DA8E29D7E2C9919E74",
+      "size": 223965
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/item_shoulder_avowance.zip": {
+      "sha256": "0E8C9E6559656D49458CB8541497E76B3CEB717C36E7DA3CAD9E02D0B10813B2",
+      "size": 300087
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/item_shoulder_crimson_avowance.zip": {
+      "sha256": "8E1270E64A9BAC4423C5EE0FF66661C6EB20EBFFC4A4DD7EC7CDD9D4DED5C870",
+      "size": 304114
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/mix_1.zip": {
+      "sha256": "6F73C080A568ACBE70019D0FABC99211ADB62A6C1E646E669C92FCF0F33AC1A4",
+      "size": 1397606
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/onikage.zip": {
+      "sha256": "8A2408830DBF775B8FE1D2B27D336BF58156F2E8DA68AB4351F2BC27D94A7169",
+      "size": 1264339
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/persona_base.zip": {
+      "sha256": "B7D5A7EF91BDCD486091F270A3BE58F235F20367F55D6AF5622030054EF60139",
+      "size": 39370271
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/persona_facade.zip": {
+      "sha256": "D5824D6F096DBCFFF777AD2460400903C3EF74CB94C4DE07A717D7B784BFC595",
+      "size": 38188361
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/persona_shadow.zip": {
+      "sha256": "E16F11E047E7ACBD398EF501D468D76208FC152CCCB3A5959EDE70DC68757D56",
+      "size": 38488585
+    },
+    "_plaintext/Assets/models/Phantom_Assassin/persona_waning.zip": {
+      "sha256": "4E6BE22F8BFD69DEEC6019C76B4CF4BA79B52E9AE71A1F11DE03769DAD1F2C6A",
+      "size": 38226660
+    },
+    "_plaintext/Assets/models/Phantom_Lancer/flock.zip": {
+      "sha256": "1A662C9961236A8C5CAD4A8E8A92A1514F6DE0E7501C8E75F93DBAC518DFA36B",
+      "size": 719390
+    },
+    "_plaintext/Assets/models/Phantom_Lancer/item_head_concord.zip": {
+      "sha256": "ABDC8CB4440D822BECA0CD3F135245891F1BD417F649AF825DA0E6144FE471AF",
+      "size": 263388
+    },
+    "_plaintext/Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord.zip": {
+      "sha256": "57A5FB8E07875B26A5FD28B89AD8D9A885FF60D16BFB96BFFB5C303BBED53574",
+      "size": 195419
+    },
+    "_plaintext/Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord_crimson.zip": {
+      "sha256": "289B0941B77A183CBE811F21534A594B31540CFD9EB7F3BD80B9660E1B660844",
+      "size": 189407
+    },
+    "_plaintext/Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord.zip": {
+      "sha256": "DB659346007322DA1B94F6ED9A9BD973520F8A0CF47AC0A346CD0839385FDF4F",
+      "size": 106919
+    },
+    "_plaintext/Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord_tyrian.zip": {
+      "sha256": "1BAA52B96D9F13E1C31147FCD6ADC99A32A157FEA73CFB4DB6264D857B82F1B2",
+      "size": 102010
+    },
+    "_plaintext/Assets/models/Phantom_Lancer/item_weapon_diffusal.zip": {
+      "sha256": "228F305712CCDBF576C973C58B4E9727EED4766C75089469736538AE12BFEA1A",
+      "size": 669475
+    },
+    "_plaintext/Assets/models/Phantom_Lancer/shadow.zip": {
+      "sha256": "56AC71434118BB620D88D999830368A513E00AB288A205860C628460CD19377B",
+      "size": 342617
+    },
+    "_plaintext/Assets/models/Phantom_Lancer/sunwarrior.zip": {
+      "sha256": "D9617975515FC327D8F92DEFBB629A768FD377CDC8BE9D64C482783882552A97",
+      "size": 311070
+    },
+    "_plaintext/Assets/models/Pudge/base_arcana_1.zip": {
+      "sha256": "A6ABE52EBE78C673ABA2EC4A8C024EE662F80B6B28E7612D2DA15ADD9D211A10",
+      "size": 11398461
+    },
+    "_plaintext/Assets/models/Pudge/base_arcana_2.zip": {
+      "sha256": "EBEFB65D355DBEEF02249E713DEE425396BB5446E893A27F8F6420C7041EE78A",
+      "size": 11412562
+    },
+    "_plaintext/Assets/models/Pudge/crow.zip": {
+      "sha256": "8B1AED52F13A0BDA6AAE5849167E92DE4DBE6ED9F45C95297134126B4796D0E4",
+      "size": 250843
+    },
+    "_plaintext/Assets/models/Pudge/cursed.zip": {
+      "sha256": "AEBA6977F82E2E965615015D8E6E56FC9C910BE2A9EA54E8DCA6A8B8D92B101C",
+      "size": 718394
+    },
+    "_plaintext/Assets/models/Pudge/item_back_arcana.zip": {
+      "sha256": "0E3F086ED8AC49657EAC0716A0C9FBA929D6D181AC2471503B924B85E234BC1B",
+      "size": 9518674
+    },
+    "_plaintext/Assets/models/Pudge/item_back_britches.zip": {
+      "sha256": "F567ECD79689EB925A6EB43469ED06A8DE221244CD7B6B2CEDCE474108822F9C",
+      "size": 103606
+    },
+    "_plaintext/Assets/models/Pudge/item_head_rotten.zip": {
+      "sha256": "58F73C8D7A27CEA3859A30026C1751F65A8DBDCEAAEDA98F064B478A6552CDFA",
+      "size": 286655
+    },
+    "_plaintext/Assets/models/Pudge/item_head_tassels.zip": {
+      "sha256": "563379086C74C8A0277BCA934AAA5D21B1D515B02D101F27F3C164CF7D75743D",
+      "size": 199820
+    },
+    "_plaintext/Assets/models/Pudge/item_offweapon_bonesaw.zip": {
+      "sha256": "186224D5C92829B2FA0F40D7F265D6F654C2E5E2A84F74E95021482A5C1FD566",
+      "size": 11941
+    },
+    "_plaintext/Assets/models/Pudge/item_offweapon_tenderizer.zip": {
+      "sha256": "0979257B3F4A7726F6CF8FF99D5078ECE6CE83783D73FB3F9F5015A173811A7E",
+      "size": 10420
+    },
+    "_plaintext/Assets/models/Pudge/item_shoulder_slug/item_shoulder_slug.zip": {
+      "sha256": "C12A2352F163FF26809A65FA38BB46110207600CFF37926F19D63A9F157B0F1C",
+      "size": 226505
+    },
+    "_plaintext/Assets/models/Pudge/item_shoulder_slug/item_shoulder_slug_2.zip": {
+      "sha256": "085FA31BA225C60F3B06D91370A899B0A4A592D1DE4EE204AB7D1247CA2E3596",
+      "size": 229725
+    },
+    "_plaintext/Assets/models/Pudge/item_weapon_dragonclaw.zip": {
+      "sha256": "C0BADF0A02101F8FC2D90B434FA39D90D5C2260B2C5671795869D24FFB812185",
+      "size": 9681
+    },
+    "_plaintext/Assets/models/Pudge/item_weapon_feast/item_weapon_feast.zip": {
+      "sha256": "E6B9C76063BFFA8596401A7A45D2FC2311E6CFEA354C82529FE273A8F5675B56",
+      "size": 415619
+    },
+    "_plaintext/Assets/models/Pudge/item_weapon_feast/item_weapon_feast_2.zip": {
+      "sha256": "87AF99E4BC5CEF777659C598443BDD1712C0A0733587849D768DD8466AF2FEE6",
+      "size": 373951
+    },
+    "_plaintext/Assets/models/Pudge/item_weapon_ripper.zip": {
+      "sha256": "54EDA30900ACE1C200AC8F41EEDBD4CEE4839DD0D11E9DF97CC19D01C74B5671",
+      "size": 290095
+    },
+    "_plaintext/Assets/models/Pudge/jolly.zip": {
+      "sha256": "8C879962972618AFE5A2776671F78E28B35F77B7330743E3D489B59D37B845E7",
+      "size": 555102
+    },
+    "_plaintext/Assets/models/Pudge/observer.zip": {
+      "sha256": "44767B81EE280A47705B39C897238C54FD124AD05B3C79B0E2C4FECAB5E48066",
+      "size": 11204625
+    },
+    "_plaintext/Assets/models/Pudge/persona_base.zip": {
+      "sha256": "8E86F9FC5D8B58253CE847FC203064F6C39ACF1458A96704690ED292CA707BE8",
+      "size": 42200021
+    },
+    "_plaintext/Assets/models/Pudge/persona_dead.zip": {
+      "sha256": "50DB096F65912534DB40FBD556C12FEE6FFBC9D7331484B983D1F5B663C97D8B",
+      "size": 41301824
+    },
+    "_plaintext/Assets/models/Pudge/persona_dragon.zip": {
+      "sha256": "323BDFF11D7F4C2EF79A0E2513F9AFE16B703F52DFEB60AE1F64BF3C71922D1C",
+      "size": 41454545
+    },
+    "_plaintext/Assets/models/Pudge/persona_glutton.zip": {
+      "sha256": "87D7853B787E9702C59CC131361DC654306AFD7D6E2F3B8B8B712469E1282063",
+      "size": 41335398
+    },
+    "_plaintext/Assets/models/Pudge/royal.zip": {
+      "sha256": "82BAA34EBDAA522AE3FE9081FA9206E40392196F0495E7AD7CDD414B4C47FFD1",
+      "size": 604410
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/agonies/agonies_1.zip": {
+      "sha256": "C90A3E69BAD467132C27EADB9FA9711F338F511ECB7CB762215E7DFD0A92CB21",
+      "size": 1508433
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/agonies/agonies_2.zip": {
+      "sha256": "F1D4EBC4777543EF1DF597DD6D81AB6F3ED0EB704ED1D259C1D1DC44701FF0E1",
+      "size": 1515697
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/arcana.zip": {
+      "sha256": "45EB7D99A5C2D21119AC7E7BB14486B19D5A976570060F1E1C878B8E19045B58",
+      "size": 2278181
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/base_arcana_1.zip": {
+      "sha256": "CF0CA505791DB528EC1B2E3A7C65F3E7CDB7C3AF3856C4E9A714F75517B037EB",
+      "size": 5856830
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/base_arcana_2.zip": {
+      "sha256": "7B6EE573D5AFE2176D43CC1D0138B2CD3D497E8726555E3EDA77480315928FAE",
+      "size": 5234111
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_1.zip": {
+      "sha256": "905AD5D9FA5E650A13E43D8A5B3B4E32B95F24D64C93981D918B8E896A2E75AB",
+      "size": 2851482
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/item_shoulder_frock/item_shoulder_frock_2.zip": {
+      "sha256": "90EABF2F70A3357562DB97B75F1250736EF2B4A74CCABAD7C0C31C8384E92F55",
+      "size": 2851507
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast.zip": {
+      "sha256": "EB6D347B99B89A49951D4340A72562A16DEBE5890C2D1AFFB59EB47BB8DFCB77",
+      "size": 135013
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast_golden.zip": {
+      "sha256": "BB3C1AD03248BC6AAAFD2F9D62B67FF22AA5C8551D11F30725CC8B970C3C2F3F",
+      "size": 135077
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast_tyrian.zip": {
+      "sha256": "7D297DA64040AE0A0DA823574B7701AD7944D3E4F6F817088965FF1297601465",
+      "size": 99895
+    },
+    "_plaintext/Assets/models/Queen_of_Pain/rose.zip": {
+      "sha256": "E3782D76EB12BB8FED6B988EEB0C06E3B3A0089231565A2CF713A9643E37B2E2",
+      "size": 801861
+    },
+    "_plaintext/Assets/models/Riki/cunning.zip": {
+      "sha256": "3DBD05E8C6FC2E0832EDCC99604C94F7AA5C7E29C105C7CE7D2E8F5804055BAD",
+      "size": 160811
+    },
+    "_plaintext/Assets/models/Riki/howling.zip": {
+      "sha256": "170E00A1F2C5DBA5DF251142926961033D13105FCC09D1FA6759A1CF656D161A",
+      "size": 382494
+    },
+    "_plaintext/Assets/models/Riki/item_head_shadow/item_head_shadow.zip": {
+      "sha256": "A161385794F1232436F2537276EC2F0AE7E5206531FDF39A598205B732975E25",
+      "size": 123140
+    },
+    "_plaintext/Assets/models/Riki/item_head_shadow/item_head_shadow_crimson.zip": {
+      "sha256": "ED2F9F87E6A02A659EB3CE91371C7A7219B0860BC62F20A3BDA3BAC39FA3B971",
+      "size": 123141
+    },
+    "_plaintext/Assets/models/Riki/item_head_shadow/item_head_shadow_golden.zip": {
+      "sha256": "2F7769F31FA834D9561B7B468EF55E7F81672026AD270887D46E64BC6DB4E3BA",
+      "size": 123319
+    },
+    "_plaintext/Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow.zip": {
+      "sha256": "442B81CAC1F3E8046D7E2706BC575DE44D58522C9B4D4F34A9C5DA16B8DE766B",
+      "size": 225796
+    },
+    "_plaintext/Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow_crimson.zip": {
+      "sha256": "58CA162D2CCAD27EA1B4174B4FDFBD98C6F9F688FA2B73C2086816DE68F69B20",
+      "size": 224752
+    },
+    "_plaintext/Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow_golden.zip": {
+      "sha256": "AFB187A683E9CC0799CD3D3E82A253053ED8BB5FBEB5695C2BE159231323963B",
+      "size": 229252
+    },
+    "_plaintext/Assets/models/Riki/item_weapon_shifty.zip": {
+      "sha256": "9770CC623FEDF22BC3DC9E366556DA58C06A5C10AE565577B47AD6EF313F9387",
+      "size": 98927
+    },
+    "_plaintext/Assets/models/Riki/scarlet.zip": {
+      "sha256": "B88CEF3100CBB212BDAEA96EA2F44222449B57BFB827BD8F917BB3D7B276E181",
+      "size": 414849
+    },
+    "_plaintext/Assets/models/Rubick/base_arcana.zip": {
+      "sha256": "E892D8A40EEB864D50DA43A6667D9B8D0744C7B19768BDBD45EDF22A91C97D63",
+      "size": 10173240
+    },
+    "_plaintext/Assets/models/Rubick/dilemma.zip": {
+      "sha256": "7BA1A4D6EB287ED3E3A49724CCC0306F2946E32C8CB90F59C04E348DC66AD55E",
+      "size": 185326
+    },
+    "_plaintext/Assets/models/Rubick/item_shoulder_crux/item_shoulder_crux.zip": {
+      "sha256": "3E170FB7E680AF7919A7BE814F3CA9DF69ECCB24D794787DEEFB902B3C9700F4",
+      "size": 186738
+    },
+    "_plaintext/Assets/models/Rubick/item_shoulder_crux/item_shoulder_crux_arcana.zip": {
+      "sha256": "19F6EB6A034C851BBB94535A4CE633AB3D2C7BFDAAE195C69C7D06EB295BA070",
+      "size": 617059
+    },
+    "_plaintext/Assets/models/Rubick/item_weapon_perplex/item_weapon_perplex.zip": {
+      "sha256": "1D57F9B9CFAD76F834C7FB8F9B142886AFA44FB776D42BE1D672472C1D9FC1A7",
+      "size": 79041
+    },
+    "_plaintext/Assets/models/Rubick/item_weapon_perplex/item_weapon_perplex_golden.zip": {
+      "sha256": "395649F9E186D022F0CFE222094EDE8194873FD22E37AAB7F8559309506C61A3",
+      "size": 79052
+    },
+    "_plaintext/Assets/models/Rubick/realm.zip": {
+      "sha256": "6E3ABF94E097345B863FD6A1700A68A35A9333216AD0EE0DD787B7D84F19912E",
+      "size": 395248
+    },
+    "_plaintext/Assets/models/Rubick/secondary.zip": {
+      "sha256": "373BE221F5CA72EBDBD830ED358011E7390D2883522423B5F1989A14C9769F25",
+      "size": 682877
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/base_arcana.zip": {
+      "sha256": "203CD116A81254DCC9B95D430752260FBB3C6B83F8B051A407747B7F66A77F59",
+      "size": 2985062
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/corpulance.zip": {
+      "sha256": "3372A33D053CF825FA0A87A2A16C04AB9A5EC91EAA323A45A54BD7590E4675E4",
+      "size": 232892
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/demon_eater.zip": {
+      "sha256": "419A1BE7B4F09593310C2E6469E21F82C45A27E704B54BC69B7A424820809CC3",
+      "size": 564394
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/diabolical.zip": {
+      "sha256": "7D6FB74DC53EB694AC5C6A0E6C13E92A23A58C726CC3E084E246D2CB1FB6496B",
+      "size": 261765
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/eternal.zip": {
+      "sha256": "A41076349138DD885B23D192900374EA73029554B82497DD9C8C5E0A1743DC2A",
+      "size": 290012
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/item_hand_desolator.zip": {
+      "sha256": "660B4A4AA5F1BE199E2763A531493881331D859C9BADF27E69CCEB6E072F460C",
+      "size": 2719295
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/lineage.zip": {
+      "sha256": "8FBB09082EA7AA2858990233FC8C13B22369B4568A6859C3254F45882E74F9DA",
+      "size": 297741
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/mix_1.zip": {
+      "sha256": "965144E7E572995815D7F60C02F5AC21F69185F80A70A63F95700B48C6DBEA0C",
+      "size": 3115687
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/molten.zip": {
+      "sha256": "F2972EC2F6F4066E5862ED54D1AF5A2F1F7F41058F5D129DE3DA1A7CD0B1BE47",
+      "size": 297616
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/murder.zip": {
+      "sha256": "676B67F3E60C6AE2FE7868A6CE70BFFACB4FBD798ADD67DB787AD58CA96A9C07",
+      "size": 252652
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/raven.zip": {
+      "sha256": "4A62DB4482BDEEF290D5842F184F66162D3949C1BBBCADE2E1925E6786B9C7DA",
+      "size": 591804
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/sundered.zip": {
+      "sha256": "E802AE28397F4A09A40756A25254EF3411B7BBB75F1384F57DF2CBBDC8E7CCEE",
+      "size": 2306274
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/twilight.zip": {
+      "sha256": "5EB4F5735A7203DC9F2BB111DF7587DA16C4C21D05B3C2B9A7FBE85B29551CE0",
+      "size": 453284
+    },
+    "_plaintext/Assets/models/Shadow_Fiend/tyrant.zip": {
+      "sha256": "8D1E887D8A4EE602244805107ADE62BCDA1A9049154E334D68352E7689430BC4",
+      "size": 214945
+    },
+    "_plaintext/Assets/models/Sniper/ardalan.zip": {
+      "sha256": "2101F57973B617BA694F40D9D6C3B52F8A10C0163B5E2A821348127C54731212",
+      "size": 833015
+    },
+    "_plaintext/Assets/models/Sniper/blacksail.zip": {
+      "sha256": "5D37D2DB86761A5134F42132B728824061CC56B54844DBCCA4531F2291515322",
+      "size": 276364
+    },
+    "_plaintext/Assets/models/Sniper/expired.zip": {
+      "sha256": "BF7BCB34D11266E48719226751499CACB72A73623769D2FDD805B08F229B11F2",
+      "size": 1439002
+    },
+    "_plaintext/Assets/models/Sniper/item_back_bonanza/item_back_bonanza.zip": {
+      "sha256": "66DE21D9AF5E450436132C943E4DE72B994C7355104F86A022CD8FE4CCCCD88F",
+      "size": 218227
+    },
+    "_plaintext/Assets/models/Sniper/item_back_bonanza/item_back_bonanza_golden.zip": {
+      "sha256": "C11F36D7D4AB18DA1014941BAE41468DDE8E23AAB92336D8CD8A59F118615F30",
+      "size": 224922
+    },
+    "_plaintext/Assets/models/Sniper/item_weapon_keen.zip": {
+      "sha256": "F0F74E15E821131CA4944F2FD10D66E602709498AEE0AB657FC54A604CE0CDEB",
+      "size": 235303
+    },
+    "_plaintext/Assets/models/Sniper/odoragon/odoragon_1.zip": {
+      "sha256": "9D3B511A106F8E9454022DF1A0C94EBE9CDC4EB3455BF29E500B225DEFAF0E5D",
+      "size": 1813713
+    },
+    "_plaintext/Assets/models/Sniper/odoragon/odoragon_2.zip": {
+      "sha256": "066ECE42AF8DA8B14572435914D9788994CD5BBF29F60680B3A6366F04E26E00",
+      "size": 1833377
+    },
+    "_plaintext/Assets/models/Sniper/odoragon/odoragon_3.zip": {
+      "sha256": "22A9CB005C9F79DD9F12B4EEFE502A350295960CB76B01042556E80F4CFAF913",
+      "size": 1834311
+    },
+    "_plaintext/Assets/models/Sniper/odoragon/odoragon_4.zip": {
+      "sha256": "758EFF0E3CD92D8E227F45BD4ACC917F494A38E2C042B54CBC4F994EE4EF5105",
+      "size": 2029278
+    },
+    "_plaintext/Assets/models/Spectre/arcana.zip": {
+      "sha256": "942BC1FF5EE667B977CF0CBE8F4B988A508B5ED15DBF65B6617AC522A9D46F3D",
+      "size": 1247754
+    },
+    "_plaintext/Assets/models/Spectre/base_arcana.zip": {
+      "sha256": "B1345391E0FD3F2C3FF443B6C9203F3F1E35937D96AF0394C30FCFE94E4F93B0",
+      "size": 4163029
+    },
+    "_plaintext/Assets/models/Spectre/base_arcana_2.zip": {
+      "sha256": "2E314864BCC234BC665B6DA2D9B847E082A7E2A0DB0BBA37773F5F6344A10595",
+      "size": 4164244
+    },
+    "_plaintext/Assets/models/Spectre/crescent.zip": {
+      "sha256": "6F4216679A1FF0725E6CDA61EE005CCF575496AB598ECDAA6B57B44A42552846",
+      "size": 776703
+    },
+    "_plaintext/Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul.zip": {
+      "sha256": "D545DE22DFC7D1CEE6A6267F38433538A1A4583C0A5B9C1E6FB7DF8261E799DE",
+      "size": 197249
+    },
+    "_plaintext/Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul_2.zip": {
+      "sha256": "46AB34FC419255F7B72DF5F936F8281D7700503452E7B556768BDA6A70DC9081",
+      "size": 206994
+    },
+    "_plaintext/Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul_3.zip": {
+      "sha256": "B5DF57F9C96D7D05A991A20B28AB98E315872DECA0C8BAD427915E1D63CBBFCE",
+      "size": 212181
+    },
+    "_plaintext/Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser.zip": {
+      "sha256": "9D58F686B093FD6E59CA445A54C710730C3C2F6C5EEABC5AD0A8114BBF97EBF1",
+      "size": 47427
+    },
+    "_plaintext/Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser_2.zip": {
+      "sha256": "4625F232029ABAD78C9FDB944C30F1BB7058309A4CD6AE182D632868C11527FE",
+      "size": 50679
+    },
+    "_plaintext/Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser_3.zip": {
+      "sha256": "D9C069C180B8CE3CE3A59A5A3A778EA1C3B6BBA95388AFD290216840C5643616",
+      "size": 50679
+    },
+    "_plaintext/Assets/models/Spectre/lament.zip": {
+      "sha256": "64A143337B71DEFAD28E43462750C37F07F33F37C7FCE46B471BBB287FC15641",
+      "size": 991729
+    },
+    "_plaintext/Assets/models/Spectre/shadowveil.zip": {
+      "sha256": "4B043B0706A586F1BC535515A01F7339E23C296993BFE15A8E0A3D1AC0C4967E",
+      "size": 433738
+    },
+    "_plaintext/Assets/models/Spectre/weaver.zip": {
+      "sha256": "CF0B9B0BC94FF0BC673605CF53FB5AED04EAB06385740010407DFB0E3E98D0CD",
+      "size": 248762
+    },
+    "_plaintext/Assets/models/Sven/arbiter.zip": {
+      "sha256": "2CCA05B3CACEDDC5D93A7357D02381DA4AA1B3EC2D6141BC4DA1594623842357",
+      "size": 897861
+    },
+    "_plaintext/Assets/models/Sven/astral.zip": {
+      "sha256": "D90419BB8062024E342B61AE5699E2A2DBDC67EBCB46F4678AA8DCA6419F744E",
+      "size": 1148440
+    },
+    "_plaintext/Assets/models/Sven/dragon.zip": {
+      "sha256": "6FD99E7DF55812CD5323AFF2DC098D9A7159C5391326C0A893D80368DF764820",
+      "size": 917884
+    },
+    "_plaintext/Assets/models/Sven/item_arm_vigil.zip": {
+      "sha256": "E6CDFDA60D8D93DBC8583E81B0E544BAF76BB17384A5F65857DA7CBF3C11D24E",
+      "size": 135392
+    },
+    "_plaintext/Assets/models/Sven/item_head_vigil.zip": {
+      "sha256": "67AE745754139876662367836174E25CF33CE59460F6971998C693716D31093E",
+      "size": 104810
+    },
+    "_plaintext/Assets/models/Sven/item_weapon_vigil.zip": {
+      "sha256": "DE0E6C0A11266EFB6731988E6A88482EAE56D9047AFE091A5CACB3505CE33CBE",
+      "size": 124746
+    },
+    "_plaintext/Assets/models/Sven/legacy.zip": {
+      "sha256": "6AF4D7E8442BA98D40432EB2CEDD80E227653AC3749DB11A6A9F44FE83A969CB",
+      "size": 1258255
+    },
+    "_plaintext/Assets/models/Sven/northern.zip": {
+      "sha256": "BC99AC08CBA7F99FDB2EE8CE34133EA1D343A9BC02ED92E29021052C372329D1",
+      "size": 971204
+    },
+    "_plaintext/Assets/models/Sven/relic.zip": {
+      "sha256": "CAA7E0EF7300C127B765DD6394D8B3A88F7B01FE6AE2C570C87948263FED665F",
+      "size": 1167056
+    },
+    "_plaintext/Assets/models/Sven/warden.zip": {
+      "sha256": "E2062C0F253EE41391314E0C2313777F327D0F0952053C2A415ED95EF214CB2E",
+      "size": 993736
+    },
+    "_plaintext/Assets/models/Templar_Assassin/adept.zip": {
+      "sha256": "3567EF29EEB421BD258CC41FFEB3994C95C10EE3C997FE53CAAB3184BBCEF8C5",
+      "size": 1246511
+    },
+    "_plaintext/Assets/models/Templar_Assassin/chamber.zip": {
+      "sha256": "CCB7C43E7627357131F5BE05EBAB67E524FA74DAD6C7C18C30AD12F9374C5CB1",
+      "size": 186743
+    },
+    "_plaintext/Assets/models/Templar_Assassin/gates.zip": {
+      "sha256": "473E49655745976753F08A1BBDECC5DF70E91CE547F77FB9E5B7BB3511F8A8B0",
+      "size": 1148473
+    },
+    "_plaintext/Assets/models/Templar_Assassin/item_head_void/item_head_void.zip": {
+      "sha256": "2A34D3A939A58AD9FC9423C5220815FD97D6340557F9E02BABC75C13C851472E",
+      "size": 167158
+    },
+    "_plaintext/Assets/models/Templar_Assassin/item_head_void/item_head_void_crimson.zip": {
+      "sha256": "AF0BA3FBB01D5E144F26B4046FB483B814299A6BC4AC9BC69BD89FD394E12227",
+      "size": 143590
+    },
+    "_plaintext/Assets/models/Templar_Assassin/item_head_void/item_head_void_golden.zip": {
+      "sha256": "CBFA21BD1A58000E0225471E6BD37B9DCE685958BE3930507DE655728358147A",
+      "size": 170935
+    },
+    "_plaintext/Assets/models/Templar_Assassin/item_shoulder_bond/item_shoulder_bond.zip": {
+      "sha256": "A8A73A6E04E52DB38FF32379083E59134F8790A44D2F74D1239F0C0F242D116B",
+      "size": 427702
+    },
+    "_plaintext/Assets/models/Templar_Assassin/item_shoulder_bond/item_shoulder_bond_crimson.zip": {
+      "sha256": "F55B20916DE40ECCA2AFB5C5E9198B78F5CD52476C9E7C8A0330773666F6C079",
+      "size": 319658
+    },
+    "_plaintext/Assets/models/Templar_Assassin/item_weapon_focal.zip": {
+      "sha256": "CF674BB358704C8F8205E2F898A7889707FA9C30CE093C33CF8DF0A448E08F6D",
+      "size": 1292473
+    },
+    "_plaintext/Assets/models/Templar_Assassin/loyal.zip": {
+      "sha256": "02B1FE9F8E4C9239E958A260CFF71BD8B133228DA7F12AEF2F97A979D1ED5A5E",
+      "size": 981243
+    },
+    "_plaintext/Assets/models/Terrorblade/base_arcana.zip": {
+      "sha256": "32B3A98C3FF450096AD065841AEE1F753806921C7DD84309ED08A270AC35C0E7",
+      "size": 19157540
+    },
+    "_plaintext/Assets/models/Terrorblade/code.zip": {
+      "sha256": "30ACAEE271381140F412F25E1612C98D5EFB50ABBCE16E250555BA431CCC1C46",
+      "size": 1110951
+    },
+    "_plaintext/Assets/models/Terrorblade/forgotten.zip": {
+      "sha256": "CCA5190C3890422B485C259FA812A06FBE3191D4670FB349DD2D3FAEEF965B8B",
+      "size": 852424
+    },
+    "_plaintext/Assets/models/Terrorblade/foulfell.zip": {
+      "sha256": "2D64C620C7B75E0A51E434E48639F4F374D0241F7911787E9E2FDEF3A0E18399",
+      "size": 584158
+    },
+    "_plaintext/Assets/models/Terrorblade/item_back_sorrow.zip": {
+      "sha256": "0A6074809D03C14A6C69C2A144F03F02313188125486EB9695B3B5B4E5E282DA",
+      "size": 196903
+    },
+    "_plaintext/Assets/models/Terrorblade/item_weapon_sorrow.zip": {
+      "sha256": "A80CD4F5F0CDC90DCCE0F2F1E637D44C7366F6AB102690B0A72980B61A7C0CFC",
+      "size": 158484
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_base.zip": {
+      "sha256": "E87B96580CD8410938C3845056C6FF7637BD1EFEF60CBCFD6FD0C247389F0296",
+      "size": 122340
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_blossom.zip": {
+      "sha256": "050A011F0008F22AE746A4C084C8AE241EA05FC63CFF42A7A07FD297975CCEF0",
+      "size": 118813
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_blue.zip": {
+      "sha256": "7855F5E1A7CC0F20F63587DC52F3C76B78756D2C2999EFA1A21F0BDFE0A8046C",
+      "size": 118140
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_bright_green.zip": {
+      "sha256": "6C8E4EB7803F893BCFFA4D0FDCDE44EE7A0C004412E6D40DB24B08E3A94ECA33",
+      "size": 118677
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_champ_blue.zip": {
+      "sha256": "CAE90E3E22D704A8196D7CBC2C5C753F08F9ADFEFF076260595C9A123B1734F4",
+      "size": 118199
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_champ_green.zip": {
+      "sha256": "503042C5DC365B4E49E37BA6EE79ED28937DB2AA793F196B90F22100E7450916",
+      "size": 118284
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_cursed.zip": {
+      "sha256": "C09846665F2E59E4CB14AE57FAE00E295834186561D0BB6D58A3EFA44C8CF271",
+      "size": 579597
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_defensive_red.zip": {
+      "sha256": "22F083183CD0F11F107275ADF9B65B9CC454D69AF33DC47E0D9480636D6124B9",
+      "size": 117579
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_diretide_orange.zip": {
+      "sha256": "BD4434BF0251D2BEE414C63CAA6B4179A2198519BEC77F7A199EFE3302D814C8",
+      "size": 120544
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_earth_green.zip": {
+      "sha256": "F2F21FFFBA559D42D9833C968531AE7D3DB868256CC5F0D6D34DB12D2EFC5AD1",
+      "size": 120494
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_gold.zip": {
+      "sha256": "CEE0D56F63E1225FB108FA1A9B669B91B3DAF32BFEE37F2B8FEB55F6B1CE9D92",
+      "size": 123501
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_pristine_platinum.zip": {
+      "sha256": "79621FD33996F4CC00C9FD463B906CFC0DE34E9F61F8B5975036E0012C6FA8A8",
+      "size": 119481
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_purple.zip": {
+      "sha256": "6518BF234D94433FE1855D58A4146F0C8323ACAF0174FFE1A61C4AC42F57BE5A",
+      "size": 117629
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_rubiline.zip": {
+      "sha256": "D973A77FC432E4AD69B97B64D76F08BF0B375A6191CFBC4ABC6C05EFEB7EEC48",
+      "size": 118226
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_ships.zip": {
+      "sha256": "004DE079A1A7A313A18852D8A4D44EB297DC375D79F7CB33BF528226C5D0ECD0",
+      "size": 116970
+    },
+    "_plaintext/Assets/models/Terrorblade/prismatic_base/prismatic_vermillion.zip": {
+      "sha256": "8627823F32BE1935784AC8B8DEBE2E1A81B75A1BE87DEB90040437C14A72E6D8",
+      "size": 118356
+    },
+    "_plaintext/Assets/models/Tinker/hazard.zip": {
+      "sha256": "047CC19B5CCB2EB9094C39DA1911F6E2C7A2C1D8C8C6CE6D6E22475E219AD9B5",
+      "size": 212572
+    },
+    "_plaintext/Assets/models/Tinker/interstellar.zip": {
+      "sha256": "54DB2DE3B330125D2743C3D415703D6FF783C586709BCED4E6058C4E0A63CF4E",
+      "size": 1277473
+    },
+    "_plaintext/Assets/models/Tinker/item_head_roller.zip": {
+      "sha256": "E0DAB4D8957AC290858ACF9926AB7EFD063760CFB815B478F305F41E5376DE27",
+      "size": 65113
+    },
+    "_plaintext/Assets/models/Tinker/item_misc_bot.zip": {
+      "sha256": "5124602C889A6256FDB7DA307D40630D4F0C8B53CA24B65264C3727FA8469DF3",
+      "size": 665927
+    },
+    "_plaintext/Assets/models/Tinker/item_offhand_arcanic.zip": {
+      "sha256": "B434FDBF9528652327E5FCA3793E62BD29DD39210224E03B84DD431D92AE9491",
+      "size": 291026
+    },
+    "_plaintext/Assets/models/Tinker/protodrone.zip": {
+      "sha256": "52A40D99DE44A44FE5D553F60D36CF8D90D9561EA85E10E6D7EE0F19B2AF4ADD",
+      "size": 282424
+    },
+    "_plaintext/Assets/models/Tinker/twitcher.zip": {
+      "sha256": "42424AEAB5B61A23913A2C2017B436B7F29E0507AAFD3ACBF0F7A13931FA91F3",
+      "size": 355865
+    },
+    "_plaintext/Assets/models/Void_Spirit/flight/flight_1.zip": {
+      "sha256": "2162723F5CB01F09C8646B697AA105F6B4B2AECAC47AEA8B84AC110506750F2E",
+      "size": 444344
+    },
+    "_plaintext/Assets/models/Void_Spirit/flight/flight_2.zip": {
+      "sha256": "9D98702BEF72BD653716A6E1A21B282F08E89E46F9AE4FC1AB4FEDB653ED2108",
+      "size": 464702
+    },
+    "_plaintext/Assets/models/Void_Spirit/flight/flight_3.zip": {
+      "sha256": "161997CCB2710D4D772D2760078A3813E056C694619386A09E89BC1C84DB415F",
+      "size": 464596
+    },
+    "_plaintext/Assets/models/Void_Spirit/sublime.zip": {
+      "sha256": "CBBF7A699931D8FD3DF89CB9483D95119F8569D994C01E5A037B77DFCAA41DFD",
+      "size": 659884
+    },
+    "_plaintext/Assets/models/Void_Spirit/umbral.zip": {
+      "sha256": "55082A23933AEE9F2980648C2BACA8AB7C89DF101187FAF79FEFB2A219A41171",
+      "size": 452052
+    },
+    "_plaintext/Assets/models/Void_Spirit/vector.zip": {
+      "sha256": "ADA6248841AC3F809CB8143237ED1FDD6A75B03A1892D22868F85F35F2D3C2AB",
+      "size": 950361
+    },
+    "_plaintext/Assets/models/Void_Spirit/vector_10th.zip": {
+      "sha256": "7D2F4743A02A3B7A9C346C45E9773EE9C75971D7B44D5D7E95325D6E2C90D993",
+      "size": 963912
+    },
+    "_plaintext/Assets/models/Windranger/arcana.zip": {
+      "sha256": "B4FC6DF7573BF5CD1F77EE828130E9B2DFFE798FC520D80ED43A4F0D932653A4",
+      "size": 2776024
+    },
+    "_plaintext/Assets/models/Windranger/autumn_zinogre/autumn_zinogre_1.zip": {
+      "sha256": "61A0E814D6C84656BCABB809D1558F35E7909B9562100852D11E55FFA346D897",
+      "size": 3132463
+    },
+    "_plaintext/Assets/models/Windranger/autumn_zinogre/autumn_zinogre_2.zip": {
+      "sha256": "791DBEA9DC5B1F9DAD46D2AFC3560B9CCA4DD040811C086741638B60EC4C0271",
+      "size": 3132272
+    },
+    "_plaintext/Assets/models/Windranger/base_arcana_1.zip": {
+      "sha256": "9BE94D80B49BEC243E1D5717CC10D99033B063537B384343BF8F7D1179EC1B24",
+      "size": 11091455
+    },
+    "_plaintext/Assets/models/Windranger/base_arcana_2.zip": {
+      "sha256": "535BD7D9B4693F87FFA15C8FC4612694E400562D0F56AAF6036F7B9126C27065",
+      "size": 11091339
+    },
+    "_plaintext/Assets/models/Windranger/breeze.zip": {
+      "sha256": "B3DF5F1F88BE80802CC8424FCB3D25EE17AC488CF5918891A3BC9D41CDB0B8E8",
+      "size": 2556882
+    },
+    "_plaintext/Assets/models/Windranger/item_back_sylvian.zip": {
+      "sha256": "C770C1679C91D0EE9C3DA6F0FF800FBF6DCDD609E0A6C63D97E21ABA73DCD1F7",
+      "size": 49252
+    },
+    "_plaintext/Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian.zip": {
+      "sha256": "B56E5ED6DD3844EE344539849168DA72862720E19DEB7F40D73A4E240C132E51",
+      "size": 3996971
+    },
+    "_plaintext/Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian_arcana.zip": {
+      "sha256": "3361A41F6981C6E1ED43ECBD8042350A9FB0AE31EAA40E105F1B12A817984140",
+      "size": 5487560
+    },
+    "_plaintext/Assets/models/Windranger/item_weapon_peregrine.zip": {
+      "sha256": "62A001F96D89A64AE66C59EE7BC495EBC2E190EDB8546425E58F05D352885587",
+      "size": 268116
+    },
+    "_plaintext/Assets/models/Windranger/prism_zinogre/prism_zinogre_1.zip": {
+      "sha256": "159AEA1B445C27C79FF1747DE9CDCD0C50D28B2927C2E2F7D00839F7F3AD0E84",
+      "size": 4527784
+    },
+    "_plaintext/Assets/models/Windranger/prism_zinogre/prism_zinogre_2.zip": {
+      "sha256": "60DB77B19765F159F31BCDE842BD30B0648CBF5E0248873B7949C44CD7192B6D",
+      "size": 4527805
+    },
+    "_plaintext/Assets/models/Windranger/syl_zinogre/syl_zinogre_1.zip": {
+      "sha256": "A95011D6C3AFE4DDF0EFC7ADC5E2AC456A3F48F40A9D3695DC9574EC5F095508",
+      "size": 3132620
+    },
+    "_plaintext/Assets/models/Windranger/syl_zinogre/syl_zinogre_2.zip": {
+      "sha256": "0914B4676DB020B06C4A1D4B2DDB390BE9DB916E620ACAF05EDC0ECD0E6D5AD0",
+      "size": 3140225
+    },
+    "_plaintext/Assets/models/Windranger/zinogre/zinogre_1.zip": {
+      "sha256": "72EEBDC11EA00BFF2026B7F217B72191468E2C5394C0167E2CADE2540689D467",
+      "size": 3120241
+    },
+    "_plaintext/Assets/models/Windranger/zinogre/zinogre_2.zip": {
+      "sha256": "6955ABF901BF96FEC66820BDEA1F4AD4635EC58F9B63F663252D61E343C768AA",
+      "size": 3120140
+    },
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
       "size": 6816805
@@ -139,33 +1539,33 @@
       "sha256": "5BF6CECF450B16B8A6C8884741517D0336ACF301E59EAB8A2B1E269628A00D66",
       "size": 1564507
     },
-    "Assets/models/Anti-Mage/item_offhand_basher/item_offhand_basher_golden.zip": {
-      "sha256": "5FD05A7008DDECA134E3850DCE13BBC552483CB29B500C11A897DED69BA22A60",
-      "size": 50665
-    },
     "Assets/models/Anti-Mage/item_offhand_basher/item_offhand_basher.zip": {
       "sha256": "7B9C3096DFE6C5A293BFF7EA87AE8C2B8F7E23E3B7E5BA1CFC67E49F9CA6DAE0",
       "size": 50596
+    },
+    "Assets/models/Anti-Mage/item_offhand_basher/item_offhand_basher_golden.zip": {
+      "sha256": "5FD05A7008DDECA134E3850DCE13BBC552483CB29B500C11A897DED69BA22A60",
+      "size": 50665
     },
     "Assets/models/Anti-Mage/item_offhand_manta.zip": {
       "sha256": "4ECAFE9D414B5C15D079C31168325B9AC8794D997BA91172E45A71D8EE552032",
       "size": 45485
     },
-    "Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith_golden.zip": {
-      "sha256": "95DB7062D8B67D6DB165244A7D3376D12D6A5B91DDD68F10C852BFA72F11567D",
-      "size": 213414
-    },
     "Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith.zip": {
       "sha256": "BA7C226934F2C1D0792A939DC5D1F4C99D581FA0C08E03D0F5747819878F4B60",
       "size": 209711
     },
-    "Assets/models/Anti-Mage/item_weapon_basher/item_weapon_basher_golden.zip": {
-      "sha256": "B534E0831295A829368383B2E81B25A2A2CB171F9E24A7530A50F7D84757848C",
-      "size": 50611
+    "Assets/models/Anti-Mage/item_shoulder_faith/item_shoulder_faith_golden.zip": {
+      "sha256": "95DB7062D8B67D6DB165244A7D3376D12D6A5B91DDD68F10C852BFA72F11567D",
+      "size": 213414
     },
     "Assets/models/Anti-Mage/item_weapon_basher/item_weapon_basher.zip": {
       "sha256": "5E1252E8FEFB5A2D75B09AA68029357E5AA10AF63FA30180845CBDA6CDAB02A7",
       "size": 50702
+    },
+    "Assets/models/Anti-Mage/item_weapon_basher/item_weapon_basher_golden.zip": {
+      "sha256": "B534E0831295A829368383B2E81B25A2A2CB171F9E24A7530A50F7D84757848C",
+      "size": 50611
     },
     "Assets/models/Anti-Mage/item_weapon_manta.zip": {
       "sha256": "0F1BCC4529DF08A0AE0474FFB86E7303DFFAE0832A42982A888514DE76DF701D",
@@ -223,13 +1623,13 @@
       "sha256": "0B893597AC374A14F2CB26F59F9765C2C396939F4B114550A3BAB4060D2F2E44",
       "size": 392718
     },
-    "Assets/models/Crystal_Maiden/item_weapon_ice/item_weapon_ice_golden.zip": {
-      "sha256": "A4E6E036B52B36B685CFB1F2367002F068266D31A08932EA8349F7FEDD154545",
-      "size": 388397
-    },
     "Assets/models/Crystal_Maiden/item_weapon_ice/item_weapon_ice.zip": {
       "sha256": "134DE401E7B7A8C9A045D9BA615ACFF239F83676D37B1C2EA461E124AB8E86FD",
       "size": 388287
+    },
+    "Assets/models/Crystal_Maiden/item_weapon_ice/item_weapon_ice_golden.zip": {
+      "sha256": "A4E6E036B52B36B685CFB1F2367002F068266D31A08932EA8349F7FEDD154545",
+      "size": 388397
     },
     "Assets/models/Crystal_Maiden/item_weapon_sentry.zip": {
       "sha256": "07F084946F4D75350F4B7C0B0FC809F12D84CF5A58627AA0073C38E4DCAA0CB6",
@@ -275,6 +1675,10 @@
       "sha256": "3D9F21AA05CCF6A7631A4C883E1BDE4176568C51121E1E8207732CA938548661",
       "size": 5333912
     },
+    "Assets/models/Drow_Ranger/item_back_silent.zip": {
+      "sha256": "2B508B8BDC131D4998C01803DCF0355B3D17899F3A237A5E510171ECB963075F",
+      "size": 184294
+    },
     "Assets/models/Drow_Ranger/item_back_silent_crimson.zip": {
       "sha256": "1394E453C9FA9CD5534A95D79690B14AB0FA89347597D76BD7D3BB14CF9B2FCB",
       "size": 184349
@@ -282,10 +1686,6 @@
     "Assets/models/Drow_Ranger/item_back_silent_golden.zip": {
       "sha256": "AA378E66681A000796373780073BBBA8D91BC8F4747847B9EA1FA18C73E2EFAC",
       "size": 184518
-    },
-    "Assets/models/Drow_Ranger/item_back_silent.zip": {
-      "sha256": "2B508B8BDC131D4998C01803DCF0355B3D17899F3A237A5E510171ECB963075F",
-      "size": 184294
     },
     "Assets/models/Drow_Ranger/item_head_maniac.zip": {
       "sha256": "5015D7F141208DB8E3CB01DA8324EF03B40BEFBB31581E2771A2AB68E31B7C3B",
@@ -415,6 +1815,10 @@
       "sha256": "B2DE565AC7633918E55973D31CC81F8020F55D073F2ADBE31BD18B69B07D3CDC",
       "size": 469804
     },
+    "Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon.zip": {
+      "sha256": "F9806FB9A2D82F2B5917D4827D976199D6D21ED474A8050FC0343F70C8F4CB1F",
+      "size": 436662
+    },
     "Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon_2.zip": {
       "sha256": "2845842E9BEFDB6DC654A3B40D44C28F3DA98FEA4FAE53703B910E3EF39C7026",
       "size": 436630
@@ -427,9 +1831,9 @@
       "sha256": "ADFC10DB6B1DF54BAFCB2BBE2D43F6FED8BB13F2507D7AD79B200ED3DC6153FF",
       "size": 436655
     },
-    "Assets/models/Faceless_Void/item_arm_aeon/item_arm_aeon.zip": {
-      "sha256": "F9806FB9A2D82F2B5917D4827D976199D6D21ED474A8050FC0343F70C8F4CB1F",
-      "size": 436662
+    "Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon.zip": {
+      "sha256": "E3D1288BCE3D99BF50F7480EB69EF00B267D16471F965AD1CDCE79FEC215F511",
+      "size": 201837
     },
     "Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon_2.zip": {
       "sha256": "36202FD414D771F1C50613BD78EC8C2D0D3E19F1E95E05754C8C3755F3C08D35",
@@ -439,9 +1843,9 @@
       "sha256": "EB7D6994D7DD5388AE66B478AF7A416F4A1059B710516EA84741894D0D86C64F",
       "size": 201912
     },
-    "Assets/models/Faceless_Void/item_shoulder_aeon/item_shoulder_aeon.zip": {
-      "sha256": "E3D1288BCE3D99BF50F7480EB69EF00B267D16471F965AD1CDCE79FEC215F511",
-      "size": 201837
+    "Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon.zip": {
+      "sha256": "E30C2E6D889B698925EEF8C9F9145FFD881B1C632D84A07D56A9CEB85BF7CCE0",
+      "size": 87209
     },
     "Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon_2.zip": {
       "sha256": "FCB75693A3117D5B0D0906CD76D9E181D1F5CF0196A091232BEC2491F4AF6452",
@@ -450,10 +1854,6 @@
     "Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon_3.zip": {
       "sha256": "6260EC5DCF3BD29A22A783BD3BAC8E4D795674A8FB124D331067F8A9B9C889DC",
       "size": 91051
-    },
-    "Assets/models/Faceless_Void/item_weapon_aeon/item_weapon_aeon.zip": {
-      "sha256": "E30C2E6D889B698925EEF8C9F9145FFD881B1C632D84A07D56A9CEB85BF7CCE0",
-      "size": 87209
     },
     "Assets/models/Faceless_Void/item_weapon_bf.zip": {
       "sha256": "85D197D3D365B3A7BC761612823A2C27AB2BC7A0D3A87D2C64D6806FF3E5528E",
@@ -475,6 +1875,10 @@
       "sha256": "8869A6BC2E72B1FBD4C17412741DF41E30CE4644AE8FCEB1CBBEF5AA704267EB",
       "size": 277029
     },
+    "Assets/models/Invoker/exaltation/exaltation.zip": {
+      "sha256": "D1AEAFB5F8B19FF55780E49ECF973D742EE8EF33BFF9BB90310C024198209465",
+      "size": 444268
+    },
     "Assets/models/Invoker/exaltation/exaltation_exort.zip": {
       "sha256": "3A289200E3AC5BC7B0B4FF844CF73B019CFE2ECA13207C6C5AD6B278B7ACB721",
       "size": 458803
@@ -486,10 +1890,6 @@
     "Assets/models/Invoker/exaltation/exaltation_wex.zip": {
       "sha256": "C6CE4B59973089A55ECB70FB4EF6ECDF0094EAA4FCE8E95132329D889A07D13C",
       "size": 458797
-    },
-    "Assets/models/Invoker/exaltation/exaltation.zip": {
-      "sha256": "D1AEAFB5F8B19FF55780E49ECF973D742EE8EF33BFF9BB90310C024198209465",
-      "size": 444268
     },
     "Assets/models/Invoker/item_back_artistry_cape.zip": {
       "sha256": "08D0A86C786DF860439BCEC6FC81ED7B36BA24A8B1A332103353663BB0F84001",
@@ -511,13 +1911,13 @@
       "sha256": "AEE288C1742C203247283D564567FA547C8DBB09A446DBC489175ADF39A5E966",
       "size": 56442
     },
-    "Assets/models/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons_2.zip": {
-      "sha256": "F084CA85E04B55201A0FF167FC8FF6120BAF343E99EF32504C77D7744B6B2CFB",
-      "size": 154551
-    },
     "Assets/models/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons.zip": {
       "sha256": "439A045DD43067E0BB332894EC31A9D81D5E7ABC0698D0F3A8638053669669B3",
       "size": 158478
+    },
+    "Assets/models/Invoker/item_shoulder_pauldrons/item_shoulder_pauldrons_2.zip": {
+      "sha256": "F084CA85E04B55201A0FF167FC8FF6120BAF343E99EF32504C77D7744B6B2CFB",
+      "size": 154551
     },
     "Assets/models/Invoker/meridian.zip": {
       "sha256": "945BE587FB6E2F1237F8C1F1C9EA1CE82CD1EF238C0A10CB6EA318AEC74E8644",
@@ -607,13 +2007,13 @@
       "sha256": "0505426A2BBCACA74BF16B1541384F9BD822A0DD242F70434C4363883BB82C45",
       "size": 550463
     },
-    "Assets/models/Legion_Commander/drakons_ire.zip": {
-      "sha256": "6E0284BE254FDF1760220B9A623AF19464397EB1A6660B4561777B3817B14682",
-      "size": 676972
-    },
     "Assets/models/Legion_Commander/drakons.zip": {
       "sha256": "65489ED0128B2BAAD6841F9B5140D2B43228C21BEE50E10D924F1C9281AE1368",
       "size": 676477
+    },
+    "Assets/models/Legion_Commander/drakons_ire.zip": {
+      "sha256": "6E0284BE254FDF1760220B9A623AF19464397EB1A6660B4561777B3817B14682",
+      "size": 676972
     },
     "Assets/models/Legion_Commander/eagle.zip": {
       "sha256": "A3E1D8B60A9F79443A581935FB34773C30B7459215A9CF3FC72B7020AC4C70D3",
@@ -623,13 +2023,13 @@
       "sha256": "7477DA881DB243BAA9DF4C49206ECF4086010C351ED11DD7B59EB2EE893759CA",
       "size": 425140
     },
-    "Assets/models/Legion_Commander/item_back_fallen/item_back_fallen_chaotic.zip": {
-      "sha256": "EAEACF9891CC9CB36A08E6367D26770EDADBE8C456AC20DC1273B5BBF921E728",
-      "size": 12297861
-    },
     "Assets/models/Legion_Commander/item_back_fallen/item_back_fallen.zip": {
       "sha256": "5B10B7B11103BBF071057E4FFE262D6AE0AE578F5CD823BF4C3F7E7404F8296F",
       "size": 12319492
+    },
+    "Assets/models/Legion_Commander/item_back_fallen/item_back_fallen_chaotic.zip": {
+      "sha256": "EAEACF9891CC9CB36A08E6367D26770EDADBE8C456AC20DC1273B5BBF921E728",
+      "size": 12297861
     },
     "Assets/models/Legion_Commander/item_head_devotion.zip": {
       "sha256": "8951E9E04BCD3C14B9AD651C3FB6DE81341103219C078B4EA9CE942122CAA550",
@@ -651,13 +2051,13 @@
       "sha256": "DEF0FA3E3A683D1A8DD8E5F9D4B57CC930B67124E67D955D0CD8CDAC16F602EB",
       "size": 147184
     },
-    "Assets/models/Magnus/item_head_ardenok/item_head_ardenok_crimson.zip": {
-      "sha256": "A2D514A4F65CB9959F7F818E07A36334DAC668576E0232AB82C9D35F33FFCB4A",
-      "size": 313844
-    },
     "Assets/models/Magnus/item_head_ardenok/item_head_ardenok.zip": {
       "sha256": "6F7574B46C956ED5DAEA26317C6784A70C84722F0533DF2BD4DE6B2867C8D77B",
       "size": 310112
+    },
+    "Assets/models/Magnus/item_head_ardenok/item_head_ardenok_crimson.zip": {
+      "sha256": "A2D514A4F65CB9959F7F818E07A36334DAC668576E0232AB82C9D35F33FFCB4A",
+      "size": 313844
     },
     "Assets/models/Magnus/item_weapon_anvil.zip": {
       "sha256": "FD2C040D29A82B211BEB532639C63213DCA8B811F359BB89CEFD838623BB8F49",
@@ -719,6 +2119,10 @@
       "sha256": "604BD5DD7D4B05238D3B29D5C7F7F66E78E5354C215E4BC4E1112E4C1774F2B0",
       "size": 185002
     },
+    "Assets/models/Monkey_King/base_arcana/base_arcana.zip": {
+      "sha256": "33798AC05CD93C23F8E920181DC652E20449823CD299894668627F86E4FF7F4A",
+      "size": 22262488
+    },
     "Assets/models/Monkey_King/base_arcana/base_arcana_2.zip": {
       "sha256": "55B690D9A98E6620893984837E7F2794C3F831959CAD679563CE01BD939947DB",
       "size": 22262767
@@ -731,10 +2135,6 @@
       "sha256": "A754EB8380847C83DB42BFA3CFF0F5B2793C84C7B85DCBB7EEF60F1230E5C5C2",
       "size": 22262726
     },
-    "Assets/models/Monkey_King/base_arcana/base_arcana.zip": {
-      "sha256": "33798AC05CD93C23F8E920181DC652E20449823CD299894668627F86E4FF7F4A",
-      "size": 22262488
-    },
     "Assets/models/Monkey_King/fire.zip": {
       "sha256": "B241244425291B844105C070F382EFD24C9BF1A6A665E64C25F0BEBC4042D681",
       "size": 484380
@@ -742,6 +2142,10 @@
     "Assets/models/Monkey_King/item_head_arcana.zip": {
       "sha256": "C2723C57C180D46CFB8464BC1F9A1766AB570CB49510E75CB54BE7536DEA1CEA",
       "size": 2254020
+    },
+    "Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff.zip": {
+      "sha256": "7BA2B64CCAE47E718EDF1015A28F54E905BDE3D50982194E785FDB2F5EA684E9",
+      "size": 3306292
     },
     "Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_10th.zip": {
       "sha256": "7B83159F7B6BAD9EF07BCA82DCB063DC101954B5E43DCF87DC0C5304A50E9E25",
@@ -754,10 +2158,6 @@
     "Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff_golden.zip": {
       "sha256": "97518460DFBEAB4960F29C5C45904C91FD40AAAAE74D7771E8A9306B81DECA6D",
       "size": 2085001
-    },
-    "Assets/models/Monkey_King/item_weapon_staff/item_weapon_staff.zip": {
-      "sha256": "7BA2B64CCAE47E718EDF1015A28F54E905BDE3D50982194E785FDB2F5EA684E9",
-      "size": 3306292
     },
     "Assets/models/Monkey_King/mischief.zip": {
       "sha256": "9BF1607BC3F96DF251530C28C54BD9ED7DCD82F6FE8F75946BC352C88CD2CC93",
@@ -863,21 +2263,21 @@
       "sha256": "ABDC8CB4440D822BECA0CD3F135245891F1BD417F649AF825DA0E6144FE471AF",
       "size": 263388
     },
-    "Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord_crimson.zip": {
-      "sha256": "289B0941B77A183CBE811F21534A594B31540CFD9EB7F3BD80B9660E1B660844",
-      "size": 189407
-    },
     "Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord.zip": {
       "sha256": "57A5FB8E07875B26A5FD28B89AD8D9A885FF60D16BFB96BFFB5C303BBED53574",
       "size": 195419
     },
-    "Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord_tyrian.zip": {
-      "sha256": "1BAA52B96D9F13E1C31147FCD6ADC99A32A157FEA73CFB4DB6264D857B82F1B2",
-      "size": 102010
+    "Assets/models/Phantom_Lancer/item_shoulder_concord/item_shoulder_concord_crimson.zip": {
+      "sha256": "289B0941B77A183CBE811F21534A594B31540CFD9EB7F3BD80B9660E1B660844",
+      "size": 189407
     },
     "Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord.zip": {
       "sha256": "DB659346007322DA1B94F6ED9A9BD973520F8A0CF47AC0A346CD0839385FDF4F",
       "size": 106919
+    },
+    "Assets/models/Phantom_Lancer/item_weapon_concord/item_weapon_concord_tyrian.zip": {
+      "sha256": "1BAA52B96D9F13E1C31147FCD6ADC99A32A157FEA73CFB4DB6264D857B82F1B2",
+      "size": 102010
     },
     "Assets/models/Phantom_Lancer/item_weapon_diffusal.zip": {
       "sha256": "228F305712CCDBF576C973C58B4E9727EED4766C75089469736538AE12BFEA1A",
@@ -931,25 +2331,25 @@
       "sha256": "0979257B3F4A7726F6CF8FF99D5078ECE6CE83783D73FB3F9F5015A173811A7E",
       "size": 10420
     },
-    "Assets/models/Pudge/item_shoulder_slug/item_shoulder_slug_2.zip": {
-      "sha256": "085FA31BA225C60F3B06D91370A899B0A4A592D1DE4EE204AB7D1247CA2E3596",
-      "size": 229725
-    },
     "Assets/models/Pudge/item_shoulder_slug/item_shoulder_slug.zip": {
       "sha256": "C12A2352F163FF26809A65FA38BB46110207600CFF37926F19D63A9F157B0F1C",
       "size": 226505
+    },
+    "Assets/models/Pudge/item_shoulder_slug/item_shoulder_slug_2.zip": {
+      "sha256": "085FA31BA225C60F3B06D91370A899B0A4A592D1DE4EE204AB7D1247CA2E3596",
+      "size": 229725
     },
     "Assets/models/Pudge/item_weapon_dragonclaw.zip": {
       "sha256": "C0BADF0A02101F8FC2D90B434FA39D90D5C2260B2C5671795869D24FFB812185",
       "size": 9681
     },
-    "Assets/models/Pudge/item_weapon_feast/item_weapon_feast_2.zip": {
-      "sha256": "87AF99E4BC5CEF777659C598443BDD1712C0A0733587849D768DD8466AF2FEE6",
-      "size": 373951
-    },
     "Assets/models/Pudge/item_weapon_feast/item_weapon_feast.zip": {
       "sha256": "E6B9C76063BFFA8596401A7A45D2FC2311E6CFEA354C82529FE273A8F5675B56",
       "size": 415619
+    },
+    "Assets/models/Pudge/item_weapon_feast/item_weapon_feast_2.zip": {
+      "sha256": "87AF99E4BC5CEF777659C598443BDD1712C0A0733587849D768DD8466AF2FEE6",
+      "size": 373951
     },
     "Assets/models/Pudge/item_weapon_ripper.zip": {
       "sha256": "54EDA30900ACE1C200AC8F41EEDBD4CEE4839DD0D11E9DF97CC19D01C74B5671",
@@ -1011,6 +2411,10 @@
       "sha256": "90EABF2F70A3357562DB97B75F1250736EF2B4A74CCABAD7C0C31C8384E92F55",
       "size": 2851507
     },
+    "Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast.zip": {
+      "sha256": "EB6D347B99B89A49951D4340A72562A16DEBE5890C2D1AFFB59EB47BB8DFCB77",
+      "size": 135013
+    },
     "Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast_golden.zip": {
       "sha256": "BB3C1AD03248BC6AAAFD2F9D62B67FF22AA5C8551D11F30725CC8B970C3C2F3F",
       "size": 135077
@@ -1018,10 +2422,6 @@
     "Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast_tyrian.zip": {
       "sha256": "7D297DA64040AE0A0DA823574B7701AD7944D3E4F6F817088965FF1297601465",
       "size": 99895
-    },
-    "Assets/models/Queen_of_Pain/item_weapon_feast/item_weapon_feast.zip": {
-      "sha256": "EB6D347B99B89A49951D4340A72562A16DEBE5890C2D1AFFB59EB47BB8DFCB77",
-      "size": 135013
     },
     "Assets/models/Queen_of_Pain/rose.zip": {
       "sha256": "E3782D76EB12BB8FED6B988EEB0C06E3B3A0089231565A2CF713A9643E37B2E2",
@@ -1035,6 +2435,10 @@
       "sha256": "170E00A1F2C5DBA5DF251142926961033D13105FCC09D1FA6759A1CF656D161A",
       "size": 382494
     },
+    "Assets/models/Riki/item_head_shadow/item_head_shadow.zip": {
+      "sha256": "A161385794F1232436F2537276EC2F0AE7E5206531FDF39A598205B732975E25",
+      "size": 123140
+    },
     "Assets/models/Riki/item_head_shadow/item_head_shadow_crimson.zip": {
       "sha256": "ED2F9F87E6A02A659EB3CE91371C7A7219B0860BC62F20A3BDA3BAC39FA3B971",
       "size": 123141
@@ -1043,9 +2447,9 @@
       "sha256": "2F7769F31FA834D9561B7B468EF55E7F81672026AD270887D46E64BC6DB4E3BA",
       "size": 123319
     },
-    "Assets/models/Riki/item_head_shadow/item_head_shadow.zip": {
-      "sha256": "A161385794F1232436F2537276EC2F0AE7E5206531FDF39A598205B732975E25",
-      "size": 123140
+    "Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow.zip": {
+      "sha256": "442B81CAC1F3E8046D7E2706BC575DE44D58522C9B4D4F34A9C5DA16B8DE766B",
+      "size": 225796
     },
     "Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow_crimson.zip": {
       "sha256": "58CA162D2CCAD27EA1B4174B4FDFBD98C6F9F688FA2B73C2086816DE68F69B20",
@@ -1054,10 +2458,6 @@
     "Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow_golden.zip": {
       "sha256": "AFB187A683E9CC0799CD3D3E82A253053ED8BB5FBEB5695C2BE159231323963B",
       "size": 229252
-    },
-    "Assets/models/Riki/item_shoulder_shadow/item_shoulder_shadow.zip": {
-      "sha256": "442B81CAC1F3E8046D7E2706BC575DE44D58522C9B4D4F34A9C5DA16B8DE766B",
-      "size": 225796
     },
     "Assets/models/Riki/item_weapon_shifty.zip": {
       "sha256": "9770CC623FEDF22BC3DC9E366556DA58C06A5C10AE565577B47AD6EF313F9387",
@@ -1075,21 +2475,21 @@
       "sha256": "7BA1A4D6EB287ED3E3A49724CCC0306F2946E32C8CB90F59C04E348DC66AD55E",
       "size": 185326
     },
-    "Assets/models/Rubick/item_shoulder_crux/item_shoulder_crux_arcana.zip": {
-      "sha256": "19F6EB6A034C851BBB94535A4CE633AB3D2C7BFDAAE195C69C7D06EB295BA070",
-      "size": 617059
-    },
     "Assets/models/Rubick/item_shoulder_crux/item_shoulder_crux.zip": {
       "sha256": "3E170FB7E680AF7919A7BE814F3CA9DF69ECCB24D794787DEEFB902B3C9700F4",
       "size": 186738
     },
-    "Assets/models/Rubick/item_weapon_perplex/item_weapon_perplex_golden.zip": {
-      "sha256": "395649F9E186D022F0CFE222094EDE8194873FD22E37AAB7F8559309506C61A3",
-      "size": 79052
+    "Assets/models/Rubick/item_shoulder_crux/item_shoulder_crux_arcana.zip": {
+      "sha256": "19F6EB6A034C851BBB94535A4CE633AB3D2C7BFDAAE195C69C7D06EB295BA070",
+      "size": 617059
     },
     "Assets/models/Rubick/item_weapon_perplex/item_weapon_perplex.zip": {
       "sha256": "1D57F9B9CFAD76F834C7FB8F9B142886AFA44FB776D42BE1D672472C1D9FC1A7",
       "size": 79041
+    },
+    "Assets/models/Rubick/item_weapon_perplex/item_weapon_perplex_golden.zip": {
+      "sha256": "395649F9E186D022F0CFE222094EDE8194873FD22E37AAB7F8559309506C61A3",
+      "size": 79052
     },
     "Assets/models/Rubick/realm.zip": {
       "sha256": "6E3ABF94E097345B863FD6A1700A68A35A9333216AD0EE0DD787B7D84F19912E",
@@ -1167,13 +2567,13 @@
       "sha256": "BF7BCB34D11266E48719226751499CACB72A73623769D2FDD805B08F229B11F2",
       "size": 1439002
     },
-    "Assets/models/Sniper/item_back_bonanza/item_back_bonanza_golden.zip": {
-      "sha256": "C11F36D7D4AB18DA1014941BAE41468DDE8E23AAB92336D8CD8A59F118615F30",
-      "size": 224922
-    },
     "Assets/models/Sniper/item_back_bonanza/item_back_bonanza.zip": {
       "sha256": "66DE21D9AF5E450436132C943E4DE72B994C7355104F86A022CD8FE4CCCCD88F",
       "size": 218227
+    },
+    "Assets/models/Sniper/item_back_bonanza/item_back_bonanza_golden.zip": {
+      "sha256": "C11F36D7D4AB18DA1014941BAE41468DDE8E23AAB92336D8CD8A59F118615F30",
+      "size": 224922
     },
     "Assets/models/Sniper/item_weapon_keen.zip": {
       "sha256": "F0F74E15E821131CA4944F2FD10D66E602709498AEE0AB657FC54A604CE0CDEB",
@@ -1199,17 +2599,21 @@
       "sha256": "942BC1FF5EE667B977CF0CBE8F4B988A508B5ED15DBF65B6617AC522A9D46F3D",
       "size": 1247754
     },
-    "Assets/models/Spectre/base_arcana_2.zip": {
-      "sha256": "2E314864BCC234BC665B6DA2D9B847E082A7E2A0DB0BBA37773F5F6344A10595",
-      "size": 4164244
-    },
     "Assets/models/Spectre/base_arcana.zip": {
       "sha256": "B1345391E0FD3F2C3FF443B6C9203F3F1E35937D96AF0394C30FCFE94E4F93B0",
       "size": 4163029
     },
+    "Assets/models/Spectre/base_arcana_2.zip": {
+      "sha256": "2E314864BCC234BC665B6DA2D9B847E082A7E2A0DB0BBA37773F5F6344A10595",
+      "size": 4164244
+    },
     "Assets/models/Spectre/crescent.zip": {
       "sha256": "6F4216679A1FF0725E6CDA61EE005CCF575496AB598ECDAA6B57B44A42552846",
       "size": 776703
+    },
+    "Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul.zip": {
+      "sha256": "D545DE22DFC7D1CEE6A6267F38433538A1A4583C0A5B9C1E6FB7DF8261E799DE",
+      "size": 197249
     },
     "Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul_2.zip": {
       "sha256": "46AB34FC419255F7B72DF5F936F8281D7700503452E7B556768BDA6A70DC9081",
@@ -1219,9 +2623,9 @@
       "sha256": "B5DF57F9C96D7D05A991A20B28AB98E315872DECA0C8BAD427915E1D63CBBFCE",
       "size": 212181
     },
-    "Assets/models/Spectre/item_shoulder_soul/item_shoulder_soul.zip": {
-      "sha256": "D545DE22DFC7D1CEE6A6267F38433538A1A4583C0A5B9C1E6FB7DF8261E799DE",
-      "size": 197249
+    "Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser.zip": {
+      "sha256": "9D58F686B093FD6E59CA445A54C710730C3C2F6C5EEABC5AD0A8114BBF97EBF1",
+      "size": 47427
     },
     "Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser_2.zip": {
       "sha256": "4625F232029ABAD78C9FDB944C30F1BB7058309A4CD6AE182D632868C11527FE",
@@ -1230,10 +2634,6 @@
     "Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser_3.zip": {
       "sha256": "D9C069C180B8CE3CE3A59A5A3A778EA1C3B6BBA95388AFD290216840C5643616",
       "size": 50679
-    },
-    "Assets/models/Spectre/item_weapon_diffuser/item_weapon_diffuser.zip": {
-      "sha256": "9D58F686B093FD6E59CA445A54C710730C3C2F6C5EEABC5AD0A8114BBF97EBF1",
-      "size": 47427
     },
     "Assets/models/Spectre/lament.zip": {
       "sha256": "64A143337B71DEFAD28E43462750C37F07F33F37C7FCE46B471BBB287FC15641",
@@ -1299,6 +2699,10 @@
       "sha256": "473E49655745976753F08A1BBDECC5DF70E91CE547F77FB9E5B7BB3511F8A8B0",
       "size": 1148473
     },
+    "Assets/models/Templar_Assassin/item_head_void/item_head_void.zip": {
+      "sha256": "2A34D3A939A58AD9FC9423C5220815FD97D6340557F9E02BABC75C13C851472E",
+      "size": 167158
+    },
     "Assets/models/Templar_Assassin/item_head_void/item_head_void_crimson.zip": {
       "sha256": "AF0BA3FBB01D5E144F26B4046FB483B814299A6BC4AC9BC69BD89FD394E12227",
       "size": 143590
@@ -1307,17 +2711,13 @@
       "sha256": "CBFA21BD1A58000E0225471E6BD37B9DCE685958BE3930507DE655728358147A",
       "size": 170935
     },
-    "Assets/models/Templar_Assassin/item_head_void/item_head_void.zip": {
-      "sha256": "2A34D3A939A58AD9FC9423C5220815FD97D6340557F9E02BABC75C13C851472E",
-      "size": 167158
+    "Assets/models/Templar_Assassin/item_shoulder_bond/item_shoulder_bond.zip": {
+      "sha256": "A8A73A6E04E52DB38FF32379083E59134F8790A44D2F74D1239F0C0F242D116B",
+      "size": 427702
     },
     "Assets/models/Templar_Assassin/item_shoulder_bond/item_shoulder_bond_crimson.zip": {
       "sha256": "F55B20916DE40ECCA2AFB5C5E9198B78F5CD52476C9E7C8A0330773666F6C079",
       "size": 319658
-    },
-    "Assets/models/Templar_Assassin/item_shoulder_bond/item_shoulder_bond.zip": {
-      "sha256": "A8A73A6E04E52DB38FF32379083E59134F8790A44D2F74D1239F0C0F242D116B",
-      "size": 427702
     },
     "Assets/models/Templar_Assassin/item_weapon_focal.zip": {
       "sha256": "CF674BB358704C8F8205E2F898A7889707FA9C30CE093C33CF8DF0A448E08F6D",
@@ -1463,13 +2863,13 @@
       "sha256": "55082A23933AEE9F2980648C2BACA8AB7C89DF101187FAF79FEFB2A219A41171",
       "size": 452052
     },
-    "Assets/models/Void_Spirit/vector_10th.zip": {
-      "sha256": "7D2F4743A02A3B7A9C346C45E9773EE9C75971D7B44D5D7E95325D6E2C90D993",
-      "size": 963912
-    },
     "Assets/models/Void_Spirit/vector.zip": {
       "sha256": "ADA6248841AC3F809CB8143237ED1FDD6A75B03A1892D22868F85F35F2D3C2AB",
       "size": 950361
+    },
+    "Assets/models/Void_Spirit/vector_10th.zip": {
+      "sha256": "7D2F4743A02A3B7A9C346C45E9773EE9C75971D7B44D5D7E95325D6E2C90D993",
+      "size": 963912
     },
     "Assets/models/Windranger/arcana.zip": {
       "sha256": "B4FC6DF7573BF5CD1F77EE828130E9B2DFFE798FC520D80ED43A4F0D932653A4",
@@ -1499,13 +2899,13 @@
       "sha256": "C770C1679C91D0EE9C3DA6F0FF800FBF6DCDD609E0A6C63D97E21ABA73DCD1F7",
       "size": 49252
     },
-    "Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian_arcana.zip": {
-      "sha256": "3361A41F6981C6E1ED43ECBD8042350A9FB0AE31EAA40E105F1B12A817984140",
-      "size": 5487560
-    },
     "Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian.zip": {
       "sha256": "B56E5ED6DD3844EE344539849168DA72862720E19DEB7F40D73A4E240C132E51",
       "size": 3996971
+    },
+    "Assets/models/Windranger/item_shoulder_sylvian/item_shoulder_sylvian_arcana.zip": {
+      "sha256": "3361A41F6981C6E1ED43ECBD8042350A9FB0AE31EAA40E105F1B12A817984140",
+      "size": 5487560
     },
     "Assets/models/Windranger/item_weapon_peregrine.zip": {
       "sha256": "62A001F96D89A64AE66C59EE7BC495EBC2E190EDB8546425E58F05D352885587",
@@ -1534,6 +2934,46 @@
     "Assets/models/Windranger/zinogre/zinogre_2.zip": {
       "sha256": "6955ABF901BF96FEC66820BDEA1F4AD4635EC58F9B63F663252D61E343C768AA",
       "size": 3120140
+    },
+    "Assets/models/Zeus/base_arcana.zip": {
+      "sha256": "4B5B52B60803E23DBB3C32E125AF07830629D02F2ECDEC9AD99BF68960E96D3A",
+      "size": 4231960
+    },
+    "Assets/models/Zeus/item_arms_tempest.zip": {
+      "sha256": "A124D85B54098C0A49373A1E118E91E076E5AA9FC264A22F25A58011DDAF0B51",
+      "size": 419124
+    },
+    "Assets/models/Zeus/item_back_pantheon/item_back_pantheon.zip": {
+      "sha256": "166226F751B82A94B9602C446A4BED217D6044E5DFFC7282CFA25258B99E4E31",
+      "size": 237717
+    },
+    "Assets/models/Zeus/item_back_pantheon/item_back_pantheon_crimson.zip": {
+      "sha256": "555B38B47CB7D44F03321AF9EC610DB73484973DDF1DC2FB4E329C1D995E0387",
+      "size": 241645
+    },
+    "Assets/models/Zeus/item_back_pantheon/item_back_pantheon_golden.zip": {
+      "sha256": "A93ADA2511C518AEBD2B2DC44B7512F0E82781AC0736D911A2EDD7C1A821C448",
+      "size": 241530
+    },
+    "Assets/models/Zeus/photonic.zip": {
+      "sha256": "6E6864D302509A5E29B8315C5613C490F8EC6CDB9341EF594A3E4A8A1C3914E8",
+      "size": 1267870
+    },
+    "Assets/models/Zeus/pride.zip": {
+      "sha256": "A47BBAA98C49A2B2ACF2D4A403821BCDB75695867764AFAA0D857ACC525FA204",
+      "size": 137504
+    },
+    "Assets/models/Zeus/stromfather.zip": {
+      "sha256": "AD1C1CA87E2D12A2C945A930DC1017EEF738775BC463DAAEAAA287C7B91DDD02",
+      "size": 142546
+    },
+    "Assets/models/Zeus/thunderbird.zip": {
+      "sha256": "7831C275C4A23DE26C6491AC2057134A2781C22833011657F6BA370AFFB4D030",
+      "size": 332805
+    },
+    "Assets/models/Zeus/thundervolt.zip": {
+      "sha256": "C226A9E03D987BB9CB15BED6D53154ADD2963DB52ADE59C05660BD0D9873E28A",
+      "size": 348953
     },
     "Assets/Original.zip": {
       "sha256": "C366155CBD9D790A1B617401D112792F8564CF87F4C01D7337CF8AD512C44EF6",
