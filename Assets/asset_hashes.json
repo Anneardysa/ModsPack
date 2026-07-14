@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-14T14:52:18Z",
+  "generatedAt": "2026-07-14T23:35:15Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -1600,8 +1600,8 @@
       "size": 56225
     },
     "Assets/models/Wraith_King/kringle.zip": {
-      "sha256": "D8583AF5DD5ACC1D9E718D82C2703D6BC7CC8D9DB01848A5960383C33E09F665",
-      "size": 1606590
+      "sha256": "A7A320266AF545AC790E16F9B1026F7B567D0F9316AA3F9EE1130CCE6E4997E2",
+      "size": 1412915
     },
     "Assets/models/Wraith_King/reservoir.zip": {
       "sha256": "66439F15814A08C429F08F8EAF8C305ED7F16709C51DD52CD4441E22E5103B50",
