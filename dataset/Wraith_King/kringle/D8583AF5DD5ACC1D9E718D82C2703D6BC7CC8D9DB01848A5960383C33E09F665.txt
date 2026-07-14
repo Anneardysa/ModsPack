@@ -2,9 +2,11 @@
 {
 	"name"		"Wraith King's Head"
 	"prefab"		"default_item"
-	"image_inventory"		"econ/heroes/wraith_king/wraith_king_head"
+	"creation_date"		"2023-11-17"
+	"image_inventory"		"econ/items/wraith_king/frostivus_wraith_king/frostivus_wraith_king_head"
 	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
-	"item_name"		"#DOTA_Item_Wraith_Kings_Head"
+	"item_name"		"#DOTA_Item_King_Kringle_Helm"
+	"item_rarity"		"legendary"
 	"item_slot"		"head"
 	"item_type_name"		"#DOTA_WearableType_Head"
 	"model_player"		"models/heroes/wraith_king/wraith_king_head.vmdl"
@@ -51,6 +53,21 @@
 	"used_by_heroes"
 	{
 		"npc_dota_hero_skeleton_king"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/wraith_king/frostivus_wraith_king/frostivus_wraith_king_2023_head.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_skeletonking/wraith_king_ambient.vpcf"
+			"modifier"		"particles/econ/items/wraith_king/frostivus_wraith_king/frostivus_wraith_king_ambient.vpcf"
+		}
 	}
 }
 
