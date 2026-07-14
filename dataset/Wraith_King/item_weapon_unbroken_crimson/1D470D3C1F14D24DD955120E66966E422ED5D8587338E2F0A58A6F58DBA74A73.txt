@@ -1,0 +1,97 @@
+﻿"149"
+{
+	"name"		"Wraith King's Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2018-08-16"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2018"
+	"image_inventory"		"econ/items/wraith_king/wk_ti8_weapon/wk_ti8_weapon2"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Crimson_Unbroken_Fealty"
+	"item_rarity"		"immortal"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/wraith_king/wraith_king_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"-38.541859 -226.492706 146.470123"
+					"PortraitAngles"		"34.410107 74.467827 62.639999"
+					"PortraitFOV"		"76"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"-145.430862 -111.047630 209.936920"
+			"PortraitLightAngles"		"42.868576 18.018822 -19.719103"
+			"PortraitLightFOV"		"68.830002"
+			"PortraitLightDistance"		"282.630005"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"1.750000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-22.890 -24.590 72.430"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"0 0 0"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.650000 0.350000 0.000000"
+			"PortraitBackgroundColor2"		"0.650000 0.350000 0.000000"
+			"PortraitBackgroundColor3"		"0.650000 0.350000 0.000000"
+			"PortraitBackgroundColor4"		"0.650000 0.350000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_skeleton_king"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"asset"		"npc_dota_wraith_king_skeleton_warrior"
+			"modifier"		"particles/econ/items/wraith_king/wraith_king_ti8/wk_ti8_creep_crimson_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/wraith_king/wraith_king_ti8/wk_ti8_sword_crimson_ambient.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"3"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"skeleton_king_mortal_strike"
+			"modifier"		"skeleton_king/ti8_immortal_weapon/skeleton_king_mortal_strike_immortal_crimson"
+			"minimum_priority"		"1"
+			"apply_when_equipped_in_ability_effects_slot"		"3"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti8"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

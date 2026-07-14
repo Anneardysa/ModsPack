@@ -1,0 +1,410 @@
+﻿"148"
+{
+	"name"		"Wraith King's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2023-06-12"
+	"image_inventory"		"econ/items/wraith_king/wraith_king_darkfeather_tyrant_head/wraith_king_darkfeather_tyrant_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tyrant_of_the_Veil_Helm"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/wraith_king/wraith_king_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"155.299133 -15.964019 174.610199"
+			"PortraitLightAngles"		"5.537109 175.874634 0.000000"
+			"PortraitLightFOV"		"75"
+			"PortraitLightDistance"		"99"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"160.517517 -121.706718 245.468552"
+					"PortraitAngles"		"18.561401 142.591553 356.528320"
+					"PortraitFOV"		"22"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_skeleton_king"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/wraith_king/wraith_king_cc_2023/wraith_king_cc_2023_head.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"149"
+{
+	"name"		"Wraith King's Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2023-06-12"
+	"image_inventory"		"econ/items/wraith_king/wraith_king_darkfeather_tyrant_weapon/wraith_king_darkfeather_tyrant_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tyrant_of_the_Veil_Weapon"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/wraith_king/wraith_king_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-145.430862 -111.047630 209.936920"
+			"PortraitLightAngles"		"42.868576 18.018822 -19.719103"
+			"PortraitLightFOV"		"68.830002"
+			"PortraitLightDistance"		"282.630005"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"0 0 0"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.650000 0.350000 0.000000"
+			"PortraitBackgroundColor2"		"0.650000 0.350000 0.000000"
+			"PortraitBackgroundColor3"		"0.650000 0.350000 0.000000"
+			"PortraitBackgroundColor4"		"0.650000 0.350000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-22.890 -24.590 72.430"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-38.541859 -226.492706 146.470123"
+					"PortraitAngles"		"34.410107 74.467827 62.639999"
+					"PortraitFOV"		"76"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"1"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_skeleton_king"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/wraith_king/wraith_king_cc_2023/wraith_king_cc_2023_weapon_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"150"
+{
+	"name"		"Wraith King's Shoulder"
+	"prefab"		"default_item"
+	"creation_date"		"2023-06-12"
+	"image_inventory"		"econ/items/wraith_king/wraith_king_darkfeather_tyrant_shoulder/wraith_king_darkfeather_tyrant_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tyrant_of_the_Veil_Shoulder"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulder"
+	"model_player"		"models/heroes/wraith_king/wraith_king_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-28.570921 -103.221458 257.634460"
+			"PortraitLightAngles"		"159.499512 261.732788 0.000000"
+			"PortraitLightFOV"		"75"
+			"PortraitLightDistance"		"99"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"115.295090 -201.838364 223.072006"
+					"PortraitAngles"		"16.677246 127.661133 0.000000"
+					"PortraitFOV"		"27"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_skeleton_king"		"1"
+	}
+}
+
+"151"
+{
+	"name"		"Wraith King's Gauntlet"
+	"prefab"		"default_item"
+	"creation_date"		"2023-06-12"
+	"image_inventory"		"econ/items/wraith_king/wraith_king_darkfeather_tyrant_arms/wraith_king_darkfeather_tyrant_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tyrant_of_the_Veil_Arms"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"	
+	"item_type_name"		"#DOTA_WearableType_Arms"
+	"model_player"		"models/heroes/wraith_king/wraith_king_gauntlet.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-78.033058 -133.122223 254.399185"
+			"PortraitLightAngles"		"121.091309 253.482056 0.000000"
+			"PortraitLightFOV"		"75"
+			"PortraitLightDistance"		"99"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-174.544235 -108.470955 149.142914"
+					"PortraitAngles"		"18.511963 28.020630 30.602417"
+					"PortraitFOV"		"29"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_skeleton_king"		"1"
+	}
+}
+
+"152"
+{
+	"name"		"Wraith King's Cape"
+	"prefab"		"default_item"
+	"creation_date"		"2023-06-12"
+	"image_inventory"		"econ/items/wraith_king/wraith_king_darkfeather_tyrant_back/wraith_king_darkfeather_tyrant_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tyrant_of_the_Veil_Back"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_Back"
+	"model_player"		"models/heroes/wraith_king/wraith_king_cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-112.475517 75.826820 197.271317"
+			"PortraitLightAngles"		"34.469604 311.638184 0.000000"
+			"PortraitLightFOV"		"75"
+			"PortraitLightDistance"		"99"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.500000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-123.854187 102.441254 187.193405"
+					"PortraitAngles"		"31.091309 320.778809 2.576294"
+					"PortraitFOV"		"82"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_skeleton_king"		"1"
+	}
+}
+
+"483"
+{
+	"name"		"Wraith King's Ambient Effects"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Skeleton_Kings_Ambient"
+	"item_slot"		"misc"
+	"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_skeleton_king"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/units/heroes/hero_skeletonking/wraith_king_ambient.vpcf"
+		}
+	}
+}
+
+"500"
+{
+	"name"		"Wraith King's Chest"
+	"prefab"		"default_item"
+	"creation_date"		"2023-06-12"
+	"image_inventory"		"econ/items/wraith_king/wraith_king_darkfeather_tyrant_armor/wraith_king_darkfeather_tyrant_armor"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tyrant_of_the_Veil_Armor"
+	"item_rarity"		"mythical"
+	"item_slot"		"armor"
+	"model_player"		"models/heroes/wraith_king/wraith_king_chest.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"229.154480 15.954676 173.425293"
+			"PortraitLightAngles"		"15.880737 179.538574 0.000000"
+			"PortraitLightFOV"		"47"
+			"PortraitLightDistance"		"206"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.712000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-1.880 -3.020 1.170"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"130.975693 -83.493088 150.699844"
+					"PortraitAngles"		"15.391846 147.041016 0.000000"
+					"PortraitFOV"		"58"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_skeleton_king"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/wraith_king/wraith_king_cc_2023/wraith_king_cc_2023_armor_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
