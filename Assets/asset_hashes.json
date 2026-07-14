@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-14T04:44:04Z",
+  "generatedAt": "2026-07-14T14:38:35Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -1568,7 +1568,7 @@
       "size": 2944706
     },
     "Assets/models/Wraith_King/base_arcana.zip": {
-      "sha256": "5015BF6766B8F3655D9195AF8D3246459FB20030A43D218F27EEC1B7772CAC2B",
+      "sha256": "475B6F04FC201D3459C8096B8A7A7D8D2B1F3D99140D6FA79C1AA23CB9865A16",
       "size": 2940540
     },
     "Assets/models/Wraith_King/crown.zip": {
