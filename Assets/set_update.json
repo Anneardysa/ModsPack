@@ -1,7 +1,64 @@
 {
-  "version": "1.0.64",
-  "lastUpdated": "2026-07-13",
+  "version": "1.0.65",
+  "lastUpdated": "2026-07-14",
   "updates": [
+    {
+      "date": "2026-07-14",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 13"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 12"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 11"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 10"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 9"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 7 (item_weapon_unbroken)"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 6 (item_arms_shade)"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-07-13",
       "sets": [

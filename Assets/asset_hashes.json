@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-13T10:25:29Z",
+  "generatedAt": "2026-07-14T03:00:59Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -1534,6 +1534,66 @@
     "Assets/models/Windranger/zinogre/zinogre_2.zip": {
       "sha256": "6955ABF901BF96FEC66820BDEA1F4AD4635EC58F9B63F663252D61E343C768AA",
       "size": 3120140
+    },
+    "Assets/models/Wraith_King/arcana.zip": {
+      "sha256": "7D475ABAAAC1DFFB611032E63BDCFCF3A64FA359A677485B4B9C4D439AA3B73D",
+      "size": 922608
+    },
+    "Assets/models/Wraith_King/base_arcana_2.zip": {
+      "sha256": "BB8756043264F24730E24854FBE27042558592CBC040122B53267FFE0EF0D5FE",
+      "size": 2944706
+    },
+    "Assets/models/Wraith_King/base_arcana.zip": {
+      "sha256": "5015BF6766B8F3655D9195AF8D3246459FB20030A43D218F27EEC1B7772CAC2B",
+      "size": 2940540
+    },
+    "Assets/models/Wraith_King/crown.zip": {
+      "sha256": "501644A333A8965D63C7C6A1CA732EBDF988AE1F72BBB4D3D8528CFDEEA23974",
+      "size": 527032
+    },
+    "Assets/models/Wraith_King/grim.zip": {
+      "sha256": "80BACE5377D960CAEFBC6113EC8612B33A4267BD171839F9F3A36A115099B161",
+      "size": 336051
+    },
+    "Assets/models/Wraith_King/item_arms_shade/item_arms_shade_crimson.zip": {
+      "sha256": "89B99F67EBD0E9529B1B6F5A40B8BFB9A14F492D329162395832CA60BBA41B7C",
+      "size": 126392
+    },
+    "Assets/models/Wraith_King/item_arms_shade/item_arms_shade.zip": {
+      "sha256": "2C5605C6D9ED682A50DD8889DD9EDEC84DD7249F253EB694394D7A23B4178630",
+      "size": 126289
+    },
+    "Assets/models/Wraith_King/item_weapon_unbroken/item_weapon_unbroken_crimson.zip": {
+      "sha256": "1D470D3C1F14D24DD955120E66966E422ED5D8587338E2F0A58A6F58DBA74A73",
+      "size": 525154
+    },
+    "Assets/models/Wraith_King/item_weapon_unbroken/item_weapon_unbroken.zip": {
+      "sha256": "AE10518D47D3E0328F8B30CB6B0B13906816F43509ECF7B33B8F68769249B075",
+      "size": 525211
+    },
+    "Assets/models/Wraith_King/item_weapon_winterblade.zip": {
+      "sha256": "CBFE551827D1CC73E2944FB214920B7A93F0658781F151A27376E0B6E8B19F31",
+      "size": 56225
+    },
+    "Assets/models/Wraith_King/kringle.zip": {
+      "sha256": "232F6B9AEAB6AC29790403BB1A1C847BD827F3444BB986B2272370C783577B5E",
+      "size": 1613794
+    },
+    "Assets/models/Wraith_King/reservoir.zip": {
+      "sha256": "66439F15814A08C429F08F8EAF8C305ED7F16709C51DD52CD4441E22E5103B50",
+      "size": 239236
+    },
+    "Assets/models/Wraith_King/tyrant.zip": {
+      "sha256": "A0D8FF8FD4849885C60FB336498030E88A6082A124EB5B39AB1852FBEBC618CF",
+      "size": 325281
+    },
+    "Assets/models/Wraith_King/unholy.zip": {
+      "sha256": "13CF54077E3656EA7855E95ED192E9AEAF2C9848BFDE05D9B1640642730C5D82",
+      "size": 273846
+    },
+    "Assets/models/Wraith_King/vile.zip": {
+      "sha256": "BB26C0CC2595A9B16F03A5F9F93F96D56A1CDDC216BE41185FF3055570AFBDC7",
+      "size": 251549
     },
     "Assets/models/Zeus/base_arcana.zip": {
       "sha256": "4B5B52B60803E23DBB3C32E125AF07830629D02F2ECDEC9AD99BF68960E96D3A",
