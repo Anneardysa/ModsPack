@@ -1,0 +1,108 @@
+﻿"370"
+{
+	"name"		"Puck's Wings"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+	"hide_tradecraftdelete"		"1"
+	"image_inventory"		"econ/items/puck/puck_ti10_immortal_wings/puck_ti10_immortal_wings"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Blossom_of_the_Merry_Wanderer"
+	"item_rarity"		"immortal"
+	"item_slot"		"back"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/puck/puck_wings.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"-209.907623 93.214966 457.230225"
+					"PortraitAngles"		"55.266171 335.451477 0.000000"
+					"PortraitFOV"		"44"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"31.536917 -135.126373 231.610199"
+			"PortraitLightAngles"		"13.200073 102.535400 0.296631"
+			"PortraitLightFOV"		"58"
+			"PortraitLightDistance"		"147"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"1.750000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"17.510 31.040 -20.140"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"254 254 254"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.600000 0.200000 1.000000"
+			"PortraitBackgroundColor2"		"0.200000 0.700000 1.000000"
+			"PortraitBackgroundColor3"		"0.500000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.400000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.720257"
+			"PortraitAnimationRate"		"0"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_puck"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"puck_dream_coil"
+			"modifier"		"puck/puck_ti10_immortal_ability_icons/puck_dream_coil_ti10"
+			"style"		"0"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"puck_ti10_immortal_wings"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/puck/puck_ti10_immortal/puck_ti10_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_puck/puck_dreamcoil.vpcf"
+			"modifier"		"particles/econ/items/puck/puck_ti10_immortal/puck_ti10_ult.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_puck/puck_dreamcoil_tether.vpcf"
+			"modifier"		"particles/econ/items/puck/puck_ti10_immortal/puck_ti10_tether.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Puck.Dream_Coil"
+			"modifier"		"Hero_Puck.Dream_Coil.TI10"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

@@ -2339,6 +2339,30 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Puck/coldspell.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Puck/coldspell.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Puck/fae.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Puck/fae.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Puck/item_back_blossom.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Puck/item_back_blossom.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Puck/item_head_coldspell.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Puck/item_head_coldspell.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Puck/item_tail_wanderer.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Puck/item_tail_wanderer.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Puck/pearl.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Puck/pearl.png"
       ]
     }
   },

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-14T03:00:59Z",
+  "generatedAt": "2026-07-14T04:44:04Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -890,6 +890,30 @@
     "Assets/models/Phantom_Lancer/sunwarrior.zip": {
       "sha256": "D9617975515FC327D8F92DEFBB629A768FD377CDC8BE9D64C482783882552A97",
       "size": 311070
+    },
+    "Assets/models/Puck/coldspell.zip": {
+      "sha256": "E210D08428FC6242BD812E06B58C512E4838E4BB69A7930A3D1E2AC506FA9CFA",
+      "size": 161687
+    },
+    "Assets/models/Puck/fae.zip": {
+      "sha256": "6FFEF646A22E6740E7DB2A3B0559F2224342DF23065BEB641272DAC950DEF766",
+      "size": 200464
+    },
+    "Assets/models/Puck/item_back_blossom.zip": {
+      "sha256": "3A9CB63829A151757E9229B27A32CB4A98EAE277739AC577332E76B75FD7B958",
+      "size": 414154
+    },
+    "Assets/models/Puck/item_head_coldspell.zip": {
+      "sha256": "410CC4EB5D5DD9BE59B3D7FD6BF62B156B7E8FD3A04D2003F4E99A09CBCB9D41",
+      "size": 73356
+    },
+    "Assets/models/Puck/item_tail_wanderer.zip": {
+      "sha256": "A8B175DD0E074A7417B5AB7085670C600253C105C6F73BD94BE7F8A0B017D735",
+      "size": 54403
+    },
+    "Assets/models/Puck/pearl.zip": {
+      "sha256": "021C1063D4B4B6146A6869108D2F4C44A5B89BB994271FCE485DC5E5C9126269",
+      "size": 485854
     },
     "Assets/models/Pudge/base_arcana_1.zip": {
       "sha256": "A6ABE52EBE78C673ABA2EC4A8C024EE662F80B6B28E7612D2DA15ADD9D211A10",
