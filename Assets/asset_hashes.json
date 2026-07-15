@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-15T02:15:29Z",
+  "generatedAt": "2026-07-15T15:48:17Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -386,6 +386,10 @@
     "Assets/models/Ember_Spirit/sensei.zip": {
       "sha256": "2B0E74970D7D4EABAEB4F7AD8DF9918B46C8080EE91909FDAFF0A18B33200137",
       "size": 262312
+    },
+    "Assets/models/Ember_Spirit/volcanic.zip": {
+      "sha256": "72208F6403A1AFEF2C4D9A8639C47F5549FE64592FB66A319D9523C4754314CE",
+      "size": 174707
     },
     "Assets/models/Ember_Spirit/wandering.zip": {
       "sha256": "9EB3BCF29218A53347C5318DDD19D48145571F3DE62F235817F573E1815217B6",

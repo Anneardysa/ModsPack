@@ -912,6 +912,10 @@
       "Set 8": [
         "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/item_weapon_rapier.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/item_weapon_rapier.png"
+      ],
+      "Set 9": [
+        "https://cdn.ardysamods.my.id/Assets/models/Ember_Spirit/volcanic.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Ember_Spirit/volcanic.png"
       ]
     }
   },
