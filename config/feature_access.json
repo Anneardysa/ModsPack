@@ -1,6 +1,6 @@
 {
   "skinSelector": {
-    "enabled": true,
+    "enabled": false,
     "disabledMessage": "Skin Selector is under maintenance. Please try again later."
   },
   "miscellaneous": {
@@ -8,7 +8,7 @@
     "disabledMessage": "Miscellaneous is under maintenance. Please try again later."
   },
   "installModsPack": {
-    "enabled": true,
+    "enabled": false,
     "disabledMessage": "Install ModsPack is under maintenance. Please try again later."
   }
 }
