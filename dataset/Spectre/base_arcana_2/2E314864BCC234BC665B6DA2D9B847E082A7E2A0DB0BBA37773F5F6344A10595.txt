@@ -302,6 +302,13 @@
 		}
 		"asset_modifier"
 		{
+			"type"		"ability_icon"
+			"asset"		"spectre_shadow_step"
+			"modifier"		"spectre/spectre_arcana/spectre_haunt_single_alt"
+			"minimum_priority"		"1"
+		}
+		"asset_modifier"
+		{
 			"type"		"inventory_icon"
 			"asset"		"blade_mail"
 			"modifier"		"blade_mail_spectre_arcana_alt2"
@@ -317,21 +324,6 @@
 			"type"		"inventory_icon"
 			"asset"		"radiance_inactive"
 			"modifier"		"radiance_spectre_arcana_alt2_inactive"
-		}
-		"asset_modifier"
-		{
-			"type"		"ability_icon"
-			"asset"		"spectre_shadow_step"
-			"modifier"		"spectre/spectre_arcana/spectre_haunt_single_alt"
-			"style"		"1"
-			"minimum_priority"		"1"
-		}
-		"asset_modifier"
-		{
-			"type"		"ability_icon"
-			"asset"		"spectre_haunt_single"
-			"modifier"		"spectre/spectre_arcana/spectre_haunt_single_alt"
-			"minimum_priority"		"1"
 		}
 		"asset_modifier"
 		{
