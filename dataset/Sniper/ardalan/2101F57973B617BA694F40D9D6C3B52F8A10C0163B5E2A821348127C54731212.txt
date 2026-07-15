@@ -76,6 +76,18 @@
 		}
 		"asset_modifier"
 		{
+			"type"		"sound"
+			"asset"		"Hero_Sniper.attack"
+			"modifier"		"Hero_Sniper.Attack.DT20"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Sniper.attack"
+			"modifier"		"sounds/weapons/hero/sniper/attack_dt20.vsnd"
+		}
+		"asset_modifier"
+		{
 			"type"		"particle_create"
 			"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_weapon_ambient.vpcf"
 		}
