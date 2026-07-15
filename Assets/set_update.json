@@ -1,7 +1,16 @@
 {
-  "version": "1.0.66",
-  "lastUpdated": "2026-07-14",
+  "version": "1.0.67",
+  "lastUpdated": "2026-07-15",
   "updates": [
+    {
+      "date": "2026-07-15",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 14 (kringle)"
+        }
+      ]
+    },
     {
       "date": "2026-07-14",
       "sets": [

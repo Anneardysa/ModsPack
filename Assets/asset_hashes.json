@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-14T23:35:15Z",
+  "generatedAt": "2026-07-15T02:15:29Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -1599,7 +1599,15 @@
       "sha256": "CBFE551827D1CC73E2944FB214920B7A93F0658781F151A27376E0B6E8B19F31",
       "size": 56225
     },
-    "Assets/models/Wraith_King/kringle.zip": {
+    "Assets/models/Wraith_King/kringle/kringle_arcana_1.zip": {
+      "sha256": "2DEFB8BC4286B11585252EF97E5DC84FC81FD0D324F08E8023D347B652E10C3E",
+      "size": 4485306
+    },
+    "Assets/models/Wraith_King/kringle/kringle_arcana_2.zip": {
+      "sha256": "070C580A1BD25EA47E38DD4694846950B848674A0E58495D45477AB5A1E74647",
+      "size": 4479323
+    },
+    "Assets/models/Wraith_King/kringle/kringle.zip": {
       "sha256": "A7A320266AF545AC790E16F9B1026F7B567D0F9316AA3F9EE1130CCE6E4997E2",
       "size": 1412915
     },

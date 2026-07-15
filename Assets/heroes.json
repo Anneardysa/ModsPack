@@ -4011,10 +4011,6 @@
         "https://cdn.ardysamods.my.id/Assets/models/Wraith_King/item_weapon_winterblade.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Wraith_King/item_weapon_winterblade.png"
       ],
-      "Set 9": [
-        "https://cdn.ardysamods.my.id/Assets/models/Wraith_King/kringle.zip",
-        "https://cdn.ardysamods.my.id/Assets/image/Wraith_King/kringle.png"
-      ],
       "Set 10": [
         "https://cdn.ardysamods.my.id/Assets/models/Wraith_King/reservoir.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Wraith_King/reservoir.png"
@@ -4030,7 +4026,23 @@
       "Set 13": [
         "https://cdn.ardysamods.my.id/Assets/models/Wraith_King/vile.zip",
         "https://cdn.ardysamods.my.id/Assets/image/Wraith_King/vile.png"
-      ]
+      ],
+      "Set 14": {
+        "styles": {
+          "kringle": [
+            "https://cdn.ardysamods.my.id/Assets/models/Wraith_King/kringle/kringle.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Wraith_King/kringle/kringle.png"
+          ],
+          "Arcana Version - 1": [
+            "https://cdn.ardysamods.my.id/Assets/models/Wraith_King/kringle/kringle_arcana_1.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Wraith_King/kringle/kringle_arcana_1.png"
+          ],
+          "Arcana Version - 2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Wraith_King/kringle/kringle_arcana_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Wraith_King/kringle/kringle_arcana_2.png"
+          ]
+        }
+      }
     },
     "method": 2
   },
