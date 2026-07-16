@@ -1,0 +1,26 @@
+"587"
+{
+	"name"		"Battle Pass 2022 HUD"
+	"prefab"		"hud_skin"
+	"baseitem"		"1"
+	"creation_date"		"2022-07-18"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+	"image_inventory"		"econ/huds/the_international_2022/hud_the_international_2022"
+	"item_name"		"#DOTA_Item_Battle_Pass_2022_HUD"
+	"item_rarity"		"rare"
+	"item_type_name"		"#DOTA_WearableType_HUD_Skin"
+	"static_attributes"
+	{
+		"tradable after date"		"1698865200"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"hud_skin"
+			"asset"		"the_international_2022"
+			"modifier"		"the_international_2022"
+			"frequency"		"1"
+		}
+	}
+}

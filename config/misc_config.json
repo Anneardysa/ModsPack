@@ -29,6 +29,31 @@
             ]
         },
         {
+            "id": "Special",
+            "displayName": "Low Poly Map",
+            "category": "Environment",
+            "thumbnailFolder": "special",
+            "thumbnailExtension": "png",
+            "type": "vpk",
+            "excludesWith": [
+                "Map"
+            ],
+            "choices": [
+                {
+                    "name": "Disable Special",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md"
+                },
+                {
+                    "name": "LowPolyMap",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv1.zip"
+                },
+                {
+                    "name": "LowPolyMap Cartoon Trees",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv2.zip"
+                }
+            ]
+        },
+        {
             "id": "River",
             "displayName": "River Vial",
             "category": "Environment",
@@ -139,31 +164,6 @@
             ]
         },
         {
-            "id": "Special",
-            "displayName": "Low Poly Map",
-            "category": "Environment",
-            "thumbnailFolder": "special",
-            "thumbnailExtension": "png",
-            "type": "vpk",
-            "excludesWith": [
-                "Map"
-            ],
-            "choices": [
-                {
-                    "name": "Disable Special",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/shader/Diretide/materials/dev/root.md"
-                },
-                {
-                    "name": "LowPolyMap",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv1.zip"
-                },
-                {
-                    "name": "LowPolyMap Cartoon Trees",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/special/lpv2.zip"
-                }
-            ]
-        },
-        {
             "id": "Weather",
             "displayName": "Weather",
             "category": "Environment",
@@ -226,24 +226,6 @@
                     "name": "Rick and Morty",
                     "thumbnailId": "rickmorty",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/rickmorty.zip"
-                }
-            ]
-        },
-        {
-            "id": "mega_kills",
-            "displayName": "Mega-Kills",
-            "category": "Audio & Visual",
-            "thumbnailFolder": "mega_kills",
-            "thumbnailExtension": "png",
-            "choices": [
-                {
-                    "name": "Default Mega-Kills",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/mega_kills/default.zip"
-                },
-                {
-                    "name": "Rick and Morty",
-                    "thumbnailId": "rickmorty",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/mega_kills/rickmorty.zip"
                 }
             ]
         },
@@ -429,6 +411,24 @@
             ]
         },
         {
+            "id": "mega_kills",
+            "displayName": "Mega-Kills",
+            "category": "Audio & Visual",
+            "thumbnailFolder": "mega_kills",
+            "thumbnailExtension": "png",
+            "choices": [
+                {
+                    "name": "Default Mega-Kills",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/mega_kills/default.zip"
+                },
+                {
+                    "name": "Rick and Morty",
+                    "thumbnailId": "rickmorty",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/mega_kills/rickmorty.zip"
+                }
+            ]
+        },
+        {
             "id": "Music",
             "displayName": "Music",
             "category": "Audio & Visual",
@@ -437,6 +437,11 @@
                 {
                     "name": "Default Music",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Default.txt"
+                },
+                {
+                    "name": "Dark Carnival",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dark%20Carnival.txt",
+                    "thumbnailId": "dark"
                 },
                 {
                     "name": "Deadmau5 Music",
@@ -552,11 +557,6 @@
                     "name": "The International 2022",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/music/2022.txt",
                     "thumbnailId": "2022"
-                },
-                {
-                    "name": "Dark Carnival",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/music/Dark%20Carnival.txt",
-                    "thumbnailId": "dark"
                 }
             ]
         },
@@ -698,28 +698,376 @@
                     "thumbnailId": "radiant_ore"
                 },
                 {
+                    "name": "Aghanim's Labryinth 2021 HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Aghanims_Labryinth_2021_HUD.txt"
+                },
+                {
+                    "name": "Alliance HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Alliance.txt"
+                },
+                {
+                    "name": "Antiquity",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Antiquity.txt"
+                },
+                {
+                    "name": "Azure Constellation HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Azure.txt"
+                },
+                {
+                    "name": "Battle Pass 2022 HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Battle_Pass_2022_HUD.txt"
+                },
+                {
+                    "name": "Beyond the Summit HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Beyond_the_Summit_HUD.txt"
+                },
+                {
+                    "name": "Black Monolith",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Black_Monolith.txt"
+                },
+                {
+                    "name": "Brawl Basher",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Brawl_Basher.txt"
+                },
+                {
+                    "name": "Brewery",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Brewery.txt"
+                },
+                {
+                    "name": "Brood Hunter",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Brood_Hunter.txt"
+                },
+                {
+                    "name": "Cruel Diretide",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Cruel_Diretide.txt"
+                },
+                {
+                    "name": "Crystallized Mana",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Crystallized_Mana.txt"
+                },
+                {
+                    "name": "Curiosity",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Curiosity.txt"
+                },
+                {
+                    "name": "D2CL Season 5 HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/D2CL_Season_5_HUD.txt"
+                },
+                {
+                    "name": "Deepest Depths",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Deepest_Depths.txt"
+                },
+                {
+                    "name": "Demonic Essence",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Demonic_Essence.txt"
+                },
+                {
+                    "name": "Depth of Field",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Depth_of_Field.txt"
+                },
+                {
+                    "name": "Detonation HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Detonation_HUD.txt"
+                },
+                {
+                    "name": "Dim Forest",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Dim_Forest.txt"
+                },
+                {
                     "name": "Direstone",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Direstone.txt"
+                },
+                {
+                    "name": "Donbass Cup HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Donbass_Cup_HUD.txt"
+                },
+                {
+                    "name": "Dota 2 Asia Championship HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Dota_2_Asia_Championship_HUD.txt"
+                },
+                {
+                    "name": "DotaCinema HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/DotaCinema_HUD.txt"
+                },
+                {
+                    "name": "Dragon Scale",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Dragon_Scale.txt"
+                },
+                {
+                    "name": "Driftwood",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Driftwood.txt"
+                },
+                {
+                    "name": "Elder Bark",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Elder_Bark.txt"
+                },
+                {
+                    "name": "Empowered",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Empowered.txt"
+                },
+                {
+                    "name": "ESL One Fortress HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/ESL_One_Fortress_HUD.txt"
+                },
+                {
+                    "name": "ESWC Diamond",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/ESWC_Diamond.txt"
+                },
+                {
+                    "name": "Evil Geniuses HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Evil_Geniuses_HUD.txt"
+                },
+                {
+                    "name": "Familiar Woods",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Familiar_Woods.txt"
+                },
+                {
+                    "name": "Force of Spirit",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Force_of_Spirit.txt"
+                },
+                {
+                    "name": "Frozen Touch",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Frozen_Touch.txt"
+                },
+                {
+                    "name": "Furnace",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Furnace.txt"
+                },
+                {
+                    "name": "Gear Tooth",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Gear_Tooth.txt"
+                },
+                {
+                    "name": "Ghostly Silence",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Ghostly_Silence.txt"
+                },
+                {
+                    "name": "Golden Treasures",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Golden_Treasures.txt"
+                },
+                {
+                    "name": "Green Ural",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Green_Ural.txt"
+                },
+                {
+                    "name": "Hearth of the Pit",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Hearth_of_the_Pit.txt"
+                },
+                {
+                    "name": "Hellfire",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Hellfire.txt"
+                },
+                {
+                    "name": "HUD of the Burning Scale",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/HUD_of_the_Burning_Scale.txt"
+                },
+                {
+                    "name": "i-League Season 2 HUD Skin",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/i-League_Season_2_HUD_Skin.txt"
+                },
+                {
+                    "name": "Imbued Stone",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Imbued_Stone.txt"
+                },
+                {
+                    "name": "Iron Cage",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Iron_Cage.txt"
+                },
+                {
+                    "name": "Iron Thorn",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Iron_Thorn.txt"
+                },
+                {
+                    "name": "Jolly Roger",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Jolly_Roger.txt"
+                },
+                {
+                    "name": "Jungle Ruin",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Jungle_Ruin.txt"
+                },
+                {
+                    "name": "Living in Darkness",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Living_in_Darkness.txt"
+                },
+                {
+                    "name": "Malice",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Malice.txt"
+                },
+                {
+                    "name": "Mana Pool",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Mana_Pool.txt"
                 },
                 {
                     "name": "Midnight Terror",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Midnight_Terror.txt"
                 },
                 {
+                    "name": "MLG Stronghold",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/MLG_Stronghold.txt"
+                },
+                {
+                    "name": "Nature",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Nature.txt"
+                },
+                {
+                    "name": "Necropolis",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Necropolis.txt"
+                },
+                {
+                    "name": "Omen",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Omen.txt"
+                },
+                {
                     "name": "Portal",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Portal.txt"
+                },
+                {
+                    "name": "Powered Star",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Powered_Star.txt"
+                },
+                {
+                    "name": "Radiant Entity",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Radiant_Entity.txt"
                 },
                 {
                     "name": "Radiant Ore",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Radiant%20Ore.txt"
                 },
                 {
+                    "name": "Red Warrior",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Red_Warrior.txt"
+                },
+                {
+                    "name": "Rei da Mesa",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Rei_da_Mesa.txt"
+                },
+                {
+                    "name": "Reign of Maelrawn",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Reign_of_Maelrawn.txt"
+                },
+                {
+                    "name": "Royal Crypt",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Royal_Crypt.txt"
+                },
+                {
+                    "name": "Sands of Luxor",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Sands_of_Luxor.txt"
+                },
+                {
+                    "name": "SLTV Star Series X HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/SLTV_Star_Series_X_HUD.txt"
+                },
+                {
+                    "name": "Snows of Frostivus",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Snows_of_Frostivus.txt"
+                },
+                {
+                    "name": "Spring Essence",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Spring_Essence.txt"
+                },
+                {
+                    "name": "Stone Ruin",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Stone_Ruin.txt"
+                },
+                {
+                    "name": "Surge",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Surge.txt"
+                },
+                {
+                    "name": "Team Empire HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Team_Empire_HUD.txt"
+                },
+                {
+                    "name": "Techlabs Moscow Cup 2014 HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Techlabs_Moscow_Cup_2014_HUD.txt"
+                },
+                {
+                    "name": "Tempest Wing",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Tempest_Wing.txt"
+                },
+                {
+                    "name": "Temple",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Temple.txt"
+                },
+                {
+                    "name": "Temple of the Sacred Memories HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Temple_of_the_Sacred_Memories_HUD.txt"
+                },
+                {
+                    "name": "The International 2015 HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/The_International_2015_HUD.txt"
+                },
+                {
+                    "name": "The International 2016 HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/The_International_2016_HUD.txt"
+                },
+                {
+                    "name": "The International 2021 HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/The_International_2021_HUD.txt"
+                },
+                {
+                    "name": "The International 2023 HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/The_International_2023_HUD.txt"
+                },
+                {
+                    "name": "The International 2024 HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/The_International_2024_HUD.txt"
+                },
+                {
+                    "name": "The Summit 3 HUD",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/The_Summit_3_HUD.txt"
+                },
+                {
+                    "name": "Three Virtues",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Three_Virtues.txt"
+                },
+                {
+                    "name": "Thunder Spirit",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Thunder_Spirit.txt"
+                },
+                {
+                    "name": "Timber Fury",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Timber_Fury.txt"
+                },
+                {
+                    "name": "Titan",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Titan.txt"
+                },
+                {
+                    "name": "Tombstone",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Tombstone.txt"
+                },
+                {
+                    "name": "Tremor",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Tremor.txt"
+                },
+                {
                     "name": "Triumph",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Triumph.txt"
                 },
                 {
+                    "name": "Underwater",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Underwater.txt"
+                },
+                {
                     "name": "Valor",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Valor.txt"
+                },
+                {
+                    "name": "Vermilion",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Vermilion.txt"
+                },
+                {
+                    "name": "ViCi Gaming Hud Skin",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/ViCiGaming.txt"
+                },
+                {
+                    "name": "Virtus.Pro HUD Skin",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/VirtusPro.txt"
+                },
+                {
+                    "name": "Winged Guardian",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/hud/Winged_Guardian.txt"
                 }
             ]
         },
@@ -784,6 +1132,11 @@
                     "thumbnailId": "crownfall"
                 },
                 {
+                    "name": "Dark Carnival",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Dark%20Carnival.txt",
+                    "thumbnailId": "dark_carnival"
+                },
+                {
                     "name": "Nemestice",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Radiant%20Nemestice%20Creeps.txt"
                 },
@@ -794,11 +1147,6 @@
                 {
                     "name": "Woodland Warbands",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Woodland%20Warbands.txt"
-                },
-                {
-                    "name": "Dark Carnival",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Radiant/Dark%20Carnival.txt",
-                    "thumbnailId": "dark_carnival"
                 }
             ]
         },
@@ -818,13 +1166,13 @@
                     "thumbnailId": "crownfall"
                 },
                 {
-                    "name": "Woodland Warbands",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Radiant/Woodland%20Warbands.txt"
-                },
-                {
                     "name": "Dark Carnival",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Radiant/Dark%20Carnival.txt",
                     "thumbnailId": "dark_carnival"
+                },
+                {
+                    "name": "Woodland Warbands",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Radiant/Woodland%20Warbands.txt"
                 }
             ]
         },
@@ -880,6 +1228,11 @@
                     "thumbnailId": "crownfall"
                 },
                 {
+                    "name": "Dark Carnival",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Dark%20Carnival.txt",
+                    "thumbnailId": "dark_carnival"
+                },
+                {
                     "name": "Nemestice",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Dire%20Nemestice%20Creeps.txt"
                 },
@@ -890,11 +1243,6 @@
                 {
                     "name": "Woodland Warbands",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Woodland%20Warbands.txt"
-                },
-                {
-                    "name": "Dark Carnival",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Creep/Dire/Dark%20Carnival.txt",
-                    "thumbnailId": "dark_carnival"
                 }
             ]
         },
@@ -914,13 +1262,13 @@
                     "thumbnailId": "crownfall"
                 },
                 {
-                    "name": "Woodland Warbands",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Dire/Woodland%20Warbands.txt"
-                },
-                {
                     "name": "Dark Carnival",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Dire/Dark%20Carnival.txt",
                     "thumbnailId": "dark_carnival"
+                },
+                {
+                    "name": "Woodland Warbands",
+                    "url": "https://cdn.ardysamods.my.id/Assets/misc/Siege/Dire/Woodland%20Warbands.txt"
                 }
             ]
         },

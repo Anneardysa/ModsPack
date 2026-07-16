@@ -1,0 +1,20 @@
+"587"
+{
+	"name"		"Donbass Cup HUD"
+	"prefab"		"hud_skin"
+	"baseitem"		"1"
+	"creation_date"		"2015-03-05"
+	"image_inventory"		"econ/huds/_hud_skin__donbass_cup/hud__hud_skin__donbass_cup"
+	"item_name"		"#DOTA_Item_Donbass_Cup_HUD"
+	"item_type_name"		"#DOTA_WearableType_HUD"
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"hud_skin"
+			"asset"		"donbass_cup_hud"
+			"modifier"		"donbass_cup_hud"
+			"frequency"		"1"
+		}
+	}
+}

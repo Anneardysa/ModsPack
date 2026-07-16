@@ -1,0 +1,27 @@
+"587"
+{
+	"name"		"Winged Guardian"
+	"prefab"		"hud_skin"
+	"baseitem"		"1"
+	"creation_date"		"2014-12-08"
+	"image_inventory"		"econ/huds/hud_guardian_angel"
+	"item_name"		"#DOTA_Item_Winged_Guardian"
+	"item_rarity"		"uncommon"
+	"item_type_name"		"#DOTA_WearableType_HUD_Skin"
+	"price_info"
+	{
+		"category_tags"		"HUD Skins"
+		"date"		"12/12/2014"
+		"price"		"249"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"hud_skin"
+			"asset"		"guardian_angel"
+			"modifier"		"guardian_angel"
+			"frequency"		"1"
+		}
+	}
+}

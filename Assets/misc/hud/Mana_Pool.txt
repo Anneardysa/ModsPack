@@ -1,0 +1,30 @@
+"587"
+{
+	"name"		"Mana Pool"
+	"prefab"		"hud_skin"
+	"baseitem"		"1"
+	"creation_date"		"2013-09-22"
+	"image_inventory"		"econ/huds/hud_mana_pool"
+	"item_description"		"#DOTA_Item_Desc_Mana_Pool"
+	"item_name"		"#DOTA_Item_Mana_Pool"
+	"item_rarity"		"rare"
+	"item_type_name"		"#DOTA_WearableType_HUD_Skin"
+	"price_info"
+	{
+		"bucket"		"Normal"
+		"class"		"HUD Skin"
+		"category_tags"		"HUD Skins"
+		"date"		"9/22/2013"
+		"price"		"299"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"hud_skin"
+			"asset"		"mana_pool"
+			"modifier"		"mana_pool"
+			"frequency"		"1"
+		}
+	}
+}
