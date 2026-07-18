@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-16T02:45:09Z",
+  "generatedAt": "2026-07-18T15:44:02Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -1296,8 +1296,8 @@
       "size": 104810
     },
     "Assets/models/Sven/item_weapon_vigil.zip": {
-      "sha256": "DE0E6C0A11266EFB6731988E6A88482EAE56D9047AFE091A5CACB3505CE33CBE",
-      "size": 124746
+      "sha256": "BA784C39D320DAB0517302CBC953F13276BCCFF5A336F7BB50B41CCEFE179B7B",
+      "size": 179140
     },
     "Assets/models/Sven/legacy.zip": {
       "sha256": "6AF4D7E8442BA98D40432EB2CEDD80E227653AC3749DB11A6A9F44FE83A969CB",
