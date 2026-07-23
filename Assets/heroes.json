@@ -2665,8 +2665,49 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Razor/adder.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Razor/adder.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Razor/base_arcana_1.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Razor/base_arcana_1.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Razor/base_arcana_2.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Razor/base_arcana_2.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Razor/basilisk.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Razor/basilisk.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Razor/cruel.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Razor/cruel.png"
+      ],
+      "Set 6": {
+        "styles": {
+          "item_head_severing": [
+            "https://cdn.ardysamods.my.id/Assets/models/Razor/item_head_severing/item_head_severing.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Razor/item_head_severing/item_head_severing.png"
+          ],
+          "item_head_severing_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Razor/item_head_severing/item_head_severing_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Razor/item_head_severing/item_head_severing_golden.png"
+          ]
+        }
+      },
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Razor/item_weapon_severing.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Razor/item_weapon_severing.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Razor/maze.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Razor/maze.png"
       ]
-    }
+    },
+    "method": 2
   },
   {
     "id": [

@@ -1,0 +1,334 @@
+﻿"340"
+{
+	"name"		"Razor's Weapon"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/razor/eight_headed_basilisk_weapon/eight_headed_basilisk_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Test_of_the_Basilisk_Lord__Weapon"
+	"item_rarity"		"mythical"
+	"item_type_name"		"#DOTA_WearableType_weapon"
+	"model_player"		"models/heroes/razor/razor_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"27.544409 61.634995 239.244797"
+			"PortraitLightAngles"		"66.406860 194.342651 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.124000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"175.367477 -57.773151 297.887115"
+					"PortraitAngles"		"22.296753 148.820801 20.549927"
+					"PortraitFOV"		"45"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/razor/razor_eight_basilisk/razor_eight_basilisk_weapon_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"341"
+{
+	"name"		"Razor's Head"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/razor/eight_headed_basilisk_head/eight_headed_basilisk_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Test_of_the_Basilisk_Lord__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_head"
+	"model_player"		"models/heroes/razor/razor_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"21.158527 -56.604420 268.401154"
+			"PortraitLightAngles"		"51.124878 156.676025 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"226.366623 -108.821198 328.819519"
+					"PortraitAngles"		"20.681763 156.307983 339.999390"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/razor/razor_eight_basilisk/razor_eight_basilisk_head_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"342"
+{
+	"name"		"Razor's Armor"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/razor/eight_headed_basilisk_armor/eight_headed_basilisk_armor"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Test_of_the_Basilisk_Lord__Armor"
+	"item_rarity"		"mythical"
+	"item_slot"		"armor"
+	"item_type_name"		"#DOTA_WearableType_armor"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/razor/razor_armor.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"21.158527 -56.604420 268.401154"
+			"PortraitLightAngles"		"51.124878 156.676025 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"166.242645 -63.422714 278.895325"
+					"PortraitAngles"		"33.090820 159.845581 339.999390"
+					"PortraitFOV"		"33"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/razor/razor_eight_basilisk/razor_eight_basilisk_armor_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"343"
+{
+	"name"		"Razor's Bracers"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/heroes/razor/razor_bracers"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Razors_Bracers"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Bracers"
+	"model_player"		"models/heroes/razor/razor_bracers.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-48.209999 -7.660000 261.470001"
+			"PortraitLightAngles"		"132.119995 191.710007 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-222.116211 -27.292603 275.545410"
+					"PortraitAngles"		"31.393433 0.324097 16.534424"
+					"PortraitFOV"		"17"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+}
+
+"344"
+{
+	"name"		"Razor's Robe"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/razor/eight_headed_basilisk_belt/eight_headed_basilisk_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Test_of_the_Basilisk_Lord__Belt"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"item_type_name"		"#DOTA_WearableType_belt"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/razor/razor_robe.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"21.158527 -56.604420 268.401154"
+			"PortraitLightAngles"		"51.124878 156.676025 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"274.448151 84.128105 274.466858"
+					"PortraitAngles"		"31.788940 195.639038 339.999390"
+					"PortraitFOV"		"35"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

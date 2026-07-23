@@ -1,0 +1,326 @@
+﻿"340"
+{
+	"name"		"Cruel Assemblage Weapon"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/razor/energy_meteorite_weapon/energy_meteorite_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cruel_Assemblage_Weapon"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/razor/razor_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"27.544409 61.634995 239.244797"
+			"PortraitLightAngles"		"66.406860 194.342651 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.142857"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"175.367477 -57.773151 297.887115"
+					"PortraitAngles"		"22.296753 148.820801 20.549927"
+					"PortraitFOV"		"45"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"341"
+{
+	"name"		"Cruel Assemblage Head"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/razor/energy_meteorite_head/energy_meteorite_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cruel_Assemblage_Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/razor/razor_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"21.158527 -56.604420 268.401154"
+			"PortraitLightAngles"		"51.124878 156.676025 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"226.366623 -108.821198 328.819519"
+					"PortraitAngles"		"20.681763 156.307983 339.999390"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"342"
+{
+	"name"		"Cruel Assemblage Armor"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/razor/energy_meteorite_armor/energy_meteorite_armor"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cruel_Assemblage_Armor"
+	"item_rarity"		"mythical"
+	"item_slot"		"armor"
+	"model_player"		"models/heroes/razor/razor_armor.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"21.158527 -56.604420 268.401154"
+			"PortraitLightAngles"		"51.124878 156.676025 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"166.242645 -63.422714 278.895325"
+					"PortraitAngles"		"33.090820 159.845581 339.999390"
+					"PortraitFOV"		"33"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"343"
+{
+	"name"		"Cruel Assemblage Arms"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/razor/energy_meteorite_arms/energy_meteorite_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cruel_Assemblage_Arms"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/razor/razor_bracers.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-48.209999 -7.660000 261.470001"
+			"PortraitLightAngles"		"132.119995 191.710007 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-222.116211 -27.292603 275.545410"
+					"PortraitAngles"		"31.393433 0.324097 16.534424"
+					"PortraitFOV"		"17"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"344"
+{
+	"name"		"Cruel Assemblage Belt"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/razor/energy_meteorite_belt/energy_meteorite_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Cruel_Assemblage_Belt"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"model_player"		"models/heroes/razor/razor_robe.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"21.158527 -56.604420 268.401154"
+			"PortraitLightAngles"		"51.124878 156.676025 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"274.448151 84.128105 274.466858"
+					"PortraitAngles"		"31.788940 195.639038 339.999390"
+					"PortraitFOV"		"35"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

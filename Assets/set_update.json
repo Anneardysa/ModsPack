@@ -1,10 +1,42 @@
 {
-  "version": "1.0.72",
+  "version": "1.0.73",
   "lastUpdated": "2026-07-23",
   "updates": [
     {
       "date": "2026-07-23",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 6 (item_head_severing)"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_tusk",
           "setName": "Set 6"

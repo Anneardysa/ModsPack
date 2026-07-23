@@ -1,0 +1,92 @@
+﻿"341"
+{
+	"name"		"Razor's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2014-06-24"
+	"image_inventory"		"econ/items/razor/razor_helmet_blade/razor_helmet_blade"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Severing_Crest"
+	"item_rarity"		"immortal"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Helmet"
+	"model_player"		"models/heroes/razor/razor_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"21.158527 -56.604420 268.401154"
+			"PortraitLightAngles"		"51.124878 156.676025 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"226.366623 -108.821198 328.819519"
+					"PortraitAngles"		"20.681763 156.307983 339.999390"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_razor/razor_static_link.vpcf"
+			"modifier"		"particles/econ/items/razor/razor_punctured_crest/razor_static_link_blade.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Ability.static.loop"
+			"modifier"		"Hero_Razor.SeveringCrest.Loop"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"razor_static_link"
+			"modifier"		"razor_static_link_alt"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/razor/razor_punctured_crest/razor_helmet_blade_ambient.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

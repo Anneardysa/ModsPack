@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-23T03:35:49Z",
+  "generatedAt": "2026-07-23T04:50:17Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -1102,6 +1102,42 @@
     "Assets/models/Queen_of_Pain/rose.zip": {
       "sha256": "E3782D76EB12BB8FED6B988EEB0C06E3B3A0089231565A2CF713A9643E37B2E2",
       "size": 801861
+    },
+    "Assets/models/Razor/adder.zip": {
+      "sha256": "3603E8AE085F26E9D76903C7015FDF709E626B723C7881938B3EF3520A46AD43",
+      "size": 355425
+    },
+    "Assets/models/Razor/base_arcana_1.zip": {
+      "sha256": "8A21E7047E5DE17CD9E33A51D3ED7CB09014814A6D46C68E016CA4CF3E85CB8B",
+      "size": 2356487
+    },
+    "Assets/models/Razor/base_arcana_2.zip": {
+      "sha256": "1F095C445EEDF285FF590F8054FAF06C560206EC43F66E470D00A63C5FC057DD",
+      "size": 2422445
+    },
+    "Assets/models/Razor/basilisk.zip": {
+      "sha256": "1C66121D5D540A3B44257FAA3E448EDAA137692D2B2F8E6407B5109E995CE0B0",
+      "size": 542088
+    },
+    "Assets/models/Razor/cruel.zip": {
+      "sha256": "C98D093D96C199951C729633342FA2CD9B8D10F7ED76D18BD1FE4074F35FB202",
+      "size": 366344
+    },
+    "Assets/models/Razor/item_head_severing/item_head_severing.zip": {
+      "sha256": "B026127D5070A70695B614429EF79B4941C53AAAA48AEC9025BB896630AE9581",
+      "size": 416507
+    },
+    "Assets/models/Razor/item_head_severing/item_head_severing_golden.zip": {
+      "sha256": "67BC79A3DAF04CF66EAEE9C1562DB4DA731F7DEC45100ED4440B6E4B135940D2",
+      "size": 403333
+    },
+    "Assets/models/Razor/item_weapon_severing.zip": {
+      "sha256": "D5A4D40477B95EA2C8F3265CBEF75E97F0E7115ED40FF9670C73F84C7FF82234",
+      "size": 59560
+    },
+    "Assets/models/Razor/maze.zip": {
+      "sha256": "F83C01CE4D1D08FA9BEB1D82ED2EAD80F0C559D2B3072694BCE77161DB57129D",
+      "size": 445296
     },
     "Assets/models/Riki/cunning.zip": {
       "sha256": "3DBD05E8C6FC2E0832EDCC99604C94F7AA5C7E29C105C7CE7D2E8F5804055BAD",

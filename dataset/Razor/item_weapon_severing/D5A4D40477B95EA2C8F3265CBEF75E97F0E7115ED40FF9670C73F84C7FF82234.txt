@@ -1,0 +1,114 @@
+﻿"340"
+{
+	"name"		"Severing Lash"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2016"
+	"image_inventory"		"econ/items/razor/severing_lash/mesh/severing_lash"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Severing_Lash"
+	"item_rarity"		"immortal"
+	"model_player"		"models/heroes/razor/razor_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"-137.703583 189.747452 292.560394"
+					"PortraitAngles"		"8.468832 306.643311 87.119995"
+					"PortraitFOV"		"54.756001"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"27.544409 61.634995 247.734848"
+			"PortraitLightAngles"		"66.406860 194.342651 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"95"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"1.750000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"8.460 65.500 10.300"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+			"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+			"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+			"PortraitAnimationCycle"		"0.161290"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2016"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_razor"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_razor/razor_plasmafield.vpcf"
+			"modifier"		"particles/econ/items/razor/razor_ti6/razor_plasmafield_ti6.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"sound"
+			"asset"		"Ability.PlasmaField"
+			"modifier"		"Hero_Razor.PlasmaField.SeveringLash"
+			"style"		"0"
+		}
+		"asset_modifier2"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_razor/razor_whip.vpcf"
+			"modifier"		"particles/econ/items/razor/razor_ti6/razor_whip_ti6.vpcf"
+		}
+		"asset_modifier3"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_razor/razor_base_attack.vpcf"
+			"modifier"		"particles/econ/items/razor/razor_ti6/razor_base_attack_ti6.vpcf"
+		}
+		"asset_modifier1"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti6"
+			"style"		"0"
+		}
+		"asset_modifier2"
+		{
+			"type"		"ability_icon"
+			"asset"		"razor_plasma_field"
+			"modifier"		"razor/severing_lash/razor_plasma_field"
+			"style"		"0"
+		}
+		"asset_modifier4"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
