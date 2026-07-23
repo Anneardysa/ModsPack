@@ -1,0 +1,109 @@
+﻿"321"
+{
+	"name"		"Lina's Dress"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/lina/lina_ti7/lina_ti71"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Golden_Wyrmwrought_Flare"
+	"item_rarity"		"immortal"
+	"item_slot"		"belt"
+	"model_player"		"models/heroes/lina/lina_belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-146.776764 56.462265 216.779480"
+			"PortraitLightAngles"		"34.568481 302.590942 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"102"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.125000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.825000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+			"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_lina/portrait_lina.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-50.840 -60.010 -32.950"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-305.529602 -141.317627 264.209351"
+					"PortraitAngles"		"30.188099 27.020874 0.000000"
+					"PortraitFOV"		"41"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lina"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lina/lina_spell_light_strike_array_ray_team.vpcf"
+			"modifier"		"particles/econ/items/lina/lina_ti7/light_strike_array_pre_ti7_gold.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lina/lina_spell_light_strike_array.vpcf"
+			"modifier"		"particles/econ/items/lina/lina_ti7/lina_spell_light_strike_array_ti7_gold.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lina/lina_ti7/lina_ti7_gold_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti7"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"lina_light_strike_array"
+			"modifier"		"lina/lina_ti7_immortal/lina_lightstrike_array_gold"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Ability.PreLightStrikeArray"
+			"modifier"		"Ability.PreLightStrikeArray.ti7"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"skip_model_combine"		"1"
+		"skin"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

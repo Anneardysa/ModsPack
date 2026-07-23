@@ -1,10 +1,42 @@
 {
-  "version": "1.0.74",
+  "version": "1.0.75",
   "lastUpdated": "2026-07-23",
   "updates": [
     {
       "date": "2026-07-23",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_lina",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_lina",
+          "setName": "Set 7 (origin_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_lina",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_lina",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_lina",
+          "setName": "Set 4 (item_belt_flare)"
+        },
+        {
+          "heroId": "npc_dota_hero_lina",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_lina",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_lina",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_razor",
           "setName": "Set 9"

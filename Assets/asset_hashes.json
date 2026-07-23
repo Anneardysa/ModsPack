@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-23T04:53:39Z",
+  "generatedAt": "2026-07-23T08:35:03Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -694,6 +694,46 @@
     "Assets/models/Legion_Commander/triumph.zip": {
       "sha256": "5E8FD0113580D563E61D904127A50E662F81F9F4B0D45026A67B1D3BB1D204AD",
       "size": 568773
+    },
+    "Assets/models/Lina/base_arcana.zip": {
+      "sha256": "BD249BFB39BF63D37EE55A63BC13AF500B8F22566DF10B123D05672B913C041D",
+      "size": 511600
+    },
+    "Assets/models/Lina/elderflame.zip": {
+      "sha256": "E1CB08E46198E8CBC39E772A8677B08C53713F65CA8D2DF8C791AD07A429DA8C",
+      "size": 228434
+    },
+    "Assets/models/Lina/flare.zip": {
+      "sha256": "6127558DE715873EB46F9FF1F460BEF23D3ED48391F081155880534C70111282",
+      "size": 115818
+    },
+    "Assets/models/Lina/item_belt_flare/item_belt_flare.zip": {
+      "sha256": "243B6A682AAC5B99EAB012E79935B2EC825CEC41408E9EA3B33A10807F982C8F",
+      "size": 232471
+    },
+    "Assets/models/Lina/item_belt_flare/item_belt_flare_golden.zip": {
+      "sha256": "C3EFF2F472242DA20460742C9D5CF69C9C01862E66B75D80C53F6884D673FF17",
+      "size": 105617
+    },
+    "Assets/models/Lina/item_belt_lotus.zip": {
+      "sha256": "4154F655657F8E3644CE94F85170C7D8A5997F1570C1043BF3602D28D99370AF",
+      "size": 48864
+    },
+    "Assets/models/Lina/item_neck_disciple.zip": {
+      "sha256": "49A3B73494359EE82BFA25F0F9AC2D9BBF555F11AAC0BD047EB61BFB1E6BDCD6",
+      "size": 776543
+    },
+    "Assets/models/Lina/origin/origin_1.zip": {
+      "sha256": "9B2AD1E03F041DD1B5C80D62B7216064198E3331965911BD6AAF4E771F3AD86C",
+      "size": 675269
+    },
+    "Assets/models/Lina/origin/origin_2.zip": {
+      "sha256": "2CAD7B4AC6243CD0EAC81806608B282B687623A1A766ACD7FF2B2A788580A314",
+      "size": 691414
+    },
+    "Assets/models/Lina/regent.zip": {
+      "sha256": "EAA8E89C20BB75EBB6782D9C981CCB647F1244DFB7C90CB7739EBEBAD8D3E599",
+      "size": 171887
     },
     "Assets/models/Magnus/bore.zip": {
       "sha256": "433408502AF0188FF6A3279955B7EB36B68B2FF84D3B3C346D63419BAB81FE28",

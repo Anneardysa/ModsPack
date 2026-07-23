@@ -1609,8 +1609,57 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lina/base_arcana.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lina/base_arcana.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lina/elderflame.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lina/elderflame.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lina/flare.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lina/flare.png"
+      ],
+      "Set 4": {
+        "styles": {
+          "item_belt_flare": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lina/item_belt_flare/item_belt_flare.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lina/item_belt_flare/item_belt_flare.png"
+          ],
+          "item_belt_flare_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lina/item_belt_flare/item_belt_flare_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lina/item_belt_flare/item_belt_flare_golden.png"
+          ]
+        }
+      },
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lina/item_belt_lotus.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lina/item_belt_lotus.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lina/item_neck_disciple.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lina/item_neck_disciple.png"
+      ],
+      "Set 7": {
+        "styles": {
+          "origin_1": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lina/origin/origin_1.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lina/origin/origin_1.png"
+          ],
+          "origin_2": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lina/origin/origin_2.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lina/origin/origin_2.png"
+          ]
+        }
+      },
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lina/regent.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lina/regent.png"
       ]
-    }
+    },
+    "method": 2
   },
   {
     "id": [

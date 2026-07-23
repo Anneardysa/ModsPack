@@ -1,0 +1,341 @@
+﻿"318"
+{
+	"name"		"Lina's Jewelry"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+	"image_inventory"		"econ/items/lina/blazing_cosmos_neck/blazing_cosmos_neck"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Glory_of_the_Elderflame__Neck"
+	"item_rarity"		"mythical"
+	"item_slot"		"neck"
+	"model_player"		"models/heroes/lina/lina_neck.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"43.441956 27.088589 244.242096"
+			"PortraitLightAngles"		"55.859985 209.036865 0.000000"
+			"PortraitLightFOV"		"36"
+			"PortraitLightDistance"		"150"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.125000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.825000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+			"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_lina/portrait_lina.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-50.840 -60.010 -32.950"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"229.098160 -101.042542 217.549896"
+					"PortraitAngles"		"9.404297 157.033081 0.000000"
+					"PortraitFOV"		"12"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2020"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_TI10_Collectors_Cache"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lina"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lina/lina_blazing_cosmos/lina_blazing_cosmos_neck.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"319"
+{
+	"name"		"Glory of the Elderflame - Head"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+	"image_inventory"		"econ/items/lina/blazing_cosmos_head/blazing_cosmos_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Glory_of_the_Elderflame__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"model_player"		"models/heroes/lina/lina_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"43.441956 27.088589 244.242096"
+			"PortraitLightAngles"		"55.859985 209.036865 0.000000"
+			"PortraitLightFOV"		"36"
+			"PortraitLightDistance"		"150"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.125000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.825000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+			"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_lina/portrait_lina.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-50.840 -60.010 -32.950"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"265.210968 -119.961014 234.913284"
+					"PortraitAngles"		"9.404297 157.033081 0.000000"
+					"PortraitFOV"		"12"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2020"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_TI10_Collectors_Cache"
+		}
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lina"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"320"
+{
+	"name"		"Lina's Sleeves"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+	"image_inventory"		"econ/items/lina/blazing_cosmos_arms/blazing_cosmos_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Glory_of_the_Elderflame__Arms"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/lina/lina_arms.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"76.599998 19.350000 205.639999"
+			"PortraitLightAngles"		"37.009998 213.539993 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"102"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.125000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.825000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+			"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_lina/portrait_lina.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.533333"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-50.840 -60.010 -32.950"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"433.805450 42.567585 171.469254"
+					"PortraitAngles"		"3.680420 186.036987 0.000000"
+					"PortraitFOV"		"17"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2020"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_TI10_Collectors_Cache"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lina"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lina/lina_blazing_cosmos/lina_blazing_cosmos_arms.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"321"
+{
+	"name"		"Lina's Dress"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+	"image_inventory"		"econ/items/lina/blazing_cosmos_belt/blazing_cosmos_belt"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Glory_of_the_Elderflame__Belt"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"model_player"		"models/heroes/lina/lina_belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-146.776764 56.462265 216.779480"
+			"PortraitLightAngles"		"34.568481 302.590942 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"102"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.125000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.825000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+			"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_lina/portrait_lina.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-50.840 -60.010 -32.950"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-324.455200 -146.727951 265.014496"
+					"PortraitAngles"		"27.427368 24.455566 0.000000"
+					"PortraitFOV"		"30"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2020"
+		}
+		"additional_tooltip_text"
+		{
+			"attribute_class"		"additional_tooltip_text"
+			"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_TI10_Collectors_Cache"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lina"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lina/lina_blazing_cosmos/lina_blazing_cosmos_belt.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

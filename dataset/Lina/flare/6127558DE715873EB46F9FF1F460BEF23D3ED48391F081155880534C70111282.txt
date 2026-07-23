@@ -1,0 +1,273 @@
+﻿"318"
+{
+	"name"		"Corset of the Bewitching Flare"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2015"
+	"image_inventory"		"econ/items/lina/bewitching_flame_neck/bewitching_flame_neck"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Corset_of_the_Bewitching_Flare"
+	"item_rarity"		"mythical"
+	"item_slot"		"neck"
+	"item_type_name"		"#DOTA_WearableType_Corset"
+	"model_player"		"models/heroes/lina/lina_neck.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"76.599998 19.350000 205.639999"
+			"PortraitLightAngles"		"37.009998 213.539993 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"102"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.125000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.825000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+			"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_lina/portrait_lina.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.540000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-50.840 -60.010 -32.950"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"360.280090 -133.142838 258.309692"
+					"PortraitAngles"		"12.590332 160.603638 0.000000"
+					"PortraitFOV"		"9"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lina"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"319"
+{
+	"name"		"Style of the Bewitching Flare"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2015"
+	"image_inventory"		"econ/items/lina/bewitching_flame_hair/bewitching_flame_hair"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Style_of_the_Bewitching_Flare"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Style"
+	"model_player"		"models/heroes/lina/lina_head.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"98.919685 24.351774 229.710800"
+			"PortraitLightAngles"		"33.925781 186.910400 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"102"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.125000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.825000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+			"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_lina/portrait_lina.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.540000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-50.840 -60.010 -32.950"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"469.313354 45.667088 207.036514"
+					"PortraitAngles"		"3.532104 185.240479 0.000000"
+					"PortraitFOV"		"11"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lina"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"320"
+{
+	"name"		"Touch of the Bewitching Flare"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2015"
+	"image_inventory"		"econ/items/lina/bewitching_flame_arms/bewitching_flame_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Touch_of_the_Bewitching_Flare"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Sleeves"
+	"model_player"		"models/heroes/lina/lina_arms.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"102.243080 27.851778 233.034317"
+			"PortraitLightAngles"		"33.925781 186.910400 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"102"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.125000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.825000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+			"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_lina/portrait_lina.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.540000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-50.840 -60.010 -32.950"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"442.231354 49.067089 179.954468"
+					"PortraitAngles"		"3.944092 185.245972 0.000000"
+					"PortraitFOV"		"15"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lina"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"321"
+{
+	"name"		"Dress of the Bewitching Flare"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_FALL_MAJOR_2015"
+	"image_inventory"		"econ/items/lina/bewitching_flame_belt/bewitching_flame_belt_particle"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Dress_of_the_Bewitching_Flare"
+	"item_rarity"		"mythical"
+	"item_slot"		"belt"
+	"item_type_name"		"#DOTA_WearableType_Dress"
+	"model_player"		"models/heroes/lina/lina_belt.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-146.776764 56.462265 216.779480"
+			"PortraitLightAngles"		"34.568481 302.590942 0.000000"
+			"PortraitLightFOV"		"90"
+			"PortraitLightDistance"		"102"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"1.125000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"1.825000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+			"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+			"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_lina/portrait_lina.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-50.840 -60.010 -32.950"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-319.742218 -137.617569 249.996658"
+					"PortraitAngles"		"28.872070 24.329224 0.000000"
+					"PortraitFOV"		"37"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lina"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+		"asset_modifier1"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lina/lina_bewitching_flame/lina_bewitching_flame_ambient.vpcf"
+		}
+	}
+}
+
