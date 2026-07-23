@@ -32763,7 +32763,7 @@ Az olyan korai veszélyt jelentő hősök, mint Zeus és Death Prophet megjelen�
     "DOTA_LaneSelection_RoleCall"           "Szerepválasztás"
     "DOTA_LaneSelection_RoleCall_Reward"    "+25"
     "DOTA_LaneSelection_RoleCall_Reward2"   "+50"
-    "DOTA_LaneSelection_RoleCall_Desc"      "Javíts a Dota közösség játékkeresési élményén azzal, hogy nagy keresletű szereppel játszol, és akár heti 1000 Dota Plusz szilánk jutalmat kapsz."
+    "DOTA_LaneSelection_RoleCall_Desc"      "Javíts a Dota közösség játékkeresési élményén azzal, hogy egy nagyon keresett szereppel játszol, és akár heti 1000 Dota Plusz szilánk jutalmat kapsz."
     "DOTA_LaneSelection_RoleCall_Award"     "Szerepválasztás jutalom"
 
     "DOTA_LaneSelection_PartyRoles"         "Társaságszerepek"
@@ -32793,10 +32793,10 @@ Az olyan korai veszélyt jelentő hősök, mint Zeus és Death Prophet megjelen�
 	"DOTA_Play_RR_SoloSpendingQP"			"El fogsz költeni egy Szerepes soros játékot."
 	"DOTA_Play_RR_PartySpendingQP"			"Mindegyik társaságtag el fog költeni egy Szerepes soros játékot."
 
-	"DOTA_Play_RR_SoloMissingQP"			"Legalább mindkét nagy keresletű szerepet ki kell választanod."
-	"DOTA_Play_RR_SoloMissingQP_Tooltip"	"Mindkét nagy keresletű szerep kiválasztásával játszhatsz Rangsorolt Szerepeket ezen a meccsen. Az összes szerep választásával Szerepes soros játékokat kapsz jövőbeni felhasználásra bármely szereppel."
-	"DOTA_Play_RR_PartyMissingQP"			"Társaságodnak mindkét nagy keresletű szerepre sorba kell állnia."
-	"DOTA_Play_RR_PartyMissingQP_Tooltip"	"Ha társaságotok kiválasztja mindkét Támogató szerepet, játszhattok Rangsorolt Szerepeket. Az összes szerep kiválasztásával Szerepes soros játékokat fogtok kapni jövőbeni felhasználásra bármely szereppel."
+	"DOTA_Play_RR_SoloMissingQP"			"Legalább egy nagyon keresett szerepet ki kell választanod."
+	"DOTA_Play_RR_SoloMissingQP_Tooltip"	"Legalább egy nagyon keresett szerep kiválasztásával játszhatsz Rangsorolt Szerepeket ezen a meccsen. Az összes szerep választásával Szerepes soros játékokat kapsz jövőbeni felhasználásra bármely szereppel."
+	"DOTA_Play_RR_PartyMissingQP"			"Társaságodnak mindkét nagyon keresett szerepre sorba kell állnia."
+	"DOTA_Play_RR_PartyMissingQP_Tooltip"	"Ha társaságotok kiválasztja mindkét nagyon keresett szerepet, játszhattok Rangsorolt Szerepeket. Az összes szerep kiválasztásával Szerepes soros játékokat fogtok kapni jövőbeni felhasználásra bármely szereppel."
 
     "DOTA_RR_NonEligibleWarningTitle"      "Nincs Szerepes soros játékod"
     "DOTA_RR_NonEligibleWarning"           "Szeretnél sorba állni minden szerepre?<br>A játékkereső kioszt neked egy szerepet erre a meccsre, és {d:earn_amount} Szerepes soros játékot (vereségért fele annyit) fogsz kapni jövőbeni felhasználásra."
@@ -47206,7 +47206,7 @@ Ha úgy érzed, nem tudtál a döntés meghozatalához szükséges szintű figye
 
 		"DOTA_TalentContent_Update_Email"								"Közreműködői csomagbeküldési hírek"
 		"DOTA_TalentContent_Approved"									"A csomagbeküldésed jóvá lett hagyva! Az Összefoglaló megjelenésekor elérhető lesz a kliensben."
-		"DOTA_TalentContent_PartialApproved"								"A csomagbeküldéseddel olyan problémák vannak, amelyek megakadályozzák a teljes csomag jóváhagyását a rajongóidnak. Lásd alább a felülvizsgálat alatt talált problémákat. Beküldheted újból a csomagodat, és megtekintheted a teljes tartalomra vonatkozó irányelveket a <a href=\"https://dota2.com/proregistration/talent/\">https://dota2.com/dota/proregistration/talent/</a> oldalon. A beküldések határideje augusztus 12. 20:00 (CEST).<br>"
+		"DOTA_TalentContent_PartialApproved"								"A csomagbeküldéseddel olyan problémák vannak, amelyek megakadályozzák a teljes csomag jóváhagyását a rajongóidnak. Lásd alább a felülvizsgálat alatt talált problémákat. Beküldheted újból a csomagodat, és megtekintheted a teljes tartalomra vonatkozó irányelveket a <a href=\"https://dota2.com/proregistration/talent/\">https://dota2.com/dota/proregistration/talent/</a> oldalon. A beküldések határideje július 21. 20:00 (CEST).<br>"
 		"DOTA_TalentContent_RejectReason_PhotoBadAlpha"					"A fotód háttere nem teljesen átlátszó, és így nem adható ki."
 		"DOTA_TalentContent_RejectReason_PhotoBadCrop"					"A fotódnak körbevágott arcképnek kell lennie. Lásd az irányelveket a https://www.dota2.com/portraitguidelines oldalon."
 		"DOTA_TalentContent_RejectReason_PhotoBadQuality"				"A fotód nem felel meg a https://www.dota2.com/portraitguidelines oldalon elérhető minőségi irányelveknek."

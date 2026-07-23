@@ -1,0 +1,332 @@
+﻿"749"
+{
+	"name"		"Hoodwink's Hood"
+	"prefab"		"default_item"
+	"creation_date"		"2020-11-09"
+	"image_inventory"		"econ/items/hoodwink/hood_2021_blossom_back/hood_2021_blossom_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tomokan_Incarnate_Hood"
+	"item_rarity"		"immortal"
+	"item_slot"		"back"
+	"model_player"		"models/heroes/hoodwink/hoodwink_hood.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"213.823547 62.312874 168.427124"
+					"PortraitAngles"		"16.090006 196.030014 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_hoodwink"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/hoodwink/hood_2021_blossom/hood_2021_blossom_head_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"750"
+{
+	"name"		"Hoodwink's Costume"
+	"prefab"		"default_item"
+	"creation_date"		"2020-11-09"
+	"image_inventory"		"econ/items/hoodwink/hood_2021_blossom_armor/hood_2021_blossom_armor"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tomokan_Incarnate_Armor"
+	"item_rarity"		"immortal"
+	"item_slot"		"armor"
+	"model_player"		"models/heroes/hoodwink/hoodwink_costume.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"542.462036 -314.262299 144.237823"
+					"PortraitAngles"		"8.270999 149.883316 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_hoodwink"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ACT_DOTA_TAUNT"
+			"modifier"		"blossom_2021"
+			"gesture"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/hoodwink/hood_2021_blossom/hood_2021_blossom_armor_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"751"
+{
+	"name"		"Hoodwink's Tail"
+	"prefab"		"default_item"
+	"creation_date"		"2020-11-09"
+	"image_inventory"		"econ/items/hoodwink/hood_2021_blossom_tail/hood_2021_blossom_tail"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tomokan_Incarnate_Tail"
+	"item_rarity"		"immortal"
+	"item_slot"		"tail"
+	"model_player"		"models/heroes/hoodwink/hoodwink_tail.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"155.957565 390.954102 246.019180"
+					"PortraitAngles"		"24.890018 239.230026 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_hoodwink"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/hoodwink/hood_2021_blossom/hood_2021_blossom_tail_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_hoodwink/hoodwink_scurry_passive.vpcf"
+			"modifier"		"particles/econ/items/hoodwink/hood_2021_blossom/hood_2021_blossom_scurry_passive.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_hoodwink/hoodwink_scurry_aura.vpcf"
+			"modifier"		"particles/econ/items/hoodwink/hood_2021_blossom/hood_2021_blossom_scurry_aura.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"hoodwink_scurry"
+			"modifier"		"hoodwink/hoodwink_2021_blossom/hoodwink_scurry"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"752"
+{
+	"name"		"Hoodwink's Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2020-11-09"
+	"image_inventory"		"econ/items/hoodwink/hood_2021_blossom_weapon/hood_2021_blossom_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Tomokan_Incarnate_Arbalest"
+	"item_rarity"		"immortal"
+	"model_player"		"models/heroes/hoodwink/hoodwink_crossbow.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"452.762695 -106.480103 32.374603"
+					"PortraitAngles"		"358.089996 165.230240 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_hoodwink"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/hoodwink/hood_2021_blossom/hood_2021_blossom_weapon_ambient.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+

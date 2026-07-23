@@ -1146,6 +1146,34 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Hoodwink/incarnate.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Hoodwink/incarnate.png"
+      ],
+      "Set 2": {
+        "styles": {
+          "item_weapon_suradan": [
+            "https://cdn.ardysamods.my.id/Assets/models/Hoodwink/item_weapon_suradan/item_weapon_suradan.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Hoodwink/item_weapon_suradan/item_weapon_suradan.png"
+          ],
+          "item_weapon_suradan_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Hoodwink/item_weapon_suradan/item_weapon_suradan_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Hoodwink/item_weapon_suradan/item_weapon_suradan_crimson.png"
+          ],
+          "item_weapon_suradan_tomokan": [
+            "https://cdn.ardysamods.my.id/Assets/models/Hoodwink/item_weapon_suradan/item_weapon_suradan_tomokan.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Hoodwink/item_weapon_suradan/item_weapon_suradan_tomokan.png"
+          ]
+        }
+      },
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Hoodwink/shadowleaf.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Hoodwink/shadowleaf.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Hoodwink/bilge.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Hoodwink/bilge.png"
       ]
     }
   },

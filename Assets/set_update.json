@@ -1,10 +1,26 @@
 {
-  "version": "1.0.69",
+  "version": "1.0.71",
   "lastUpdated": "2026-07-23",
   "updates": [
     {
       "date": "2026-07-23",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_hoodwink",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_hoodwink",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_hoodwink",
+          "setName": "Set 2 (item_weapon_suradan)"
+        },
+        {
+          "heroId": "npc_dota_hero_hoodwink",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_gyrocopter",
           "setName": "Set 4 (item_weapon_ray)"

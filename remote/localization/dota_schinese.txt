@@ -32854,10 +32854,10 @@
 	"DOTA_Play_RR_SoloSpendingQP"			"将消耗一次定位匹配。"
 	"DOTA_Play_RR_PartySpendingQP"			"每个队伍成员将消耗一次定位匹配。"
 
-	"DOTA_Play_RR_SoloMissingQP"			"必须至少选择两个高需求定位。"
-	"DOTA_Play_RR_SoloMissingQP_Tooltip"	"选择两个高需求定位后可以进行定位匹配。选择全部定位后还将获得定位匹配次数，可于日后选择任意定位时使用。"
+	"DOTA_Play_RR_SoloMissingQP"			"必须至少选一个高需求定位。"
+	"DOTA_Play_RR_SoloMissingQP_Tooltip"	"选择一个高需求定位后可以进行定位匹配。选择全部定位后还将获得定位匹配次数，可于日后选择任意定位时使用。"
 	"DOTA_Play_RR_PartyMissingQP"			"队伍必须选择两个高需求定位。"
-	"DOTA_Play_RR_PartyMissingQP_Tooltip"	"队伍成员选择两个辅助定位后可以进行定位匹配。选择全部定位后还将获得定位匹配次数，可于日后选择任意定位时使用。"
+	"DOTA_Play_RR_PartyMissingQP_Tooltip"	"队伍成员选择两个高需求定位后可以进行定位匹配。选择全部定位后还将获得定位匹配次数，可于日后选择任意定位时使用。"
 
     "DOTA_RR_NonEligibleWarningTitle"      "没有定位匹配次数"
     "DOTA_RR_NonEligibleWarning"           "想要匹配全部定位吗？<br>匹配系统会指定其中一个定位，而你还将获得{d:earn_amount}次定位匹配（负场获得的次数减半），可于日后使用。"
@@ -47269,7 +47269,7 @@
 
 		"DOTA_TalentContent_Update_Email"								"提交解说捆绑包更新"
 		"DOTA_TalentContent_Approved"									"您提交的捆绑包已经审核通过！互动指南推出后就会在客户端内上线。"
-		"DOTA_TalentContent_PartialApproved"								"您提交的捆绑包存在一些问题，导致捆绑包不能被完全审核通过。审核中发现的问题如下所示。可以在<a href=\"https://dota2.com/proregistration/talent/\">https://dota2.com/dota/proregistration/talent/</a>重新提交捆绑包并查看完整的内容提交指南。提交的截止日期为太平洋时间8月12日上午11:00。<br>"
+		"DOTA_TalentContent_PartialApproved"								"您提交的捆绑包存在一些问题，导致捆绑包不能被完全审核通过。审核中发现的问题如下所示。可以在<a href=\"https://dota2.com/proregistration/talent/\">https://dota2.com/dota/proregistration/talent/</a>重新提交捆绑包并查看完整的内容提交指南。提交的截止日期为太平洋时间7月21日上午11:00。<br>"
 		"DOTA_TalentContent_RejectReason_PhotoBadAlpha"					"照片的背景不完全透明，达不到游戏标准"
 		"DOTA_TalentContent_RejectReason_PhotoBadCrop"					"照片应为裁剪后的头像。请参阅https://www.dota2.com/portraitguidelines上的指南"
 		"DOTA_TalentContent_RejectReason_PhotoBadQuality"				"照片不符合质量指南，请参阅https://www.dota2.com/portraitguidelines"
@@ -50902,7 +50902,7 @@
 		"DOTA_DarkCarnival_CrateDrop_TryAgainButton"				"再试试"
 		"DOTA_DarkCarnival_CrateDrop_Help_Move"						"移动"
 		"DOTA_DarkCarnival_CrateDrop_Help_Move_Details"				"使用左右方向键移动平台，使用上下方向键切换轨道。" 
-		"DOTA_DarkCarnival_CrateDrop_Help_Ability"					"集合"
+		"DOTA_DarkCarnival_CrateDrop_Help_Ability"					"组装"
 		"DOTA_DarkCarnival_CrateDrop_Help_Ability_Description"		"使用空格键可以立即将接到的木箱运送到组装机，每个零件都能得分。" 
 		"DOTA_DarkCarnival_CrateDrop_Scoring"						"计分规则" 
 		"DOTA_DarkCarnival_CrateDrop_Scoring_Desc"					"使用组装能力接住并收集的每个木箱，根据其大小和形状，可获得100、150或200分。\n\n堆叠木箱，即可提高得分系数！" 
@@ -50942,7 +50942,7 @@
 		"DOTA_DarkCarnival_BlimpJump_Controls_ThrowShiv"			"投出短刀"
 		"DOTA_DarkCarnival_BlimpJump_Controls_ThrowShiv_Details"	"投出斯拉克的短刀"
 
-		"DOTA_DarkCarnival_BlimpJump_Modes_StoryMode"			"播放故事"
+		"DOTA_DarkCarnival_BlimpJump_Modes_StoryMode"			"游玩故事"
 		"DOTA_DarkCarnival_BlimpJump_Modes_StoryMode_Details"	"到达顶端的飞艇。"
 
 		"DOTA_DarkCarnival_BlimpJump_Modes_InfiniteMode"			"游玩无尽模式"

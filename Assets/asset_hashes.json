@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-23T02:11:52Z",
+  "generatedAt": "2026-07-23T02:50:12Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -494,6 +494,30 @@
     "Assets/models/Gyrocopter/item_weapon_ray/item_weapon_ray_golden.zip": {
       "sha256": "AD09F2E9F70FA43CA9B490E47FB5FA902A99E9DCF7A229697E10B9A742EAE8F6",
       "size": 774612
+    },
+    "Assets/models/Hoodwink/bilge.zip": {
+      "sha256": "04513FBFDCE0C3D3C2394293DC7B20889B7F4D052301BB010DA0C8E9138980E3",
+      "size": 439382
+    },
+    "Assets/models/Hoodwink/incarnate.zip": {
+      "sha256": "219836A8B6153B46902A18584BFC4F9C71DAC67B4AE8A711E9C5A361A4DC0F7A",
+      "size": 845297
+    },
+    "Assets/models/Hoodwink/item_weapon_suradan/item_weapon_suradan.zip": {
+      "sha256": "91606081236960ACD999F402C5B02AF6F49D73430A5DB7C08765EBC082C5D338",
+      "size": 306008
+    },
+    "Assets/models/Hoodwink/item_weapon_suradan/item_weapon_suradan_crimson.zip": {
+      "sha256": "D39C3BC7BF42A490A55B2DBAFBA067836BC7725A1E1ACC5A822887BFE4AEB66B",
+      "size": 241581
+    },
+    "Assets/models/Hoodwink/item_weapon_suradan/item_weapon_suradan_tomokan.zip": {
+      "sha256": "C4384E642D9B7CC47648F33A85C88D905B55ECA83DA26B0B662242FEDE6F8795",
+      "size": 401612
+    },
+    "Assets/models/Hoodwink/shadowleaf.zip": {
+      "sha256": "CC695CB6F368473C8B5D0213EA21F4AEB0D3BA1A56FFF3ABAA0B755739EF5D19",
+      "size": 419783
     },
     "Assets/models/Invoker/artistry.zip": {
       "sha256": "1E2C6F30016353D4C20BCFC164D94921D3D7FF590C2BACEE0A49FBDC84E4DE0C",

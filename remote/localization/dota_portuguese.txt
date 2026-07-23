@@ -32802,10 +32802,10 @@ Outros heróis também ficaram em destaque: heróis que fazem pressão no iníci
 	"DOTA_Play_RR_SoloSpendingQP"			"Vais gastar uma entrada na fila c/ cargos."
 	"DOTA_Play_RR_PartySpendingQP"			"Cada membro do grupo vai gastar uma entrada na fila c/ cargos."
 
-	"DOTA_Play_RR_SoloMissingQP"			"Tens de selecionar pelo menos os dois cargos com grande procura."
-	"DOTA_Play_RR_SoloMissingQP_Tooltip"	"Se selecionares ambos os cargos com grande procura, irás entrar na fila c/ cargos. Além disso, se selecionares todos os cargos, ser-te-ão concedidas entradas futuras na fila c/ cargos para que possas jogar com qualquer cargo."
+	"DOTA_Play_RR_SoloMissingQP"			"Tens de selecionar pelo menos um cargo com grande procura."
+	"DOTA_Play_RR_SoloMissingQP_Tooltip"	"Se selecionares pelo menos um cargo com grande procura, irás entrar na fila c/ cargos. Além disso, se selecionares todos os cargos, ser-te-ão concedidas entradas futuras na fila c/ cargos para que possas jogar com qualquer cargo."
 	"DOTA_Play_RR_PartyMissingQP"			"Os membros do grupo precisam de selecionar ambos os cargos com grande procura."
-	"DOTA_Play_RR_PartyMissingQP_Tooltip"	"Se ambos os cargos de Support forem selecionados pelos membros do teu grupo, todos irão entrar na fila c/ cargos. Além disso, se selecionarem todos os cargos, serão concedidas entradas futuras na fila c/ cargos para que possam jogar com qualquer cargo."
+	"DOTA_Play_RR_PartyMissingQP_Tooltip"	"Se ambos os cargos com grande procura forem selecionados pelos membros do teu grupo, todos irão entrar na fila c/ cargos. Além disso, se selecionarem todos os cargos, serão concedidas entradas futuras na fila c/ cargos para que possam jogar com qualquer cargo."
 
     "DOTA_RR_NonEligibleWarningTitle"      "Não tens entradas para a fila c/ cargos"
     "DOTA_RR_NonEligibleWarning"           "Gostarias de selecionar todos os cargos?<br>O matchmaking vai atribuir-te um cargo para a partida seguinte e vais ganhar {d:earn_amount} entradas futuras na fila c/ cargos (metade em caso de derrota)."
@@ -47216,7 +47216,7 @@ Contudo, se achares que não conseguiste dedicar o nível de atenção apropriad
 
 		"DOTA_TalentContent_Update_Email"								"Estado do pacote de talento enviado"
 		"DOTA_TalentContent_Approved"									"O teu pacote de talento foi aprovado! Estará disponível no jogo quando o compêndio for lançado."
-		"DOTA_TalentContent_PartialApproved"								"Há alguns problemas com o teu pacote de talento que o impedem de ser aprovado. Consulta abaixo os problemas que encontrámos durante a análise. Podes reenviar o pacote e consultar as diretrizes de conteúdo em <a href=\"https://dota2.com/proregistration/talent/\">https://dota2.com/proregistration/talent/</a>. O prazo‑limite de envio de pacotes é 12 de agosto, às 19h (hora de Lisboa).<br>"
+		"DOTA_TalentContent_PartialApproved"								"Há alguns problemas com o teu pacote de talento que o impedem de ser aprovado. Consulta abaixo os problemas que encontrámos durante a análise. Podes reenviar o pacote e consultar as diretrizes de conteúdo em <a href=\"https://dota2.com/proregistration/talent/\">https://dota2.com/proregistration/talent/</a>. O prazo‑limite de envio de pacotes é 21 de julho, às 19h (hora de Lisboa).<br>"
 		"DOTA_TalentContent_RejectReason_PhotoBadAlpha"					"O fundo da tua fotografia não é completamente transparente e não pode ser aceite."
 		"DOTA_TalentContent_RejectReason_PhotoBadCrop"					"A tua fotografia deve ser tipo passe (só rosto e peito). Consulta as diretrizes em https://www.dota2.com/portraitguidelines"
 		"DOTA_TalentContent_RejectReason_PhotoBadQuality"				"A tua fotografia não obedece às diretrizes de qualidade, que estão disponíveis em https://www.dota2.com/portraitguidelines"
