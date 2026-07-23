@@ -1,7 +1,7 @@
 {
   "version": 1,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-23T04:50:17Z",
+  "generatedAt": "2026-07-23T04:53:39Z",
   "assets": {
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
@@ -1106,6 +1106,10 @@
     "Assets/models/Razor/adder.zip": {
       "sha256": "3603E8AE085F26E9D76903C7015FDF709E626B723C7881938B3EF3520A46AD43",
       "size": 355425
+    },
+    "Assets/models/Razor/arcana.zip": {
+      "sha256": "85EC28810A62F9EDE9138B2C3C31FA355EC7677AEEEF55A90817AFECEEE1350B",
+      "size": 763122
     },
     "Assets/models/Razor/base_arcana_1.zip": {
       "sha256": "8A21E7047E5DE17CD9E33A51D3ED7CB09014814A6D46C68E016CA4CF3E85CB8B",
