@@ -1,0 +1,188 @@
+﻿"179"
+{
+	"name"		"Gyrocopter's Homing Missile"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+	"image_inventory"		"econ/items/gyrocopter/gyro_ti10_immortal_missile/gyro_ti10_immortal_missile1"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_BUSTER_of_the_Crimson_Witness"
+	"item_rarity"		"immortal"
+	"item_slot"		"offhand_weapon"
+	"item_type_name"		"#DOTA_WearableType_Offhand_Weapon"
+	"match_cycle_to_parent"		"1"
+	"model_player"		"models/heroes/gyro/gyro_missile.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"207.298035 5.290609 285.804657"
+			"PortraitLightAngles"		"138.598022 355.198975 0.000000"
+			"PortraitLightFOV"		"67"
+			"PortraitLightDistance"		"300"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor3"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.276000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"86.060 83.640 -38.760"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"307.335388 -189.416031 292.707428"
+					"PortraitAngles"		"24.389641 142.470703 0.000000"
+					"PortraitFOV"		"24"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_gyrocopter"		"1"
+	}
+	"static_attributes"
+	{
+		"can_equip_as_ability_effects"		"2"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti10"
+		}
+		"asset_modifier"
+		{
+			"type"		"entity_model"
+			"asset"		"npc_dota_gyrocopter_homing_missile"
+			"modifier"		"models/items/gyrocopter/gyro_ti10_immortal_missile/gyro_ti10_immortal_missile.vmdl"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"gyrocopter_homing_missile"
+			"modifier"		"gyrocopter/gyro_ti10_immortal_ability_icon/gyro_ti10_immortal_missile_crimson"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Gyrocopter.HomingMissile"
+			"modifier"		"Hero_Gyrocopter.HomingMissile.TI10"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"sound"
+			"asset"		"Hero_Gyrocopter.HomingMissile.Enemy"
+			"modifier"		"Hero_Gyrocopter.HomingMissile.Enemy.TI10"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_ti10_immortal_missile/gyro_ti10_immortal_ambient_crimson.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_gyrocopter/gyro_guided_missile.vpcf"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_ti10_immortal_missile/gyro_ti10_immortal_crimson_missile.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_gyrocopter/gyro_guided_missile_target.vpcf"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_ti10_immortal_missile/gyro_ti10_immortal_missile_target_crimson.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_gyrocopter/gyro_homing_missile_fuse.vpcf"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_ti10_immortal_missile/gyro_ti10_immortal_missle_fuse_crimson.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_gyrocopter/gyro_guided_missile_explosion.vpcf"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_ti10_immortal_missile/gyro_ti10_immortal_crimson_missile_explosion.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"2"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_game"
+			"asset"		"models/heroes/gyro/gyro_missile.vmdl"
+			"modifier"
+			{
+				"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+				"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+				"PortraitLightFOV"		"120.000000"
+				"PortraitLightDistance"		"336.000000"
+				"PortraitLightColor"		"254 248 242"
+				"PortraitLightScale"		"2.000000"
+				"PortraitShadowColor"		"74 74 74"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"1.500000"
+				"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+				"PortraitAmbientColor"		"79 108 108"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"251 74 84"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_light.vmat"
+				"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"1.000000"
+				"PortraitPlayIdleExpression"		"0"
+				"PortraitHideHero"		"0"
+				"PortraitHideParticles"		"0"
+				"PortraitHideDropShadow"		"0"
+				"PortraitDesaturateParticles"		"0"
+				"PortraitDesaturateHero"		"1"
+				"cameras"
+				{
+					"Default"
+					{
+						"PortraitPosition"		"585.435730 159.927567 286.179138"
+						"PortraitAngles"		"14.090000 195.630127 0.000000"
+						"PortraitFOV"		"16.000000"
+						"PortraitFar"		"1000.000000"
+					}
+				}
+			}
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}

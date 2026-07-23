@@ -1097,7 +1097,39 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
-      ]
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Gyrocopter/arcane.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Gyrocopter/arcane.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Gyrocopter/hunter.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Gyrocopter/hunter.png"
+      ],
+      "Set 3": {
+        "styles": {
+          "item_offhand_buster": [
+            "https://cdn.ardysamods.my.id/Assets/models/Gyrocopter/item_offhand_buster/item_offhand_buster.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Gyrocopter/item_offhand_buster/item_offhand_buster.png"
+          ],
+          "item_offhand_buster_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Gyrocopter/item_offhand_buster/item_offhand_buster_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Gyrocopter/item_offhand_buster/item_offhand_buster_crimson.png"
+          ]
+        }
+      },
+      "Set 4": {
+        "styles": {
+          "item_weapon_ray": [
+            "https://cdn.ardysamods.my.id/Assets/models/Gyrocopter/item_weapon_ray/item_weapon_ray.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Gyrocopter/item_weapon_ray/item_weapon_ray.png"
+          ],
+          "item_weapon_ray_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Gyrocopter/item_weapon_ray/item_weapon_ray_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Gyrocopter/item_weapon_ray/item_weapon_ray_golden.png"
+          ]
+        }
+      }
     }
   },
   {

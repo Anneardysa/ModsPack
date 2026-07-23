@@ -5,8 +5,7 @@
 # =============================================================================
 # Local Development / Scripts
 # =============================================================================
-# Local sync scripts (contain local paths)
-sync-to-r2.ps1
+# Local sync script moved to scripts/sync/sync-to-r2.ps1 (ignored by the scripts/ rule below).
 
 # rclone configuration (contains secrets)
 rclone.conf
@@ -65,7 +64,9 @@ venv/
 *.old
 *_backup/
 .train
-scripts
+
+# All local tooling under scripts/ is ignored (nothing here is tracked).
+scripts/
 
 # Plaintext backup of assets made by encrypt-assets.ps1 before in-place encryption.
 # Keep locally (encryption is one-way without the secret); never commit or upload.

@@ -47,10 +47,10 @@ acl = public-read
 
 ```powershell
 # Dry run (preview)
-.\sync-to-r2.ps1 -DryRun
+.\scripts\sync\sync-to-r2.ps1 -DryRun
 
 # Actual sync
-.\sync-to-r2.ps1
+.\scripts\sync\sync-to-r2.ps1
 ```
 
 ## 4. GitHub Actions Setup (Auto-sync)

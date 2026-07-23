@@ -1,0 +1,521 @@
+﻿"126"
+{
+	"name"		"Arcane Inverter - Back"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_SPRING_2021"
+	"image_inventory"		"econ/items/gyrocopter/thunderbolt_quadcopter_back/thunderbolt_quadcopter_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Arcane_Inverter__Back"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_back"
+	"model_player"		"models/heroes/gyro/gyro_bottles.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"49.680000 -59.250000 346.690002"
+			"PortraitLightAngles"		"110.059998 332.649994 0.000000"
+			"PortraitLightFOV"		"67"
+			"PortraitLightDistance"		"300"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor3"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"86.060 83.640 -38.760"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"-207.821182 151.460815 323.539368"
+					"PortraitAngles"		"29.597168 319.114380 0.000000"
+					"PortraitFOV"		"67"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"giftable"
+		{
+			"attribute_class"		"giftable"
+			"value"		"0"
+		}
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_gyrocopter"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_gyrocopter/gyro_ambient.vpcf"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_quadcopter/gyro_quadcopter_null.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_quadcopter/gyro_quadcopter_back.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"131"
+{
+	"name"		"Gyrocopter's head"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Gyrocopters_head"
+	"item_slot"		"body_head"
+	"item_type_name"		"#DOTA_WearableType_Body_Head"
+	"model_player"		"models/heroes/gyro/gyro_head.vmdl"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_gyrocopter"		"1"
+	}
+}
+
+"176"
+{
+	"name"		"Arcane Inverter - Head"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_SPRING_2021"
+	"image_inventory"		"econ/items/gyrocopter/thunderbolt_quadcopter_head/thunderbolt_quadcopter_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Arcane_Inverter__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_head"
+	"model_player"		"models/heroes/gyro/gyro_goggles.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"49.680000 -59.250000 346.690002"
+			"PortraitLightAngles"		"110.059998 332.649994 0.000000"
+			"PortraitLightFOV"		"67"
+			"PortraitLightDistance"		"300"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor3"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"86.060 83.640 -38.760"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"174.794098 -115.610046 285.888824"
+					"PortraitAngles"		"12.826538 140.136108 0.000000"
+					"PortraitFOV"		"18"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"giftable"
+		{
+			"attribute_class"		"giftable"
+			"value"		"0"
+		}
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_gyrocopter"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"177"
+{
+	"name"		"Arcane Inverter - Weapon"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_SPRING_2021"
+	"image_inventory"		"econ/items/gyrocopter/thunderbolt_quadcopter_weapon/thunderbolt_quadcopter_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Arcane_Inverter__Weapon"
+	"item_rarity"		"mythical"
+	"item_type_name"		"#DOTA_WearableType_weapon"
+	"model_player"		"models/heroes/gyro/gyro_guns.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"207.730927 -60.226429 231.629807"
+			"PortraitLightAngles"		"14.886475 162.388916 0.000000"
+			"PortraitLightFOV"		"67"
+			"PortraitLightDistance"		"300"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor3"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"86.060 83.640 -38.760"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"248.124405 -199.124542 348.017395"
+					"PortraitAngles"		"23.181152 140.998535 0.000000"
+					"PortraitFOV"		"42"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"static_attributes"
+	{
+		"giftable"
+		{
+			"attribute_class"		"giftable"
+			"value"		"0"
+		}
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_gyrocopter"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_quadcopter/gyro_quadcopter_weapon.vpcf"
+		}
+		"skip_model_combine"		"1"
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"178"
+{
+	"name"		"Arcane Inverter - Misc"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_SPRING_2021"
+	"image_inventory"		"econ/items/gyrocopter/thunderbolt_quadcopter_misc/thunderbolt_quadcopter_misc"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Arcane_Inverter__Misc"
+	"item_rarity"		"mythical"
+	"item_slot"		"misc"
+	"item_type_name"		"#DOTA_WearableType_misc"
+	"model_player"		"models/heroes/gyro/gyro_propeller.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"207.730927 -60.226429 231.629807"
+			"PortraitLightAngles"		"14.886475 162.388916 0.000000"
+			"PortraitLightFOV"		"67"
+			"PortraitLightDistance"		"300"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor3"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"86.060 83.640 -38.760"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"231.364563 97.208946 230.589340"
+					"PortraitAngles"		"3.751833 215.870361 0.000000"
+					"PortraitFOV"		"52"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"static_attributes"
+	{
+		"giftable"
+		{
+			"attribute_class"		"giftable"
+			"value"		"0"
+		}
+		"cannot trade"
+		{
+			"attribute_class"		"cannot_trade"
+			"value"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_gyrocopter"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_quadcopter/gyro_quadcopter_misc.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"179"
+{
+	"name"		"Arcane Inverter - Missile"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_SPRING_2021"
+	"image_inventory"		"econ/items/gyrocopter/thunderbolt_quadcopter_off_hand/thunderbolt_quadcopter_off_hand"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Arcane_Inverter__Missile"
+	"item_rarity"		"mythical"
+	"item_slot"		"offhand_weapon"
+	"model_player"		"models/heroes/gyro/gyro_missile.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"207.298035 5.290609 285.804657"
+			"PortraitLightAngles"		"138.598022 355.198975 0.000000"
+			"PortraitLightFOV"		"67"
+			"PortraitLightDistance"		"300"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.000000"
+			"PortraitBackgroundColor3"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.279570"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"86.060 83.640 -38.760"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"307.335388 -189.416031 292.707428"
+					"PortraitAngles"		"24.389641 142.470703 0.000000"
+					"PortraitFOV"		"24"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_gyrocopter"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_quadcopter/gyro_quadcopter_bomb.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"entity_model"
+			"asset"		"npc_dota_gyrocopter_homing_missile"
+			"modifier"		"models/items/gyrocopter/thunderbolt_quadcopter_off_hand/thunderbolt_quadcopter_off_hand.vmdl"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_gyrocopter/gyro_guided_missile.vpcf"
+			"modifier"		"particles/econ/items/gyrocopter/gyro_quadcopter/gyro_quadcopter_missile.vpcf"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
+
+"822"
+{
+	"name"		"Gyrocopter's Side Gunner"
+	"prefab"		"default_item"
+	"creation_date"		"2025-05-05"
+	"image_inventory"		"econ/heroes/gyro/gyro_side_gunner"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Gyrocopters_Side_Gunner"
+	"item_slot"		"ability3"
+	"item_type_name"		"#DOTA_WearableType_Side_Gunner"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"327.674194 272.933594 157.607635"
+					"PortraitAngles"		"20.438234 219.497040 0.000000"
+					"PortraitFOV"		"23.784000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitLightPosition"		"348.913757 241.956390 193.055084"
+			"PortraitLightAngles"		"17.732515 -142.471756 -15.380903"
+			"PortraitLightFOV"		"80.848999"
+			"PortraitLightDistance"		"511.480011"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2.485000"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_gyrocopter"		"1"
+	}
+}
+

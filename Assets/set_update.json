@@ -1,7 +1,28 @@
 {
-  "version": "1.0.68",
-  "lastUpdated": "2026-07-15",
+  "version": "1.0.69",
+  "lastUpdated": "2026-07-23",
   "updates": [
+    {
+      "date": "2026-07-23",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_gyrocopter",
+          "setName": "Set 4 (item_weapon_ray)"
+        },
+        {
+          "heroId": "npc_dota_hero_gyrocopter",
+          "setName": "Set 3 (item_offhand_buster)"
+        },
+        {
+          "heroId": "npc_dota_hero_gyrocopter",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_gyrocopter",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-07-15",
       "sets": [
