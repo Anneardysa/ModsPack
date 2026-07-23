@@ -3647,6 +3647,38 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tusk/brigadier.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tusk/brigadier.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tusk/expeditionary.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tusk/expeditionary.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tusk/guarded.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tusk/guarded.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tusk/item_arm_jingle.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tusk/item_arm_jingle.png"
+      ],
+      "Set 5": {
+        "styles": {
+          "item_arm_piscean": [
+            "https://cdn.ardysamods.my.id/Assets/models/Tusk/item_arm_piscean/item_arm_piscean.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Tusk/item_arm_piscean/item_arm_piscean.png"
+          ],
+          "item_arm_piscean_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Tusk/item_arm_piscean/item_arm_piscean_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Tusk/item_arm_piscean/item_arm_piscean_golden.png"
+          ]
+        }
+      },
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Tusk/item_back_whisky.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Tusk/item_back_whisky.png"
       ]
     }
   },

@@ -1,0 +1,101 @@
+﻿"413"
+{
+	"name"		"Tusk's Armored Glove"
+	"prefab"		"default_item"
+	"creation_date"		"2023-11-06"
+	"event_id"		"EVENT_ID_FROSTIVUS_2023"
+	"image_inventory"		"econ/items/tuskarr/tusk_2023_winter_glove/tusk_2023_winter_glove"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Jingle_Fist"
+	"item_rarity"		"immortal"
+	"item_slot"		"arms"
+	"model_player"		"models/heroes/tuskarr/tusk_armor_glove.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"384.644348 45.615433 192.891724"
+					"PortraitAngles"		"19.561363 181.791306 -10.003052"
+					"PortraitFOV"		"23.250000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"PortraitLightPosition"		"84.996895 136.859177 237.172058"
+			"PortraitLightAngles"		"58.791473 -118.646729 167.070938"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"430.089996"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitLightScale"		"1.750000"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"0.621 -0.552 -0.557"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"6.430000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.900000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_tusk/portrait_tusk.vpcf"
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_tusk"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_tusk/tusk_walruspunch_txt_ult.vpcf"
+			"modifier"		"kisilev_ind/particles/tuskarr/tusk_frostivuspunch/tusk_frostivuspunch_txt_ult.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/tuskarr/tusk_frostivus_2023/tusk_frostivus_2023_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"tusk_walrus_punch"
+			"modifier"		"tusk_frostivus_punch"
+		}
+		"asset_modifier0"
+		{
+			"type"		"particle_create"
+			"modifier"		""
+		}
+	}
+}
