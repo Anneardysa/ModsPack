@@ -1,0 +1,107 @@
+﻿"572"
+{
+	"name"		"Lion's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2019-07-04"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+	"image_inventory"		"econ/items/lion/lion_ti9_immortal_head/lion_ti9_immortal_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Horns_of_the_Betrayer"
+	"item_rarity"		"immortal"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lion/lion_spell_impale.vpcf"
+			"modifier"		"kisilev_ind/particles/lion/lion_ti9/lion_spell_impale_ti9.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lion/lion_spell_impale_hit_spikes.vpcf"
+			"modifier"		"particles/econ/items/lion/lion_ti9/lion_spell_impale_hit_ti9_spikes.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lion/lion_spell_impale_ground.vpcf"
+			"modifier"		"particles/econ/items/lion/lion_ti9/lion_spell_impale_ground_ti9.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"kisilev_ind/particles/lion/lion_ti9/lion_ti9_head_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti9"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"lion_impale"
+			"modifier"		"lion/ti9_immortal_head/lion_impale_immortal"
+			"apply_when_equipped_in_ability_effects_slot"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"portrait_game"
+			"asset"		"models/heroes/lion/lion.vmdl"
+			"modifier"
+			{
+				"PortraitLightPosition"		"101.978226 -316.513336 382.743958"
+				"PortraitLightAngles"		"39.673519 106.417877 -9.931512"
+				"PortraitLightFOV"		"64"
+				"PortraitLightDistance"		"567.200012"
+				"PortraitLightColor"		"254 168 0"
+				"PortraitShadowColor"		"63 48 48"
+				"PortraitShadowScale"		"5"
+				"PortraitAmbientColor"		"129 136 151"
+				"PortraitAmbientScale"		"1"
+				"PortraitSpecularColor"		"251 74 84"
+				"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_gradient_btm.vmat"
+				"PortraitBackgroundColor1"		"0.431373 0.172549 0.000000"
+				"PortraitBackgroundColor2"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor3"		"0.086275 0.023529 0.000000"
+				"PortraitBackgroundColor4"		"0.411765 0.196078 0.000000"
+				"PortraitLightScale"		"2"
+				"PortraitGroundShadowScale"		"1.500000"
+				"PortraitAmbientDirection"		"-12.930 26.190 -2.240"
+				"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+				"cameras"
+				{
+					"default"
+					{
+						"PortraitPosition"		"330.712372 86.771683 202.969513"
+						"PortraitAngles"		"2.684630 196.906433 0.000000"
+						"PortraitFOV"		"16"
+						"PortraitFar"		"1000"
+					}
+				}
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16"
+				"PortraitAnimationCycle"		"0"
+				"PortraitAnimationRate"		"1"
+				"PortraitHideHero"		"0"
+				"PortraitHideParticles"		"0"
+				"PortraitHideDropShadow"		"0"
+				"PortraitDesaturateParticles"		"0"
+				"PortraitDesaturateHero"		"1"
+			}
+		}
+	}
+}

@@ -1676,6 +1676,70 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lion/cannonroar.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lion/cannonroar.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lion/chimera.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lion/chimera.png"
+      ],
+      "Set 3": {
+        "styles": {
+          "item_arm_anathema": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lion/item_arm_anathema/item_arm_anathema.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lion/item_arm_anathema/item_arm_anathema.png"
+          ],
+          "item_arm_anathema_alt": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lion/item_arm_anathema/item_arm_anathema_alt.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lion/item_arm_anathema/item_arm_anathema_alt.png"
+          ],
+          "item_arm_anathema_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lion/item_arm_anathema/item_arm_anathema_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lion/item_arm_anathema/item_arm_anathema_crimson.png"
+          ]
+        }
+      },
+      "Set 4": {
+        "styles": {
+          "item_back_mulctant": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lion/item_back_mulctant/item_back_mulctant.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lion/item_back_mulctant/item_back_mulctant.png"
+          ],
+          "item_back_mulctant_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lion/item_back_mulctant/item_back_mulctant_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lion/item_back_mulctant/item_back_mulctant_crimson.png"
+          ],
+          "item_back_mulctant_tyrant": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lion/item_back_mulctant/item_back_mulctant_tyrant.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lion/item_back_mulctant/item_back_mulctant_tyrant.png"
+          ]
+        }
+      },
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lion/item_head_horn.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lion/item_head_horn.png"
+      ],
+      "Set 6": {
+        "styles": {
+          "item_weapon_charm": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lion/item_weapon_charm/item_weapon_charm.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lion/item_weapon_charm/item_weapon_charm.png"
+          ],
+          "item_weapon_charm_revival": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lion/item_weapon_charm/item_weapon_charm_revival.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lion/item_weapon_charm/item_weapon_charm_revival.png"
+          ],
+          "item_weapon_charm_revival_alt": [
+            "https://cdn.ardysamods.my.id/Assets/models/Lion/item_weapon_charm/item_weapon_charm_revival_alt.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Lion/item_weapon_charm/item_weapon_charm_revival_alt.png"
+          ]
+        }
+      },
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Lion/supreme.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Lion/supreme.png"
       ]
     }
   },

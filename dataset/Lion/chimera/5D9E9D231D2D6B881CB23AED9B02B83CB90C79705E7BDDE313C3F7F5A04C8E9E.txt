@@ -1,0 +1,382 @@
+﻿"365"
+{
+	"name"		"Lion's Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2024-10-01"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/lion/lion_hellspawn_chimera_weapon/lion_hellspawn_chimera_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Caprine_Chimera__Weapon"
+	"item_rarity"		"mythical"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/lion/lion_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"122.250648 -81.651443 169.447906"
+			"PortraitLightAngles"		"49.520000 126.070000 0.000000"
+			"PortraitLightFOV"		"58"
+			"PortraitLightDistance"		"148"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.725000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.300000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"1.000000 0.300000 0.300000"
+			"PortraitBackgroundColor4"		"1.000000 0.200000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_RUN"
+			"PortraitAnimationCycle"		"0.840000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-9.030 40.530 42.700"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"108.118126 -229.565323 254.707581"
+					"PortraitAngles"		"38.298340 99.915161 355.858154"
+					"PortraitFOV"		"31"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lion/lion_2024_chimera_weapon/lion_2024_chimera_weapon_ambient.vpcf"
+		}
+	}
+}
+
+"366"
+{
+	"name"		"Lion's Cape"
+	"prefab"		"default_item"
+	"creation_date"		"2024-10-01"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/lion/lion_hellspawn_chimera_back/lion_hellspawn_chimera_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Caprine_Chimera__Back"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/lion/lion_cape.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"116.608223 -39.271309 198.093063"
+			"PortraitLightAngles"		"24.169922 163.333740 0.000000"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"148"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.725000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.300000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"1.000000 0.300000 0.300000"
+			"PortraitBackgroundColor4"		"1.000000 0.200000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-9.030 40.530 42.700"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"151.647171 -91.527916 166.447952"
+					"PortraitAngles"		"6.981812 149.831543 0.000000"
+					"PortraitFOV"		"49"
+					"PortraitFar"		"237"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+	}
+}
+
+"368"
+{
+	"name"		"Lion's Shoulders"
+	"prefab"		"default_item"
+	"creation_date"		"2024-10-01"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/lion/lion_hellspawn_chimera_shoulder/lion_hellspawn_chimera_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Caprine_Chimera__Shoulder"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/lion/lion_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"116.608223 -39.271309 198.093063"
+			"PortraitLightAngles"		"24.169922 163.333740 0.000000"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"148"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.725000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.300000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"1.000000 0.300000 0.300000"
+			"PortraitBackgroundColor4"		"1.000000 0.200000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-9.030 40.530 42.700"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"152.779846 -91.744232 167.988525"
+					"PortraitAngles"		"5.993042 151.292725 0.000000"
+					"PortraitFOV"		"46"
+					"PortraitFar"		"245"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lion/lion_2024_chimera_shoulder/lion_2024_chimera_shoulder_ambient.vpcf"
+		}
+	}
+}
+
+"369"
+{
+	"name"		"Lion's Demon Arm"
+	"prefab"		"default_item"
+	"creation_date"		"2024-10-01"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/lion/lion_hellspawn_chimera_arms/lion_hellspawn_chimera_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Caprine_Chimera__Arms"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/lion/lion_demonarm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"123.649033 4.270319 150.146118"
+			"PortraitLightAngles"		"37.941284 160.988159 0.000000"
+			"PortraitLightFOV"		"46"
+			"PortraitLightDistance"		"148"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.725000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.300000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"1.000000 0.300000 0.300000"
+			"PortraitBackgroundColor4"		"1.000000 0.200000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-9.030 40.530 42.700"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"298.390533 74.540817 149.132477"
+					"PortraitAngles"		"16.759644 187.926636 -4.707642"
+					"PortraitFOV"		"34"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+	}
+}
+
+"572"
+{
+	"name"		"Lion's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2024-10-01"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/lion/lion_hellspawn_chimera_wearable/lion_hellspawn_chimera_wearable"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Caprine_Chimera__Wearable"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"portraits"
+	{
+		"icon"
+		{
+			"cameras"
+			{
+				"Default"
+				{
+					"PortraitPosition"		"582.161133 95.238747 148.551849"
+					"PortraitAngles"		"358.490021 190.030273 0.000000"
+					"PortraitFOV"		"16"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+			"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+			"PortraitLightFOV"		"120"
+			"PortraitLightDistance"		"336"
+			"PortraitLightColor"		"254 248 242"
+			"PortraitLightScale"		"2"
+			"PortraitShadowColor"		"74 74 74"
+			"PortraitShadowScale"		"1"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+			"PortraitAmbientColor"		"79 108 108"
+			"PortraitAmbientScale"		"1"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"1"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"static_attributes"
+	{
+		"cannot trade"		"1"
+		"not marketable"		"1"
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lion/lion_2024_chimera_head/lion_2024_chimera_head_ambient.vpcf"
+		}
+	}
+}
+

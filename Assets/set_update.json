@@ -1,7 +1,48 @@
 {
-  "version": "1.0.75",
-  "lastUpdated": "2026-07-23",
+  "version": "1.0.77",
+  "lastUpdated": "2026-07-30",
   "updates": [
+    {
+      "date": "2026-07-30",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 3 (item_arm_anathema_crimson)"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 3 (item_arm_anathema_alt)"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 6 (item_weapon_charm)"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 4 (item_back_mulctant)"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 3 (item_arm_anathema)"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-07-23",
       "sets": [

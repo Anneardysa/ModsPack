@@ -1,0 +1,155 @@
+﻿"369"
+{
+	"name"		"Lion's Demon Arm"
+	"prefab"		"default_item"
+	"creation_date"		"2018-03-20"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2018"
+	"image_inventory"		"econ/items/lion/lion_ti8_arm/lion_ti8_arm"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_HellSpar_Anathema"
+	"item_rarity"		"immortal"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_Arms"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/lion/lion_demonarm.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"123.649033 114.249260 277.839966"
+			"PortraitLightAngles"		"56.323864 -142.984634 30.024887"
+			"PortraitLightFOV"		"82.396004"
+			"PortraitLightDistance"		"431.880005"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"83 87 97"
+			"PortraitShadowScale"		"2.728000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.725000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.300000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"1.000000 0.300000 0.300000"
+			"PortraitBackgroundColor4"		"1.000000 0.200000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1"
+			"PortraitAmbientDirection"		"-9.030 40.530 42.700"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"393.655579 106.057487 74.852997"
+					"PortraitAngles"		"358.504669 192.402191 0.000000"
+					"PortraitFOV"		"27.700001"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitVignetteItem"		"0"
+		}
+	}
+	"static_attributes"
+	{
+		"international tag"
+		{
+			"attribute_class"		"international_tag"
+			"value"		"2018"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lion/lion_spell_finger_of_death.vpcf"
+			"modifier"		"particles/econ/items/lion/lion_ti8/lion_spell_finger_ti8.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"4"
+		}
+		"asset_modifier"
+		{
+			"type"		"custom_kill_effect"
+			"asset"		"kill"
+			"modifier"		"modifier_lion_arcana_kill_effect"
+			"apply_when_equipped_in_ability_effects_slot"		"4"
+		}
+		"asset_modifier"
+		{
+			"type"		"arcana_level"
+			"level"		"1"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ALL"
+			"modifier"		"ti8_immortal"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lion/lion_ti8/lion_ti8_arm_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lion/lion_spell_finger_of_death_charge.vpcf"
+			"modifier"		"particles/econ/items/lion/lion_ti8/lion_spell_finger_of_death_charge_ti8.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"4"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lion/lion_spell_finger_of_death_proxy.vpcf"
+			"modifier"		"particles/econ/items/lion/lion_ti8/lion_spell_finger_death_arcana.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"4"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lion/lion_spell_finger_of_death_overhead.vpcf"
+			"modifier"		"particles/econ/items/lion/lion_ti8/lion_spell_finger_of_death_overhead_ti8.vpcf"
+			"apply_when_equipped_in_ability_effects_slot"		"4"
+		}
+		"asset_modifier"
+		{
+			"type"		"activity"
+			"asset"		"ACT_DOTA_CAPTURE"
+			"modifier"		"ti8_style_1"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_lion/lion_spell_finger_of_death_overhead_counter.vpcf"
+			"modifier"		"particles/econ/items/lion/lion_ti8/lion_spell_finger_of_death_overhead_ti8_counter.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"ability_icon"
+			"asset"		"lion_finger_of_death"
+			"modifier"		"lion/finger_of_death/lion_finger_of_death_immortal"
+			"apply_when_equipped_in_ability_effects_slot"		"4"
+		}
+	}
+}

@@ -1,0 +1,290 @@
+﻿"365"
+{
+	"name"		"Lion's Weapon"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/lion/dota_plus_lion_weapon/dota_plus_lion_weapon"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Scepter_of_the_Witch_Supreme"
+	"item_rarity"		"mythical"
+	"item_type_name"		"#DOTA_WearableType_weapon"
+	"model_player"		"models/items/lion/dota_plus_lion_weapon/dota_plus_lion_weapon.vmdl"
+	"particle_folder"		"particles/econ/items/lion/lion_dota_plus"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"-30.898520 -175.823166 188.609680"
+			"PortraitLightAngles"		"38.825684 64.583130 331.419067"
+			"PortraitLightFOV"		"64"
+			"PortraitLightDistance"		"120"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"5"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.500000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 0.500000 0.000000"
+			"PortraitBackgroundColor3"		"1.000000 0.300000 0.000000"
+			"PortraitBackgroundColor4"		"1.000000 0.500000 0.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-12.930 26.190 -2.240"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"124.025230 -205.812180 233.908844"
+					"PortraitAngles"		"43.593750 124.513550 358.450928"
+					"PortraitFOV"		"41"
+					"PortraitFar"		"274"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lion/lion_dota_plus/lion_dota_plus_weapon.vpcf"
+		}
+	}
+}
+
+"366"
+{
+	"name"		"Pendant of the Witch Supreme"
+	"prefab"		"default_item"
+	"image_inventory"		"econ/items/lion/dota_plus_lion_back/dota_plus_lion_back"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Pendant_of_the_Witch_Supreme"
+	"item_rarity"		"mythical"
+	"item_slot"		"back"
+	"item_type_name"		"#DOTA_WearableType_back"
+	"model_player"		"models/heroes/lion/lion_cape.vmdl"
+	"particle_folder"		"particles/econ/items/lion/lion_dota_plus"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"116.608223 -39.271309 198.093063"
+			"PortraitLightAngles"		"24.169922 163.333740 0.000000"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"148"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.725000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.300000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"1.000000 0.300000 0.300000"
+			"PortraitBackgroundColor4"		"1.000000 0.200000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-9.030 40.530 42.700"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"151.647171 -91.527916 166.447952"
+					"PortraitAngles"		"6.981812 149.831543 0.000000"
+					"PortraitFOV"		"49"
+					"PortraitFar"		"237"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lion/lion_dota_plus/lion_dota_plus_back.vpcf"
+		}
+	}
+}
+
+"368"
+{
+	"name"		"Adornments of the Witch Supreme"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_NONE"
+	"image_inventory"		"econ/items/lion/dota_plus_lion_shoulder/dota_plus_lion_shoulder"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Adornments_of_the_Witch_Supreme"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"item_type_name"		"#DOTA_WearableType_Shoulder"
+	"model_player"		"models/heroes/lion/lion_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"116.608223 -39.271309 198.093063"
+			"PortraitLightAngles"		"24.169922 163.333740 0.000000"
+			"PortraitLightFOV"		"53"
+			"PortraitLightDistance"		"148"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.725000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.300000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"1.000000 0.300000 0.300000"
+			"PortraitBackgroundColor4"		"1.000000 0.200000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-9.030 40.530 42.700"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"152.779846 -91.744232 167.988525"
+					"PortraitAngles"		"5.993042 151.292725 0.000000"
+					"PortraitFOV"		"46"
+					"PortraitFar"		"245"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+	}
+}
+
+"369"
+{
+	"name"		"Lion's Demon Arm"
+	"prefab"		"default_item"
+	"event_id"		"EVENT_ID_INTERNATIONAL_2018"
+	"image_inventory"		"econ/items/lion/dota_plus_lion_arms/dota_plus_lion_arms"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Left_Hand_of_the_Witch_Supreme"
+	"item_rarity"		"mythical"
+	"item_slot"		"arms"
+	"item_type_name"		"#DOTA_WearableType_arms"
+	"model_player"		"models/items/lion/dota_plus_lion_arms/dota_plus_lion_arms.vmdl"
+	"particle_folder"		"particles/econ/items/lion/lion_dota_plus"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"123.649033 4.270319 150.146118"
+			"PortraitLightAngles"		"37.941284 160.988159 0.000000"
+			"PortraitLightFOV"		"46"
+			"PortraitLightDistance"		"148"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"2.100000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"2.725000"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 0.300000 0.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 0.200000"
+			"PortraitBackgroundColor3"		"1.000000 0.300000 0.300000"
+			"PortraitBackgroundColor4"		"1.000000 0.200000 0.100000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-9.030 40.530 42.700"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"256.750366 68.742912 140.674500"
+					"PortraitAngles"		"16.759644 187.926636 355.292358"
+					"PortraitFOV"		"34"
+					"PortraitFar"		"1000"
+				}
+			}
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/lion/lion_dota_plus/lion_dota_plus_arms.vpcf"
+		}
+	}
+}
+
+"572"
+{
+	"name"		"Lion's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2019-03-22"
+	"event_id"		"EVENT_ID_NONE"
+	"image_inventory"		"econ/items/lion/dota_plus_lion_head/dota_plus_lion_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Crown_of_the_Witch_Supreme"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"item_type_name"		"#DOTA_WearableType_Head"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_lion"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"kisilev_ind/particles/lion/lion_dota_plus/lion_dota_plus_head.vpcf"
+		}
+	}
+}
+
