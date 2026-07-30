@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 5,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-30T10:30:21Z",
+  "generatedAt": "2026-07-30T10:54:12Z",
   "assets": {
     "Assets/Original.zip": {
       "sha256": "6A2880C95E7A964B1BDDF4F5AC9F0D4181C1D4ECEF194EF87BB3F93A73A7C890",
@@ -751,11 +751,11 @@
       "sha256": "A658E85E599D552A908BA72C1640BC9EBF538BACB5DB040647264E6A88C0FFE5",
       "size": 376826
     },
-    "Assets/models/Lion/item_arm_anathema/item_offhand_anathema_alt.zip": {
+    "Assets/models/Lion/item_arm_anathema/item_arm_anathema_alt.zip": {
       "sha256": "A85A7AD7654495DF763E7BBF7B945059329A1568AAC31977DAA5B468222CF0C4",
       "size": 413693
     },
-    "Assets/models/Lion/item_arm_anathema/item_offhand_anathema_crimson.zip": {
+    "Assets/models/Lion/item_arm_anathema/item_arm_anathema_crimson.zip": {
       "sha256": "B50882A2D82939E4C545671B703C4343E6793B27FEE3FEACEFC2049E65AF711A",
       "size": 395504
     },
@@ -790,6 +790,42 @@
     "Assets/models/Lion/supreme.zip": {
       "sha256": "31F001B8F808ACBE14435600B1E9D252E9F3A3C56183C9044D745AA21F44AD62",
       "size": 2200720
+    },
+    "Assets/models/Luna/bloodmoon.zip": {
+      "sha256": "65AB2147AE0C9F596AA208B7382B9993F62E497601FE2191AF9587C30ECEC5D1",
+      "size": 580735
+    },
+    "Assets/models/Luna/item_offhand_moonfall/item_offhand_moonfall.zip": {
+      "sha256": "C629535413005869CF5779254C975D4FC62D2945341DF151A045EE6F2EED3C26",
+      "size": 54573
+    },
+    "Assets/models/Luna/item_offhand_moonfall/item_offhand_moonfall_golden.zip": {
+      "sha256": "CFA44A740EEBEFC76F45601018F58B3158842ADB545F5853A9100F70590BF587",
+      "size": 57881
+    },
+    "Assets/models/Luna/item_weapon_schism/item_weapon_schism.zip": {
+      "sha256": "5519F535B4BDE08E1D40D2E330B96D7237AFC025A62D752DD38470D7FC852A60",
+      "size": 263423
+    },
+    "Assets/models/Luna/item_weapon_schism/item_weapon_schism_crimson.zip": {
+      "sha256": "F532E38CFC35ED111A56CFD3FB3628F1D274CA93AF16053AED2F6C93F20E26F2",
+      "size": 210201
+    },
+    "Assets/models/Luna/item_weapon_schism/item_weapon_schism_golden.zip": {
+      "sha256": "E8C76E5BB4DA9F29D4193EF7C61EE3ECAC7EA55E5AEFF26EC3D0868B5FB3D31E",
+      "size": 262445
+    },
+    "Assets/models/Luna/leonid.zip": {
+      "sha256": "03AC0BD85C3CDC363AE3BB9678D4ABB2A067DC73EA58E8CD9DDF2041BCFCF97C",
+      "size": 14388453
+    },
+    "Assets/models/Luna/seeker.zip": {
+      "sha256": "A5D2852CCA21C676424A4892457FFCF8DBE160410D49A3951B4E1CD49B502BFC",
+      "size": 500192
+    },
+    "Assets/models/Luna/sentinel.zip": {
+      "sha256": "A5ACBF6A396C559D2E4153A088F5EC25C7979C9F84ECBC737EC355B328ECC79A",
+      "size": 470339
     },
     "Assets/models/Magnus/bore.zip": {
       "sha256": "433408502AF0188FF6A3279955B7EB36B68B2FF84D3B3C346D63419BAB81FE28",

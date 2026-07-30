@@ -1,0 +1,436 @@
+﻿"448"
+{
+	"name"		"Luna's Weapon"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/luna/servant_of_the_blood_moon_crescent_glaive/servant_of_the_blood_moon_crescent_glaive"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bloodmoon_Stalker__Crescent_Glaive"
+	"item_rarity"		"mythical"
+	"model_player"		"models/heroes/luna/luna_weapon.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"71.430000 -136.810089 208.339996"
+			"PortraitLightAngles"		"41.913151 122.161545 6.558103"
+			"PortraitLightFOV"		"64.070000"
+			"PortraitLightDistance"		"191.089996"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.300000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.200000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_luna/luna_portrait_glow.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"2.872000"
+			"PortraitAmbientDirection"		"-4.400 39.940 13.190"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"69.582687 -499.607330 274.936584"
+					"PortraitAngles"		"19.244446 95.702400 87.119995"
+					"PortraitFOV"		"17.643000"
+					"PortraitFar"		"1000"
+				}
+			}
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"1"
+			"PortraitDesaturateParticles"		"0"
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_luna"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"0"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/luna/servant_blood/servant_blood_weapon_ambient.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_luna/luna_moon_glaive_shield.vpcf"
+			"modifier"		"particles/econ/items/luna/servant_blood/servant_blood_glaive_shield.vpcf"
+		}
+		"asset_modifier"
+		{
+			"type"		"particle"
+			"asset"		"particles/units/heroes/hero_luna/luna_ambient_moon_glaive.vpcf"
+			"modifier"		"particles/econ/items/luna/servant_blood/servant_blood_moon_glaive.vpcf"
+		}
+	}
+}
+
+"449"
+{
+	"name"		"Luna's Shield"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/luna/servant_of_the_blood_moon_offhand/servant_of_the_blood_moon_offhand"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bloodmoon_Stalker__Offhand"
+	"item_rarity"		"mythical"
+	"item_slot"		"offhand_weapon"
+	"model_player"		"models/heroes/luna/luna_shield.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"71.430000 15.150000 208.339996"
+			"PortraitLightAngles"		"34.090000 196.630005 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"90"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.300000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.200000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_luna/luna_portrait_glow.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.400000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-4.400 39.940 13.190"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"1.569073 327.327667 176.223557"
+					"PortraitAngles"		"4.213257 274.334106 327.200317"
+					"PortraitFOV"		"21"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_luna"		"1"
+	}
+}
+
+"450"
+{
+	"name"		"Luna's Helmet"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/luna/servant_of_the_blood_moon_head/servant_of_the_blood_moon_head"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bloodmoon_Stalker__Head"
+	"item_rarity"		"mythical"
+	"item_slot"		"head"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/luna/luna_helmet.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"71.430000 15.150000 208.339996"
+			"PortraitLightAngles"		"34.090000 196.630005 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"90"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.300000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.200000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_luna/luna_portrait_glow.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.400000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-4.400 39.940 13.190"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"226.698883 -103.546234 170.110046"
+					"PortraitAngles"		"355.001221 152.572632 0.000000"
+					"PortraitFOV"		"20"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_luna"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+	}
+}
+
+"451"
+{
+	"name"		"Luna's Shoulder Armor"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/luna/servant_of_the_blood_moon_shoulders/servant_of_the_blood_moon_shoulders"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bloodmoon_Stalker__Shoulders"
+	"item_rarity"		"mythical"
+	"item_slot"		"shoulder"
+	"model_player"		"models/heroes/luna/luna_shoulder.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"71.430000 15.150000 208.339996"
+			"PortraitLightAngles"		"34.090000 196.630005 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"90"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.300000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.200000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_luna/luna_portrait_glow.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.300000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"0"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-4.400 39.940 13.190"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"168.276276 14.973252 174.323212"
+					"PortraitAngles"		"359.379272 186.795044 0.000000"
+					"PortraitFOV"		"25"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_luna"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+	}
+}
+
+"452"
+{
+	"name"		"Luna's Mount"
+	"prefab"		"default_item"
+	"creation_date"		"2024-07-09"
+	"event_id"		"EVENT_ID_CROWNFALL"
+	"image_inventory"		"econ/items/luna/servant_of_the_blood_moon_mount/servant_of_the_blood_moon_mount"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Bloodmoon_Stalker__Mount"
+	"item_rarity"		"mythical"
+	"item_slot"		"mount"
+	"match_cycle_to_parent"		"0"
+	"model_player"		"models/heroes/luna/luna_mount.vmdl"
+	"portraits"
+	{
+		"icon"
+		{
+			"PortraitLightPosition"		"71.430000 15.150000 208.339996"
+			"PortraitLightAngles"		"34.090000 196.630005 0.000000"
+			"PortraitLightFOV"		"51"
+			"PortraitLightDistance"		"90"
+			"PortraitLightColor"		"254 254 254"
+			"PortraitShadowColor"		"97 97 97"
+			"PortraitShadowScale"		"4.025000"
+			"PortraitGroundShadowScale"		"1.500000"
+			"PortraitAmbientColor"		"148 148 148"
+			"PortraitAmbientScale"		"5"
+			"PortraitSpecularColor"		"251 74 84"
+			"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+			"PortraitSpecularPower"		"16"
+			"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+			"PortraitBackgroundColor3"		"0.000000 0.300000 1.000000"
+			"PortraitBackgroundColor4"		"0.000000 0.200000 1.000000"
+			"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+			"PortraitParticle"		"particles/units/heroes/hero_luna/luna_portrait_glow.vpcf"
+			"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+			"PortraitAnimationCycle"		"0.300000"
+			"PortraitAnimationRate"		"0"
+			"PortraitHideHero"		"1"
+			"PortraitLightScale"		"1.750000"
+			"PortraitAmbientDirection"		"-4.400 39.940 13.190"
+			"cameras"
+			{
+				"default"
+				{
+					"PortraitPosition"		"514.300232 548.171143 88.460854"
+					"PortraitAngles"		"0.714111 227.960815 0.000000"
+					"PortraitFOV"		"25"
+					"PortraitFar"		"1000"
+				}
+			}
+			"hero_presets"
+			{
+				"Default"
+				{
+					"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+				}
+			}
+			"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+			"GodraysFXColor"		"1.000000 1.000000 1.000000"
+			"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+			"PortraitPlayIdleExpression"		"0"
+			"PortraitHideParticles"		"0"
+			"PortraitHideDropShadow"		"0"
+			"PortraitDesaturateParticles"		"0"
+			"PortraitDesaturateHero"		"1"
+			"PortraitVignetteItem"		"0"
+			"PortraitAllowAnimatedPortrait"		"1"
+		}
+	}
+	"used_by_heroes"
+	{
+		"npc_dota_hero_luna"		"1"
+	}
+	"visuals"
+	{
+		"skip_model_combine"		"1"
+		"asset_modifier"
+		{
+			"type"		"particle_create"
+			"modifier"		"particles/econ/items/luna/servant_blood/servant_blood_mount_ambient.vpcf"
+		}
+	}
+}
+
+"453"
+{
+	"name"		"Luna's Head"
+	"prefab"		"default_item"
+	"creation_date"		"2013-05-30"
+	"image_inventory"		"econ/testitem_slot_empty"
+	"item_description"		"This item has been modded to enhance your in-game experience. Please note that future game updates may affect functionality, so be sure to stay updated. For the latest patches, fixes, and improvements, visit my YouTube channel: youtube.com/@Ardysa. I regularly update and optimize mods to ensure they remain compatible with the newest game versions."
+	"item_name"		"#DOTA_Item_Lunas_Head"
+	"item_slot"		"body_head"
+	"item_type_name"		"#DOTA_WearableType_Body_Head"
+	"model_player"		"models/heroes/luna/luna_head.vmdl"
+	"used_by_heroes"
+	{
+		"npc_dota_hero_luna"		"1"
+	}
+}
+

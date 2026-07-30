@@ -1779,6 +1779,50 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Luna/bloodmoon.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Luna/bloodmoon.png"
+      ],
+      "Set 2": {
+        "styles": {
+          "item_offhand_moonfall": [
+            "https://cdn.ardysamods.my.id/Assets/models/Luna/item_offhand_moonfall/item_offhand_moonfall.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Luna/item_offhand_moonfall/item_offhand_moonfall.png"
+          ],
+          "item_offhand_moonfall_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Luna/item_offhand_moonfall/item_offhand_moonfall_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Luna/item_offhand_moonfall/item_offhand_moonfall_golden.png"
+          ]
+        }
+      },
+      "Set 3": {
+        "styles": {
+          "item_weapon_schism": [
+            "https://cdn.ardysamods.my.id/Assets/models/Luna/item_weapon_schism/item_weapon_schism.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Luna/item_weapon_schism/item_weapon_schism.png"
+          ],
+          "item_weapon_schism_crimson": [
+            "https://cdn.ardysamods.my.id/Assets/models/Luna/item_weapon_schism/item_weapon_schism_crimson.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Luna/item_weapon_schism/item_weapon_schism_crimson.png"
+          ],
+          "item_weapon_schism_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Luna/item_weapon_schism/item_weapon_schism_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Luna/item_weapon_schism/item_weapon_schism_golden.png"
+          ]
+        }
+      },
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Luna/leonid.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Luna/leonid.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Luna/seeker.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Luna/seeker.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Luna/sentinel.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Luna/sentinel.png"
       ]
     }
   },
