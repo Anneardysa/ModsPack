@@ -2313,20 +2313,16 @@
                     "url": "28139",
                     "styles": [
                         {
-                            "name": "Pandora the Packwyrm (Style 1)",
+                            "name": "Pandora the Packwyrm (Style 0)",
                             "url": "28139:0",
-                            "thumbnailId": "pandora_the_packwyrm"
+                            "thumbnailId": "pandora_the_packwyrm_style_0"
                         },
                         {
                             "name": "Pandora the Packwyrm (Style 1)",
                             "url": "28139:1",
-                            "thumbnailId": "pandora_the_packwyrm"
+                            "thumbnailId": "pandora_the_packwyrm_style_1"
                         }
                     ]
-                },
-                {
-                    "name": "Pandora The Packwyrm Style 0",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/courier/pandora_the_packwyrm_style_0.jpg"
                 },
                 {
                     "name": "Patch, Stash, and Hobb",
