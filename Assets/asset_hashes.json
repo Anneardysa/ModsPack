@@ -1,7 +1,7 @@
 {
-  "version": 5,
+  "version": 6,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-07-30T10:54:12Z",
+  "generatedAt": "2026-07-31T03:48:03Z",
   "assets": {
     "Assets/Original.zip": {
       "sha256": "6A2880C95E7A964B1BDDF4F5AC9F0D4181C1D4ECEF194EF87BB3F93A73A7C890",
@@ -46,6 +46,34 @@
     "Assets/misc/ancient/new_bloom.zip": {
       "sha256": "64A42D967252B0A31910BC8029D163C3C4A4ED67EA741241496E5091CDAA8A5A",
       "size": 6816805
+    },
+    "Assets/misc/announcer/axe.zip": {
+      "sha256": "8B085ADA55A8A8BFF27D26889D5B3C5A2DD1A6240FC6ABB7980E60ABB83AABFA",
+      "size": 7952558
+    },
+    "Assets/misc/announcer/bastion.zip": {
+      "sha256": "0FF25D75A8830DEBF3DF7E9888C407C6012093FDC2060839169ECD7D09664A61",
+      "size": 19766
+    },
+    "Assets/misc/announcer/bristleback.zip": {
+      "sha256": "984C6C58F24DA5352749E2A9B9A5C17A3AB6C1431FCC9C4218FB0C97E6299132",
+      "size": 2079667
+    },
+    "Assets/misc/announcer/clockwerk.zip": {
+      "sha256": "E918513DF6287EA992A6EB8241FF4C873FDB2ADE31D0574C8322D03711366523",
+      "size": 3831108
+    },
+    "Assets/misc/announcer/crystalmaiden.zip": {
+      "sha256": "40825BD59F8BAFB4FFFDE3782DD25CB1851E4B14656DFA528B7B4F1B32090247",
+      "size": 1716602
+    },
+    "Assets/misc/announcer/darkest.zip": {
+      "sha256": "35BC0900A08978FD26E2CC1C612EEFC6B21466117CC8D3C24A0B7F7C71EC5928",
+      "size": 4351
+    },
+    "Assets/misc/announcer/darkwillow.zip": {
+      "sha256": "75D160E19315288CCD657E9653553C08899FE02351A010F2A201A728D8CF653E",
+      "size": 4275
     },
     "Assets/misc/announcer/default.zip": {
       "sha256": "48B1F5AF76914ACFD8BEA3678676C2A1E9B8D084E2ECEE222E9EE2F846537456",
