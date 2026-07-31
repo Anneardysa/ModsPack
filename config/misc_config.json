@@ -223,34 +223,6 @@
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/default.zip"
                 },
                 {
-                    "name": "Axe",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/axe.zip"
-                },
-                {
-                    "name": "Bastion",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/bastion.zip"
-                },
-                {
-                    "name": "Bristleback",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/bristleback.zip"
-                },
-                {
-                    "name": "Clockwerk",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/clockwerk.zip"
-                },
-                {
-                    "name": "Crystal Maiden",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/crystalmaiden.zip"
-                },
-                {
-                    "name": "Darkest",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/darkest.zip"
-                },
-                {
-                    "name": "Darkwillow",
-                    "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/darkwillow.zip"
-                },
-                {
                     "name": "Rick and Morty",
                     "thumbnailId": "rickmorty",
                     "url": "https://cdn.ardysamods.my.id/Assets/misc/announcer/rickmorty.zip"
@@ -1455,8 +1427,7 @@
                     "styles": [
                         {
                             "name": "Beetlebark and Plod (Style 0)",
-                            "url": "12962:0",
-                            "thumbnailId": "beetlebark_and_plod"
+                            "url": "12962:0"
                         },
                         {
                             "name": "Beetlebark and Plod (Style 1)",
@@ -1534,8 +1505,7 @@
                     "styles": [
                         {
                             "name": "Brightskye (Style 0)",
-                            "url": "13775:0",
-                            "thumbnailId": "brightskye"
+                            "url": "13775:0"
                         },
                         {
                             "name": "Brightskye (Style 1)",
@@ -1645,8 +1615,7 @@
                 },
                 {
                     "name": "Dolfrat and Roshinante Scholar Edition",
-                    "url": "13122",
-                    "thumbnailId": "dolfrat_and_roshinante"
+                    "url": "13122"
                 },
                 {
                     "name": "Doomling",
@@ -1878,8 +1847,7 @@
                         },
                         {
                             "name": "Hermes the Hermit Crab (Style 9)",
-                            "url": "11997:9",
-                            "thumbnailId": "hermes_the_hermit_crab_style_8"
+                            "url": "11997:9"
                         }
                     ]
                 },
@@ -2215,8 +2183,7 @@
                         },
                         {
                             "name": "Onibi (Style 1)",
-                            "url": "11461:1",
-                            "thumbnailId": "onibi_style_0"
+                            "url": "11461:1"
                         },
                         {
                             "name": "Onibi (Style 2)",
@@ -2346,8 +2313,7 @@
                     "styles": [
                         {
                             "name": "Pouches (Style 0)",
-                            "url": "19004:0",
-                            "thumbnailId": "pouches"
+                            "url": "19004:0"
                         },
                         {
                             "name": "Pouches (Style 1)",
@@ -2453,8 +2419,7 @@
                 },
                 {
                     "name": "Shagbark the Plush",
-                    "url": "10475",
-                    "thumbnailId": "shagbark"
+                    "url": "10475"
                 },
                 {
                     "name": "Shroomy",
@@ -2512,8 +2477,7 @@
                 },
                 {
                     "name": "Snapjaw",
-                    "url": "10690",
-                    "thumbnailId": "genuine_snapjaw"
+                    "url": "10690"
                 },
                 {
                     "name": "Snelfret the Snail",
