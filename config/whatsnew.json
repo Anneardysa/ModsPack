@@ -1,5 +1,21 @@
 [
   {
+    "tag_name": "v2.2.19-beta",
+    "name": "v2.2.19-beta (Build 2280)",
+    "body": "# Release Notes — # v2.2.19-beta\r\n\r\n> Build **2253-2280**\r\n\r\nThe same update fixes something quieter but more important: those language files were only ever downloaded from one server. If it was slow, down, or blocked on your network, **every** language file failed and you got no translated names at all. They now use the same multi-server fallback the rest of the app already uses, so if one server is unreachable the next one takes over.\r\n\r\n---\r\n\r\n### 🛡️ Setup Verification & Mod Integrity\r\n\r\n* **Dota 2 Compatibility Panel:** Added a **Setup Verification** section to check game signature matching, mounted mod folders, and admin permissions before saying \"Ready\" (`#2266`).\r\n* **Admin Elevation Detection:** Added detection for active \"Run as Administrator\" Steam/Dota 2 processes that block mod loading (`#2267`).\r\n* **File Validation:** Added pre-install damage checks for Miscellaneous mods (`#2268`).\r\n* **Pre-Patch Safeguard:** Prevents generated sets from going missing in-game if **Patch Update** hasn't been run yet (`#2264`).\r\n\r\n### 🔄 Compatibility & Updates\r\n\r\n* **Version Gating:** Skin Selector & Miscellaneous features now check if AMT is up to date before running, preventing broken outputs (`#2268`).\r\n* **Direct Update Links:** Outdated or blocked features now link directly to the update prompt (`#2265`).\r\n\r\n### 🌐 Network & Offline Support\r\n\r\n* **Multi-Server Fallbacks:** Language files now cycle through mirrors if the primary server fails or returns bad data (`#2254`).\r\n* **Better Offline Support:** Bundled fonts and styles locally so offline mode renders correctly without hangs (`#2258`, `#2270`).\r\n* **Offline Status Prompts:** Clearer messaging when feature checks fail due to network drops (`#2268`).\r\n\r\n### ⚙️ UI & Internal Improvements\r\n\r\n* **Cleaner Console Logs:** Removed main window log spam during generation; full logs remain in the log file (`#2255`).\r\n* **Modernized Dialogs:** Replaced old Windows prompts with updated UI cards (`#2256`).\r\n* **Fixed Log Storage:** Moved support logs to `%AppData%` to prevent permission issues (`#2264`).",
+    "html_url": "https://github.com/Anneardysa/ArdysaModsTools/releases/tag/v2.2.19-beta",
+    "draft": false,
+    "published_at": "2026-08-03T09:47:42Z"
+  },
+  {
+    "tag_name": "v2.2.18-beta",
+    "name": "v2.2.18-beta (Build 2252)",
+    "body": "# Release Notes — v2.2.18-beta\r\n\r\n> Build **2246-2251**\r\n\r\n**Please run Patch Update once after installing this version.** This update changes the game\r\nconfiguration AMT installs, so your existing patch shows as out of date until you press\r\n**Patch Update** on the main window the app tells you as much, and everything works normally\r\nagain straight after. Nothing changes in how you use the app or how mods look in-game.\r\n\r\nLight mode also got a proper pass: real layered surfaces instead of flat white, crisp black\r\noutlines on windows, dialogs, and cards, and square corners throughout.\r\n\r\n---\r\n\r\n## 🌟 Highlights\r\n\r\n- **One-time Patch Update after installing** (2251): the status pill asks for a patch the first\r\n  time you open this version. One click, then you're back to Ready.\r\n- **Light mode redrawn** (2247): layered greys instead of flat white, black outlines on frames,\r\n  dialogs, and cards, and square window corners. The window no longer flashes white for a moment\r\n  while a page loads.",
+    "html_url": "https://github.com/Anneardysa/ArdysaModsTools/releases/tag/v2.2.18-beta",
+    "draft": false,
+    "published_at": "2026-07-23T15:17:17Z"
+  },
+  {
     "tag_name": "v2.2.17-beta",
     "name": "v2.2.17-beta (Build 2244)",
     "body": "# Release Notes — v2.2.17-beta\r\n\r\n> Build **2243-2244**\r\n\r\n**This release makes updating the app itself fast.** The incremental \"Update Now\" feature introduced two versions ago now works the way it was meant to: this update from v2.2.16 is a **4 MB download** instead of ~200 MB, it fetches several files at once instead of one at a time, and a server-side issue that could corrupt the downloaded files on some networks making the quick update silently fall back to the full download has been fixed for good. Every file is still integrity-checked twice before anything is touched, and a failed update still restores your installation exactly as it was.\r\n\r\n---\r\n\r\n## 🌟 Highlights\r\n\r\n- **Updates are now a few megabytes, reliably** (2243): the app's bundled runtime the ~167 MB that never actually changes is now pinned so it can never sneak into an update again (the v2.2.15→v2.2.16 update ballooned to 157 MB because of exactly this). From here on, updates download only what really changed.\r\n- **Update downloads are faster** (2243): changed files are fetched several at a time instead of one after another, and a redundant server round-trip per file is gone with hundreds of small files, that wait was most of the update time.\r\n- **The quick update no longer breaks on protective networks** (2243): a content-delivery quirk could alter certain downloaded files in transit, which the app's integrity check correctly rejected so the quick update kept failing over to the full download. The files are now delivered in a form that can't be altered, verified working in production.\r\n\r\n---\r\n\r\n## 🐛 Fixed\r\n\r\n- **\"Update Now\" could fail its integrity check and fall back to the full download** (2243): fixed at the source see Highlights. If an update ever failed partway for you before, it will complete now.",
@@ -222,21 +238,5 @@
     "html_url": "https://github.com/Anneardysa/ArdysaModsTools/releases/tag/v2.1.18-beta",
     "draft": false,
     "published_at": "2026-03-01T01:29:03Z"
-  },
-  {
-    "tag_name": "v2.1.17-beta",
-    "name": "v2.1.17-beta (Build 2116)",
-    "body": "# Release Notes — v2.1.17\r\n\r\n> Covers builds **2113 → 2116**\r\n\r\n---\r\n\r\n## ✨ New Features\r\n\r\n- Added new \"Special\" category in Miscellaneous (e.g., Low Poly Map). Downloads ZIP mods and extracts them into `pak01_dir.vpk` like other misc mods.\r\n- Data-driven `excludesWith` config prevents conflicting mod options from being selected simultaneously (e.g., Map and Special auto-reset each other). Includes red flash animation on the reset tile.\r\n- Select cosmetic ward skins with style support and model extraction from game VPK.\r\n- Replaced simple MessageBox with modern WebView2 dialog showing version comparison, app type, and manual download cards.\r\n- Added FAQ page into user documentation.\r\n\r\n---\r\n\r\n## 🧪 Testing\r\n\r\n- Added 16 unit tests for Special mod option and exclusion logic.\r\n- Added 31 unit tests for ward generation (parsing, mapping, merging, styles, skin injection, particles).",
-    "html_url": "https://github.com/Anneardysa/ArdysaModsTools/releases/tag/v2.1.17-beta",
-    "draft": false,
-    "published_at": "2026-02-27T09:35:27Z"
-  },
-  {
-    "tag_name": "v2.1.16-beta",
-    "name": "v2.1.16-beta (Build 2113)",
-    "body": "# Release Notes — v2.1.16\r\n\r\n> Covers builds **2108 → 2113**\r\n\r\n---\r\n\r\n## ✨ New Features & Improvements\r\n\r\n- Added courier models to the miscellaneous modifier service.\r\n- Implemented `ResumableDownloadService` for more robust payload downloading with pause/resume support.\r\n- Included `AssetCacheService` in cache clearing and size calculations, and clears in-memory cache upon disk cleanup.\r\n- Added `--minimized` flag to Windows startup registry entry, enabling the app to start silently in the system tray.\r\n- Cleaned up verbose logs to reduce noise in console output.\r\n\r\n---\r\n\r\n### 🚀 UI/UX\r\n\r\n- Replaced the simple MessageBox update prompt with a modern, dark-themed WebView2 `UpdateAvailableDialogWebView`.\r\n- Included clear version comparison (Current vs Latest) and app type (Portable/Installer) in the update dialog.\r\n- Added manual download cards for the CDN Server and official website (`ardysamods.my.id`).\r\n\r\n---\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- UI now re-calculates actual cache size after clearing instead of showing a hardcoded 0 B.\r\n- Fixed `resetButton()` dynamic icon rendering in HTML.\r\n- Validates `IsRunOnStartupEnabled` to ensure stored registry paths match the current exe path, and auto-fixes stale paths on launch.\r\n- Resolved 8 critical bugs identified during the deep code review process.\r\n",
-    "html_url": "https://github.com/Anneardysa/ArdysaModsTools/releases/tag/v2.1.16-beta",
-    "draft": false,
-    "published_at": "2026-02-25T01:02:14Z"
   }
 ]
