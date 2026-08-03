@@ -1,14 +1,25 @@
 {
+  "_comment": "Remote feature gate. 'enabled' is the kill-switch (blocks everyone). 'minVersion'/'minBuild' are the minimum-app-version gate: empty string / 0 = no version gate. The comparison strips the pre-release suffix, so '2.2.19-beta' == '2.2.19' — use minBuild to separate beta builds of the same version. Only clients on 2.2.19-beta build 2265 or newer understand minVersion; older builds ignore it. Raise minVersion ONLY AFTER the target release is live in releases/releases.json. Placeholders for outdatedMessage: {required}, {current}.",
+
   "skinSelector": {
     "enabled": true,
-    "disabledMessage": "Skin Selector is under maintenance. Please try again later."
+    "disabledMessage": "Skin Selector is under maintenance. Please try again later.",
+    "minVersion": "2.2.19",
+    "minBuild": 2267,
+    "outdatedMessage": "The hero set assets were rebuilt for {required}. Generating on your current build ({current}) would produce broken or incomplete mods, so Skin Selector is locked until you update.\n\nUpdating keeps your settings and your installed mods."
   },
   "miscellaneous": {
     "enabled": true,
-    "disabledMessage": "Miscellaneous is under maintenance. Please try again later."
+    "disabledMessage": "Miscellaneous is under maintenance. Please try again later.",
+    "minVersion": "2.2.19",
+    "minBuild": 2267,
+    "outdatedMessage": "The Miscellaneous assets were rebuilt for {required}. Generating on your current build ({current}) would produce broken or incomplete mods, so this feature is locked until you update.\n\nUpdating keeps your settings and your installed mods."
   },
   "installModsPack": {
     "enabled": true,
-    "disabledMessage": "Install ModsPack is under maintenance. Please try again later."
+    "disabledMessage": "Install ModsPack is under maintenance. Please try again later.",
+     "minVersion": "2.2.19",
+    "minBuild": 2267,
+    "outdatedMessage": "ModsPack was repacked for {required}. Your current build ({current}) would install a broken or incomplete pak, so installing is locked until you update.\n\nUpdating keeps your settings and your installed mods."
   }
 }
