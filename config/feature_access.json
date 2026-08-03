@@ -5,21 +5,21 @@
     "enabled": true,
     "disabledMessage": "Skin Selector is under maintenance. Please try again later.",
     "minVersion": "2.2.19",
-    "minBuild": 2279,
+    "minBuild": 2280,
     "outdatedMessage": "The hero set assets were rebuilt for {required}. Generating on your current build ({current}) would produce broken or incomplete mods, so Skin Selector is locked until you update.\n\nUpdating keeps your settings and your installed mods."
   },
   "miscellaneous": {
     "enabled": true,
     "disabledMessage": "Miscellaneous is under maintenance. Please try again later.",
     "minVersion": "2.2.19",
-    "minBuild": 2279,
+    "minBuild": 2280,
     "outdatedMessage": "The Miscellaneous assets were rebuilt for {required}. Generating on your current build ({current}) would produce broken or incomplete mods, so this feature is locked until you update.\n\nUpdating keeps your settings and your installed mods."
   },
   "installModsPack": {
     "enabled": true,
     "disabledMessage": "Install ModsPack is under maintenance. Please try again later.",
      "minVersion": "2.2.19",
-    "minBuild": 2279,
+    "minBuild": 2280,
     "outdatedMessage": "ModsPack was repacked for {required}. Your current build ({current}) would install a broken or incomplete pak, so installing is locked until you update.\n\nUpdating keeps your settings and your installed mods."
   }
 }
