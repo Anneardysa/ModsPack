@@ -1,7 +1,7 @@
 {
-  "version": 2,
+  "version": 3,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-08-05T02:39:10Z",
+  "generatedAt": "2026-08-05T04:41:16Z",
   "assets": {
     "Assets/Original.zip": {
       "sha256": "6A2880C95E7A964B1BDDF4F5AC9F0D4181C1D4ECEF194EF87BB3F93A73A7C890",
@@ -1446,6 +1446,38 @@
     "Assets/models/Slark/tellurian_throttle.zip": {
       "sha256": "9D9AE1263A692666FA0CCA33A9B0E2DCD72C80D5D9FD31181F4AEC8023D2A8F5",
       "size": 499858
+    },
+    "Assets/models/Snapfire/ardalan.zip": {
+      "sha256": "CD44E67443DE35722FD638DA960FB7DABFB79F508A232CC5A2A2A8A67DEA9267",
+      "size": 549631
+    },
+    "Assets/models/Snapfire/desert.zip": {
+      "sha256": "95338F6DF9306F431F75EB281FE6FFB4A31AA7B7E214E8A3A9E54335324E58BC",
+      "size": 1719080
+    },
+    "Assets/models/Snapfire/mamba.zip": {
+      "sha256": "D5971414EBA4A263F9E0DFB477A0CCF14AB2F5AFFC945985330359023E7F0828",
+      "size": 480560
+    },
+    "Assets/models/Snapfire/saturnalia.zip": {
+      "sha256": "2CEF03DCAD6127533DBB9A960FFEA5AB1EA5E23D3924B75ABBECD3130252237E",
+      "size": 557353
+    },
+    "Assets/models/Snapfire/snailfire.zip": {
+      "sha256": "CB30CDC60DE70BF45AD431E063627E95EFD25FA507BA850B8AFA04DC2FFAD51B",
+      "size": 676614
+    },
+    "Assets/models/Snapfire/squall.zip": {
+      "sha256": "012A488F8EBB95BF57C37E33B2F6DCC11BB5D0CACA6F6319D09B34E728C6F605",
+      "size": 537458
+    },
+    "Assets/models/Snapfire/wasteland.zip": {
+      "sha256": "681884AA01D1FCBF4EDA75F65A7279A557A87722EBCD461C454E38C8E60E0BAB",
+      "size": 708278
+    },
+    "Assets/models/Snapfire/whipper.zip": {
+      "sha256": "34945BDBF8716636F1537BF73A94ADE8FC9B76613CDF989D3EFD7093269F390E",
+      "size": 591745
     },
     "Assets/models/Sniper/ardalan.zip": {
       "sha256": "922B7DB64A5E053215FB7728C81E5FE9534484BE2CEE91AD8655FE14503085F5",

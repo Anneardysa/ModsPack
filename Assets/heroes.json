@@ -3293,6 +3293,38 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Snapfire/ardalan.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Snapfire/ardalan.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Snapfire/desert.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Snapfire/desert.png"
+      ],
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Snapfire/mamba.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Snapfire/mamba.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Snapfire/saturnalia.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Snapfire/saturnalia.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Snapfire/snailfire.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Snapfire/snailfire.png"
+      ],
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Snapfire/squall.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Snapfire/squall.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Snapfire/wasteland.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Snapfire/wasteland.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Snapfire/whipper.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Snapfire/whipper.png"
       ]
     }
   },

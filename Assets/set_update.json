@@ -1,10 +1,42 @@
 {
-  "version": "1.0.79",
+  "version": "1.0.80",
   "lastUpdated": "2026-08-05",
   "updates": [
     {
       "date": "2026-08-05",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_snapfire",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_snapfire",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_snapfire",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_snapfire",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_snapfire",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_snapfire",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_snapfire",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_snapfire",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_slark",
           "setName": "Set 8"
