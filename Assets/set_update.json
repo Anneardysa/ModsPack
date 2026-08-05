@@ -23,6 +23,10 @@
         },
         {
           "heroId": "npc_dota_hero_shredder",
+          "setName": "Set 2 (item_offhand_rectifier_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_shredder",
           "setName": "Set 1"
         },
         {
@@ -75,11 +79,23 @@
         },
         {
           "heroId": "npc_dota_hero_slark",
+          "setName": "Set 5 (item_weapon_skadi_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
           "setName": "Set 4 (item_weapon_hydrakan)"
         },
         {
           "heroId": "npc_dota_hero_slark",
+          "setName": "Set 4 (item_weapon_hydrakan_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
           "setName": "Set 3 (item_weapon_edge)"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
+          "setName": "Set 3 (item_weapon_edge_golden)"
         },
         {
           "heroId": "npc_dota_hero_slark",
@@ -112,7 +128,19 @@
         },
         {
           "heroId": "npc_dota_hero_luna",
+          "setName": "Set 3 (item_weapon_schism_crimson)"
+        },
+        {
+          "heroId": "npc_dota_hero_luna",
+          "setName": "Set 3 (item_weapon_schism_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_luna",
           "setName": "Set 2 (item_offhand_moonfall)"
+        },
+        {
+          "heroId": "npc_dota_hero_luna",
+          "setName": "Set 2 (item_offhand_moonfall_golden)"
         },
         {
           "heroId": "npc_dota_hero_luna",
@@ -136,11 +164,27 @@
         },
         {
           "heroId": "npc_dota_hero_lion",
+          "setName": "Set 6 (item_weapon_charm_revival)"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 6 (item_weapon_charm_revival_alt)"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
           "setName": "Set 5"
         },
         {
           "heroId": "npc_dota_hero_lion",
           "setName": "Set 4 (item_back_mulctant)"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 4 (item_back_mulctant_crimson)"
+        },
+        {
+          "heroId": "npc_dota_hero_lion",
+          "setName": "Set 4 (item_back_mulctant_tyrant)"
         },
         {
           "heroId": "npc_dota_hero_lion",
@@ -169,6 +213,10 @@
         },
         {
           "heroId": "npc_dota_hero_lina",
+          "setName": "Set 7 (origin_2)"
+        },
+        {
+          "heroId": "npc_dota_hero_lina",
           "setName": "Set 6"
         },
         {
@@ -178,6 +226,10 @@
         {
           "heroId": "npc_dota_hero_lina",
           "setName": "Set 4 (item_belt_flare)"
+        },
+        {
+          "heroId": "npc_dota_hero_lina",
+          "setName": "Set 4 (item_belt_flare_golden)"
         },
         {
           "heroId": "npc_dota_hero_lina",
@@ -209,6 +261,10 @@
         },
         {
           "heroId": "npc_dota_hero_razor",
+          "setName": "Set 6 (item_head_severing_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_razor",
           "setName": "Set 5"
         },
         {
@@ -234,6 +290,10 @@
         {
           "heroId": "npc_dota_hero_tusk",
           "setName": "Set 5 (item_arm_piscean)"
+        },
+        {
+          "heroId": "npc_dota_hero_tusk",
+          "setName": "Set 5 (item_arm_piscean_golden)"
         },
         {
           "heroId": "npc_dota_hero_tusk",
@@ -265,6 +325,14 @@
         },
         {
           "heroId": "npc_dota_hero_hoodwink",
+          "setName": "Set 2 (item_weapon_suradan_crimson)"
+        },
+        {
+          "heroId": "npc_dota_hero_hoodwink",
+          "setName": "Set 2 (item_weapon_suradan_tomokan)"
+        },
+        {
+          "heroId": "npc_dota_hero_hoodwink",
           "setName": "Set 1"
         },
         {
@@ -273,7 +341,15 @@
         },
         {
           "heroId": "npc_dota_hero_gyrocopter",
+          "setName": "Set 4 (item_weapon_ray_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_gyrocopter",
           "setName": "Set 3 (item_offhand_buster)"
+        },
+        {
+          "heroId": "npc_dota_hero_gyrocopter",
+          "setName": "Set 3 (item_offhand_buster_crimson)"
         },
         {
           "heroId": "npc_dota_hero_gyrocopter",
@@ -295,6 +371,14 @@
         {
           "heroId": "npc_dota_hero_skeleton_king",
           "setName": "Set 14 (kringle)"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 14 (Arcana Version - 1)"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 14 (Arcana Version - 2)"
         }
       ]
     },
@@ -343,10 +427,6 @@
         },
         {
           "heroId": "npc_dota_hero_skeleton_king",
-          "setName": "Set 9"
-        },
-        {
-          "heroId": "npc_dota_hero_skeleton_king",
           "setName": "Set 8"
         },
         {
@@ -355,7 +435,15 @@
         },
         {
           "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 7 (item_weapon_unbroken_crimson)"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
           "setName": "Set 6 (item_arms_shade)"
+        },
+        {
+          "heroId": "npc_dota_hero_skeleton_king",
+          "setName": "Set 6 (item_arms_shade_crimson)"
         },
         {
           "heroId": "npc_dota_hero_skeleton_king",
@@ -405,6 +493,14 @@
         {
           "heroId": "npc_dota_hero_zuus",
           "setName": "Set 3 (item_back_pantheon)"
+        },
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 3 (item_back_pantheon_crimson)"
+        },
+        {
+          "heroId": "npc_dota_hero_zuus",
+          "setName": "Set 3 (item_back_pantheon_golden)"
         },
         {
           "heroId": "npc_dota_hero_zuus",
@@ -483,6 +579,10 @@
         },
         {
           "heroId": "npc_dota_hero_magnataur",
+          "setName": "Set 3 (item_head_ardenok_crimson)"
+        },
+        {
+          "heroId": "npc_dota_hero_magnataur",
           "setName": "Set 2"
         },
         {
@@ -535,6 +635,10 @@
         },
         {
           "heroId": "npc_dota_hero_antimage",
+          "setName": "Set 14 (item_weapon_basher_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_antimage",
           "setName": "Set 13 (item_shoulder_faith)"
         },
         {
@@ -544,6 +648,10 @@
         {
           "heroId": "npc_dota_hero_antimage",
           "setName": "Set 11 (item_offhand_basher)"
+        },
+        {
+          "heroId": "npc_dota_hero_antimage",
+          "setName": "Set 11 (item_offhand_basher_golden)"
         },
         {
           "heroId": "npc_dota_hero_antimage",
@@ -572,7 +680,23 @@
         },
         {
           "heroId": "npc_dota_hero_riki",
+          "setName": "Set 5 (item_shoulder_shadow_crimson)"
+        },
+        {
+          "heroId": "npc_dota_hero_riki",
+          "setName": "Set 5 (item_shoulder_shadow_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_riki",
           "setName": "Set 4 (item_head_shadow)"
+        },
+        {
+          "heroId": "npc_dota_hero_riki",
+          "setName": "Set 4 (item_head_shadow_crimson)"
+        },
+        {
+          "heroId": "npc_dota_hero_riki",
+          "setName": "Set 4 (item_head_shadow_golden)"
         },
         {
           "heroId": "npc_dota_hero_riki",
@@ -605,7 +729,23 @@
         },
         {
           "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 6 (item_weapon_diffuser_2)"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 6 (item_weapon_diffuser_3)"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
           "setName": "Set 5 (item_shoulder_soul)"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 5 (item_shoulder_soul_2)"
+        },
+        {
+          "heroId": "npc_dota_hero_spectre",
+          "setName": "Set 5 (item_shoulder_soul_3)"
         },
         {
           "heroId": "npc_dota_hero_spectre",
@@ -646,11 +786,15 @@
         },
         {
           "heroId": "npc_dota_hero_rubick",
+          "setName": "Set 5 (item_weapon_perplex_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_rubick",
           "setName": "Set 4 (item_shoulder_crux)"
         },
         {
           "heroId": "npc_dota_hero_rubick",
-          "setName": "Set 1"
+          "setName": "Set 4 (item_shoulder_crux_arcana)"
         },
         {
           "heroId": "npc_dota_hero_rubick",
@@ -675,6 +819,14 @@
         {
           "heroId": "npc_dota_hero_void_spirit",
           "setName": "Set 1 (flight_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_void_spirit",
+          "setName": "Set 1 (flight_2)"
+        },
+        {
+          "heroId": "npc_dota_hero_void_spirit",
+          "setName": "Set 1 (flight_3)"
         },
         {
           "heroId": "npc_dota_hero_crystal_maiden",
@@ -706,6 +858,10 @@
         },
         {
           "heroId": "npc_dota_hero_crystal_maiden",
+          "setName": "Set 10 (item_weapon_ice_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_crystal_maiden",
           "setName": "Set 9"
         },
         {
@@ -731,7 +887,11 @@
       "sets": [
         {
           "heroId": "npc_dota_hero_windrunner",
-          "setName": "Set 12 (item_shoulder_sylvian)"
+          "setName": "Set 12 (Sylvian)"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 12 (Sylvian Arcana Mode)"
         }
       ]
     },
@@ -772,11 +932,39 @@
         },
         {
           "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 7 (item_weapon_aeon_2)"
+        },
+        {
+          "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 7 (item_weapon_aeon_3)"
+        },
+        {
+          "heroId": "npc_dota_hero_faceless_void",
           "setName": "Set 6 (item_shoulder_aeon)"
         },
         {
           "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 6 (item_shoulder_aeon_2)"
+        },
+        {
+          "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 6 (item_shoulder_aeon_3)"
+        },
+        {
+          "heroId": "npc_dota_hero_faceless_void",
           "setName": "Set 5 (item_arm_aeon)"
+        },
+        {
+          "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 5 (item_arm_aeon_2)"
+        },
+        {
+          "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 5 (item_arm_aeon_3)"
+        },
+        {
+          "heroId": "npc_dota_hero_faceless_void",
+          "setName": "Set 5 (item_arm_aeon_4)"
         },
         {
           "heroId": "npc_dota_hero_meepo",
@@ -789,6 +977,10 @@
         {
           "heroId": "npc_dota_hero_meepo",
           "setName": "Set 5 (item_head_goggles)"
+        },
+        {
+          "heroId": "npc_dota_hero_meepo",
+          "setName": "Set 5 (item_head_googles_crimson)"
         },
         {
           "heroId": "npc_dota_hero_meepo",
@@ -813,6 +1005,10 @@
         {
           "heroId": "npc_dota_hero_legion_commander",
           "setName": "Set 8 (item_back_fallen)"
+        },
+        {
+          "heroId": "npc_dota_hero_legion_commander",
+          "setName": "Set 8 (item_back_fallen_chaotic)"
         },
         {
           "heroId": "npc_dota_hero_legion_commander",
@@ -844,11 +1040,27 @@
         },
         {
           "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 4 (odoragon_2)"
+        },
+        {
+          "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 4 (odoragon_3)"
+        },
+        {
+          "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 4 (odoragon_4)"
+        },
+        {
+          "heroId": "npc_dota_hero_sniper",
           "setName": "Set 6"
         },
         {
           "heroId": "npc_dota_hero_sniper",
           "setName": "Set 5 (item_back_bonanza)"
+        },
+        {
+          "heroId": "npc_dota_hero_sniper",
+          "setName": "Set 5 (item_back_bonanza_golden)"
         },
         {
           "heroId": "npc_dota_hero_sniper",
@@ -877,7 +1089,19 @@
         },
         {
           "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 5 (item_weapon_feast_golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 5 (item_weapon_feast_tyrian)"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
           "setName": "Set 4 (item_shoulder_frock_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 4 (item_shoulder_frock_2)"
         },
         {
           "heroId": "npc_dota_hero_queenofpain",
@@ -896,8 +1120,16 @@
           "setName": "Set 1 (agonies_1)"
         },
         {
+          "heroId": "npc_dota_hero_queenofpain",
+          "setName": "Set 1 (agonies_2)"
+        },
+        {
           "heroId": "npc_dota_hero_phantom_lancer",
-          "setName": "Set 8 (item_weapon_concord)"
+          "setName": "Set 8 (Concord)"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 8 (Concord Tyrian)"
         },
         {
           "heroId": "npc_dota_hero_phantom_lancer",
@@ -909,15 +1141,15 @@
         },
         {
           "heroId": "npc_dota_hero_phantom_lancer",
-          "setName": "Set 7 (item_weapon_phantom)"
-        },
-        {
-          "heroId": "npc_dota_hero_phantom_lancer",
           "setName": "Set 6"
         },
         {
           "heroId": "npc_dota_hero_phantom_lancer",
-          "setName": "Set 5 (item_shoulder_concord)"
+          "setName": "Set 5 (Concord)"
+        },
+        {
+          "heroId": "npc_dota_hero_phantom_lancer",
+          "setName": "Set 5 (Concord Crimson)"
         },
         {
           "heroId": "npc_dota_hero_phantom_lancer",
@@ -992,7 +1224,15 @@
         },
         {
           "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 6 (zinogre_2)"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
           "setName": "Set 5 (syl_zinogre_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 5 (syl_zinogre_2)"
         },
         {
           "heroId": "npc_dota_hero_windrunner",
@@ -1000,11 +1240,11 @@
         },
         {
           "heroId": "npc_dota_hero_windrunner",
-          "setName": "Set 9"
+          "setName": "Set 4 (prism_zinogre_2)"
         },
         {
           "heroId": "npc_dota_hero_windrunner",
-          "setName": "Set 8"
+          "setName": "Set 9"
         },
         {
           "heroId": "npc_dota_hero_windrunner",
@@ -1025,6 +1265,10 @@
         {
           "heroId": "npc_dota_hero_windrunner",
           "setName": "Set 2 (autumn_zinogre_1)"
+        },
+        {
+          "heroId": "npc_dota_hero_windrunner",
+          "setName": "Set 2 (autumn_zinogre_2)"
         },
         {
           "heroId": "npc_dota_hero_windrunner",
@@ -1069,7 +1313,11 @@
         },
         {
           "heroId": "npc_dota_hero_pudge",
-          "setName": "Set 18 (item_weapon_feast)"
+          "setName": "Set 18 (The Abscesserator)"
+        },
+        {
+          "heroId": "npc_dota_hero_pudge",
+          "setName": "Set 18 (Grand Abscession Hook)"
         },
         {
           "heroId": "npc_dota_hero_pudge",
@@ -1077,7 +1325,11 @@
         },
         {
           "heroId": "npc_dota_hero_pudge",
-          "setName": "Set 16 (item_shoulder_slug)"
+          "setName": "Set 16 (Scavenging Guttleslug)"
+        },
+        {
+          "heroId": "npc_dota_hero_pudge",
+          "setName": "Set 16 (Scavenging Guttleslug Golden)"
         },
         {
           "heroId": "npc_dota_hero_pudge",
@@ -1121,59 +1373,59 @@
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_vermillion)"
+          "setName": "Set 6 (Vermillion)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_ships)"
+          "setName": "Set 6 (Ships of the Night)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_rubiline)"
+          "setName": "Set 6 (Rubiline)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_purple)"
+          "setName": "Set 6 (Purple)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_pristine_platinum)"
+          "setName": "Set 6 (Pristine Platinum)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_gold)"
+          "setName": "Set 6 (Gold)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_earth_green)"
+          "setName": "Set 6 (Earth Green)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_diretide_orange)"
+          "setName": "Set 6 (Diretide Orange)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_defensive_red)"
+          "setName": "Set 6 (Defensive Red)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_cursed)"
+          "setName": "Set 6 (Cursed Black)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_champ_green)"
+          "setName": "Set 6 (Champion Green)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_champ_blue)"
+          "setName": "Set 6 (Champion Blue)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_bright_green)"
+          "setName": "Set 6 (Bright Green)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_blue)"
+          "setName": "Set 6 (Blue)"
         }
       ]
     },
@@ -1182,11 +1434,7 @@
       "sets": [
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_base)"
-        },
-        {
-          "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 8 (prismatic_base)"
+          "setName": "Set 6 (Reflections Shade)"
         }
       ]
     },
@@ -1195,7 +1443,7 @@
       "sets": [
         {
           "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 6 (prismatic_blossom)"
+          "setName": "Set 6 (Blossom Red)"
         },
         {
           "heroId": "npc_dota_hero_terrorblade",
@@ -1227,20 +1475,12 @@
           "setName": "Set 1"
         },
         {
-          "heroId": "npc_dota_hero_terrorblade",
-          "setName": "Set 7 (base_arcana)"
-        },
-        {
           "heroId": "npc_dota_hero_invoker",
           "setName": "Set 16"
         },
         {
           "heroId": "npc_dota_hero_invoker",
           "setName": "Set 15"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 23"
         }
       ]
     },
@@ -1257,11 +1497,23 @@
         },
         {
           "heroId": "npc_dota_hero_templar_assassin",
-          "setName": "Set 6 (item_shoulder_bond)"
+          "setName": "Set 6 (Mantle of the Whispered Bond)"
         },
         {
           "heroId": "npc_dota_hero_templar_assassin",
-          "setName": "Set 5 (item_head_void)"
+          "setName": "Set 6 (Crimson Witness)"
+        },
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 5 (Seclusions of the Void)"
+        },
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 5 (Golden)"
+        },
+        {
+          "heroId": "npc_dota_hero_templar_assassin",
+          "setName": "Set 5 (Crimson Witness)"
         },
         {
           "heroId": "npc_dota_hero_templar_assassin",
@@ -1285,8 +1537,24 @@
           "setName": "Set 17 (Anniversary 10th)"
         },
         {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 17 (Legacy)"
+        },
+        {
           "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 7 (item_weapon_staff)"
+          "setName": "Set 7 (Staff of Gun-Yu)"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 7 (Staff of Gun-Yu - 10th)"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 7 (Staff of Gun-Yu - Crimson)"
+        },
+        {
+          "heroId": "npc_dota_hero_monkey_king",
+          "setName": "Set 7 (Staff of Gun-Yu - Golden)"
         },
         {
           "heroId": "npc_dota_hero_invoker",
@@ -1294,43 +1562,35 @@
         },
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 3 (exaltation)"
+          "setName": "Set 3 (Exaltation)"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 3 (Exaltation - Exort)"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 3 (Exaltation - Quas)"
+        },
+        {
+          "heroId": "npc_dota_hero_invoker",
+          "setName": "Set 3 (Exaltation - Wex)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 8 (base_arcana)"
+          "setName": "Set 8 (Timeless Tale)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 19"
+          "setName": "Set 8 (Rumble in the Deep)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 18"
+          "setName": "Set 8 (Immortal Path)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 17"
-        },
-        {
-          "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 16"
-        },
-        {
-          "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 15"
-        },
-        {
-          "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 14"
-        },
-        {
-          "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 13"
-        },
-        {
-          "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 12"
+          "setName": "Set 8 (King's Crucible)"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
@@ -1350,27 +1610,7 @@
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 7 (Staff of Gun-Yu)"
-        },
-        {
-          "heroId": "npc_dota_hero_monkey_king",
           "setName": "Set 6"
-        },
-        {
-          "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 5"
-        },
-        {
-          "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 4"
-        },
-        {
-          "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 6"
-        },
-        {
-          "heroId": "npc_dota_hero_monkey_king",
-          "setName": "Set 1"
         },
         {
           "heroId": "npc_dota_hero_monkey_king",
@@ -1439,18 +1679,6 @@
         },
         {
           "heroId": "npc_dota_hero_faceless_void",
-          "setName": "Set 7 (item_weapon_aeon)"
-        },
-        {
-          "heroId": "npc_dota_hero_faceless_void",
-          "setName": "Set 6 (item_shoulder_aeon)"
-        },
-        {
-          "heroId": "npc_dota_hero_faceless_void",
-          "setName": "Set 5 (item_arm_aeon)"
-        },
-        {
-          "heroId": "npc_dota_hero_faceless_void",
           "setName": "Set 4"
         },
         {
@@ -1478,10 +1706,6 @@
     {
       "date": "2026-06-12",
       "sets": [
-        {
-          "heroId": "npc_dota_hero_earthshaker",
-          "setName": "Set 10 (2)"
-        },
         {
           "heroId": "npc_dota_hero_earthshaker",
           "setName": "Set 10"
@@ -1703,14 +1927,6 @@
         },
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 19"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 18"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
           "setName": "Set 14"
         },
         {
@@ -1720,10 +1936,6 @@
         {
           "heroId": "npc_dota_hero_invoker",
           "setName": "Set 12"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 14"
         },
         {
           "heroId": "npc_dota_hero_invoker",
@@ -1755,22 +1967,6 @@
         },
         {
           "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 6"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 5"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 4"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
-          "setName": "Set 3 (Exaltation)"
-        },
-        {
-          "heroId": "npc_dota_hero_invoker",
           "setName": "Set 2"
         },
         {
@@ -1785,10 +1981,6 @@
         {
           "heroId": "npc_dota_hero_nevermore",
           "setName": "Set 14"
-        },
-        {
-          "heroId": "npc_dota_hero_nevermore",
-          "setName": "Set 13"
         },
         {
           "heroId": "npc_dota_hero_nevermore",
