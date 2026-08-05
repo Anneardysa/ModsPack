@@ -1,10 +1,30 @@
 {
-  "version": "1.0.80",
+  "version": "1.0.81",
   "lastUpdated": "2026-08-05",
   "updates": [
     {
       "date": "2026-08-05",
       "sets": [
+        {
+          "heroId": "npc_dota_hero_shredder",
+          "setName": "Set 5"
+        },
+        {
+          "heroId": "npc_dota_hero_shredder",
+          "setName": "Set 4"
+        },
+        {
+          "heroId": "npc_dota_hero_shredder",
+          "setName": "Set 3"
+        },
+        {
+          "heroId": "npc_dota_hero_shredder",
+          "setName": "Set 2 (item_offhand_rectifier)"
+        },
+        {
+          "heroId": "npc_dota_hero_shredder",
+          "setName": "Set 1"
+        },
         {
           "heroId": "npc_dota_hero_snapfire",
           "setName": "Set 8"

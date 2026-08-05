@@ -1,7 +1,7 @@
 {
-  "version": 3,
+  "version": 4,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-08-05T04:41:16Z",
+  "generatedAt": "2026-08-05T07:23:29Z",
   "assets": {
     "Assets/Original.zip": {
       "sha256": "6A2880C95E7A964B1BDDF4F5AC9F0D4181C1D4ECEF194EF87BB3F93A73A7C890",
@@ -1738,6 +1738,30 @@
     "Assets/models/Terrorblade/prismatic_base/prismatic_vermillion.zip": {
       "sha256": "8627823F32BE1935784AC8B8DEBE2E1A81B75A1BE87DEB90040437C14A72E6D8",
       "size": 118356
+    },
+    "Assets/models/Timbersaw/cavalier.zip": {
+      "sha256": "181F3DE0E359FC938A66B3A4749E4CF9F9D1B36A2009799A2F2D5F860C765353",
+      "size": 317270
+    },
+    "Assets/models/Timbersaw/item_offhand_rectifier/item_offhand_rectifier.zip": {
+      "sha256": "81D7D591ACC46947193CBA3A311CC66638D360B52D91AC7ADD79B3811BE849AC",
+      "size": 825630
+    },
+    "Assets/models/Timbersaw/item_offhand_rectifier/item_offhand_rectifier_golden.zip": {
+      "sha256": "A00EA4CCE4F8750F3B6B3BC3B5C4CF16375163C9A70A7B49ED2A25406A049EEB",
+      "size": 832655
+    },
+    "Assets/models/Timbersaw/item_weapon_controlled.zip": {
+      "sha256": "07E2B3133A4F683F6B59A62A296C21FDE4EEFCC5E00960A7C3885394B73185B7",
+      "size": 156803
+    },
+    "Assets/models/Timbersaw/molten.zip": {
+      "sha256": "2D1DE4210435FA162C5521DEFB24102A0068F4AD081C2149609481C84CC12F6D",
+      "size": 150390
+    },
+    "Assets/models/Timbersaw/siege.zip": {
+      "sha256": "551D5972A945F8BCB7FE73C1BFC02AD451ACB6400461EB4DBFC3F07EE7505B5B",
+      "size": 196839
     },
     "Assets/models/Tinker/hazard.zip": {
       "sha256": "047CC19B5CCB2EB9094C39DA1911F6E2C7A2C1D8C8C6CE6D6E22475E219AD9B5",

@@ -3807,6 +3807,34 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Timbersaw/cavalier.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Timbersaw/cavalier.png"
+      ],
+      "Set 2": {
+        "styles": {
+          "item_offhand_rectifier": [
+            "https://cdn.ardysamods.my.id/Assets/models/Timbersaw/item_offhand_rectifier/item_offhand_rectifier.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Timbersaw/item_offhand_rectifier/item_offhand_rectifier.png"
+          ],
+          "item_offhand_rectifier_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Timbersaw/item_offhand_rectifier/item_offhand_rectifier_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Timbersaw/item_offhand_rectifier/item_offhand_rectifier_golden.png"
+          ]
+        }
+      },
+      "Set 3": [
+        "https://cdn.ardysamods.my.id/Assets/models/Timbersaw/item_weapon_controlled.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Timbersaw/item_weapon_controlled.png"
+      ],
+      "Set 4": [
+        "https://cdn.ardysamods.my.id/Assets/models/Timbersaw/molten.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Timbersaw/molten.png"
+      ],
+      "Set 5": [
+        "https://cdn.ardysamods.my.id/Assets/models/Timbersaw/siege.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Timbersaw/siege.png"
       ]
     }
   },
