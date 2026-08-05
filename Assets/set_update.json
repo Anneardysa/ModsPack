@@ -1,7 +1,44 @@
 {
-  "version": "1.0.78",
-  "lastUpdated": "2026-07-30",
+  "version": "1.0.79",
+  "lastUpdated": "2026-08-05",
   "updates": [
+    {
+      "date": "2026-08-05",
+      "sets": [
+        {
+          "heroId": "npc_dota_hero_slark",
+          "setName": "Set 8"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
+          "setName": "Set 7"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
+          "setName": "Set 6"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
+          "setName": "Set 5 (item_weapon_skadi)"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
+          "setName": "Set 4 (item_weapon_hydrakan)"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
+          "setName": "Set 3 (item_weapon_edge)"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
+          "setName": "Set 2"
+        },
+        {
+          "heroId": "npc_dota_hero_slark",
+          "setName": "Set 1"
+        }
+      ]
+    },
     {
       "date": "2026-07-30",
       "sets": [

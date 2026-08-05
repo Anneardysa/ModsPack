@@ -3219,6 +3219,62 @@
     "sets": {
       "Default Set": [
         "default_skin.vpk"
+      ],
+      "Set 1": [
+        "https://cdn.ardysamods.my.id/Assets/models/Slark/abyss.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Slark/abyss.png"
+      ],
+      "Set 2": [
+        "https://cdn.ardysamods.my.id/Assets/models/Slark/item_head_bridle.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Slark/item_head_bridle.png"
+      ],
+      "Set 3": {
+        "styles": {
+          "item_weapon_edge": [
+            "https://cdn.ardysamods.my.id/Assets/models/Slark/item_weapon_edge/item_weapon_edge.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Slark/item_weapon_edge/item_weapon_edge.png"
+          ],
+          "item_weapon_edge_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Slark/item_weapon_edge/item_weapon_edge_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Slark/item_weapon_edge/item_weapon_edge_golden.png"
+          ]
+        }
+      },
+      "Set 4": {
+        "styles": {
+          "item_weapon_hydrakan": [
+            "https://cdn.ardysamods.my.id/Assets/models/Slark/item_weapon_hydrakan/item_weapon_hydrakan.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Slark/item_weapon_hydrakan/item_weapon_hydrakan.png"
+          ],
+          "item_weapon_hydrakan_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Slark/item_weapon_hydrakan/item_weapon_hydrakan_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Slark/item_weapon_hydrakan/item_weapon_hydrakan_golden.png"
+          ]
+        }
+      },
+      "Set 5": {
+        "styles": {
+          "item_weapon_skadi": [
+            "https://cdn.ardysamods.my.id/Assets/models/Slark/item_weapon_skadi/item_weapon_skadi.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Slark/item_weapon_skadi/item_weapon_skadi.png"
+          ],
+          "item_weapon_skadi_golden": [
+            "https://cdn.ardysamods.my.id/Assets/models/Slark/item_weapon_skadi/item_weapon_skadi_golden.zip",
+            "https://cdn.ardysamods.my.id/Assets/image/Slark/item_weapon_skadi/item_weapon_skadi_golden.png"
+          ]
+        }
+      },
+      "Set 6": [
+        "https://cdn.ardysamods.my.id/Assets/models/Slark/lizard.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Slark/lizard.png"
+      ],
+      "Set 7": [
+        "https://cdn.ardysamods.my.id/Assets/models/Slark/shadow.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Slark/shadow.png"
+      ],
+      "Set 8": [
+        "https://cdn.ardysamods.my.id/Assets/models/Slark/tellurian_throttle.zip",
+        "https://cdn.ardysamods.my.id/Assets/image/Slark/tellurian_throttle.png"
       ]
     }
   },
