@@ -73,6 +73,7 @@
 		"DOTA_ManaCost"			"VAATII %s1 MANAA"
 		"DOTA_Basics"			"PERUS"
 		"DOTA_Upgrades"			"PÄIVITYS"
+		"DOTA_Neutrals"			"NEUTRAALIT"
 		"DOTA_Attributes"		"PIIRTEET"
 		"DOTA_LevelLabel"		"Taso: %s1"
 		"DOTA_StackCount"		"Määrä: %s1"
@@ -5538,6 +5539,7 @@ Kummankin kiven kulttuuri ja vaikutusvalta kasvoi, kunnes niiden hallitsemat yht
 		"dota_hud_error_no_falcons_here"				"Virheellinen sijainti Falconille"
 		"dota_hud_error_stone_of_recall_teleport_timeout"			"Recall Stone käytetty liian hiljattain"
 		"dota_hud_error_cant_craft_neutral_no_space"		"Et voi luoda neutraaliesinettä. Tila ei riitä nykyisen neutraaliesineen siirtämiselle."
+		"dota_hud_error_cant_select_shard_upgrade"		"Aghanim's Shard -päivitys ei valittavissa."
 		"dota_hud_error_no_space_for_scepter"			"Aghanim's Blessingille ei ole tilaa tavaraluettelossa."
 
 		"dota_cursor_silenced"							"Hiljennetty!"
@@ -18048,6 +18050,7 @@ Erikoispilkka Techiesille"
 		"KillEaterEvent_Brewmaster_FirePandaImmolationDamage"			"tulisoturin palovahinkoa"
 		"KillEaterEvent_Brewmaster_KillsDuringPrimalSplit"				"tappoa Primal Splitin aikana"
 		"KillEaterEvent_Brewmaster_AttacksDodgedWithDrunkenHaze"		"Drunken Hazen aiheuttamaa ohilyöntiä"
+		"KillEaterEvent_Brewmaster_StormPandaPurges"					"myrskysoturin puhdistamaa loitsua"
 		"KillEaterEventType_Brewmaster_CinderBrewSelfAttacks"			"Cinder Brewillä aiheutettua itsehyökkäystä"
 
 		"KillEaterEvent_Bristleback_KillsUnderFourQuillStacks"			"tappoa neljällä Quill Sprayllä"
@@ -25884,6 +25887,7 @@ Jos asevarastosi on täynnä, seuraavat toiminnot estetään:<br><br><br>- esine
 	"DOTA_PlayerCardsRecycleQ"						"Kierrätä: <font color='#C899FF'>{i:dust_value} × tomu</font>"
 	"DOTA_PlayerCard_FantasyLabel"					"Käytä pelaajakortteja"
 	"DOTA_PlayerCard_TeamSelectionLabel"			"Valitse joukkuetehoste"
+	"DOTA_PlayerCard_TeamSelectionTooltipNew"			"Voit valita suosikkijoukkueen, jonka voit määrittää graffitina, käyttää hymiönä, näyttää fanien määränä DotaTV:ssä, esitellä profiilissa ja sillä voi avata joukkueen sankariveistosbannerin. Kun olet kerännyt joukkueen täyden kokoelman, mukautetut teleporttiefektit otetaan käyttöön. Korkealaatuiset versiot otetaan käyttöön, kun olet kerännyt kyseisen joukkueen täyden hopea- tai kultakokoelman."
 	"DOTA_PlayerCard_Fantasy"						"fantasiajoukkueessasi"
 	"DOTA_PlayerCard_Return"						"Näytä kaikki kortit"
 	"DOTA_PlayerCard_Dupe"							"Kaksoiskappale"
@@ -30709,12 +30713,16 @@ Alkupelin sankareita kuten Zeusta ja Death Prophetia on nähty, puskijoita kuten
 	<br>• Night Stalkerin Midnight Feast on valittavissa.
 	<br>• Outworld Destroyerin Objurgation on valittavissa.
 	<br>• Troll Warlordin Berserker's Rage on valittavissa.
+	<br>• Ringmasterin Spotlight-kyvyn voi nyt saada Wheel of Wonderin Aghanim's Shard -päivityksellä.
 	<br>• Aghanim's Shard -päivitys antaa Ogre Magin Fire Shieldin, kun Ignite valitaan.
 	<br>• Aghanim's Shard -päivitys antaa Disruptorin Kinetic Fencen, kun Kinetic Field valitaan.  
 	<br>• Aghanim's Shard -päivitys antaa Tuskin Drinking Buddiesin, kun Tag Team valitaan.
 	<br>• Aghanim's Shard -päivitys antaa Muertan Spectral Slugin, kun Pierce the Veil valitaan.
 	<br>• Vain yksi Troll Warlordin Whirling Axe (lähitaistelusankarille) tai Whirling Axe (kaukotaistelusankarille) on valittavissa peliä kohden.
 	<br>• Korjattiin virhe, jossa Ringmasterilla ei ollut rihkamaa.
+	<br>• Korjattiin virhe, jossa Wispin henkien kykypainike katosi, jos kykyä ei kytketä pois päältä ja päälle.
+	<br>• Korjattiin virhe, jossa Tree Grab esti Troll-mallin hyökkäyksen.
+	<br>• Korjattiin virhe, jossa Tree Dance ei voinut hypätä puiden välillä. Monkey King voi nyt laittaa Primal Springin automaattikäytölle ollessaan puussa.
 	<br>• Invokerin Scepter- and Shard-päivitykset päivittävät nyt kaikki saatavilla olevat kyvyt." 
 
 	"DOTA_GameMode_AbilityDraft_ChangeLog_Latest_Dec_15_2025" "
@@ -42047,7 +42055,7 @@ uudet esinekuvakkeet."
 		"DOTA_FantasyCraftHelp_GemShapeDetails"					"Piirteet nostavat tunnusten kerryttämiä pistemääriä ehtojen täytyttyä. Uuden piirteen arpominen takaa aina edellisestä piirteestä poikkeavan piirteen tunnukselle. Alta löytyvät kaikki olemassaolevat piirteet:"
 		"DOTA_FantasyCraftHelp_GemShape_ShapeList"				"Piirrelista"
 
-		"DOTA_FantasyCraft_GroupStageRolls"						"+{d:rolls} Road to the Internationalin fantasia-arvontapolettia"
+		"DOTA_FantasyCraft_GroupStageRolls"						"+{d:rolls} lonkovaiheen arvontapolettia"
 		"DOTA_FantasyCraft_PlayoffRolls"						"+{d:rolls} The Internationalin fantasia-arvontapolettia"
 		"DOTA_FantasyCraft_MainEventRolls"						"+{d:rolls} The Internationalin fantasia-arvontapolettia"
 		"DOTA_FantasyCraft_RollTokens"							"Fantasia-arvontapoletit"
@@ -45528,7 +45536,7 @@ uudet esinekuvakkeet."
 		"DOTA_Chat_MadstoneAlert_NeedMadstone_Ally"		"<font color='#4BEE81'>Muinaiskuukivi</font> %s1 <font color='%s5'>%s6</font> tarvitsee %s2 lisää luodakseen <font color='%s4'>tason %s3</font> neutraaliesineen."
 		"DOTA_Chat_MadstoneAlert_CanCraft_Self"			"Voin luoda <font color='%s2'>%s1. tason</font> neutraaliesineen."
 		"DOTA_Chat_MadstoneAlert_CanCraft_Ally"			"<font color='%s3'>%s4</font> voi luoda <font color='%s2'>tason %s1</font> neutraaliesineen."
-		"DOTA_Chat_MadstoneAlert_WaitingForNextTier"	"<font color='#4BEE81'>Muinaiskuukivi</font> %s1 alkaa syntyä uudelleen kohdassa %s4 <font color='%s3'>tason %s2</font> neutraaliesineellä."
+		"DOTA_Chat_MadstoneAlert_WaitingForNextTier"	"<font color='#4BEE81'>Muinaiskuukivi</font> %s1 alkaa syntyä uudelleen %s4 päästä <font color='%s3'>tason %s2</font> neutraaliesineille."
 
 		"DOTA_Chat_MonsterHunter_HuntAlert_HuntSelection"	"<font color='#ffdda9e2'>Monster Hunter</font> %s1 Metsästän sankaria %s2 <font color='%s4'>%s3</font>."
 
@@ -48466,8 +48474,8 @@ uudet esinekuvakkeet."
 		"DOTA_DarkCarnival_WhackAMole_EasyTarget92"		"MAELSTROM"
 		"DOTA_DarkCarnival_WhackAMole_EasyLabel93"		"MEKANSM"
 		"DOTA_DarkCarnival_WhackAMole_EasyTarget93"		"MEKANSM"
-		"DOTA_DarkCarnival_WhackAMole_EasyLabel94"		"MJÖLLNIR"
-		"DOTA_DarkCarnival_WhackAMole_EasyTarget94"		"MJÖLLNIR"
+		"DOTA_DarkCarnival_WhackAMole_EasyLabel94"		"MJOLLNIR"
+		"DOTA_DarkCarnival_WhackAMole_EasyTarget94"		"MJOLLNIR"
 		"DOTA_DarkCarnival_WhackAMole_EasyLabel95"		"BLOODTHORN"
 		"DOTA_DarkCarnival_WhackAMole_EasyTarget95"		"BLOODTHORN"
 		"DOTA_DarkCarnival_WhackAMole_EasyLabel96"		"PLATEMAIL"
@@ -49300,6 +49308,7 @@ uudet esinekuvakkeet."
 		"DOTA_Compendium26_RewardCell_Regalia"					"Tyyriläinen kalleus"
 		"DOTA_Compendium26_RewardCell_Regalia_Subtext"			"Valitse Kuolematon esine ainutlaatuisesta värivalikoimasta."
 
+		"DOTA_Compendium2026_StickerCapsuleTooltip"				"Saat yhden ilmaisen tarrakapselin jokaista ostamaasi faniklubipakettia tai 20 veistostasoa kohden."
 		"DOTA_Compendium26_UnclaimedCapsules"					"{d:unclaimed_capsules} lunastamatonta kapselia"
 		"DOTA_Compendium26_OwnedCapsules"						"{d:owned_capsules} omistettua tarrakapselia"
 		"DOTA_Compendium2026_CapsuleClaimButton"				"Lunasta!"
@@ -49370,19 +49379,6 @@ uudet esinekuvakkeet."
 		"DOTA_Compendium26_LeaderboardTitle_Score"				"Pisteet"
 		"DOTA_Compendium26_Percentile_Unknown"					"–"
 
-		"DOTA_Score2026_FantasyRTTI"							"<b>Road to TI -fantasialiiga</b>: {s:fantasy_rtti_score}"
-		"DOTA_Score2026_FantasyTI"								"<b>The International -fantasialiiga</b>: {s:fantasy_ti_score}"
-		"DOTA_Score2026_PredictionsRTTI"						"<b>Road to TI -veikkaukset</b>: {d:correct_predictions_rtti} oikeaa veikkausta ({d:predictions_rtti_score} pistettä)"
-		"DOTA_Score2026_PredictionsTI"							"<b>The International -veikkaukset</b>: {d:correct_predictions_ti} oikeaa veikkausta ({d:predictions_ti_score} pistettä)"
-
-		"DOTA_Score2026_FantasyPlacement_EveryoneElse"			"0. prosenttipiste ({d:score} pistettä)"
-		"DOTA_Score2026_FantasyPlacement_25"					"25. prosenttipiste ({d:score} pistettä)"
-		"DOTA_Score2026_FantasyPlacement_50"					"50. prosenttipiste ({d:score} pistettä)"
-		"DOTA_Score2026_FantasyPlacement_75"					"75. prosenttipiste ({d:score} pistettä)"
-		"DOTA_Score2026_FantasyPlacement_90"					"90. prosenttipiste ({d:score} pistettä)"
-		"DOTA_Score2026_FantasyPlacement_99"					"99. prosenttipiste ({d:score} pistettä)"
-		"DOTA_Score2026_FantasyPlacement_95"					"95. prosenttipiste ({d:score} pistettä)"
-		"DOTA_Score2026_FantasyPlacement_999"					"99,9. prosenttipiste ({d:score} pistettä)"
 		"DOTA_Score2026_Fallback"								"Kerää pisteitä suorituksistasi fantasialiigassa ja veikkauksissa."
 
 		"DOTA_International2026_RTTIDay1"						"Lohkovaihe – 1. päivä"
@@ -49542,5 +49538,7 @@ uudet esinekuvakkeet."
 		"dota_settings_additional_abilities"	"Muut kyvyt"
 
 		"dota_settings_unit_picker_summons_tooltip"	"Käyttäjän %s1 %s2"
-	}
+
+		"DOTA_TeamFanContent_EffigyExtraInfo"	"Sankariveistokset korvaavat automaattisesti tavallisen veistoksen kaikissa otteluissa, jolloin voit osoittaa tukesi joukkueellesi! Joukkuelogoveistokset ovat voimassa syyskuun loppuun asti ja vanhenevat muun väliaikaisen sisällön mukana."
+		}
 } 

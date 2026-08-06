@@ -30345,12 +30345,16 @@ Zeus ve Death Prophet gibi erken baskı kahramanlarının ortaya çıkması, Nat
 	<br>• Night Stalker'ın Midnight Feast yeteneği artık seçilebilir.
 	<br>• Outworld Destroyer'ın Objurgation yeteneği artık seçilebilir.
 	<br>• Troll Warlord'un Berserker's Rage yeteneği artık seçilebilir.
+        <br>• Wheel of Wonder yeteneği seçilirse, Aghanim's Shard alındığında Ringmaster'a artık Spotlight yeteneği veriliyor.
 	<br>• Ignite yeteneği seçilirse, Aghanim's Shard alındığında Ogre Magi'ye artık Fire Shield yeteneği veriliyor.
 	<br>• Kinetic Field yeteneği seçilirse, Aghanim's Shard alındığında Disruptor'a artık Kinetic Fence yeteneği veriliyor.
 	<br>• Tag Team yeteneği seçilmişse, Aghanim's Shard alındığında Tusk’a artık Drinking Buddies yeteneği veriliyor.
 	<br>• Pierce the Veil yeteneği seçilmişse, Aghanim's Shard alındığında Muerta'ya artık Spectral Slug yeteneği veriliyor.
 	<br>• Bir maçta Troll Warlord'un ya Whirling Axes (Yakın Dövüş) ya da Whirling Axes (Menzilli) yeteneği seçilebiliyor.
 	<br>• Ringmaster'ın hatıralara sahip olmaması düzeltildi.
+        <br>• Wisp Spirits'in, yeteneği açıp kapatmadığınız takdirde yetenek butonunu kaybetmesi düzeltildi.
+	<br>• Tree Grab'in Troll modelinin saldırısını engellemesi düzeltildi.
+	<br>• Tree Dance yeteneğiyle ağaçlar arasında zıplanamaması düzeltildi. Monkey King artık otomatik kullan özelliği açılarak ağaç üzerindeyken Primal Spring'e geçiş yapabiliyor.
 	<br>• Invoker'ın Aghanim's Scepter ve Aghanim's Shard eşyaları artık uygun olan tüm yetenekleri yükseltiyor." 
 
 	"DOTA_GameMode_AbilityDraft_ChangeLog_Latest_Dec_15_2025" "
@@ -40847,7 +40851,7 @@ Bir düşmanı gök taşının altında kıstırmak için bir yetenek veya eşya
 		"DOTA_FantasyCraftHelp_GemShapeDetails"					"Özellikler, bazen belirli koşullara bağlı olarak amblemlerin istatistik bonusunu artıracaktır. Bir özelliği tekrar değiştirmek, o amblem için farklı bir özelliği garanti edecektir. Aşağıda mevcut tüm özellikler listelenmiştir:"
 		"DOTA_FantasyCraftHelp_GemShape_ShapeList"				"Özellik Listesi"
 
-		"DOTA_FantasyCraft_GroupStageRolls"						"+{d:rolls} The International'a Doğru Fantezi Oluşturma Hakkı"
+		"DOTA_FantasyCraft_GroupStageRolls"						"+{d:rolls} Grup Aşaması Oluşturma Hakkı"
 		"DOTA_FantasyCraft_PlayoffRolls"						"+{d:rolls} The International Fantezi Oluşturma Hakkı"
 		"DOTA_FantasyCraft_MainEventRolls"						"+{d:rolls} Fantezi Oluşturma Hakkı (The International için açılır.)"
 		"DOTA_FantasyCraft_RollTokens"							"Değiştirme Jetonları"
@@ -48171,19 +48175,6 @@ Bir düşmanı gök taşının altında kıstırmak için bir yetenek veya eşya
 		"DOTA_Compendium26_LeaderboardTitle_Score"				"Puan"
 		"DOTA_Compendium26_Percentile_Unknown"					"–"
 
-		"DOTA_Score2026_FantasyRTTI"							"<b>TI'a Doğru Fantezi Mücadelesi</b>: {s:fantasy_rtti_score}"
-		"DOTA_Score2026_FantasyTI"								"<b>The International Fantezi Mücadelesi</b>: {s:fantasy_ti_score}"
-		"DOTA_Score2026_PredictionsRTTI"						"<b>TI'a Doğru Tahminleri</b>: {d:correct_predictions_rtti} doğru tahmin ({d:predictions_rtti_score} puan)"
-		"DOTA_Score2026_PredictionsTI"							"<b>The International Tahminleri</b>: {d:correct_predictions_ti} doğru tahmin ({d:predictions_ti_score} puan)"
-
-		"DOTA_Score2026_FantasyPlacement_EveryoneElse"			"%0'lık dilim ({d:score} puan)"
-		"DOTA_Score2026_FantasyPlacement_25"					"%25'lik dilim ({d:score} puan)"
-		"DOTA_Score2026_FantasyPlacement_50"					"%50'lik dilim ({d:score} puan)"
-		"DOTA_Score2026_FantasyPlacement_75"					"%75'lik dilim ({d:score} puan)"
-		"DOTA_Score2026_FantasyPlacement_90"					"%90'lık dilim ({d:score} puan)"
-		"DOTA_Score2026_FantasyPlacement_99"					"%99'luk dilim ({d:score} puan)"
-		"DOTA_Score2026_FantasyPlacement_95"					"%95'lik dilim ({d:score} puan)"
-		"DOTA_Score2026_FantasyPlacement_999"					"%99,9'luk dilim ({d:score} puan)"
 		"DOTA_Score2026_Fallback"								"Tahminlerde bulunarak ve Fantezi Mücadelesi'ne katılarak puan kazanın!"
 
 		"DOTA_International2026_RTTIDay1"						"Grup Aşaması - 1. Gün"
@@ -48343,5 +48334,6 @@ Bir düşmanı gök taşının altında kıstırmak için bir yetenek veya eşya
 		"dota_settings_additional_abilities"	"Ek Yetenekler"
 
 		"dota_settings_unit_picker_summons_tooltip"	"%s2 (%s1)"
-	}
+
+		}
 } 
