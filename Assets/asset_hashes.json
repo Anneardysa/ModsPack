@@ -1,7 +1,7 @@
 {
-  "version": 6,
+  "version": 7,
   "algorithm": "SHA-256",
-  "generatedAt": "2026-08-05T17:27:13Z",
+  "generatedAt": "2026-08-06T15:03:11Z",
   "assets": {
     "Assets/Original.zip": {
       "sha256": "6A2880C95E7A964B1BDDF4F5AC9F0D4181C1D4ECEF194EF87BB3F93A73A7C890",
@@ -1378,6 +1378,10 @@
     "Assets/models/Shadow_Fiend/mix_1.zip": {
       "sha256": "965144E7E572995815D7F60C02F5AC21F69185F80A70A63F95700B48C6DBEA0C",
       "size": 3115687
+    },
+    "Assets/models/Shadow_Fiend/mix_2.zip": {
+      "sha256": "B6B6816AD790B21E6E083B3623E110FFD6DC2EB24B17B6C535F115F841BE4E15",
+      "size": 3079729
     },
     "Assets/models/Shadow_Fiend/molten.zip": {
       "sha256": "F2972EC2F6F4066E5862ED54D1AF5A2F1F7F41058F5D129DE3DA1A7CD0B1BE47",
